@@ -1,0 +1,140 @@
+/L20"TypoScript" Line Comment = # Line Comment Alt = // Block Comment On = /* Block Comment Off = */ Block Comment On Alt = / File Extensions = ts
+/Delimiters = ~!@%^&*()+=|{}[]:;"'<> ,	.?
+/Function String = "%[^t ]++function[^t ]+^([a-zA-Z0-9_&]+*^){"
+/Function String 1 = "%[^t ]++function[^t ]+^([a-zA-Z0-9_&]+*^)^p*{"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/Open Brace Strings =  "{" "(" "[" "<"
+/Close Brace Strings = "}" ")" "]" ">"
+/C1"HTML Tags" STYLE_TAG
+?> <?
+<a </a> <abbr> <abbr </abbr> <above> <acronym> <acronym </acronym> <address> <address </address>
+<applet </applet> <area </area <array>
+<b> <b </b> <base <basefont <bdo> <bdo </bdo> <bgsound <big> <big </big> <blink> <blink </blink>
+<blockquote> <blockquote </blockquote> <body> <body </body> <box> <br/> <br> <br <button> </button>
+<caption> <caption </caption> <center> <center </center> <cite> <cite </cite> <code> <code </code>
+<col> <col <colgroup> <colgroup </colgroup> <comment> </comment>
+<dd> <dd </dd> <del> <del </del> <dfn> <dfn </dfn> <dir> <dir </dir> <div> <div </div> <dl> <dl </dl>
+<dt> <dt </dt>
+<em> <em </em> <embed
+<fieldset> <fieldset </fieldset> <fig> <font </font> <form> <form </form> <frame <frameset </frameset>
+<h1> <h1 </h1> <h2> <h2 </h2> <h3> <h3 </h3> <h4> <h4 </h4> <h5> <h5 </h5> <h6> <h6 </h6> <head> <head
+</head> <hr/> <hr> <hr <html> <html </html>
+<i> <i </i> <iframe> <iframe </iframe> <ilayer> </ilayer> <img <input> <input <ins> <ins </ins> <isindex>
+<isindex
+<kbd> <kbd </kbd>
+<label> <label </label> <layer> <layer </layer> <legend> <legend </legend> <li> <li </li> <link <listing>
+</listing>
+<map </map> <marquee </marquee> <menu> <menu </menu> <meta <multicol> </multicol>
+<nextid <nobr> </nobr> <noframes> </noframes> <nolayer> </nolayer> <noscript> </noscript>
+<note> </note>
+<object> <object </object> <ol> <ol </ol> <optgroup> <optgroup </optgroup> <option> <option </option>
+<p> <p </p> <param <pre> <pre </pre>
+<q> <q </q> <quote>
+<range> <root>
+<s> <s </s> <samp> <samp </samp> <script> <script </script> <select> <select </select> <small> <small
+</small> <sound <spacer> <span> <span </span> <sqrt> <strike> <strike </strike> <strong> <strong </strong>
+<style> <style </style> <sub> <sub </sub> <sup> <sup </sup>
+<table> <table </table> <tbody> <tbody </tbody> <td> <td </td> <text> <textarea> <textarea </textarea>
+<tfoot> <tfoot </tfoot> <th> <th </th> <thead> <thead </thead> <title> </title> <tr> <tr </tr> <tt>
+<tt </tt>
+<u> <u </u> <ul> <ul </ul>
+<var> <var </var>
+<wbr>
+<xmp> </xmp>
+// />
+/C2"HTML Attributes" STYLE_ATTRIBUTE
+abbr= accept-charset= accept= accesskey= action= align= alink= alt= archive= axis=
+background= behavior behavior> below below> bgcolor= border=
+cellpadding= cellspacing= char= charoff= charset= checked checked> cite= class= classid= clear= code=
+codebase= codetype= color= cols= colspan= compact compact> content= coords=
+data= datetime= declare declare> defer defer> dir= disabled disabled>
+enctype=
+face= for= frame= frameborder= framespacing=
+headers= height= hidden= href= hreflang= hspace= http-equiv=
+id= ismap=
+label= lang= language= link= longdesc= loop=
+mailto= marginheight= marginwidth= maxlength= media= method= multiple multiple>
+name= nohref nohref> noresize noresize> noshade noshade> nowrap nowrap>
+object= onblur= onchange= onclick= ondblclick= onfocus= onkeydown= onkeypress= onkeyup= onload=
+onmousedown= onmousemove= onmouseout= onmouseover= onmouseup= onreset= onselect= onsubmit= onunload=
+profile= prompt=
+readonly readonly> rel= rev= rows= rowspan= rules=
+scheme= scope= scrolling= selected selected> shape= size= span= src= standby= start= style= summary=
+tabindex= target= text= title= topmargin= type=
+url= usemap=
+valign= value= valuetype= version= vlink= vspace=
+width=
+/C3"Keywords" STYLE_KEYWORD
+PAGE_TARGET
+config
+data directory
+external
+global
+includeLibs
+key
+main marks
+plugin
+rootline
+special sub
+temp template
+value
+/C4"Operators and Conditions" STYLE_OPERATOR
+** [
+.
+<
+=
+>
+]
+^
+`
+{
+|
+}
+~
+/C5"Methods, Properties and Constants" STYLE_METHOD
+** user_
+ATagParams
+Image
+addHeight addWidth admPanel allWrap
+bodyTag
+cObject case code collapse content content_from_pid_allowOutsideDomain crop
+defaultTemplateObjectMain defaultTemplateObjectSub disablePrefixComment displayActiveOnLoad
+dontHideOnMouseUp
+entryLevel expAll extTarget
+field file fontColor fontFile fontSize freezeMouseover
+gmenu_layers
+headerComment headerData hideMenuWhenNotOver
+if imgParams index_enable index_externals inheritMainTemplates inheritSubTemplates inlineStyle2TempFile
+intTarget isTrue
+layerStyle linkWrap lockPosition lockPosition_addSelf
+meta mode
+niceText noBlur
+offset
+placement
+range relativeToParentLayer relativeToTriggerItem removeDefaultJS required
+shortcutIcon simulateStaticDocuments_noTypeIfNoTitle spamProtectEmailAddresses
+spamProtectEmailAddresses_atSubst stdWrap stylesheet
+target templateObjects templateType text textMaxLength tmenu_layers topOffset transparentBackground
+typeNum
+upper
+workOnSubpart wrap
+ypMenu
+/C6"Variables and filepaths" STYLE_VARIABLE
+** $ : fileadmin/
+/C7"PlugIns" STYLE_EXTENSION
+tt_board tt_content tt_guest tt_news tx_macinabanners_pi1 tx_rlmptmplselector tx_rlmptmplselector_pi1
+/C8"Objects and Markers" STYLE_ELEMENT
+** CR_ obj
+ACT ACTIFSUB
+CASE COA CONTENT CUR
+DB
+FILE
+GMENU GMENU_LAYERS
+HMENU HTML
+IFSUB IMAGE
+NO
+PAGE
+RO
+TEMPLATE TEXT TMENU TMENU_LAYERS
+XY

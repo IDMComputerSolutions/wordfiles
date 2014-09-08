@@ -1,0 +1,53 @@
+/L20"ADM" Line Comment = ; File Extensions = ADM
+/Open Brace Strings =  "{" "(" "[" "<"
+/Close Brace Strings = "}" ")" "]" ">"
+/Indent Strings =
+/Unindent Strings =
+/Open Fold Strings = 	"#IF"		"CATEGORY" 			"POLICY"
+/Close Fold Strings = 	"#endif"	"END CATEGORY" 	"END POLICY"
+/Ignore Fold Strings =
+
+/C1"Functions" STYLE_FUNCTION
+CATEGORY
+EXPLAIN
+POLICY
+
+/C2"Functions" STYLE_FUNCTION
+END
+PART
+
+/C3"Functions" STYLE_FUNCTION
+KEY
+KEYNAME
+NAME
+
+/C4"Functions" STYLE_FUNCTION
+DATA
+ITEMLIST
+TYPE
+VALUE
+VALUENAME
+VALUEOFF
+VALUEON
+
+/C5"Functions" STYLE_FUNCTION
+CHECKBOX
+DELETE
+DROPDOWNLIST
+EDITTEXT
+EXPANDABLETEXT
+HIDDEN
+NOSORT
+NUMERIC
+REQUIRED
+TEXT
+VALUENAME
+
+/C6"Functions" STYLE_FUNCTION
+** \\ \
+
+/C7"Custom" STYLE_CUSTOM
+DEFAULT
+MAX
+MIN
+SPIN

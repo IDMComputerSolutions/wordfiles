@@ -1,0 +1,88 @@
+/L12"Unisys 2200 MASM" Line Comment Num = 2.  String Chars = '
+/File Extensions = MSM_SYM MASM MASM_SYM PDPM PDPM_SYM INL INL_SYM Nocase
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;,.?
+/Function String = "^(%[*]++[A-Z][0-9A-Z^$_]++^)^*++[ ]++.++"
+/C1"ASM Instructions"
+a aa aaij acel ack add1 ade ah am ama an ana and anh
+anm anma ant anu anx at au ax
+ba ban bbn bc bde bdf bdi bf bhq bic bicl bim biml bm bmt bmtc bn bpd bq bt btc btt buy
+call cdu cjhe cps cr
+da dade dan dbq dcel ddei deb dec dec2 dei desf
+df dfa dfan dfb dfd dfm dfp dfu di dib dia1 dia2 dia3 dia4 dia5
+dia6 dide djz dl dlcf dlm dln dlsc ds dsa dsc dsde dsf dsl dte
+edde edit enz er ex exr
+fa fan fb fcl fd fda fdan fdd fdm fdr fsdp fdt fel fm
+goto
+hj hkj hltj
+iar ib ide inc inc2 ipc
+j jb jc jfd jfo jfu jgd jk jmgi jn jnb jnc jndf jnfo jnfu jno jns jnz jo jp jps jz
+l la lae laqw lb lbe lbe0 lbe1 lbj lbn lbrx lbu lbui lbu0 lbu1 lcf ld ldj ldsc ldsl
+lij lm la lmj ln lna lns lnma locl lpd lpm lr lrc lrd lrs lsc lssc lssl lud luf lx
+lxi lxlm lxm lxsi
+masg masl matg matl mcdu mf mi mlu mop mse msg msi msle msne msng
+msnw msw mte mtc mtle mtne mtng mtnw mtw
+nop nopi
+or
+paij pdb prba prbb
+qb qbh qdb
+rat rmd rrc rrd rtn
+s sa saqw sas saz sbu scn sd sdc sde sdmf sdmn sdms se sell send sfs sfz sg sgnl sil
+siof sle slj slp0 slp1 sm smd sn sna sne sng snw snz sn1 spd spid sp1 sqt sr srs ssa
+ssc ssl sub1 sud sw sx syc sz
+tcs te tep tg tgz thc tle tlem tlz tmz tmzg tn tne tngm tngz tnlz tnmz tnop tnpz tnw
+tnz top tp tpsa tpz tpzl tra ts tsc tskp tss tva tvae tw tz
+ur
+xor
+/C2"Registers"
+a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 a11 a12 a13 a14 a15
+b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 b10 b11 b12 b13 b14 b15
+r0 r1 r2 r3 r4 r5 r6 r7 r8 r9 r10 r11 r12 r13 r14 r15
+u
+h1 h2
+t1 t2 t3
+q1 q2 q3 q4
+s1 s2 s3 s4 s5 s6
+x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 x15 xh1 xh2 xu
+/C3"Meta commands"
+andf ascii
+bank base
+char crossref
+def delete display do
+eject else elsf end endd endf endi endr equ equf escape export extend
+fdata force forceoff form func
+gen gform go
+hdg hex
+if import include info insert
+level list lit
+mach
+name neg nil
+obj octal off on output
+proc
+rel repeat res
+sor sym
+unlist use
+wrd
+$andf $ascii $bank $base $basic $char $crossref $def $delete $display $do
+$eject $else $elsf $end $endd $endf $endi $endr $equ $equf $escape $export $extend
+$fdata $force $forceoff $form $func $gen $gform $go $hdg $hex $if $import
+$include $info $insert $level $list $lit $mach $name $neg $nil $obj $octal
+$output $proc $rel $repeat $res $sor $sym $unlist $use $wrd
+/C4"Functions"
+$ap $ba $breg $cas $cb $cd $cfs $cs $date $fn $fp $gp $hash $ibits
+$ic $ilcn $l0 $l1 $lcb $lcfv $lcn $lcv $lev $lf $lines $lp $node
+$ns $sbit $par $sl $sn $sr $ss $sss $tbin $tcon $tdat $tdir $tflt $tfnm
+$tfun $tinm $tmach $tmodes $tnam $tnod $tpnm $tstr $tval $type
+$xlev
+/C5"'Inline' Meta Commands"
+disp
+enter eq error
+ge gt
+inline
+le lt
+message
+ne
+return
+warning
+$abort $alt $asgd $bregloaded $const $copy $disp $enter $error 
+$first $imported $inline $length $linkaddr $loaded $lvoffset $mod $off $on
+$ptype $refparm $return $rtype $static $tattr $voffset $waddr

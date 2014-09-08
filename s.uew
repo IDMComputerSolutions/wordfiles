@@ -1,0 +1,462 @@
+/L20"S/S+" Nocase Line Comment = // Block Comment On = /* Block Comment Off = */ String Chars = "' File Extensions = s ssc scr obj tmp
+/Delimiters = .!@%^&*()-+=|\/{}[]:;"'<> ,	 ?
+/Function String = "%[a-zA-Z_]*)"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1 DATA
+$
+->
+:
+<<-
+abbreviate aggregate aggregate.data.frame aggregate.default aov.object aovlist.object append array as as.array as.character as.complex as.double as.factor as.function 
+as.integer as.list as.logical as.matrix as.name as.null as.numeric as.ordered as.single as.ts as.variable as.vector AsciiToInt assign assign.default Assignment attach
+attach.data.frame attach.default attach.pframe attr attributes
+binomial by by.data.frame by.default
+c casefold cat cbind cbind.data.frame character charmatch chron class codes col colMeans colSums colVars complex conflicts count.fields coxph.object crosstabs cts 
+cusum.object cut cut.dates cut.default
+data data.class data.dump data.ed data.frame.object data.restore database.attr database.object database.status database.type dates day.of.week days dbdetach dbexists 
+dbobjects dbobjects.default dbread dbremove dbwrite design.object detach dget dim dim<- dimnames dos double dput dump duplicated
+ed Edit Edit.data emacs exists exists.default
+factanal.object factor family family.default family.object file.exists files.in.dir find First First.lib First.local fix format format.dates format.default formula.object
+gam.object Gamma gaussian get get.default getenv glim glim.print glm.object grep guiFirst guiFirst.local
+hours htest.object html.table
+ifelse integer intersect inverse.gaussian is is.all.white is.array is.atomic is.character is.complex is.cts is.dir is.double is.element is.factor is.function is.integer 
+is.language is.list is.logical is.matrix is.na is.name is.null is.numeric is.ordered is.recursive is.single is.ts is.vector
+jitter julian
+Last Last.lib leap.year length levels levels.factor levels<-.factor library list lm.object lms.object loadings.object loess.object logical loglin lts.object
+make.fields maov.object masked match mcd.object menuMergeDataFrame menuPdist menuRdist menuSample menuTable merge merge.data.frame merge.default merge.levels methods minutes 
+mkdir mlm mlm.object mode module month.day.year months mve mve.object
+na.fail na.include na.omit names nchar ncol new.database NextMethod nrow null numeric
+objcopy objdiff objects objects.summary Ops.data.frame Ops.factor Ops.ordered order ordered ordered<- ordered<-.default origin
+paste pframe pframe.object pmatch poisson princomp.object print.char.matrix print.crosstabs print.objects.summary
+qcc.object quarters quasi
+rbind rbind.data.frame read.from.clipboard read.table readline regexpr remove rep rep.int replace rev rle rm rmdir row row.names row.names<- rowMeans Rows rowsum rowSums 
+rowVars
+scan search seconds seq seq.dates seq.default setdiff shewhart.object single sink sink.number slice.index sort sort.list source split storage.mode string.bounding.box 
+string.break.line structure Subscript Subscript.data.frame Subscript.factor Subscript.tree substring
+table tabulate tapply tempfile terms.object tree.object tree.sequence.object true.file.name ts tsp
+unclass union unique unlink unlist UseMethod
+varcomp.object vector vi
+weekdays which write write.table write.to.clipboard
+years
+zapsmall
+[ [.cts [.data.frame [.factor [.its [.rts [.tree [<- [<-.data.frame [<-.factor [[ [[.data.frame [[<- [[<-.data.frame
+_
+/C2 GRAPHS
+abline abline.default acf acf.plot approx arima.diag.plot arrows as.shingle AsciiToInt axes axis
+banking barchart barley barplot biplot biplot.default biplot.factanal biplot.princomp box boxes boxplot brush bwplot bwps.trellis bxp
+chull close.screen cloud clusplot clusplot.default clusplot.partition co.intervals color.key colorps.trellis contour contour.old contourplot coplot County
+dating density densityplot dev.ask dev.control dev.copy dev.cur dev.list dev.next dev.off dev.prev dev.print dev.set Device Device.Default Devices dotchart dotplot 
+double.buffer
+environmental equal.count erase.screen error.bar example example.bwplot example.calendar example.cloud example.contour example.coplot.fit example.coplot.one 
+example.coplot.three example.coplot.two example.coplot2.fit example.density example.difscale example.dotplot example.draping example.draping2 example.ecount example.frames2 
+example.given example.histo example.level example.level.fit example.levelplot example.normal.qq example.oneway example.overplot example.pages example.parallel example.qqplot 
+example.qqpool example.quantile example.reorder example.rfs example.robust example.shingle example.sl example.slice.box example.smooth example.splom example.splom2 
+example.splom3 example.strip example.tmd example.units.cm example.wire example.wire2
+faces First First.local frame fusion.time
+ganglion graphics.off graphsheet graphsheet.options guiFirst guiFirst.local guiLocator
+hamster hex.legend hexagons hist hist.factor hist2d histogram hpgl
+identify identify.cusum identify.default identify.hexbin identify.shewhart identify.tree image image.legend interaction.plot interp iris.trellis is.shingle
+key ksmooth
+labclust labels labels.default lag.plot Last legend levelplot lines locator locator.2dtrellis lowess
+map mapproject matlines matplot matpoints melanoma menu monthplot mstree mtext mulbar
+oneway
+pairs pairs.data.frame pairs.default panel panel.abline panel.barchart panel.bwplot panel.cloud panel.contourplot panel.densityplot panel.dotplot panel.fill panel.grid 
+panel.histogram panel.levelplot panel.lmline panel.loess panel.parallel panel.piechart panel.plot.shingle panel.qq panel.qqmath panel.qqmathline panel.smooth panel.splom 
+panel.stripplot panel.superpose panel.tmd panel.wireframe panel.xyplot par parallel partition.tree path.tree pdf.graph persp persp.setup perspp pie piechart plclust plot 
+plot.agnes plot.compare.fits plot.data.frame plot.default plot.design plot.diana plot.factor plot.gam plot.glm plot.hexbin plot.lmRobMM plot.lms plot.loadings plot.loess 
+plot.lts plot.mlm plot.mona plot.multicomp plot.mve plot.partition plot.preplot.gam plot.preplot.loess plot.shingle plot.survfit plot.times plot.tree plot.varcomp plotfit 
+plotlabels plotlabels.default pltree pltree.hierarchical points polarization polygon postscript ppoints prepanel.lmline prepanel.loess prepanel.qqmathline preplot 
+preplot.loess pretty print.trellis printer prompt.screen ps.colors ps.fonts ps.region
+qq qqline qqmath qqnorm qqnorm.default qqplot quickvu
+range rayplot reorder.factor rfs rubber rug
+sablplot scatter.smooth screen screeplot screeplot.princomp segments shingle show show.settings singer smatrix spec.pgram spec.plot spectrum spin spline split.screen splom 
+stamp stars starsymb State State.vbm state.vbm.center stem strip.default stripplot subplot symbols
+text text.default text.tree title tmd tree.screens trellis trellis.datasets trellis.device trellis.examples trellis.par.get trellis.par.set trellis.settings 
+trellis.settings.bw trellis.settings.bwps trellis.settings.color trellis.settings.colorps trellis.settings.motif trellis.settings.winbwps trellis.settings.wincolorps 
+trellis.settings.wingraph trellis.settings.winpcl tslines tsplot tspoints
+usa
+vu
+win.colorscheme wireframe World World.thin
+xyplot xysort
+/C3 MODELS
+ace acf acf.plot acm acm.ave acm.filt acm.smo add.scope add1 add1.lm add1.lmRobMM aggregate aggregate.cts aggregate.default aggregate.rts agnes agnes.object alias 
+alias.aovlist alias.design alias.lm alias.mlm anova anova.censorReg anova.censorReg.list anova.censorRegList anova.gam anova.lme anova.lmRobMM anova.loess aov aov.genyates 
+aov.object aovlist.object ar ar.burg ar.gm ar.yw arima arima.diag arima.diag.plot arima.filt arima.forecast arima.fracdiff arima.fracdiff.sim arima.fracdiff.var arima.mle 
+arima.sim arima.td as.censor as.data.frame as.rts as.ts avas
+basis.tree biexp biplot biplot.default biplot.factanal biplot.princomp bladder browser.ms browser.tree brush burl.tree
+C cancor capacitor censor censorReg censorReg.check.code censorReg.control censorReg.distribution censorReg.good.data censorReg.make.Y censorReg.mlest censorReg.quantiles 
+censorReg.wfit chb chi.weight clara clara.object clorder clusplot clusplot.default clusplot.partition cluster cmdscale CO2 CO2.func CO2.plot coef coef.default coef.lme 
+coef.lmList coefficients compare.fits contour contour.old contr.helmert contr.poly contr.sum contr.treatment contrasts contrasts<- coplot cor cor.lmRobMM cov cov.lmRobMM 
+cov.mcd cov.mcd.default cov.mcd.formula cov.mve cov.mve.default cov.mve.formula cov.wt cox.zph coxph coxph.detail coxph.object crosstabs cts cutree cv.tree cycle
+daisy data.frame data.tree deltat demod density deriv deriv.default design design.object design.table deviance.tree diana diana.object diff discr dissimilarity.object dist 
+dmvnorm DNase DNase.plot drop.scope drop1 drop1.lm drop1.lmRobMM dummy.coef
+edit.tree eff.aovlist effects effects.lm end expand.grid
+f.phibf f.phis f.phisl fac.design faces factanal factanal.fit.mle factanal.fit.principal factanal.mle.control factanal.object factanal.start.mle factor.names factor.names<- 
+factor.scope fanny fanny.object Fatigue Fatigue.func Fatigue.plot fft filter first.order.log fitted fitted.default fitted.factanal fitted.values fixed.effects 
+fixed.effects.lme fixed.effects.lmList formula.censorRegList fpl fractionate frequency friedman.test
+gam glim glim.print glm glm.control glm.fit glm.links glm.object glm.variances glm.weights graft.tree
+hat hclust heart hierarchical.object hist.tree hist2d
+identify.tree Indometh Indometh.plot integrate interaction interaction.plot is.censor is.cts is.data.frame is.its is.random is.ratetable is.rts is.Surv is.ts its
+kaplanMeier kaplanMeier.fit kappa kappa.default kmeans kruskal.test ksmooth
+l1fit labclust lag lag.plot leaps leukemia lines.survfit lm lm.fit lm.fit.chol lm.fit.qr lm.fit.svd lm.influence lm.object lme lme.control lme.formula lme.lmList lme.object 
+lmList lmRobMM lmRobMM.effvy lmRobMM.genetic.control lmRobMM.object lmRobMM.robust.control lmRobMM.ucovcoef lms.object lmsreg lmsreg.default lmsreg.formula lo loadings 
+loadings.default loadings.object location.lms location.lts location.m loess loess.control loess.dfit loess.dfitse loess.ifit loess.ise loess.object loess.raw loess.smooth 
+logistic loglin lowess ls.diag ls.print ls.summary lsfit lts.object ltsreg ltsreg.default ltsreg.formula lung
+mad mahalanobis manova maov.object mcd.object mclass mclust mean meanvar.tree median misclass.tree mlm mlm.object model.tables model.tables.aov model.tables.aovlist mona 
+mona.object monthplot mreloc ms ms.control ms.object mstree mulbar multicomp multicomp.default multicomp.lm mve.object MVNormal
+na.tree.replace na.tree.replace.all nlme nlme.control nlme.formula nlme.nlsList nlme.object nlminb nlminb.control nlregb nlregb.control nls nls.control nls.object nlsList
+oa.design obliquemin optimize Orange Orange.plot order.tree Orthodont Orthodont.plot orthomax ovarian Ovary Ovary.plot
+pairs pairs.data.frame pairs.default pairs.lmList pam pam.object param param<- parameters parameters<- partition.object partition.tree path.tree peaks persp perspp pframe 
+pframe.object Pheno.func Pheno.plot Phenobarb Pixel Pixel.plot plclust plot.agnes plot.compare.fits plot.cox.zph plot.design plot.diana plot.factor plot.lm plot.lme 
+plot.lmRobMM plot.lms plot.loadings plot.loess plot.lts plot.mcd plot.mlm plot.mona plot.mve plot.partition plot.preplot.loess plot.stl plot.survfit plot.times plot.tree 
+plot.tree.sequence plot.varcomp pltree pltree.hierarchical pmvnorm poly poly.transform post.tree ppreg prcomp pred.tree predict predict.factanal predict.lme predict.loess 
+predict.princomp predict.smooth.spline predict.tree preplot.loess princomp princomp.object print.agnes print.censorReg print.censorRegList print.clara print.compare.fits 
+print.cts print.diana print.dissimilarity print.factanal print.fanny print.its print.lme print.loadings print.loess print.mona print.pam print.princomp print.rts 
+print.summary.agnes print.summary.censorReg print.summary.clara print.summary.diana print.summary.fanny print.summary.loess print.summary.mona print.summary.pam 
+print.summary.princomp print.survfit print.tree print.ts probplot probplot.censor probplot.censorReg probplot6.censorReg procrustes profile profile.ms proj proj.default 
+prune.misclass prune.tree psi.weight psp.weight pyears
+qdunnett qftdist qftdist.dist qkaplanMeier qmvt qmvt.sim qqnorm.aov qqnorm.aovlist qqnorm.maov qqplot.censorReg.plot.quantiles qqplot.censorReg.setup qtukey Quin.func 
+Quinidine
+random random.effects random.effects.lme random.effects.lmList randomize raov ratetable rbiwt Relaxin Relaxin.plot replications resid residuals residuals.coxph 
+residuals.default residuals.factanal residuals.survreg residuals.tree rho.weight rmvnorm robust rotate rotate.default rotate.factanal rotate.princomp rreg rsquared.lmRobMM 
+rts rug.tree
+s sabl sablplot scale.a scale.lmRobMM scale.tau scatter.smooth screeplot screeplot.princomp se.contrast se.contrast.aov se.contrast.aovlist select.tree selfStart 
+selfStart.default selfStart.formula shrink.tree smatrix smooth smooth.spline snip.tree Soybean Soybean.plot spec.ar spec.pgram spec.plot spec.smo spec.taper specs.loess 
+spectrum spin stars starsymb start step step.glm stepwise stl stl.control strata stressplot stressplot.censorReg Subscript.tree subtree summary.agnes summary.aov 
+summary.aovlist summary.censorReg summary.censorRegList summary.clara summary.compare.fits summary.cts summary.diana summary.factanal summary.fanny summary.glm summary.its 
+summary.lm summary.lme summary.lmList summary.lmRobMM summary.loess summary.manova summary.mona summary.ms summary.nlsList summary.pam summary.princomp summary.rts 
+summary.survfit summary.tree supsmu Surv survdiff survexp survexp.az survexp.azr survexp.fit survexp.fl survexp.flr survexp.mn survexp.mnwhite survexp.us survexp.usr 
+survexp.uswhite survfit survfit.object survival.datasets survreg survreg.control survreg.object
+TBS tcut text.tree Theoph Theoph.plot tile.tree time tree tree.control tree.object tree.screens tree.sequence.object ts ts.intersect ts.lines ts.plot ts.points ts.union 
+tslines tsmatrix tsp tspar tsplot tspoints twoway
+uniroot units untangle.specials update update.default update.formula
+var varcomp varcomp.object
+weights.lmRobMM window wt wt.andrews wt.bisquare wt.cauchy wt.default wt.fair wt.hampel wt.huber wt.logistic wt.median wt.talworth wt.welsch
+[.cts [.its [.rts [.tree
+/C4 STATISTICS
+ace avas
+Beta binom.test Binomial binomial.sample.size bootstats bootstrap bs
+Cauchy cdf.compare chisq.gof chisq.test Chisquare cor.test
+dbeta dbinom dcauchy dchisq density dexp df dgamma dgeom dhyper dlnorm dlogis dmvnorm dnbinom dnorm dnrange dpois dt dunif dweibull dwilcox
+Exponential
+F fisher.test friedman.test
+gam gam.control gam.object gam.scope GAMMA Geometric
+htest.object Hypergeometric
+jack.after.bootstrap jackknife jackstats
+kruskal.test ks.gof
+limits.bca limits.emp lo Logistic Lognormal
+mantelhaen.test mcnemar.test MVNormal
+na.gam.replace NegBinomial Normal normal.sample.size ns
+pbeta pbinom pcauchy pchisq pexp pf pgamma pgeom phyper plnorm plogis plot.gam plot.glm plot.jack.after.bootstrap plot.preplot.gam plot.resamp pmvnorm pnbinom pnorm pnrange 
+Poisson ppoints ppois ppreg predict.gam predict.smooth.spline print.jack.after.bootstrap print.resamp print.summary.bootstrap print.summary.resamp prop.test pt punif pweibull 
+pwilcox
+qbeta qbinom qcauchy qchisq qdunnett qexp qf qgamma qgeom qhyper qlnorm qlogis qmvt qmvt.sim qnbinom qnorm qnrange qpois qqnorm qqnorm.default qqnorm.resamp qqplot qt qtukey 
+quantile qunif qweibull qwilcox
+rbeta rbinom rcauchy rchisq resamp resamp.get.dimnames resamp.get.fit.func resamp.get.indices rexp rf rgamma rgeom rhyper rlnorm rlogis rmvnorm rnbinom rnorm rnrange rpois 
+rstab rt runif rweibull rwilcox
+s samp samp.boot.bal samp.boot.mc samp.permute sample set.seed Stable stem step.gam summary.bootstrap summary.resamp
+T t.test
+Uniform update.bootstrap
+var.test
+Weibull wilcox.test Wilcoxon
+/C5 MATH
+! !=
+$
+%% %*% %/% %o%
+& &&
+*
++
+-
+.laenv .Uminus
+/
+< <- <=
+==
+> >=
+abs acos acosh aggregate aggregate.data.frame aggregate.default all all.equal any aperm aperm.default apply approx Arg Arithmetic array as.array as.complex as.list as.logical 
+as.Matrix as.qr asin asinh atan atanh
+backsolve by by.data.frame by.default
+c cbind ceiling chol choose choose.multinomial chull col colMeans colSums colVars compare Comparison Complex Conj cor cos cosh crossprod cummax cummin cumprod cumsum
+data.matrix deriv deriv.default det det.eigen.Hermitian det.eigen.Matrix det.Hermitian det.LowerTriangular det.lu.Hermitian det.lu.Matrix det.Matrix det.object det.qr.Matrix 
+det.schur.Matrix det.svd.Matrix det.UnitLowerTriangular det.UnitUpperTriangular det.UpperTriangular diag diff dim dim<- dimnames drop
+eigen eigen.default eigen.Hermitian eigen.Hermitian.object eigen.Matrix eigen.Matrix.object exp expand expand.eigen.Matrix.object expand.lu.Hermitian.object expand.lu.Matrix.object expand.qr.Matrix.object
+facmul facmul.lu.Hermitian facmul.lu.Matrix facmul.qr.Matrix factorial fft floor function
+gamma ginverse
+Hermitian.test
+ifelse Im intersect inverse is.array is.ColOrthonormal is.complex is.element is.finite is.Hermitian is.infinite is.list is.logical is.LowerTriangular is.matrix is.na is.nan 
+is.number is.Orthonormal is.qr is.RowOrthonormal is.UpperTriangular ivp.ab
+jitter
+kronecker
+la.env lapply length lgamma list log log10 Logic logical lower.tri LowerTriangular.test lu lu.Hermitian lu.Hermitian.object lu.Matrix lu.Matrix.object
+Math.data.frame matlines matplot matpoints Matrix Matrix-product Matrix.class max mean median merge merge.data.frame merge.default min Mod mstree
+names ncol norm norm.eigen.Hermitian norm.Hermitian norm.LowerTriangular norm.Matrix norm.svd.Matrix norm.UnitLowerTriangular norm.UnitUpperTriangular norm.UpperTriangular nrow
+Orthonormal.test outer
+peaks pmax pmin polyroot prcomp print.array print.list prod
+qr qr.coef qr.default qr.fitted qr.Matrix qr.Matrix.object qr.Q qr.qty qr.qy qr.R qr.resid qr.X quantile
+range rank rbind rcond rcond.eigen.Hermitian rcond.Hermitian rcond.LowerTriangular rcond.lu.Hermitian rcond.lu.Matrix rcond.Matrix rcond.qr.Matrix rcond.svd.Matrix 
+rcond.UnitLowerTriangular rcond.UnitUpperTriangular rcond.UpperTriangular Re return rev round row rowMeans rowsum rowSums rowVars
+Saab Saaab sapply scale schur schur.Matrix schur.Matrix.object schurmod setdiff sign signif sin sinh slice.index solve solve.default solve.eigen.Hermitian solve.Hermitian 
+solve.LowerTriangular solve.lu.Hermitian solve.lu.Matrix solve.Matrix solve.qr.Matrix solve.svd.Matrix solve.UnitLowerTriangular solve.UnitUpperTriangular 
+solve.UpperTriangular spline split sqrt Subscript sum Summary.data.frame svd svd.default svd.Matrix svd.Matrix.object sweep Syntax
+t t.default tan tanh tapply trunc tsmatrix
+union unlist unpack UpperTriangular.test
+var vecnorm
+which which.inf which.na which.nan
+xor
+zapsmall
+[ [<- [[ [[<-
+^
+{
+| ||
+~
+/C6 METHODS
+aov.object
+aovlist.object
+as.formula
+check.factor
+cov.mcd
+cov.mve
+coxph.object
+cusum.object
+data.frame.object
+design.object
+deviance
+factanal.object
+family.object
+formula
+formula.default
+formula.object
+gam.object
+glm.object
+htest.object
+inherits
+lm.object
+lmRobMM.object
+lms.object
+lmsreg
+loadings.object
+loess.object
+lts.object
+ltsreg
+maov.object
+mcd.object
+Methods
+mlm
+mlm.object
+mve.object
+NextMethod
+pframe
+pframe.object
+princomp.object
+qcc.object
+shewhart.object
+specs
+step
+summary
+terms.object
+tree.object
+tree.sequence.object
+UseMethod
+~
+/C7 PRINTING
+cat
+deparse
+dget
+dput
+format
+format.default
+glim.print
+labels
+labels.default
+ls.print
+objprint
+page
+plotlabels
+plotlabels.default
+print
+print.agnes
+print.array
+print.atomic
+print.by
+print.char.matrix
+print.clara
+print.crosstabs
+print.cts
+print.default
+print.diana
+print.dissimilarity
+print.factanal
+print.fanny
+print.its
+print.list
+print.lmRobMM
+print.loadings
+print.loess
+print.manova
+print.matrix
+print.mona
+print.pam
+print.princomp
+print.rts
+print.structure
+print.summary.agnes
+print.summary.clara
+print.summary.diana
+print.summary.factanal
+print.summary.fanny
+print.summary.lmRobMM
+print.summary.loess
+print.summary.manova
+print.summary.mona
+print.summary.pam
+print.summary.princomp
+print.summary.survfit
+print.tree
+print.trellis
+print.ts
+quickvu
+summary.default
+vu
+write.table
+zapsmall
+/C8
+&&
+{
+||
+access
+all.names
+all.vars
+allocated
+amatch
+as.call
+as.double
+as.expression
+as.function
+as.integer
+as.name
+as.null
+assign
+assign.default
+break
+browser
+browser.default
+call
+call_S
+charmatch
+clear.frame
+dataset.date
+DBLEPR
+deparse
+dll.load
+dll.load.info
+dll.load.list
+dll.symbol.list
+dll.unload
+do.call
+double
+dyn.load
+dyn.load.lib
+else
+eval
+expression
+file.exists
+files.in.dir
+find.calls
+First
+First.local
+fix
+For
+for
+frame.attr
+frame.attributes
+function
+guiFirst
+guiFirst.local
+if
+inspect
+integer
+interactive
+INTPR
+invisible
+is.atomic
+is.call
+is.dir
+is.double
+is.expression
+is.function
+is.integer
+is.language
+is.name
+is.null
+is.recursive
+Last
+make.names
+match.arg
+match.call
+missing
+mkdir
+mode
+move.frame
+nargs
+new.frame
+next
+NextMethod
+null
+objcopy
+objdiff
+on.exit
+parse
+parse.test
+Program
+readline
+REALPR
+Recall
+repeat
+restart
+return
+rmdir
+S.format
+S_alloc
+silent.startup
+std.trace
+std.xtrace
+stop
+storage
+storage.mode
+substitute
+switch
+synchronize
+Syntax
+sys.call
+sys.calls
+sys.frame
+sys.frames
+sys.function
+sys.nframe
+sys.on.exit
+sys.parent
+sys.parents
+sys.status
+sys.trace
+system
+tempfile
+tprint
+trace
+trace.on
+traceback
+unlink
+untrace
+UseMethod
+warning
+while
+win3
+XERROR
+xerror
+xerror.clear
+xerror.maxpr
+xerror.setfile
+xerror.summary
+XERRWV
+
+
+

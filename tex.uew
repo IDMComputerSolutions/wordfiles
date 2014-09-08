@@ -1,0 +1,28 @@
+/L14"TeX" LATEX_LANG Noquote Line Comment = % Line Comment Preceding Chars = [~\] File Extensions = LAT TEX LEX LTX AUX LOG
+/Colors = 0,8421376,8421376,8421504,255,
+/Colors Back = 16777215,16777215,16777215,16777215,16777215,
+/Colors Auto Back = 1,1,1,1,1,
+/Font Style = 0,0,0,0,0,
+/Delimiters = 	 !"#$%&'()*+,-./0123456789:;<=>?[\]^_`{|}~
+/Function String = "\g++def[ ^t]++\^([a-zA-Z@]+^)[#{]"
+/C1 Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+** \
+/C2"Math Delimiters" Colors = 360698 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+$
+$$
+/C3"File Handling" Colors = 4075217 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+\bye
+\end \endinput
+\input
+/C4"Definitions" Colors = 15270383 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+\chardef
+\def \dimen
+\gdef
+\let
+\long
+\newbox \newdim \newif
+\setbox
+/C5"Conditionals" Colors = 15401369 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+\fi
+\else
+\if

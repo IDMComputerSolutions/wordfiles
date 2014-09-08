@@ -1,0 +1,49 @@
+/L20"MTL Code" Nocase Block Comment On = (* Block Comment Off = *) File Extensions = MTL
+/Delimiters = @ ,	(){}[]-+*#/=~!|\<>?;&°
+/Indent Strings = "{" "if" "else" ":"
+/Unindent Strings = "}"
+/Open Brace Strings =  "{" "(" "["
+/Close Brace Strings = "}" ")" "]"
+/Open Fold Strings = "{" "(*"
+/Close Fold Strings = "}" "*)"
+/C1"Keywords"
+AC
+BackDrive.DataFile BackDrive.Mode Bold boolean
+char
+Dbase.Open DC DCL
+EXC
+false
+INC int
+library
+NENH NPN
+OFF ON
+Passive PENH PNP Prog.Begin Prog.OnExit Prog.OnStart prog.probepin Prog.SysPins
+Result.Measured Result.Netlist
+SemiCond string Sys.Display.Channel sys.onidle sys.reset
+Test.Fail Test.Pass true
+uchar
+Verb void
+/C2"Commands"
+atoi
+break
+CAP case chrindex
+Delay DIODE
+else enumtoint
+fclose feof FET fflush fgets FindFile fopen for fprintf fseek
+getchar
+if
+printf
+repeat RES return
+sizeof sprintf strindex strreplace
+TRAN
+until
+while
+/C3"Devices"
+Fixture.Control Fixture.Relay fixture.sense Fixture.Vacuum
+VT.Attributes VT.ClearLine VT.ClearScreen VT.Cursor VT.Flush VT.Restore VT.Save VT.Scroll VT.Status
+/C4"Reserved Characters"
+&
+<
+=
+>
+|

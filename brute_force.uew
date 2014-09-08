@@ -1,0 +1,25 @@
+/L20"Brute Force Uninstaller" Nocase Line Comment = # Line Comment Alt = ' File Extensions = BFU
+/Delimiters = ~!@%^&*()_-+=|\{}[]:;"'<> ,	.?
+/C1"Commands" STYLE_COMMAND
+DllRegister DllUnregister
+FileClear FileCreate FileDelete FileDeleteIfContainsHex FileDeleteIfContainsText FileDeleteIfCRC32Match FileDeleteIfMD2Match FileDeleteIfMD4Match FileDeleteIfMD5Match FileDeleteIfSHA1Match FileDeleteOnReboot FileMove FileRename FileSetAttributes FileWrite FolderCreate FolderDelete FolderMove FolderRename FolderSetAttributes
+HostsFileAddLine HostsFileDelLine HostsFileDisableLine HostsFileEnableLine HostsFileReset
+IniClearValue IniCreateSection IniDeleteFromValue IniDeleteValue IniSetValue
+OptionBFUExit OptionBFUMinVersion OptionCalcScriptCRC32 OptionOnDeleteFailUseReboot OptionPauseBetweenCmds OptionPauseNow OptionRunSilent OptionSetBFURunOnReboot OptionSetStatus OptionStatusOn OptionUnloadShell OptionUseBitBucket OptionUseRecycleBin
+ProcessKill ProcessKillIfContainsHex ProcessKillIfContainsText ProcessKillIfCRC32Match ProcessKillIfMD2Match ProcessKillIfMD4Match ProcessKillIfMD5Match ProcessKillIfSHA1Match ProcessResumeIf ProcessSuspendIf
+RegCreateKey RegDeleteKey RegDelFromValue RegDelValue RegDelValueIfContainsText RegRenameValue RegSetBinaryValue RegSetDwordValue RegSetStringValue
+ServiceDelete ServiceDisable ServiceStart ServiceStop SystemEmptyInternetCache SystemEmptyRecycleBin SystemEmptyTempFolder SystemMsgBox SystemResetWebSettings SystemRestart SystemRestartIfNeeded SystemRun
+WinsockKillNameSpace WinsockKillProtocol
+/C2"Keywords" STYLE_KEYWORD
+HKCC HKCR HKCU HKDD HKLM HKPD HKUS
+/C3"Aliases"
+ALLUSERSAPPDATA ALLUSERSDESKTOP ALLUSERSPROGRAMS ALLUSERSSTARTMENU ALLUSERSSTARTUP APPDATA
+COMPUTERNAME
+DESKTOP
+MYDOCUMENTS
+PROGRAMFILES PROGRAMS
+QUICKLAUNCH
+STARTMENU STARTUP SYSDIR SYSTEMDRIVE
+TEMPDIR
+USERNAME
+WINDIR

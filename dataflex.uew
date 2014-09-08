@@ -1,0 +1,73 @@
+/L20"DataFlex" Line Comment = // Block Comment On = //* Block Comment Off = *// Escape Char = \ Nocase File Extensions = SRC PKG
+/Function String = "%[PF]*"
+/Indent Strings = "Then" "Begin" "Lock" "repeat" "while" "enumeration_list" "class" "object"
+/Unindent Strings = "End" "Next" "End If" "End Select" "Unlock" "loop" "end_enumeration_list" "end_class" "end_object"
+/C1"COMPILER"
+#endheader
+#header
+#include
+#replace
+/C2"COMMANDS"
+abort abort_transaction accept activate_view add append append_output ascii attach autopage 
+backfield begin begin_contraints begin_transaction blankform body break broadcast broadcast_focus
+calc calculate call call_driver cd_end_object cd_popup_object chain character class clear clear_option clearform clearscreen clearwarning clearxy close close_input close_output cmdline constrain contrained_clear constrained_find constraint_set constraint_validate copy_db copy_records copyfile create_field create_index 
+date debug declare_datafile decrement deferred_view define delegate delete delete_db delete_field delete_index dependent_item despool direct_input direct_output directory diskfree display
+else end end_class end_constraints end_function end_enumeration_list end_item_group end_item_list end_object end_procedure end_transaction end_type endgroup entagain entdisplay enter enterend entergroup entermode entry entry_item entry_name_item enumeration_list erase_file error error_report export_files
+field field_def field_map file_mode file_size filelist fill_field find for format formfeed forward forward_begin_construct forward_end_construct from function function_return 
+get get_argument_size get_attribute get_channel_position get_channel_size get_current_colors get_current_directory get_current_input_channel get_current_lockcount get_current_output_channel get_current_user_count get_date_format get_environment get_field_value get_filelist get_licensed_max_users get_number_format get_resource_name get_resource_type get_transaction_retry get_video_mode gosub goto gotoxy group 
+header help 
+if ifchange import_class_protocol inactivate include_resource increment ind index_def indicate inherit_screen inkey inkey$ input insert is_file_included item_group item_list 
+keycheck keyproc 
+left length load_def local_driver local lock login logout loop
+make_file memory mid move movedate moveint movenum movereal movestr move_sub_page 
+name name_item name_items name_object next not 
+object on on_item on_key on_name_item open output output_aux_file output_wrap 
+pad page pagecheck pathname pos print print_wrap procedure procedure_return property 
+read read_block read_dfini read_hex readln register_function register_object register_procedure register_resource registration relate renamefile repeat repeat_item replace report reportend reread return right runprogram 
+save saverecord screenmode screen_optimize section send set set_argument_size set_attribute set_channel_position set_dfpath set_field_value set_filelist set_option set_relate set_resource_library set_transaction_retry set_video_mode setchange show showln showxy sleep sort start_ui stop structure_abort structure_copy structure_end structure_start sub sub_page subtotal sysconf sysdate sysdate4 system 
+to trim type
+ui_accept unload_driver unlock until uppercase use
+vconstrain vfind 
+while write write_hex writeln
+zerofile
+/C3"FUNCTIONS"
+abs acos asin atan
+callback center cos 
+eval exp 
+hi
+log low lowercase ltrim
+mod 
+overstrike 
+random remove replaces round rtrim 
+sin sqrt status
+tan 
+/C4"OPERATORS"
+an and as
+contains
+eq 
+ge gt 
+iand in ior is
+le lt
+match matches max min 
+ne 
+or 
+/C5"OPTIONS"
+autoback autoclear autofind autofind_ge autoreturn 
+capslock channel check
+displayonly
+fill findreq float$ forceput
+modal_insert
+no_calc noenter noput 
+points
+range required resident resource retain retainall
+signrt skipfound suppress
+thousands 
+wait
+zero_suppress 
+/C6"PREDEFINED"
+constrain_found_count constrain_tests_count current_image current_window 
+/C7"DATATYPES"
+indicator integer
+number
+real
+string

@@ -1,0 +1,52 @@
+/L20 Line Comment = REM Nocase File Extensions = CMD BAT
+/C1
+append arp assoc at attrib
+backup break buffers
+COPY cacls  chcp chdir chkdsk cls cmd codepage color comp compact convert copy country
+DEL date debug device devicehigh devinfo dir diskcomp diskcopy diskperf dos doskey dosonly driveparm
+edit edlin erase exe2bin exit expand
+fastopen fc fcbs files find findstr finger forcedos format ftp ftype
+graftabl graphics
+help hostname
+install ipconfig ipxroute
+keyb
+label lastdrive libpath loadfix loadhigh lh lpq lpr
+mem mkdir md mode more move
+nbtstat netstat net nlsfunc nslookup
+prompt path pax ping pentnt popd portuas print protshell pushd
+qbasic
+rcp recover rename ren replace restore rexec rmdir rd route rsh
+set setver share shell sort stacks start subst
+TYPE tftp time title tracert tree
+ver verify vol
+XCOPY
+/C2
+call
+EXIST echo endlocal
+for
+GOTO
+IF
+NOT
+pause
+rem
+setlocal shift
+/C3
+awk arj 
+cat compress CRCNT 
+datetime DEFNCOPY dequote DIFF DOAT
+ERR exitcode
+filesize FINDSTR
+gawk getdrves getunc GLOBAL grep 
+head 
+IFSIZE
+ls
+mv
+perl PKUNZIP PKZIP 
+REGFIX
+sawk sed split
+tail TEE tr TRANS
+uniq unzip unarj
+VALIDATE
+wc
+XFRM
+ZIP2EXE zip

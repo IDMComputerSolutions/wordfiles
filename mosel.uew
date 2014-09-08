@@ -1,0 +1,84 @@
+/L20"MOSEL" Line Comment = ! Block Comment On = (! Block Comment Off = !) Escape Char = / String Chars = " File Extensions = MOS
+/Delimiters = ~!@%^&*()+=|\/{}[]:;"'<> ,	
+/Function String = "%^([a-zA-Z_0-9^[^]*]+^)[ ^t]+([^p*&, ^t^[^]a-zA-Z_0-9.]++)[~;]"
+/Function String 1 = "%[a-zA-Z_0-9*]*::^([a-zA-Z_0-9^~]+^)[ ^t^p]++([^p*&, ^t^[^]/*=:&a-zA-Z_0-9./(]++)[~;]"
+/Function String 2 = "%[a-zA-Z_0-9^][a-zA-Z_0-9^[^]]+[ ^t*]+^([a-zA-Z_0-9]+^)[ ^t]++([^p*&, ^t^[^]a-zA-Z_0-9./(]++)[~;]"
+/Function String 3 = "%[a-zA-Z_0-9*&$^[^]*]+[ ^t]+[a-zA-Z_0-9*&$^[^]]+[ ^t*]+^([a-zA-Z_0-9]+^)[ ^t]++([^p*&, ^t^[^]a-zA-Z_0-9./(]++)[~;]"
+/Function String 4 = "%[a-z_0-9^[^]*]++ [a-z_0-9*^[^]]+[ ^t]++[a-z_0-9*^[^]]+[ ^t]++^([*a-z_0-9]+^)[ ^t]++([^p*&, ^t^[^]a-z_0-9./(]++)[~;]"
+/Function String 5 = "%^([a-zA-Z_0-9^[^]*]+^)[ ^t]++([^p*&, ^t^[^]a-zA-Z_0-9./()]++)[~;]"
+/Function String 6 = "name=*")"
+/Indent Strings = "declarations" "initializations"
+/Unindent Strings = "end-declarations" "end-initializations"
+/C1"Keywords"
+AND
+NOT
+OR
+array
+boolean
+create
+dynamic
+elif else exists
+finalize forall from
+if in integer 
+linctr
+model mpvar
+of options
+qexp
+real
+set setparam string sum
+then true
+uses
+/C2"Operators"
++
+-
+=
+// /
+%
+&
+>
+<
+^
+|
+!
+*
+
+/C4"Functions&Procedures"
+IVE_RGB IVEaddplot IVEaddtograph IVEdrawarrow IVEdrawlabel IVEdrawline IVEdrawpoint IVEerase IVEinitgraph IVEpause IVEzoom 
+XPRMgetarrdim XPRMgetarrsets XSLPcommand 
+cXSLPcommand
+disc diskdata
+exportprob
+fclose fdelete fmove fopen
+getcwd getenv getfstat getparam getsize getsol getsystat gettime 
+iXSLPcommand 
+makedir
+project
+rXSLPcommand removedir
+system
+writeln
+
+/C5"OperatorName"
+0-element 
+addition assignment
+constructor
+exponential
+for 
+multiplication
+subtraction sums
+
+/C6"Subroutine"
+addcut addcuts 
+clearmipdir clearmodcut
+delcuts dellbasis dropcuts 
+gencnlist gencplist getlb getprobstat getup
+initglobal
+loadbasis loadcuts loadprob 
+maximise minimize
+readbasis readdirs
+savebasis savestate setcallbacks setlb setmipdir setmodcut setub storecut
+writebasis writedirs writeprob
+
+/C8"Special"
+declarations
+end-declarations end-initializations 
+initializations

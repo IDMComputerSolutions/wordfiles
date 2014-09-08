@@ -1,0 +1,345 @@
+/L14"Python" PYTHON_LANG Line Comment = # Escape Char = \ String Literal Prefix = r File Extensions = PY PYW
+/Indent Strings = ":"
+/Regexp Type = Perl
+/Function String 1 = "%[ ,^t]++def[ ]+^([a-zA-Z0-9_]+*^):"
+/Function String 2 = "%[ ,^t]++^(class[ ]+[a-zA-Z0-9_]+*^):"
+/Delimiters = !@%^&*()-+=|\/{}[]:;"'`<> ,	.
+/Open Brace Strings = "{" "(" "["
+/Close Brace Strings = "}" ")" "]"
+/Open Fold Strings = "def " "class " "if" "{"
+/Close Fold Strings = "def " "class " "else" "elif"  "}"
+/C1"Keywords" STYLE_KEYWORD
+assert
+break
+class continue
+def del
+elif else except exec
+finally for from
+global
+if import
+lambda
+object
+pass print
+raise return
+try
+while with
+yield
+/C2"Built-in Functions" STYLE_FUNCTION
+Ellipsis
+False
+None NotImplemented
+True
+__import__
+abs all any
+basestring bool buffer
+callable chr classmethod cmp coerce compile complex
+delattr dict dir divmod
+enumerate eval execfile
+file filter float frozenset
+getattr globals
+hasattr hash help hex
+id input int intern isinstance issubclass iter
+len list locals long
+map max min
+oct open ord
+pow property
+range raw_input reduce reload repr reversed round
+set setattr slice sorted staticmethod str sum super
+tuple type
+unichr unicode
+vars
+xrange
+zip
+/C3"Methods" STYLE_METHOD
+Decimal
+__abs__ __add__ __and__ __call__ __cmp__ __coerce__ __contains__ __del__ __delattr__ __delitem__
+__delslice__ __div__ __divmod__ __eq__ __float__ __floordiv__ __ge__ __getattribute__ __getitem__
+__getnewargs__ __getslice__ __gt__ __hash__ __hex__ __iadd__ __iand__ __idiv__ __ilshift__ __imod__
+__imul__ __index__ __init__ __int__ __invert__ __ior__ __ipow__ __irshift__ __isub__ __iter__ __ixor__
+__le__ __len__ __long__ __lshift__ __lt__ __mod__ __mul__ __ne__ __neg__ __nonzero__ __oct__ __or__
+__pos__ __pow__ __radd__ __rand__ __rdiv__ __rdivmod__ __reduce__ __reduce_ex__ __repr__ __reserved__
+__rfloordiv__ __rlshift__ __rmod__ __rmul__ __ror__ __rpow__ __rrshift__ __rshift__ __rsub__ __rtruediv__
+__rxor__ __setattr__ __setitem__ __setslice__ __str__ __sub__ __xor__
+add append
+capitalize center clear close conjugate copy count
+decode difference discard
+encode endswith expandtabs extend
+fileno find flush fromkeys
+get getcontext
+has_key
+index insert intersection intersection_update isalnum isalpha isatty isdigit islower isspace issubset
+issuperset istitle isupper items iteritems iterkeys itervalues
+join
+keys
+ljust lower lstrip
+next
+pop popitem
+read readline readlines remove replace reverse rfind rindex rjust rsplit rstrip
+seek setdefault sort split splitlines startswith strip swapcase symmetric_difference
+symmetric_difference_update
+tell title translate truncate
+union update upper
+values
+write writelines
+zfill
+/C4"Attributes" STYLE_ATTRIBUTE
+__author__ __bases__ __class__ __dict__ __doc__ __email__ __members__ __methods__ __name__ __slots__
+__version__
+/C5"Exceptions"
+ArithmeticError AssertionError AttributeError
+BaseException
+DeprecationWarning
+EOFError EnvironmentError Exception
+FloatingPointError FutureWarning
+GeneratorExit
+IOError ImportError ImportWarning IndentationError IndexError
+KeyError KeyboardInterrupt
+LookupError
+MemoryError
+NameError NotImplementedError
+OSError OverflowError OverflowWarning
+PendingDeprecationWarning
+ReferenceError RuntimeError RuntimeWarning
+StandardError StopIteration SyntaxError SyntaxWarning SystemError SystemExit
+TabError TypeError
+UnboundLocalError UnicodeDecodeError UnicodeEncodeError UnicodeError UnicodeTranslateError UnicodeWarning
+UserWarning
+ValueError
+Warning WindowsError
+ZeroDivisionError
+/C6"Operators" STYLE_OPERATOR
+!
+%
+&
+*
++
+-
+// /
+<
+=
+>
+^
+and as
+in is
+not
+or
+|
+~
+/C7"Common Libs"
+.ElementTree .ascii .ast .audio .base .charset .dom .encoders .errors .etree .expat .generator .handler
+.handlers .header .headers .idna .image .iterators .message .mime .minidom .multipart .nonmultipart .panel
+.parser .parsers .path .pulldom .sax .saxutils .simple_server .stats .test_support .text .textpad .util
+.utils .validate .visitor .wrapper .xmlreader
+AL
+BaseHTTPServer Bastion
+CGIHTTPServer Carbon ConfigParser Cookie
+DEVICE DocXMLRPCServer
+FL
+GL
+HTMLParser
+MimeWriter
+NNTPError
+Queue
+SUNAUDIODEV ScrolledText SimpleHTTPServer SimpleXMLRPCServer SocketServer StringIO
+Tix Tkinter
+UserDict UserList UserString
+__builtin__ __future__ __main__ _locale _winreg
+aifc al anydbm array asynchat asyncore atexit audioop
+base64 bdb binascii binhex bisect bsddb bz2
+cPickle cProfile cStringIO calendar cd cgi cgitb chunk cmath cmd code codecs codeop collections colorsys
+commands compileall compiler contextlib cookielib copy_reg crypt csv ctypes curses
+datetime dbhash dbm decimal difflib dircache dis distutils dl doctest dumbdbm dummy_thread dummy_threading
+email encodings errno exceptions
+fcntl filecmp fileinput fl flp fm fnmatch formatter fpectl fpformat ftplib functools
+gc gdbm getopt getpass gettext gl glob gopherlib grp gzip
+hashlib heapq hmac hotshot htmlentitydefs htmllib httplib
+ihooks imageop imaplib imgfile imghdr imp inspect itertools
+jpeg
+keyword knee
+linecache locale logging
+mailbox mailcap marshal math md5 mhlib mimetools mimetypes mimify mmap modulefinder msilib msvcrt
+multifile mutex
+netrc new nis nntplib
+operator optparse os ossaudiodev
+parser pdb pickle pickletools pipes pkgutil platform popen2 poplib posix posixfile pprint profile pstats
+pty pwd py_compile pyclbr pydoc pyexpat
+quopri
+random re resource rexec rfc822 rgbimg rlcompleter robotparser runpy
+sched select sets sgmllib sha shelve shlex shutil signal site sitecustomize smtpd smtplib sndhdr socket
+spwd sqlite3 stat statvfs string stringprep struct subprocess sunau sunaudiodev symbol sys syslog
+tabnanny tarfile telnetlib tempfile termios test textwrap thread threading time timeit token tokenize
+trace traceback tty turtle types
+unicodedata unittest urllib urllib2 urlparse user uu uuid
+warnings wave weakref webbrowser whichdb winsound wsgiref
+xdrlib xml xmlrpclib
+zipimport zlib
+/C8"Others"
+CBG
+HfAddAttractorToAS HfAssignAS HfBuildEqualMap HfBuildFurFiles HfBuildFurImages HfCancelAFR HfConnectASToHF
+HfCreateAttractor HfDeleteAS HfEditAS HfPerformCreateAS HfRemoveAttractorFromAS HfSelectAttached
+HfSelectAttractors HfUnAssignAS
+Mayatomr
+about addAttr addAttributeEditorNodeHelp addDynamic addNewShelfTab addPP addPrefixToName
+advanceToNextDrivenKey affectedNet affects aimConstraint air aliasAttr align alignCtx alignCurve
+alignSurface allViewFit ambientLight angle angleBetween animCone animCurveEditor animDisplay animView
+annotate appendStringArray applicationName applyAttrPreset applyTake arcLenDimContext arcLengthDimension
+arclen arrayMapper art3dPaintCtx artAttrCtx artAttrPaintVertexCtx artAttrSkinPaintCtx artAttrTool
+artBuildPaintMenu artFluidAttrCtx artPuttyCtx artSelectCtx artSetPaintCtx artUserPaintCtx assignCommand
+assignInputDevice assignViewportFactories attachCurve attachDeviceAttr attachSurface attrColorSliderGrp
+attrCompatibility attrControlGrp attrEnumOptionMenu attrEnumOptionMenuGrp attrFieldGrp attrFieldSliderGrp
+attrNavigationControlGrp attrPresetEditWin attributeExists attributeInfo attributeMenu attributeQuery
+autoKeyframe autoPlace
+bakeClip bakeFluidShading bakePartialHistory bakeResults bakeSimulation basename basenameEx batchRender
+bessel bevel bevelPlus binMembership bindPose bindSkin blend2 blendShape blendShapeEditor blendShapePanel
+blendTwoAttr blindDataType boneLattice boundary boxDollyCtx boxZoomCtx bufferCurve buildBookmarkMenu
+buildKeyframeMenu button buttonManip
+cacheFile cacheFileCombine cacheFileMerge camera cameraView canCreateManip canvas capitalizeString catch
+catchQuiet ceil changeSubdivComponentDisplayLevel changeSubdivRegion channelBox character characterMap
+characterOutlineEditor characterize chdir checkBox checkBoxGrp checkDefaultRenderGlobals choice circle
+circularFillet clamp clearCache clip clipEditor clipEditorCurrentTimeCtx clipSchedule
+clipSchedulerOutliner clipTrimBefore closeCurve closeSurface cluster cmdFileOutput cmdScrollFieldExecuter
+cmdScrollFieldReporter cmdShell coarsenSubdivSelectionList collision color colorAtPoint colorEditor
+colorIndex colorIndexSliderGrp colorSliderButtonGrp colorSliderGrp columnLayout commandEcho commandLine
+commandPort compactHairSystem componentEditor compositingInterop computePolysetVolume condition cone
+confirmDialog connectAttr connectControl connectDynamic connectJoint connectionInfo constrain
+constrainValue constructionHistory contextInfo control convertFromOldLayers convertIffToPsd
+convertLightmap convertSolidTx convertTessellation convertUnit copyArray copyFlexor copyKey
+copySkinWeights cos cpButton cpCache cpClothSet cpCollision cpConstraint cpConvClothToMesh cpForces
+cpGetSolverAttr cpPanel cpProperty cpRigidCollisionFilter cpSeam cpSetEdit cpSetSolverAttr cpSolver
+cpSolverTypes cpTool cpUpdateClothUVs createDisplayLayer createDrawCtx createEditor createLayeredPsdFile
+createMotionField createNewShelf createNode createRenderLayer createSubdivRegion cross crossProduct
+ctxAbort ctxCompletion ctxEditMode ctxTraverse currentCtx currentTime currentTimeCtx currentUnit curve
+curveAddPtCtx curveCVCtx curveEPCtx curveEditorCtx curveIntersect curveMoveEPCtx curveOnSurface
+curveSketchCtx cutKey cycleCheck cylinder
+dagPose date defaultLightListCheckBox defaultNavigation defineDataServer defineVirtualDevice deformer
+deg_to_rad delete deleteAttr deleteShadingGroupsAndMaterials deleteShelfTab deleteUI deleteUnusedBrushes
+delrandstr detachCurve detachDeviceAttr detachSurface deviceEditor devicePanel dgInfo dgdirty dgeval
+dgtimer dimWhen directKeyCtx directionalLight dirmap dirname disable disconnectAttr disconnectJoint
+diskCache displacementToPoly displayAffected displayColor displayCull displayLevelOfDetail displayPref
+displayRGBColor displaySmoothness displayStats displaySurface distanceDimContext distanceDimension doBlur
+docServer dolly dollyCtx dopeSheetEditor dot dotProduct doubleProfileBirailSurface drag dragAttrContext
+draggerContext dropoffLocator duplicate duplicateCurve duplicateSurface dynCache dynControl dynExport
+dynExpression dynGlobals dynPaintEditor dynParticleCtx dynPref dynRelEdPanel dynRelEditor dynamicLoad
+editAttrLimits editDisplayLayerGlobals editDisplayLayerMembers editRenderLayerAdjustment
+editRenderLayerGlobals editRenderLayerMembers editor editorTemplate effector emit emitter enableDevice
+encodeString endString endsWith env equivalent equivalentTol erf error evalDeferred evalEcho event
+exactWorldBoundingBox exclusiveLightCheckBox executeForEachObject exists exp exportComposerCurves
+expression expressionEditorListen extendCurve extendSurface extrude
+fcheck fclose feof fflush fgetline fgetword fileBrowserDialog fileDialog fileExtension fileInfo
+filetest filletCurve filterCurve filterExpand filterStudioImport findAllIntersections
+findAnimCurves findKeyframe findMenuItem findRelatedSkinCluster finder firstParentOf fitBspline flexor
+floatEq floatField floatFieldGrp floatScrollBar floatSlider floatSlider2 floatSliderButtonGrp
+floatSliderGrp floor flow fluidCacheInfo fluidEmitter fluidVoxelInfo flushUndo fmod fontDialog fopen
+formLayout format fprint frameLayout fread freeFormFillet frewind fromNativePath fwrite
+gamma gauss geometryConstraint getApplicationVersionAsFloat getAttr getClassification getDefaultBrush
+getFileList getFluidAttr getInputDeviceRange getMayaPanelTypes getModifiers getPanel getParticleAttr
+getenv getpid glRender glRenderEditor globalStitch gmatch goal gotoBindPose grabColor gradientControl
+gradientControlNoAttr graphDollyCtx graphSelectContext graphTrackCtx gravity grid gridLayout group
+groupObjectsByName
+hardenPointCurve hardware hardwareRenderPanel headsUpDisplay headsUpMessage helpLine hermite hide
+hilite hitTest hotBox hotkey hotkeyCheck hsv_to_rgb hudButton hudSlider hudSliderButton hwReflectionMap
+hwRender hwRenderLoad hyperGraph hyperPanel hyperShade hypot
+iconTextButton iconTextCheckBox iconTextRadioButton iconTextRadioCollection iconTextScrollList
+iconTextStaticLabel ikHandle ikHandleCtx ikHandleDisplayScale ikSolver ikSplineHandleCtx ikSystem
+ikSystemInfo ikfkDisplayMethod illustratorCurves image imfPlugins importComposerCurves inheritTransform
+insertJoint insertJointCtx insertKeyCtx insertKnotCurve insertKnotSurface instance instanceable instancer
+intField intFieldGrp intScrollBar intSlider intSliderGrp interToUI internalVar intersect iprEngine
+isAnimCurve isConnected isDirty isParentOf isSameObject isTrue isValidObjectName isValidString
+isValidUiName isolateSelect itemFilter itemFilterAttr itemFilterRender itemFilterType
+joint jointCluster jointCtx jointDisplayScale jointLattice
+keyTangent keyframe keyframeOutliner keyframeRegionCurrentTimeCtx keyframeRegionDirectKeyCtx
+keyframeRegionDollyCtx keyframeRegionInsertKeyCtx keyframeRegionMoveKeyCtx keyframeRegionScaleKeyCtx
+keyframeRegionSelectKeyCtx keyframeRegionSetKeyCtx keyframeRegionTrackCtx keyframeStats
+lassoContext lattice latticeDeformKeyCtx launch launchImageEditor layerButton layeredShaderPort
+layeredTexturePort layout layoutDialog lightList lightListEditor lightListPanel lightlink lineIntersection
+linearPrecision linstep listAnimatable listAttr listCameras listConnections listDeviceAttachments
+listHistory listInputDeviceAxes listInputDeviceButtons listInputDevices listMenuAnnotation listNodeTypes
+listRelatives listSets listTransforms listUnselected listerEditor loadFluid loadNewShelf loadPlugin
+loadPrefObjects lockNode loft log longNameOf lookThru ls lsThroughFilter lsType lsUI
+mag makeIdentity makeLive makePaintable makeRoll makeSingleSurface makeTubeOn makebot manipMoveContext
+manipMoveLimitsCtx manipOptions manipRotateContext manipRotateLimitsCtx manipScaleContext
+manipScaleLimitsCtx marker match memory menu menuBarLayout menuEditor menuItem menuItemToShelf menuSet
+menuSetPref messageLine minimizeApp mirrorJoint modelCurrentTimeCtx modelEditor modelPanel mouse movIn
+movOut move moveIKtoFK moveKeyCtx moveVertexAlongDirection multiProfileBirailSurface mute
+nameCommand nameField namespace namespaceInfo newPanelItems newton nodeIconButton nodeOutliner nodePreset
+nodeType noise nonLinear normalConstraint normalize nurbsBoolean nurbsCopyUVSet nurbsCube nurbsEditUV
+nurbsPlane nurbsSelect nurbsSquare nurbsToPoly nurbsToPolygonsPref nurbsToSubdiv nurbsUVSet
+nurbsViewDirectionVector
+objExists objectCenter objectLayer objectType objectTypeUI obsoleteProc oceanNurbsPreviewPlane offsetCurve
+offsetCurveOnSurface offsetSurface openGLExtension openMayaPref optionMenu optionMenuGrp optionVar orbit
+orbitCtx orientConstraint outlinerEditor outlinerPanel overrideModifier
+paintEffectsDisplay pairBlend palettePort paneLayout panel panelConfiguration panelHistory paramDimContext
+paramDimension paramLocator parent parentConstraint particle particleExists particleInstancer
+particleRenderInfo partition pasteKey pathAnimation pause pclose percent performanceOptions pfxstrokes
+pickWalk picture pixelMove planarSrf plane play playbackOptions playblast plugAttr plugNode pluginInfo
+pointConstraint pointCurveConstraint pointLight pointMatrixMult pointOnCurve pointOnSurface pointPosition
+poleVectorConstraint polyAppend polyAppendFacetCtx polyAppendVertex polyAutoProjection polyAverageNormal
+polyAverageVertex polyBevel polyBlendColor polyBlindData polyBoolOp polyBridgeEdge polyCacheMonitor
+polyCheck polyChipOff polyClipboard polyCloseBorder polyCollapseEdge polyCollapseFacet polyColorBlindData
+polyColorPerVertex polyColorSet polyCompare polyCone polyCopyUV polyCrease polyCreaseCtx polyCreateFacet
+polyCreateFacetCtx polyCube polyCut polyCutCtx polyCylinder polyCylindricalProjection polyDelEdge
+polyDelFacet polyDelVertex polyDuplicateAndConnect polyDuplicateEdge polyEditUV polyEditUVShell
+polyEvaluate polyExtrudeEdge polyExtrudeFacet polyExtrudeVertex polyFlipEdge polyFlipUV polyForceUV
+polyGeoSampler polyHelix polyInfo polyInstallAction polyLayoutUV polyListComponentConversion polyMapCut
+polyMapDel polyMapSew polyMapSewMove polyMergeEdge polyMergeEdgeCtx polyMergeFacet polyMergeFacetCtx
+polyMergeUV polyMergeVertex polyMirrorFace polyMoveEdge polyMoveFacet polyMoveFacetUV polyMoveUV
+polyMoveVertex polyNormal polyNormalPerVertex polyNormalizeUV polyOptUvs polyOptions polyOutput polyPipe
+polyPlanarProjection polyPlane polyPlatonicSolid polyPoke polyPrimitive polyPrism polyProjection
+polyPyramid polyQuad polyQueryBlindData polyReduce polySelect polySelectConstraint
+polySelectConstraintMonitor polySelectCtx polySelectEditCtx polySeparate polySetToFaceNormal polySewEdge
+polyShortestPathCtx polySmooth polySoftEdge polySphere polySphericalProjection polySplit polySplitCtx
+polySplitEdge polySplitRing polySplitVertex polyStraightenUVBorder polySubdivideEdge polySubdivideFacet
+polyToSubdiv polyTorus polyTransfer polyTriangulate polyUVSet polyUnite polyWedgeFace popen popupMenu pose
+preloadRefEd progressBar progressWindow projFileViewer projectCurve projectTangent
+projectionContext projectionManip promptDialog propModCtx propMove psdChannelOutliner psdEditTextureFile
+psdExport psdTextureFile putenv
+querySubdiv quit
+rad_to_deg radial radioButton radioButtonGrp radioCollection radioMenuItemCollection rampColorPort rand
+randomizeFollicles randstate rangeControl readTake rebuildCurve rebuildSurface recordAttr recordDevice
+redo reference referenceEdit referenceQuery refineSubdivSelectionList refresh refreshAE rehash reloadImage
+removeJoint removeMultiInstance rename renameAttr renameSelectionList renameUI render renderGlobalsNode
+renderInfo renderLayerButton renderLayerPostProcess renderManip renderPartition renderQualityNode
+renderSettings renderThumbnailUpdate renderWindowEditor renderWindowSelectContext renderer reorder
+reorderDeformers requires reroot resampleFluid resetAE resetPfxToPolyCamera resetTool resolutionNode
+retarget reverseCurve reverseSurface revolve rgb_to_hsv rigidBody rigidSolver roll rollCtx rootOf rot
+rotate rotationInterpolation roundConstantRadius rowColumnLayout rowLayout runTimeCommand runup
+sampleImage saveAllShelves saveAttrPreset saveFluid saveImage saveInitialState saveMenu savePrefObjects
+savePrefs saveShelf saveToolSettings scale scaleBrushBrightness scaleComponents scaleConstraint scaleKey
+scaleKeyCtx sceneEditor sceneUIReplacement scmh scriptCtx scriptEditorInfo scriptJob scriptNode
+scriptTable scriptedPanel scriptedPanelType scrollField scrollLayout sculpt searchPathArray seed
+selLoadSettings selectContext selectKey selectKeyCtx selectKeyframeRegionCtx selectMode selectPref
+selectPriority selectType selectedNodes selectionConnection self separator setAttr setAttrMapping
+setConstraintRestPosition setDefaultShadingGroup setDrivenKeyframe setDynamic setEditCtx setEditor
+setFluidAttr setFocus setInfinity setInputDeviceMapping setKeyCtx setKeyPath setKeyframe
+setKeyframeBlendshapeTargetWts setMenuMode setNodeTypeFlag setParent setParticleAttr setPfxToPolyCamera
+setProject setStampDensity setStartupMessage setState setToolTo setUITemplate setXformManip
+shadingConnection shadingGeometryRelCtx shadingLightRelCtx shadingNetworkCompare shadingNode shapeCompare
+shelfButton shelfLayout shelfTabLayout shellField shortNameOf showHelp showHidden showManipCtx
+showSelectionInTitle showShadingGroupAttrEditor showWindow sign simplify sin singleProfileBirailSurface
+size skinCluster skinPercent smoothCurve smoothTangentSurface smoothstep snap2to2 snapKey snapMode
+snapTogetherCtx snapshot soft softMod softModCtx sound soundControl source spaceLocator sphere
+sphrand spotLight spotLightPreviewPort spreadSheetEditor spring sqrt squareSurface srtContext stackTrace
+startString startsWith stitchAndExplodeShell stitchSurface stitchSurfacePoints strcmp stringArrayCatenate
+stringArrayContains stringArrayCount stringArrayIntersector stringArrayRemove stringArrayRemoveDuplicates
+stringArrayRemoveExact stringArrayToString stringToStringArray stripPrefixFromName stroke
+subdAutoProjection subdCleanTopology subdCollapse subdDuplicateAndConnect subdEditUV
+subdListComponentConversion subdMapCut subdMapSewMove subdMatchTopology subdMirror subdToBlind subdToPoly
+subdTransferUVsToCache subdiv subdivCrease subdivDisplaySmoothness substitute substituteAllString
+substituteGeometry substring surface surfaceSampler surfaceShaderList swatchDisplayPort switchTable
+symbolButton symbolCheckBox sysFile system
+tabLayout tan tangentConstraint texLatticeDeformContext texManipContext texMoveContext
+texMoveUVShellContext texRotateContext texScaleContext texSelectContext texSelectShortestPathCtx
+texSmudgeUVContext texWinToolCtx text textCurves textField textFieldButtonGrp textFieldGrp textManip
+textScrollList textToShelf textureDisplacePlane textureHairColor texturePlacementContext textureWindow
+threadCount threePointArcCtx timeControl timePort timerX toNativePath toggle toggleAxis
+toggleWindowVisibility tokenizeList tolerance tolower toolButton toolCollection toolDropped
+toolHasOptions toolPropertyWindow torus toupper track trackCtx transferAttributes transformCompare
+transformLimits translator trim trunc truncateFluidCache truncateHairCache tumble tumbleCtx turbulence
+twoPointArcCtx
+uiTemplate unassignInputDevice undo undoInfo ungroup uniform unit unloadPlugin untangleUV untrim upAxis
+updateAE userCtx uvLink uvSnapshot
+validateShelfName vectorize view2dToolCtx viewCamera viewClipPlane viewFit viewHeadOn viewLookAt viewManip
+viewPlace viewSet visor volumeAxis vortex
+waitCursor warning webBrowser webBrowserPrefs whatIs window windowPref wire wireContext workspace wrinkle
+wrinkleContext writeTake
+xbmLangPathList xform xpmPicker

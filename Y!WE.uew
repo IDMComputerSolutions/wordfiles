@@ -1,0 +1,95 @@
+/L20"Yahoo! Widget Engine" XML_LANG Noquote Block Comment On = <!-- Block Comment Off = --> File Extensions = KON
+/Delimiters = ~@$%^&*()+=|\{};"'<> ,
+/Function String = "name=*">"
+/Function String 1 = "trigger=*">"
+/Open Brace Strings =  "{" "(" "[" "<"
+/Close Brace Strings = "}" ")" "]" ">"
+/C1"Elements" STYLE_ELEMENT
+** <
+<about-box> <about-box </about-box> <about-text> <about-text </about-text> <about-version> <about-version </about-version> <action <action> 
+</action> <alignment> </alignment> <api> </api> <autoHide> </autoHide>
+<bgColor> </bgColor> <bgOpacity> </bgOpacity>
+<clipRect> </clipRect> <color> </color> <colorize> </colorize> <columns> </columns> <contextMenuItems> <contextMenuItems </contextMenuItems>
+<data> </data> <debug> </debug> <defaultValue> </defaultValue> <description> </description> <director> </directory>
+<editable> </editable> <extension> </extension>
+<fillMode> </fillMode> <font> </font> <frame <frame> </frame>
+<group> </group>
+<hidden> </hidden>
+<key> </key> <kind> </kind>
+<hAlign> </hAlign> <height> </height> <hLineSize> </hLineSize> <hOffset> </hOffset> <hotkey> <hotkey </hotkey> <hRegistrationPoint> </hRegistrationPoint>
+<hScrollBar> </hScrollBar> <hslAdjustment> </hslAdjustment> <hslTinting> </hslTinting>
+<icon> </icon> <image> <image </image> <interval> </interval> 
+<level> </level> <lines> </lines> <loadingSrc> </loadingSrc>
+<max> </max> <maxLength> </maxLength> <menuItem> <menuItem </menuItem> <min> </min> <minLength> </minLength> <missingSrc> </missingSrc> <modifier> 
+</modifier>
+<name> </name> <notSaved> </notSaved>
+<onContextMenu> </onContextMenu> <onDragDrop> </onDragDrop> <onDragEnter> </onDragEnter> <onDragExit> </onDragExit> <onFirstDisplay> </onFirstDisplay> 
+<onGainFocus> </onGainFocus> <onImageLoaded> </onImageLoaded> <onLoseFocus> </onLoseFocus> <onKeyDown> </onKeyDown> <onKeyUp> <onKeyPress> </onKeyPress> 
+</onKeyUp> <onMouseDown> </onMouseDown> <onMouseEnter> </onMouseEnter> <onMouseExit> </onMouseExit> <onMouseMove> </onMouseMove> <onMouseUp> </onMouseUp> 
+<onMouseWheel> </onMouseWheel> <onMultiClick> </onMultiClick> <onSelect> </onSelect> <onTimerFired> </onTimerFired> <onValueChanged> </onValueChanged> 
+<opacity> </opacity> <option> </option> <optionValue> </optionValue> <order> </order> <orientation> </orientation>
+<pageSize> </pageSize> <preference> <preference> </preference> <preferenceGroup> <preferenceGroup </preferenceGroup>
+<remoteAsync> </remoteAsync> <requiredPlatform> </requiredPlatform> <rotation> </rotation> 
+<scrollbar> <scrollbar </scrollbar> <scrolling> </scrolling> <scrollX> </scrollX> <scrollY> </scrollY> <secure> </secure> <security> <security </security> 
+<shadow> <shadow </shadow> <size> </size> <spellcheck> </spellcheck> <src> </src> <srcHeight> </srcHeight> <srcWidth> </srcWidth> <style> </style>
+<text> <text </text> <textarea> <textarea </textarea> <thumbColor> </thumbColor> <tileOrigin> <ticking> </ticking> <ticks> </ticks> <ticksLabel> </ticksLabel> 
+</tileOrigin> <timer> <timer </timer> <title> </title> <tooltip> </tooltip> <tracking> </tracking> <truncation> </truncation> <type> </type>
+<useFileIcon> </useFileIcon>
+<value> </value> <vAlign> </vAlign> <visible> </visible> <vLineSize> </vLineSize> <vOffset> </vOffset> <vRegistrationPoint> </vRegistrationPoint> 
+<vScrollBar> </vScrollBar> 
+<widget> <widget </widget> <width> </width> <window> <window </window>
+<zOrder> </zOrder>
+// />
+>
+<
+<%
+%> 
+?>
+<? <?xml
+]]>
+<![CDATA[
+/C2"Attributes" STYLE_ATTRIBUTE
+-
+=
+alignment= author= autoHide=
+bgColor= bgOpacity=
+checked= color= colorize= columns= company= copyright=
+data= defaultTracking= defaultValue= description= directory=
+editable= enabled= extension=
+group=
+file= fillMode=
+hAlign= height= hLineSize= hOffset= hRegistrationPoint= hScrollBar= hslAdjustment= hslTinting=
+icon= image= interval=
+key= kind=
+level= lines= loadingSrc=
+max= maxLength= min= minLength= minimumVersion= missingSrc= modifier=
+name= notSaved=
+onSelect= opacity= order= orientation=
+pageSize=
+remoteAsync= rotation=
+scrollbar= scrolling= scrollX= scrollY= secure= size= spellcheck= src= srcHeight= srcWidth= style=
+thumbColor= ticks= ticking= tileOrigin= title= tooltip= tracking= trigger= truncation= type=
+useFileIcon=
+value= vAlign= version= visible= vLineSize= vOffset= vRegistrationPoint= vScrollBar=
+window=
+zOrder=
+/C3"Values"
+allowArbitraryXML allowCustomObjectAttributes autoLeft autoRight
+below bold both bottom bottomLeft bottomRight
+center checkbox color compressed condensed
+desktop dontRememberWindowPosition
+end expanded
+false files fixed floating folders font
+horizontal hotkey
+italic
+konspose
+left
+macintosh
+narrow none normal 
+off opacity open
+popup poster
+rectangle right
+save selector slider smallcap stretch
+text tile top topLeft topmost topRight true
+vertical
+windows

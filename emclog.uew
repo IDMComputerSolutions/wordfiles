@@ -1,0 +1,63 @@
+/L2"EMC Networker Daemon Log" Line Comment = #* Nocase Escape Char = \ File Extensions =
+/C1"C1-Blue-Group Control"
+all
+client
+group
+info
+savegroup savegrp:
+/C2"C2-Red-Warnings"
+** abort disabl error fail terminat
+bad bus
+cannot critical
+device
+eei emergency
+inactivity
+not
+reset
+timeout
+unable
+warning
+/C3"C3-Orange-MMD Warnings"
+missing
+notice nsrmmd
+polling
+reply
+/C4"C4-Green-Success"
+added applied
+checked clear cleared complete completed confirmed connected copied created
+delivered done
+enabled
+finished
+initialised initialized initiated installed
+loaded
+moved
+ok online
+populated processed
+received
+started succeeded success successful
+transferred transmitted
+up upgraded
+validate validated verified
+written
+/C5"C5-Maroon-Media Warnings"
+** eject label load mount recycle relabel tape
+media
+waiting
+/C6"C8-Pink-Actions"
+** begin call clean deliver detect enter execut get propogat pull
+** push read replay run scan select set start
+add adding applying
+check checking completing connect connecting copy copying create creating
+disconnecting
+initialise initialising initialize initializing initiating install installing intiate
+load loading
+move moving
+populate populating process processing progress progressing put
+receive receiving
+stop stopping
+transfer transferring transmit transmitting
+upgrade upgrading
+validating verify verifying
+write writing
+/C7"C7-Aqua-Devices"
+/C8"C9-Blue"

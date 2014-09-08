@@ -1,0 +1,47 @@
+/L20"MIPS Assembler" AASM_LANG Nocase Line Comment = # File Extensions = sx s S
+/Delimiters = :() "	, -#+*/
+/C1"Mnemonics"
+abs add addi addiu addu and andi
+b bczt bczf beq beqz bge bgez bgeu bgezal bgt bgtu bgtz ble bleu blez
+blt
+bltu bnez bltzal bltz bne bqez
+div divu
+eret
+j jal jr
+la lb li lui lw
+mfc0 move mul mulo mulou mult mtc0
+neg negu nomove nor not
+or ori
+rem remu rol ror
+sb seq sge sgeu sgt sgtu sle sleu sne sll sllv slt slti sltu sltiu sra
+srav srl srlv sub subu sw syscall
+xor xori
+/C2"Preprocessor"
+.2byte .4byte .8byte
+.aent .alias .align .ascii .asciiz .asm0
+.bgnb .byte
+.comm .cpadd .cpload .cplocal .cprestore .cpreturn .cpsetup
+.data .double .dword
+.end .endb .endr .ent .extern .err
+.file .float .fmask .frame
+.globl .gjaldef .gjallive .gjrlive .gpword
+.half
+.lab .lcomm .livereg .loc
+.mask
+.nada .noalias .nop
+.option .origin
+.repeat .rdata
+.sdata .section .set .size .space .struct
+.text .type
+.verstamp .vreg
+.weakext .word
+/C3"Registers"
+$a0 $a1 $a2 $a3 $at
+$fp
+$gp
+$k0 $k1
+$ra
+$s0 $s1 $s2 $s3 $s4 $s5 $s6 $s7 $s8 $sp
+$t0 $t1 $t2 $t3 $t4 $t5 $t6 $t7 $t8 $t9
+$v0 $v1
+$zero

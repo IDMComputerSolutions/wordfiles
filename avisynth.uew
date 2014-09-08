@@ -1,0 +1,82 @@
+/L20"AVISynth" Line Comment = # Nocase Escape Char = \ String Chars = " File Extensions = avs avsi
+/Delimiters = @%^*()-+\/{}[]:;"'<> ,.	?
+/C1"Keywords"
+$
+bool
+clip
+function float
+global
+int
+string
+val
+/C2"Builtin functions"
+abs apply assert asserteval
+ceil cos catch
+defined default
+exp exist eval
+floor frac findstr
+hexvalue
+isbool isint isfloat isstring isclip import
+log lcase leftstr
+midstr
+nop
+round rand revstr rightstr
+sin sqrt sign strlen setmemorymax setworkingdir select
+try
+pi pow
+ucase
+value versionnumber versionstring
+/C3"Builtin filters"
+AviSource AviFileSource AddBorders AlignedSplice AssumeFPS AssumeFrameBased AssumeFieldBased 
+AssumeBFF AssumeTFF Amplify AmplifydB AssumeSampleRate AudioDub Animate
+BlankClip Blackness Blur BicubicResize BilinearResize Bob
+ColorYUV ConvertBackToYUY2 ConvertToRGB ConvertToRGB24 ConvertToRGB32 ConvertToYUY2 ConvertToYV12 Crop 
+CropBottom ColorKeyMask ChangeFPS ConvertFPS ComplementParity ConvertAudioTo8bit ConvertAudioTo16bit 
+ConvertAudioTo24bit ConvertAudioTo32bit ConvertAudioToFloat ConvertToMono ColorBars Compare
+DirectShowSource DeleteFrame Dissolve DuplicateFrame DoubleWeave DelayAudio
+EnsureVBRMP3Sync
+FadeIn FadeIn2 FadeOut FadeOut2 FreezeFrame FixBrokenChromaUpsampling FixLuminance FlipHorizontalFlipVertical
+GeneralConvolution GreyScale GetChannel GetLeftChannel GetRightChannel
+HSIAdjust HorizontalReduceBy2 HighPassAudio Histogram
+IPCSource Interleave Info
+KillAudio
+Layer Letterbox Levels Limiter LanczosResize Loop LowPassAudio
+Mask MergeChroma MergeLuma MergeChannels MixAudio MonoToStereo MessageClip
+Normalize
+OpenDMLSource
+PointResize Pulldown PeculiarBlend
+ResetMask ReduceBy2 RGBAdjust ResampleAudio Reverse
+SegmentedAviSource SegmentedDirectShowSource Sharpen SpatialSoften SwapUV SelectEven
+SelectOdd SelectEvery SelectRangeEvery SeparateFields SwapFields Subtitle ShowFiveVersions
+ShowFrameNumber ShowSMPTE StackHorizontal StackVertical Subtract
+TemporalSoften Tweak Trim
+UToY UnalignedSplice
+VerticalReduceBy2 VToY Version
+WavSource Weave
+YToUV
+/C4"Plugin filters"
+AC3source aWarpSharp
+Cnr2 Convolution3d
+Decimate
+FieldDeinterlace
+MPASource mpeg2source
+Telecide
+/C5"Operators"
+=
+==
+!=
+<>
+||
+&&
++
+++
+-
+*
+// /
+%
+>=
+<=
+<
+>
+?
+: 

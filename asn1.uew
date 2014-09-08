@@ -1,0 +1,28 @@
+/L20"ASN.1" Line Comment = -- File Extensions = ASN
+/Delimiters = ={}(): ,	       
+/C1"structural types"
+CHOICE
+ENUMERATED
+IDENTIFIER
+OBJECT OF
+RELATIVE-OID
+SEQUENCE SET
+{
+}
+/C2
+BEGIN
+DEFINITIONS
+END
+IMPORTS
+/C3"modifyers"
+DEFAULT
+OPTIONAL
+/C4"baseDatatypes" 
+BIT BOOLEAN
+INTEGER
+NULL
+OCTET
+REAL
+STRING
+/C5
+ANY

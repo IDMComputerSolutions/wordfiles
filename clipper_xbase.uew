@@ -1,0 +1,115 @@
+/L10"Clipper/Xbase++" Line Comment = * Line Comment Valid Columns = [1] Line Comment Alt = // Block Comment On = /* Block Comment Off = */ String Chars = "' File Extensions = prg ch xpj arc PRG CH XPJ ARC
+/Delimiters =  ~!@%^&*-+=|\/{}[]():.;,"'<>.?
+/Function String 1 = "%[CLASS]+CLASS"
+/Function String 2 = "%[METHOD]+METHOD"
+/Function String 3 = "%[PROCEDURE]+PROCEDURE"
+/Function String 4 = "%[FUNCTION]+FUNCTION"
+/Indent Strings = "{" "IF" "ELSE" "CASE" "FOR" "WHILE" "DO" "If" "Else" "Case" "For" "While" "Do" "if" "else" "case" "for" "while" "do"
+/Unindent Strings = "}" "ENDIF" "ENDCASE" "NEXT" "ENDDO" "EndIf" "EndCase" "Next" "EndDo" "endif" "endcase" "next" "enddo"
+/Ignore Strings SOL = "*" "//" "/*" "*/" "#" 
+/Open Fold Strings = "{" "CLASS" "METHOD" "PROCEDURE" "FUNCTION" "IF" "ELSE" "CASE" "FOR" "DO WHILE" "Method" "Class" "Procedure" "Function" "If" "Else" "Case" "For" "Do While" "method" "class" "procedure" "function" "if" "else" "case" "for" "do while"
+/Close Fold Strings = "}" "ENDCLASS" "RETURN" "RETURN " "ENDIF" "ENDCASE" "NEXT" "ENDDO" "EndClass" "Return" "Return " "EndIf" "EndCase" "Next" "EndDo" "endclass" "return" "return " "endif" "endcase" "next" "enddo"
+
+/C1 FUNCTIONS
+aSize
+AAdd Abs Abstract AChoice AClone ACopy ADel ADir AEval AFields AFill AIns Alert Alias AllTrim AltD AppDesktop AppEvent AppKeyState AppName AppType ARemove Array Asc AScan ASize ASort At ATailBin2f AppSys
+Bin2I Bin2L Bin2U Bin2Var Bin2W BOF Break Browse
+CDow Char2Var Chr ClassCreate Class ClassObject CloneCMonth Col ColorSelect ConfirmBox CONTINUE ConvToAnsiCP ConvToOemCP CreateDir CtoD CurDirCurDrive
+DacPagedDataStore DacSession DataRef Date Day DbAppend DbCargo DbClearFilter DbClearIndex DbClearRelation DbClearScope DbClientList DbCloseAll DbCloseArea DbCommit DbCommitAll DbContinue DbCopyExtStructDbCopyStruct DbCreate DbCreateExtStruct DbCreateFrom DbCreateIndex DbDelete DbDeregisterClient DbDescend DbeBuild DbEdit DbeInfo DbeList DbeLoad DbeSetDefault DbeUnload DbEval DbExport DbfDbFilter DbGoBottom DbGoPosition DbGoto DbGoTop DbImport DbInfo DbJob DbJoin DbList DbLocate DbLocked DbPack DbPosition DbRecall DbRefresh DbRegisterClient DbReindex DbRelation DbRelease DbRequest DbResetNotifications DbResumeNotifications DbRList DbRLock DbRLockList DbROrdName DbRResumeSelect DbRRollback DbRSelect DbRSuspendSelect DbRUnlock DbScope DbSeek DbSelectArea DbSessionDbSetDescend DbSetDriver DbSetFilter DbSetFound DbSetIndex DbSetOrder DbSetRelation DbSetScope DbSkip DbSkipper DbSort DbStruct DbSuspendNotifications DbTotal DbUnlock DbUnlockAll DbUpdate DbUseArea DbZap Deleted Descen
+DevOut DevOutPict DevPosDirectory DiskSpace DispBegin DispBox DispCount DispEndDispOut DispOutAt DllCall DllExecuteCall DLLFUNCTION DllInfo DllLoad DllPrepareCall DllUnLoad DosError DosErrorMessage DoW DtoC DtoS
+enable empty
+EnableClipRect EOF Error ErrorBlock ErrorLevel ErrorNew Eval EventLogWriteStr ExpF2Bin
+FAttr FClose FCount FCreate FErase FError FExists FIELD FieldBlock FieldGet FieldInfo FieldName FieldPos FieldPut FieldWBlock File FINAL FIND FkLabelFkMax FLock FOpenFound FRead FReadStr FRename FSeek FSize FWrite
+Get GetActive GetApplyKey GetDoSetkey GetEnableEvents Getenv GetEventReader GetHandleEvent GetKillActive GetList GetListPos GetNew GetPostValidate GetPreValidate GetReader GetToMousePos GraArcGraBitBlt GraBox GraError GraGetRGBIntensity GraIsRGBColor GraLine GraMakeRGBColor GraMarker GraPathBegin GraPathClip GraPathEnd GraPathFill GraPathOutline GraPos GraQueryTextBox GraRotate GraScaleGraSegClose GraSegDestroy GraSegDraw GraSegDrawMode GraSegFind GraSegOpen GraSegPickResolution GraSegPriority GraSetAttrArea GraSetAttrLine GraSetAttrMarker GraSetAttrString GraSetColor GraSetFont GraSpline GraStringAtGraTranslate
+HardCR HeaderI2bin
+IIf IndexExt IndexKey IndexOrd Inkey Int IsAlpha IsColor IsDebug IsDigit IsFieldVar IsFunction IsLower IsMemberVar IsMemvar IsMethod IsPrinter IsUpper 
+LastAppEvent LastKey LastRec LChar2Var Left Len LoadResource LocaleConfigure Log Lower LTrim LUpdate L2Bin
+Max MaxCol MaxRow MemoEdit MemoLine MemoRead Memory MemoTran MemoWrit MemvarBlock Min MlCount MlCtoPos MlPos ModMonth MPostoLc MsgBox NetErr Main
+Netname NextAppEvent NextKey NoSnow NumButtons NetErr
+OrdBagExt OrdBagName OrdCondSet OrdCount OrdCreate OrdDestroy OrdFor OrdIsDescend OrdIsUnique OrdKey OrdKeyNo OrdList OrdListAdd OrdListClear OrdListRebuild OrdName OrdNumber OrdSetfocus Os OutErr OutStdPadC
+PadL PadR PCol PCount PostAppEvent ProcLine ProcName PRow PValue QOut QQOutRAt
+Random ReadExit ReadInsert ReadKey ReadKill ReadModal ReadUpdated ReadVar RecCount RecNo RecSize RemoveDir Replicate RestScreen Right RLock Round Row RTrim RunRexx RunShell
+SaveScreen Scroll Seconds Select ServiceApp ServiceController Set SetAppEvent SetAppFocus
+SetAppWindow SetBlink SetCancel SetClipRect SetCollation SetCollationTable SetColor SetCursor Setenv SetKey SetLexRule SetLocale SetMode SetMouse SetPos SetPrc SetTimerEventSignal Sleep Soundex Space Sqrt StoD Str StrTran StrZero StrToHex Stuff SubStr SymbolInfo
+TBApplyKey TBColumn TBColumnNew TBHandleEvent TBrowse TBrowseDb TBrowseNew TBtoMousePos Thread ThreadID ThreadInfo ThreadObject ThreadWait ThreadWaitAll Time Tone TransformTrim Type
+U2bin Updated Upper Used
+Val Valtype Var2Bin Var2Char Var2LChar VCrt Version
+W2binWord WorkSpaceEval WorkSpaceListYear
+/C2 METHODS
+addChild
+create configure childFromName childList captureMouse currentPos currentSize calcClientRect calcFrameRect close
+destroy delChild disable destroy draw
+getHWND getModalState getFrameState getTitle goBottom goTop
+handleEvent hasInputFocus hide
+invalidateRect isEnabled isVisible init isDerivedFrom
+lockPS
+menuBar
+new
+paint
+resize
+setModalState setPointer setPos setSize setCaption setColorBG setColorFG setFontCompoundName setPresParam show setFrameState setTitle setName setOwner setParent
+toBack toFront 
+unlockPS
+winDevice
+/C3 Operators
+= 
+< 
+>
+!
+:
+-
++
+/
+*
+;
+and
+or
+not
+
+$
+@
+%
+?
+F
+T
+/C4 STATEMENTS
+Accept Access Assign Announce Appbrowse Appdisplay Appedit Appendblank Appendfrom Appfield Average All Alternate
+Bell 
+BEGIN
+Call Cancel Clear Commit Copy Count Create Case Century Charset Collation Color Confirm Console Cursor
+CALLBACK
+Declare Deferred Delete Decimals Default Delimiters Device Dir Display Do 
+drawingArea
+Eject Exit Exported Extended External Erase Epoch Escape Exact Exclusive EndClass Else ElseIf EndIf EndCase EndDo
+END
+For Function Form Filter Fixed Format
+Gets Go
+Hidden
+If Index Intensity Inline Input Init
+Join
+Keyboard Key
+Label List LOCAL Locate Lexical Loop
+Memvar Menu Method Margin Message 
+Note Next NIL
+Optimize Order Otherwise
+Pack Parameters PRIVATE Path Printer Procedure Protected PUBLIC
+Quit
+Read Recall Reindex Release Rename Replace Report Request Restorescreen Return Run Rushmore
+RECOVER
+Screen Structure Save Screen Seek Scope Scoreboard Smartfilter Softseek Sum Sync Static Store
+SEQUENCE
+Typeahead Tag Typeahead
+to
+Unique Update Use 
+Var     
+While Wrapskipsort Wait with            
+Zap
+/C5 Konstanten
+{ 
+}
+#include #define
+/C6 Xbp-Klassen
+self
+Xbp3State XbpBitmap XbpBrowse XbpCellGroup XbpCheckBox XbpClipBoard XbpColumn XbpCombobox XbpCrt XbpDialog XbpFileDev XbpFileDialog XbpFont XbpFontDialog XbpHelp XbpHelpLabel XbpIWindow XbpListBoxXbpMenu XbpMenuBar XbpMetaFile XbpMLE XbpMultiCellGroup XbpPartHandler XbpPresSpace XbpPrinter XbpPushButton XbpQuickBrowse XbpRadioButton XbpScrollBar XbpSetting XbpSLE XbpSpinButton XbpStatic XbpSysWindowXbpTabPage XbpTreeView XbpTreeViewItem XbpWindow 
+
+

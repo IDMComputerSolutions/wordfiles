@@ -1,0 +1,188 @@
+/L1"ArcPad VBS" Line Comment = ' File Extensions = VBS
+/Colors = 65280,12632256,8421440,8421631,4227327,
+/Colors Back = 0,16777215,16777215,16777215,16777215,
+/Colors Auto Back = 0,1,1,1,1,
+/Font Style = 0,0,0,0,0,
+/Delimiters = ~!@$%^&*()+=|\{}[]:;"'<> ,        .?
+/Function String = "Function*"
+/Function String 1 = "%Sub*"
+/Indent Strings = "Then" "Select Case" "Do While" "Do Until" "Else" "Do" "<td>" "<tr>"
+/Unindent Strings = "End" "Next" "End If" "End Select" "Loop" "End Select" "Loop While" "Else" "</TD>" "</tr>"
+/Open Fold Strings = "Do While" "If" "ElseIf" "Function" "Sub" "With" "For" "Select Case" "Case Else" "Case" "Else"
+/Close Fold Strings = "ElseIf" "End If" "End Function" "End Sub" "End With" "Loop" "Next" "Wend" "End Select" "Case Else" "Case" "Else"
+/Ignore Fold Strings = "Exit Function" "Exit Sub" "Exit For" "Declare Function" "Continue For"
+/C1"Functions" Colors = 16777088 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+Application Abs Array Asc Atn
+CBool CByte CCur CDate CDbl Chr CInt CLng Cos CreateObject CSng CStr
+Date DateAdd DateDiff DatePart DateSerial DateValue Day
+Eval Exp
+Filter Fix FormatCurrency FormatDateTime FormatNumber FormatPercent
+GetLocale GetObject GetRef
+Hex Hour
+InputBox InStr InStrRev Int IsArray IsDate IsEmpty IsNumeric IsObject
+Join
+LBound LCase Len LoadPicture Log LTrim
+Map Mid Minute Month MonthName MsgBox
+Now
+Oct Replace RGB Rnd Round RTrim
+ScriptEngine ScriptEngineBuildVersion ScriptEngineMajorVersion ScriptEngineMinorVersion
+Second Sgn Sin Space Split Sqr StrComp String StrReverse
+ToolBars Tan Time Timer TimeSerial TimeValue Trim TypeName
+UBound UCase
+VarType
+Weekday WeekdayName
+Year
+/C2"Methods/Properties" Colors = 16744703 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+ActivePage Activate AddItem AddItemsFromTable AddNew Append Active AddFeature AddFeatureXY
+AddLayerFromFile Applets Altitude AutoPanMargin Area
+BOF Bookmark Bearing BuildNumber Break Bottom BearingTo BigEndian
+Clear Close Count Caption Controls CancelUpdate Create CanEdit CanIdentify Comments
+CenterAt CenterAtXY CoordinateSystem CreateAppObject Checked Click CoordinateFormat
+CodeName CommEvent Ceiling Center CSDVersion
+Delete DefinedSize Datum DatumName Distance Depth DistanceTo
+Execute Enabled EOF Export Editable Extent Edit Escape EditLayer Extensions Exists
+Fields Field Find FindNearestXY Flattening FilePath Forms FixedZoom Floor
+FindWindow
+GeographicUnit GeographicName GoToXY GetProfileInt GetProfileString GPS
+hWnd HyperLink HyperLinkXY hInstance hResource Height HostName
+Item Index IsActive IsDeleted IsNull Import Identifiable Identify IdentifyXY ID
+IsOpen IsValidFix InBufferCount Inset IsPointIn IsMeasured Interval
+ListCount ListIndex LookUpCode LookUpConstant Label LayerFormat LayerType Layers LCID
+Latitude Longitude LOF Left 
+Mode Move MoveFirst MoveLast MoveNext MovePrevious Method MessageText MessageType
+MinorVersion MajorVersion MinimumMeasure MeasureRange MaximumMeasure Measure MGRS
+Name NumericScale Navigation
+Open Object OutBufferCount Offset OpenURL Optional OptionalIParam
+Pages Parent Properties Precision Project Parameters Projection ProjectionName
+ProjectionUnit PointerDisplayY PointerDisplayX PointerX PointerY PlaySound Protocol
+Parts Perimeter PostMessage PlatformID ProcessorArchitecture ProcessorLevels ProcessorRevision
+ProcessorType
+Quit QualityRadius
+Raise RemoveItem RecordCount Result Range Records Refresh Run Revision Read
+ReadByte ReadLine Right RequestAXL ResponseAXL ReadDouble ReadFloat ReadShort
+Show SetFocus Supports Shape ShapeType SemiMajorAxis String Save Select SelectXY
+SelectionBookmark SelectionLayer Scale StatusBar System Style ShowAbout ShowProperties
+Sentence ScaleRectangle SendAXLRequest ServerName ServerPort SendMessage ShowWindow
+Seek ShowOpen ShowSave ShowColor ShowSIP
+Test Text Type Transform TrackEllipse TrackRectangle Timer Top
+Update UserProperties
+Value Visible Validate Version
+WaitCursor WriteProfileInt WriteProfileString Width Write WriteByte WriteLine WriteDouble
+WriteFloat WriteLong WriteShort
+X
+Y
+Z
+/C3"Events" Colors = 65535 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+OnCancel OnKillActive OnLoad OnOk OnRefresh OnSetActive OnUnLoad OnChange OnMessage
+OnClick OnCloseUp OnDropDown OnKillFocus OnSelChange OnSetFocus OnValidate
+OnStartUp OnShutDown OnTimer OnAfterDraw OnFeatureAdded OnFeatureChanged
+OnFeatureDeleted OnSelectionChanged OnClose OnOpen OnGoTo OnInRange OnAverageStart
+OnAverageStop OnPosition OnSentence OnComm OnPointerDown OnPointerUp OnPointerMove
+/C4"Statements" Colors = 16777215 Colors Back = 0 Colors Auto Back = 0 Font Style = 0
+Call Class Const Case
+Dim Do
+Erase ExecuteGlobal Exit Each Else ElseIf End Explicit Error
+For Function
+Get
+If
+Loop Let
+Next
+On Option
+Private Property Public
+Randomize ReDim Rem
+Select Set Sub Step
+To Then
+Until
+While Wend With
+/C5"VBScript Constants" Colors = 255 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+vbBlack vbBlue vbCyan vbGreen vbMagenta vbRed vbWhite vbYellow
+vbBinaryCompare vbTextCompare
+vbSunday vbMonday vbTuesday vbWednesday vbThursday vbFriday vbSaturday vbUseSystem vbUseSystemDayOfWeek vbFirstJan1 vbFirstFourDays vbFirstFullWeek
+vbGeneralDate vbLongDate vbShortDate vbLongTime vbShortTime
+vbObjectError
+vbOKOnly vbOKCancel vbAbortRetryIgnore vbYesNoCancel vbYesNo vbRetryCancel vbCritical vbQuestion vbExclamation vbInformation vbDefaultButton1 vbDefaultButton2 vbDefaultButton3 vbDefaultButton4 vbApplicationModal vbSystemModal
+vbCr vbCrLf vbFormFeed vbLf vbNewLine vbNullChar vbNullString vbTab vbVerticalTab
+vbUseDefault vbTrue vbFalse
+vbEmpty vbNull vbInteger vbLong vbSingle vbDouble vbCurrency vbDate vbString vbObject vbError vbBoolean vbVariant
+vbDataObject vbDecimal vbByte vbArray
+/C6"Operators" Colors = 8388863 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+And
+Eqv
+Imp
+In Is
+Mod
+Not
+Or
+Xor
+=
++
+// /
+\
+*
+^
+-
+&
+/C7"Objects" Colors = 16776960 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+** ibx chk cbx cmd opt lst spn ebx sld udn dbx lbl tbt ctr apl frm pag tlb dir tbl lyr rst img fil pnt plg lin ply rct
+
+/L2"ArcPad XML" Noquote HTML_LANG Block Comment On = <!-- Block Comment Off = --> Block Comment On Alt = <% Block Comment Off Alt = %> String Chars = "' File Extensions = APA APL APX
+/Colors = 65280,8421504,8421376,8421631,16776960,
+/Colors Back = 0,0,0,0,0,
+/Colors Auto Back = 1,1,1,1,1,
+/Font Style = 0,0,0,0,0,
+/Delimiters = ~!@$%^&*()+=|\{}[]:;"'<> ,	.?
+/Function String = "[^t+, +]<FORM *"
+/Function String 1 = "[^t+, +]<EDITFORM *"
+/Function String 2 = "[^t+, +]<LAYER *"
+/Function String 3 = "[^t+, +]<SCRIPT *"
+/Function String 4 = "[^t+, +]<PAGE *"
+/Open Fold Strings = "<"
+/Close Fold Strings = "/>" "</"
+/C1"Tags" Colors = 16744703 Colors Back = 0 Colors Auto Back = 1 Font Style = 0
+<APPLET> <APPLET </APPLET> <APPLICATION> <APPLICATION </APPLICATION> <ArcPad> </ArcPad> <AUX> <AUX </AUX>
+<BOOKMARK> <BOOKMARK </BOOKMARK> <BOOKMARKS> </BOOKMARKS> <BUTTON> <BUTTON </BUTTON>
+<CHECKBOX> <CHECKBOX </CHECKBOX> <COMBOBOX> <COMBOBOX </COMBOBOX> <CONFIG> </CONFIG> <COORDSYS> </COORDSYS>
+<COMMENTS> <COMMENTS </COMMENTS> <COMPORT> <COMPORT </COMPORT>
+<DATETIME> <DATETIME </DATETIME> <DATASET> <DATASET </DATASET> <DEFAULTSYMBOLS> <DEFAULTSYMBOLS </DEFAULTSYMBOLS>
+<DISPLAY> <DISPLAY </DISPLAY>
+<EDIT> <EDIT </EDIT> <EDITFORM> <EDITFORM </EDITFORM> <ENVELOPE> <ENVELOPE </ENVELOPE>
+<FORM> <FORM </FORM> <FORMS> </FORMS>
+<GPS> <GPS </GPS>
+<HYPERLINK> <HYPERLINK </HYPERLINK>
+<IDENTIFYFORMS> <IDENTIFYFORMS </IDENTIFYFORMS> <IMAGEBOX> <IMAGEBOX </IMAGEBOX> <IMS> <IMS </IMS>
+<LABEL> <LABEL </LABEL> <LAYER> <LAYER </LAYER> <LISTBOX> <LISTBOX </LISTBOX> <LOCALE> <LOCALE </LOCALE>
+<MAP> <MAP </MAP> <METADATA> </METADATA> <MENUITEM> <MENUITEM </MENUITEM> <MAPGRID> </MAPGRID>
+<PAGE> <PAGE </PAGE> <PROPERTIES> </PROPERTIES>
+<RADIOBUTTON> <RADIOBUTTON </RADIOBUTTON>
+<SYSTEMOBJECTS> </SYSTEMOBJECTS> <SYMBOLOGY> <SYMBOLOGY </SYMBOLOGY> <STATUSBAR> <STATUSBAR </STATUSBAR>
+<SCALEBAR> <SCALEBAR </SCALEBAR> <SIMPLEMARKERSYMBOL> <SIMPLEMARKERSYMBOL </SIMPLEMARKERSYMBOL>
+<SIMPLELINESYMBOL> <SIMPLELINESYMBOL </SIMPLELINESYMBOL>
+<TOOLBARS> </TOOLBARS> <TOOLBAR> <TOOLBAR </TOOLBAR> <TOOLBUTTON> <TOOLBUTTON </TOOLBUTTON>
+<TRACKLOG> <TRACKLOG </TRACKLOG> <TEXTSYMBOL> <TEXTSYMBOL </TEXTSYMBOL>
+<UPDOWN> <UPDOWN </UPDOWN>
+<PREFERENCES> </PREFERENCES> <PATHS> <PATHS </PATHS>
+<SCRIPT <SCRIPT> </SCRIPT> <SYSTEMOBJECTS> <SYSTEMOBJECTS </SYSTEMOBJECTS> <SLIDER> <SLIDER </SLIDER>
+/>
+>
+/C2"Attributes" Colors = 65535 Colors Back = 0 Colors Auto Back = 1 Font Style = 0
+alignment=
+border=
+caption= command=
+defaultvalue=
+font= fontstyle= fontsize= fontcolor=
+height= hscroll=
+image=
+lcid= listtable= listvaluefield= listtextfield= limittolist=
+minx= miny= maxx= maxy=
+name=
+onstartup= onclick= onshutdown= onactivate= ondeactivate= oncomm= oncancel= onkillactive= onload= onok= onrefresh=
+onsetactive= onunload= onchange= oncloseup= ondropdown= onkillfocus= onselchange= onsetfocus= onvalidate=
+ontimer= onafterdraw= onfeatureadded= onfeaturechanged= onfeaturedeleted= onselectionchanged= onclose= onopen= ongoto=
+oninrange= onaveragestart= onaveragestop= onposition= onsentence= onpointerdown= onpointermove= onmessage= onselok= 
+src= sort= sip=
+tooltip= tabstop=
+visible= vscroll=
+width=
+x=
+y=
+

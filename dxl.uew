@@ -1,0 +1,75 @@
+/L20"DXL" Nocase Line Comment = // Block Comment On = /* Block Comment Off = */ String Chars = "' Escape Char = \ File Extensions = TRG INC DXL PAT OLD BAK DAT IDX
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/Open Brace Strings =  "{" "(" "["
+/Close Brace Strings = "}" ")" "]"
+/Open Fold Strings = "{"
+/Close Fold Strings = "}"
+/C1
+break by
+change const continue
+do
+else
+for
+if in
+return
+then
+while
+/C2
+AccessRec Array AttrDef AttrType
+Baseline Bitmap Buffer
+bool
+Column
+char
+Date DB DBE
+Filter
+History HistoryType
+int
+InPlaceEditEvent IPC
+Link Linkset
+Module
+Object OleAutoArgs OleAutoObj
+Permission Project
+real
+Regexp
+ScrollEvent ScrollSide Sensitivity Skip Sort Stat Stream
+string
+Template ToolType Trigger
+void
+/C3
+above accept ack activateURL active addToolTip addUser addMenu after all alternative alternatives ancestors append apply arrow attribute attributeValue attributes
+background before below beside block box button
+canDelete canRead canvas canWrite centered charOf changeBars checkBox choice clear clearClipboard clearToolTips client clipboardIsEmpty clipboardIsTransient close closeProject color confirm confAppend confDeleteFile confMkdir confRead confRenameFile confWrite contents copyFile copyFlat copyHier cos create createString current cut
+database default delete deleteFile deselect destroyBitmap directory disconnect display doorsname double down downgrade draw drawBitmap du dxl
+edit editor ellipse end eval_ exists exit_
+false field fileExists_ fileOverwriteOK_ fileReadable_ fileWriteable_ fileName filtering find first flushDeletions font formal full
+get getenv getSelection getSize goodFileName graphics
+halt hardDelete hasInPlace hasScrollbars height hide home
+identifier inactive info inherit inPlaceChoiceAdd inPlaceCopy inPlaceCut inPlaceGet inPlaceMove inPlacePaste inPlaceReset inPlaceSet inPlaceShow inPlaceTextHeight insert intOf isAdmin isBatch isDeleted isEdit isLocked isLockedByUser isNull isRead isSelected isShare isValidName isVisible isVisibleAttribute
+justify
+key
+label last lastError leaf left leftAligned length level line linkIndicators list load loadBitmap lock lower
+main manyToMany manyToOne margins match matches menuBar mkdir modified move multiList
+name next noElems noError notNull null number
+of off ok oleCloseAutoObject oleCopy oleCreateAutoObject oleCut oleGet oleInsert oleIsObject oleMethod olePaste olePut on oneToMany oneToOne open openProject opposite outline outlining
+pageBottomMargin pageBreakLevel pageChangeBars pageColumns pageFormat pageHeaderFooter pageHeight pageLayout pageLeftMargin pageName pagePortrait pageRepeatTitles pageRightMargin pageSize pageTitlePage pageTOCLevel pageTopMargin pageWidth parent parentOf pasteDown pasteSame pi platform polygon previous print progressCancelled progressMessage progressRange progressStart progressStep progressStop purgeObjects_ put
+query
+radioBox radioButton raise random read readFile realise realize realOf rectangle recv refresh reject release renameFile return_ richText right runLim
+save scroll scrollSet selected send separator server set setDef setDefaultViewForModule setempty setFocus setPos setSelection setSize setVal share show showDeletedModules showDeletedObjects showDeletedProjects showing sibling sin sizeof slider softDelete sorting source spell stacked start static statusBar stringOf switch sync
+tan target tempFileName text title today toggle toolBar toolBarComboAdd toolBarComboCount toolBarComboEmpty toolBarComboGetItem toolBarComboGetSelection toolBarComboSelect toolButton toolCombo toolSpacer toolToggle top topMost true type
+undelete unload unlockSaveSection unlockSaveAll unlockDiscardSection unlockDiscardAll up updateToolBars upper useraccess
+varchar verticalCheckBox verticalRadioBox view
+width write
+/C4
+attrDate attrEnumeration attrInteger attrReal attrString attrText
+colorBlack colorBlue colorBrown colorCyan colorDarkTurquoise colorGreen colorGrey colorGrey77 colorGrey82 colorLightBlue colorMagenta colorMaroon colorMediumLightBlue colorOrange colorPink colorRed colorRedGrey colorWhite colorYellow
+ddbAvailable ddbChecked ddbNone ddbUnavailable
+ICD_DECREASE_LEVEL ICD_INCREASE_LEVEL ICD_LEVEL1 ICD_LEVEL2 ICD_LEVEL3 ICD_LEVEL4 ICD_LEVEL5 ICD_LEVEL6 ICD_LEVEL7 ICD_LEVEL8 ICD_LEVEL10 ICD_LEVELALL ICD_OPEN_MODULE ICD_OPEN_PROJ
+inPlaceChoice inPlaceString inPlaceText inPlaceTextChange inPlaceTextFilled
+keyDelete keyDown keyEnd keyF1 keyF2 keyF3 keyF4 keyF5 keyF6 keyF7 keyF8 keyF9 keyF10 keyF11 keyF12 keyHelp keyHome keyInsert keyLeft keyPageDown keyPageUp keyRight keyUp
+logicalDefaultColor logical0IndicatorColor logical11IndicatorColor logical22IndicatorColor logical33IndicatorColor logical44IndicatorColor logical55IndicatorColor logical66IndicatorColor logical77IndicatorColor logical88IndicatorColor logical100IndicatorColor logicalCurrentBackgroundColor logicalDataTextColor logicalDeletedTextColor logicalHighIndicatorColor logicalInPlaceBackgroundColor logicalLinksInIndicatorColor logicalLowIndicatorColor logicalMediumIndicatorColor logicalPageBackgroundColor logicalReadOnlyTextColor logicalSelectedTextColor logicalTextBackgroundColor logicalTitleBackgroundColor logicalTitleTextColor
+scrollDown scrollPageDown scrollPageUp scrollToEnd scrollToHome scrollToPos scrollUp
+/C5
+#include
+pragma

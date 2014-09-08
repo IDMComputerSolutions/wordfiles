@@ -1,0 +1,167 @@
+/L10"2500AD 6502" Line Comment = * Line Comment Preceding Chars = [~!-] Line Comment Alt = ; File Extensions = *
+/Delimiters = 	[(-!#$%&)*,./:?@\]^_|~+<=>
+
+/C1"Op Codes"
+a adc and asl
+bcc bcs beq bit bmi bne bpl brk bvc
+clc cld cli clv cmp cpx cpy
+dec dex dey
+eor
+inc inx iny
+jmp jsr
+lda ldx ldy lsr
+nop
+ora
+pha php pla plp
+rol ror rti rts
+sbc sec sed sei sta stx sty
+tax tay tsx txa txs tya
+x
+y
+A ADC AND ASL
+BCC BCS BEQ BIT BMI BNE BPL BRK BVC
+CLC CLD CLI CLV CMP CPX CPY
+DEC DEX DEY
+EOR
+INC INX INY
+JMP JSR
+LDA LDX LDY LSR
+NOP
+ORA
+PHA PHP PLA PLP
+ROL ROR RTI RTS
+SBC SEC SED SEI STA STX STY
+TAX TAY TSX TXA TXS TYA
+X
+Y
+
+/C2"Assembler Directives"
+absolute align argchk ascii asclist ask auto
+bit7 blkb blkl blkw byte
+chip comment comrec cond condlist
+date db dbyte dc debug defb defl defs defw double ds dw
+eject else end endc endif endm endmod ends equ equal exit extern external
+fcb fcc fdb fillchar float
+global globals
+heading
+if ifabs ifclear ifdef ifdiff ife ifext iffalse ifma ifn ifnabs ifndef
+ifndiff ifnext ifnfalse ifnma ifnPAGE0 ifnrel ifnsame ifntrue ifnz ifPAGE0
+ifrel ifsame ifsseq ifssneq iftrue ifz include include indirect
+leadzero linklist list llchar long longchk longw lword
+macdelim macend macexit macfirst maclist macro macsep mask message messg mlist mnlist module
+nam nlist nolist
+offset only options org origin
+pag page pass1 passes pl public pw
+radix range recsize ref relative rmb
+section set spaces squote stack stacked string sttl subtitle subttl symbols syntax
+title top ttl twochar
+unresolved
+var
+word
+xdef
+xref
+ABSOLUTE ALIGN ARGCHK ASCII ASCLIST ASK AUTO
+BIT7 BLKB BLKL BLKW BYTE
+CHIP CODE COMMENT COMREC COND CONDLIST
+DATA DATE DB DBYTE DC DEBUG DEFB DEFL DEFS DEFW DOUBLE DS DW
+EJECT ELSE END ENDC ENDIF ENDM ENDMOD ENDS EQU EQUAL EXIT EXTERN EXTERNAL
+FCB FCC FDB FILLCHAR FLOAT
+GLOBAL GLOBALS
+HEADING
+IF IFABS IFCLEAR IFDEF IFDIFF IFE IFEXT IFFALSE IFMA IFN IFNABS IFNDEF
+IFNDIFF IFNEXT IFNFALSE IFNMA IFNPAGE0 IFNREL IFNSAME IFNTRUE IFNZ IFPAGE0
+IFREL IFSAME IFSSEQ IFSSNEQ IFTRUE IFZ INCLUDE INCLUDE INDIRECT
+LEADZERO LINKLIST LIST LLCHAR LONG LONGCHK LONGW LWORD
+MACDELIM MACEND MACEXIT MACFIRST MACLIST MACRO MACSEP MASK MESSAGE MESSG MLIST MNLIST MODULE
+NAM NLIST NOLIST
+OFFSET ONLY OPTIONS ORG ORIGIN
+PAG PAGE PAGE0 PASS1 PASSES PL PUBLIC PW
+RADIX RANGE RECSIZE REF RELATIVE RMB
+SECTION SET SPACES SQUOTE STACK STACKED STRING STTL SUBTITLE SUBTTL SYMBOLS SYNTAX
+TITLE TOP TTL TWOCHAR
+UNRESOLVED
+VAR
+WORD
+XDEF
+XREF
+
+/C4"Extensions"
+adp adr asm
+bin
+dat
+inh irq
+lst
+mac map
+obj
+pg0 pgx
+sym
+tsk
+wav
+ADP ADR ASM
+BIN
+DAT
+INH IRQ
+LST
+MAC MAP
+OBJ
+PG0 PGX
+SYM
+TSK
+WAV
+
+/C3"Operators"
+[
+-
+!
+#
+$
+%
+&
+(
+)
+,
+.
+// /
+:
+?
+@
+\
+]
+^
+_
+|
+~
++
+<
+=
+>
+b
+eq
+gt
+h high high16 high4 high8
+lo low low16 lt
+mod
+not
+o or
+q
+seg shl shr
+ugt
+ult
+xor
+B
+EQ
+GT
+H HIGH HIGH16 HIGH4 HIGH8
+LO LOW LOW16 LT
+MOD
+NOT
+O OR
+Q
+SEG SHL SHR
+UGT
+ULT
+XOR
+
+/C5"Labels"
+** ? % _ . ,
+

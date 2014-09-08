@@ -1,0 +1,124 @@
+/L20"JavaScript" JSCRIPT_LANG Line Comment = // Block Comment On = /* Block Comment Off = */ File Extensions = JS
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String = "%[ ^t]++function^(*(*)^)"
+/Function String 1 = "%[ ^t]++^(*^)=[ ^t]++function*(*)"
+/Indent Strings = "{" "else"
+/Unindent Strings = "}" "else"
+/C1"Keywords"
+abstract
+break byte
+case catch char class const continue
+default delete do double
+else extends
+false final finally float for function
+goto
+if implements import in instanceof int interface
+long
+native null
+package private protected public
+reset return
+short static super switch synchronized
+this throw transient true try
+var void
+while with
+/C2"Objects"
+Anchor Applet Area Arguments Array
+Boolean Button
+Checkbox Collection Crypto
+Date Dictionary Document Drive Drives
+Element Enumerator Event
+File FileObject FileSystemObject FileUpload Folder Folders Form Frame Function
+Global
+Hidden History HTMLElement
+Image Infinity Input
+JavaArray JavaClass JavaObject JavaPackage JSObject
+Layer Link
+Math MimeType
+Navigator Number
+Object Option
+Packages Password Plugin PrivilegeManager
+Random RegExp
+Screen Select String Submit
+Text Textarea
+URL
+VBArray
+Window WScript
+/C3"Methods and Properties"
+above abs acos action activeElement alert alinkColor all altKey anchor anchors appCodeName applets apply appName appVersion arguments arity asin assign atan atan2 atob
+availHeight availLeft availTop availWidth
+ActiveXObject
+back background below bgColor big blink blur bold border borderWidths bottom btoa button
+call callee caller cancelBubble captureEvents ceil charAt charCodeAt charset checked children classes className clear clearInterval clearTimeout click clientInformation
+clientX clientY close closed colorDepth compile complete concat confirm constructir contains contextual cookie cos crypto ctrlKey current
+data defaultCharset defaultChecked defaultSelected defaultStatus defaultValue description disableExternalCapture disablePrivilege document domain
+E Echo
+element elements embeds enabledPlugin enableExternalCapture enablePrivilege encoding escape eval event exec exp expando
+FromPoint
+fgColor fileName find fixed floor focus fontColor fontSize form forms forward frames fromCharCode fromElement
+getAttribute get getClass getDate getDay getFullYear getHours getMember getMilliseconds getMinutes getMonth getSeconds getSelection getSlot getTime getTimezoneOffset
+getUTCDate getUTCDay getUTCFullYear getUTCHours getUTCMilliseconds getUTCMinutes getUTCMonth getUTCSeconds getWindow getYear global go
+HandleEvent Height
+hash hidden history home host hostName href hspace
+id ids ignoreCase images index indexOf inner innerHTML innerText innerWidth insertAdjacentHTML insertAdjacentText isFinite isNaN italics
+java javaEnabled join
+keyCode
+Links LN10 LN2 LOG10E LOG2E
+lang language lastIndex lastIndexOf lastMatch lastModified lastParen layers layerX layerY left leftContext length link linkColor load location locationBar log lowsrc
+MAX_VALUE MIN_VALUE
+margins match max menubar method mimeTypes min modifiers moveAbove moveBelow moveBy moveTo moveToAbsolute multiline
+NaN NEGATIVE_INFINITY
+name navigate navigator netscape next number
+offscreenBuffering offset offsetHeight offsetLeft offsetParent offsetTop offsetWidth offsetX offsetY onabort onblur onchange onclick ondblclick ondragdrop onerror onfocus
+onHelp onkeydown onkeypress onkeyup onload onmousedown onmousemove onmouseout onmouseover onmouseup onmove onreset onresize onsubmit onunload open opener options outerHeight
+outerHTML outerText outerWidth
+POSITIVE_INFINITY PI
+paddings pageX pageXOffset pageY pageYOffset parent parentElement parentLayer parentWindow parse parseFloat parseInt pathname personalbar pixelDepth platform plugins pop
+port pow preference previous print prompt protocol prototype push
+random readyState reason referrer refresh releaseEvents reload removeAttribute removeMember replace resizeBy resizeTo returnValue reverse right rightcontext round
+SQRT1_2 SQRT2
+screenX screenY scroll scrollbars scrollBy scrollIntoView scrollTo search select selected selectedIndex self setAttribute setDay setFullYear setHotkeys setHours setInterval
+setMember setMilliseconds setMinutes setMonth setResizable setSeconds setSlot setTime setTimeout setUTCDate setUTCFullYear setUTCHours setUTCMillseconds setUTCMinutes
+setUTCMonth setUTCSeconds setYear setZOptions shift shiftKey siblingAbove siblingBelow signText sin slice smallsort source sourceIndex splice split sqrt src
+srcElement srcFilter status statusbar stop strike style sub submit substr substring suffixes sun sup systemLanguage
+TYPE
+tagName tags taint taintEnabled tan target test text title toElement toGMTString toLocaleString toLowerCase toolbar top toString toUpperCase toUTCString type typeof
+UTC
+unescape unshift untaint unwatch userAgent userLanguage
+value valueOf visibility vlinkColor vspace
+watch which width window write writeln
+x
+y
+zIndex
+
+/C4"Operators"
+!
+$
+%
+&
+*
++
+-
+// /
+:
+<
+=
+>
+?
+[
+]
+^
+|
+~
+is
+new
+sizeof
+typeof
+unchecked
+
+/C5"Separs"
+(
+)
+,
+;
+{
+}

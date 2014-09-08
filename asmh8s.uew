@@ -1,0 +1,73 @@
+/L20"H8S Assembler" AASM_LANG Line Comment = ; String Chars = "' File Extensions = S ASM INC
+/Delimiters = !@#%^&*()-+=|\/{}[]:;"'<> , .?
+/Function String = "%[a-zA-Z]*)"
+/C1
+add addx and adds andc adc adiw asr andi
+bset bsr bclr bnot btst bld bild bst bist band biand bor bior bxor bixor bra brn bhi bls bcc bhs bcs blo bne beq bvc bvs bpl bmi bge blt bgt ble b brbs brbc breq brne brcs br brsh brlo brmi brpl brge brlt brhs brhc brts brtc brvs brvc brie brid bst brcc
+cc cmp cp cpc cpi clc cbi cln clz cls clt clh clr cpse cli com
+das dec daa divxu divxs
+eepmov extu exts eor
+high
+inc ijmp icall in
+jmp jsr
+ldm ldc l ldi ld lpm ldd lds low lsl lsr
+mov movfpe movtpe mulxu mulxs
+not neg nop
+or orc out ori
+pop push
+rts rte rotl rotr rotxl rotxr rjmp rcall rol ror ret reti
+sub stm subs subx shal shar shll shlr sleep stc swap sbrc sbrs sbic sbis st sbi sec sen sei sev set seh ser sts subi sbc sbiw sbci std
+tas trapa
+vlv
+w wdr
+xor xcorc
+.
+/C2
+ascii asciz align
+bss
+comm cseg
+def dim dseg device
+equ endef end extern eseg
+file
+int include
+text type
+global
+long list
+nolist
+org
+rodata
+section scl size
+h8300h
+val
+/C3
+@
+#
+/C4
+ccr
+er0 er1 er2 er3 er4 er5 er6 er7
+e0 e1 e2 e3 e4 e5 e6 e7 e8 e9
+exr
+r0 r1 r2 r3 r4 r5 r6 r7 r8 r9 r10 r11 r12 r13 r14 r15 r16 r17 r18 r19 r20 r21 r22 r23 r24 r25 r26 r27 r28 r29 r30 r31
+r0l r0h r1l r1h r2l r2h r3l r3h r4l r4h r5l r5h r6l r6h r7l r7h
+sp ccr
+X XL XH
+Y YL YH
+Z ZL ZH
+
+/C5
+ACSR ACD ACO ACI ACIE ACIC ACIS1 ACIS0 ADEN	ADSC ADFR ADIF ADIE ADPS0 ADPS1 ADPS2 ADCSR ADSC ADMUX ADCH ADCL ASSR ADEN AS2
+CTC1 CS12 CS11 CS10	COM1A COM1A COM1B COM1B CPOL CPHA CHR9 CS02 CS01 CS00 COM1A1 COM1A0 COM1B1 COM1B0 COM21 COM20 CTC2 CS22 CS21 CS20
+DDRA DDRB DDRC DDRD DORD
+EEARH EEARL EEDR EECR EEMWE EEWE EERE EERE EERIE EXTRF EEAR E2END
+FE FLASHEND
+GIMSK GIFR
+ICR1H ICR1L ICF1 ISC11 ISC10 ISC01 ISC00 ICNC1 ICES1 INT1 INT0 INTF1 INTF0
+MSTR MCUCR MCUSR MUX0 MUX1 MUX2
+OCR1AL OCR1AH OCR1BL OCR1BH OCIE1 OCIE1 OCF1A OCF1B OR OCR2 OCR2UB OCIE2 OCIE1A OCIE1B OCF2
+PORTA PORTB PORTC PORTD PINA PINB PINC PIND PWM11 PWM10 PORF PWM2
+RXC RXCIE RXEN RXB8
+SPIE SPE SRE SRW SE SM SPDR SPSR SPCR SREG SPH SPL SPR1 SPR0 SPIF SM1 SM0
+TIMSK TIFR TXB8 TCCR0 TCNT0 TCCRA TCCR1B TCNT1L TCNT1H TOIE1 TICIE TOIE0 TOV1 TOV0 TXC TXCIE TXEN TCCR2 TCCR1A TCNT2 TCR2UB TCN2UB TOIE2 TICIE1 TOV2
+UDR USR	UCR	UBRR UDRE UDRIE USR UCR UBRR
+WDTCR WDTOE WDE WDP2 WDP1 WDP0 WCOL
+XRAMEND

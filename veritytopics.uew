@@ -1,0 +1,28 @@
+/L20"Verity Topic File" Nocase HTML_LANG Line Comment = # String Chars = "' File Extensions = OTL
+/Delimiters = ~!@%^&()-+=|\/{}[]:;<>"' ,	.?
+/C1
+<ACCRUE> <ALL> <AND> <ANY>
+<CONTAINS> 
+<ENDS>
+<FILTER> <FULLTEXT>
+<IN>
+<MATCHES>
+<NEAR>
+<OR>
+<PARAGRAPH> <PHRASE> <PRODUCT>
+<SENTENCE> <SOUNDEX> <STARTS> <STEM> <SUBSTRING>
+<THESAURUS>
+<WHERE> <WILDCARD> <WORD>
+<YESNO>
+/C2
+<CASE>
+<MANY>
+<NOT>
+<ORDER>
+/C3
+*
+?
+/C4
+definition
+wordtext
+zonespec

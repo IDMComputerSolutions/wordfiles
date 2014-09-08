@@ -1,0 +1,21 @@
+/L20"Hamster Mailfilter" Nocase Line Comment = # Line Comment Alt = #! String char = " File Extensions = HST
+
+/Delimiters = ~!@%^&*()+=|\/:;<> 	.?'"
+
+/C1"Action"
+admin
+load
+kill
+ignore
+notify
+expire
+
+/C2"Headers"
+any-sender
+any-recipient
+Bytes
+Date
+From
+Subject
+To
+x-mailer

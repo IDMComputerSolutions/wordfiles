@@ -1,0 +1,136 @@
+/L20"Micros ISL" Line Comment = // Nocase String Chars = " File Extensions = ISL
+
+/Delimiters = ~!$%^*()+=/\[]{}:;"<>'´` ,	.?
+
+/Function String 1 = "%Event"
+/Function String 2 = "%Sub[ ]+[a-zA-Z]+"
+
+/Open Brace Strings = "Sub" "If" "Event" "For" "(" "While" "ForEver"
+/Close Brace Strings = "EndSub" "EndIf" "EndEvent" "EndFor" ")" "EndWhile" "EndFor"
+
+/Open Fold Strings = "Sub" "If" "Event" "For" "While" "ForEver"
+/Close Fold Strings = "EndSub" "EndIf" "EndEvent" "EndFor" "EndWhile" "EndFor"
+
+/Indent Strings = "Sub" "If" "Event" "For" "Else" "ElseIf" "While" "ForEver"
+/Unindent Strings = "EndSub" "EndIf" "EndEvent" "EndFor" "Else" "ElseIf" "EndWhile"
+
+/C1"ISL Function Declarations" STYLE_METHOD
+EndSub Event EndEvent
+Final_Tender
+Inq
+Print_Header Print_Trailer
+RxMsg
+Sub
+Tmed
+(
+)
+
+/C2"ISL Variable Declaration" 
+Ref
+Var
+:
+
+/C3"ISL Built-In Variables" STYLE_VARIABLE
+@addxfer_chk_from @addxfer_chk_to @addxfer_grp_from @addxfer_grp_to @addxfer_rvc_from @addxfer_rvc_to @addxfer_tbl_from @addxfer_tbl_to @alphascreen @authemp @authemp_fname @authemp_lname @authtype @autoseq @autosvc
+@beverage_reqd @bootserialnum @bootserialstr
+@ccdate @ccnumber @center @change @checkdata @chgtip @chk @chk_open_time @ckcshr @ckcshr_name @ckemp @ckemp_chkname @ckemp_fname @ckemp_lname @ckid @cknum @client_online @colorschemename @colorschemenum
+@day @dbversion @default_color @detailsorted @dsc @dsci @dtl_caacctinfo @dtl_cabasettl @dtl_caexpdate @dtl_catipttl @dtl_catmedobjnum @dtl_defseq @dtl_dsci @dtl_famgrp @dtl_index @dtl_is_void @dtl_majgrp @dtl_mlvl @dtl_name @dtl_objnum @dtl_plvl @dtl_pmslink @dtl_priceseq @dtl_qty @dtl_seat @dtl_selected @dtl_shared_num @dtl_shared @dtl_shared_den @dtl_slsi @dtl_slvl @dtl_status @dtl_surcharge @dtl_svci @dtl_taxttl @dtl_taxtype @dtl_ttl @dtl_type @dtl_typedef @dwoff @dwon
+@emplopt @epoch @errcode @errormsg @eventid @eventtype
+@fieldstatus @file_bfrsize @file_errno @file_errstr @file_separator @filter_active @filter_mask @fiscaltimeout
+@grpnum @gst @gstrmng @gstthistender @guid @guinum @guinumrvc
+@header @hour
+@ignoreprmt @inbackupactive @ineditclosedcheck @inputstatus @inreopenclosedcheck @instandalonemode @isunicode
+@jnl
+@key_cancel @key_clear @key_down_arrow @key_end @key_enter @key_exit @key_home @key_left_arrow @key_page_up @key_page_down @key_right_arrow @key_up_arrow
+@lastcknum @line @line_executed
+@magstatus @max_lines_to_run @maxdtlr @maxdtlt @minute @mngrprocnum @month
+@nul @numdsc @numdtlr @numdtlt @numericscreen @numsi @numsvc @numtax
+@obj @offlinelink @ordertype @ordertype_name @ordr @os_platform
+@padwsnum @pickuploan @pid @platform @pmsbuffer @pmslink @pmsnumber @prevpay @printstatus @proratetnd
+@qty
+@random @rcpt @redoff @redon @returnstatus @rvc @rvc_name @rvcserialnum @rxmsg
+@seat @second @show_pms_messages @si @sigcapdata @simdblink @srvprd @strict_args @sustaincustomtext @svc @svci @sysserialnum @system_status
+@tax @taxrate @tblid @tblnum @tmdnum @tndttl @trace @trailer @trainingmode @trcshr @trdtl @trdtlr @trdtlt @tremp @tremp_chkname @tremp_fname @tremp_lname @ttl @ttldue @txbl @txex_active
+@userentry
+@vald @varspace @varused @version @voidstatus
+@warnings_are_fatal @wcols @weekday @wrows @wsid @wssubtype @wstype
+@year @yearday
+
+/C4"ISL Built-In Functions" STYLE_FUNCTION
+Abs ArraySize Asc
+Bit
+Chr
+Env
+Feof FTell
+GetHex
+Instr
+Key KeyNumber KeyType
+Len
+MakeKeys Mid
+ToInteger Trim
+VarSize
+
+/C5"Control Structures" STYLE_KEYWORD
+Else ElseIf EndFor EndIf EndWhile
+For ForEver
+If
+Step
+Then To
+While
+
+/C6"Operators" STYLE_OPERATOR
+!
+%
+&
+*
++
+-
+// /
+<>
+<
+>
+=
+^
+|
+~
+[
+]
+And
+Not
+Or
+
+/C7"ISL Secret Variables" STYLE_VARIABLE
+%allow_timeouts
+%dbcount1 %dbcount2 %dbcount3 %decimal_point %disable_txex_not_allowed_error
+%evaluate_depth %event_type
+%fake_pms %fake_print
+%ignore_macros
+%kbhit_mode
+%lines_executed %log_program_lines %log_scanned_commands
+%mag_card_track_1_count %mag_card_track_2_count %mag_card_track_3_count
+%no_abort_on_clear %no_execute %no_short_cut_next_line
+%ops_error_code
+%pms_rx_buffer_pending %pms_sequence_number %procedure_nesting
+%script_file_encrypted %show_alloc %show_ms_input %show_pms_messages %single_step %sub_cache_tests %sub_cache_hits %sub_cache_disabled %sub_pointer
+%var_heap_used %var_heap_count %var_heap_size
+
+/C8"ISL Built-In Commands" STYLE_COMMAND
+As AllowLastItemVoid
+Beep Break
+Call ClearArray ClearChkInfo ClearIslTs ClearKybdMacro ClearRearArea ContinueOnCancel
+Debug Display DiscardGlobalVar DisplayInput DisplayInverse DisplayIslTs DisplayKBArea DisplayMSInput DisplayRearArea DisplayTouchscreen DLLCall DLLCallW DLLFree DLLLoad DumpVar
+EditDetail EditDetailBySeq EndPrint EndPrintNOFF EndPrintFF ErrorBeep ErrorMessage ExitCancel ExitContinue ExitOnCancel ExitWithError 
+FakePMS FakePrint FClose FiscalPrint FileInfo FLock FOpen Format FormatBuffer FormatQ FRead FReadBfr FReadLn FSeek FUnLock FWrite FWriteBfr FWriteLn
+GetEnterOrClear GetRxMsg GetTime
+Include InfoMessage Input Inputkey
+LineFeed ListDisplay ListInput ListInputEx ListPrint LoadDbKybdMacro LoadKybdMacro Log LowerCase
+MakeAscii MakeUnicode MSleep
+Pause PopUpIslTs PrintLine PrintSys Prompt ProRate
+QueueMsg
+ReadEventParm RetainGlobalVar Return ReTxMsg RxMsg
+SaveChkInfo SaveRefInfo SaveRefInfox Scan SetIslTsKey SetReRead SetSignOnLeft SetSignOnRight SetString ShowAlloc ShowEvent ShowPMS SIMDB SingleStep Split SplitQ StartLPPrint StartLPPrintWithStatus StartPrint StartPrintWithStatus System
+TimerReset TimerSet Touchscreen TxEvent TxMsg TxMsgOnly
+UpperCase UseBackupTender UseCancelPrintKey UseCompatFormat UseISLFormat UseSTDTimeOuts UseISLTimeOuts UseSortedDetail UseStdDetail UseTMSFormat
+Voiditem
+WaitForClear WaitForConfirm WaitForEnter WaitForRxMsg Window WindowClear WindowClose WindowEdit WindowEditWithSave WindowX WindowInput WindowInputWithSave WindowScrollDown WindowScrollUp WSMacroExec WSMacroRead WSMacroRecord WSMacroReset WSMacroWrite
+

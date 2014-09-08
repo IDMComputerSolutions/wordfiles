@@ -1,0 +1,51 @@
+/L20"General Algebraic Modeling System" Nocase FORTRAN_LANG Block Comment On = $ontext Block Comment Off = $offtext Block Comment On Alt = { Block Comment Off Alt = } File Extensions = GMS BAKGMS DAT
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String = "%[a-zA-Z]*)"
+/C1"Reserved Words"
+abort acronym acronyms alias all and assign
+binary
+card
+diag display
+eps eq equation equations else
+file files free for
+ge gt
+inf integer if
+le loop lt
+maximizing minimizing model models
+na ne negative not no
+option options or ord
+parameter parameters positive prod putpage puttl
+repeat
+sameas scalar scalars set sets smax smin sos1 sos2 sum system semicont semiint solve
+table then
+using until
+variable variables
+while
+xor
+yes
+/C2"Operators"
+==
+/C3"Dollar Functions"
+abort
+batinclude
+call clear comment
+dollar double
+echo eject eolcom error exit
+goto
+hidden
+include inlinecom
+kill
+label libinclude lines
+maxcol mincol
+offdelim offdigit offdollar offempty offend offeolcom offeps offglobal offinclude offinline offlisting offmargin offmixed offmulti offnestcom offsymlist offsymxref offuellist 
+offuelxref offupper offwarning ondelim ondigit ondollar onempty onend oneolcom oneps onglobal oninclude oninline onlisting onmargin onmixed onmulti onnestcom onsymlist 
+onsymxref onuellist onuelxref onupper onwarning
+phantom
+shift single stars stitle sysinclude
+title
+use205 use225 use999
+$abort $batinclude $call $clear $comment $dollar $double $echo $eject $eolcom $error $exit $goto $hidden $if $include $inlinecom $kill $label $libinclude $lines $maxcol 
+$mincol $offdelim $offdigit $offdollar $offempty $offend  $offeolcom $offeps $offglobal $offinclude $offinline $offlisting $offmargin $offmixed $offmulti $offnestcom 
+$offsymlist $offsymxref $offuellist $offuelxref $offupper $offwarning $ondelim $ondigit $ondollar $onempty $onend $oneolcom $oneps $onglobal $oninclude $oninline $onlisting 
+$onmargin $onmixed $onmulti $onnestcom $onsymlist $onsymxref $onuellist $onuelxref $onupper $onwarning $phantom $setglobal $shift $single $stars $stitle $sysinclude $title 
+$use205 $use225 $use999

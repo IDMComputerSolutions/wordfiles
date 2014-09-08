@@ -1,0 +1,82 @@
+/L10"Batch Command Script" Nocase Noquote Line Comment = REM Line Comment Alt = :: String Chars = "' File Extensions = BAT CMD
+/Delimiters = ~@$^&*()+|\{}[]:;"'<> ,	.?
+/Function String = "%[^%].%"
+/Function String 1 = "name=*">"
+/C1"Keywords"
+IF
+ERRORLEVEL EXIST
+GOTO
+LPT1 LPT2
+COM1 COM2 CON
+NOT NUL
+PRN
+/C2"Commands"
+ASSOC AT ATTRIB
+BREAK
+CACLS CALL CD CHCP CHDIR CHKDSK CHKNTFS CLS CMD COLOR COMP
+COMMAND COMPACT CONVERT COPY
+DATE DEL DIR DISKCOMP DISKCOPY DOSKEY
+ECHO ENDLOCAL ERASE EXIT
+FC FIND FINDSTR FOR FORMAT FTYPE
+GRAFTABL
+HELP
+LABEL
+MD MKDIR MODE MORE MOVE
+PATH PAUSE POPD PRINT PROMPT PUSHD
+RD RECOVER REN RENAME REPLACE RMDIR
+SET SETLOCAL SGN SHIFT SORT START SUBST
+TIME TITLE TREE TYPE
+VER VERIFY VOL
+XCOPY
+/C3"Extern Commands"
+accwiz actmovie ahui alg append arp asr_fmt asr_ldm asr_pfu atmadm auditusr AUTMGR32 autochk autoconv autofmt autolfn
+BAT bcp blastcln bootcfg bootok bootvrfy BRSP104A BRSP204A BRSS01A BRSVC01A
+COMPRESS cdw cnfgsvr cmdwrap console calc charmap cidaemo cipher cisvc ckcnv cleanmgr CleanUp cliconfg clipbrd clipsrv clspack  cmdl32 cmmon32 cmstp conime control convlog cscript csrss ctfmon 
+dcomcnfg dcomscm distrib dtsrun dtsrunui dtswiz dw15 DUMPEL ddeshare debug defrag dfrgfat dfrgntfs diantz diskpart diskperf dllhost dllhst3g dmadmin dmremote dosx dplaysvr dpnsvr dpvsetup driverquery drwatson drwtsn32 DSndUp dumprep dvdplay dvdupgrd dwwin dxdiag
+EXE ELOGDMP edlin esentutl eudcedit eventcreate eventtriggers eventvwr evntcmd evntwin exe2bin expand extrac32
+fastopen FileOps finger fixmapi fltMc fontview forcedos fsquirt fsutil ftp
+gdi getmac gpresult gpupdate grpconv
+hkcmd hostname htmlgen
+INI isql isqlw itwiz iexplore ie4uinit iexpress igfxcfg igfxdiag igfxext igfxtray igfxzoom iisreset imapi insrepim ipconfig ipsec6 ipv6 ipxroute
+JAR java javaw javaws jdbgmgr jview
+krnl386
+logread lights lnkstub locator lodctr logagent logman logoff logonui lpq lpr lsass
+magnify makecab MDM mem migpwd mmc mnmsrvc mobsync mountvol mplay32 mpnotify mqbkup mqsvc mqtgsvc mrinfo MRT mscdexnt msdtc msg mshta msiexec mspaint msswchx mstinit mstsc
+narrator nbtstat nddeapir net net1 netdde netsetup netsh netstat nfsclnt nlsfunc notepad nslookup ntbackup ntkrnlpa ntoskrnl ntsd ntvdm nw16 nwscript
+odbccmpt osql odbcad32 odbcconf openfiles osk osuninst
+profiler packager pathping pentnt perfmon ping ping6 POSIX PowerCalc powercfg progman proquota Prounstl proxycfg PSXRUN PSXSS
+qrdrsvc qappsrv qprocess qwinsta
+rebuildm replmerg replupd regedit RACMGR32 rasautou rasdial rasphone rcimlby rcp rdpclip rdsaddin rdshost redir reg REGCLADM regedt32 regini regsvr32 regwiz relog reset rexec route routemon rsh rsm rsmsink rsmui rsnotify rsopprov rsvp rtcshare runas rundll32 runonce rwinsta
+SYS scm snapshot sqladhlp sqldumper sqlftwiz sqlmangr svrnetcn sqlagent sqldiag sqlmaint shell savedump sc scardsvr schtasks sdbinst secedit services sessmgr sethc setup setver sfc shadow share shmgrate shrpubw shutdown sigverif skeys smbinst smlogsvc smss sndrec32 sndvol32 snmp snmptrap spiisupd spnpinst spoolsv sprestrt spupdsvc stimon svchost syncapp sysedit syskey sysocmgr systeminfo systray
+textcopy taskkill tasklist taskman taskmgr tcmsetup tcpsvcs telnet tftp tlntadmn tlntsess tlntsvr tourstart tracerpt tracert tracert6 tscon tscupgrd tsdiscon tskill tsshutdn TweakUI typeperf
+uncol unlodctr upnpcont ups user userinit usrmlnka usrprbda usrshuta utilman
+vswitch verifier verinst VFP6RUN vssadmin vssvc vwipxspx
+wiztrace WOWPOST w32tm wextract wiaacmgr winchat WINDBVER winhlp32 winlogon winmsd winspool winver WISPTIS wjview wowdeb wowexec wpabaln wpnpinst write wscntfy wscript wuauclt wuauclt1 wupdmgr
+xpadsi
+/C4"Operators"
+==
+!==!
+|
+@
+*
+>
+>>
+<
+:
+/C5"Separators"
+,
+;
+/C6"Parameters"
+-A -B -C -M -O -R -S -T -W -X -b -c -d -e -f -g -k -l -o -p -r -s -t -u -w -x -z
+ACCOUNTS
+COMPUTER CONFIG CONFIG CONFIG CONTINUE
+FILE
+GROUP
+HELPMSG
+LOCALGROUP
+NAME
+OFF ON
+SEND SERVER SESSION STATISTICS STOP
+USE
+VIEW
+WORKSTATION

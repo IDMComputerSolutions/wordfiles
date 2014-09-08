@@ -1,0 +1,228 @@
+/L20"LotusScript" Line Comment = ' Line Comment Alt = REM String Chars = " Block Comment On = %REM Block Comment Off = %END REM Escape Char = \ File Extensions = LS LSS
+/Delimiters = ~!@^&*()+|\/{}[]:;"'<> 	,.?/
+/Function String = "%^(^{Sub^}^{Function^}*^)("
+/Function String 1 = "%^{Sub^}^{Function^}*^)"
+/C1"Data Type & Class"
+As
+Button
+Currency
+Double
+Field
+Integer
+Long
+Navigator New NotesACL NotesACLEntry NotesAgent NotesDatabase NotesDateRange 
+NotesDateTime NotesDbDirectory NotesDocument NotesDocumentCollection 
+NotesEmbeddedObject NotesForm NotesInternational NotesItem NotesLog NotesMIMEEntity 
+NotesName NotesNewsletter NotesOutline NotesOutlineEntry NotesRegistration 
+NotesReplication NotesRichTextItem NotesRichTextParagraphStyle NotesRichTextStyle 
+NotesRichTextTab NotesSession NotesTimer NotesUIDatabase NotesUIDocument NotesUIView 
+NotesUIWorkspace NotesView NotesViewColumn NotesViewEntry NotesViewEntryCollection 
+NotesViewNavigator
+ODBCConnection ODBCQuery ODBCResultSet
+Single String
+Variant
+/C2"Operators"
+*
++
+-
+// /
+<
+<= <>
+= =< =>
+> ><
+>= 
+^
+And
+Eqv
+Imp Is IsA
+Mod
+Not
+Or
+Xor
+/C3"Function"
+Abs ACos ArrayAppend ArrayGetIndex ArrayReplace Asc ASin ATn ATn2
+Bin Bin$
+CCur CDat CDbl Chr Chr$ CInt CLng CodeLock CodeLockCheck CodeUnlock Command Cos 
+CreateLock CreateObject CSng CStr CurDir CurDir$ CurDrive CurDrive$ CVar
+DataType Date Date$ DateNumber DateValue Day DestroyLock Dir Dir$
+Environ Environ$ EOF Erl Err Error Error$ Exp Evaluate Execute
+FileAttr FileDateTime FileLen Fix Format Format$ Fraction FreeFile FullTrim
+GetFileAttr GetObject GetThreadInfo
+Hex Hex$ Hour
+IMESetMode IMEStatus Input Input$ InputB InputB$ InputBox InputBox$ InputBP InputBP$ 
+InStr InStrB InStrBP InStrC Int IsArray IsDate IsDefined IsElement IsEmpty IsList 
+IsNull IsNumeric IsObject IsScalar IsUnknown
+LBound LCase LCase$ Left Left$ LeftB LeftB$ LeftBP LeftBP$ LeftC Len LenB LenBP LenC 
+ListTag LOC LOF Log LTrim LTrim$
+MessageBox Mid Mid$ MidB MidB$ MidBP MidBP$ MidC Minute Month
+Now
+Oct Oct$
+Right Right$ RightB RightB$ RightBP RightBP$ RightC Rnd Round RTrim RTrim$ 
+Second Seek Sgn Shell Sin Space Space$ Spc Sqr Str Str$ StrCompare StrConv StrLeft 
+StrLeftBack StrRight StrRightBack String$
+Tab Tan Time Time$ TimeNumber Timer TimeValue Today Trim Trim$ TypeName
+UBound UCase UCase$ UChr UChr$ Uni UString UString$
+Val
+Weekday
+Year Yield
+/C4"Method & Property"
+Abbreviated Abstract Abstract ACL Activate AddCertifierToAddressbook AddDatabase 
+AddDocument AddEntry AddEntry AddNewLine AddPageBreak Addr821 Addr822Comment1 
+Addr822Comment2 Addr822Comment3 Addr822LocalPart Addr822Phrase AddressBooks AddRole 
+AddRow AddServerToAddressbook AddTab AddUserProfile AddUserToAddressbook AdjustDay 
+AdjustHour AdjustMinute AdjustMonth AdjustSecond AdjustYear ADMD Agents Alias Aliases 
+Alignment AllDocuments AllEntries AltOrgUnit AltOrgUnitLang AMString AppendDocLink 
+AppendItemValue AppendParagraphStyle AppendRTItem AppendStyle AppendText 
+AppendToTextList Authors AutoCommit AutoReload AutoUpdate
+BackgroundColor Bold
+CacheLimit CacheSize CalendarDateTime CanCreateDocuments CanCreateLSOrJavaAgent 
+CanCreatePersonalAgent CanCreatePersonalFolder CanCreateSharedFolder CanDeleteDocuments 
+Canonical CaretCategory Categories Categorize CertifierIDFile CheckAlarms ChildCount 
+Class Clear ClearAllTabs ClearHistory Close CollapseAllSections ColumnCount 
+ColumnIndentLevel ColumnNames Columns ColumnValues ColumnValues Comment 
+CommitOnDisconnect CommitTransactions Common CommonOwner CommonUserName Compact 
+ComposeDocument ComputeWithForm Connection ConnectTo Contains ContentAsText 
+ContentSubType ContentType ConvertMime ConvertToZone Copy CopyAllItems CopyItem 
+CopyItemToDocument CopyToDatabase Count Country Create CreateACLEntry CreateCopy 
+Created CreateDatabase CreateDateRange CreateDateTime CreateDocument CreateEntry 
+CreateEntryFrom CreateFromTemplate CreateLog CreateMailDb CreateName CreateNewsletter 
+CreateOutline CreateRegistration CreateReplica CreateReplyMessage 
+CreateRichTextItem CreateRichTextParagraphStyle CreateRichTextStyle CreateTimer 
+CreateViewNav CreateViewNavFrom CreateViewNavFromCategory CreateViewNavFromChildren 
+CreateViewNavFromDescendants CreateViewNavMaxLevel CrossCertify CurrencyDigits 
+CurrencySymbol CurrentAccessLevel CurrentAgent CurrentCalendarDateTime CurrentDatabase 
+CurrentDatabase CurrentDocument CurrentField CurrentRow CurrentView Cut CutoffDate 
+CutoffDelete CutoffInterval
+Database Database DataSourceName DateFmt DateOnly DateSep DateTimeValue DecimalSep 
+DelayUpdates DeleteDocument DeleteDocument DeleteEntry DeleteIDOnServer DeleteRole 
+DeleteRow DescendantCount DeselectAll DesignTemplateName DialogBox DialogBoxCanceled 
+Disabled DisableRole Disconnect Document DocumentContext Documents DoScore DoSubject 
+DoVerb
+EditDocument EditMode EditProfile EffectiveUserName Effects EmbeddedObjects 
+EmbeddedObjects EmbedObject EnableAlarms Enabled EnableFolder EnableRole Encrypt 
+EncryptionKeys EncryptOnSend EndDateTime EntryClass ExecProcedure 
+ExpandAllSections Expiration ExtractFile
+FetchBatchSize FieldAppendText FieldClear FieldContains FieldExpectedDataType 
+FieldGetText FieldHelp FieldID FieldInfo FieldName FieldNativeDataType Fields 
+FieldSetText FieldSize FileName FilePath FileSize FindFreeTimeDialog 
+FindFreeTimeDialogEx FindString FirstLineLeftMargin FirstRow FitBelowFields FitToWindow 
+Folder FolderReferences FolderReferencesEnabled FontColor FontFace FontPointSize 
+FontSize FontStyle FormatDocument FormatMsgWithDoclinks Forms Formula Formula FormUsers 
+Forward FrameText FreeTimeSearch FTDomainSearch FTSearch FTSearchScore
+Generation GetAgent GetAllDocumentsByKey GetAllEntriesByKey GetAttachment GetChild 
+GetColumn GetCurrent GetDatabase GetDbDirectory GetDocument GetDocumentByID 
+GetDocumentByKey GetDocumentByUNID GetDocumentByURL GetEmbeddedObject GetEntry 
+GetEntryByKey GetEnvironmentString GetEnvironmentValue GetError GetError GetError 
+GetErrorMessage GetErrorMessage GetErrorMessage GetExtendedErrorMessage 
+GetExtendedErrorMessage GetExtendedErrorMessage GetFirst GetFirstChildEntity 
+GetFirstDatabase GetFirstDocument GetFirstDocument GetFirstEntry GetFirstItem GetForm 
+GetFormattedText GetIDFromServer GetItemValue GetLast GetLastDocument GetLastEntry 
+GetListOfTunes GetLSDOMasterRevision GetMIMEEntity GetNext GetNextCategory 
+GetNextDatabase GetNextDocument GetNextEntry GetNextSibling GetNth GetNthDocument 
+GetNthEntry GetOutline GetParameter GetParameterName GetParent 
+GetParentDocument GetParentEntity GetPos GetPosition GetPrev GetPrevCategory 
+GetPrevDocument GetPrevDocument GetPrevDocument GetPrevEntry GetPrevSibling 
+GetProfileDocCollection GetProfileDocument GetRowStatus GetSelectedText 
+GetURLHeaderInfo GetUserInfo GetValue GetView Given GMTTime GotoBottom GotoChild 
+GotoEntry GotoField GotoFirst GotoFirstDocument GotoLast GotoLastDocument GotoNext 
+GotoNextCategory GotoNextDocument GotoNextField GotoNextSibling GotoParent GotoPos 
+GotoPrev GotoPrevCategory GotoPrevDocument GotoPrevField GotoPrevSibling GotoTop 
+GrantAccess
+HasChildren HasEmbedded HasItem HasRowChanged HasRunSinceModified HeaderAlignment 
+HeaderLines Headers HiddenChars HideFormula HorzScrollBar HttpURL
+IDType IgnoreDeletes IgnoreDestDeletes ImagesText Import IndentLevel Initialize 
+InitializeUsingNotesUserName Initials InPreviewPane InsertText InterLineSpacing 
+International InternetLevel Interval IsAccentSensitiveSort IsAdminReaderAuthor 
+IsAdminServer IsAuthors IsBeginOfData IsCalendar IsCaseSensitiveSort IsCategorized 
+IsCategory IsConflict IsConnected IsCurrencySpace IsCurrencySuffix IsCurrencyZero 
+IsDateDMY IsDateMDY IsDateYMD IsDefaultView IsDeleted IsDirectoryCatalog IsDocument 
+IsDST IsEnabled IsEncrypted IsEndOfData IsField IsFolder IsFormula IsFTIndexed IsGroup 
+IsHidden IsHiddenFromNotes IsHiddenFromWeb IsHideDetail IsHierarchical IsHierarchical 
+IsIcon IsInThisDB IsModified IsMultiDbSearch IsNames IsNewDoc IsNewNote IsNorthAmerican 
+IsNotesAgent IsOnServer IsOpen IsPerson IsPrivate IsPrivateAddressBook IsProfile 
+IsProtected IsPublic IsPublicAddressBook IsPublicReader IsPublicWriter IsReaders 
+IsResize IsResortAscending IsResortDescending IsResortToView IsResponse 
+IsResultSetAvailable IsRoleEnabled IsSecondaryResort IsSecondaryResortDescending 
+IsServer IsShowTwistie IsSigned IsSortDescending IsSorted IsSubForm  IsSummary 
+IsSupported IsTime24Hour IsTotal IsUIDocOpen IsValid IsValidDate IsValueAltered 
+IsValueNull IsWebAgent Italic ItemName Items
+KeepSelectionFocus Key Keyword
+Label Language LastAccessed LastExitStatus LastFTIndexed LastModified LastRow LastRun 
+LeftMargin Level ListDataSources ListFields ListProcedures ListSep ListTables LocalTime 
+LocateRow LogAction LogActions LogError LogErrors LogEvent LSGMTTime LSLocalTime
+MakeResponse Managers MaxLevel MaxRows MaxSize MinPasswordLength MoveEntry
+Name NamedElement NameObject NameOfProfile NavBarSetText NavBarSpinnerStart 
+NavBarSpinnerStop NextRow NoteID NotesBuildVersion NotesColor NotesFont NotesURL 
+NotesVersion NumActions NumberAttrib NumberDigits NumberFormat NumColumns NumErrors 
+NumParameters NumRows
+Object Open OpenAgentLog OpenByReplicaID OpenDatabase OpenDatabaseByReplicaID 
+OpenDatabaseIfModified OpenFileDialog OpenFileLog OpenFrameSet OpenIfModified OpenMail 
+OpenMailDatabase OpenMailLog OpenNavigator OpenNotesLog OpenPage OpenURLDb OpenView 
+OpenWithFailover Organization OrgUnit OrgUnit1 OrgUnit2 OrgUnit3 OrgUnit4 OverwriteFile 
+Owner
+Pagination ParameterDocID Parent ParentDatabase ParentDocumentUNID ParentView 
+PassThruHTML Paste PercentUsed PickListCollection PickListStrings Platform PlayTune 
+PMString Position PreviewDocLink PreviewParentDoc PrevRow Print Priority PRMD 
+ProgramName Prompt ProtectReaders ProtectUsers PutAllInFolder PutInFolder
+Query QueryAccess QueryExecuteTimeOut
+Readers ReadOnly ReCertify Refresh RefreshHideFormulas RefreshParentNote 
+RegisterNewCertifier RegisterNewServer RegisterNewUser RegistrationLog 
+RegistrationServer Reload ReloadWindow Remove RemoveACLEntry RemoveAll 
+RemoveAllFromFolder RemoveEntry RemoveFromFolder RemoveItem RenameRole 
+RenderToRTItem ReplaceItemValue ReplicaID Replicate ReplicationInfo Reset Resolve 
+Responses RevokeAccess RightMargin Roles RollbackTransactions RowLines Ruler Run 
+RunOnServer RunReadOnly
+Save SavedData SaveFileDialog SaveMessageOnSend SaveNewVersion SaveToDisk Search 
+SelectAll SelectDocument Send SentByAgent Server ServerName SetAction SetAnyDate 
+SetAnyTime SetCurrentLocation SetEnvironmentVar SetNamedElement SetNoteLink SetNow 
+SetParameter SetTab SetTabs SetTargetFrame SetURL SetValue SiblingCount Sign Signer 
+SignOnSend SilentMode Size SizeQuota Source Spacing SpacingAbove SpacingBelow 
+SpellCheck SQL StampAll StartDateTime StoreIDInAddressbook Strikethrough 
+SubjectItemName Surname SwitchToID
+Tabs Target TemplateName Text ThousandsSep TimeDateFmt TimeDifference 
+TimeDifferenceDouble TimeFmt TimeOnly TimeSep TimeZone TimeZoneFmt Title Tomorrow 
+TopLevelEntryCount Trigger Type
+Underline UniformAccess UniversalID UnprocessedDocuments UnprocessedFTSearch 
+UnprocessedSearch UpdateAddressbook UpdateAll UpdateFTIndex UpdateProcessedDoc 
+UpdateRow URL URLDatabase URLOpen UseHideFormula UseLSX UserName UserNameList 
+UserNameObject UseRowID UserType
+ValueLength Values Verbs Verifier View ViewAlias ViewName ViewRefresh Views
+Width WindowTitle
+Yesterday
+ZoneTime
+/C5"Statement"
+ActivateApp
+Beep
+Call Case ChDir ChDrive Const
+Declare Deftype Delete Dim Do
+Else ElseIf End Erase Exit
+FileCopy For ForAll Function
+Get GoSub GoTo
+If 
+Kill
+Let Line Lock LSet
+MkDir
+On Option
+Property Put
+Randomize ReDim Rem Resume Return RmDir RSet 
+Select SendKeys Set SetFileAttr Sleep Stop Sub
+Then 
+Unlock Use 
+While With Write
+/C6"Directive"
+%If %Include
+%Rem
+/C7"Event"
+Alarm
+Click
+Entering Exiting
+ObjectExecute
+PostDocumentDelete PostDragDrop PostModeChange PostOpen PostPaste PostRecalc PostSave
+QueryAddToFolder QueryClose QueryDocumentDelete QueryDocumentUndelete QueryDragDrop 
+QueryModeChange QueryOpen QueryOpenDocument QueryPaste QueryRecalc QuerySave
+RegionDoubleClick
+/C8"Builtin constant"
+False
+Nothing Null
+Pi
+True

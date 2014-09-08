@@ -1,0 +1,176 @@
+/L14"PRACTICE" Nocase Line Comment = // Line Comment Alt = ; File Extensions = cmm t32 men per
+/Delimiters = ~!@%^*()-+=|\/{}[]:;"'<> ,	.?$
+/Indent Strings = "(" "if" "else" ":" "while"
+/Unindent Strings = ")"
+/Open Fold Strings = "("
+/Close Fold Strings = ")"
+/C1"Keywords" STYLE_KEYWORD #blue
+ENDO ENTRY ERROR
+GLOBAL
+LOCAL
+ON
+RETURN
+add
+boolean
+dialog do
+else end enddo
+gosub group
+if
+jumpto
+menu
+popup
+tree
+while
+/C2"registers" STYLE_VARIABLE #red
+A
+CR
+DC DEC
+IC IP
+MSR
+r0 r1 r10 r11 r12 r13 r14 r15 r16 r17 r18 r19 r2 r20 r21 r22 r23 r24 r25 r26 r27 r28 r29 r3 r30 r31 r32
+r33 r34 r35 r36 r37 r38 r39 r4 r40 r5 r6 r7 r8 r9
+/C4"Operators" STYLE_OPERATOR
+!
+%
+&
+*
++
+-
+// /
+<
+=
+>
+^
+|
+~
+/C6"T32CMD" STYLE_KEYWORD #blue
+A AAFTERB AANDB ABORT AC ACCESS ADD ADDR ADelay AFlag AIF ALIGN ALIST ALL ALarM ALways AMDSpansion AMP AMX
+AORB API APPEND APU AREA ART ARTK ASAP ASCIITEXT ASMFRAME ASYNC ATOB ATTRibute AUD AUTO AUTODEV AVocet
+AXIOM Ack Activate AdaWorld Adapter Adapters Adaption Adaptions Adaptive AddInfo AddMenu AddTool AddWatch
+Address AddressCycle AddressDIStance AddressDURation AddressMask AdressDIStance AdressDURation Advanced
+AllocList Allocation Alternative Analogous Analyse Analysis Analyze Analyzer AnyAccess Appendix
+Application Arm AsciiHex AsciiOct Asm Assemble Assembler Assign Asynchronous AutoAccess AutoArm AutoDelete
+AutoFocus AutoInit AutoLOAD AutoSCAN AutoSTOre AutoStart AutoTEST Autoloader Automatic Aux Available
+BAFTERA BAKfile BANK BBC BC BDM BDTAB BEEP BENCHMARK BERR BITFLD BITMAPEDIT BITS BKRE BLockmem BMCTR
+BOOTLDR BOnchip BR BRE BREAKDEF BREQ BTACKDTACK BUCKet BUILTIN BURST BUS BUSEXT BUSREQ BYTE BYtemem Back
+BackChange BackGround BackTill BankFile BankMode Banked Banking BarMode Base Basic Basics BaudRate BdmClk
+BdmClock Be BestCase Bigendian Binary Block Bondout Bookmark Boolean Bottom BounD Break Breakpoint
+Breakpoints Breaksystem BrkVector Browse Buffered Building BusA BusFrequency BusTrigger BusTriggerDE
+CACHE CASE CBI CBT CC CCTL CClear CEnable CFlag CHAIN CHAINFind CHECK CHECKBOX CHECKDLL CHECKEPOC CHUNK
+CID CIntDebug CLEANUP CLEAR CLOCK CLOSE CMX CMXBug CMXTINY CMode COFF COLOR COMFOR COMMON COMSTART CON
+CONDition CONFIG CONST CONTinue CONVert COPY COSII COSMIC COVerage CPRT CPU CPUspecific CS CSELect CSema
+CTS CUTLINE CX CYClic CYcle CYcles Cableset Calculation Call Callback ChDir Change Changes Changing Chart
+CheckUPDATE Checking Chip Chorus ChorusOS Class ClipBoard ClipSTOre ClipType ClockPOL CmdPOS Cmm Code
+CodeSeg ColorCode ColorDef ComClk ComPare Command CommandHistory CommandLOG Commands Compiler Compilers
+Complex Concept Conditional Conditions ConfigTab Configurable Configuration Configuring Conflicts Connect
+Connecting Connector Connectors Context ContextID Controlling Conventions Conversion Coprocessors Core
+Correct Correlate CortexM Count CountX CountY Counter CpuAccess Create CreateTab Creating Creation
+CurTHRead Customizing CutFunction CycleAccurate CycleReq CycleWait
+D DBGREQ DBLock DBPool DBUG DC DConf DCyclic DEBUG DECRYPT DECULTRIXOSF DECVMS DEFault DEL DELete
+DELeteDLL DELeteLib DELeteMod DEMangle DEVNAME DEVS DEVent DEVice DEXChange DFLAG DHeap DIALOG DIBuff DID
+DIN DIP DIPSwitch DIR DIS DISableBP DISableChannel DIStance DLATCH DLL DMA DMBOX DMPool DMUX DMUtex
+DMailBoX DOBuff DODECRYPT DOUT DPART DPOOL DPS DProGram DProc DQ DQueue DRAM DRV DRes DResource DS DSEM
+DSEMaphore DSP DSPBIOS DSYStem DSema DTIMer DTask DUMP DURation DVTimer DWaitc DaTaQueue Data DataCycle
+DataPOL DataSuppress DataTrace DataViewExclude DataViewInclude Database DatasYmbol Date Dealing
+DebugCommands Debugger Debuggers Debugging Declaration Declarations DefineBus DelWatch Delay DeleteFAST
+DeleteHll Demultiplexer DenyAccess DenyBurst Dequeueing Description Design Details Detecting Diagnosis
+Diagnostic DictionaryReset Digital Dimensions Direct DisConfig Disable Disassembler Disassembly Disconnect
+DispEvent DispFixed DispMbx DispPool DispSem DispTIme DispTask DispUnit Display DisplayMailBoxes
+DisplaySYStem DisplaySemaphore DisplayTask Displaying DispmBuff DispsVar DistriB Do Dobject Document Done
+Down Download Draw Driver Dualport Dummy DynMem DynTaskD Dynamic
+ECC ECU ECos EDIT EEPROM EJTAG ELSE EMUPATH ENCRYPT ENCRYPTDO END ENDDO ENDIAN ENTER ENTRY ENableBP
+ENableChannel EPILOG EPOCCOPY EPOCDLL EPOCFILE EPOCTID EPROMFLASH ESD ESICON ETM EV EVAL EVENTCOUNTER EVTI
+EXCHanGe EXIT EXPORT EXTERNCOUNTER EXTERNSYNCCOUNTER EXTRACT EXTRE EXTWE EXTension EXception EXe EXecute
+Editor Effects Electrical Elements Elf EmbOS Emulation Emulator Enable EnableDisable Entering EntrySize
+Erase Errors Ethernet Evaluate Event EventStat Events EvtFLaG EvtQueue EvtTable Example Examples
+ExceptionCommand ExceptionSystem Exceptions Execution Expanded ExtClk Extended Extern External
+FAQ FAQs FDX FIFO FILTER FIND FIRE FLASH FLIST FLMD FLOWERRORHARDERROR FLOWPROCESS FLOWSTART FLUSH FORMAT
+FPU FRAG FS FWRITE Fast Features Fiber Fibex FifoFullExclude FifoFullInclude FifoLevel File FileType FileW
+Files Filtering FindAll FindChange First FixedCHAIN FixedTABle Flag Flags Flagsystem FlexRay Float
+Floating Flow FlowMode ForEach Frame FramePOS FreeRTOS Frequency Full FullStep Func FuncCall Function
+Functional Functions
+GAP GH GHILLS GLOBAL GLitch GOSUB GOTO GPInt GREP GROUP Gate General Generic Get GetState Getting Go
+HA HAC HALT HARDWARE HC HCS HEAPINFO HELP HEXMASK HIDE HIH HISTory HOLD HOLDDIR HP HPASM HTWIN HWME Half
+HalfRate HangUp HardCopy HardwareBased Hex HiCross HiTech Hidden Hints Hll Hooks Host Hot Hypertrace
+IAR ICD ICDAICD ICDICE ICE ICEINTPOL ICONS ICR ICoff IDE IF IFCONFIG IFTEST ILLE IMAGE IMASKASM IMASKHLL
+IMPORT INCremental INFO INKEY INT INTE INTEL INTERCOM INTK IO IOB IP IPLUS IRQ IRQS ISR ITLB ITLBSCAN Ibus
+Ieee Ignore Implementation In InChannel Inc Index IniTaskD Init Initial Initialize Injected Input
+InputOutput Inputs Instruction Integer Integration Integrator IntelHex Interaction Interface Interfaces
+Intern Internal Interrupt Interrupts
+JANUS JKLMNO JTAG JTAGCOP JUMPTO Java Jedec JtagClock Jumper
+KDB KEIL KL KerNeL Keyboard Keywords Known
+LA LANGUAGE LActor LArchitecture LDTLB LIBrary LINKage LISTCLICK LISTCLIP LISTCONFIG LOAD LOADASAP
+LOADATTR LOADDLL LOADEPOC LOADJAM LOADJBC LOADLib LOADMod LOADRBF LOADVOC LOCAL LOCK LOG LPort LRsrc LS
+LSR LThread LWS Label Latch Layout Lbus Le LeVel Levels Limitations Line LineOption Linked Linux List
+ListAddress ListAsm ListEntry ListFAST ListFILE ListFunc ListFunction ListHll ListID ListJava ListLine
+ListMix ListModul ListModule ListModules ListRequests ListSet ListTask ListVar ListmbX LittleEnd
+LittleEndian Loading Lockedprotected Logger LogicAnalyzer Logical Long LynxOS
+MACRO MAP MATCH MBOX MCDS MCoff MDIR MEMory MENU MFREE MFlag MIPI MIPS MIrror MKDIR MMDSP MMU
+MMUArchitecture MONitor MPCMPC MQX MRIK MSDOS MSWINDOWS MSYS MTOSUX MTXTRC MUX MV MX Magic MailBox
+MailboxD Main Manual ManualConfiguration MapDecode Mapper Mapping MappingSystem Mark Mask MasterBrk
+MasterGo MasterSlave MasterStep MbxStat MeSsaGe Measure Measurement Mechanical Mechical Mechnical
+MemAccess MemClass MemPShow MemPooL MemPoolD MemPoolF MemPoolL Member Memories Menuitem Method Methode
+Metrowerks MicroWare Microblaze Mictor MinInit Misc Mix MmuSet ModShow Mode Modification Modify Modularity
+Module Modules MonDev MonFile MonLabel MonMsg MonMuteX MonRSList MonRSched MonThread Motif MountDevs Mouse
+Ms MsgBuFfer MsgQShow MsgQueue MuTeX MultiProgram Multicore Multiple Multiprocessor Multitask
+NAME NBD NEW NEWSTEP NEXUS NIOS NMI NMIBREAK NMIDTR NMIPOL NMIRTS NOBANK NOBUS NOCS NODMA NOFRAG NOGAP
+NOPAGE NOPDENIED NOROM NORTi NOSWAP NOTE NOWB Names Network Next Nexusspecific NoAFlag NoAck NoBOnchip
+NoBURST NoBreak NoByteCode NoCache NoDMUX NoData NoDebug NoDenyAccess NoDenyBurst NoFlag NoLittleEndian
+NoMFlag NoOPFetch NoPOOL NoProtect NoRam NoReadFlag NoSOnchip NoShadow NoStop NoUpdateOnce NoVM NoVMS
+NoXBus Normal Nucleus
+O OAK OCDS OCDSL OFF OFFSET OK ON ONCE OPEN OPFetch OPool ORTI OS OSE OSEKORTI OSEck OSSpecific OTME OUT
+Omf Onchip Onchipp Operating Operation Operator Operators Option Options Opto Order Oscillator Other Ouick
+Output Outputs Over Overview
+PACK PAGE PARity PATCH PATH PATTERN PBREAK PC PCP PCXENIXUNIXODTUNIXWARE PC_LINUX PDF PDUMP PEDIT PER
+PERiod PICK PID PIDIN PIN PING PINTDebug PIPE PIPELINE PLIST PLOAD PMCTRx PMN PMNAutoInit PMNExport
+PMNInit PMNPrescalar PMNTARA POD PODBUS POINTER POLarity POOL POSTFIX POSTSCRIPT PPCLittleEnd PRACTICE PRE
+PREFIX PROC PROCESS PROCS PROCSL PROLOG PROTO_Init PROfile PRinT PRinTSel PRinTer PS PSCAN PSOS PSOSx
+PSTEP PTE PTESCAN PType PWD PXROS PaRTition Packing PageTable Parallel Parameter Parameters Part PartMem
+Pass Passive Perf Performance Peripheral Peripherals PermanentTemporary Physical Pinout PipeCLOSE PipeOPEN
+PipeREAD PipeStat PipeWRITE Port PortE PortMode PortSize Port_ Pos PowerIntegrator PowerPC PowerProbe
+PrKERNEL PreFetch Preparations Preparing Prestore Probe Probes ProcID Product Products Program Programmers
+Programming Protect Protected Protocol Pulse
+QC QD QList QM QNX QO QP QQ QR QS QT QUEUE QUEUES QUIT QUITDO QV QX Quad QueueStat Quick
+R RADIX READ REDO REF REFERR REFresh RELOAD RELOCate REMOTE REN REPLACE RES RESETConfiguration RESETH
+RESETIN RESETS RESTARTDO RESet RESetDTR RESetOut RESetPOL RESetRTS RETURN RM RMDIR ROF ROM RPE RS
+RSInterface RSRC RSema RTEMS RTOS RTX RTXC RTXtiny RUN Ram Rate Rd ReDraw ReMove RePeaT ReProgram ReRoute
+ReSize ReadFlag ReadWriteBreak Real Realtime RefA RefB Region Register Registers Related Release
+Replacement Requirements ResetIRQXIRQ ResetMode Restart Restrictions Rubus RunTime Running
+S SA SAMPLE SAMTEC SASO SAVE SC SCAN SCANALL SCM SCROLL SCSI SCU SCUMPC SCUMX SDIL SDS SDTCmicro SECtion
+SELECTOR SELFTEST SEM SEMA SEMAphore SEND SEQ SEQuence SETS SETUP SFunction SH SHEDuler SHIFTREG SHIFTTDI
+SHIFTTMS SIM SIZE SKIP SLAVE SLOWRESET SMX SModule SNOOPer SOC SOFTKEY SOFTNAME SOFTWARE SOUND SOnchip
+SPATH SPlit SPot SRAM STACK STALL STARTUP STATUSBAR STATistic STBY STOP STOre STRING STROBE SUM SUNSPARC
+SUPER SWAP SWI SYSC SYSGLOB SYStem SYStemBankFile SYm SYmbol SYnch Sampling SaveIndex Saving ScanID
+Scanner Schematics ScrMode Screen ScreenWindows Search Searching Secure Security Segmentation Select
+Selecting Selection Selective SelectiveTrace SemShow SemaD SemaStat Semihosting Separator Serial Service
+Set SetBaseDir SetCache SetCachedDir SetCachedDirCache SetDIR SetDynamicDir SetFAST SetFile SetFileW
+SetFunc SetHll SetLine SetMONitor SetMasterDir SetRecurseDir SetSec SetTask Settings Shadow Shadowing
+Shift Show ShowFocus ShowFocusEye Signal Signals Simple Simulator Simultaneous Single SkipFunc SkipLine
+SlaveBrk SlaveGo SlaveStep SmartTrace SnoopAddress SnoopSize Softkeys Softreset Sort Sorted Source
+SourceCONVert SourceLOAD SourcePATH SourceRELOAD Special Specific Srecord StackTop StandBy Standard Start
+Starting Startingup State StateTab States Static Step StepBreak StepByStep StepInt StepTrace Steps
+Stimulating Stimuli StimuliGenerator Sto StopBits Stopping Structure StuffInstruction Sunview Support
+SupportPackage Supported Switching Symbian Symbolic SyncClock Synchronize Synchronous
+SynchronousAsynchronous SysCall SysInfo SysRof
+TA TABle TAG TAGFunc TAKEOVER TARGET TASK TASKFunc TASKSRV TASKState TASKTREE TBFE TCOMPRESS TCYcle TCount
+TDUMP TDelay TEK TERM TERMination TEST TEXTLINE TEnable TExtMode TExtPol THRead THreshold TI TIMECOUNTER
+TIMEFORM TIMEOUT TIMER TIMESCALE TITLE TImerstat TImestamp TLB TLBArchitecture TLBINIT TLBRESET TLBSCAN
+TLBSET TLatch TMode TOFF TON TOOLBAR TOUCH TOut TPU TPreDelay TR TRACE TRACEETHERNET TRACEFIRE TRACEICD
+TRACEICE TRACEPAR TRACESER TRACEUSB TRACEeXDI TRACKMODE TRANS TREE TRIG TSCAN TSYNC TSelect TStart
+TTrigger TValue TView TWidth TabSize Tags TaskAware TaskID TaskInfo TaskList TaskPageTable TaskSpecific
+TaskStat Taskselective Technical TekHex Temporary Terminal TestFocus TestFocusEye TestList Testing Text
+The Third ThreadX Till Time TimeDebug TimeReq Timing TimingState Tips ToProgram Toggle Tools Topics
+TrAddress TrBus TrEvent TrIn TrMain TrOnchip TraceChannel TraceExclude TraceInclude TraceTrigger
+Tracebased Tracking Transient Translate Trap Trapping Trigger TriggerProbe Tutorial Type Types Typical
+UCLinux UIDTQ UIFLG UIMBX UIMPF UIMPL UISEM UITSK UNDO UNLOAD UNLOCK UNPACK UNSELect UNTAGFunc UNZIP
+UPDATE URATE USB USRACCESS UTLB UTLBSCAN Ubrof Universal Up UpdateOnce Use UseConst UseMemory UseReadCycle
+UseRegister UseSIM UseWriteCycle Used User Using Utilization
+V VBI VCO VERIFY VERSION VM VMStop VMTYPE VOLATILE VPA VPU VRTX VRTXmc VRTXsa VTBA Value Var VarCONVert
+VarCall VarPtr VarState Variable Variables Varname Vector VersaDos View ViewBPU ViewBus ViewStalls Virtual
+Volt VxWorks
+WAIT WARNSTOP WAYS WDShow WHILE WINHELP WORD WRITE Warning Watch WatchDLL What Where Width WinBack
+WinCLEAR WinDuplicate WinFIND WinFreeze WinLarge WinMid WinPAGE WinPAN WinPOS WinPRT WinPrint WinRESIZE
+WinResist WinSmall WinTABS WinTOP WinTrans Window Windows Working WorstCase WriteFlag Writing Wrong
+XBus XCoff XEC XPER XSCALE XTrack
+Y YESNO
+ZERO ZIP ZeOS

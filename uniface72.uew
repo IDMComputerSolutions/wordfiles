@@ -1,0 +1,118 @@
+/L20"Uniface V7.2" Nocase Line Comment = ; String Chars = " File Extensions = uv72
+/Delimiters = ~!@%^&*()+=|\/{}[];"'<> ,	.?
+/Function String = "%[eo][np][te][r]"
+/Indent Strings = ")" "params" "variables"
+/Unindent Strings = "else" "end" "endif" "endparams" "endselectcase"
+"endvariables" "endwhile"
+/Marker Characters "$$"
+/C1 COMMANDS
+activate addmonths apexit apstart askmess
+blockdata break by
+call case clear close clrmess commit compare compute creocc curocc_video
+debug delete delete_instance delitem discard display done
+edit eject else elsecase elseif end endif endparams endselectcase
+endvariables endwhile entry erase exit
+field_syntax field_video filebox filedump file_dump fileload file_load
+findkey from
+getitem getlistitems goto
+help
+if
+length lock lookup lowercase
+macro message
+new_instance nodebug numgen numset
+open operation order
+params perform postmessage pragma previous print print_break pulldown putitem
+putlistitems putmess
+read refresh release reload remocc repeat reset retrieve return rollback run
+scan selectcase selectdb sendmessage set setformfocus setocc skip sort spawn
+sql store
+to
+u_where until uppercase using
+validate validatefield validatekey validateocc variables
+webgen webget where while write
+/C2
+append ask async attached
+complete
+desc dump
+e error 
+field
+global
+hint
+id image info init
+keyword
+list load local 
+menu mod
+net next nobeep noborder nolock noterm nowander
+o occ
+query
+raw
+save sync
+topic truncate
+v5profile v6profile
+warning
+x
+:a :ascending :d :descending
+/C3 FUNCTIONS
+$applname
+$batch
+$char $check $clock $componentname $componenttype $curhits $curkey $curline
+$curocc $curword
+$dataerrorcontext $date $datim $dberror $dbocc $detachedinstances $direction
+$disable $display
+$empty $entinfo $entname $error
+$fieldcheck $fielddbmod $fieldendmod $fieldindb $fieldinfo $fieldmod
+$fieldname $fieldprofile $fieldproperties $fieldvalidation $fieldvalrep
+$foreign $format $formdb $formdbmod $formfocus $formmod $formmodality
+$formname $formtitle $framedepth
+$gui
+$hide $hits
+$instancechildren $instancedb $instancedbmod $instancemod $instancename
+$instanceparent $instancepath $instancevalidation $ioprint
+$keyboard $keycheck $keyfields $keymod $keytype $keyvalidation
+$language $lines $logical
+$msgdata $msgdst $msgid $msginfo $msgsrc
+$next $nls_sort_order $nmforms $number
+$occcheck $occdbmod $occdel $occdepth $occmod $occvalidation $oprsys $outer
+$page $paintedocc $password $previous $printing $procerror $procerrorcontext
+$prompt $properties $putmess
+$relation $result $rettype $runmode
+$secureprotocol $selblk $status $storetype $syntax
+$text $textexist $time $totdbocc $totkeys $totlines $totocc
+$user
+$valrep $variation
+$web
+abs acos asin atan
+condition cos
+e exp expression
+fact frac
+int
+log log10
+pi power
+sin sqrt
+tan
+/C5
+(
+)
+[
+]
++
+-
+*
+/
+=
+;
+%
+&
+>
+<
+<=
+>=
+^
+!
+|
+%\
+.
+,
+$
+$$
+<>

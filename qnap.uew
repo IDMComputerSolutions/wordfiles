@@ -1,0 +1,67 @@
+/L20"QNAP" Line Comment = && NOCASE String Chars = "' File Extensions = QNP
+/Delimiters = *()-+\/;"'<> ,	.?
+/Function String = "%/STATION/[ ^t^n]++NAME="
+/Function String 1 = "%/[A-Z]*/"
+/Label String = "%[ ^t]++[A-Z]*:"
+/Indent Strings = "IF" "BEGIN" "THEN" "ELSE" "DO" "/EXEC/"
+/Unindent Strings = "END;" "/END/"
+/C1"Types"
+QUEUE 
+CLASS CUSTOMER CPU 
+REAL REF
+INTEGER INFINITE 
+FLAG FIFO 
+LABEL
+SERVER 
+MULTIPLE 
+PS
+
+/C3"Attributes"
+NAME= 
+TYPE= TMAX=
+SERVICE SERVICE= SCHED=
+ACCURACY=
+CLASS=
+
+/C4"QueueFlow"
+TRANSIT TRANSIT=
+WAIT
+OUT
+
+/C6"ExecutionControl"
+BEGIN
+IF
+THEN
+ELSE END
+FOR
+STEP
+UNTIL 
+DO
+GOTO
+
+/C5"Functions"
+EXP 
+CST CCLASS
+SET SIMUL SOLVE
+UNSET 
+INIT 
+NEW 
+MTHRUPUT MCUSTNB 
+PRINT
+
+/C2"Operators"
++
+-
+*
+:=
+=
+\
+// /
+>
+<
+;
+ALL AND
+OR
+
+/C7"Blocks"
+// /END /EXEC /DECLARE /STATION /CONTROL

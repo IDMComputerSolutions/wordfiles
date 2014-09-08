@@ -1,0 +1,14 @@
+/L20"smartGEN. Template" NoQuote Block Comment On = #.  Block Comment On Alt = . File Extensions = IN CGP SGEN
+/Indent Strings = "#for" "#if"
+/Unindent Strings = "#endfor" "#endif"
+/Function String = "%#META Code.gen*([~;^p]+$"
+/Marker Characters = "<>"
+/C1"META-Keywords"
+#META
+/C2"KeyWords"
+#IMPORT
+for
+endfor
+** #
+/C3"Marker"
+<>

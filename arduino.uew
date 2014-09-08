@@ -1,0 +1,134 @@
+/L20"PDE/INO" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = INO PDE
+/TGBegin "Function"
+/TGFindStr = "%^([a-z_][a-z_0-9^[^]*]++^)[ ^t^p^r^n]++([~)]++)[~;{()]+[^p^r^n ^t]++[~/]++{[~}]"
+/TGFindStr = "%[ ^t]++^([a-z_][a-z_0-9]++::[a-z_^~][a-z_0-9]++^)[ ^t^p]++([^p*&:, ^t^[^]/*^-'=:&a-z_0-9./(!]++)[~;{]++{"
+/TGFindStr = "%[ ^t]++[a-z_][:a-z_0-9^[^]*&]++[ ^t]+^([a-z_][a-z_0-9]++::[a-z_^~][a-z_0-9]++^)[ ^t^p]++([^p*&:, ^t^[^]/*^-'=:&a-z_0-9./(!]++)[~;]"
+/TGFindStr = "%[a-z_][a-z_0-9^[^]:&]++[ ^t*]+[*&]++^([a-z_][a-z_0-9]++^)[ ^t]++([^p*&:, ^t^[^]a-z_0-9\+-./(!]++)[~;]++$"
+/TGFindStr = "%[a-z_][:a-z_0-9*&$^[^]*]++[ ^t]+[a-z_][:a-z_0-9*&$^[^]]++[ ^t*]+[*&]++^([a-z_][a-z_0-9]++^)[ ^t]++([^p*&:, ^t^[^]a-z_0-9./(!]++)+[~;]"
+/TGFindStr = "%[a-z_][:a-z_0-9^[^]*&]++[ ^t]+[a-z_][:a-z_0-9*&^[^]]++[ ^t]+[a-z_][:a-z_0-9*&^[^]]++[ ^t]+[*&]++^([a-z_][a-z_0-9]++^)[ ^t]++([^p*&:, ^t^[^]a-z_0-9./(!]++)[~;]"
+/TGFindStr = "%[a-z_][:a-z_0-9^[^]*&]++[ ^t]+[a-z_][:a-z_0-9*&^[^]]++[ ^t]+[a-z_][:a-z_0-9*&^[^]]++[ ^t]+[a-z_][:a-z_0-9*&^[^]]++[ ^t]+[*&]++^([a-z_][a-z_0-9]++^)[ ^t]++([^p*&:, ^t^[^]a-z_0-9./(!]++)[~;]"
+/TGBegin "Parameter"
+/TGFindStr = "[ ^t^p]++^([~,]+^)"
+/TGFindBStart = "("
+/TGFindBEnd = ")"
+/TGEnd
+/TGBegin "Variable"
+//type name;
+/TGFindStr = "%[ ^t]++^([a-z0-9_]+[ ^t^*]+[a-z0-9^[^]_]+^);"
+/TGFindBStart = "{"
+/TGFindBEnd = "}"
+//type name = init;
+/TGFindStr = "%[ ^t]++^([a-z0-9_]+[ ^t^*]+[a-z0-9^[^]_]+^)[ ^t]++=*;"
+/TGFindBStart = "{"
+/TGFindBEnd = "}"
+/TGEnd
+/TGEnd
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Member String = "^([a-z0-9_:.]+^)[ ^t^*&]+$S[ ^t^[^]a-z0-9_]++[(-);,]"
+/Variable String = "%[ ^t]++^([!-ÿ~ ^t<>]+*[~a-z^p]^)$S[ ^t;,()^-]"
+/Indent Strings = "{" "if" "else" ":"
+/Unindent Strings = "}"
+/Open Brace Strings =  "{" "(" "["
+/Close Brace Strings = "}" ")" "]"
+/Open Fold Strings = "{" "#"
+/Close Fold Strings = "}" "#"
+/C1"Keywords" STYLE_KEYWORD
+#define #elif #else #endif #error #if #ifdef #ifndef #include #include_next #line #pragma #undef
+BIN
+CHANGE
+DEC DEFAULT
+EXTERNAL
+FALLING
+HALF_PI HEX HIGH
+INPUT INPUT_PULLUP INTERNAL INTERNAL1V1 INTERNAL2V56
+LOW LSBFIRST
+MSBFIRST
+OCT OUTPUT
+PI
+RISING
+String
+TWO_PI
+__asm __based __cdecl __declspec __except __far __fastcall __finally __fortran __huge __inline __int16
+__int32 __int64 __int8 __interrupt __leave __loadds __near __pascal __saveregs __segment __segname __self
+__stdcall __try __uuidof
+abs acos asin atan atan2 auto
+bool boolean break byte
+case ceil char class const constrain continue cos
+default defined degrees do double
+else enum exp extern
+false float floor for
+goto
+if int
+log long
+map max min
+new null
+private protected public
+radians random randomSeed register return round
+short signed sin sizeof sq sqrt static struct switch
+tan this throw true try typedef
+union unsigned
+void volatile
+while word
+/C2"C++ Keywords" STYLE_KEYWORD
+__multiple_inheritance __single_inheritance __virtual_inheritance
+catch const_cast
+delete dynamic_cast
+explicit export
+friend
+inline
+mutable
+namespace
+operator
+reinterpret_cast
+static_cast
+template typeid typename
+using
+virtual
+wchar_t
+/C3"Microsoft C extensions" STYLE_EXTENSION
+Keyboard
+Mouse
+Serial Serial1 Serial2 Serial3
+accept analogRead analogReference analogWrite attachInterrupt available
+begin bit bitClear bitRead bitSet bitWrite
+click
+delay delayMicrosecond detachInterrupt digitalRead digitalWrite dllexport dllimport
+end
+find findUntil flush
+highByte
+interrupts isPressed
+loop lowByte
+micros millis move
+naked noInterrupts noTone
+parseFloat parseInt peek pinMode press print println pulseIn
+read readBytes readBytesUntil release releaseAll
+setTimeout setup shiftIn shiftOut
+thread tone
+uuid
+/C4"Operators" STYLE_OPERATOR
+!
+$
+%
+&
+*
++
+-
+.
+// /
+:
+<
+=
+>
+?
+^
+|
+~
+/C5"Braces, comma, semicolon"
+(
+)
+,
+;
+[
+]
+{
+}

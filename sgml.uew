@@ -1,0 +1,8 @@
+/L20"SGML" Nocase Noquote HTML_LANG Block Comment On = <!-- Block Comment Off = --> String Chars = "" File Extensions = SGM SGML XML NRM ENT HDR HUB
+/Delimiters = ~!@$%^&*()-+=|\{}[]:;"'<> , .?
+/Marker Characters = "<>&;%;"
+/C1
+<>
+/C2
+%;
+&;

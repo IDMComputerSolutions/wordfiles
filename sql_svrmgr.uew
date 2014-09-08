@@ -1,0 +1,81 @@
+/L12"SQL/SVRMGR" Nocase Line Comment = -- Line Comment Alt = REM Block Comment On = /* Block Comment Off = */ String Chars = "' File Extensions = SQL SPL LOG
+/Delimiters = ~!%^&*()-+=|\/{}[]:;<> ,	.?
+/Function String = "%[a-zA-Z_]*)"
+/Indent Strings = "BEGIN" "IF"
+/Unindent Strings = "END"
+/C1"Keywords"
+access add as asc autoextend
+by 
+check cluster column compress connect current cursor
+database datafile decimal default declare desc 
+execute exclusive exit
+file for from full
+group 
+having 
+identified immediate increment index initial inner insert is into
+join
+left level link 
+maxextents maxsize minextents mode modify 
+next nocompress nowait 
+of offline on online option order outer
+pctfree pctincrease privileges public 
+resource right row rowlabel rownum rows 
+segment select session share shutdown size smallint start startup storage successful synonym 
+table tablespace to trigger 
+uid unique user using 
+validate values view 
+whenever where with 
+/C2"Operators and Functions"
+@ @@
+all and any ascii avg abs acos asin atan atn2
+between
+cast char charindex convert count ceiling cos cot
+dateadd datediff datename datepart day decode delete difference distinct degrees
+escape exists exp
+floor
+getdate getutcdate
+in intersect isnull
+len like log log10 lower ltrim
+max min minus month
+nchar not null nvl
+or out
+patindex pi power prior
+quotename
+radians rand replace reverse replicate rtrim round
+some stuff substring sum sysdate soundex space str sign sin sqrt square
+tan
+unicode union update upper
+year
+/C3"Types"
+char character 
+date 
+float 
+integer
+long 
+mlslabel 
+number 
+raw rowid 
+varchar varchar2 
+/C4"Statements"
+alter analyze audit 
+comment commit create 
+drop
+explain 
+grant 
+lock
+noaudit 
+prompt
+rename revoke rollback
+savepoint set show spool
+truncate 
+/C5"PL/SQL"
+begin
+close 
+else elsif end exception
+fetch function
+if
+open
+procedure
+return returning
+then
+when while

@@ -1,0 +1,87 @@
+/L20"TACL" Line Comment = == Nocase Block Comment On = { Block Comment Off = } String Chars = "' File Extensions = *
+/Delimiters = ~!%*()-+=|\/{}[];"'<> ,.?
+/Function String 1 = "%?SECTION ++^(*^) *+"
+/Function String 2 = "%?TACL ++^(*^) *+"
+/Function String 3 = "#DEF ++^(*^) ++^{MACRO^}^{ROUTINE^}"
+/Indent Strings = "["
+/Unindent Strings = "]"
+/C1 KEYWORDS
+** #
+alias
+body
+macro
+routine
+struct
+text
+/C2
+and
+begin
+do
+if
+end else
+not
+loop
+or otherwise
+then
+while
+/C3
+bool
+byte
+char
+crtpid
+device
+enum
+filler
+fname
+fname32
+int
+int2
+int4
+phandle
+ssid
+subvol
+transid
+tstamp
+uint
+username
+/C4
+_break
+_call
+_error
+/C5
+SECTION
+/C6
+_comparev _contime_to_text _contime_to_text_date _contime_to_text_time
+_debugger _longest _month3
+activate add alter altpri assign attachseg
+backupcpu break builtins
+clear columnize comment copyvar create createseg
+debug default defmode define delete detachseg
+env exit
+fileinfo filenames files filetovar
+help highpin history home
+info initterm inlecho inleof inlout inlprefix inlto inspect
+join
+keep keys
+load logoff logon
+o obey outvar
+param pmsearch pmsg pop ppd purge push
+rename reset run rund runv
+seginfo set setprompt show sink status stop suspend swap switch system systimes
+tacl time
+use users
+variables varinfo vartofile
+vchange vcopy vdelete vfind vinsert vlist vmove
+volume vtree
+wakeup who
+/C8 "OPERATORS"
++
+-
+=
+// /
+&
+>
+<
+:
+
+

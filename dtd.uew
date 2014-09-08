@@ -1,0 +1,49 @@
+/L20"DTD" XML_LANG Noquote Block Comment On = <!-- Block Comment Off = --> String Chars = '" File Extensions = DTD
+/Delimiters = !~@$^*&()+=|\{}:;"'<> ,	.?
+/Marker Characters = ""
+/Function String = "^{<!ELEMENT^}^{<!ENTITY^}[ ^t^p]+^([%]++[ ]++[a-zA-Z_0-9]+^)"
+/Function String 1 = "^{<!DOCTYPE^}^{<!NOTATION^}^([ ^t^p]+[a-zA-Z_0-9]+^)"
+/C1"PROCESSING INSTRUCTIONS"
+ATTLIST
+DOCTYPE
+ELEMENT ENTITY
+NOTATION
+|
+<
+>
+!
+(
+)
+[
+]
+,
+
+/C2"Punctuation symbols"
+?
++
+*
+;
+"
+'
+
+/C3"ATTRIBUTE DEFAULTS"
+#FIXED #FIXED> #REQUIRED #REQUIRED> #IMPLIED #IMPLIED>
+
+/C4"ATTRIBUTE TYPES"
+CDATA
+ ENTITIES
+ID IDREF IDREFS
+NMTOKEN NMTOKENS
+
+/C5" TYPES"
+#PCDATA #PCDATA>
+ANY ANY>
+EMPTY EMPTY>
+
+/C6"Entity names"
+** %
+
+/C7"Entity/Notation arguments"
+NDATA
+SYSTEM
+PUBLIC

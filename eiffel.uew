@@ -1,0 +1,97 @@
+/L20"Eiffel" Nocase Line Comment = -- Escape Char = % File Extensions = e
+/Delimiters = ~%^&()|{}[];"'<> , .?
+/Function String (for space people)= "[^t| ]+^([a-z]+* is^)"
+/Function String = "%^t^([a-z_,]+*[A-Z |is]$^)"
+/C1 "Structure"
+alias all and as
+check class creation
+debug deferred do
+else elseif end expanded export external
+feature from frozen
+if implies indexing infix inherit inspect is
+like local loop
+not
+obsolete old once or
+prefix
+redefine rename  rescue retry
+select separate strip
+then true
+undefine unique until
+when
+xor
+,
+.
+;
+: 
+/C2 'Delim and const'
+Result
+Current
+False
+True
+Void
+@
+! !!
+=
+:=
+\ \\
+-
+(
+)
+[
+]
+{
+}
+< <=
+> >=
+?
+'
+`
++
+-
+$
+%
+// // / /=
+ 
+/C3 "Standard classes"
+ANY ARGUMENTS ARRAY
+BIT BOOLEAN BOOLEAN_REF
+CHARACTER CHARACTER_REF COMPARABLE
+DOUBLE DOUBLE_REF
+EXCEPTIONS
+INTEGER INTEGER_REF
+MEMORY
+NONE NUMERIC
+POINTER PLATFORM POINTER_REF
+REAL REAL_REF 
+STRING STD_FILES STORABLE STRING
+ 
+/C4 "SEng features"
+ensure
+interface invariant
+require
+variant 
+/C5 "Common object names"
+io
+i
+j
+k
+y
+x
+ 
+/C6 "Starndard Routines"
+abs add_first add_last append append append_in 
+binary_to_integer blank 
+clear compare copy 
+digit 
+even 
+fill_blank fill_with first 
+gcd 
+has has_prefix has_string has_suffix head 
+index_of index_of_string insert is_bit is_equal is_integer item 
+last left_adjust log lower 
+occurrences occurrences_of odd 
+precede prepend put put_boolean put_integer put_new_line put_string 
+remove remove_all_occurrences remove_between remove_first remove_last remove_prefix remove_suffix reverse right_adjust 
+same_as set_last shrink split split_in sqrt substring substring_index swap 
+tail to_bit to_boolean to_double to_integer to_lower to_octal to_real to_string to_upper 
+upper 

@@ -1,0 +1,116 @@
+/L20"ActionScript 2.0" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ File Extensions = AS
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,    .?
+/Function String = "%[ ^t]+[ps]*([~;^p]+$"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1"Basic Actions"
+#include
+fscommand
+getURL gotoAndPlay gotoAndStop
+ifFrameLoaded
+loadMovieNum
+on onClipEvent
+play
+stop stopAllSounds
+tellTarget toggleHighQuality
+unloadMovieNum
+/C2"Events"
+data dragOut dragOver
+enterFrame
+keyPress
+load
+onClose onConnect onLoad onXML
+press
+release releaseOutside
+rollOut rollOver
+/C3"FSCommand"
+"allowscale" "exec" "fullscreen" "quit" "showmenu" "trapallkeys"
+/C4"Actions"
+break
+call continue
+delete do duplicateMovieClip
+else
+for function
+if in include
+loadVariablesNum
+printNum
+removeMovieClip return
+setProperty startDrag stopDrag
+trace
+var
+while with
+/C5"Functions"
+abs acos add addListener and appendChild asin atan atan2 attachMovie attachSound attributes
+ceil charAt charCodeAt childNodes chr cloneNode close concat connect constructor cos createElement createEmptyMovieClip createTextNode createTextField
+docTypeDecl
+eq escape eval evaluate exp
+false firstChild floor fromCharCode
+ge getAscii getBeginIndex getBounds getBytesLoaded getBytesTotal getCaretIndex getCode getDate getDay
+getDepth getEndIndex getFocus getFontList getFullYear getHours getMilliseconds getMinutes getMonth getNewTextFormat getPan getProperty getRGB getSeconds getTextExtent getTime getTimer getTimezoneOffset getTransform getUTCDate getUTCDay getUTCFullYear getUTCHours getUTCMilliseconds getUTCMinutes getUTCMonth getUTCSeconds getVersion getVolume getYear globalToLocal gt
+hasChildNodes hide hitTest
+indexOf insertBefore int isDown isFinite isNaN isToggled
+join
+lastChild lastIndexOf le length loaded loadMovie loadVariables localToGlobal log lt
+max maxscroll mbchr mblength mbord mbsubstring min mouseDown mouseUp
+ne new newline nextFrame nextScene nextSibling nodeName nodeType nodeValue not null number
+onReleaseOutside onDragOut onDragOver onRollOut onRollOver onRelease onPress or ord
+parentNode parseFloat parseInt parseXML pop pow prevFrame previousSibling prevScene
+print printAsBitmap push
+random removeNode reverse round removeListener removeTextField replaceSel restrict
+scroll scrollString send sendAndLoad set setDate setFocus
+setFullYear setHours setMilliseconds setMinutes setMonth setPan setRGB
+setSeconds setSelection setTextFormat setTime setTransform
+setUTCDate setUTCFullYear setUTCHours setUTCMilliseconds setUTCMinutes setUTCMonth setUTCSeconds
+setVolume setYear shift show sin slice sort splice split sqrt start status
+substr substring swapDepths
+tan targetPath this toLowerCase toString toUpperCase true typeof
+unescape unloadMovie unshift updateAfterEvent
+valueOf void
+xmlDecl
+/C6"Properties"
+_parent _root
+_alpha _currentframe _droptarget _focusrect _framesloaded _height _highquality _name _quality
+_rotation _soundbuftime _target _totalframes _url _width _visible _x _xmouse _xscale _y _ymouse _yscale
+align autoSize
+background backgroundColor border borderColor bold bottomScroll blockIndent bullet
+color
+embedFonts
+font
+hscroll html htmlText
+indent italic
+leading leftMargin
+maxChars maxhsscroll multiline
+password
+rightMargin
+selectable size
+tabEnabled tabIndex tabStops target text textColor textHeight textWidth type
+underline url
+variable
+wordWrap
+/C7"Objects"
+Array
+Boolean
+Color
+Date
+Key
+Math Mouse MovieClip
+Number
+Object
+Selection Sound String
+TextFormat
+XML XMLSocket
+/C8"Constants"
+BACKSPACE
+CAPSLOCK CONTROL
+DELETEKEY DOWN
+END ENTER ESCAPE
+HOME
+INSERT
+LEFT LN10 LN2 LOG10E LOG2E
+MAX_VALUE MIN_VALUE
+NaN NEGATIVE_INFINITY
+PGDN PGUP PI POSITIVE_INFINITY
+RIGHT
+SHIFT SPACE SQRT1_2 SQRT2
+TAB
+UP UTC

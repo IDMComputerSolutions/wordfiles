@@ -1,0 +1,260 @@
+/L20"CSS 1.0-3.0" CSS_LANG Nocase Block Comment On = /* Block Comment Off = */ String Chars = "' Escape Char = \ DisableMLS File Extensions = CSS
+/Delimiters = ( )	*+,.:;=>[\]{|}~
+/Function String = "^(["#$*+,^-.0-9:=>@^[^]^^_a-z|~][ ^t^p"#$*+,^-.0-9:=>@^[^]^^_a-z|~]+^){"
+/Function String 1 = "^(["#$*+,^-.0-9:=>@^[^]^^_a-z|~][ ^t^p"#$*+,^-.0-9:=>@^[^]^^_a-z|~]+^)/^*[~/{}]++^*/[ ^t^p]++{"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/Open Brace Strings = "{" "(" "["
+/Close Brace Strings = "}" ")" "]"
+/Open Fold Strings = "{"
+/Close Fold Strings = "}"
+/C1"HTML 4.01 Elements"
+a abbr acronym address applet area
+b base basefont bdo big blockquote body br button
+caption cite code col colgroup
+dd del dfn dir div dl dt
+em
+fieldset form frame frameset
+h1 h2 h3 h4 h5 h6 head hr html
+i iframe img input ins isindex
+kbd
+label legend li
+map meta
+noframes noscript
+object ol optgroup option
+p param pre
+q
+s samp script select small span strike strong sub sup
+table tbody td textarea tfoot th thead title tr tt
+u ul
+var
+/C2"CSS Properties"
+alignment-adjust alignment-baseline appearance azimuth
+background background-attachment background-break background-clip background-color background-image
+background-origin background-position background-repeat background-size baseline-shift binding
+bookmark-label bookmark-level bookmark-target border border-bottom border-bottom-color
+border-bottom-left-radius border-bottom-right-radius border-bottom-style border-bottom-width
+border-break border-collapse border-color border-image border-left border-left-color border-left-style
+border-left-width border-length border-radius border-right border-right-color border-right-style
+border-right-width border-spacing border-style border-top border-top-color border-top-left-radius
+border-top-right-radius border-top-style border-top-width border-width box-align box-direction
+box-flex box-flex-group box-height box-lines box-orient box-pack box-shadow box-sizing box-width
+caption-side change-bar change-bar-class change-bar-offset change-bar-side clear clear-after clip color
+color-profile column-break-after column-break-before column-count column-gap column-rule column-rule-color
+column-rule-style column-rule-width column-width columns content counter-increment counter-reset crop cue
+cue-after cue-before cursor
+direction display display-model display-role dominant-baseline drop-initial-after-adjust
+drop-initial-after-align drop-initial-before-adjust drop-initial-before-align drop-initial-size
+drop-initial-value
+elevation empty-cells
+fit fit-position float float-displace float-offset font font-effect font-emphasize font-emphasize-position
+font-emphasize-style font-family font-size font-size-adjust font-smooth font-stretch font-style
+font-variant font-weight
+hanging-punctuation height hyphenate hyphenate-after hyphenate-before hyphenate-character
+hyphenate-dictionary hyphenate-lines hyphenate-resource hyphens
+image-orientation image-resolution indent-edge-reset inline-box-align
+letter-spacing line-height line-stacking line-stacking-ruby line-stacking-shift
+line-stacking-strategy list-style list-style-image list-style-position list-style-type
+margin margin-bottom margin-left margin-right margin-top mark mark-after mark-before
+marquee marquee-direction marquee-repetition marquee-speed marquee-style max-height
+max-width min-height min-width move-to
+nav-down nav-index nav-left nav-right nav-up
+opacity orphans outline outline-color outline-offset outline-style outline-width overflow
+overflow-clip overflow-x overflow-y
+padding padding-bottom padding-left padding-right padding-top page page-break-after page-break-before
+page-break-inside page-policy pause pause-after pause-before phonemes pitch pitch-range play-during
+position presentation-level punctuation-trim
+quotes
+rendering-intent resize rest rest-after rest-before richness ruby-align ruby-overhang ruby-position
+ruby-span
+speak speak-header speak-numeral speak-punctuation speech-rate speek-numeral stress string-set
+tab-side table-layout target-name target-new target-position text-align text-align-last text-decoration
+text-emphasis text-height text-indent text-justify text-kashida-space text-line-color text-line-decoration
+text-line-skip text-line-style text-outline text-replace text-transform
+text-underline-position text-wrap
+unicode-bidi
+vertical-align visibility voice-balance voice-duration voice-family
+voice-pitch voice-pitch-range voice-rate voice-stress voice-volume volume
+white-space white-space-collapse widows width word-break word-spacing word-wrap
+z-index
+/C3"CSS Values"
+above absolute absolute-colorimetric accent adjacent afar after-edge ahead alias all-scroll alphabetic
+alternate always amharic amharic-abegede arabic-indic armenian ascent asterisks attr auto avoid
+back backwards baseline before-edge behind below bengali bidi-override binary blink block block-axis
+block-inside block-line-height block-within-page bold bolder border-box border-edge both bottom
+bounding-box box break-all break-strict break-word
+cambodian cap-height capitalize caps-height cell center center-left center-right centerline central check
+child circle circled-decimal circled-lower-latin circled-upper-latin cjk-earthly-branch cjk-heavenly-stem
+cjk-ideographic close-quote col-resize collapse compact condensed consider-shifts content-box
+content-edge context-menu continuous copy counter cross crosshair current cursive
+dashed decimal decimal-leading-zero default definition-src descent devanagari diamond digits disc
+discard disregard-shifts distribute distribute-letter distribute-space dot dot-dash dot-dot-dash
+dotted dotted-decimal double double-circled-decimal down
+e-resize each-box embed emboss end end-edge engrave ethiopic ethiopic-abegede ethiopic-abegede-am-et
+ethiopic-abegede-gez ethiopic-abegede-ti-er ethiopic-abegede-ti-et ethiopic-halehame-aa-er
+ethiopic-halehame-aa-et ethiopic-halehame-am-et ethiopic-halehame-gez ethiopic-halehame-om-et
+ethiopic-halehame-sid-et ethiopic-halehame-so-et ethiopic-halehame-ti-er ethiopic-halehame-ti-et
+ethiopic-halehame-tig ethiopic-numeric ew-resize exclude-ruby expanded extra-condensed extra-expanded
+fantasy far-left far-right fast faster female fill filled-circled-decimal fixed footnotes forwards
+front georgian grid-height groove gujarati gurmukhi
+hanging hangul hangul-consonant hebrew help here hidden hide high higher hiragana hiragana-iroha
+horizontal hyphen
+icon ideographic images include-ruby increment indent inherit initial ink inline inline-axis
+inline-block inline-inside inline-line-height inline-table inset inset-rect inside inter-cluster
+inter-ideograph inter-word invert italic
+japanese-formal japanese-informal justify
+kannada kashida katakana katakana-iroha keep-all khmer
+landscape lao large larger last left left-side leftwards level lighter line line-edge line-through
+list-item literal-punctuation local loose loud low lower lower-alpha lower-armenian lower-greek
+lower-hexadecimal lower-latin lower-norwegian lower-roman lowercase ltr
+malayalam male manual margin-box margin-edge marker marker-offset marks mathematical mathline max-size
+medium meet menu message-box middle mix modal moderate mongolian monospace move multiple myanmar
+n-resize narrower ne-resize nesw-resize never new no-change no-close-quote no-drop no-limit no-open-quote
+no-punctuation no-repeat none normal not-allowed nowrap ns-resize nw-resize nwse-resize
+oblique octal old once open-quote oriya oromo outset outside overline
+padding-box padding-edge panose-1 parent parenthesised-decimal parenthesised-lower-latin
+perceptual persian pointer portrait pre-line pre-wrap preserve preserve-breaks progress
+rect reduced relative relative-colorimetric repeat repeat-x repeat-y reset-size reverse rgb ridge right
+right-side rightwards round row-resize rtl ruby ruby-base ruby-base-group ruby-text ruby-text-group run-in
+s-resize same sans-serif saturation scroll se-resize self semi-condensed semi-expanded separate serif
+show sidama silent simp-chinese-formal simp-chinese-informal single size slice slide slope slow slower
+small-caps small-caption smaller soft solid somali spaces spell-out square src sRGB start static
+status-bar stemh stemv stretch super suppress sw-resize syriac
+tab table-caption table-cell table-column table-column-group table-footer-group table-header-group
+table-row table-row-group tamil telugu text text-after-edge text-before-edge text-bottom text-shadow
+text-size text-top thai thick thin tibetan tigre tigrinya-er tigrinya-er-abegede tigrinya-et
+tigrinya-et-abegede top topline trad-chinese-formal trad-chinese-informal transparent
+ultra-condensed ultra-expanded underline unicode-range units-per-em unrestricted up upper-alpha
+upper-armenian upper-greek upper-hexadecimal upper-latin upper-norwegian upper-roman uppercase
+urdu url use-script
+vertical vertical-text visible
+w-resize wait wave weak wider window
+x-fast x-height x-high x-large x-loud x-low x-slow x-small x-soft x-strong x-weak xx-large xx-small
+young
+/C4"Pseudo Elements+Classes"
+active after after-break
+before before-break bound-element
+checked choices
+disabled
+empty enabled
+first first-child first-letter first-line first-of-type focus footnote-call footnote-marker
+hover
+in-range invalid
+lang last-child last-of-type link
+not nth-child nth-last-child nth-last-of-type nth-of-type
+only-child only-of-type optional out-of-range
+read-only read-write repeat-index repeat-item required root
+selection
+target
+valid value visited
+/C5"Miscellaneous"
+!important
+$
+(
+)
+*
++
+,
+.
+:
+;
+=
+>
+@charset @color-profile @counter-style @font-face @import @page
+[
+\
+]
+^
+{
+|
+}
+~
+/C6"Colors"
+** #0 #1 #2 #3 #4 #5 #6 #7 #8 #9
+** #A0 #A1 #A2 #A3 #A4 #A5 #A6 #A7 #A8 #A9 #AA #AB #AC #AD #AE #AF
+** #B0 #B1 #B2 #B3 #B4 #B5 #B6 #B7 #B8 #B9 #BA #BB #BC #BD #BE #BF
+** #C0 #C1 #C2 #C3 #C4 #C5 #C6 #C7 #C8 #C9 #CA #CB #CC #CD #CE #CF
+** #D0 #D1 #D2 #D3 #D4 #D5 #D6 #D7 #D8 #D9 #DA #DB #DC #DD #DE #DF
+** #E0 #E1 #E2 #E3 #E4 #E5 #E6 #E7 #E8 #E9 #EA #EB #EC #ED #EE #EF
+** #F0 #F1 #F2 #F3 #F4 #F5 #F6 #F7 #F8 #F9 #FA #FB #FC #FD #FE #FF
+ActiveBorder ActiveCaption AppWorkspace aqua
+black blue ButtonFace ButtonHighlight ButtonShadow ButtonText
+CaptionText
+fuchsia
+gray GrayText green
+Highlight HighlightText
+InactiveBorder InactiveCaption InactiveCaptionText InfoBackground InfoText
+lime
+maroon MenuText
+navy
+olive orange
+purple
+red
+Scrollbar silver
+teal ThreeDDarkShadow ThreeDFace ThreeDHighlight ThreeDLightShadow ThreeDShadow
+white WindowFrame WindowText
+yellow
+/C7"Browser Proprietary"
+-link-set -link-use -moz-alias -moz-appearance -moz-background-clip -moz-background-inline-policy
+-moz-background-origin -moz-binding -moz-border-bottom-colors -moz-border-left-colors -moz-border-radius
+-moz-border-radius-bottomleft -moz-border-radius-bottomright -moz-border-radius-topleft
+-moz-border-radius-topright -moz-border-right-colors -moz-border-top-colors -moz-box-align
+-moz-box-direction -moz-box-flex -moz-box-ordinal-group -moz-box-orient -moz-box-pack -moz-box-sizing
+-moz-cell -moz-column-count -moz-column-gap -moz-column-width -moz-context-menu -moz-copy -moz-first-node
+-moz-float-edge -moz-force-broken-image-icon -moz-grab -moz-grabbing -moz-image-region -moz-key-equivalent
+-moz-last-node -moz-margin-end -moz-margin-start -moz-opacity -moz-outline -moz-outline-color
+-moz-outline-offset -moz-outline-radius -moz-outline-radius-bottomleft -moz-outline-radius-bottomright
+-moz-outline-radius-topleft -moz-outline-radius-topright -moz-outline-style -moz-outline-width
+-moz-padding-end -moz-padding-start -moz-pre-wrap -moz-scrollbars-horizontal -moz-scrollbars-none
+-moz-scrollbars-vertical -moz-spinning -moz-tree-cell -moz-tree-cell-text -moz-tree-column
+-moz-tree-drop-feedback -moz-tree-image -moz-tree-indentation -moz-tree-line -moz-tree-progressmeter
+-moz-tree-row -moz-tree-separator -moz-tree-twisty -moz-user-focus -moz-user-input -moz-user-modify
+-moz-user-select -moz-zoom-in -moz-zoom-out -o-link -o-link-source -o-pre-wrap -o-replace
+-o-set-link-source -o-use-link-source -pre-wrap -replace -set-link-source -use-link-source
+-xv-digits -xv-voice-pitch -xv-voice-pitch-range -xv-voice-rate -xv-voice-volume
+@-moz-document
+add Alpha auto-pos
+background-position-x background-position-y behavior Blur bt-rl button-small
+char checkbox checkbox-container checkbox-small Chroma
+dialog distribute-all-lines distribute-center-last DropShadow DXImageTransform
+ellipsis
+filter finishopacity finishx finishy FlipH FlipV format freq
+Glow
+hand
+ideograph-alpha ideograph-numeric ideograph-parenthesis ideograph-space ime-mode inactive
+layout-flow layout-grid layout-grid-char layout-grid-line layout-grid-mode
+layout-grid-type lightstrength line-break listbox lr-tb
+Mask menuitem menulist menulist-button menulist-textfield menupopup Microsoft
+newspaper
+offx offy
+phase positive progid progressbar
+radio radio-container radio-small resizer rl-tb
+scrollbar-3dlight-color scrollbar-arrow-color scrollbar-base-color scrollbar-darkshadow-color
+scrollbar-face-color scrollbar-highlight-color scrollbar-shadow-color scrollbar-track-color
+scrollbar-x-color scrollbarbutton-down scrollbarbutton-left scrollbarbutton-right scrollbarbutton-up
+scrollbartrack-horizontal scrollbartrack-vertical separator set-link-source Shadow startx starty
+statusbar strength strict style
+tab-left-edge tabpanels tb-rl text-autospace text-overflow textfield toolbar toolbarbutton
+toolbox tooltip treeheadercell treeheadersortarrow treeitem treetwisty treetwistyopen treeview
+use-link-source
+vertical-ideographic
+writing-mode
+XRay
+zoom
+/C8"Media Types/Neg. Numbers"
+** -0 -1 -2 -3 -4 -5 -6 -7 -8 -9
+@media
+all aural
+braille
+color-index
+device-aspect-ratio device-height device-width
+embossed
+grid
+handheld
+max-color max-color-index max-device-aspect-ratio max-device-height max-device-width max-monochrome
+max-resolution min-color min-color-index min-device-aspect-ratio min-device-height min-device-width
+min-monochrome min-resolution monochrome
+print projection
+resolution
+scan screen speech
+tty tv

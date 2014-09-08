@@ -1,0 +1,146 @@
+/L20"ActionScript" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = " File Extensions = as
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String = "%function ^(*^)(*)"
+/Function String 1 = "%*.prototype.^(*^)=*function*"
+/Function String 2 = "%^(*^)=*function*(*)"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1"Actions"
+#include
+break
+continue
+do
+else evaluate
+for fscommand function
+if in ifFrameLoaded
+nextScene
+onClipEvent on
+prevScene print printAsBitmap prototype
+return
+set setProperty stopAllSounds
+toggleHighQuality trace
+updateAfterEvent
+var
+while with
+/C2"Objects"
+Array Arguments
+Boolean
+Color
+Date
+Key
+Math Mouse MovieClip
+Number
+Object
+Selection Sound String
+XML
+/C3"Properties"
+_alpha
+_currentframe
+_droptarget
+_focusrect _framesloaded
+_height _highquality
+_level0 _level1 _level2 _level3 _level4 _level5 _level6 _level7 _level8 _level9
+_level10 _level11 _level12 _level13 _level14 _level15 _level16 _level17 _level18 _level19
+_name
+_parent
+_quality
+_root _rotation
+_soundbuftime
+_target _totalframes
+_url
+_visible
+_width
+_x _xmouse _xscale
+_y _ymouse _yscale
+$version
+BACKSPACE
+callee
+CAPSLOCK CONTROL
+docTypeDecl
+DELETEKEY DOWN
+END ENTER ESCAPE E
+firstChild
+HOME
+ignoreWhite
+INSERT
+length lastChild loaded
+LEFT LN2 LOG2E LN10 LOG10E
+maxscroll
+MAX_VALUE MIN_VALUE
+nextSibling nodeName nodeType nodeValue
+NEGATIVE_INFINITY
+parentNode previousSibling
+PGDN PGUP PI POSITIVE_INFINITY
+RIGHT
+scroll status
+SHIFT SPACE SQRT1_2 SQRT2
+TAB
+UP
+xmlDecl
+/C4"Methods & Collections"
+abs acos asin atan atan2 attachMovie attachSound appendChild attributes
+concat ceil cos charAt charCodeAt cloneNode createElement createTextNode childNodes
+duplicateMovieClip
+exp
+floor fromCharCode
+getRGB getTransform getDate getDay getFullYear getHours getMilliseconds getMinutes getMonth getSeconds getTime getTimezoneOffset getUTCDate getUTCDay getUTCFullYear getUTCHours getUTCMilliseconds getUTCMinutes getUTCMonth getUTCSeconds getYear getAscii getCode getBounds getBytesLoaded getBytesTotal getURL globalToLocal gotoAndPlay gotoAndStop getBeginIndex getCaretIndex getEndIndex getFocus getPan getTransform getVolume
+hide hitTest hasChildNodes
+isDown isToggled indexOf insertBefore
+join
+log loadMovie loadVariables localToGlobal lastIndexOf load
+max min
+nextFrame
+onLoad
+pop push pow play prevFrame parseXML
+reverse random round removeMovieClip removeNode
+setRGB setTransform shift slice sort splice setDate setFullYear setHours setMilliseconds setMinutes setMonth setSeconds setTime setUTCDate setUTCFullYear setUTCHours setUTCMilliseconds setUTCMinutes setUTCMonth setUTCSeconds setYear sin sqrt show startDrag stop stopDrag swapDepths setFocus setSelection setPan setTransform setVolume start stop split substr substring send sendAndLoad
+toString tan toLowerCase toUpperCase
+unshift unloadMovie
+UTC
+valueOf
+/C5"Functions"
+escape eval
+getProperty getTimer getVersion
+isFinite isNaN
+loadMovie loadVariables
+parseFloat parseInt
+targetPath
+unescape
+/C6"Oper-KeyW-Var-Cons"
++
+-
+~
+=
+// /
+%
+&
+<
+>
+^
+!
+|
+.
+*
+[
+]
+,
+delete
+Infinity
+new null newLine
+NaN
+typeof this
+void
+/C7"Deprecated"
+add and
+call chr
+eq
+ge gt
+int
+le lt
+mbchr mblength mbord mbsubstring
+ne not
+or ord
+tellTarget
+/C8"Custom Functions"
+debug
+DataLib

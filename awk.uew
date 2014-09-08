@@ -1,0 +1,49 @@
+/L20"AWK Script" Line Comment = # Escape Char = \ String Chars = "' File Extensions = AWK
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String = "%[a-zA-Z_]*)"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1
+atan2
+break
+BEGIN 
+close continue cos
+delete do
+else exp exit
+END 
+for function
+getline gsub
+if index int
+length local log
+match
+next
+print printf
+rand return
+sin split sprintf sqrt srand sub substr system
+tolower toupper
+while
+/C2
+ARGC ARGV
+CONVFMT
+ENVIRON
+FILENAME
+FNR
+FS
+NF NR
+OFMT OFS ORS
+RLENGTH RS RSTART
+SUBSEP
+/C4
++
+-
+=
+// /
+%
+&
+>
+<
+^
+!
+|
+$
+*

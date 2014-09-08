@@ -1,0 +1,37 @@
+/L20"VoiceXML" XML_LANG Nocase Noquote Block Comment On = <!-- Block Comment Off = --> Block Comment On Alt = <% Block Comment Off Alt = %> String Chars = "' File Extensions = VXML
+/Delimiters = ~!@$%^&*()+=|\{}[]:;"'<> ,	.?
+/Function String = "<field name=^(*^)>"
+/Indent Strings = "<"
+/Unindent Strings = ">"
+/C1"Tags"
+<assign <audio <audio> </audio>
+<block <block> </block> <break
+<catch <catch> </catch> <choice <choice> </choice> <clear
+<disconnect/> <div <div> </div> <dtmf <dtmf> </dmtf>
+<else <elseif <emp <emp> </emp> <enumerate <enumerate> </enumerate> <enumerate/> <error <error> </error> <exit
+<field <field> </field> <filled <filled> </filled> <form <form> </form>
+<goto <grammar <grammar> </grammar>
+<help <help> </help>
+<if <if> </if> <initial <initial> </initial>
+<link <link> </link>
+<menu <menu> </menu> <meta <meta> </meta> <meta/>
+<noinput <noinput> </noinput> <nomatch <nomatch> </nomatch>
+<object <object> </object> <option <option> </option>
+<param <prompt <prompt> </prompt> <property <pros <pros> </pros>
+<record <record> </record> <reprompt/> <return
+<sayas <sayas> </sayas> <script <script> </script> <subdialog <subdialog> </subdialog> <submit
+<throw <transfehr <transfehr> </transfehr>
+<value <var
+<vxml <vxml> </vxml>
+/C2"Attributes"
+=
+bargein=
+cond= count=
+enctype= event=
+expr=
+id=
+method= mode=
+name= namelist= next= nextexpr= nextitem=
+scope= src=
+type=
+version=

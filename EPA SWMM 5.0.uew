@@ -1,0 +1,54 @@
+/L1"SWMM" Nocase Line Comment = ; Block Comment On = text Block Comment Off = endt Escape Char = \ String Chars = "' File Extensions = INP RPT OUT
+/Delimiters =                                                                                                                   
+/Function String = "%[a-zA-Z_]*)[~;]"                     
+/Indent Strings = "{"                     
+/Unindent Strings = "}"                     
+/C0"Exceptions"                     
+head\                     
+head/
+/C1"Keywords"
+ALLOW_PONDING
+BACKDROP BOTTOM
+CATENARY CFS CIRCULAR CONDUITS CONDUITS CONTROLS CONTROLS COORDINATES COORDINATES          
+DAILY DIMENSIONS DIMENSIONS DRY_DAYS DRY_STEP DWF DYNWAVE                
+EGG END_DATE END_TIME EVAPORATION EVAPORATION                 
+F2 F3 F4 Feet FILE FILES FILES FLOW FLOW_ROUTING FLOW_UNITS FREE           
+GR GREEN_AMPT                    
+HORSESHOE HORTON HOTSTART HOURLY HORIZ_ELLIPSE                
+IGNORE_RAINFALL INERTIAL_DAMPING INFILTRATION INFILTRATION INFLOWS INFLOWS INPUT
+KINWAVE               
+LENGTHENING_STEP                   
+MIN_SURFAREA MODBASKETHANDLE MONTHLY                
+NO Node NORMAL_FLOW_LIMITED                   
+PARTIAL Pervious                    
+Q1                      
+RAINGAGES RECT_CLOSED RECT_OPEN RECT_TRIANGULAR REPORT REPORT REPORT_START_DATE REPORT_START_TIME REPORT_STEP ROUTING_STEP      
+SKIP_STEADY_STATE START_DATE START_TIME   SW SWEEP_END SWEEP_START SYMBOLS              
+TRANSVERSE TIMESERIES                  
+UNITS USE                     
+VARIABLE_STEP VERT_ELLIPSE VOLUME                    
+WEEKEND WET_STEP                   
+/C2"C# Output Formats"
+[CONDUITS] [COORDINATES]
+[DWF]
+[EVAPORATION]
+[FILES]
+[JUNCTIONS]
+[INFILTRATION] [INFLOWS]
+[LABELS] [LOSSES]
+[MAP]
+[ORIFICES] [OPTIONS] [OUTFALLS]
+[PATTERNS] [Polygons] [PROFILES]
+[RAINGAGES] [REPORT]
+[SUBAREAS] [SUBCATCHMENTS] [SYMBOLS]
+[TAGS] [TIMESERIES] [TITLE]
+[VERTICES]
+[WEIRS]
+[XSECTIONS] [XY]
+/C3"C# Preprocessor Directives"  
+/C4"Statements" STYLE_STATEMENT         
+NO None
+YES
+/C5"Temp Text"
+/C6"MSXMS schema element list"
+/C7"Built-in Variables" STYLE_VARIABLE

@@ -1,0 +1,151 @@
+/L20"ClearBasic" Nocase Line Comment = ' Block Comment On = /* Block Comment Off = */ String Chars = " File Extensions = CBS BAS
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String = "%^{sub^}^{function^}^(*^)(*$"
+/Function String 2 = "'^(=================^)*"
+/C1  Datatypes
+App AppMenu 
+Basic Bool Boolean BulkRetrieve BulkSave
+ClarifyDB Clipboard CommonDialog ContextualObject Control
+DDE Debug
+Err
+Form
+Integer
+List Long
+Msg 
+Net
+PowerQuery Printer
+Record
+SQLDB Screen ServiceMessage String
+/C2 Keywords
+AND As
+ByRef ByVal
+Case
+Declare Dim
+Else ElseIf End
+For Function
+Global
+If
+Me
+NOT New Next
+OR
+Select Set Step Sub
+Then To Type
+While
+/C3  Constants
+AIX
+DoDefault 
+False
+HPUX
+Irix
+LINUX
+Mac68K MacPPC Macintosh 
+Netware Nothing Null
+OS2 OSF1
+PI
+SCO Solaris SunOS
+True
+UNIX Ultrix UnixWare
+VMS
+Win16 Win32
+cbAbortRetryIgnore cbAscending cbByRef cbByValue cbCloseChildren cbCloseMessage cbDefClosedWindow cbDefClosedWindow cbDescending cbEqual cbFirstMessage cbFrontIfUp
+cbGreater cbGreaterorEqual cbIdAbort cbIdCancel cbIdDiscard cbIdIgnore cbIdNo cbIdOK cbIdRetry cbIdSave cbIdYes cbIn cbLess cbLessOrEqual cbLike cbNoDefault cbNotEqual
+cbNotLike cbOK cbOKCancel cbRefreshMessage cbRetryCancel cbSaveDiscardCancel cbSoundsLike cbYesNo cbYesNoCancel 
+ebAIX ebAbort ebAbortRetryIgnore ebApplicationModal ebArchive ebArray ebBack ebBold ebBoldItalic ebBoolean ebCFBitmap ebCFDIB ebCFMetafile ebCFPalette ebCFText ebCFUnicode
+ebCancel ebCr ebCrLf ebCritical ebCurrency ebDOS ebDataObject ebDate ebDefaultButton1 ebDefaultButton2 ebDefaultButton3 ebDirectory ebDouble ebEmpty ebError ebExclamation
+ebFirstFourDays ebFirstFullWeek ebFirstJan1 ebFormFeed ebFriday ebFromUnicode ebHPUX ebHidden ebHide ebHiragana ebIMEAlphaDbl ebIMEAlphaSng ebIMEDisabled ebIMEHiragana
+ebIMEKatakanaDbl ebIMEKatakanaSng ebIMENoOp ebIMEOff ebIMEOn ebIgnore ebInformation ebInteger ebIrix ebItalic ebKatakana ebLINUX ebLandscape ebLeftButton ebLf ebLong
+ebLowerCase ebMacintosh ebMaximized ebMaximizedFocus ebMinimized ebMinimizedFocus ebMinimizedNoFocus ebMonday ebNarrow ebNetware ebNo ebNone ebNormal ebNormalFocus 
+ebNormalNoFocus ebNull ebNullChar ebNullString ebOK ebOKCancel ebOKOnly ebOS2 ebOSF1 ebObject ebPortrait ebProperCase ebQuestion ebReadOnly ebRegular ebRestored ebRetry
+ebRetryCancel ebRightButton ebSCO ebSaturday ebSingle ebSolaris ebString ebSunOS ebSunday ebSystem ebSystemModal ebTab ebThursday ebTuesday ebUltrix ebUnicode ebUnixWare
+ebUpperCase ebVMS ebVariant ebVerticalTab ebVolume ebWednesday ebWide ebWin16 ebWin32 ebWindows ebYes ebYesNo ebYesNoCancel
+/C4  Operators
+&
+*
++
+-
+.
+// /
+:
+<
+<=
+=
+>
+>=
+_
+/C5 CB_Methods
+AbortCellChange AbortRowChange Action Activate ActiveControl Add AddItem AddSeparator AdhocCellChanged AllSpaces AllowDuplicates AppendAdhocFilter AppendContextMenu
+AppendDefaultSort AppendFilter AppendItem AppendPreFilter AppendRows AppendSeparator AppendSort 
+BackColor BackStyle BorderStyle
+CLTransition CObj Call CallCB CancelError CancelRecord Caption CellChanged Cell_Btn_Click Cell_Click Cell_List_Select Change ChangeRecord ChangeToNew CheckRequired
+Clear ClearAdhocRow ClearAll ClearContextMenu ClearData ClearPreFilter Click Close Collapse ColorCells Concat Connect Connected Contains Contents ContextMenuDisplaying 
+ContextMenu_Select Continuation ControlType Conventions ConvertCurrency ConvertCurrencyValue Copies Copy CopyFields Count CountByType CreateColorScheme CreateView
+CurrentDate CurrentX CurrentY
+DDEExecute DDEInitiate DDERequest DDETerminate DDETimeout DataChanged DataType DatabaseName DateTime DblClick Deactivate Default DefaultExt DeleteRecord DeleteRecordByID
+DeleteRecordById DialogId DialogTitle Dirty DisableControls DisableControlsDeep Disconnect DoAdhocQuery Down DownClick DrawMode DrawStyle DrawWidth 
+EXEName ElapsedSeconds EmployeeObjId EmployeeObjid Empty Enable EnableAdhoc EnableControlDeep  EnableControls EnableControlsDeep Enabled EndDoc EntryCount Execute ExecuteCB
+ExecuteMenu ExecuteProc ExitApp Expand ExtractList 
+FileName FileTitle Fill FindFirstIndex FontBold FontFamily FontItalic FontSize ForceRedraw ForeColor Form_Load Form_Save Form_Unload Format FromPage 
+GenerateID GenerateSQL GetAdhocRow GetByIndex GetCBCObj GetCObj GetCObjFieldList GetCObjFieldStaticItem GetCObjFieldStaticList GetCObjList GetCObjMethodKeyList 
+GetCObjMethodList GetCObjPropertyKeyList GetChangedCell GetChangedRow GetChildKeyList GetChoiceList GetChoiceListDefault GetChoiceListUserData GetColumnControlType
+GetColumnMaxLength GetColumnNames GetContents GetContext GetControlByName GetCount GetCurrentDB GetDisplayCurrency GetField GetFormInstance GetFormat GetItemByIndex
+GetItemText GetLabel GetLastError GetLegend GetList GetMethodValue GetNext GetObjIds GetObject GetPageSize GetPoint GetPrevious GetPropertyValue GetRecordByIndex GetRecordList
+GetRelatedRecordList GetSelCount GetSelected GetSelectedColumns GetSelectedItem GetString GetText GetTextField GetUserData GetUserPopupListLevel1 GetUserPopupListLevel2 
+GotFocus GraphType
+Hide HideColumn
+hWnd
+Id InheritCurrency InitDir InputBox InsertItem InsertRecord IsColumnEditable IsColumnRequired IsDirty IsEnabled IsExactly IsMaxDate IsMinDate IsNew ItemByIndex ItemType
+Key KeyPress
+Left LegendPos Line ListByIndex ListCount ListIndex LogSQL Login Logout LostFocus 
+Max MaxLength MenuBarId Min MouseDown MouseUp Move MsgBox MultiLine MultiSelect 
+Name NewIndex NewPage NewRow NodeClick Notify NotifyById NotifyByKey NotifyChild NotifyParent NotifyTab NotifyTabParent NumSets 
+Open OwnsGrid
+Page PagingEvent Parent ParentKey Play Print PromptOnSave 
+Query QuerySize
+Read ReadOnly RecordType Refresh RefreshItem Regenerate RejectAdhocCellEntry RelateRecords RelateRecordsFromID RelateRecordsFromToID RelateRecordsToID Remove RemoveByIndex
+RemoveByItem RemoveItem RemoveSelected RenameItem ReplaceByIndex ReplaceItem ReplaceSelected Required RequiredColor ResetDefaultSort ResetPreFilter Resize RetrieveIDS 
+RetrieveRecords RightMargin RowChanged
+Save SaveAnyChanges Save_Aborted Scroll SelCount SelLength SelStart SelText Selected SelectedIndexes SelectedList ServerName SetAdhocCellReadOnly SetAdhocCellText 
+SetCObj SetCellColoring SetCellFocus SetCellReadOnly SetCellText SetColorScheme SetContextMenuEnabled SetContextMenuVisible SetCurrent SetDisplayCurrency SetEditStates
+SetField SetFocus SetFunction SetImageList SetItemOverlayImage SetItemText SetLabel SetLegend SetNewRowIndicator SetObjectType SetOverlayImage SetParent SetPoint
+SetRoot SetRootById SetRowReadOnly SetSelected SetSelectedById SetSelectedItem SetSortOrder SetTargetCurrency SetText SetUserData SetValue Show ShowAttachments ShowCR
+ShowCase ShowContact ShowContract ShowControls ShowControlsDeep ShowDebugWindow ShowDefaultMenu ShowEmployee ShowFTS ShowLegend ShowSelect ShowSite ShowSubcase SimpleQuery
+Sort SortColumn Sorted Stop SubType 
+Tag Text TextHeight TextWidth ToPage Top TopIndex TotalRows TransferPart TraverseFromParent TraverseFromRoot Truncate 
+UnSelect UndoRowChanges UnrelateRecords Unselect Up UpClick UpdateItem UpdateRecord UseClarifyDB UseDefaultDB UserData UserName UserObjId UserObjid 
+ValidateUser Value Visible
+Width WindowState Wrap Write
+
+/C6  VB_Methods 
+Abs ActivateControl AddCon AnswerBox AppActivate AppClose AppFileName AppFind AppGetActive AppGetPosition AppGetState AppHide AppList AppMaximize AppMinimize AppMove 
+AppRestore AppSetState AppShow AppSize AppType Architecture ArrangeIcons ArrayDims Arrays ArraySort Asc AscB AscW AskBox AskPasssword Atn
+Base BasicScript Beep Begin Dialog Browse ButtonEnabled ButtonExists 
+CancelCon Capability Cascade CBool CCur CDate CDbl ChDir ChDrive CheckBox CheckBoxEnabled CheckBoxExists Choose Chr ChrB ChrW CInt CLng CodePage ComboBox
+ComboBoxEnabled ComboBoxExists Command Comments Compare Const Conversion Cos CreateObject CSng CStr CStrings CurDir Currency CVar CVDate CVErr 
+Date  DateAdd DateDiff DatePart DateSerial DateValue Day DDB DDEInitate DDEPoke DDESend DDETermiateAll DefBool DefCur DefDate DefDbl DefInt DefLng DefObj DefSng DefStr 
+DefVar DeleteSettings Description Dialog Dir DiskDrives DiskFree DlgBaseUnitsX DlgBaseUnitsY DlgCaption DlgControlID DlgEnable DlgFocus DlgListBoxArray DlgSetPicture 
+DlgText DlgValue DlgVisible Do DoEvents DoKeys Double DropListBox
+EditEnabled EditExists Environ Eof Eoln$ Eqv Erase Erl Err Error Exit Exp Explicit 
+FileAttr FileCopy FileDateTime FileDirs FileExists FileLen FileList FileParse FileType Financial Fix FreeFile FreeMemory FreeResources FV 
+Get GetAllSettings GetAttr GetCaps GetCheckBox GetComboBoxItem GetComboBoxItemCount GetCon GetEditText GetListBoxItem GetListBoxItemCount GetOption GetSetting GoSub Goto 
+GroupBox
+Height HelpContext HelpFIle Hex HLine HomeDir Hour HPage HScroll 
+IIf IMEStatus Imp Inline Input InputB InStr InStrB Int Integer IPmt IRR Is IsDate IsEmpty IsError IsMissing IsNull IsNumeric IsObject Item ItemCount 
+Kill
+LastDLLError LBound LCase LeftB Len LenB Let Like LineCount ListBox ListBoxEnabled ListBoxExists Loc Locale Lock Lof Log Long Loop LSet LTrim 
+MacID MacScript Main Mci Menu MenuItemChecked MenuItemEnabled MenuItemExists Mid MidB Minute MIRR Miscellaneous MkDir Mod Month MouseTrails Msg.Close Msg.Open Msg.SetText 
+Msg.SetThermometer 
+Networks Now NPer NPV Number 
+Oct On OpenFilename OperatingSystem OperatingSystemVendor OperatingSystemVersion Option OptionButton OptionEnabled OptionExists OptionGroup OS 
+PathSeparator Picture PictureButton Pmt PopupMenu PPmt Predefined Printer PrinterGetOrientation PrinterSetOrientation PrintFile Printing Private Processor
+ProcessorCount Public PushButton Put PV 
+QueEmpty QueFlush QueKeyDn QueKeys QueKeyUp QueMouseClick QueMouseDblClick QueMouseDblDn QueMouseDn QueMouseMove QueMouseMoveBatch QueMouseUp QueSetRelativeWindow 
+Raise Random Randomize Rate ReadIni ReadIniSection ReDim Reset Restart Resume Return Right RightB RmDir Rnd RSet RTrim 
+SaveFilename SaveSetting Second Seek Seek statement SelectBox SelectButton SelectComboBoxItem SelectListBoxItem SendKeys SetAttr SetCheckBox SetColors SetEditText SetOption 
+SetWallpaper Sgn Shell Sin Single Sleep SLN Snapshot Source Space Spc SQLBind SQLClose SQLError SQLExecQuery SQLGetSchema SQLOpen SQLRequest SQLRetrieve 
+SQLRetrieveToFile Sqr Str StrComp StrConv String Switch SYD 
+Tab Tan TextBox Tile Time Timer TimeSerial TimeValue TotalMemory Trim TwipsPerPixelX TwipsPerPixelY 
+UBound UCase Unlock User 
+Val Variants Varient VarType Version Viewport ViewportClear ViewportClose ViewportOpen VLine VPage VScroll 
+Weekday Wend Width# WinActivate WinClose WindowsDirectory WindowsVersion WinFind WinList WinMaximize WinMinimize WinMove WinRestore WinSize Word WordCount WriteIni
+Xor
+Year

@@ -1,0 +1,82 @@
+/L20"Asm V850" AASM_LANG Line Comment = -- Line Comment Alt = // Block Comment On = /* Block Comment Off = */ Escape Char = \ File Extensions = 800 850 ASM A S S85 RC LNK LST
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	?
+/Function String = "%[a-zA-Z_]*)"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1"Instructions"
+ADD ADDI AND ANDI
+add addi and andi
+BSH BSW BGT BGE BLT BLE BH BHL BNL BL BNH BE BNE BV BNV BN BP BC BNC BZ BNZ BR BSA
+bsh bsw bgt bge blt ble bh bhl bnl bl bnh be bne bv bnv bn bp bc bnc bz bnz br bsa
+CMP CALLT CTRET CLR1
+cmp callt ctret clr1
+DIV DIVH DIVU DIVHU DI DISPOSE
+div divh divu divhu di dispose
+EI
+ei
+HALT HSW
+halt hsw
+JMP JR JARL JBR JSH JSW JGT JGE JLT JLE JH JHL JNL JL JNH JE JNE JV JNV JN JP JC JNC JZ JNZ JR JSA
+jmp jr jarl jbr jsh jsw jgt jge jlt jle jh jhl jnl jl jnh je jne jv jnv jn jp jc jnc jz jnz jr jsa
+LDSR LD.B LD.H LD.W LD.BU LD.HU
+ldsr ld.b ld.h ld.w ld.bu ld.hu
+MOV MOVHI MOVEA MUL MULH MULHI MULU
+mov movhi movea mul mulh mulhi mulu
+NOP NOT1 NOT
+nop not1 not
+OR ORI
+or ori
+PREPARE
+prepare
+RETI
+reti
+SLD.B SLD.H SLD.W SLD.BU SLD.HU ST.B ST.H ST.W SST.W SST.H SST.W SATADD SATSUB SATSUBR SXB SXH SHL SHR SAR STSR SWITCH SET1 SETF SUB SUBR
+sld.b sld.h sld.w sld.bu sld.hu st.b st.h st.w sst.w sst.h sst.w satadd satsub satsubr sxb sxh shl shr sar stsr switch set1 setf sub subr
+TST TST1 TRAP
+tst tst1 trap
+XOR XORI
+xor xori
+ZXB ZXH
+zxb zxh
+/C4"SFR,Register"
++
+-
+=
+// /
+%
+&
+>
+<
+^
+!
+|
+CTPC CTPSW CTBP
+ctpc ctpsw ctbp
+DBPC DBPSW
+dbpc dbpsw
+EP EIPC EIPSW ECR
+ep EIPC eipsw ECR
+FEPC FEPSW
+fepc fepsw
+GP
+gp
+LP
+lp
+PC PSW
+pc psw
+R0 R1 R2 R3 R4 R5 R6 R7 R8 R9 R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 R20 R21 R22 R23 R24 R25 R26 R27 R28 R29 R30 R31
+r0 r1 r2 r3 r4 r5 r6 r7 r8 r9 r10 r11 r12 r13 r14 r15 r16 r17 r18 r19 r20 r21 r22 r23 r24 r25 r26 r27 r28 r29 r30 r31
+SP
+sp
+TP
+tp
+ZERO
+zero
+/C5"Preprocessor"
+.align .byte . hword .word .single .double .str .skip .space .offset .text .data .section .set .previous .using .globl .comm .bss .weak .include .macro .endm .exitm .rept .endr .if .else .elseif .endif .file .ident .ln .def .endef .dim .line .scl .size .warning .nowarning .list .nolist .gen .nogen .eject .title .subtitle .sbttl .equ .org
+HI
+hi
+LO
+lo
+sdaoff
+zdaoff

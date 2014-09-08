@@ -1,0 +1,57 @@
+/L20"Assembler x86" AASM_LANG Nocase Line Comment = ; File Extensions = ASM INC
+/Delimiters = ~$^&*()+=|\{};"'<> ,
+/Function String = "%BeginProc?[ ]++^([a-zA-Z_]+^)"
+/C1
+aaa aad aam aas adc add and arpl
+bound bsf bsr bswap bt btc btr bts
+call cbw cdq clc cld cli clts cmc cmov cmp cmps cmpsb cmpsd cmpsw cmpxchg cmpxchg8b cpuid cwd cwde
+daa das dec div
+emms enter esc
+fcmov fcomi fwait
+hlt
+idiv imul in inc ins insb insd insw int into invd invlpg iret iretd
+ja jae jb jbe jc jcxz je jecxz jg jge jl jle jmp jna jnae jnb jnbe jnc jne jng jnge jnl jnle jno jnp jns jnz jo jp jpe jpo js jz
+lahf lar lds lea leave les lfs lgdt lgs lidt lldt lmsw lock lods lodsb lodsd lodsw loop loope loopne loopnz loopz lsl lss ltr
+mov movd movq movs movsb movsd movsw movsx movzx msw mul
+neg nop not
+or out outs outsb outsd outsw
+packsswb packssdw paddb paddw paddd paddsb paddsw paddusb paddusw pand pandn pcmpeqb pcmpeqw pcmpeqd pcmpgtb pcmpgtw pcmpgtd pmulhw pmullw pmaddwd pop popa popad popf popfd por psllw pslld psllq psrlw psrld psrlq psraw psrad psubb psubw psubd psubsb psubsw psubusb psubusw punpckhbw punpckhwd punpckhdq punpcklbw punpcklwd punpckldq push pusha pushad pushf pushfd pxor
+rcl rcr rdmsr rdpmc rdtsc rep repe repne repnz repz ret retf retn rol ror rsm
+sahf sal sar sbb  scas scasb scasd scasw setae setb setbe setc sete setg setge setl setle setna setnae setnb setnc setne setng setnge setnl setnle setno setnp setns setnz seto setp setpe setpo sets setz sgdt shl shld shr shrd sidt sldt smsw stc std sti stos stosb stosd stosw str sub
+test
+verr verw
+wbinvd wrmsr
+xadd xchg xlat xlatb xor
+/C2
+%out
+.186 .286 .286c .286p .287 .386 .386p .387 .8086 .8087 .alpha .seq .code .const .cref .data .data? .err .err1 .err2 .errb .errdef .errdif .erre .fardata .fardata? .lall .lfcond .list .model .msfloat .radix .sall .sfcond .stack .type .xall .xcref .xlist
+@curseg @filename @code @codesize @datasize @const @data @data? @fardata @fardata? @stack
+align assume at
+b byte
+comm comment common compact
+d db dd df dosseg dup dt dw dword
+else end endif endm endp ends eq equ even exitm extrn
+far fq
+ge group
+h high huge
+ifdef include includelib irp irpc
+label large le length low local lt
+macro mask medium memory
+name near
+o offset org
+page para proc public purge
+q
+record rept
+seg segment short size small stack struc subttl
+this tiny title type
+use16 use32
+width word
+/C3
+ah al ax
+bh bl bp bx
+ch cl cs cx
+dh di dl ds dx
+eax ebx ecx edi edx esi es
+ip
+si sp
+

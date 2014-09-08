@@ -1,0 +1,50 @@
+/L10"Takahashi" Nocase Noquote Block Comment On = <script Block Comment Off = </script> Block Comment On Alt = < Block Comment Off Alt = > String Chars = " File Extensions = XUL
+/Colors = 16777215,8421376,8421376,12632256,8421631,
+/Colors Back = 0,0,0,0,0,
+/Colors Auto Back = 1,1,1,1,1,
+/Font Style = 0,0,0,0,0,
+/Delimiters = ~!@#$%^&*()+=|\{}[]:;"'<> ,	.?
+/Open Brace Strings = "[["
+/Close Brace Strings = "]]"
+/Function String 1 = "%CHAPTER::*"
+/C1"Layout and Function" Colors = 16776960 Colors Back = 0 Colors Auto Back = 1 Font Style = 0
+ALIGN
+CHAPTER
+FOOTER
+GLOBAL-ALIGN GLOBAL-SIZE
+HEADER HIDDEN
+IGNORE
+LOAD
+SET-TIMER SIZE STYLE
+TITLE
+/C2"Align and Value" Colors = 8421631 Colors Back = 0 Colors Auto Back = 1 Font Style = 0
+center
+end
+left
+right
+start
+true
+/C3"Text Format" Colors = 16744703 Colors Back = 0 Colors Auto Back = 1 Font Style = 0
+EM ENCODED
+IMAGE IMG
+PRE
+RAW
+/C4"Attribution" Colors = 65280 Colors Back = 0 Colors Auto Back = 1 Font Style = 0
+css=
+data=
+edit= eva=
+height= hour
+min
+page=
+sec src= style=
+width=
+~
+/C5"Delimiter" Colors = 255 Colors Back = 0 Colors Auto Back = 1 Font Style = 0
+----
+|
+:
+[
+]
+=
+"
+#

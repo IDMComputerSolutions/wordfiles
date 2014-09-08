@@ -1,0 +1,52 @@
+/L20"Turbo Pascal" PASCAL_LANG Line Comment = // Nocase  Block Comment On = { Block Comment Off = } Block Comment On Alt = (* Block Comment Off Alt = *) Escape Char = \ String Chars = "' File Extensions = PAS INC
+/Delimiters = ~!@%^&*()-+|\/{}[];"'<> ,	.?
+/Function String = "%[a-zA-Z_]*)"
+/C1
+begin
+const
+else end
+function
+goto
+if
+label
+procedure program
+readln repeat
+uses
+var
+write writeln
+/C2
+and array asm
+case
+destructor div do downto
+exports
+file for
+implementation
+in
+/C3
+:=
+inhertited inline interface
+library
+mod
+nil not
+object of or
+/C4
+;
++
+-
+=
+// /
+%
+&
+>
+<
+^
+!
+|
+/C5
+packed private public
+record
+set shl shr string
+then to type
+unit until
+with
+xor

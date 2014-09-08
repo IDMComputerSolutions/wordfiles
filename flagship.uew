@@ -1,0 +1,136 @@
+/L20"FlagShip/Clipper" Line Comment = // Line Comment = *  Line Comment Alt = && Nocase Block Comment On = /* Block Comment Off = */ String Chars = "' File Extensions = PRG H CH FH
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/C1
+accept access all alternate announce append as assign autolock average
+begin bell blank box break
+call cancel case century class clear close cls color commit confirm
+console continue copy count create create cursor
+do decimals declare default delete deleted delimiters device dir
+directory display do
+elseif endif enddo else eject end epoch erase escape eval exact
+exclusive exit export extern external
+field filter find fixed for form format from function
+get gets global go goto
+hidden
+if index init input instance intensity
+join
+key keyboard
+label list local locate loop
+margin memory memvar menu message method multilocks
+next note order
+otherwise
+pack parameters path printer private procedure prompt protect
+prototype public
+quit
+read recall recover refresh reindex relation release rename replace
+report request restore return run
+save say scoreboard screen seek select sequence set setenhanced
+setstandard setunselect shared skip softseek sort static store
+structure structure sum
+text to total type typeahead
+unique unlock update use
+wait while with wrap
+zap
+/C2
+? ??
+@
+!
+%
+&
+(
+)
+*
++
+,
+-
+:
+;
+<
+=
+>
+[
+\
+]
+^
+{
+|
+}
+~
+/C3
+__accept __dbpack __dbzap __eject __keyboard __killread __mclear
+__menuto
+__quit __setcentury __setformat __setfunction __wait __xrestscreen
+__xsavescreen _fsget_
+aadd abs achoice aclone acopy adel adir aeval afields afill ains alert
+alias alltrim altd array asc ascan asize asort at atail autoflock
+autorlock autounlock
+bin2i bin2l bin2w bof break browse
+cdow chr chr2screen cmonth col ctod curdir
+date day dbappend dbclearfil dbclearind dbclearrel dbcloseall
+dbclosearea
+dbcommit dbcommitall dbcreate dbcreateind dbdelete dbedit dbeval dbf
+dbfilter dbgetlocat dbgobottom dbgoto dbgotop dbobjec dbrecall
+dbreindex
+dbrelation dbrlocklis dbrselect dbrunloc dbseek dbselectar dbsetdriver
+dbsetfilter dbsetindex dbsetlocat dbsetorder dbsetrelat dbskip
+dbstruct
+dbunlock dbunlockall dbusearea deleted descend devout devoutpict
+devpos
+directory diskspace dispbegin dispbox dispcount dispend dispout
+doserror
+dow dtoc dtos
+empty eof errorblock errorlevel eval execname execpidnum exp
+fattrib fclose fcount fcreate ferase ferror field fieldblock fielddeci
+fieldget fieldgetarr fieldlen fieldname fieldpos fieldput fieldputarr
+fieldtype fieldwblock file fklabel fkmax flock flockf fopen found
+fread
+freadstr freadtxt frename fs_set fseek fwrite
+getactive getapplyke getdosetke getenv getpostval getprevali getreader
+hardcr header i2bin
+iif indexcheck indexcount indexdbf indexext indexkey indexnames
+indexord
+inkey int isalpha isbegseq iscolor isdbexcl isdbflock isdbrlock
+isdigit
+isfunction islower isobjclass isobjproper isprinter isupper
+l2bin lastkey lastrec left len lock log lower ltrim lupdate
+max max_col max_row maxcol maxrow memoedit memoline memoread memory
+memotran memowrit memvarblock min mlcount mlctopos mlpos mod month
+mpostolc
+neterr netname nextkey nosnow num2int os outerr outstd
+padc padl padr pcalls pcol pcount procfile procline procname prow
+qout qqout
+rangecheck rat rddlist rddsetdefa readexit readinsert readkey
+readmodal
+readvar reccount recno recsize replicate restscreen right rlock round
+row rtrim
+savescreen scrdos2unix screen2chr scroll scrunix2dos seconds
+secondscpu
+select set setblink setcancel setcol2get setcolor setcursor setkey
+setmode
+setpos setprc soundex space sqrt str strpeek strpoke strtran strzero
+stuff substr
+tempfilenam time tone transform trim truepath type
+updated upper used usersactiv usersdbf usersmax
+val valtype version
+word
+year
+/C4
+break
+debug
+deve
+escdelay
+inmap intvar
+loadl lower
+memcom
+outmap
+pathdeli pathlow pathupp print
+setlang shortnam
+term transl typeah
+upper
+zerobyte
+/C5
+on
+off
+or
+and
+not

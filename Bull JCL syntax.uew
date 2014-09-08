@@ -1,0 +1,62 @@
+/L11"BULL Jcl"  Line Comment = /comment comm/ Nocase String Chars = ' File Extensions = jcl
+/Delimiters = :; ,'=$()
+/Indent Strings = "step" "endstep" "job" "endjob" "input" "endinput" "in" "ein" "record:" "end:"
+/Open Fold Strings = "$INPUT" "$JOB" "STEP"
+/Close Fold Strings = "$ENDINPUT" "$ENDJOB" "ENDSTEP"
+/C1"Commandes"
+$
+assign asg and 
+bypass before
+create catnow comment comm continue
+deassign dealloc define
+endjob endstep estp exdir eq
+fildupli filalloc filmodif
+global ge gt
+hexa
+incrsize include indexed
+job jump jvalues journal 
+key keys
+let leave le lt lockmark lock
+mvl merge
+nil next
+omit outalc outval options
+prealloc print pdec
+rewind run rv
+sort srtidx swi switchinput sev step send size sortwork secidx
+uncatnow unload ufas unit
+vl
+/C2"Identifieurs"
+arrange add
+bfas bin blank 
+cisize class comfile cifsp
+dvc dump
+ej
+fsn format
+jor
+keyloc keysize
+infile infile1 infile2 infile3 infile4 infile5 infile6 inset
+md 
+outfile outfile1 outfile2 outfile3 outfile4 outfile5 outfile6 outset
+project prtfile
+recsize recform ref
+seq subfile
+user
+wkdisk
+/C3"Values systèmes"
+abort alpha
+block both
+check
+dummy data
+** &
+
+/C5"Opérateurs"
++
+-
+*
+//
+
+/C6"Input enclosures"
+input in
+end endinput ein
+function
+record

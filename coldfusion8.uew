@@ -1,0 +1,338 @@
+/L14"ColdFusion 8.0 Scorpio" HTML_LANG Line Comment = // 
+/File Extensions = cfm cfc
+/Block Comment On = <!---
+/Block Comment Off = --->
+/Block Comment On Alt = /* 
+/Block Comment Off Alt = */
+/NestBlockComments
+/Nocase
+/EnableMLS
+/String Chars = #"
+/Open Fold Strings = "<cfcomponent" "<cffunction" "<cfif" "<cfloop" "<cfoutput" "<cfsavecontent" "<cfswitch" "<cftry"
+/Close Fold Strings = "</cfcomponent>" "</cffunction>" "</cfif>" "</cfloop>" "</cfoutput>" "</cfsavecontent>" "</cfswitch>" "</cftry>"
+/Indent Strings = "<cfcomponent" "<cffunction" "<cftry"
+/Unindent Strings = "</cfcomponent>" "</cffunction>" "</cftry>" 
+/Delimiters = "'	#~!@%^&*()-+|\{}[]:;<> ,  
+/Function String = "%[a-zA-Z]+^(*^))"
+/C1"CFML Tags" 
+<cfabort> <cfabort <cfajaximport> <cfajaximport </cfajaximport>
+<cfajaxproxy> <cfajaxproxy </cfajaxproxy> <cfapplet> <cfapplet </cfapplet>
+<cfapplication> <cfapplication </cfapplication> <cfargument> <cfargument
+</cfargument> <cfassociate> <cfassociate </cfassociate>
+<cfbreak>
+<cfcache> <cfcache </cfcache> <cfcalendar> <cfcalendar </cfcalendar>
+<cfcase> <cfcase </cfcase> <cfcatch> <cfcatch </cfcatch> <cfchart> <cfchart
+</cfchart> <cfchartdata> <cfchartdata </cfchartdata> <cfchartseries>
+<cfchartseries </cfchartseries> <cfcol> <cfcol </cfcol> <cfcollection>
+<cfcollection </cfcollection> <cfcomponent> <cfcomponent </cfcomponent>
+<cfcontent> <cfcontent </cfcontent> <cfcookie> <cfcookie </cfcookie>
+<cfdbinfo> <cfdbinfo </cfdbinfo> <cfdefaultcase> </cfdefaultcase>
+<cfdirectory> <cfdirectory </cfdirectory> <cfdiv> <cfdiv </cfdiv>
+<cfdocument> <cfdocument </cfdocument> <cfdocumentitem> <cfdocumentitem
+</cfdocumentitem> <cfdocumentsection> <cfdocumentsection
+</cfdocumentsection> <cfdump> <cfdump </cfdump>
+<cfelse> <cfelseif> <cfelseif <cferror> <cferror </cferror>
+<cfexchangecalendar> <cfexchangecalendar </cfexchangecalendar>
+<cfexchangeconnection> <cfexchangeconnection </cfexchangeconnection>
+<cfexchangecontact> <cfexchangecontact </cfexchangecontact>
+<cfexchangefilter> <cfexchangefilter </cfexchangefilter> <cfexchangemail>
+<cfexchangemail </cfexchangemail> <cfexchangetask> <cfexchangetask
+</cfexchangetask> <cfexecute> <cfexecute </cfexecute> <cfexit> <cfexit
+<cffeed> <cffeed </cffeed> <cffile> <cffile </cffile> <cfflush> <cfflush
+</cfflush> <cfform> <cfform </cfform> <cfformgroup> <cfformgroup
+</cfformgroup> <cfformitem> <cfformitem </cfformitem> <cfftp> <cfftp
+</cfftp> <cffunction> <cffunction </cffunction>
+<cfgraph> <cfgraph </cfgraph> <cfgraphdata> <cfgraphdata </cfgraphdata>
+<cfgrid> <cfgrid </cfgrid> <cfgridcolumn> <cfgridcolumn </cfgridcolumn>
+<cfgridrow> <cfgridrow </cfgridrow> <cfgridupdate> <cfgridupdate
+</cfgridupdate>
+<cfheader> <cfheader </cfheader> <cfhtmlhead> <cfhtmlhead </cfhtmlhead>
+<cfhttp> <cfhttp </cfhttp> <cfhttpparam> <cfhttpparam </cfhttpparam>
+<cfif> <cfif </cfif> <cfimage> <cfimage </cfimage> <cfimport> <cfimport
+</cfimport> <cfinclude> <cfinclude </cfinclude> <cfindex> <cfindex
+</cfindex> <cfinput> <cfinput </cfinput> <cfinsert> <cfinsert </cfinsert>
+<cfinterface> <cfinterface </cfinterface> <cfinvoke> <cfinvoke </cfinvoke>
+<cfinvokeargument> <cfinvokeargument </cfinvokeargument>
+<cflayout> <cflayout </cflayout> <cflayoutarea> <cflayoutarea
+</cflayoutarea> <cfldap> <cfldap </cfldap> <cflocation> <cflocation
+</cflocation> <cflock> <cflock </cflock> <cflog> <cflog </cflog> <cflogin>
+<cflogin </cflogin> <cfloginuser> <cfloginuser </cfloginuser> <cflogout>
+<cflogout </cflogout> <cfloop> <cfloop </cfloop>
+<cfmail> <cfmail </cfmail> <cfmailparam> <cfmailparam </cfmailparam>
+<cfmailpart> <cfmailpart </cfmailpart> <cfmenu> <cfmenu </cfmenu>
+<cfmenuitem> <cfmenuitem </cfmenuitem> <cfmodule> <cfmodule </cfmodule>
+<cfntauthenticate> <cfntauthenticate </cfntauthenticate>
+<cfobject> <cfobject </cfobject> <cfoutput> <cfoutput </cfoutput>
+<cfparam> <cfparam </cfparam> <cfpdf> <cfpdf </cfpdf> <cfpdfform> <cfpdfform
+</cfpdfform> <cfpdfformparam> <cfpdfformparam </cfpdfformparam> <cfpdfparam>
+<cfpdfparam </cfpdfparam> <cfpdfsubform> <cfpdfsubform </cfpdfsubform>
+<cfpod> <cfpod </cfpod> <cfpop> <cfpop </cfpop> <cfpresentation>
+<cfpresentation </cfpresentation> <cfpresentationslide> <cfpresentationslide
+</cfpresentationslide> <cfpresenter> <cfpresenter </cfpresenter> <cfprint>
+<cfprint </cfprint> <cfprocessingdirective> <cfprocessingdirective
+</cfprocessingdirective> <cfprocparam> <cfprocparam </cfprocparam>
+<cfprocresult> <cfprocresult </cfprocresult> <cfproperty> <cfproperty
+</cfproperty>
+<cfquery> <cfquery </cfquery> <cfqueryparam> <cfqueryparam
+<cfregistry> <cfregistry </cfregistry> <cfreport> <cfreport </cfreport>
+<cfreportparam> <cfreportparam </cfreportparam> <cfrethrow> <cfreturn>
+<cfreturn
+<cfsavecontent> <cfsavecontent </cfsavecontent> <cfschedule> <cfschedule
+</cfschedule> <cfscript> <cfscript </cfscript> <cfsearch> <cfsearch
+</cfsearch> <cfselect> <cfselect </cfselect> <cfservlet> <cfservlet
+</cfservlet> <cfservletparam> <cfservletparam </cfservletparam> <cfset>
+<cfset </cfset> <cfsetting> <cfsetting </cfsetting> <cfsilent> <cfsilent
+</cfsilent> <cfslider> <cfslider </cfslider> <cfsprydataset> <cfsprydataset
+</cfsprydataset> <cfstoredproc> <cfstoredproc </cfstoredproc> <cfswitch>
+<cfswitch </cfswitch>
+<cftable> <cftable </cftable> <cftextarea> <cftextarea </cftextarea>
+<cftextinput> <cftextinput </cftextinput> <cfthread> <cfthread </cfthread>
+<cfthrow> <cfthrow </cfthrow> <cftimer> <cftimer </cftimer> <cftooltip>
+<cftooltip </cftooltip> <cftrace> <cftrace </cftrace> <cftransaction>
+<cftransaction </cftransaction> <cftree> <cftree </cftree> <cftreeitem>
+<cftreeitem </cftreeitem> <cftry> </cftry>
+<cfupdate> <cfupdate </cfupdate>
+<cfwddx> <cfwddx </cfwddx> <cfwindow> <cfwindow </cfwindow>
+<cfxml> <cfxml </cfxml>
+<cfzip> <cfzip </cfzip> <cfzipparam> <cfzipparam </cfzipparam>
+ />
+
+/C2"CFML Attributes" 
+abort= accept= access= accessible= action= actionparam= addnewline=
+addtoken= advance= angle= align= appendkey= appletsource= application=
+applicationtimeout= applicationtoken= archive= argumentcollection=
+arguments= array= ascending= asciiextensionlist= assembly= attachmentpath=
+attributecollection= attributes= attributestruct= audio= authpassword=
+authuser= autodismissdelay= autoplay= autosuggest= autosuggestbinddelay=
+autosuggestminlength= autowidth=
+backgroundcolor= backgroundvisible= basepath= basetag= bcc= bgcolor= bind=
+bindattribute= bindingname= bindonload= biography= blockfactor= body=
+bodystyle= bold= bookmark= border= branch= buffersize=
+cache= cachedafter= cachedwithin= casesensitive= categories= category=
+categorytree= cc= center= cfc= cfsqltype= characters= charset= chart=
+chartheight= chartwidth= checked= childstyle= class= clientcert=
+clientcertpassword= clientmanagement= clientstorage= closable= codebase=
+colheaderalign= colheaderbold= colheaderfont= colheaderfontsize=
+colheaderitalic= colheaders= colheadertextcolor= collapsible= collection=
+color= colorlist= colspacing= columns= columnmap= completepath= component=
+condition= connection= contact= contentid= context= contextbytes=
+contexthighlightbegin= contexthighlightend= contextpassages= control=
+controllocation= cookiedomain= copies= copyfrom= criteria= csssrc=
+data= dataalign= databackgroundcolor= datacollection= datalabelstyle=
+datasource= daynames= dbname= dbtype= ddxfile= debug= default= delete=
+deletebutton= deletefile= delimiter= delimiters= description= destination=
+destinationfolder= detail= difficulty= disposition= directory= disabled=
+display= displayname= divider= dn= domain= draggable= duration=
+editable= email= enablecfoutputonly= enabled= encoded= encrypt= encryption=
+enclosuredir= enddate= endrange= endrow= endtime= entry= entrypath=
+errorcode= event= exception= existing= expand= expireurl= expires=
+expression= extendedinfo= extends= extensions=
+failifexists= failto= fidelity= file= filefield= filename= filter=
+fingerprint= firstdayofweek= firstrowasheaders= fixnewline= flatten= folder=
+font= fontbold= fontcolor= fontembed= fontformats= fontitalic= fontnames=
+fonts= fontsize= fontsizes= foreground= foregroundcolor= format= formfields=
+formula= from=
+generateuniquefilenames= getasbinary= glowcolor= grid= griddataalign=
+gridlines= group= groupcasesensitive=
+header= headeralign= headerbold= headerfont= headerfontsize= headeritalic=
+headerlines= headerstyle= headertextcolor= height= hide= hidedelay=
+hilighthref= hint= href= hrefkey= hscroll= hspace= html= htmltable=
+id= idletimeout= ignoreenclosureerror= image= imageprefix= img= imgopen=
+implements= index= info= initcollapsed= inithide= initialtab= initshow=
+inline= input= inputfiles= insert= insertbutton= interval= isbase64=
+isolation= italic= item= itemcolumn=
+jsclassname=
+keepbookmark= key= keyonly= keys=
+label= labelformat= language= lightcolor= list= listgroups= listinfo=
+locale= localfile= localurl= log= loginstorage= logo= lookandfeel= loop=
+mailboxname= mailerid= mailto= mailuid= marginbottom= marginleft=
+marginright= margintop= markersize= markerstyle= mask= maxlength=
+maxresultsdisplayed= max= maxlength= maxrows= maxsize= meetinguid=
+menustyle= message= messagenumber= method= mimeattach= mimetype= min=
+minheight= minsize= minwidth= modal= mode= modifytype= monthnames= multiple=
+name= nameconflict= namespace= new= newdirectory= newownerpassword=
+newuserpassword= notes= notify= notsupported= null= numberformat=
+object= omit= onbinderror= onblur= onchange= onclick= onerror= onfocus=
+onkeydown= onkeyup= onload= onmousedown= onmouseup= onreset= onsubmit=
+onsuccess= onvalidate= opacity= operation= options= order= orderby=
+orientation= output= outputfile= outputfiles= overflow= overwrite=
+overwritedata= overwriteenclosure= ownerpassword=
+padding= pageencoding= pageheight= pages= pagesize= pagetype= pagewidth=
+paintstyle= paper= parent= passive= passphrase= password= path= pattern=
+permissions= picturebar= pieslicestyle= port= porttypename= position=
+prefix= preloader= presenter= preservedata= preservepageonsort=
+preventoverlap= previouscriteria= primarycolor= printer= priority=
+procedure= properties= protocol= proxyhost= proxypassword= proxyport=
+proxyserver= proxyuser= publish=
+quality= query= queryasroot= queryposition=
+range= rebind= recurse= redirect= referral= refreshonactivate=
+refreshonshow= refreshwsdl= remotefile= replyto= report= requesttimeout=
+required= resolveurl= reset= resolution= resolveurl= resourcetimespan=
+result= resultset= retry= returnasbinary= returncode= returnformat=
+returntype= returnvariable= resizable= responsetype= result= richtext=
+roles= rotation= rowheaderalign= rowheaderbold= rowheaderfont=
+rowheaderfontsize= rowheaderitalic= rowheaders= rowheadertextcolor=
+rowheight=
+saveasname= saveoption= savepoint= scale= scalefrom= scaleto= scope=
+scriptprotect= scriptsrc= secure= securejson= select= selectcolor= selected=
+selecteddate= selectedfontcolor= selectedindex= selecteditemcolor=
+selectmode= selectonload= separator= series= seriescolor= serieslabel=
+seriesplacement= server= serviceaddress= serviceport= serviceportname=
+sessiontimeout= setclientcookies= setdomaincookies= shadowcolor= show=
+show3d= showautosuggestloadingicon= showborder= showdebugoutput= showdelay=
+showdirectory= showerror= showlegend= showmarkers= shownotes= showonprint=
+showoutline= showsearch= showudfs= showxgridlines= showygridlines= size=
+skin= sort= sortascendingbutton= sortcontrol= sortdescendingbutton=
+sortxaxis= source= sourcefortooltip= splitter= spoolenable= src= srcfile=
+start= startdate= startrange= startrow= starttime= status= statuscode=
+statustext= step= stoponerror= storepath= striperowcolor= striperows=
+structname= style= stylesxml= subject= subreport= suggestions=
+suppresswhitespace=
+tabheight= tabposition= table= tablename= tagname= tableowner=
+tablequalifier= taglib= tags= target= task= template= templatesxml= text=
+textcolor= textqualifier= thickness= throwonerror= throwontimeout= timeout=
+timespan= tipbgcolor= tipstyle= title= to= toolbar= toolbaronfocus= tooltip=
+top= toplevelvariable= transfermode= transparent= type= typeahead=
+uid= unit= url= urlpath= useragent= username= userpassword= usessl=
+usetimezoneinfo= usetls=
+validate= validateat= value= valuecolumn= values= valuesdelimiter=
+valuesdisplay= var= variable= verifyclient= version= verticle= video=
+visible= vscroll= vspace=
+webservice= width= wmode= wrap= wraptext= wsdlfile= wsdl2javaargs=
+wsportname=
+x= xaxistitle= xmldata= xmlvar= xpath=
+y= yaxistitle= yoffset=
+
+/C3"CF Functions" 
+ACos ASin Abs AddSOAPRequestHeader AddSOAPResponseHeader AjaxLink AjaxOnLoad
+ArrayAppend ArrayAvg ArrayClear ArrayDeleteAt ArrayInsertAt ArrayIsDefined
+ArrayIsEmpty ArrayLen ArrayMax ArrayMin ArrayNew ArrayPrepend ArrayResize
+ArraySet ArraySort ArraySum ArraySwap ArrayToList Asc Atn
+AuthenticatedContext AuthenticatedUser
+BinaryDecode BinaryEncode BitAnd BitMaskClear BitMaskRead BitMaskSet BitNot
+BitOr BitSHLN BitSHRN BitXor
+CJustify Ceiling CharsetDecode CharsetEncode Chr ColdFusion.Ajax.submitForm
+ColdFusion.Grid.getGridObject ColdFusion.Grid.refresh ColdFusion.Grid.sort
+ColdFusion.Layout.collapseArea ColdFusion.Layout.createTab
+ColdFusion.Layout.disableTab ColdFusion.Layout.enableTab
+ColdFusion.Layout.expandArea ColdFusion.Layout.hideArea
+ColdFusion.Layout.hideTab ColdFusion.Layout.selectTab
+ColdFusion.Layout.showArea ColdFusion.Layout.showTab ColdFusion.Log.debug
+ColdFusion.Log.dump ColdFusion.Log.error ColdFusion.Log.info
+ColdFusion.Tree.getTreeObject ColdFusion.Tree.refresh
+ColdFusion.Window.create ColdFusion.Window.hide ColdFusion.Window.onHide
+ColdFusion.Window.onShow ColdFusion.Window.show ColdFusion.getElementValue
+ColdFusion.navigate ColdFusion.setGlobalErrorHandler Compare CompareNoCase
+Cos CreateDate CreateDateTime CreateODBCDate CreateODBCDateTime
+CreateODBCTime CreateObject CreateTime CreateTimeSpan CreateUUID
+DE DateAdd DateCompare DateConvert DateDiff DateFormat DatePart Day
+DayOfWeek DayOfWeekAsString DayOfYear DaysInMonth DaysInYear DecimalFormat
+DecrementValue Decrypt DecryptBinary DeleteClientVariable DeserializeJSON
+DirectoryExists DollarFormat Duplicate
+Encrypt EncryptBinary Evaluate Exp ExpandPath
+FileClose FileCopy FileDelete FileExists FileIsEOF FileMove FileOpen
+FileRead FileReadBinary FileReadLine FileSetAccessMode FileSetAttribute
+FileSetLastModified FileWrite FileWriteLine Find FindNoCase FindOneOf
+FirstDayOfMonth Fix FormatBaseN
+GenerateSecretKey GetAuthUser GetBaseTagData GetBaseTagList
+GetBaseTemplatePath GetClientVariablesList GetComponentMetaData
+GetContextRoot GetCurrentTemplatePath GetDirectoryFromPath GetEncoding
+GetException GetFileFromPath GetFileInfo GetFunctionList GetGatewayHelper
+GetHttpRequestData GetHttpTimeString GetK2ServerDocCount
+GetK2ServerDocCountLimit GetLocalHostIP GetLocale GetLocaleDisplayName
+GetMetaData GetMetricData GetPageContext GetPrinterInfo GetProfileSections
+GetProfileString GetReadableImageFormats GetSOAPRequest GetSOAPRequestHeader
+GetSOAPResponse GetSOAPResponseHeader GetTempDirectory GetTempFile
+GetTemplatePath GetTickCount GetTimeZoneInfo GetToken GetUserRoles
+GetWriteableImageFormats
+HTMLCodeFormat HTMLEditFormat Hash Hour
+IIf ImageAddBorder ImageBlur ImageClearRect ImageCopy ImageCrop ImageDrawArc
+ImageDrawBeveledRect ImageDrawCubicCurve ImageDrawLine ImageDrawLines
+ImageDrawOval ImageDrawPoint ImageDrawQuadraticCurve ImageDrawRect
+ImageDrawRoundRect ImageDrawText ImageFlip ImageGetBlob
+ImageGetBufferedImage ImageGetEXIFTag ImageGetHeight ImageGetIPTCTag
+ImageGetWidth ImageGrayscale ImageInfo ImageNegative ImageNew ImageOverlay
+ImagePaste ImageRead ImageReadBase64 ImageResize ImageRotate
+ImageRotateDrawingAxis ImageScaleToFit ImageSetAntialiasing
+ImageSetBackgroundColor ImageSetDrawingColor ImageSetDrawingStroke
+ImageSetDrawingTransparency ImageSharpen ImageShear ImageShearDrawingAxis
+ImageTranslate ImageTranslateDrawingAxis ImageWrite ImageWriteBase64
+ImageXORDrawingMode IncrementValue InputBaseN Insert Int IsArray
+IsAuthenticated IsAuthorized IsBinary IsBoolean IsCustomFunction IsDDX
+IsDate IsDebugMode IsDefined IsImage IsImageFile IsInstanceOf IsJSON
+IsK2ServerABroker IsK2ServerDocCountExceeded IsK2ServerOnline IsLeapYear
+IsLocalHost IsNumeric IsNumericDate IsObject IsPDFFile IsPDFObject
+IsProtected IsQuery IsSOAPRequest IsSimpleValue IsStruct IsUserInAnyRole
+IsUserInRole IsUserLoggedIn IsValid IsWDDX IsXML IsXmlAttribute IsXmlDoc
+IsXmlElem IsXmlNode IsXmlRoot
+JSStringFormat JavaCast
+LCase LJustify LSCurrencyFormat LSDateFormat LSEuroCurrencyFormat
+LSIsCurrency LSIsDate LSIsNumeric LSNumberFormat LSParseCurrency
+LSParseDateTime LSParseEuroCurrency LSParseNumber LSTimeFormat LTrim Left
+Len ListAppend ListChangeDelims ListContains ListContainsNoCase ListDeleteAt
+ListFind ListFindNoCase ListFirst ListGetAt ListInsertAt ListLast ListLen
+ListPrepend ListQualify ListRest ListSetAt ListSort ListToArray
+ListValueCount ListValueCountNoCase Log Log10
+Max Mid Min Minute Month MonthAsString
+Now NumberFormat
+onApplicationEnd onApplicationStart onError onMissingTemplate onRequest
+onRequestEnd onRequestStart onSessionEnd onSessionStart
+ParagraphFormat ParameterExists ParseDateTime Pi PrecisionEvaluate
+PreserveSingleQuotes processRequest
+Quarter QueryAddColumn QueryAddRow QueryConvertForGrid QueryNew QuerySetCell
+QuotedValueList
+REFind REFindNoCase REMatch REMatchNoCase REReplace REReplaceNoCase RJustify
+RTrim Rand RandRange Randomize ReleaseComObject RemoveChars RepeatString
+Replace ReplaceList ReplaceNoCase Reverse Right Round
+Second SendGatewayMessage SerializeJSON SetEncoding SetLocale
+SetProfileString SetVariable Sgn Sin Sleep SpanExcluding SpanIncluding Sqr
+StripCR StructAppend StructClear StructCopy StructCount StructDelete
+StructFind StructFindKey StructFindValue StructGet StructInsert
+StructIsEmpty StructKeyArray StructKeyExists StructKeyList StructNew
+StructSort StructUpdate
+Tan TimeFormat ToBase64 ToBinary ToScript ToString Trim
+UCase URLDecode URLEncodedFormat URLSessionFormat
+Val ValueList
+Week Wrap WriteOutput
+XmlChildPos XmlElemNew XmlFormat XmlGetNodeType XmlNew XmlParse XmlSearch
+XmlTransform XmlValidate
+Year YesNoFormat
+
+/C4"CF Operators" 
+++
+-- 
+%
++=
+-+
+*=
+/=
+%=
+&&
+||
+!
+==
+!=
+<.
+<=
+> =
+&=
+=
+*
++
+-
+/
+\
+^
+&
+AND
+CONTAIN CONTAINS
+DOES
+EQ EQUAL EQV
+GE GREATER GT GTE
+IMP IS
+LE LESS LT LTE
+MOD
+NEQ NOT
+OR
+THAN TO
+XOR

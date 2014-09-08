@@ -1,0 +1,180 @@
+/L12"Boo" BOO_LANG Line Comment = // Line Comment Alt = # Block Comment On = /* Block Comment Off = */ Escape Char = \ File Extensions = BOO
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String = "%[ ,^t]++def[ ]+^([a-zA-Z0-9_]+*^):"
+/Member String = "^([A-Za-z0-9_:.]+^)[ ^t*&]+$S[ ^t]++[(=;]"
+/Variable String = "^([A-Za-z0-9_:.]+^)[ ^t*&]+$S[ ^t]++[(=;]"
+/Indent Strings = ":"
+/Open Fold Strings = "#region" "def" "class" "override"
+/Close Fold Strings = "#endregion" "def" "class" "override"
+/C1"Keywords" STYLE_KEYWORD
+and as auto
+base break
+case catch const continue
+def
+elif else event explicit extern
+false finally fixed for foreach from
+global
+if import implicit in is internal
+lambda lock
+namespace null not
+or object operator out override
+pass print params private protected public
+raise range readonly ref return
+sealed stackalloc static switch
+this throw true try
+unsafe using
+virtual void
+while
+yield
+/C2"Boo Data Types" STYLE_KEYWORD
+bool byte
+char class
+decimal delegate double
+enum
+float
+int interface
+long
+sbyte short string struct
+uint ulong ushort
+/C3"Built-in Functions"
+__import__
+add append abs apply
+basestring buffer
+capitalize center clear close conjugate copy count callable chr classmethod cmp coerce compile complex
+decode difference discard delattr dict dir divmod
+encode endswith expandtabs extend enumerate eval execfile
+Ellipsis
+find flush fileno fromkeys file filter frozenset
+False
+get getcontext getattr globals group
+has_key hasattr hash help hex
+index insert intersection intersection_update isalnum isalpha isatty isdigit islower isspace issubset issuperset istitle isupper items iteritems iterkeys itervalues id input int intern isinstance issubclass iter
+join joinfields
+keys
+ljust lower lstrip len list local
+map match max min
+next
+None NotImplemented
+oct open ord
+pop popitem pow property
+read readline readlines remove replace reverse rfind rindex rjust rsplit rstrip raw_input reduce reload repr round
+seek setdefault sort split splitlines startswith strip swapcase symmetric_difference symmetric_difference_update search set setattr slice sorted str splitfields
+tell title translate truncate tuple type
+True
+union update upper unichr unicode
+values vars
+write writelines
+xrange
+zip zfill
+/C4"Boo Preprocessor Directives" STYLE_EXTENSION
+#elif #endif #endregion #else #error
+#define
+#if
+#line
+#region
+#undef
+#warning
+/C4"Operators" STYLE_OPERATOR
++
+-
+*
+?
+=
+// /
+%
+&
+>
+<
+^
+!
+|
+:
+checked
+new
+sizeof
+typeof
+unchecked
+/C5"__Attributes__"
+__author__
+__bases__
+__class__
+__dict__ __doc__
+__email__
+__methods__ __members__
+__name__
+__slots__
+__version__
+/C6"Exceptions"
+ArithmeticError AssertionError AttributeError
+DeprecationWarning
+EnvironmentError EOFError Exception
+FloatingPointError FutureWarning
+ImportError IndentationError IndexError IOError 
+KeyboardInterrupt KeyError
+LookupError
+MemoryError
+NameError NotImplementedError
+OSError OverflowWarning OverflowError
+PendingDeprecationWarning
+ReferenceError RuntimeError RuntimeWarning
+StandardError StopIteration SyntaxError SyntaxWarning SystemError SystemExit
+TabError TypeError
+UnboundLocalError UnicodeError UnicodeDecodeError UnicodeEncodeError UnicodeTranslateError UserWarning
+ValueError
+Warning WindowsError
+ZeroDivisionError
+/C7"Operators"
++= 
+-= 
+%= 
+/= 
+**= 
+&= 
+|= 
+^= 
+>>= 
+<<=
+/C8"Common Libs"
+AL AST
+BaseHTTPServer Bastion
+CGIHTTPServer Carbon ColorPicker Complex ConfigParser Cookie
+DEVICE DocXMLRPCServer
+EasyDialogs
+FL FrameWork
+GL
+HTMLParser
+MacOS MimeWriter MiniAEFrame
+Para PixMapWrapper
+Queue
+ScrolledText SimpleHTTPServer SimpleXMLRPCServer SocketServer StringIO
+TERMIOS Tix Tkinter
+UserDict UserList UserString
+__builtin__ __future__ __main__
+aepack aetools aetypes aifc al anydbm applesingle array asynchat asyncore atexit audioop autoGIL 
+base64 binascii binhex bisect bsddb buildtools bz2 
+cPickle cStringIO calendar cd cfmfile cgi cgitb chunk cmath cmd code codecs codeop collections colorsys commands compileall 
+cookielib copy_reg csv curses 
+datetime dbhash difflib dircache dircmp dis distutils dl doctest dospath dumbdbm dummy_thread dummy_threading
+emacs email encodings errno exceptions 
+fcntl filecmp fileinput findertools fl flp fm fmt fnmatch formatter fpectl fpformat ftplib 
+gc gdbm gensuitemodule getopt getpass gettext gl glob gopherlib grep gzip 
+heapq hmac hotshot htmlentitydefs htmllib httplib 
+ic icopen ihooks imageop imaplib imghdr imp imputil inspect itertools 
+jpeg 
+keyword
+linecache locale lockfile logging 
+mac macerrors macfs macostools macpath macresource macurl2path mailbox mailcap marshal math md5 mhlib mimetools mimetypes mimify mmap multifile mutex 
+netrc newdir ni nis nntplib nsremote ntpath nturl2path 
+operator optparse os ossaudiodev 
+parser pdb pgdb pickle pickletools pipes pkgutil platform poly popen2 poplib posixfile posixpath pprint profile pstats py_compile pyclbr pydoc 
+pyexpat pythonprefs 
+quietconsole quopri
+rand random re regex regsub resource rexec rfc822 rgbimg rlcompleter robotparser rotor 
+sched select sets sgmllib sha shelve shlex shutil signal site smtpd smtplib sndhdr snmp socket stat statcache statvfs stringprep subprocess 
+sunau symbol sys syslog
+tabnanny tarfile tb telnetlib tempfile termios test textwrap thread threading time timeit toaiff token tokenize traceback tty turtle types tzparse 
+unicodedata unittest urllib urllib2 urlparse user util uu 
+videoreader 
+warnings waste wave weakref webbrowser whatsound whichdb whrandom winsound 
+xdrlib xml xmllib xmlpackage xmlrpclib 
+zipfile zlib zmod

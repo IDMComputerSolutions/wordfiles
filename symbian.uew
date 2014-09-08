@@ -1,0 +1,91 @@
+/L20"Symbian OS" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = C CPP H
+/Delimiters = ~!@%^&*()-+=|\/{}[];"'<> ,	.?
+/Function String = "%^([a-zA-Z_0-9]+^)[ ^t]+([^p*, ^t^[^]a-zA-Z_0-9.]++)[~;]"
+/Function String 1 = "%[a-zA-Z_0-9]*::^([a-zA-Z_0-9]+^)[ ^t]++([^p*, ^t^[^]a-zA-Z_0-9.]++)[~;]"
+/Function String 2 = "%[a-zA-Z_0-9]+[ ^t]+^([a-zA-Z_0-9]+^)[ ^t]++([^p*, ^t^[^]a-zA-Z_0-9.]++)[~;]"
+/Function String 3 = "%[a-zA-Z_0-9"]* ^([a-zA-Z_0-9"]+^)[ ^t]++([^p*, ^t^[^]a-zA-Z_0-9.]++)[~;]"
+/Function String 4 = "%[a-zA-Z_0-9*&$]+[ ^t]+[a-zA-Z_0-9*&$]+[ ^t]+^([a-zA-Z_0-9]+^)[ ^t]++([^p*, ^t^[^]a-zA-Z_0-9.]++)[~;]"
+/Function String 5 = "%^([a-zA-Z_0-9]+^)[ ^t]++([^p*, ^t^[^]a-zA-Z_0-9.]++)[~;]"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1"Keywords"
+break 
+case const continue
+default do 
+else enum
+for 
+goto
+HBufC HBufC8 HBufC16
+if 
+return
+static struct switch
+typedef
+TDes TDes8 TDes16 TDesC TDesC8 TDesC16 TPtr TPtr8 TPtr16 TPtrC TPtrC8 TPtrC16 TBuf TBuf8 TBuf16 TBufC TBufC8 TBufC16
+TLit TLit8 TLit16 TName TBool TAny TInt TUint TUint8 TInt8 TChar
+void 
+while
+_LIT _LIT8 _LIT16 __asm __based __cdecl __declspec __except __far __fastcall __finally
+__fortran __huge __inline __int16 __int32 __int64 __int8 __interrupt __leave
+__loadds __near __pascal __saveregs __segment __segname __self __stdcall
+__try __uuidof
+#define #error #include #elif #if #line #else #ifdef #pragma #endif #ifndef #undef
+/C2"C++ Keywords"
+catch class const_cast
+delete dynamic_cast 
+DYNAMIC_CAST
+export
+false friend
+inline
+mutable
+new namespace
+NewL
+operator
+private protected public
+PushL Pop PopAndDestroy
+reinterpret_cast 
+REINTERPRET_CAST
+static_cast 
+STATIC_CAST
+template this true try typeid typename
+TTrap TRAP TRAPD
+using
+User::Leave
+virtual
+wchar_t
+__multiple_inheritance __single_inheritance __virtual_inheritance
+/C3"Common Values"
+CleanupStack
+ETrue EFalse ELeave
+KErrNone KErrNotFound KErrGeneral KErrArgument KErrCancel KErrNoMemory KErrNotSupported KErrTotalLossOfPrecision
+KErrBadHandle KErrOverflow KErrUnderflow KErrAlreadyExists KErrPathNotFound KErrDied KErrInUse KErrServerTerminated
+KErrServerBusy KErrCompletion KErrNotReady KErrUnknown KErrCorrupt KErrAccessDenied KErrLocked KErrWrite KErrDisMounted
+KErrEof KErrDiskFull KErrBadDriver KErrBadName KErrCommsLineFail KErrCommsFrame KErrCommsOverrun KErrCommsParity
+KErrTimedOut KErrCouldNotConnect KErrCouldNotDisconnect KErrDisconnected KErrBadLibraryEntryPoint KErrBadDescriptor
+KErrAbort KErrTooBig KErrDivideByZero KErrBadPower KErrDirFull KErrHardwareNotAvailable 
+/C4"Common Classes"
+CActive CBase CPeriodic CHeartbeat CTimer
+CArrayFixFlat
+RTimer RArray
+TRequestStatus TDblQue TCallBack
+TSglQueLink TDblQueLinkBase TDblQueLink TSglQueBase TDblQueBase TSglQue
+TSglQueIterBase TSglQueIter TDblQueIterBase TDblQueIter
+TPckgC TPckg
+TLex TLex8 TLex16
+TDateTime TTimeIntervalMicroSeconds TTimeIntervalMicroSeconds32
+TTimeIntervalMicroSeconds64 TTimeIntervalSeconds
+TTimeIntervalMinutes TTimeIntervalHours TTimeIntervalDays
+TTimeIntervalMonths TTimeIntervalYears TTime
+TIdentityRelation TLinearOrder
+User
+/C5"Operators"
++
+-
+=
+// /
+%
+&
+>
+<
+^
+!
+|

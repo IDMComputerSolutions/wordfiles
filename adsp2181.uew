@@ -1,0 +1,77 @@
+/L20"ADSP2181" Nocase Block Comment On = { Block Comment Off = } File Extensions = DSP
+/Delimiters = ! "	%&'()*+,-/:;<=>?@[\]^{|}~
+/Function String = "%^([0-9a-z_]+^):"
+/C1"Controls"
+.adsp2181 .const .endmod .endsys .entry .external .global .include .init .mmap0 .module .seg .system .var
+circ code
+data
+/C2"Reserved words"
+%
+^
+abs and ashift
+by
+call clrbit
+dis do
+ena exp expadj
+hi
+if
+jump
+lo lshift
+modify
+none nop norm
+of or
+pass pop push
+reset rnd rti rts
+sat sec_reg set setbit ss su
+tglbit toggle toppcstack tstbit
+until us uu
+xor
+/C3"Registers"
+af ar astat ax0 ax1 ay0 ay1
+cntr
+divq divs
+i0 i1 i2 i3 i4 i5 i6 i7 icntl ifc imask
+l0 l1 l2 l3 l4 l5 l6 l7 loop
+m0 m1 m2 m3 m4 m5 m6 m7 mf mr mr0 mr1 mr2 mstat mx0 mx1 my0 my1
+pc
+sb se si sr sr0 sr1 sts
+/C4"Memory"
+bm
+dm
+im io
+pm
+ram rom
+/C5"Conditions"
+ac av
+eq
+ge gt
+le lt
+mv
+ne neg not
+pos
+/C6"Bits"
+c ce
+fl0 fl1 fl2 flag_in flag_out
+m_mode
+/C7"Delimiters"
+!
+$
+&
+(
+)
+*
++
+,
+-
+.
+// /
+:
+;
+<
+=
+>
+[
+]
+{
+|
+}

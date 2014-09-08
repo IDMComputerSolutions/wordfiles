@@ -1,0 +1,190 @@
+/L20"MathML" Noquote HTML_LANG Block Comment On = <!-- Block Comment Off = --> File Extensions = html
+/Delimiters = ~!@$%^&*()-+=|\{}[]:;"'<> ,	.?
+/C1 PRESENTATION ELEMENTS
+<maction </maction> <maligngroup/> <malignmark/> <merror> </merror> <mfenced> </mfenced> <mfrac> </mfrac> <mi> </mi> <mmultiscripts> </mmultiscripts> <mn> </mn> <mo> </mo> <mover> </mover> <mpadded> <mphantom> </mphantom> <mpadded </mpadded> <mprescripts/> <mroot> </mroot> <mrow> </mrow> <ms> </ms> <mspace/> <msqrt> </msqrt> <mstyle </mstyle> <msub> </msub> <msubsup> </msubsup> <msup> </msup> <mtable> </mtable> <mtd> </mtd> <mtext> </mtext> <mtr> </mtr> <munder> </munder> <munderover> </munderover>
+<none/>
+/C2 CONTENT ELEMENTS
+<abs/> <and/> <annotation-xml </annotation-xml> <annotation </annotation> <apply> </apply> <arccos/> <arcsin/> <arctan/>
+<bvar> </bvar>
+<ci> </ci> <cn> </cn> <compose/> <condition> </condition> <conjugate/> <cos/> <cosh/> <cot/> <coth/> <csc/> <csch/>
+<declare> <declare </declare> <degree> </degree> <determinant> </determinant> <diff/> <divide/>
+<eq/> <exists/> <exp/>
+<factorial/> <fn> </fn> <forall/>
+<geq/> <gt/>
+<ident/> <implies/> <in/> <int/> <intersect/> <interval> <interval </interval> <inverse/>
+<lambda> </lambda> <leq/> <limit/> <list> </list> <ln> </ln> <log> </log> <logbase> </logbase> <lowlimit> </lowlimit> <lt/>
+<matrix> </matrix> <matrixrow> </matrixrow> <max/> <mean> </mean> <median> </median> <min/> <minus/> <mode> </mode> <moment> </moment>
+<neq/> <not/> <notin/> <notprsubset/> <notsubset/>
+<or/>
+<partialdiff/> <plus/> <power/> <product/> <prsubset/>
+<quotient/>
+<reln> </reln> <rem/> <root/>
+<sdev> </sdev> <sec/> <sech/> <select> </select> <semantics> </semantics> <sep/> <set> </set> <setdiff/> <sin/> <sinh/> <subset/> <sum/>
+<tan/> <tanh/> <tendsto/> <times/> <transpose> </transpose>
+<union/> <uplimit> </uplimit>
+<var> </var> <vector> </vector>
+<xor/>
+/C3 INTERFACE ELEMENTS
+<math> <math </math>
+/C4 ATTRIBUTES
+accent= accentunder= actiontype= align= alignmentscope= altimg= alttxt=
+background= base= baseline=
+class= close= closure= color= columnalign= columnlines= columnspacing=
+defintionURL= depth= displaystyle=
+encoding= equalcolumns= equalrows=
+fontfamily= fontsize= fontstyle= fontweight= frame= framespacing=
+groupalign=
+height=
+id= interval=
+linethickness= lquote=
+macros= mode=
+name= nargs=
+occurrence= open= order= other= overflow=
+rowalign= rowlines= rowspacing= rquote=
+scope= selection= separators= style= subscriptshift= superscriptshift=
+type=
+width=
+/C5 WHITESPACE CHARACTERS
+&BadBreak;
+&GoodBreak;
+&IndentingNewLine;
+&NegativeThinSpace;
+&NewLine;
+&NoBreak;
+&ThinSpace;
+&ZeroWidthSpace;
+/C6 CONSTANTS
+&ee;
+&ii;
+&NaN;
+&pi;
+&true;
+&false;
+&gamma;
+&infin;
+&infty;
+&ExponentialE;
+&ImaginaryI;
+&NotANumber;
+/C7 ENTITIES CHARACTERS & FONTS
+&ApplyFunction;
+&BadBreak;
+&GoodBreak;
+&IndentingNewLine;
+&InvisibleComma;
+&InvisibleTimes;
+&MediumSpace;
+&NegativeMediumSpace;
+&NegativeThickSpace;
+&NegativeThinSpace;
+&NegativeVeryThinSpace;
+&NewLine;
+&NoBreak;
+&NonBreakingSpace;
+&Space;
+&Tab;
+&ThickSpace;
+&ThinSpace;
+&VeryThinSpace;
+&ZeroWidthSpace;
+&af;
+&ic;
+&it;
+/C8 MATHML CHARACTER ENTITIES
+&ac; &acd; &acE; &acute; &Afr; &afr; &aleph; &alpha; &amalg; &amp; &And; &and; &andand; &andd; &andslope; &andv; &ang; &ange; &angle; &angmsd; &angmsdaa; &angmsdab; &angmsdac; 
+&angmsdad; &angmsdae; &angmsdaf; &angmsdag; &angmsdah; &angrt; &angrtvb; &angrtvbd; &angsph; &angst; &angzarr; &Aopf; &ap; &apacir; &apE; &ape; &apid; &apos; &approx; 
+&approxeq; &Ascr; &ascr; &ast; &asymp; &awconint; &awint; &backcong; &backepsilon; &backprime; &backsim; &backsimeq; &Backslash; &Barv; &barvee; &Barwed; &barwed; &barwedge; 
+&bbrk; &bbrktbrk; &bcong; &becaus; &Because; &because; &bemptyv; &benzen; &benzena; &benzenb; &benzenc; &benzend; &benzene; &benzenf; &benzeng; &benzenh; &benzeni; &benzenj; 
+&benzenk; &benzenl; &benzenm; &benzenn; &benzeno; &benzenp; &benzenq; &benzenr; &bepsi; &bernou; &beta; &beth; &between; &Bfr; &bfr; &bigcap; &bigcirc; &bigcup; &bigodot; 
+&bigoplus; &bigotimes; &bigsqcup; &bigstar; &bigtriangledown; &bigtriangleup; &biguplus; &bigvee; &bigwedge; &bkarow; &blacklozenge; &blacksquare; &blacktriangle; 
+&blacktriangledown; &blacktriangleleft; &blacktriangleright; &blank; &blk12; &blk14; &blk34; &block; &bne; &bnequiv; &bNot; &bnot; &Bopf; &bot; &bottom; &bowtie; &boxbox; 
+&boxminus; &boxplus; &boxtimes; &bprime; &Breve; &breve; &brvbar; &Bscr; &bscr; &bsemi; &bsim; &bsime; &bsol; &bsolb; &bsolhsub; &bull; &bullet; &bump; &bumpe; &Bumpeq; 
+&bumpeq;
+&Cap; &cap; &capand; &capbrcup; &capcap; &capcup; &capdot; &caps; &caret; &caron; &ccaps; &Cconint; &ccups; &ccupssm; &cdot; &cedil; &Cedilla; &cemptyv; &cent; &CenterDot; 
+&centerdot; &Cfr; &cfr; &check; &checkmark; &chi; &cir; &circ; &circeq; &circle; &circlearrowleft; &circlearrowright; &circledast; &circledcirc; &circleddash; &CircleDot; 
+&circledR; &circledS; &circlef; &circlefb; &circlefl; &circlefr; &circleft; &CircleMinus; &CirclePlus; &CircleTimes; &cirE; &cire; &cirfnint; &cirmid; &cirscir; 
+&ClockwiseContourIntegral; &CloseCurlyDoubleQuote; &CloseCurlyQuote; &clubs; &clubsuit; &Colon; &colon; &Colone; &colone; &coloneq; &comma; &commat; &comp; &compfn;
+&complement; &cong; &congdot; &Congruent; &Conint; &conint; &ContourIntegral; &Copf; &coprod; &Coproduct; &copy; &copysr; &CounterClockwiseContourIntegral; &cross; &Cscr; 
+&cscr; &csub; &csube; &csup; &csupe; &ctdot; &cudarrl; &cudarrr; &cuepr; &cuesc; &cularr; &cularrp; &Cup; &cup; &cupbrcap; &CupCap; &cupcap; &cupcup; &cupdot; &cupor; &cups; 
+&curarr; &curarrm; &curlyeqprec; &curlyeqsucc; &curlyvee; &curlywedge; &curren; &curvearrowleft; &curvearrowright; &cuvee; &cuwed; &cwconint; &cwint; &cylcty; &Dagger; 
+&dagger; &daleth; &Darr; &dArr; &darr; &dash; &Dashv; &dashv; &dbkarow; &dblac; &ddagger; &ddarr; &DDotrahd; &ddotseq; &deg; &Del; &Delta; &delta; &demptyv; &dfisht; &Dfr; 
+&dfr; &dHar; &dharl; &dharr; &DiacriticalAcute; &DiacriticalDot; &DiacriticalDoubleAcute; &DiacriticalGrave; &DiacriticalLeftArrow; &DiacriticalLeftRightArrow; 
+&DiacriticalLeftRightVector; &DiacriticalLeftVector; &DiacriticalRightArrow; &DiacriticalRightVector; &DiacriticalTilde; &diam; &diamond; &diamondf; &diamondsuit; &diamonfb; 
+&diamonfl; &diamonfr; &diamonft; &diams; &die; &digamma; &disin; &div; &divide; &divideontimes; &divonx; &dlcorn; &dlcrop; &dollar; &Dopf; &Dot; &dot; &DotDot; &doteq; 
+&doteqdot; &DotEqual; &dotminus; &dotplus; &dotsquare; &doublebarwedge; &DoubleContourIntegral; &DoubleDot; &DoubleDownArrow; &DoubleLeftArrow; &DoubleLeftRightArrow; 
+&DoubleLongLeftArrow; &DoubleLongLeftRightArrow; &DoubleLongRightArrow; &DoubleRightArrow; &DoubleRightTee; &DoubleUpArrow; &DoubleUpDownArrow; &DoubleVerticalBar; 
+&DownArrow; &Downarrow; &downarrow; &DownArrowUpArrow; &downdownarrows; &downharpoonleft; &downharpoonright; &DownLeftVector; &DownRightVector; &DownTee; &drbkarow; &drcorn; 
+&drcrop; &Dscr; &dscr; &dsol; &dtdot; &dtri; &dtrif; &duarr; &duhar; &dwangle; &dzigrarr; &easter; &ecir; &ecolon; &eDDot; &eDot; &efDot; &Efr; &efr; &eg; &egs; &egsdot; &el; 
+&Element; &elinters; &ell; &els; &elsdot; &empty; &emptyset; &emptyv; &emsp; &emsp13; &emsp14; &ensp; &Eopf; &epar; &eparsl; &eplus; &epsi; &epsiv; &eqcirc; &eqcolon; &eqsim;
+&eqslantgtr; &eqslantless; &equals; &EqualTilde; &equest; &Equilibrium; &equiv; &equivDD; &eqvparsl; &erarr; &erDot; &Escr; &escr; &esdot; &Esim; &esim; &eta; &excl; &exist; 
+&Exists; &fallingdotseq; &female; &ffilig; &fflig; &ffllig; &Ffr; &ffr; &filig; &fjlig; &flat; &fllig; &fltns; &Fopf; &ForAll; &forall; &fork; &forkv; &fpartint; &frac12; 
+&frac13; &frac14; &frac15; &frac16; &frac18; &frac23; &frac25; &frac34; &frac35; &frac38; &frac45; &frac56; &frac58; &frac78; &frown; &Fscr; &fscr; &Gamma; &gamma; &Gammad; 
+&gammad; &gap; &gE; &ge; &gEl; &gel; &geq; &geqq; &geqslant; &ges; &gescc; &gesdot; &gesdoto; &gesdotol; &gesl; &gesles; &Gfr; &gfr; &Gg; &gg; &ggg; &gimel; &gl; &gla; &glE; 
+&glj; &gnap; &gnapprox; &gnE; &gne; &gneq; &gneqq; &gnsim; &Gopf; &grave; &GreaterEqual; &GreaterEqualLess; &GreaterFullEqual; &GreaterLess; &GreaterSlantEqual; &GreaterTilde; 
+&Gscr; &gscr; &gsim; &gsime; &gsiml; &Gt; &gt; &gtcc; &gtcir; &gtdot; &gtlPar; &gtquest; &gtrapprox; &gtrarr; &gtrdot; &gtreqless; &gtreqqless; &gtrless; &gtrsim; &gvertneqq; 
+&gvnE; &Hacek; &hairsp; &half; &hamilt; &hArr; &harr; &harrcir; &harrw; &Hat; &hbar; &hbenzen; &hbenzena; &hbenzenb; &hbenzenc; &hbenzend; &hbenzene; &hbenzenf; &hbenzeng; 
+&hbenzenh; &hbenzeni; &hbenzenj; &hbenzenk; &hbenzenl; &hbenzenm; &hbenzenn; &hbenzeno; &hbenzenp; &hbenzenq; &hbenzenr; &hearts; &heartsuit; &hellip; &hercon; &Hfr; &hfr; 
+&hksearow; &hkswarow; &hoarr; &homtht; &hookleftarrow; &hookrightarrow; &Hopf; &horbar; &Hscr; &hscr; &hslash; &HumpDownHump; &HumpEqual; &hybull; &hyphen; &iexcl; &iff; &Ifr; 
+&ifr; &iiiint; &iiint; &iinfin; &iiota; &Im; &image; &imath; &imof; &imped; &Implies; &in; &incare; &infin; &infintie; &Int; &int; &intcal; &Integral; &intercal; &Intersection; 
+&intlarhk; &intprod; &Iopf; &iota; &iprod; &iquest; &Iscr; &iscr; &isin; &isindot; &isinE; &isins; &isinsv; &isinv; &Jfr; &jfr; &jmath; &Jopf; &Jscr; &jscr; &kappa; &kappav; 
+&Kfr; &kfr; &Kopf; &Kscr; &kscr; &lAarr; &laemptyv; &lagran; &Lambda; &lambda; &Lang; &lang; &langd; &langle; &lap; &laquo; &Larr; 
+&lArr; &larr; &larrbfs; &larrfs; &larrhk; &larrlp; &larrpl; &larrsim; &larrtl; &lat; &lAtail; &latail; &late; &lates; &lBarr; &lbarr; &lbbrk; &lbrace; &lbrack; &lbrke; 
+&lbrksld; &lbrkslu; &lceil; &lcub; &ldca; &ldquo; &ldquor; &ldrdhar; &ldrushar; &ldsh; &lE; &le; &LeftAngleBracket; &LeftArrow; &Leftarrow; &leftarrow; &LeftArrowRightArrow; 
+&leftarrowtail; &LeftCeiling; &LeftDownVector; &LeftFloor; &leftharpoondown; &leftharpoonup; &leftleftarrows; &LeftRightArrow; &Leftrightarrow; &leftrightarrow; 
+&leftrightarrows; &leftrightharpoons; &leftrightsquigarrow; &LeftTee; &leftthreetimes; &LeftTriangle; &LeftTriangleEqual; &LeftUpVector; &LeftVector; &lEg; &leg; &leq; &leqq; 
+&leqslant; &les; &lescc; &lesdot; &lesdoto; &lesdotor; &lesg; &lesges; &lessapprox; &lessdot; &lesseqgtr; &lesseqqgtr; &LessEqualGreater; &LessFullEqual; &LessGreater; 
+&lessgtr; &lesssim; &LessSlantEqual; &LessTilde; &lfisht; &lfloor; &Lfr; &lfr; &lg; &lgE; &lHar; &lhard; &lharu; &lharul; &lhblk; &Ll; &ll; &llarr; &llcorner; &Lleftarrow; 
+&llhard; &lltri; &lmoust; &lmoustache; &lnap; &lnapprox; &lnE; &lne; &lneq; &lneqq; &lnsim; &loang; &loarr; &lobrk; &LongLeftArrow; &Longleftarrow; &longleftarrow; 
+&LongLeftRightArrow; &Longleftrightarrow; &longleftrightarrow; &longmapsto; &LongRightArrow; &Longrightarrow; &longrightarrow; &looparrowleft; &looparrowright; &lopar; &Lopf; 
+&loplus; &lotimes; &lowast; &lowbar; &LowerLeftArrow; &LowerRightArrow; &loz; &lozenge; &lozf; &lpar; &lparlt; &lrarr; &lrcorner; &lrhar; &lrhard; &lrtri; &Lscr; &lscr; &Lsh; 
+&lsh; &lsim; &lsime; &lsimg; &lsqb; &lsquo; &lsquor; &Lt; &lt; &ltcc; &ltcir; &ltdot; &lthree; &ltimes; &ltlarr; &ltquest; &ltri; &ltrie; &ltrif; &ltrPar; &lurdshar; &luruhar; 
+&lvertneqq; &lvnE; &macr; &male; &malt; &maltese; &Map; &map; &mapsto; &marker; &mcomma; &mdash; &mDDot; &measuredangle; &Mfr; &mfr; &mho; &micro; &mid; &midast; &midcir; 
+&middot; &minus; &minusb; &minusd; &minusdu; &MinusPlus; &mlcp; &mldr; &mnplus; &models; &Mopf; &mp; &Mscr; &mscr; &mstpos; &mu; &multimap; &mumap; &nabla; &nang; 
+&nap; &napE; &napid; &napprox; &natur; &natural; &nbsp; &ncap; &ncong; &ncongdot; &ncup; &ndash; &ne; &nearhk; &neArr; &nearr; &nearrow; &nedot; &nequiv; &nesear; 
+&NestedGreaterGreater; &NestedLessLess; &nexist; &nexists; &Nfr; &nfr; &ngE; &nge; &ngeq; &ngeqq; &ngeqslant; &nges; &nGg; &ngsim; &nGt; &ngt; &ngtr; &nGtv; &nhArr; &nharr; 
+&nhpar; &ni; &nis; &nisd; &niv; &nlArr; &nlarr; &nldr; &nlE; &nle; &nLeftarrow; &nleftarrow; &nLeftrightarrow; &nleftrightarrow; &nleq; &nleqq; &nleqslant; &nles; &nless; 
+&nLl; &nlsim; &nLt; &nlt; &nltri; &nltrie; &nLtv; &nmid; &Nopf; &Not; &not; &NotCongruent; &NotDoubleVerticalBar; &NotElement; &NotEqual; &NotExists; &NotGreater; 
+&NotGreaterEqual; &NotGreaterFullEqual; &NotGreaterGreater; &NotGreaterLess; &NotGreaterSlantEqual; &NotGreaterTilde; &notin; &notindot; &notinE; &notinva; &notinvb; &notinvc; 
+&NotLeftTriangle; &NotLeftTriangleEqual; &NotLess; &NotLessEqual; &NotLessFullEqual; &NotLessGreater; &NotLessLess; &NotLessSlantEqual; &NotLessTilde; &notni; &notniva; 
+&notnivb; &notnivc; &NotPrecedes; &NotPrecedesEqual; &NotPrecedesSlantEqual; &NotReverseElement; &NotRightTriangle; &NotRightTriangleEqual; &NotSquareSubsetEqual; 
+&NotSquareSupersetEqual; &NotSubset; &NotSucceeds; &NotSucceedsEqual; &NotSucceedsSlantEqual; &NotSuperset; &NotTilde; &NotTildeEqual; &NotTildeFullEqual; &NotTildeTilde; 
+&NotVerticalBar; &npar; &nparallel; &nparsl; &npart; &npolint; &npr; &nprcue; &npre; &nprec; &npreceq; &nrArr; &nrarr; &nrarrc; &nrarrw; &nRightarrow; &nrightarrow; &nrtri; 
+&nrtrie; &nsc; &nsccue; &nsce; &Nscr; &nscr; &nshortmid; &nshortparallel; &nsim; &nsime; &nsimeq; &nsmid; &nspar; &nsqsube; &nsqsupe; &nsub; &nsubE; &nsube; &nsubset; 
+&nsubseteq; &nsubseteqq; &nsucc; &nsucceq; &nsup; &nsupE; &nsupe; &nsupset; &nsupseteq; &nsupseteqq; &ntgl; &ntlg; &ntriangleleft; &ntrianglelefteq; &ntriangleright; 
+&ntrianglerighteq; &ntvgl; &ntvlg; &nu; &num; &numsp; &nvap; &nVDash; &nVdash; &nvDash; &nvdash; &nvge; &nvgt; &nvhArr; &nvinfin; &nvlArr; &nvle; &nvlt; &nvltrie; &nvrArr; 
+&nvrtrie; &nvsim; &nwarhk; &nwArr; &nwarr; &nwarrow; &nwnear; &oast; &ocir; &odash; &odiv; &odot; &odsold; &ofcir; &Ofr; &ofr; &ogon; &ogt; &ohbar; &ohm; &oint; &olarr; 
+&olcir; &olcross; &olt; &Omega; &omega; &omicron; &omid; &ominus; &Oopf; &opar; &OpenCurlyDoubleQuote; &OpenCurlyQuote; &operp; &oplus; &Or; &or; &orarr; &ord; &order; &ordf; 
+&ordm; &origof; &oror; &orslope; &orv; &oS; &Oscr; &oscr; &oslash; &osol; &Otimes; &otimes; &otimesas; &ovbar; &OverLine; &par; &para; &parallel; &parsim; &parsl; &part; 
+&PartialD; &percnt; &period; &permil; &perp; &pertenk; &Pfr; &pfr; &Phi; &phi; &phiv; &phmmat; &phone; &Pi; &pi; &pitchfork; &piv; &plank; &plankv; &plus; &plusacir; &plusb; 
+&pluscir; &plusdo; &plusdu; &pluse; &PlusMinus; &plusmn; &plussim; &plustwo; &pm; &pointint; &Popf; &pound; &Pr; &pr; &prap; &prcue; &prE; &pre; &prec; &precapprox; 
+&preccurlyeq; &Precedes; &PrecedesEqual; &PrecedesSlantEqual; &PrecedesTilde; &preceq; &precnapprox; &precneqq; &precnsim; &precsim; &Prime; &prime; &prnap; &prnE; &prnsim; 
+&profalar; &profline; &profsurf; &prop; &Proportion; &Proportional; &propto; &prsim; &prurel; &Pscr; &pscr; &Psi; &psi; &puncsp; &Qfr; &qfr; &qint; &Qopf; &qprime; &Qscr; 
+&qscr; &quatint; &quest; &questeq; &quot; &rAarr; &race; &radic; &raemptyv; &Rang; &rang; &rangd; &range; &rangle; &raquo; &Rarr; &rArr; &rarr; &rarrap; &rarrbfs; &rarrc; 
+&rarrfs; &rarrhk; &rarrlp; &rarrpl; &rarrsim; &Rarrtl; &rarrtl; &rarrw; &rAtail; &ratail; &ratio; &RBarr; &rBarr; &rbarr; &rbbrk; &rbrace; &rbrack; &rbrke; &rbrksld; &rbrkslu; 
+&rceil; &rcub; &rdca; &rdldhar; &rdquo; &rdquor; &rdsh; &Re; &real; &rect; &reg; &ReverseElement; &ReverseEquilibrium; &ReverseUpEquilibrium; &rfisht; &rfloor; &Rfr; &rfr; 
+&rHar; &rhard; &rharu; &rharul; &rho; &rhov; &RightAngleBracket; &RightArrow; &Rightarrow; &rightarrow; &RightArrowLeftArrow; &rightarrowtail; &RightCeiling; &RightDownVector; 
+&RightFloor; &rightharpoondown; &rightharpoonup; &rightleftarrows; &rightleftharpoons; &rightrightarrows; &rightsquigarrow; &RightTee; &RightTeeArrow; 
+&rightthreetimes; &RightTriangle; &RightTriangleEqual; &RightUpVector; &RightVector; &ring; &risingdotseq; &rlarr; &rlhar; &rmoust; &rmoustache; &rnmid; &roang; &roarr; 
+&robrk; &ropar; &Ropf; &roplus; &rotimes; &rpar; &rpargt; &rppolint; &rrarr; &Rrightarrow; &Rscr; &rscr; &Rsh; &rsh; &rsqb; &rsquo; &rsquor; &rthree; &rtimes; &rtri; &rtrie; 
+&rtrif; &rtriltri; &ruluhar; &rx; &Sc; &sc; &scap; &sccue; &scE; &sce; &scnap; &scnE; &scnsim; &scpolint; &scsim; &sdot; &sdotb; &sdote; &searhk; &seArr; &searr; &searrow; 
+&sect; &semi; &seswar; &setminus; &setmn; &sext; &Sfr; &sfr; &sfrown; &sharp; &ShortLeftArrow; &shortmid; &shortparallel; &ShortRightArrow; &shy; &Sigma; &sigma; &sigmav; 
+&sim; &simdot; &sime; &simeq; &simg; &simgE; &siml; &simlE; &simne; &simplus; &simrarr; &slarr; &SmallCircle; &smallfrown; &smallsetminus; &smallsmile; &smashp; &smeparsl; 
+&smid; &smile; &smt; &smte; &smtes; &sol; &solb; &solbar; &Sopf; &spades; &spadesuit; &spar; &sqcap; &sqcaps; &sqcup; &sqcups; &Sqrt; &sqsub; &sqsube; &sqsubset; &sqsubseteq; 
+&sqsup; &sqsupe; &sqsupset; &sqsupseteq; &squ; &square; &SquareIntersection; &SquareSubset; &SquareSubsetEqual; &SquareSuperset; &SquareSupersetEqual; &SquareUnion; &squarf; 
+&squarfb; &squarfbl; &squarfbr; &squarfl; &squarfr; &squarft; &squarftl; &squarftr; &squf; &srarr; &Sscr; &sscr; &ssetmn; &ssmile; &sstarf; &Star; &star; &starf; 
+&straightepsilon; &straightphi; &strns; &Sub; &sub; &subdot; &subE; &sube; &subedot; &submult; &subnE; &subne; &subplus; &subrarr; &Subset; &subset; &subseteq; &subseteqq; 
+&SubsetEqual; &subsetneq; &subsetneqq; &subsim; &subsub; &subsup; &succ; &succapprox; &succcurlyeq; &Succeeds; &SucceedsEqual; &SucceedsSlantEqual; &SucceedsTilde; &succeq; 
+&succnapprox; &succneqq; &succnsim; &succsim; &SuchThat; &Sum; &sum; &sung; &Sup; &sup; &sup1; &sup2; &sup3; &supdot; &supdsub; &supE; &supe; &supedot; &Superset; 
+&SupersetEqual; &suphsol; &suphsub; &suplarr; &supmult; &supnE; &supne; &supplus; &Supset; &supset; &supseteq; &supseteqq; &supsetneq; &supsetneqq; &supsim; &supsub; 
+&supsup; &swarhk; &swArr; &swarr; &swarrow; &swnwar; &target; &tau; &tbrk; &tdot; &telrec; &Tfr; &tfr; &there4; &Therefore; &therefore; &Theta; &theta; &thetav; &thickapprox; 
+&thicksim; &thinsp; &thkap; &thksim; &Tilde; &tilde; &TildeEqual; &TildeFullEqual; &TildeTilde; &times; &timesb; &timesbar; &timesd; &tint; &toea; &top; &topbot; &topcir; 
+&Topf; &topfork; &tosa; &tprime; &trade; &triangle; &triangledown; &triangleleft; &trianglelefteq; &triangleq; &triangleright; &trianglerighteq; &tridot; &trie; &triminus; 
+&TripleDot; &triplus; &trisb; &tritime; &trpezium; &Tscr; &tscr; &twixt; &twoheadleftarrow; &twoheadrightarrow; &Uarr; &uArr; &uarr; &Uarrocir; &udarr; &udhar; &ufisht; &Ufr; 
+&ufr; &uHar; &uharl; &uharr; &uhblk; &ulcorn; &ulcorner; &ulcrop; &ultri; &uml; &UnderLine; &Union; &UnionPlus; &Uopf; &UpArrow; &Uparrow; &uparrow; &UpArrowDownArrow; 
+&UpDownArrow; &Updownarrow; &updownarrow; &UpEquilibrium; &upharpoonleft; &upharpoonright; &uplus; &UpperLeftArrow; &UpperRightArrow; &Upsi; &upsi; &Upsilon; &upsilon; &UpTee; 
+&upuparrows; &urcorn; &urcorner; &urcrop; &urtri; &Uscr; &uscr; &utdot; &utri; &utrif; &uuarr; &uwangle; &vangrt; &varepsilon; &varkappa; &varnothing; &varphi; &varpi; 
+&varpropto; &vArr; &varr; &varrho; &varsigma; &varsubsetneq; &varsubsetneqq; &varsupsetneq; &varsupsetneqq; &vartheta; &vartriangleleft; &vartriangleright; &Vbar; &vBar; 
+&vBarv; &VDash; &Vdash; &vDash; &vdash; &Vdashl; &Vee; &vee; &veebar; &veeeq; &vellip; &Verbar; &verbar; &Vert; &vert; &VerticalBar; &VerticalTilde; &Vfr; &vfr; &vltri; 
+&vnsub; &vnsup; &Vopf; &vprop; &vrtri; &Vscr; &vscr; &vsubnE; &vsubne; &vsupnE; &vsupne; &Vvdash; &vzigzag; &wedbar; &Wedge; &wedge; &wedgeq; &weierp; &Wfr; &wfr; &Wopf; &wp; 
+&wr; &wreath; &Wscr; &wscr; &xcap; &xcirc; &xcup; &xdtri; &Xfr; &xfr; &xhArr; &xharr; &Xi; &xi; &xlArr; &xlarr; &xmap; &xnis; &xodot; &Xopf; &xoplus; &xotime; &xrArr; &xrarr; 
+&Xscr; &xscr; &xsqcup; &xuplus; &xutri; &xvee; &xwedge; &yen; &Yfr; &yfr; &Yopf; &Yscr; &yscr; &zeta; &Zfr; &zfr; &zigrarr; &Zopf; &Zscr; &zscr;

@@ -1,0 +1,78 @@
+/L20"UnrealScript" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' Nocase File Extensions = UC
+/Function String = "%^([a-zA-Z_0-9^[^]*]+^)[ ^t]+([^p*&, ^t^[^]a-zA-Z_0-9.!]++)[~;]"
+/Function String 1 = "%[a-zA-Z_0-9*]*::^([a-zA-Z_0-9^~]+^)[ ^t^p]++([^p*&, ^t^[^]/*=:&a-zA-Z_0-9./(!]++)[~;]"
+/Function String 2 = "%[a-zA-Z_0-9^][a-zA-Z_0-9^[^]]+[ ^t*]+^([a-zA-Z_0-9]+^)[ ^t]++([^p*&, ^t^[^]a-zA-Z_0-9./(!]++)[~;]"
+/Function String 3 = "%[a-zA-Z_0-9*&$^[^]*]+[ ^t]+[a-zA-Z_0-9*&$^[^]]+[ ^t*]+^([a-zA-Z_0-9]+^)[ ^t]++([^p*&, ^t^[^]a-zA-Z_0-9./(!]++)[~;]"
+/Function String 4 = "%[a-z_0-9^[^]*]++ [a-z_0-9*^[^]]+[ ^t]++[a-z_0-9*^[^]]+[ ^t]++^([*a-z_0-9]+^)[ ^t]++([^p*&, ^t^[^]a-z_0-9./(!]++)[~;]"
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Indent Strings = "{" ":"
+/Unindent Strings = "}"
+/C1"Keywords"
+abstract array assert auto
+begin break
+case class collapsecategories const continue
+default defaultproperties delegate dependson do dontcollapsecategories 
+editinlinenew else end enum event exec extends
+final for foreach from function
+global goto 
+hidecategories
+if ignores instanced intrinsic invariant iterator 
+latent local
+map
+native nativereplication noexport noteditinlinenew notplaceable 
+operator outer
+package perobjectconfig placeable postoperator preoperator
+reliable replication return
+self showcategories simulated singular spawn state static stop super switch 
+transient 
+unreliable until
+var 
+while within
+/C2"Built-in Types"
+bool boundingbox box byte
+CompressedPosition
+color coords
+float
+guid
+InterpCurve InterpCurvePoint
+int
+name
+plane
+quat
+range rangevector rotator
+scale string struct
+vector
+/C3"Symbols"
+#exec
+(
+)
+[
+]
+;
+:
+/C4"Operators"
++
+*
+-
+=
+// /
+%
+&
+>
+<
+^
+!
+|
+$
+@
+/C5"MajorClasses"
+Object
+Actor
+Pawn
+KActor
+/C6"MagicConstants"
+false
+true
+MaxInt
+Pi
+

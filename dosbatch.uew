@@ -1,0 +1,47 @@
+/L20"DOS Batch" Nocase HTML_LANG Line Comment = rem String Chars = " File Extensions = BAT
+/Delimiters = ~!^&()+=|@{}[];"'<> ,./    
+/Function String = "^:[a-zA-Z0-9_-]*"
+/C1
+@
+%
+>
+<
+*
+?
+$e
+[
+call
+do 
+echo errorlevel exit exist edit edlin 
+for
+goto
+if in
+not
+off on
+pause prompt path
+qbasic
+set shift
+/C2
+attrib append
+backup
+cd choice cls copy chdir command comp chkdsk
+del dir deltree diskcopy debug diskcomp doskey
+expand
+format fc fdisk find ftp
+graphics
+help
+interlnk intersvr
+keyb
+label loadfix
+mkdir md mode msd more mem move msav msbackup
+nslfunc
+print
+rd rmdir replace restore
+sort share smartdrv sys scandisk setver subst setver
+type tree
+undelete unformat
+ver vol vsafe
+xcopy
+/C3
+date
+time

@@ -1,0 +1,132 @@
+/L10"ABEL HDL" Line Comment = // Escape Char = \ String Chars = "' File Extensions = ABL
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String   = "^([a-zA-Z_0-9]+^)[ ^t]++([^p*, a-zA-Z_0-9]++)[~;]"
+/Function String 1 = "%[a-zA-Z_0-9]*::^([a-zA-Z_0-9]+^)[ ^t]++([^p*&, a-zA-Z_0-9]++)[~;]"
+/Function String 2 = "%[a-zA-Z_0-9]* ^([a-zA-Z_0-9]+^)[ ^t]++([^p*, a-zA-Z_0-9]++)[~;]"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+
+/C1"Keywords"
+async_reset
+case
+declarations device
+else else end endcase endwith equations external
+functional_block fuses
+goto 
+if in interface istype
+library 
+macro module
+node
+options 
+pin property 
+state state_diagram state_register sync_reset
+test_vectors then title trace truth_table
+when with
+ASYNC_RESET
+CASE
+DECLARATIONS DEVICE
+ELSE ELSE END ENDCASE ENDWITH EQUATIONS EXTERNAL
+FUNCTIONAL_BLOCK FUSES
+GOTO 
+IF IN INTERFACE ISTYPE
+LIBRARY 
+MACRO MODULE
+NODE
+OPTIONS 
+PIN PROPERTY 
+STATE STATE_DIAGRAM STATE_REGISTER SYNC_RESET
+TEST_VECTORS THEN TITLE TRACE TRUTH_TABLE
+WHEN WITH
+
+/C4"Extensions"
+aclr ap ar aset 
+ce clk clr 
+d
+fc fb
+j 
+k 
+ld le lh 
+oe
+pr
+q 
+r re 
+s set sp sr
+t
+ACLR AP AR ASET 
+CLK CLR CE 
+D
+FC FB
+J 
+K 
+LD LE LH 
+OE
+PR 
+Q 
+R RE 
+S SET SP SR
+T
+
+
+/C3"Keywords 3"
+buffer 
+collapse com 
+dc 
+invert 
+keep 
+neg 
+pos 
+retain reg reg_d reg_g reg_jk reg_sr reg_t 
+xor 
+BUFFER 
+COLLAPSE COM 
+DC 
+INVERT 
+KEEP 
+NEG 
+POS 
+RETAIN REG REG_D REG_G REG_JK REG_SR REG_T 
+XOR 
+
+/C8"Operators"
+- 
++ 
+* 
+// / 
+< 
+> 
+! 
+& 
+# 
+=
+
+/C4"Preprocessor"
+@alternate 
+@carry @const 
+@dcset @dcstate 
+@expr @exit 
+@ifb @ifdef @ifiden @ifnb @ifndef @include @irp @irpc 
+@message 
+@onset 
+@page 
+@radix @repeat 
+@setsize @standard
+
+/C5"Keywords 2"
+buffer
+collapse com
+dc
+invert
+keep
+neg
+pos
+reg reg_d reg_g reg_jk reg_sr reg_t retain 
+xor
+BUFFER
+COLLAPSE COM
+DC
+INVERT
+KEEP
+NEG
+POS
+REG REG_D REG_G REG_JK REG_SR REG_T RETAIN 
+XOR

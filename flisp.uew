@@ -1,0 +1,58 @@
+/L20"FLISP" Nocase Line Comment = : Block Comment On = ;| Block Comment Off = |; File Extensions = DCL LSP
+/Delimiters = ~!$%^&*()-+=|\/{}[]:;"'<> ,.?/
+/C1
+boxed_column boxed_radio_column boxed_radio_row boxed_row button
+column concatenation
+dialog
+edit_box errtile
+image image_button
+list_box
+ok_only ok_cancel ok_cancel_help ok_cancel_help_errtile ok_cancel_help_info
+paragraph popup_list
+radio_button radio_column radio_row row
+slider spacer spacer_0 spacer_1
+text text_part toggle
+/C2
+@include
+/C3
+action alignment allow_accept aspect_ratio
+big_increment
+children_alignment children_fixed_height children_fixed_width color
+edit_limit edit_width
+fixed_height fixed_width
+height
+initial_focus
+is_bold is_cancel is_default is_enabled is_tab_stop
+key
+label layout list
+max_value min_value mnemonic multiple_select
+small_increment
+tabs
+value
+width
+/C4
+abs acad_colordlg acad_helpdlg acad_strlsort action_tile add_list ads alert alloc and angle angtof angtos append apply arx arxload arxunload ascii assoc atan atof atoi atom atoms_family autoarxload autoload autoxload
+boole boundp
+car cdr caar cadr cddr caaar caadr cadar caddr cdaar cdadr cddar cdddr caaadr caadar cadaar cdaaar caaddr caddar cddaar cadadr caaaar cdadar cdaadr cadddr cdaddr cddadr cdddar cddddr chr client_data_tile close command cond cons cos cvunit
+dictnext dictsearch dimx_tile dimy_tile distance distof done_dialog
+end_image end_list entdel entget entlast entmake entmod entnext entsel entupd eq equal eval exit exp expand expt
+fill_image findfile fix float foreach
+gc gcd get_attr get_tile getangle getcfg getcorner getdist getenv getfiled getint getkword getorient getpoint getreal getstring getvar graphscr grclear grdraw grread grtext grvecs
+handent help
+if initget inters itoa
+lambda last length listp load_dialog load log logand logior lsh
+mapcar max mem member menucmd min minusp mode_tile
+namedobjdict nentsel nentselp new_dialog not nth null numberp
+open or osnap
+polar prin1 princ print progn prompt
+quit quote
+read read_char read_line redraw regapp rem repeat reverse rtos
+set set_tile setcfg setfunhelp setq setvar sin slide_image snvalid sqrt ssadd ssdel ssget sslength ssmemb ssname startapp start_dialog start_image start_list strcase strcat strlen subst substr
+tablet tblnext tblobjname tblsearch term_dialog terpri textbox textpage textscr trace trans type
+unload_dialog untrace
+vector_image ver vmon vports
+wcmatch while write_char write_line
+xdroom xdsize xload xunload
+zerop
+/C5
+defun

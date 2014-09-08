@@ -1,0 +1,124 @@
+/L20"Blitz+ 1.35" Line Comment = ; String Chars= " File Extensions = Bp BP
+/Function String = "%[ ^t]++^(Function+[ ^t]+*$^)"
+/Function String 1 = "%[ ^t]++^(Type+[ ^t]+*$^)"
+/Function String 2 = "%[ ^t]++^(.+*$^)"
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Indent Strings = "Then" "Else"
+/Unindent Strings = "End" "Next" "EndIf" "End If" "End Function" "End Select" "End Type" "Wend" "Until" "Forever"
+/C1"Keywords"
+Abs After And
+Before
+Case Const
+Data Default Delete Dim
+Each Else ElseIf End EndFunction EndSelect EndType EndIf Eof Exit
+FALSE Field First Float For Forever Function 
+Global Gosub Goto
+If Include Insert Int 
+Last Local
+Mod
+New Next Not Null
+Or
+Pi
+Read Repeat Restore Return
+Sar Select Sgn Shl Shr Step Str Str$ 
+Then To TRUE Type 
+Until
+Wend While
+Xor
+
+/C2"Commands"
+ACos ACos# ASin ASin# ATan ATan# ATan2 ATan2# AcceptTCPStream ActivateGadget
+ActivateWindow ActiveWindow AddGadgetItem AddTextAreaText AddTreeViewNode
+AppTitle Asc AutoMidHandle AutoSuspend AvailVidMem 
+BackBuffer BankSize Bin Bin$ ButtonState 
+CallDLL CanvasBuffer Ceil Ciel# ChangeDir ChannelPan ChannelPitch 
+ChannelPlaying ChannelVolume CheckMenu Chr Chr$ ClearGadgetItems ClientHeight
+ClientWidth CloseDir CloseFile CloseMovie CloseTCPServer CloseTCPStream 
+CloseUDPStream Cls ClsColor CollapseTreeViewNode Color ColorBlue ColorGreen
+ColorRed CommandLine Confirm CopyBank CopyFile CopyImage CopyPixel 
+CopyPixelFast CopyRect CopyStream Cos Cos# CountGadgetItems CountGfxDrivers
+CountGfxModes CountHostIPs CountTreeViewNodes CreateBank CreateButton
+CreateCanvas CreateComboBox CreateDir CreateHtmlView CreateImage CreateLabel
+CreateListBox CreateMenu CreateNetPlayer CreatePanel CreateProgBar 
+CreateSlider CreateTCPServer CreateTabber CreateTextArea CreateTextField 
+CreateTimer CreateToolBar CreateTreeView CreateUDPStream CreateWindow
+CurrentDate CurrentDate$ CurrentDir CurrentDir$ CurrentTime CurrentTime$
+DebugLog Delay DeleteDir DeleteFile DeleteNetPlayer DemoLib_InvertBits 
+DemoLib_ShuffleString Desktop DesktopBuffer DisableGadget DisableMenu
+DisableToolBarItem DottedIP DrawBlock DrawBlockRect DrawImage DrawImageRect
+DrawMovie 
+EnableGadget EnableMenu EnableToolBarItem EndGraphics EventID EventSource
+EventY EventX EventData ExecFile Exp ExpandTreeViewNode
+FilePos FileSize FileType Flip FlipCanvas Floor Floor# FlushEvents FlushJoy
+FlushKeys FlushMouse FontHeight FormatTextAreaText FreeBank FreeFont 
+FreeGadget FreeIconStrip FreeImage FreeSound FreeTimer FreeTreeViewNode 
+FrontBuffer 
+GadgetHeight GadgetItemText GadgetWidth GadgetX GadgetY GammaBlue GammaGreen
+GammaRed GetColor GetEnv GetKey GetMouse GfxDriverName GfxDriverName$ 
+GfxModeDepth GfxModeExists GfxModeFormat GfxModeHeight GfxModeWidth 
+GrabImage Graphics GraphicsBuffer GraphicsDepth GraphicsFormat 
+GraphicsHeight GraphicsWidth 
+HandleImage Hex Hex$ HideGadget HidePointer HostIP HostNetGame HotKeyEvent
+HtmlViewBack HtmlViewForward HtmlViewGo 
+ImageBuffer ImageHeight ImageRectCollide ImageRectOverlap ImageWidth
+ImageXHandle ImageYHandle ImagesCollide ImagesOverlap Input Input$ 
+InsertGadgetItem InsertTreeViewNode Instr 
+JoinNetGame JoyDown JoyHat JoyHit JoyPitch JoyRoll JoyType JoyU JoyUDir JoyV
+JoyVDir JoyX JoyXDir JoyY JoyYDir JoyYaw JoyZ JoyZDir 
+KeyDown KeyHit KeyWait 
+LSet LSet$ Left Left$ Len Line LoadAnimImage LoadBuffer LoadFont 
+LoadIconStrip LoadImage LoadSound LockBuffer LockedFormat LockedPitch
+LockedPixels LockTextArea Log Log# Log10 Log10# LoopSound Lower Lower$ 
+MaskImage MaximizeWindow MenuChecked MenuEnabled Mid Mid$ MidHandle 
+MilliSecs MinimizeWindow ModifyGadgetItem MoreFiles MouseDown MouseHit
+MouseWait MouseX MouseXSpeed MouseY MouseYSpeed MouseZ MouseZSpeed MoveMouse 
+MovieHeight MoviePlaying MovieWidth 
+NetMsgData NetMsgData$ NetMsgFrom NetMsgTo NetMsgType NetPlayerLocal NetPlayerName 
+NetPlayerName$ NextFile NextFile$ Notify
+OpenFile OpenMovie OpenTCPStream Origin Oval 
+PauseChannel PauseTimer PeekByte PeekEvent PeekFloat PeekInt PeekShort 
+PlayCDTrack PlayMusic PlaySound Plot PokeByte PokeFloat PokeFloat# PokeInt
+PokeShort Print Proceed
+QueryObject
+RSet RSet$ Rand ReadAvail ReadByte ReadBytes ReadDir ReadFile ReadFloat 
+ReadFloat# ReadInt ReadLine ReadLine$ ReadPixel ReadPixelFast ReadShort ReadString 
+ReadString$ Rect RectsOverlap RecvNetMsg RecvUDPMsg RemoveGadgetItem 
+Replace Replace$ RequestColor RequestDir RequestDir$ RequestFile 
+RequestFile$ RequestFont RequestedBlue RequestedGreen RequestedRed ResetTimer
+ResizeBank ResizeImage ResumeChannel ResumeTimer Right Right$ Rnd Rnd#
+RndSeed RotateImage RuntimeError RuntimeStats 
+SaveBuffer SaveImage ScaleImage ScanLine SeedRnd SeekFile SelectGadgetItem 
+SelectTreeViewNode SelectedGadgetItem SelectedTreeViewNode SendNetMsg 
+SendUDPMsg SetBuffer SetButtonState SetEnv SetFont SetGadgetLayout SetGadgetShape
+SetGadgetText SetGamma SetGfxDriver SetMenuText SetMinWindowSize SetPanelColor
+SetPanelImage SetSliderRange SetSliderValue SetStatusText SetTextAreaColor 
+SetTextAreaFont SetTextAreaTabs SetTextAreaText SetToolBarTips ShowGadget
+ShowPointer Sin Sin# SliderValue SoundPan SoundPitch SoundVolume Sqr Sqr#
+StartNetGame Stop StopChannel StopNetGame String String$ StringWidth
+SystemProperty 
+TCPStreamIP TCPStreamPort TCPTimeouts TFormFilter TFormImage Tan Tan#
+Text TextAreaText TextFieldText TextAreaChar TextAreaCursor TextAreaLen
+TextAreaLineLen TextAreaLine TextAreaSelLen TileBlock TileImage TimerTicks
+TotalVidMem TreeViewRoot Trim Trim$ 
+UDPMsgIP UDPMsgPort UDPStreamIP UDPStreamPort UDPTimeouts UncheckMenu UnlockBuffer
+UnlockTextArea UpdateGamma UpdateProgBar UpdateWindowMenu Upper 
+VWait Viewport WaitEvent WaitKey WaitMouse WaitTimer WindowMaximized 
+WindowMenu WindowMinimized Write WriteByte WriteBytes WriteFile WriteFloat
+WriteInt WriteLine WritePixel WritePixelFast WriteShort WriteString
+/C4"Operators"
++
+-
+=
+// /
+%
+*
+#
+$
+&
+>
+<
+^
+!
+|
+(
+)

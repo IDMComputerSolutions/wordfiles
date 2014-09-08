@@ -1,0 +1,24 @@
+/L15"Cara Masks" CARAMASK_LANG Nocase Line Comment = ; Block Comment On = /* Block Comment Off = */ Nocase File Extensions = MSK
+/Colors = 0,8421376,8421376,8421504,255,
+/Colors Back = 16777215,16777215,16777215,16777215,16777215,
+/Colors Auto Back = 1,1,1,1,1,
+/Font Style = 0,0,0,0,0,
+/Delimiters = ~!@$%^&*()-+=|\/[]:;<> ,	.?
+
+/Function String = "BEGIN " "CHOICER_BEGIN " " 'GROUP_BOX'"
+
+/Open Fold Strings = "BEGIN" "CHOICER_BEGIN" " 'GROUP_BOX'"
+/Close Fold Strings = "END" "CHOICER_END"  " 'GROUP_BOX'"
+
+
+/C1"Commands" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+BEGIN
+CHOICER_BEGIN CHOICER_END
+END
+HINT
+ITEM
+TEXT
+SUBCHOICER_BEGIN SUBCHOICER_END
+VIEW
+/C2"Keywords" Colors = 255 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+LABEL

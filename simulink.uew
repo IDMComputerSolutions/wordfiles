@@ -1,0 +1,27 @@
+/L20"Simulink" 1Line Comment = -- Nocase File Extensions = mdl MDL
+/Delimiters = {}[]:;"'<> ,.?/()	~!@$^&*+=|\/
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1
+annotation annotationdefaults
+branch block blockdefaults
+line linedefaults
+model
+system
+/C2
+on off
+subsystem
+/C3
+/C4
+ancestorblock
+backgroundColor
+blocktype
+description dstblock dstport
+foregroundcolor
+location
+modelbrowservisibility modelbrowserwidth
+name
+open
+points position port ports
+screencolor sourceblock sourcetype slope srcblock srcport start
+version

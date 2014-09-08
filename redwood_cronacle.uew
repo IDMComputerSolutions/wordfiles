@@ -1,0 +1,63 @@
+/L14"REDWOOD"  Line Comment = -- Block Comment On = /* Block Comment Off = */ File Extensions = SQL
+/Delimiters = .~!%@^&*()-+=|\/{}[]:;"'<> ,	?
+/Function String = "%*function ^(*^) "
+/Function String 1 = "%*procedure ^(*^) "
+/Function String 2 = "%*trigger ^(*^)^p"
+/Indent Strings = "begin then"
+/Unindent Strings = "end end if"
+/C1"Keywords"
+application 
+check clear comment create 
+default delete description
+execute
+file format
+grant granted
+move 
+no nocmdfile nodisplay noedit 
+option 
+procedure provides 
+raise replace resource runtime
+script scripttype select submit subscribe supports
+unlocked update using
+verify
+/C2"SPECIAL VARS" 
+beginline
+current_job_id 
+exception
+filetype flags
+jcs jcs_job_wait_events job_id
+no_data_found
+parent_job_id
+raiser_comment raise_application_error reschedule
+searchfile sysjcs 
+text
+/C3"Control" 
+begin 
+call chain
+end endrwscript
+rwscript
+step
+/C4"Datatypes/Constants" 
+char
+date
+number
+varchar2
+/C5"quantifiers" 
+and as
+by 
+false from 
+if in 
+not null 
+of on or others
+then to true
+when where with 
+/C6"Functions" 
+instr
+nvl
+substr
+/C7"Custom Parameters" 
+P_BATCH_ID 
+P_CRONACLE_WORKING_DIR 
+P_FILE_CUSTOMER_LOGIN P_FILE_EVENT_COMMENT P_FILE_FILENAME P_FILE_JOB_PATH P_FILE_ROOT_PATH 
+P_TARGET_PATH
+SYSJCS

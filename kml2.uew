@@ -1,0 +1,118 @@
+/L20"KML 2.2" XML_LANG Noquote Block Comment On = <!-- Block Comment Off = --> Block Comment On Alt = <![CDATA[ Block Comment Off Alt = ]]> File Extensions = KML
+/Delimiters = " '	$,<=> ]
+/Function String = " id="^(*^)""
+/Open Brace Strings =  "{" "(" "[" "<"
+/Close Brace Strings = "}" ")" "]" ">"
+/C1"KML Nodes" STYLE_ELEMENT
+<AddressDetails> </AddressDetails> <Alias> </Alias>
+<BalloonStyle <BalloonStyle> </BalloonStyle>
+<Camera> </Camera> <Change> </Change> <Create> </Create>
+<Data> </Data> <Delete> </Delete> <Document> </Document>
+<ExtendedData> </ExtendedData>
+<Folder <Folder> </Folder>
+<GroundOverlay> </GroundOverlay>
+<ImagePyramid> </ImagePyramid>
+<LatLonAltBox> </LatLonAltBox> <LatLonBox> </LatLonBox> <LineString> </LineString> <LinearRing>
+</LinearRing> <Link <Link> </Link> <Location> </Location> <Lod> </Lod> <LookAt> </LookAt>
+<Model> </Model> <MultiGeometry> </MultiGeometry>
+<Orientation> </Orientation>
+<Pair> </Pair> <PhotoOverlay> </PhotoOverlay> <Placemark <Placemark> </Placemark> <Point> </Point>
+<Polygon> </Polygon>
+<Region> </Region> <ResourceMap> </ResourceMap>
+<Schema> </Schema> <ScreenOverlay> </ScreenOverlay> <SimpleField> </SimpleField>
+<Update> </Update> <Url> </Url>
+<ViewVolume> </ViewVolume>
+<kml </kml>
+/C2"Child Nodes" STYLE_ELEMENT
+// />
+>
+<Icon> </Icon> <IconStyle </IconStyle> <ItemIcon> </ItemIcon>
+<LabelStyle> </LabelStyle> <LineStyle> </LineStyle> <ListStyle <ListStyle> </ListStyle>
+<PolyStyle> </PolyStyle>
+<Scale> </Scale> <SchemaData </SchemaData> <SimpleData </SimpleData> <Snippet <Snippet> </Snippet> <Style
+</Style> <StyleMap </StyleMap>
+<TimeSpan> </TimeSpan> <TimeStamp> </TimeStamp>
+<address> </address> <altitudeMode> </altitudeMode> <atom:author> </atom:author> <atom:link> </atom:link>
+<atom:name> </atom:name>
+<begin> </begin>
+<cookie> </cookie> <coordinates> </coordinates>
+<description> </description> <displayMode> </displayMode> <displayName> </displayName> <drawOrder>
+</drawOrder>
+<end> </end> <expires> </expires> <extrude> </extrude>
+<fill> </fill>
+<gridOrigin> </gridOrigin>
+<hotSpot </hotSpot> <href> </href> <httpQuery> </httpQuery>
+<innerBoundaryIs> </innerBoundaryIs>
+<key> </key>
+<labelColor> </labelColor> <linkDescription> </linkDescription> <linkName> </linkName> <linkSnippet>
+</linkSnippet> <listItemType> </listItemType>
+<maxAltitude> </maxAltitude> <maxFadeExtent> </maxFadeExtent> <maxHeight> </maxHeight> <maxLodPixels>
+</maxLodPixels> <maxSessionLength> </maxSessionLength> <maxWidth> </maxWidth> <message> </message>
+<minAltitude> </minAltitude> <minFadeExtent> </minFadeExtent> <minLodPixels> </minLodPixels>
+<minRefreshPeriod> </minRefreshPeriod>
+<name> </name>
+<phoneNumber> </phoneNumber>
+<state> </state>
+<text> </text>
+<visibility> </visibility>
+<when> </when>
+/C3"gx:namespace Nodes" STYLE_ELEMENT
+<gx:AnimatedUpdate> </gx:AnimatedUpdate> <gx:FlyTo> </gx:FlyTo> <gx:LatLonQuad> </gx:LatLonQuad>
+<gx:MultiTrack> </gx:MultiTrack> <gx:Playlist> </gx:Playlist> <gx:SoundCue> </gx:SoundCue> <gx:TimeSpan>
+</gx:TimeSpan> <gx:TimeStamp> </gx:TimeStamp> <gx:Tour> </gx:Tour> <gx:TourControl> </gx:TourControl>
+<gx:Track> </gx:Track> <gx:ViewerOptions> </gx:ViewerOptions> <gx:Wait> </gx:Wait> <gx:altitudeMode>
+</gx:altitudeMode> <gx:altitudeOffset> </gx:altitudeOffset> <gx:angles> </gx:angles>
+<gx:balloonVisibility> </gx:balloonVisibility> <gx:coord> </gx:coord> <gx:delayedStart> </gx:delayedStart>
+<gx:drawOrder> </gx:drawOrder> <gx:duration> </gx:duration> <gx:flyToMode> </gx:flyToMode> <gx:h> </gx:h>
+<gx:interpolate> </gx:interpolate> <gx:labelVisibility </gx:labelVisibility> <gx:option> </gx:option>
+<gx:outerColor> </gx:outerColor> <gx:outerWidth> </gx:outerWidth> <gx:physicalWidth> </gx:physicalWidth>
+<gx:playMode> </gx:playMode> <gx:w> </gx:w> <gx:x> </gx:x> <gx:y> </gx:y>
+/C4"Geo & View" STYLE_ELEMENT
+// /range>
+<altitude> </altitude>
+<bottomFov> </bottomFov>
+<east> </east>
+<flyToView> </flyToView>
+<heading> </heading>
+<latitude> </latitude> <leftFov> </leftFov> <longitude> </longitude>
+<near> </near> <north> </north>
+<range> </range> <rightFov> </rightFov> <roll> </roll> <rotation> </rotation>
+</screenXY> <south> </south>
+<tessellate> </tessellate> <tileSize> </tileSize> <tilt> </tilt> <topFov> </topFov>
+<west> </west>
+/C5"Appearence" STYLE_ELEMENT
+<bgColor> </bgColor>
+<color> </color> <colorMode> </colorMode>
+<open> </open> <outerBoundaryIs> </outerBoundaryIs> <outline> </outline> <overlayXY
+<rotationXY
+<scale> </scale> <screenXY <shape> </shape> <size <styleUrl> </styleUrl>
+<textColor> </textColor>
+<width> </width>
+/C6"NetworkLinks" STYLE_ELEMENT
+<NetworkLink <NetworkLink> </NetworkLink> <NetworkLinkControl> </NetworkLinkControl>
+<refreshInterval> </refreshInterval> <refreshMode> </refreshMode> <refreshVisibility> </refreshVisibility>
+<targetHref> </targetHref>
+<value> </value> <viewBoundScale> </viewBoundScale> <viewFormat> </viewFormat> <viewRefreshMode>
+</viewRefreshMode> <viewRefreshTime> </viewRefreshTime>
+/C7"Attributes & Variables" STYLE_ATTRIBUTE
+"
+'
+** $[
+=
+UTF-8
+]
+absolute
+encoding=
+fraction
+id=
+maxLines=
+name=
+pixels
+relativeToGround
+schemaUrl=
+targetId=
+version=
+x= xmlns:gx= xmlns:xsi= xmlns= xsi:schemaLocation= xunits=
+y= yunits=
+/C8"Links & Negative Numbers"
+** -0 -1 -2 -3 -4 -5 -6 -7 -8 -9 file:// ftp:// http:// https://

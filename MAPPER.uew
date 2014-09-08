@@ -1,0 +1,83 @@
+/L10"MAPPER" NOCASE Line Comment Num = 3 .  Block Comment On = @.  File Extensions = MPR  String Chars =
+/Delimiters = ,;:"	
+/Function String = ""
+/C1"General Keywords"
+** @FMT @fmt FMT fmt @CNT @cnt CNT cnt @FON @fon FON fon @INP @inp INP inp @SOR @sor SOR sor @RFM @rfm RFM rfm @SRH @srh SRH srh @DEF @def DEF def @LZR @lzr LZR lzr @ADD @add ADD add @BFN @bfn BFN bfn @RSL @rsl RSL rsl @RLN @rln ELN rln @SNU @snu SNU snu @TOT @tot TOT tot @DEC @dec DEC dec @LOC @loc LOC loc @RDC @rdc RDC rdc @FDR @fdr FDR fdr @JUV @juv JUV juv @CAL @cal CAL cal @LDV @ldv LDV ldv @MCH @mch MCH mch @BRK @brk BRK brk @CHG @chg CHG chg @LOK @lok LOK lok @RNM @rnm RNM rnm @INC @inc INC inc @RER @rer RER rer @RDL @rdl RDL rdl
+@ART @art
+@BRK @brk
+@CHG @chg
+@DC @dc
+@IF @if
+@LCV @lcv
+@RET @ret
+@ULK @ulk
+@WAT @wat
+@XQT @xqt
+ART
+art
+BRK
+brk
+CHG
+chg
+DC DEC
+dc dec
+IF
+if
+LCV
+lcv
+RET
+ret
+ULK
+ulk
+WAT
+wat
+XQT
+xqt
+
+/C2"Labels"
+** @0 @1 @2 @3 @4 @5 @6 @7 @8 @9
+
+/C3"INPUT & Updating"
+** @FIL @fil FIL fil @LCH @lch LCH lch @LN+ @ln+ LN+ ln+ @LN- @ln- LN- ln- @WRL @wrl WRL wrl @REP @rep REP, rep, @MAU @mau MAU mau @SRU @sru SRU sru
+DEL
+del
+input$
+INPUT$ Input$
+REP
+rep
+@UPD @upd
+UPD
+upd
+
+/C4"Control"
+
+@ESR @esr
+@GTO @gto
+@RSR @rsr
+@STOP @stop
+ESR
+esr
+GTO
+gto
+RSR
+rsr
+STOP
+stop
+
+
+/C5"External Jumps"
+** @RUN @run RUN run @LNK @lnk LNK lnk @BR @br @ERR @err BR br
+ERR
+err
+RXP
+rpx
+@STR
+@str
+STR
+str
+
+
+/C6"Displayed Ouput"
+** @SHW @shw SHW shw @DSG @dsg DSG dsg @MNU @mnu MNU mnu @TXT @txt TXT txt @CLS @cls CLS cls @HID @hid HID hid @BTN @btn BTN btn @LST @lst LST lst @OUT @out OUT, out, @DSP @dsp DSP, dsp, @SC @sc
+SC
+sc

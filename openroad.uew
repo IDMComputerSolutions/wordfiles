@@ -1,0 +1,185 @@
+/L20"OpenROAD" Nocase Block Comment On = /* Block Comment Off = */ String Chars = ' File Extensions = e0* e1* e2* e3* e4* e5* e6* e7* e8* e9* TXT exp
+/Function String = "%^{Method^}^{Procedure^}[ _a-zA-Z]*"
+/Delimiters = ~!@%^&*()+=|\{}[]:;"'<> ,	.?
+/C1
+abort all alter any as asc at avg
+begin byref
+case callFrame ChildClick ChildClickPoint ChildDetails ChildDoubleClick ChildDragBox ChildDragSegment ChildEntry ChildExit ChildMoved ChildProperties ChildResized ChildScroll ChildSelect ChildSetValue ChildUnselect ChildValidate Click ClickPoint committed continue copy current
+declare default deleterow desc Details direct DoubleClick DragBox DragSegment 
+end endcase enddeclare Entry escape exit extclassevent
+field FrameActivate FrameDeactivate
+gotoframe group
+initialize inquire_ingres inquire_sql installation integrity 
+key
+link lockmode
+message method mode modify Moved
+next nextcase noecho
+of on only openframe 
+procedure prompt Properties
+qualification
+raise read register relocate remove repeat repeatable repeated Resized resume return revoke role row rule
+save savepoint Scroll SelectionChanged serializable setvalue sleep some system
+uncommitted unique UnSelect until UserEvent
+Validate 
+WindowClose WindowMoved WindowResized WindowVisible work write
+/C2"SQL"
+between by 
+commit count
+delete distinct drop
+execute exists 
+fetch from 
+grant 
+having
+immediate in index insert into
+join
+like 
+max min 
+order
+permit 
+rollback 
+select set sum 
+table transaction
+union update
+values view
+where with 
+/C3"STRUCTURAL"
+AND
+callProc
+ELSE ELSEIF ENDIF ENDFOR ENDIF ENDLOOP ENDWHILE 
+DO DOWNTO
+IF IS
+FALSE FOR
+NOT NULL
+OR
+THEN TO TRUE
+WHILE 
+/C4"COMPILER"
+$_ComponentName $_CurFld $_CurFldRow
+$_DefaultReturnValue
+$ApplicationName
+$MB_OKOnly $MB_CancelOnly $MB_OKCancel $MB_AbortRetryIgnore $MB_YesNoCancel $MB_YesNo $MB_RetryCancel
+$MB_YesYesToAllNoCancel $MB_AbortOnly $MB_RetryOnly $MB_IgnoreOnly $MB_YesOnly $MB_NoOnly $MB_YesToAllOnly
+$MB_Critical $MB_Question $MB_Exclamation
+$MB_Information $MB_Reply $MB_DefaultButton1 $MB_DefaultButton2 $MB_DefaultButton3 $MB_DefaultButton4
+$MB_OK $MB_Cancel $MB_Abort $MB_Retry $MB_Ignore $MB_Yes $MB_No $MB_YesToAll
+$ShortRemark
+BF_BMP BF_GIF BF_SUNRASTER BF_TIFF BF_XBM BF_WINDOWCURSOR BF_WINDOWICON
+CC_BACKGROUND CC_BLACK CC_BLUE CC_BROWN CC_CYAN CC_FOREGROUND CC_GRAY CC_GREEN CC_LIGHT_BLUE CC_LIGHT_BROWN CC_LIGHT_CYAN CC_LIGHT_GRAY CC_LIGHT_GREEN
+CC_LIGHT_ORANGE CC_LIGHT_PINK CC_LIGHT_PURPLE CC_LIGHT_RED CC_LIGHT_YELLOW CC_MAGENTA CC_ORANGE CC_PALE_BLUE CC_PALE_BROWN CC_PALE_CYAN CC_PALE_GRAY CC_PALE_GREEN CC_PALE_ORANGE CC_PALE_PINK CC_PALE_PURPLE CC_PALE_RED CC_PALE_YELLOW CC_PINK CC_PURPLE CC_RED CC_WHITE CC_YELLOW
+CC_DEFAULT_1 CC_DEFAULT_2 CC_DEFAULT_3 CC_DEFAULT_4 CC_DEFAULT_5 CC_DEFAULT_6 CC_DEFAULT_7 CC_DEFAULT_8 CC_DEFAULT_9 CC_DEFAULT_10 CC_DEFAULT_11 CC_DEFAULT_12 CC_DEFAULT_13 CC_DEFAULT_14 CC_DEFAULT_15 CC_DEFAULT_16 CC_DEFAULT_17 CC_DEFAULT_18 CC_DEFAULT_19 CC_DEFAULT_20
+CC_DEFAULT_21 CC_DEFAULT_22 CC_DEFAULT_23 CC_DEFAULT_24 CC_DEFAULT_25 CC_DEFAULT_26 CC_DEFAULT_27 CC_DEFAULT_28 CC_DEFAULT_29 CC_DEFAULT_30
+CC_SYS_ACTIVEBORDER CC_SYS_ACTIVECAPTION CC_SYS_APPWORKSPACE CC_SYS_BACKGROUND CC_SYS_BTNFACE CC_SYS_BTNSHADOW CC_SYS_BTNTEXT CC_SYS_CAPTIONTEXT CC_SYS_GRAYTEXT CC_SYS_HIGHLIGHT CC_SYS_HIGHLIGHTTEXT CC_SYS_INACTIVEBORDER CC_SYS_INACTIVECAPTION CC_SYS_INACTIVECAPTIONTEXT
+CC_SYS_MENU CC_SYS_MENUTEXT CC_SYS_SCROLLBAR CC_SYS_SHADOW CC_SYS_WINDOW CC_SYS_WINDOWFRAME CC_SYS_WINDOWTEXT
+CL_INVALIDVALUE
+CP_NONE CP_BOTH CP_ROWS CP_COLUMNS
+CS_CLOSED CS_CURRENT CS_OPEN CS_OPEN_CACHED CS_NOCURRENT CS_NO_MORE_ROWS
+DC_BW DC_COLOR
+DP_CLIP_IMAGE DP_AUTOSIZE_FIELD DP_SCALE_IMAGE_HW DP_SCALE_IMAGE_H DP_SCALE_IMAGE_W
+DS_CONNECTED DS_DISABLED DS_DISCONNECTED DS_INGRES_DBMS DS_INGRESDSK_DBMS DS_NO_DBMS DS_ORACLE_DBMS DS_SQLSERVER_DBMS
+DV_NULL DV_STRING DV_SYSTEM
+EH_NEXT_HANDLER EH_RESUME EH_RETRY
+ER_OK ER_FAIL ER_USER1 ER_USER2 ER_USER3 ER_USER4 ER_USER5 ER_USER6 ER_USER7 ER_USER8 ER_USER9 ER_USER10 ER_OUTOFRANGE ER_ROWNOTFOUND ER_NAMEEXISTS 
+EP_NONE EP_INTERACTIVE EP_OUTPUT
+FA_BOTTOMCENTER FA_BOTTOMLEFT FA_BOTTOMRIGHT FA_CENTER FA_CENTERLEFT FA_CENTERRIGHT FA_DEFAULT FA_NONE FA_TOPCENTER FA_TOPLEFT FA_TOPRIGHT
+FB_CHANGEABLE FB_CLICKPOINT FB_DIMMED FB_DRAGBOX FB_DRAGSEGMENT FB_FLEXIBLE FB_INVISIBLE FB_LANDABLE FB_MARKABLE FB_MOVEABLE FB_RESIZEABLE FB_VISIBLE
+FC_LOWER FC_NONE FC_UPPER
+FM_ADD FM_DELETE FM_QUERY FM_READ FM_UPDATE FM_USER1 FM_USER2 FM_USER3
+FO_DEFAULT FO_VERTICAL FO_HORIZONTAL
+FP_BITMAP FP_CLEAR FP_CROSSHATCH FP_DARKSHADE FP_DEFAULT FP_HORIZONTAL FP_LIGHTSHADE FP_SHADE FP_SOLID FP_VERTICAL
+FT_NOSETVALUE FT_SETVALUE FT_TABTO FT_TAKEFOCUS
+GF_BOTTOM GF_DEFAULT GF_LEFT GF_RIGHT GF_TOP
+GW_NO_DBMS GW_INFORMIX_DBMS
+HC_DOUBLEQUOTE HC_QUOTE HC_SPACE HC_FORMFEED HC_NEWLINE HC_TAB
+HV_CONTENTS HV_CONTEXT HV_HELPONHELP HV_KEY HV_QUIT
+LS_DASH LS_DASHDOT LS_DASHDOTDOT LS_DEFAULT LS_DOT LS_SOLID LS_3D
+LW_DEFAULT LW_MAXIMUM LW_MIDDLE LW_MINIMUM LW_NOLINE LW_THICK LW_THIN LW_VERYTHICK LW_VERYTHIN LW_EXTRATHIN
+MB_DISABLED MB_ENABLED MB_INVISIBLE
+MT_ERROR MT_NONE MT_INFO MT_WARNING 
+OP_APPEND OP_NONE
+OS_DEFAULT OS_SHADOW OS_SOLID OS_3D
+PU_CANCEL PU_OK 
+QS_ACTIVE QS_INACTIVE QS_SETCOL
+QY_ARRAY QY_CACHE QY_CURSOR QY_DIRECT
+RC_CHILDSELECTED RC_DOWN RC_END RC_FIELDFREED RC_FIELDORPHANED RC_GROUPSELECT RC_HOME RC_LEFT RC_MODECHANGED RC_MOUSECLICK RC_MOUSEDRAG RC_NEXT RC_NOTAPPLICABLE RC_PAGEDOWN RC_PAGEUP RC_PARENTSELECTED RC_PREVIOUS RC_PROGRAM RC_RESUME RC_RETURN RC_RIGHT RC_ROWDELETED RC_ROWINSERTED RC_ROWSALLDELETED RC_SELECT RC_TFSCROLL RC_TOGGLESELECT RC_UP
+RS_CHANGED RS_DELETED RS_NEW RS_UNCHANGED RS_UNDEFINED 
+SK_CLOSE SK_COPY SK_CUT SK_DELETE SK_DETAILS SK_DUPLICATE SK_FIND SK_GO SK_HELP SK_NEXT SK_NONE SK_PASTE SK_PROPS SK_QUIT SK_REDO SK_SAVE SK_TFDELETEALLROWS SK_TFDELETEROW SK_TFFIND SK_TFINSERTROW SK_UNDO 
+SP_APPSTARTING SP_ARROW SP_CROSS SP_IBEAM SP_ICON SP_NO SP_SIZE SP_SIZENESW SP_SIZENS SP_SIZENWSE SP_SIZEWE SP_UPARROW SP_WAIT
+SY_NT SY_UNIX SY_VMS SY_OS2 SY_MSDOS SY_WIN95 
+TF_COURIER TF_HELVETICA TF_LUCIDA TF_MENUDEFAULT TF_NEWCENTURY TF_SYSTEM TF_TIMESROMAN
+UE_DATAERROR UE_EXITED UE_NOTACTIVE UE_PURGED UE_RESUMED UE_UNKNOWN
+WI_MOTIF WI_MSWIN32 WI_MSWINDOWS WI_NONE WI_PM
+WP_FLOATING WP_INTERACTIVE WP_PARENTCENTERED WP_PARENTRELATIVE WP_SCREENCENTERED WP_SCREENRELATIVE
+WV_ICON WV_INVISIBLE WV_UNREALIZED WV_VISIBLE
+/C5"OBJECTS"
+ActiveField AnalogField AppFlag AppSource Array ArrayObject AttributeObject
+BarField BitmapObject BoxTrim BreakSpec ButtonField
+CellAttribute Char ChoiceBitmap ChoiceField ChoiceItem ChoiceList ClassSource ColumnCross ColumnField CompositeField CompSource CrossTable CursorBitmap CursorObject
+DataStream Date DateObject DBEventObject DBSessionObject DisplayForm DynExpr
+EllipseShape EntryField EnumField Event
+FieldObject FlexibleForm Float FloatObject FormField FrameExec FrameForm FrameSource FreeTrim
+GhostExec GhostSource
+ImageField ImageTrim Integer IntegerObject
+ListField
+MatrixField MenuBar MenuButton MenuField MenuGroup MenuItem MenuList MenuSeparator MenuStack MenuToggle MethodExec MethodObject Money MoneyObject
+Object OptionField
+PaletteField Proc4GLSource ProcExec ProcHandle
+QueryCol QueryObject QueryParm QueryTable
+RadioField RectangleShape RowCross
+ScalarField ScrollBarField SegmentShape SessionObject ShapeField SliderField smallInt SQLSelect StackField StringObject SubForm
+TableField ToggleField
+UserClassObject UserObject
+VarChar ViewportField
+/C6"USERMETHODS"
+createInstance
+getReferenceCopy
+hasReferenceCopy
+initAsExemplar initAsInformation initializeUpdateCounterWith initObject 
+isStateNewOKPending
+finalizeObject
+saveObject selectFromDB selectFromDBScript selectManyFromDB selectManyFromDBScript swapStar
+/C7"METHODS"
+AddBitmapItem AddBreak AddTextItem AppendToFile Assign
+Beep BitmapByIndex BitmapByText BitmapByValue BringToFront
+Call CheckFailedMandatory CheckFeature Clear ClearBreaks Close CommitToCache CommitWork ConcatString ConcatVarchar ConfirmPopup Connect CopyToClipboard Create CreateClass CreateDynExpr
+DBDelete DBIdentifier DBInsert DBUpdate DeclareData DeferConfigure DeleteColumn DeleteFromDB Disconnect Duplicate
+ExpandParm ExportApp ExportComp ExtractString
+FetchComponent FetchRow FieldByFullName FieldByName FieldByPosition FilePopup Find FirstRow Flush
+GetAttribute GetColorName GetEnv GetField GetFieldValue GetProcHandle GetValue
+ImportComp IndexByBitmap IndexByText IndexByValue InfoPopup InsertChild InsertColumn InsertIntoDB InsertRow IsA IsAncestorOf IsDescendantOf
+LastRow LeftTruncate Load LocateString
+MarkAllText MarkSubText
+NextRow
+Open OpenNewConnection
+PrevRow PurgeDBEvent PurgeUserEvent
+RaiseDBEvent RegisterDBEvent RegisterUserEvent RemoveDBEvent RemoveRow ReplyPopup RightTruncate RollbackWork
+SelectAll SendSuperClass SendToBack SendUserEvent SequenceValue SetAttribute SetAutoCommit SetCols SetEndPoints SetFieldValue SetInputFocus SetRowDeleted SetToDefault SetValue SetWindowIcon SnapToGrid Sort StringValue SubString
+Terminate TextByBitmap TextByIndex TextByValue Trace
+UndeclareData UnmarkAllText UnRegisterUserEvent UpdateInDB UpdBackground UpdChoiceList UpdField UpdForeground UpdMenu
+ValueByBitmap ValueByIndex ValueByText
+WaitFor WhichCell WhichRow WhichTablefield WinHelp WriteToFile
+/C8"ATTRIBUTES"
+_RowSelected _RowState
+AbsXLeft AbsXRight AbsYBottom AbsYTop AcrossValues ActiveRow Aggregate AllBias AllRows AlterBy AlterCount AlterDate AnchorPoint AppFlags Attributes AutoUpdField
+BgBitmap BgColor BgPattern BitmapLabel BlocksFrames Breaks
+CharsPerLine ChildBottomMargin ChildFields ChildGravity ChildLeftMargin ChildRightMargin ChildTopMargin ChoiceItems ClassName ClientData ClientInteger ClientText ClipHeight ClipWidth CollapsePolicy ColSeparatorColor ColSeparatorStyle ColSeparatorWidth ColumnIndex ColumnNumber Columns Compile_Errors CompiledExpression CompiledResult ControlButton ControlField CreateDate Creator CrossColumn CurBias CurBreakLevel CurEnumBitmap CurEnumText CurEnumValue CurFrame CurMarkedText CurMethod CurMode CurObject CurOps CurRow Cursor CursorPosition
+Database DataEntryErrorHandler DataType DBEvent DBEventDatabase DBEventName DBEventOwner DBEventPollrate DBEventText DBEventTime DBHandle DBMSError DBMSErrorPrinting DBMSMessagePrinting DBSession Declared DefaultButton DefaultString DefaultValue DesignTimeWhere DisplayCapability DisplayPolicy
+ElevatorSize EntityID EnumBitmap EnumText EnumValue ErrorNo ErrorNumber ErrorStatus EventName EventType Expression
+FgBitmap FgColor FgPattern FileHandle FirstMarked FirstRow Flags FlagValues FocusBehavior ForceCase FormatString FullName
+Gravity GridX GridY GrowFrom
+HasCellAttributes HasDataChanged HasFieldChanged HasHeader HasScrollBar HasScrollBars HasSingleCharFind HasStatusBar HavingClause Height HeightConstrained
+Image Ingres InnerShadowWidth InputFocusField InputMasking
+IsArray IsAutoSized IsBold IsCurField IsDBError IsDBHandleField IsDeleteWhere IsDistinct IsFileHandleField IsGridOn IsHighlighted IsInsertTarget IsItalic IsLassoActive IsMandatory IsMoveBounded IsMultiLine IsNullable IsPassword IsPlain IsPopup IsPrivate IsResizeable IsResizeBounded IsReverse IsSelected IsSelectTarget IsStale IsUpdateTarget IsUpdateWhere
+LastMarked LastRow LayerSequence Length Level LineColor Lines LineStyle LineWidth
+MaxCharacters MaxRow MaxValue MessageErrorCode MessageFloat MessageInteger MessageObject MessageVarchar Methods MinValue MouseDownText MouseMoveText
+Name NativeHandle NextBreakLevel NumVisibleRows
+ObjectShortRemarks ObjectSource OffBitmapLabel OffTextLabel OnBitmapLabel OnTextLabel OperatingSystem OptionMenu Orientation OriginatorField OuterHeight OuterWidth OutlineColor OutlineStyle OutlineWidth
+PageSize ParentApplication ParentField ParentFrame ParentTable PixelScreenHeight PixelScreenWidth Point1X Point1Y Point2X Point2Y PreFetchRows PreviousField ProtoField
+Queries Query QueryBias QueryMode QueryName QueryOps
+ReadBias ReadOps ReasonCode RequireRealField ResultAssignment RowCount Rows RowSeparatorColor RowSeparatorStyle RowSeparatorWidth RunTimeWhere
+Scope ScreenHeight ScreenWidth Script ScrollBarWidth ScrollingChangesSelection SelectedList SelectionType SeparatorColor SeparatorStyle SeparatorWidth ServerType SessionID StartMenu State StatusText StepSize StringValue SuperClass SuppressErrorTrace SysCursor
+TableBody TableHeader Tables TabSeqNum TargetArray TargetField TargetPrefix TextLabel TextLength TextValue Title TitleTrim TopForm TopRow TriggerField TypeFace TypeSize
+UpdateBias UpdateOps UsePrefix User1Bias User1Ops User2Bias User2Ops User3Bias User3Ops UseWidestCharacter
+Value ValueList Version VersionNumber VersShortRemarks VisibleRows
+WidgetID Width WidthConstrained WindowHeight WindowIcon WindowPlacement WindowSystem WindowTitle WindowVisibility WindowWidth WindowXLeft WindowYTop 
+XAnchorPoint XEnd XLeft XOffset XRight XStart
+YAnchorPoint YBottom YEnd YOffset YStart YTop

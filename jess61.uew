@@ -1,0 +1,87 @@
+/L20"JESS6.1" Line Comment = ; File Extensions = CLP
+/Delimiters = ~!@%^&*()+=|\/{}[]:;"'<> , .?
+ 
+/C1"Math Functions"
+* ** + - / < <= <> = > >= abs div e eq eq* exp float integer log log10 long max min mod neq pi random round sqrt
+ 
+/C2"Keywords"
+and
+bit-and bit-not bit-or bag bind
+clear-storage
+fetch
+jess-version-number jess-version-string
+not
+or
+set-factory setgen store system
+time
+ 
+/C3"I/O Functions"
+close
+format
+get-multithreaded-io
+list-deftemplates
+open
+printout ppdeffacts ppdeffunction ppdefglobal ppdefquery ppdefrule ppdeftemplate
+read readline rules
+set-multithreaded-io socket
+show-deffacts show-deftemplates
+ 
+/C4"Control"
+apply
+call-on-engine
+foreach
+if
+progn
+return
+while
+ 
+/C5"Debug"
+list-function$
+matches
+show-jess-listeners
+unwatch
+view
+watch
+ 
+/C6"Rete"
+agenda assert assert-string
+batch bload bsave build
+clear clear-focus-stack count-query-results
+defadvice defrule do-backward-chaining dependencies dependents duplicate
+engine eval exit
+focus fact-id fact-slot-value facts
+get-current-module get-focus get-focus-stack get-reset-globals get-salience-evaluation get-strategy
+halt
+list-focus-stack load-facts
+modify
+pop-focus
+reset run run-until-halt run-query retract retract-string
+set-current-module set-node-index-hash set-reset-globals set-salience-evaluation set-strategy save-facts
+undefadvice undefrule
+ 
+/C7"Java Functions"
+call context
+defclass definstance
+get get-member
+import instanceof
+load-function load-package
+new
+set set-member synchronized
+throw try
+undefinstance update
+ 
+/C8"Value Functions"
+asc
+complement$ create$
+delete$
+explode$ evenp external-addressp
+floatp first$
+integerp implode$ insert$ intersection$
+lexemep longp length$ lowcase
+multifieldp member$
+numberp nth$
+oddp
+replace$ rest$
+stringp subsetp symbolp subseq$ str-cat str-compare str-index str-length sub-string sym-cat
+upcase union$
+ 

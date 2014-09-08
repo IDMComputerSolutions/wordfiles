@@ -1,0 +1,83 @@
+/L20"ArcXML 1.1 for ArcIMS 4.0" Block Comment On = <!-- Block Comment Off = --> String Chars = " File Extensions = AXL
+/Delimiters = <>/=   
+/Function String = "%*LAYER*name=?^([~"]+^)*$"
+/C1"Elements"
+?xml
+ADDEDFEATURES ADDRESS ADD_RELEVANCE_FEEDBACK ADMIN_TABLE ARCXML  AVIMSWORKSPACE
+BACKGROUND BAND BANDS BUFFER
+CALLOUTMARKERSYMBOL CAPABILITIES CHANGE_METADATA_ACCESS CHARTSYMBOL CHARTVALUE COLLECTION_INFO
+CONFIG CONTENT_INFO COORDS COORDSYS 
+DATAFRAME DATAFRAMEINFO DATASET DELETEDFEATURES DELETE_METADATA DELETE_METADATA_RELATIONSHIP
+DENSIFY DOCUMENTINFO DRAW
+ENVELOPE ENVIRONMENT  ERROR EXACT EXTENSION EXTRACT EXTRACTPARAMS 
+FCLASS FEATURE FEATURECOORDSYS FEATURECOUNT FEATURES FEATURESERVERWORKSPACE FIELD FIELDS
+FIELDVALUE FILTERCOORDSYS FULLTEXT 
+GCCOUNT GCFIELD GCINPUT GCSTYLE GCTAG GEOCODE GETCLIENTSERVICES GET_COLLECTION_INFO GET_CONTENT_INFO
+GET_EXTRACT GET_FEATURES GET_GEOCODE GET_IMAGE GET_LAYOUT GET_METADATA GET_METADATA_DOCUMENT
+GET_RASTER_INFO GET_ROOT_DATASET GET_SERVICE_INFO GET_USER GET_UUID GRADIENTFILLSYMBOL GROUPRENDERER
+HASHLINESYMBOL HOLE 
+IMAGE IMAGEGENERALIZATION IMAGELIMIT IMAGEPROPERTIES IMAGESERVERWORKSPACE IMAGESIZE IMAGEWORKSPACE
+LAYER LAYERDEF LAYERINFO LAYERLIST LAYERS LAYOUT LAYOUTINFO LEGEND LINE LOCALE 
+MAP MAPUNITS MARKUP MARKUPLAYER METADATA METADATA_ACTION METADATA_CHILD METADATA_CONFIG METADATA_CONTENT
+METADATA_DATASET METADATA_SIBLING METADATA_SOURCE MODIFIEDFEATURES MOIMSWORKSPACE MULTIPOINT
+NORTHARROW
+OBJECT OTHER OUTPUT OUTPUTFIELD OUTPUTFILE OVERVIEWMAP 
+PARTITION PATH POINT POLYGON POLYLINE PRECISION PROPERTIES PUBLISH_METADATA PUT_METADATA 
+PUT_METADATA_RELATIONSHIP PUT_METADATA_SEMANTIC PUT_USER 
+QUERY
+RANGE RASTERFILLSYMBOL RASTERMARKERSYMBOL RASTERSHIELDSYMBOL RASTER_EXACT RASTER_INFO RASTER_OTHER
+RASTER_RANGE RASTER_RENDERER RENAME_METADATA REQUEST RESET RESPONSE RESPONSE_COLUMN RING
+SCALE SCALEBAR SCALEDEPENDENTRENDERER SCREEN SDEWORKSPACE SEARCH_METADATA SEMANTIC_PAIR SEPARATORS
+SERVICEINFO SHAPEWORKSPACE SHIELDSYMBOL SIMPLELABELRENDERER SIMPLELINESYMBOL SIMPLEMARKERSYMBOL 
+SIMPLEPOLYGONSYMBOL SIMPLERENDERER SPATIALFILTER SPATIALQUERY SQVAR STOREDQUERIES STOREDQUERY SUBSET
+TABLE_NAME TAG TAGTEXT TAGVALUE TARGETLAYER TEXT TEXTMARKERSYMBOL TEXTSYMBOL THUMBNAIL TOC TOCCLASS
+TOCGROUP TRUETYPEMARKERSYMBOL 
+UIFONT UPDATED USER UUID 
+VALUEMAPLABELRENDERER VALUEMAPRENDERER
+WORD WORKSPACES
+/C2"Attributes"
+accuracy after alias angle anglefield antialiasing attribute attributes autoextend autoresize 
+backcolor backgroundcolor barcolor bartransparency barwidth baseurl before beginrecord blockout
+boundary boundarycaptype boundarycolor boundaryjointype boundarytransparency boundarytype boundarywidth
+bufferunits 
+cansplit captype cellspacing character checkesc children clip codepage collection color columnname
+columns compact connection content coords count country cs 
+database dataframe datumtransformid datumtransformstring deletedfeatures description directory display
+distance docid dpi dynamic dynamicfirst 
+encoding encrypted envelope equality equalto extensions 
+featurecount featureid featurelimit featureweight field fields file fillcolor fillinterval filltransparency
+filltype filter finishcolor folder foldermask font fontcolor fontsize fontstyle forbidden framefillcolor
+frameoutlinecolor fromlayer 
+geoindexdir geometry globalenvelope glowing gnd greaterthan greaterthanorequalto 
+halignment hasmore heading height hotspot howmanylabels 
+id idcolumn image index_status index_words insert instance interval 
+joinexpression jointables jointype
+label labelbufferratio labelfield labelmode labelpriorities labelweight language layerfontsize layerid layername
+legendbaseurl legendname legendpath legendurl lessthan lessthanorequalto linelabelposition linethickness lookupfield
+lower
+machine map mapunits maxcandidates maxresults maxscale maxsize maxvalue maxx maxy method minscale minscore minsize
+minvalue minx miny mode 
+name newname nodefault number numresults 
+onlink operator order orderby outline outputmode overlap owner 
+pageunits parentdocid password path pixelcount position precision prefix printheight printmode printwidth private
+processid project 
+rasterid reaspect refcount relation relevance renderer reverseorder rf rotatemethod rotationalangles round 
+scalesymbols scaleunits screenlength screenunits searchorder server service servicetype shadow shared show siblings
+size sizefield skipfeatures sort sort2 spatialoperator splittext startcolor startresult string style subfields
+swatchheight swatchwidth 
+tablename tables tag textposition textransparency threadid thumbnail tickthickness timestamp title titlefontsize toc
+toctype tolerance total transcolor transparency ts type 
+units updated upper url usecentroid user username 
+validate valignment value valuefontsize valuestring variant version view visible 
+where width word workspace
+x
+y
+zcode zoomfactor
+/C3"Attribute Values"
+"
+/C4"Special Characters"
+<
+// /
+?
+>
+

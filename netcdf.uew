@@ -1,0 +1,27 @@
+/L20"netCDF CDL 3.3" Line Comment = // String Chars = " File Extensions = CDL
+/Delimiters = ()= {}:;"<>	,
+/C1 <keywords>
+data dimensions
+netcdf
+variables
+/C2 <data types>
+byte
+char
+double
+float
+int
+long
+real
+short
+/C3 <attributes>
+C_format Conventions
+add_offset
+history
+long_name
+missing_value
+scale_factor signedness
+title
+units
+valid_max valid_min valid_range
+_FillValue
+

@@ -1,0 +1,102 @@
+/L20"PeopleCode 8.14" Line Comment = Rem Block Comment On = /* Block Comment Off = */ Nocase String Chars = " File Extensions = PPL
+/Delimiters =  .()&;|	=
+/Function String = "%^(Function *)^)"
+/C1"Loops"
+And
+Else End End-If End-Function End-For End-While
+For Function
+If
+Or
+Repeat
+Then
+Until
+While
+/C2"Keywords"
+AESection ApiObject Array
+Break boolean
+CreateKeyInfoCollection CompIntfc ComponentName Count CurrentItemNumber
+Declare
+Evaluate Exit End-Evaluate
+False FieldFormula File Field FileLayout FindKeyInfoCollection
+GetHistoryItems GetKeyInfoCollection Global
+InteractiveMode IsCollection ItemNum
+Key
+LabelLong LabelShort Local
+Name Null number
+PeopleCode Prompt PropertyInfoCollection
+Required Return Returns Rowset Record
+Simon Steele StopOnFirstError string
+True Type
+When
+Xlat
+YesNo
+/C3"Functions"
+Abs AccruableDays AccrualFactor Acos ActiveRowCount AddAttachment AddKeyListItem AddStep AddSystemPauseTimes AddToDate AddToDateTime AddToTime All AllOrNone 
+AllowEmplIdChg Amortize Asin Atan
+BlackScholesCall BlackScholesPut BootstrapYTMs
+CallAppEngine Cancel ChDir ChDrive Char CharType CheckMenuItem Clean ClearKeyList ClearSearchDefault ClearSearchEdit Clone Close CopyFieldsTo Create Code 
+Codeb CommitWork CompareLikeFields ComponentChanged ContainsCharType ContainsOnlyCharType ConvertChar ConvertCurrency ConvertDatetimeToBase ConvertRate 
+ConvertTimeToBase CopyFields CopyRow CopyRowset CopyRowsetDelta CopySetupRowset CopySetupRowsetDelta Cos Cot Create CreateArray CreateArrayRept CreateDirectory 
+CreateJavaArray CreateJavaObject CreateKeys CreateMessage CreateObject CreateProcessRequest CreateRecord CreateRowset CreateSQL CubicSpline CurrEffDt 
+CurrEffRowNum CurrEffSeq CurrentLevelNumber CurrentItem CurrentRowNumber
+DBCSTrim Date Date3 DatePart DateTime6 DateTimeToHTTP DateTimeToLocalizedString DateTimeToTimeZone DateTimeValue DateValue Day Days Days360 Days365 Decrypt 
+Degrees DeleteAttachment DeleteImage DeleteItem DeleteRecord DeleteRow DeleteSQL DeleteSystemPauseTimes DisableMenuItem DiscardRow DoCancel DoModal 
+DoModalComponent DoSave DoSaveNow
+EnableMenuItem EncodeURL EncodeURLForQueryString Encrypt EndModal Error EscapeHTML EscapeJavascriptString EscapeWML Exact Exec ExecuteRolePeopleCode 
+ExecuteRoleQuery ExecuteRoleWorkflowQuery Exp ExpandBindVar ExpandEnvVar ExpandSqlBinds
+Fact Fetch FetchSQL FetchValue FieldChanged FileExists Find FindCompIntfcs FindFiles Findb FindKeys First FlushBulkInserts FormatDateTime
+GenerateTree Get GetAESection GetAttachment GetBiDoc GetCalendarDate GetCompIntfc GetControl GetControlOccurrence GetCwd GetEffectiveItem GetIffectiveItemNum 
+GetEnv GetField GetFile GetGrid GetHTMLText GetImageExtents GetInterlink GetJavaClass GetKeys GetLevel0 GetMessage GetMessageInstance GetMethodNames 
+GetNextNumber GetNextNumberWithGaps GetPage GetPubContractInstance GetRecord GetRelField GetRow GetRowset GetSQL GetSelectedTreeNode GetSession GetSetId 
+GetStoredFormat GetSubContractInstance GetTreeNodeParent GetTreeNodeRecordName GetTreeNodeValue GetURL GetWLFieldValue Gray
+Hash HermiteCubic Hide HideMenuItem HideRow HideScroll HistVolatility Hour
+InsertImage InsertItem InsertRow Int IsDaylightSavings IsHidden IsOpen IsMenuItemAuthorized IsModal IsModalComponent IsSearchDialog IsUserInPermissionList 
+IsUserInRole Item ItemByKeys
+Join
+LTrim Left Len Lenb LinearInterp Ln Log10 Lower 
+MarkWLItemWorked MessageBox Minute Mod Month MsgGet MsgGetExplainText MsgGetText 
+Next NextEffDt NextRelEffDt None 
+ObjectDoMethod ObjectGetProperty ObjectSetProperty OnlyOne OnlyOneOrNone 
+Pop PriorEffDt PriorRelEffDt PriorValue Product Prompt Proper Push PutAttachment 
+RTrim Radians Rand RecordChanged RecordDeleted RecordNew Refresh RefreshTree RemoteCall Replace Rept ReturnToServer ReturnToServerPingNode RevalidatePassword 
+Reverse Right Round RoundCurrency RowFlush RowScrollSelect RowScrollSelectNew 
+Save SQLExec ScheduleProcess ScrollFlush ScrollSelect ScrollSelectNew Second SendMail SetAuthenticationResult SetChannelStatus SetCursorPos SetDefault 
+SetDefaultAll SetDefaultNext SetDefaultNextRel SetDefaultPrior SetDefaultPriorRel SetDisplayFormat SetFileLayout SetLabel SetLanguage SetNextPage 
+SetPasswordExpired SetReEdit SetSearchDefault SetSearchDialogBehavior SetSearchEdit SetSQL SetTemplate SetTempTableInstance SetTracePC SetTraceSQL 
+Shift Sign Sin SinglePaymentPV Sort SortScroll Split Sqrt SQLExec StopFetching StoreSQL Subarray Substitute Substring Substringb SwitchUser 
+Tan Time Time3 TimePart TimeToTimeZone TimeValue TimeZoneOffset TotalRowCount Transfer TransferPage TreeDetailInNode TriggerBusinessEvent Truncate 
+UnCheckMenuItem Unencode Ungray Unhide UnhideRow UnhideScroll UniformSeriesPV Unshift UpdateSysVersion Update UpdateValue Upper 
+Value ViewAttachment ViewURL 
+Warning Weekday WinEscape WinExec WinMessage WriteLine WriteRecord
+Year 
+(
+)
+/C4"MetaTags"
+%Abs %Action_Add %Action_Correction %Action_DataEntry %Action_Prompt %Action_UpdateDisplay %Action_UpdateDisplayAll %AsOfDate %AsOfDateReturns %AuthenticationToken
+%BPName
+%ClientDate %ClientTimeZone %Concat %CompIntfcName %Component %Currency %CurrentDateIn %CurrentDateOut %CurrentDateTimeIn %CurrentDateTimeOut %CurrentTimeIn %CurrentTimeOut
+%DTTM %Date %DateAdd %DateDiff %DateIn %DateNull %DateOut %DateTime %DateTimeDiff %DateTimeIn %DateTimeNull %DateTimeOut %DbName %DbType %DecDiv %DecMult %Delete
+%EffDtCheck %EmailAddress %EmployeeId %ExternalAuthInfo
+%FirstRows
+%Import %Insert %InsertSelect %InsertValues %IsMultiLanguageEnabled
+%Join
+%KeyEqual %KeyEqualNoEffDt
+%Language %Language_Base %Like %LikeExact %List %ListBind %ListEqual
+%Market %MaxInterlinkSize %MaxMessageSize %Menu %MessageAgent %Mode
+%NavigatorHomePermissionList
+%OldKeyEqual %OperatorClass %OperatorId %OperatorRowLevelSecurityClass
+%PSAuthResult %Page %Panel %PanelGroup %PasswordExpired %PermissionLists %PrimaryPermissionList %ProcessProfilePermissionList
+%Request %Response %ResultDocument %Roles %Round %RowSecurityPermissionList %RunningInPortal
+%SQL %SQLRows %SelectAll %SelectByKey %SelectByKeyEffDt %SelectDistinct %ServerTimeZone %Session %SignOnUserPswd %SignonUserId %Substring
+%Table %TextIn %Time %TimeAdd %TimeIn %TimeNull %TimeOut %TrimSubstr %Truncate %TruncateTable
+%Update %UpdatePairs %Upper %UserDescription %UserId
+%WLInstanceID %WLName
+/C5"Operators"
++
+-
+*
+=
+// /
+|
+< <>
+>

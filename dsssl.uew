@@ -1,0 +1,49 @@
+/L20"DSSSL" Line Comment = ; Block Comment On = <!-- Block Comment Off = --> Escape Char = \ String Chars = "  File Extensions = DSL DSSSL
+/C1"Keywords 1"
+/Delimiters = ~!@$%^&*()_+=|\/{}[]:;"'<> ,.?/
+ancestor and apply attribute-string
+background-color bottom-margin break-after break-before
+cell-background cell-before-column-border cell-before-row-border center-footer
+center-header char case children color current-node 
+data define destination display-alignment display-group 
+element-with-id else empty-sosofo end-indent ends-row entity-system-id 
+external-graphic
+first-sibling font-family-name font-posture font-size formatting-instruction
+font-weight footer-margin 
+header-margin heading-level htag
+if idref-address
+keep-with-next
+lambda last-sibling leader left-footer left-header left-margin let line-spacing
+lines link literal loop
+make mode
+n-columns-spanned not
+or orientation
+page-height page-number-restart page-number-sosofo page-width paragraph 
+process-children process-children-trim process-element-with-id 
+process-matching-children process-node-list
+quadding
+right-footer right-header right-margin rule
+scroll scroll-title select-elements sequence simple-page-sequence sosofo-append
+space-after space-before start-indent string-append style 
+table table-border table-column table-cell top-margin table-row 
+use 
+width with-mode
+/C2"Keywords 2"
+ado attribute attributes 
+br
+chapter class
+default 
+element
+from
+img imgmap instance instances interref 
+library 
+model modelgroup
+name nbchapter
+relation relations
+to
+value
+/C3"Keywords 3"
+string
+/C4"Parenthesis"
+(
+)

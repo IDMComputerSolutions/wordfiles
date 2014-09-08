@@ -1,0 +1,83 @@
+/L20"DOS" Nocase Line Comment = rem File Extensions = BAT
+/Function String = "%[PF]*)$"
+/Indent Strings = "Then"
+/Unindent Strings = "End" "Next" "End If" "End Select"
+/C1 FUNCTIONS
+Abs Array Asc AscB AscW Atn Avg
+cacls cd chcp chdir chkdsk cls cmd codepage color command comp compact convert copy
+date debug del device devicehigh devinfo dir diskcomp diskcopy doskey
+Environ EOF Error Exp
+FileAttr FileDateTime FileLen Fix Format FreeFile FV
+GetAllStrings GetAttr GetAutoServerSettings GetObject GetSetting
+Hex Hour
+if IIf IMEStatus Input InputB InputBox InStr InstB Int IPmt IsArray IsDate IsEmpty IsError IsMissing IsNull IsNumeric IsObject
+LBound LCase Left LeftB Len LenB LoadPicture Loc LOF Log LTrim
+mkdir
+time
+Weekday
+xcopy
+Year
+/C2 METHODS
+Accept Activate Add AddCustom AddFile AddFromFile AddFromTemplate AddItem AddNew AddToAddInToolbar AddToolboxProgID Append AppendChunk Arrange Assert AsyncRead
+BatchUpdate BeginTrans Bind
+call Cancel 
+do
+echo endlocal
+for
+goto
+Hide HitTest HoldFields
+KillDoc
+Layout Line LinkExecute LinkPoke LinkRequest LinkSend Listen LoadFile LoadResData LoadResPicture LoadResString LogEvent
+MakeCompileFile MakeReplica MoreResults Move MoveData MoveFirst MoveLast MoveNext MovePrevious
+NavigateTo NewPage NewPassword NextRecordset
+OLEDrag OnAddinsUpdate OnConnection OnDisconnection OnStartupComplete Open OpenConnection OpenDatabase OpenQueryDef OpenRecordset OpenResultset OpenURL Overlay
+Pause
+Quit
+Raise RandomDataFill RandomFillColumns RandomFillRows rdoCreateEnvironment rdoRegisterDataSource ReadFromFile ReadProperty Rebind ReFill Refresh RefreshLink RegisterDatabase Reload Remove RemoveAddInFromToolbar RemoveItem Render RepairDatabase Reply ReplyAll Requery ResetCustom ResetCustomLabel ResolveName RestoreToolbar Resync Rollback RollbackTrans RowBookmark RowContaining RowTop
+setlocal sift
+TextHeight TextWidth ToDefaults TwipsToChartPart TypeByChartType
+Update UpdateControls UpdateRecord UpdateRow Upto
+WhatsThisMode WriteProperty
+ZOrder
+/C3 EVENTS
+AccessKeyPress AfterAddFile AfterChangeFileName AfterCloseFile AfterColEdit AfterColUpdate AfterDelete AfterInsert AfterLabelEdit AfterRemoveFile AfterUpdate AfterWriteFile AmbienChanged ApplyChanges Associate AsyncReadComplete AxisActivated AxisLabelActivated AxisLabelSelected AxisLabelUpdated AxisSelected AxisTitleActivated AxisTitleSelected AxisTitleUpdated AxisUpdated
+BeforeClick BeforeColEdit BeforeColUpdate BeforeConnect BeforeDelete BeforeInsert BeforeLabelEdit BeforeLoadFile BeforeUpdate ButtonClick ButtonCompleted ButtonGotFocus ButtonLostFocus
+Change ChartActivated ChartSelected ChartUpdated Click ColEdit Collapse ColResize ColumnClick Compare ConfigChageCancelled ConfigChanged ConnectionRequest
+DataArrival DataChanged DataUpdated DblClick Deactivate DeviceArrival DeviceOtherEvent DeviceQueryRemove DeviceQueryRemoveFailed DeviceRemoveComplete DeviceRemovePending DevModeChange Disconnect DisplayChanged Dissociate DoGetNewFileName Done DonePainting DownClick DragDrop DragOver DropDown
+EditProperty EnterCell EnterFocus ExitFocus Expand
+FootnoteActivated FootnoteSelected FootnoteUpdated
+GotFocus
+HeadClick
+InfoMessage Initialize IniProperties ItemActivated ItemAdded ItemCheck ItemClick ItemReloaded ItemRemoved ItemRenamed ItemSeletected
+KeyDown KeyPress KeyUp
+LeaveCell LegendActivated LegendSelected LegendUpdated LinkClose LinkError LinkNotify LinkOpen Load LostFocus
+MouseDown MouseMove MouseUp
+NodeClick
+ObjectMove OLECompleteDrag OLEDragDrop OLEDragOver OLEGiveFeedback OLESetData OLEStartDrag OnAddNew OnComm
+Paint PanelClick PanelDblClick PathChange PatternChange PlotActivated PlotSelected PlotUpdated PointActivated PointLabelActivated PointLabelSelected PointLabelUpdated PointSelected PointUpdated PowerQuerySuspend PowerResume PowerStatusChanged PowerSuspend
+QueryChangeConfig QueryComplete QueryCompleted QueryTimeout QueryUnload
+ReadProperties Reposition RequestChangeFileName RequestWriteFile Resize ResultsChanged RowColChange RowCurrencyChange RowResize RowStatusChanged
+SelChange SelectionChanged SendComplete SendProgress SeriesActivated SeriesSelected SeriesUpdated SettingChanged SplitChange StateChanged StatusUpdate SysColorsChanged
+Terminate TimeChanged TitleActivated TitleSelected TitleActivated
+UnboundAddData UnboundDeleteRow UnboundGetRelativeBookmark UnboundReadData UnboundWriteData Unload UpClick Updated
+Validate ValidationError
+WillAssociate WillChangeData WillDissociate WillExecute WillUpdateRows WriteProperties
+/C4 STATEMENTS
+AppActivate
+Base Beep
+Case ChDrive Const
+Declare DefBool DefByte DefCur DefDate DefDbl DefDec DefInt DefLng DefObj DefSng DefStr Deftype DefVar DeleteSetting Dim Do
+Else End Enum Erase Event Exit Explicit
+FileCopy ForEach Funtion 
+Get GoSub 
+Implements
+Kill
+Let LineInput Lock LSet
+net
+off On Option
+Private Property Public Put
+RaiseEvent Randomize ReDim Rem Reset Resume Return RmDir RSet 
+start stop
+Then Type
+Unlock
+Wend While Width With Write

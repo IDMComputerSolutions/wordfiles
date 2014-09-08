@@ -1,0 +1,77 @@
+/L20"per" Escape Char = \ Line Comment = # Line Comment Alt = --# case File Extensions = per
+/Delimiters = ~!@%^&*()-+=|\/[]:;"'<> ,	.?
+/Function String = " ++^(DATABASE^)"
+/Function String 1 = " ++^(SCREEN^)"
+/Function String 2 = " ++^(TABLES^)"
+/Function String 3 = " ++^(ATTRIBUTES^)"
+/Function String 4 = " ++^(INSTRUCTIONS^)"
+/Function String 5 = " ++^(KEYS^)"
+/C1"4gl"
+!
+%
+*
+(
+)
+-
++
+=
+|
+[
+]
+:
+;
+'
+<
+>
+,
+.
+?
+ACCEPT ATTRIBUTES AUTONEXT
+BLACK BLINK BLUE BOTTOM BY
+COMMENTS CYAN
+DATABASE DEFAULTS DELIMITERS DOWNSHIFT
+FORMAT FORMONLY
+GREEN
+HEADER
+INSTRUCTIONS INTEGER INVISIBLE
+KEYS
+LIKE
+MAGENTA
+RECORD RED
+SCREEN SIZE
+TABLES TYPE
+UNDERLINE
+WHITE WORDWRAP
+YELLOW
+
+/C3"typing"
+ARRAY
+CHAR
+DATE DAY DBA DECIMAL DOUBLE
+FLOAT
+INDEX INT
+LONG LOOKUP
+MONEY MONTH
+NOUPDATE
+PERCENT PICTURE
+REQUIRED
+SHORT SMALLFLOAT SMALLINT STRUCT SERIAL SPACE SPACES
+TIME TYPEDEF
+UNSIGNED
+YEAR
+ZEROFILL
+
+/C4"reverse"
+REVERSE
+
+/C5"noentry"
+NOENTRY
+
+/C6"include"
+INCLUDE
+
+/C7"upshift"
+UPSHIFT
+
+
+

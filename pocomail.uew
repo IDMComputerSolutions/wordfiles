@@ -1,0 +1,74 @@
+/L20"PocoMAIL" Nocase Line Comment = { String Chars = " File Extensions = POC
+/Delimiters = ~!@#$%^%&*()-+=|\/{}[]:;"'<> ,	.?
+/C1 MAIL-ADDRESS COMMANDS
+AddAddress AddBCC AddCC AddHeader AddRawAddress AddTo 
+CheckMailForAccount ClearBCC ClearCC CreateMessage ClearTo 
+DeleteHeader DeleteMessage
+EditMessage EncryptMessage ExtractEmail ExtractName
+GetRawAddress 
+IsAddressPresent
+MarkMessage
+OpenBody OpenMessage
+PrintMessage
+QuoteBody
+ReadAccount ReadAccountTag ReadAllHeaders ReadAttached ReadBCC ReadBody ReadCC ReadCSV ReadEmail ReadFullname ReadHeader ReadPassword ReadPOPLogin ReadPOPServer ReadRawBody ReadSignature ReadSMTP ReadTo RemoveAddress
+SaveBody SaveMessage SendMessage SetAccount SetAccountTag SetEmail SetEncryptionPassword SetFullname SetHeader SetPassword SetPOPLogin SetPOPServer SetSignature SetSMTP
+TagMessage
+UnquoteBody UntagMessage
+WriteCSV
+/C2 VARIABLE COMMANDS
+Embed External
+InputBox
+Set
+/C3 VARIABLE OPERATIONS
+AddIntegers AddStrings And
+Char CharCount ChopString Cos
+Dec Divide
+Inc InsertString IsBoolean IsNumber
+Lowercase
+Multiply
+Not
+Or
+Random
+Sin StringPos SubIntegers SubStrings
+Tan Trim
+Uppercase
+Xor
+/C4 MULTILINE VARIABLE OPERATIONS
+DeleteLine
+GetLine
+InsertLine
+LineCount LinePos LocateLine
+TrimLines
+/C5 OTHER
+GetDate GetTime
+SubDays
+/C6 EXTERNAL COMMANDS
+AppendToFile AttachFile 
+Beep
+CompressMailbox CopyToClipboard
+DeleteFile
+DirList
+FileExists FileSize
+Execute ExecuteAndWait
+MessageBox
+PasteFromClipboard PlaySound
+RefreshMailboxes
+Wait
+/C7 BRANCHING
+Call
+Exit
+Goto
+If
+Return
+Then
+/C8 VARIABLES
+addresspath apppath attachpath 
+CurrentMailbox 
+ErrorLine ErrorResult
+mailpath 
+OnErrorGoTo OnErrorMessage
+PocoScriptMode PocoVersion
+scriptName scriptpath sigpath 
+temppath
+message

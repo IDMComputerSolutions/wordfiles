@@ -1,0 +1,119 @@
+/L20"Quake2 Config" Line Comment = // File Extensions = CFG
+/Delimiters = -+=/",.%
+/C1 FUNCTIONS
+alias
+bind
+condump connect
+demomap dir download drop
+echo error exec
+gamemap give gun_model
+impulse
+kick
+link load
+map
+play 
+rcon rcon_address rcon_password record
+save say say_team serverrecord set setenv setmaster sky sv sv_maplist
+timelimit timerefresh
+unbind use
+wave
+/C2 TOGGLES
+allow_download allow_download_maps allow_download_models allow_download_players allow_download_sounds
+cd_nocd cheats cl_autoskins cl_blend cl_entities cl_footsteps cl_gun cl_lights cl_nodelta cl_noskins cl_particles cl_predict cl_run cl_showmiss cl_shownet cl_stats cl_stereo cl_testblend cl_testentities cl_testlights cl_testparticles cl_vwep coop
+deathmatch debuggraph dedicated developer
+filterban fixedtime flushmap freelook
+g_select_empty gender_auto gl_3dlabs_broken gl_allow_software gl_bitdepth gl_clear gl_cull gl_dynamic gl_ext_compiled_vertex_array gl_ext_multitexture gl_ext_palettedtexture gl_ext_pointparameters_ext_swapinterval gl_finish gl_flashblend gl_lightmap gl_lockpvs gl_log gl_monolightmap gl_nobind gl_nosubimage gl_playermip gl_polyblend gl_round_down gl_saturatelightning gl_shadows gl_showtris gl_skymip gl_swapinterval gl_vertex_arrays gl_ztrick
+in_joystick in_mouse
+joy_advanced
+log_stats lookspring lookstrafe
+m_filter
+netgraph
+paused public
+r_drawentities r_dspeeds r_fullbright r_lerpmodels r_nocull r_norefresh r_novis r_speeds
+s_initsound s_loadas8bit s_primary s_show s_textsound s_wavonly scr_drawall scr_showpause scr_showturtle showclamp showdrop showpackets showtrace spectator sv_enforcetime sv_noreload sw_allow_modex sw_drawflat sw_draworder sw_polymodelstats sw_reportedgeout sw_reportsurfout sw_stipplealpha sw_surfcacheoverride sw_waterwarp
+timedemo timegraph
+vid_fullscreen 
+win_noalttab
+/C3 BINDS
+ALT AUX1 AUX10 AUX11 AUX12 AUX13 AUX14 AUX15 AUX16 AUX17 AUX18 AUX19 AUX2 AUX20 AUX21 AUX22 AUX23 AUX24 AUX25 AUX26 AUX27 AUX28 AUX29 AUX3 AUX30 AUX31 AUX32 AUX4 AUX5 AUX6 AUX7 AUX8 AUX9
+BACKSPACE
+CTRL
+DEL DOWNARROW
+END ENTER
+F1 F10 F11 F12 F2 F3 F4 F5 F6 F7 F8 F9
+HOME
+INS
+JOY1 JOY2 JOY3 JOY4
+KP_5 KP_DEL KP_DOWNARROW KP_END KP_ENTER KP_HOME KP_INS KP_LEFTARROW KP_MINUS KP_PGDN KP_PGUP KP_PLUS KP_RIGHTARROW KP_SLASH KP_UPARROW
+LEFTARROW
+MOUSE1 MOUSE2 MOUSE3 MWHEELDOWN MWHEELUP
+PAUSE PGDN PGUP
+RIGHTARROW
+SEMICOLON SHIFT SPACE
+TAB
+UPARROW
+/C4 REGISTERS
+adr0 adr1 adr2 adr3 adr4 adr5 adr6 adr7 adr8
+bob_pitch bob_roll bob_up
+cd_loopcount cd_looptrack cl_anglespeedkey cl_forwardspeed cl_maxfps cl_pitchspeed cl_sidespeed cl_stereo_separation cl_timeout cl_upspeed cl_yawspeed clientport con_notifytime crosshair
+dumpuser
+flood_msgs flood_persecond flood_waitdelay fov fraglimit
+gl_mode gl_modulate gl_particle_att_a gl_particle_att_b gl_particle_att_c gl_particle_max_size gl_particle_min_size gl_particle_size gl_picmip graphheight graphscale graphshift gun_x gun_y gun_z game gamedate gamedir gamename gender gl_drawbuffer gl_driver gl_texturerealalphamode gl_texturemode gl_texturesolidmode
+hand host_speeds hostname hostport
+intensity ip ip_clientport ip_hostport ipx_clientport ipx_hostport
+joy_name joy_advancedupdate joy_advaxisx joy_advaxisy joy_advaxisz joy_advaxisr joy_advaxisu joy_advaxisv joy_forwardsensitivity joy_forwardthreshold joy_pitchsensitivity joy_pitchthreshold joy_sidesensitivity joy_sidethreshold joy_upsensitivity joy_upthreshold joy_yawsensitivity joy_yawthreshold
+logfile
+m_forward m_pitch m_side m_yaw mapame maxclients maxentities maxspectators msg
+name netserver
+password port
+rate run_pitch run_roll
+s_khz s_mixahead s_volume scr_centertime scr_conspeed scr_printspeed sensitivity skill skin spectator_password sv_airaccelerate sv_gravity sv_maxvelocity sv_reconnect_limit sw_clearcolor sw_maxedges sw_maxsurfs sw_mipcap sw_mipscale sw_mode
+timeout timescale
+v_centermove v_centerspeed vid_gamma vid_ref vid_xpos vid_ypos viewsize
+zombietime
+/C5 ACTIONS
+attack
+back
+forward
+klook
+left lookdown lookup
+mlook movedown moveleft moveright moveup
+right
+speed strafe
+/C6 OPERATIONS
+bindlist
+centerview changing clear cmdlist cvarlist
+disconnect
+god gun_next gun_prev
+heartbeat
+imagelist info invdrop inven invnext invnextp invnextw invprev invprevp invprevw invuse
+kill killserver
+loading
+menu_addressbook menu_credits menu_dmoptions menu_game menu_joinserver menu_keys menu_loadgame menu_main menu_multiplayer menu_options menu_playerconfig menu_quit menu_savegame menu_startserver menu_video messagemode messagemode2 modelist
+noclip notarget
+path pause pingservers playerlist players precache
+quit
+reconnect
+score screenshot serverinfo serverstop sizedown sizeup skins snd_restart soundinfo soundlist status stop stopsound
+togglconsole togglechat
+unbindall userinfo
+vid_front vid_restart viewpos
+wait weaplast weapnext weapprev
+z_stats
+/C7 ITEMS
+adrenaline airstrike all ammo ancient armor
+bandolier bfg10k blue bullets
+cd cells chaingun combat  commander's  cube
+damage data 
+environment 
+grapple grenade grenades
+head health hyperblaster
+invulnerability
+jacket
+key
+launcher
+machinegun marker
+pack pass power  pyramid 
+quad 
+railgun rebreather red rocket rockets
+screen security shard shells shield shotgun silencer slugs spinner suit super 

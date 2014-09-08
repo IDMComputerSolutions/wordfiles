@@ -1,0 +1,108 @@
+/L20"AceForth" Nocase Block Comment On = ( Block Comment Off = ) Line Comment Alt = %%   String Chars = " File Extensions = JA4
+/Colors = 0,8421376,8421376,8421504,255,
+/Colors Back = 16777215,16777215,16777215,16777215,16777215,
+/Colors Auto Back = 1,1,1,1,1,
+/Font Style = 0,0,0,0,0,
+/Nocase
+/Delimiters = ~#!$@%^&()-=|\/{}[]:;"' ,	
+/Open Fold Strings = ":" "compiler" "definer" 
+/Close Fold Strings = ";"
+/Indent Strings = ":" "do" "if" "begin"
+/Unindent Strings = ";" "loop" "+loop" "then" "repeat" "until" 
+/C1"Arithmetic & Logical" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+and abs
+drop dup d> d+ dnegate
+?dup
+over or 
+pick
+roll rot r>
+min max mod
+u< u* u/mod ufloat
+swap
+ / /mod
+>r >
+=
+<
+0= 0< 0>
+xor
++
+-
+* */ */mod
+1+ 1-
+2+ 2-
+negate
+int
+f+ f- f* f/ fnegate
+/C2"Memory" Colors = 255 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+!
+@
+c@ c!
+/C3"Control Structures" Colors = 33023 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+abort
+begin
+call
+do
+else exit execute
+if i i'
+then
+loop leave
++loop
+until
+repeat
+while
+quit
+/C4"Character I/O" Colors = 32768 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+cr
+ascii
+emit
+space spaces
+type
+query
+."  
+"
+word
+retype
+inkey
+/C5"Number I/O" Colors = 4210816 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+base
+decimal
+u.
+f.
+convert
+<#
+# #s #>
+hold
+sign
+number
+/C6"Word Definition" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+:
+;
+variable
+constant
+immediate
+create compiler
+definer does>
+runs> redefine
+compiler runs>
+find forget
+list
+edit
+/C7"Compiler" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+,
+c,
+allot
+literal
+[
+]
+/C8"Miscellaneous" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+cls
+at
+here
+pad plot
+slow save
+fast
+beep bload bsave bverify
+in invis vis
+out
+line load
+verify

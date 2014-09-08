@@ -1,0 +1,42 @@
+/L20"VOS PL/1" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = PL1 pl1
+/Delimiters = ~!@^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String = "%[a-zA-Z_]*)[~;]"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1"Keywords"
+aligned allocate auto
+based begin bin binary
+case call char char_varying character close const continue
+defined
+declare
+dcl
+default delete do double
+else end entry enum extern ext 
+fixed float for format free
+get goto
+if int
+like long
+on open
+pointer ptr proc procedure put
+read register return returns revert rewrite
+short signal signed sizeof static stop struct switch
+then typedef
+union unsigned
+var void volatile
+while
+write
+$if $endif
+/C2"PL/1 Compiler functions"
+%include %list %nolist %options %page %replace
+/C4"Operators"
++
+-
+=
+// /
+%
+&
+>
+<
+^
+!
+|

@@ -1,0 +1,61 @@
+/L20"CORBA IDL" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = IDL
+/Delimiters = ~!@%^*()-+=\/{}[]:;"'<> ,	.?
+/Function String 1 = "^([a-zA-Z_][a-zA-Z_0-9]+(*)^)"
+/Function String 2 = "^{struct^}^{enum^} ^([a-zA-Z_][a-zA-Z_0-9]+^)"
+/Function String 3 = "^{union^}^{exception^} ^([a-zA-Z_][a-zA-Z_0-9]+^)"
+/Function String 4 = "^{module^}^{interface^} ^([a-zA-Z_][a-zA-Z_0-9]+^)"
+/Function String 5 = "typedef [a-zA-Z_][a-zA-Z_<>]+ ^([a-zA-Z_][a-zA-Z_0-9]+^)"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1
+any
+boolean
+case char const
+default double
+enum exception
+FALSE 
+fixed float
+in inout
+long
+Object
+octet oneway out
+raises readonly
+sequence short string struct switch
+TRUE 
+typedef
+unsigned union
+void
+wchar wstring
+/C2
+attribute
+context
+interface
+module
+/C3
+#define #error #include #elif #if #line #else #ifdef #pragma #endif #ifndef #undef # ## 
+! 
+|| 
+&&
+/C4
+; 
+{ 
+} 
+: 
+, 
+= 
++ 
+- 
+( 
+) 
+< 
+> 
+[ 
+]
+' 
+" 
+\ 
+^ 
+* 
+/ 
+% 
+~

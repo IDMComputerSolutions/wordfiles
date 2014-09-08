@@ -1,0 +1,63 @@
+/L20"XML Schema" XML_LANG Noquote Block Comment On = <!-- Block Comment Off = --> File Extensions = XSD
+/Delimiters = ~@$%^&*()+=|\};"'<> ,/
+/C1"XML Elements"
+// /> /
+>
+?>
+<? <?xml <
+xmlns:xsd
+
+/C2"Schema Elements"
+xsd:all xsd:annotation xsd:any xsd:anyAttribute xsd:appInfo xsd:attribute
+xsd:attributeGroup
+xsd:choice xsd:complexContent xsd:complexType
+xsd:documentation xsd:element xsd:enumeration xsd:extension
+xsd:field xsd:group xsd:import xsd:include xsd:key xsd:keyref
+xsd:length xsd:list
+xsd:maxInclusive xsd:maxLength xsd:minInclusive xsd:minLength
+xsd:pattern xsd:redefine xsd:restriction
+xsd:schema xsd:selector xsd:sequence xsd:simpleContent
+xsd:simpleType xsd:union xsd:unique
+
+/C3"Schema Attributes"
+abstract attributeFormDefault
+base
+block blockDefault
+default
+elementFormDefault
+final finalDefault fixed form
+itemType
+memberTypes maxOccurs minOccurs mixed
+name namespace noNamespaceSchemaLocation nillable
+processContents
+ref
+schemaLocation substitutionGroup
+targetNamespace type
+use
+xsi:nil xsi:schemaLocation xpath xsi:type
+
+/C4"Data Types"
+xsd:anyURI
+xsd:base64Binary xsd:boolean xsd:byte
+xsd:date xsd:dateTime xsd:decimal xsd:double xsd:duration
+xsd:ENTITIES xsd:ENTITY
+xsd:float
+xsd:gDay xsd:gMonth xsd:gMonthDay xsd:gYear xsd:gYearMonth
+xsd:hexBinary
+xsd:ID xsd:IDREF xsd:IDREFS
+xsd:integer xsd:int
+xsd:language xsd:long
+xsd:Name xsd:NCName xsd:NOTATION xsd:NMTOKEN xsd:NMTOKENS
+xsd:negativeInteger xsd:nonNegativeInteger xsd:nonPositiveInteger
+xsd:normalizedString
+xsd:positiveInteger
+xsd:QName
+xsd:short xsd:string
+xsd:time xsd:token
+xsd:unsignedByte xsd:unsignedInt xsd:unsignedLong xsd:unsignedShort
+
+/C5"Occurrence constraints"
+optional
+prohibited
+required
+unbounded

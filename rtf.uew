@@ -1,0 +1,35 @@
+/L20"Rich Text Format" LATEX_LANG Noquote File Extensions = RTF
+/Delimiters = #$%&()+,-. /0123456789:;<=>[\]^_{|}~`
+/C1
+\ansi
+\author
+\b
+\company
+\deff
+\f
+\fmodern
+\fnil
+\fonttbl
+\froman
+\fswiss
+\ftech
+\i
+\info
+\operator
+\par
+\pard
+\qc
+\qj
+\ql
+\qr
+\rtf
+\title
+\ul
+/C2
+\*
+/C3
+\fs24
+\margl
+\margr
+\sa
+\sb

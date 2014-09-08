@@ -1,0 +1,109 @@
+/L14"TM1" Nocase Line Comment = # String Chars = ' File Extensions = TIP TM1 PRO RUX
+/Delimiters = ~%^!&*()+-=|\/{}[]:;'	<> ,
+/Indent Strings = "if" "elseif" "while"
+/Unindent Strings = "endif" "end"
+
+/C1"Process Steering"
+allowexternalrequests
+break
+else
+elseif
+end
+endif
+executecommand ExecuteProcess
+feeders
+if
+itemreject
+itemskip
+processbreak
+processquit
+skipcheck
+while
+
+/C2"Operators"
+,
+-
+%
+&
+(
+)
+*
+\
+:
+;
+[
+]
+^
+{
+|
+}
+~
++
+<>
+<=
+>=
+<
+>
+=
+@
+}
+{
+!
+
+/C3"TM1 Variables"
+DataMinorErrorCount DatasourceASCIIDecimalSeparator DatasourceASCIIDelimiter DatasourceASCIIHeaderRecords
+DatasourceASCIIQuoteCharacter DatasourceASCIIThousandSeparator DatasourceCubeview DatasourceDimensionSubset
+DatasourceNameForClient DatasourceNameForServer
+DatasourceODBOCatalog DatasourceODBOConnectionString DatasourceODBOCubeName DatasourceODBOHierarchyName
+DatasourceODBOLocation DatasourceODBOProvider DatasourceODBOSAPClientId DatasourceODBOSAPClientLanguage
+DatasourcePassword DatasourceType DatasourceUsername
+IsNull
+LockOff LockOn
+MetadataMinorErrorCount
+MinorErrorLogMax
+NumericGlobalVariable NumericSessionVariable NValue
+OnMinorErrorDoItemSkip
+ProcessExitMessage ProcessReturnCode PrologMinorErrorCount
+ProcessError ProcessExitByBreak ProcessExitByChoreQuit ProcessExitByQuit ProcessExitMinorError ProcessExitNormal
+ProcessExitOnInit ProcessExitSeriousError ProcessExitWithMessage
+ReturnSQLTableHandle ReturnViewHandle
+SetChoreVerboseMessages SValue
+Value_Is_String
+
+
+/C4"TI&Rules Functions"
+abs acos AddClient AddGroup ASCIIDelete ASCIIOutput asin AssignClientToGroup atan AttrDelete AttrInsert AttrN AttrPutN AttrPutS AttrToAlias AttrS AVG
+BatchUpdateFinish BatchUpdateStart BANNR BDATE BDAYN
+capit CellGetN CellGetS CellIsUpdateable CellPutN CellPutProportionalSpread CellPutS char ChoreQuit
+code CENTR CNT COL ConsolidateChildren cos CubeCreate CubeDestroy CubeGetLogChanges CubeSetLogChanges
+CubeExists CubeLockOverride CubeProcessFeeders CubeSetConnParams CubeSetIsVirtual CubeSetSAPVariablesClause
+CubeSetSlicerMembers CubeUnload
+date dates day dayno db delet DeleteClient DeleteGroup DimensionCreate DimensionDeleteAllElements DimensionDestroy
+DATFM DBG16 DBGEN DFRST DISPLY DNEXT DYS
+DimensionElementComponentAdd DimensionElementComponentDelete DimensionElementDelete DimensionElementInsert
+DimensionElementPrincipalName DimensionSortOrder dimix dimnm dimsiz dnlev dtype
+DimensionEditingAliasSet DimensionElementInsertByAlias DimensionExists
+EncodePassword elcomp elcompn ElementSecurityGet ElementSecurityPut elisanc eliscomp elispar ellev elpar elparn elweight exp Expand
+FileExists fill fv
+GetProcessErrorFileDirectory GetProcessErrorFilename
+HEX
+insrt int ISLEAF isund IRR
+LIN ln log long LOOK lower
+max min mod month MEM MOS
+NCELL NPV now NumberToString NumberToStringEx numbr
+ODBCClose ODBCOpen ODBCOutput
+paymt PublishView pv
+rand RemoveClientFromGroup RIGHT round roundp RuleLoadFromFile
+SaveDataAll scan SCELL SecurityRefresh ServerShutdown sign sin SLEEP sqrt stet str StringToNumber StringToNumberEx StringGlobalVariable StringSessionVariable
+SubsetCreate SubsetDeleteAllElements SubsetDestroy SubsetElementDelete SubsetElementInsert SubsetExists SubsetGetSize subst
+SubsetAliasSet SubsetCreateByMDX SubsetFormatStyleSet SubsetGetElementName SubsetIsAllSet SwapAliasWithPrincipalName
+STDDV SUBSIZ SUM
+tabdim tan time timst timvl today trim
+undef undefvals upper
+VAR ViewColumnDimensionSet ViewConstruct ViewCreate ViewDestroy ViewExists ViewRowDimensionSet ViewSetSkipCalcs ViewSetSkipRuleValues ViewSetSkipZeroes
+ViewSubsetAssign ViewTitleDimensionSet ViewTitleElementSetViewZeroOut
+ViewColumnSuppressZeroesSet ViewExtractSkipRuleValuesSet ViewExtractSkipRuleValuesSet ViewExtractSkipZeroesSet
+ViewRowSuppressZeroesSet ViewSuppressZeroesSet ViewTitleElementSet ViewZeroOut
+WildcardFileSearch WHOAMI WIDTH
+year YRS
+

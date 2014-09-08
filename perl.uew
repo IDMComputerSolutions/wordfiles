@@ -1,0 +1,75 @@
+/L20"Perl" PERL_LANG Line Comment = # Line Comment Preceding Chars = [~[^]^^$/\(] File Extensions = CGI PL PM PLX
+/Delimiters = ~!%^&*()+=|\/{}[]:;"'<> 	,.?/
+/Marker Characters = "$@"
+/Escape Char = \
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/Function String = "%[ ^t]++sub[ ^t]+^([a-z0-9_]+^)[ {^p]"
+/Function String 1 = "%^([a-z_1-9]+^):*$"
+/Function String 2 = "%[ ^t]++sub[ ^t]^([a-z_]+[a-z_0-9]++^)[ ^t]++(++[@$]++)++[ ^t]++{++*$"
+/C1
+-A -B -C -M -O -R -S -T -W -X -b -c -d -e -f -g -k -l -o -p -r -s -t -u -w -x -z
+__DATA__ __END__ __FILE__ __LINE__
+continue
+do
+else elsif
+for foreach
+goto
+if
+last local
+my
+next no
+our
+package
+redo return require
+sub
+until unless use
+while
+/C2
+accept alarm atan2
+bind binmode bless
+caller chdir chmod chomp chop chown chr chroot close closedir connect cos crypt
+dbmclose dbmopen defined delete die dump
+each endgrent endhostent endnetent endprotoent endpwent endservent eof eval exec exit exp exists
+fcntl fileno flock fork formline format
+getc getgrent getgrgid getgrname gethostbyaddr gethostbyname gethostent getlogin getnetbyaddr getnetbyname getnetent getpeername getpgrp getppid getpriority getprotobyname getprotobynumber getprotoent getpwent getpwnam getpwuid getservbyname getservbyport getservent getsockname getsockopt glob gmtime grep
+hex
+index int ioctl
+join
+keys kill
+lc lcfirst length link listen localtime log lstat
+map mkdir msgctl msgget msgrcv msgsnd
+new
+oct open opendir ord
+pack pipe pop pos print printf push
+quotemeta
+rand read readdir readline readlink recv ref rename reset reverse rewinddir rindex rmdir
+scalar seek seekdir select semctl semgett semop send setgrent sethostent setnetent setpgrp setpriority setprotoent setpwent setservent setsockopt shift shmctl shmget shmread shmwrite shutdown sin sleep socket socketpair sort splice split sprintf sqrt srand stat study substr symlink syscall sysopen sysread system syswrite
+tell telldir tie tied time times truncate
+uc ucfirst umask undef unlink unpack unshift utime untie
+values vec
+wait waitpid wantarray warn write
+/C3
+AUTOLOAD
+and
+BEGIN
+CORE
+cmp
+DESTROY
+eq
+END
+ge gt
+le lt
+ne not
+m
+or
+q qq qw qx
+SUPER
+s
+tr
+UNIVERSAL
+x xor
+y
+/C4
+$@
+@

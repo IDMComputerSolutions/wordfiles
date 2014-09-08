@@ -1,0 +1,78 @@
+/L20"LDAP" Nocase Noquote File Extensions = LDIF LDF
+/Delimiters = ,:=
+/C1
+accountUnlockTime administratorContactInfo adminUrl audio
+binary businesscategory
+carlicense changeLogMaximumAge changeLogMaximumSize changeNumber changes 
+changeTime changetype cirBeginORC cirBindCredentials cirBindDn cirHost 
+cirLastUpdateApplied cirPort cirReplicaRoot cirSyncInterval 
+cirUpdateFailedat cirUpdateSchedule cirUsePersistentSearch cirUseSsl cn 
+commonname
+deleteOldRdn departmentNumber description destinationIndicator dn
+employeenumber employeeType
+facsimileTelephoneNumber filterInfo
+generation givenname
+homePhone homePostalAddress
+idxno indexnumber initials installationTimeStamp internationalIsdnNumber
+jpegPhoto
+l labeledURI locality
+mail mailAccessDomain mailalternateaddress mailAutoReplyMode 
+mailAutoReplyText maildeliveryoption mailEnhancedUniqueMember 
+mailForwardingAddress mailhost mailMessageStore mailProgramDeliveryInfo 
+mailQuota manager member memberCertificateDescription memberURL 
+mgrpAllowedBroadcaster mgrpAllowedDomain mgrpDeliverTo mgrpErrorsTo 
+mgrpModerator mgrpMsgMaxSize mgrpMsgRejectAction mgrpMsgRejectText 
+mgrpRFC822MailMember mobile multiLineDescription
+newRdn newSuperior nsLicensedFor nsLicenseEndTime nsLicenseStartTime 
+ntGroupAttributes ntGroupCreateNewGroup ntGroupDeleteGroup ntGroupDomainId 
+ntGroupId ntUserDomainId ntUserAcctExpires ntUserAuthFlags ntUserBadPwCount 
+ntUserCodePage ntUserComment ntUserCountryCode ntUserCreateNewAccount 
+ntUserDeleteAccount ntUserFlags ntUserHomeDir ntUserHomeDirDrive 
+ntUserLastLogoff ntUserLastLogon ntUserLogonHours ntUserLogonServer 
+ntUserMaxStorage ntUserNumLogons ntUserParms ntUserPasswordExpired 
+ntUserPrimaryGroupId ntUserPriv ntUserProfile ntUserScriptPath 
+ntUserUniqueId ntUserUnitsPerWeek ntUserUsrComment ntUserWorkstations
+objectclass owner
+pager passwordChange passwordCheckSyntax passwordExp passwordExpirationTime 
+passwordExpWarned passwordHistory passwordInHistory passwordKeepHistory 
+passwordLockout passwordLockoutDuration passwordMaxAge passwordMaxFailure 
+passwordMinLength passwordResetDuration passwordRetryCount passwordUnlock 
+passwordWarning photo physicaldeliveryofficename postaladdress postalcode 
+postOfficeBox preferredDeliveryMethod preferredLanguage
+ref registeredAddress replicaBeginOrc replicaBindDn replicaBindMethod 
+replicaCredentials replicaEntryFilter replicaHost replicaNickName 
+replicaPort replicaRoot replicatedAttributeList replicaUpdateFailedAt 
+replicaUpdateReplayed replicaUpdateSchedule replicaUseSSL 
+retryCountResetTime roleOccupant roomnumber 
+searchGuide secretary seeAlso serverHostName serverProductName serverRoot 
+serverVersionNumber sn st stateOrProvinceName street surname
+targetDn telephonenumber teletexTerminalIdentifier telexNumber title
+uid uniqueMember userpassword userCertificate userCertificate 
+userCertificate;binary userSMIMECertificate userSMIMECertificate;binary
+x121Address x500UniqueIdentifier
+/C2
+aci add 
+c
+dc delete
+ftp ftps
+http https
+ldap ldaps
+modify
+nntp nntps
+o ou
+URL
+/C4
+changeLogEntry cirReplicaSource crypt
+dcObject
+epsbranch
+groupOfCertificates groupOfMailEnhancedUniqueNames groupOfNames groupOfUniqueNames
+httpd
+inetOrgPerson
+LDAPReplica LDAPServer
+mailGroup mailRecipient
+netscapeServer nsLicenseUser ntGroup ntUser
+organization organizationalPerson organizationalRole organizationalUnit
+passwordObject passwordPolicy person
+referral residentialPerson
+SHA slapd
+top

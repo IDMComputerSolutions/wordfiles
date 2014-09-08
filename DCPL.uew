@@ -1,0 +1,100 @@
+/L1"DCPL" DCPL_LANG Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = D DEF
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/C1"Keywords"
+add add_stat_row adjust_itimer all appearance append array 
+break 
+call case clear comment context continue 
+data default delete_stat_row display duration 
+else encode endcase endfor endif endswitch endwhile exit exp 
+flush for forward free 
+gwrite 
+i if in include index itimeout 
+keyboard 
+load locate log 
+none
+off on other 
+parse pause pattern preprocess print prompt protocol
+read_itimer received remove return
+screen send sprint start_itimer stat_field stat_group stats stop stop_itimer store switch sysmon
+tag timeout to type
+units unload update_stat_field update_stat_row
+variant variable view
+wait while write wsprint
+/C2"Builtin functions"
+add1len add1lenplus add2len add2lenplus add3len addgenericlen addlen addnlenplus align apn asn1int
+base64_decode base64_encode bcd bcf bcs bct bitbls bitcat bitis bitl bitls bitn bitreverse bits bitstr bitsubstr
+catsort char chkbs chklen closechannel compute_masterkey condstrexp crc24 crc32
+decode_base64 decompose decrypt_data decval des_decrypt des_encrypt digital_sign digital_sign_verify
+encode_base64 encode_list encoded_list encrypt_data enum_value exists
+findstring
+generate_keys
+hex hexstring hexval howmany
+ipaddr iptext len
+md5digest milenage_3g_alg multibcd multicrc
+null num2bcd
+openchannel
+pad pcomp 
+PRF
+reverse
+same security_3g_f8 security_3g_f9 sha1 str2num string strrepeat substr
+touppercase trimleft trimright
+wspaddlen wspintval
+/C3"Builtin macros"
+__LINE__ __FILE__
+define 
+ifdef ifndef 
+undef
+/C4"Special Predef variables"
+&abortct
+%context_name 
+%initcell %invalidcell 
+%IP_port_forward
+%receive_ueid_lcid %receivecellheader
+%send_ueid_lcid %sendcellheader %stm_config_channels %stm_create_channel %stm_remove_channels
+%vlan_tag_ingress
+&_codec_reg
+&_phy0_a_discarded_ingress_high &_phy0_a_discarded_ingress_low &_phy0_a_egress_high_fifo &_phy0_a_egress_low_fifo &_phy0_a_ingress_high_fifo &_phy0_a_ingress_low_fifo &_phy0_b_discarded_ingress_high &_phy0_b_discarded_ingress_low &_phy0_b_egress_high_fifo &_phy0_b_egress_low_fifo &_phy0_b_ingress_high_fifo &_phy0_b_ingress_low_fifo &_phy0_cam_matches &_phy0_cam_matches_a &_phy0_cam_matches_b &_phy0_cam_vpc_matches &_phy0_cam_vpc_matches_a &_phy0_cam_vpc_matches_b &_phy0_cells_discarded_passthru &_phy0_cells_discarded_routing &_phy0_cells_from_framer &_phy0_cells_passed_through &_phy0_cells_to_framer &_phy0_fpga_reg &_phy0_framer_loopback_egress &_phy0_framer_loopback_ingress &_phy0_framer_reg &_phy0_framer_side_egress &_phy0_framer_side_ingress &_phy0_rx_framer &_phy0_serdes_loopback_egress &_phy0_serdes_loopback_ingress &_phy0_serdes_reg &_phy0_tx_framer &_phy1_rx_framer &_phy1_tx_framer
+&_switch_ingress_loop &_switch_slot_connection
+&available_memory
+&badfcs &baseboard_revision
+&bri_st_reg &bri_st_rxinfo &bri_st_state &bri_st_txinfo
+&channelnum &channeltype &cii_rate_var &cii_srx_var &cii_stx_var &cpu_idle &ctrl_cts &ctrl_dcd &ctrl_dsr &ctrl_dtr &ctrl_rts
+&dcpl_errno
+&e1_frame_alarm &e1_rra &e1_rua1 &e1_sa &eth_lnk_det &eth_mi_reg &eth_spd_det
+&itimeout_index &itimeout_tag &itimer_duration &itimer_index &itimer_remaining &itimer_tag 
+&loc_index &loc_length
+&mezzanine_revision &mvpivcinumberchannels &mvpivcireleasetimer
+&num_tidmnc_digits &numports
+&oc3_frame_reg
+&pattern_input_length &patterno &payloadtype &pdcp_no_header_pdu &physint &portin &pri_reg &pri_signaling &protocol
+&random &receive_queue_length &receivechannelnum
+&send_queue_length &sendchannelnum &serclk_r &serclk_t
+&t1_rbl &t1_red &t1_ryel &time &time_us_high &time_us_low &timein &timeout
+&variant &vlan_tag_egress
+&wait_queue_length
+/C5"Operators"
+?
+-
+*
+:
++
+<
+=
+>
+and
+bitand bitnot bitor bitxor
+div
+left
+mod
+not nullif nullthen
+or
+right
+/C6"Braces, comma, semicolon"
+(
+)
+,
+;
+[
+]
+{
+}

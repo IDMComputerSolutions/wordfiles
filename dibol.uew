@@ -1,0 +1,69 @@
+/L20"DiBoL" Line Comment = ;  Nocase File Extensions = DBL
+AP AR DEF RBP
+/Delimiters = ~!@$&*()-+=|\/{}[]:"'<> , ?/
+/C1 - DiBoL KEYWORDS
+.align .define .else .end .endc .function .ifdef .ifndef .include
+.proc .subroutine
+accept
+begin begincase byte
+call case clear close common
+decr delet delete display do
+else end endcase endglobal endgroup endusing exit exitloop
+find flush for forever forms freturn from function
+get gets global goto group
+if incr
+locase long lpque
+merge
+nextloop nop
+of offerror on onerror open
+proc purge put puts
+quad
+range read reads record renam repeat return
+send set sleep sort stop store subroutine
+then thru
+unlock until upcase using
+while word write writes
+xcall xreturn
+/C2 - DiBoL OPERATORS
+.and.
+.band. .bnand. .bnot. .bor. .bxor.
+.eq. .eqs.
+.ge. .ges. .gt. .gts.
+.le. .les. .lt. .lts.
+.ne. .nes. .not.
+.or.
+.xor.
+/C3 - DiBoL COMPILER LIBRARY
+%abs %atrim %bkstr %char %chopen %date %datecompiled %datetime
+%decml %erlin %ernum %error %false %instr %int %integer %len %line
+%rdlen %recnum %round %rsize %rvstr %string %syserr %tnmbr %trim %true
+%zoned
+ascii atrim
+cmdlin
+date decml delet
+envrn error ertxt exec execute
+fatal fill filnm flags free
+getlog
+instr isamc isclr iskey issts
+len
+randm renam
+shell size spawn
+time tnmbr trim
+versn
+wait wkday w_area w_brdr w_caption w_disp w_exit
+w_flds w_info w_init w_proc w_restore w_save w_updt
+^a ^d ^defined ^i ^len ^passed ^size
+/C4 - DiBoL UofI LIBRARY
+input
+lpoff lpon lpout
+mesag
+outpt
+rdate
+terid
+vim_bad_stknum_ok vim_close vim_comp_id vim_delete vim_find 
+vim_get_file
+vim_get_stknum vim_init vim_open vim_override_cost vim_read vim_reads
+vim_set_prompt vim_squeeze_key vim_store vim_unlock vim_vendor 
+vim_write
+vim_writes
+wate

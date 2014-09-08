@@ -1,0 +1,51 @@
+/L20"Modelica" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ File Extensions = mo mos
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String = "%[ ^t]+[A-_,a-z,0-9,.$]+[ ^t]+[A-_,a-z,0-9,.$]+*([^t-9,A-z]+{"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1"Modelica keywords"
+annotation assert
+block
+class connector constant
+discrete
+else elseif elsewhen end exit extends external
+final flow for function
+if in inner input import 
+loop 
+model
+nondiscrete
+outer output
+package parameter
+record redeclare replaceable return
+size
+terminate then type
+when while
+/C2"section separators"
+algorithm
+equation
+protected public
+/C3"operators/functions"
+abs acos asin atan atan2
+connect cos cosh cross 
+der
+edge exp
+initial
+noEvent
+pre 
+reinit
+sample sign sin sinh 
+tan tanh terminal
+/C4"operators"
+*
++
+-
+// /
+<
+=
+>
+^
+and 
+false 
+not
+or 
+true 

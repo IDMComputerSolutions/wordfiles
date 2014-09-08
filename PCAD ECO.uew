@@ -1,0 +1,15 @@
+/L12"PCAD ECO" Line Comment = ; File Extensions = ECO
+/C1 "Keywords"
+CompAdd
+CompAttrAdd
+CompAttrDelete
+CompAttrModify
+CompDelete
+NetAdd
+NetDelete
+NetMerge
+NetNodeAdd
+NetNodeDelete
+NetRename
+NetSplit
+RefdesChange

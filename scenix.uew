@@ -1,0 +1,60 @@
+/L20"Scenix" 1Line Comment = ; Nocase File Extensions = SRC LST ASM
+/Delimiters = .	,!#><%$+()*-/@
+/C1"Instructions"
+add addb and
+bank
+call cja cjae cjb cjbe cje cjne clc clr clrb clz 
+dec djnz
+ijnz inc iread
+jb jc jmp jnb jnc jnz jz
+lcall ljmp lset
+mov movb
+nop not
+or
+page
+ret reti retiw retp retw rl rr
+setb sleep stc stz sub subb swap
+test
+xor
+/C2"Literals"
+"[0123456789aAbBcCdDeEfF]"
+/C3"Special function register names"
+fsr
+ind indf
+m
+option
+pc
+ra rb rc rd re
+w
+/C4"Operators, and directives"
+!
+#
+$
+%
++
+<
+=
+>
+@
+banks1 banks2 banks3 banks8 
+device ds
+equ
+freq
+id
+optionx org oschs oschs1 oschs2 oschs3 oschs4 oschs5 oscin oscxtmax 
+pages1 pages2 pages4 pins18 pins28
+reset
+stackx stackx_optionx sx18 sx28 sx28l sx52
+turbo
+watchdog
+/C5"Instructions w/o compound instr."
+csa csae csb csbe cse csne 
+decsz
+incsz
+movsz
+sb sc skip snb snc snz sz
+/C6"Conditional assembly, macro definitions"
+else endif endm endr error exitm
+if ifdef ifndef
+macro
+rept 

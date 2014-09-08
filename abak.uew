@@ -1,0 +1,7 @@
+/L7"ABAQUS DAT MSG" ABAQUS_DEB Nocase File Extensions = MSG DAT STA
+/Function String 1 = "% ***ERROR"
+/Function String 2 = "%[ ]+TOTAL"
+/C1 
+ERROR
+/C2
+WARNING

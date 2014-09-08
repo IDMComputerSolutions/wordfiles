@@ -1,0 +1,31 @@
+/L20"EDS CANopen" Nocase Line Comment = ; Line Comment Alt = Line String Chars = ' File Extensions = eds
+/Delimiters = ;,=
+/C1
+** [
+Comments
+FileInfo
+DeviceInfo DummyUsage
+MandatoryObjects
+/C5
+AccessType
+DataType DefaultValue
+LowLimit
+HighLimit
+ObjectType
+ParameterName PDOMapping
+SubNumber SupportedObjects
+/C4
+** BaudRate Dummy
+CreationTime CreationDate CreatedBy
+Description DynamicChannelsSupported
+EDSVersion ExtendedBootupMaster ExtendedBootupSlave
+FileName FileVersion FileRevision
+Granularity GroupMessaging
+LMT_ManufactureName LMT_Productname LSS_Supported
+ModificationTime ModificationDate ModifiedBy
+NrOfRXPDO NrOfTXPDO
+OrderCode
+ProductNamE ProductNumber
+RevisionNumber
+SimpleBootUpSlave SimpleBootUpMaster
+VendorName VendorNumber

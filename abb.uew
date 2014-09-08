@@ -1,0 +1,94 @@
+/L20"ABB Rapid Command" Line Comment = ! Nocase String Chars = "' File Extensions = PRG SYS MOD
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String = "%[PMTF ]+[ROU][ODAN][CUP]*$"
+/Indent Strings = "ELSE" "ELSEIF" "THEN" "DO"
+/Unindent Strings = "ENDIF" "ELSE" "ENDFOR" "ENDPROC" "ENDMODULE" "ENDWHILE" "ENDTEST"
+/C1
+Abs AccSet ACos ActUnit Add AliasIO AOutput ASin ATan ATan2 
+Break ByteToStr
+CalcJointT CalcRobT CallByVar CDate CJointT Clear ClearIOBuff ClkRead ClkReset ClkStart ClkStop Close 
+comment Compact ConfJ ConfL CONNECT Cos CPos CRobT CTime CTool CWObj 
+DeactUnit Decr DefDFrame DefFrame Dim Distance DotProd DOutput 
+EOffsOff EOffsOn EOffsSet ErrWrite EulerZYX EXIT ExitCycle Exp 
+FileTime FOR 
+GetSysData GetTime GOTO GOutput GripLoad 
+IDelete IDisable IEnable IF Incr InvertDO IODisable IOEnable ISignalAI ISignalAO ISignalDI ISignalDO
+ISleep IsPers IsVar ITimer IVarValue IWatch 
+label Load 
+MechUnitLoad MirPos ModTime MoveAbsJ MoveC MoveCDO MoveCSync MoveJ MoveJDO MoveJSync MoveL MoveL MoveLDO 
+NOrient NumToStr
+Offs Open OpMode OrientZYX ORobT 
+PathResol PDispOff PDispOn PDispSet PoseInv PoseMult PoseVect Pow Present ProcCall PulseDO 
+RAISE ReadAnyBin ReadBin ReadMotor ReadNum ReadStr ReadStrBin RelTool Reset RestoPath RETRY RETURN Rewind
+Round RunMode
+Save SearchC SearchL Set SetAO  SetDO SetGO Sin SingArea SoftAct SoftDeact SpyStart SpyStop Sqrt StartLoad
+StartMove Stop StopMove StorePath StrFind StrLen StrMap StrMatch StrMemb StrOrder StrPart StrToByte StrToVal
+Tan TEST TestAndSet TestDI TestSignDefine TestSignRead TestSignReset TPErase TPReadFK TPReadNum TPShow 
+TPWrite TriggC TriggEquip TriggInt TriggIO TriggJ TriggL Trunc TRYNEXT TuneReset TuneServo 
+UnLoad 
+ValToStr VectMagn VelSet 
+WaitDI WaitDO WaitLoad WaitTime WaitUntil WHILE Write WriteAnyBin WriteBin WriteCfgData WriteStrBin WZBoxDef
+WZCylDef WZDisable WZDOSet WZEnable WZFree WZLimSup WZSphDef
+/C2
+/C3
+/C4
+aiotrigg
+bool byte
+clock confdata
+dionum
+errnum extjoint
+intnum iodev
+jointtarget
+loaddata loadsession
+mecunit motsetdat
+num
+o_jointtarget orient o_robtarget
+pos pose progdisp
+robjoint robtarget 
+shapedata signalxx speeddata stoppointdata string symnum System 
+taskid  testsignal tooldata tpnum triggdata tunetype 
+wobjdata wzstationary wztemporary 
+zonedata
+/C5
+EXIT
+GOTO
+RETURN RETRY
+Stop
+TRYNEXT
+/C6
+ALIAS AND
+BACKWARD
+CASE CONNECT CONST
+DEFAULT DIV DO
+ELSE ELSEIF ENDFOR ENDFUNC ENDIF ENDMODULE ENDPROC ENDRECORD ENDTEST ENDTRAP ENDWHILE ERROR EXIT 
+false FOR FROM FUNC
+GOTO
+IF INOUT
+LOCAL
+MOD MODULE 
+NOSTEPIN NOT NOVIEW
+OR
+PERS PROC
+RAISE READONLY RECORD RETRY RETURN
+STEP SYSMODULE 
+TEST THEN TO TRAP true TRYNEXT 
+VAR VIEWONLY
+WHILE WITH
+XOR
+/C7
+/C8
+!
+#
+%
+&
+*
++
+,
+-
+// /
+;
+<
+=
+>
+^
+| 

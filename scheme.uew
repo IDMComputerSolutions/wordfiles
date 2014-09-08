@@ -1,0 +1,47 @@
+/L20"Scheme" Line Comment Num = 1; File Extensions = SCM
+/Delimiters = ~@%^&*()+=|\/{}[]:;"'< ,	.
+/C1 
+accumulate aling appearances append apply assoc
+before? begin bf bl butfirst butlast
+caaar caadr caar cadar caddr cadr car cdaar cdadr cdar cddar cdddr cddr cdr children close-all-ports close-input-port close-output-port cons count 
+datum define display
+empty? eof-object? error every
+filter first for-each
+item
+keep
+lambda last length let list list->vector list-ref list? load
+make-node make-vector map member member? 
+newline null?
+open-input-file open-output-file
+procedure?
+quote
+read read-line read-string reduce repeated
+se sentence sentence? show show-line 
+trace
+untrace
+vector vector->length vector->list vector-ref vector-set! vector?
+word word? write
+/C2
+abs
+ceiling cos
+even? expt
+floor
+integer?
+log
+max min
+number?
+odd?
+quotient
+random remainder round
+sin sqrt
+/C3
+and
+boolean?
+cond
+if
+not
+or
+/C5
+#f
+#t
+'()

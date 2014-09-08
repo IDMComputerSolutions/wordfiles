@@ -1,0 +1,76 @@
+/L20"BBCode" EnableSpellasYouType Noquote Nocase File Extensions = UBB
+/Delimiters = ~!@$%^&()_+=|\{}[]:;"'<> ,	.?
+/Indent Strings = "[ALIGN]" "[CODE]" "[INDENT]" "[LIST]" "[PHP]" "[PRE]" "[QUOTE]"
+/Unindent Strings = "[/ALIGN]" "[/CODE]" "[/INDENT]" "[/LIST]"  "[/PHP]" "[/PRE]" "[/QUOTE]"
+/Open Fold Strings = "[ALIGN]" "[CODE]" "[INDENT]" "[LIST]" "[PHP]" "[PRE]" "[QUOTE]"
+/Close Fold Strings = "[/ALIGN]" "[/CODE]" "[/INDENT]" "[/LIST]"  "[/PHP]" "[/PRE]" "[/QUOTE]"
+/C1"Blocks: code indent ..."
+// /ALIGN /CODE /INDENT /LIST /PHP /PRE /QUOTE
+ALIGN
+CODE
+INDENT
+LIST
+PHP
+PRE
+QUOTE
+[
+]
+/C2"Special: color img ..."
+*
+// /* /COLOR /EMAIL /FLASH /FONT /HR /IMG /MARQ /SIZE /URL /VIDEO
+COLOR
+EMAIL
+FLASH
+FONT
+HR
+IMG
+MARQ
+SIZE
+URL
+VIDEO
+/C3"Operators: ="
+=
+/C4"Styles: b i sub sup u"
+// /B /I /SUB /SUP /U
+B
+I
+SUB
+SUP
+U
+/C5"Colors"
+aqua
+black blue brown
+cyan
+darkblue
+fuchsia
+gray green
+indigo
+lime
+maroon
+navy
+olive orange
+purple
+red
+silver
+teal
+violet
+white
+yellow
+/C6"Font Names"
+Arial
+Courier Console
+Lucida
+New
+System
+Tahoma
+Verdana
+/C7"Alignment: left ..."
+center
+down
+justify
+left
+right
+up
+/C8"Parameters: width ..."
+height
+width

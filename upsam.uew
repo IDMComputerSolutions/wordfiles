@@ -1,0 +1,82 @@
+//Autor "Pseudocódigo UPSAM": Arturo Purroy Sanz 2005
+/L20"Pseudocódigo UPSAM" Line Comment = // Block Comment On = /* Block Comment Off = */ String Chars = ' File Extensions = PSC
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String = "%[a-zA-Z_][a-zA-Z0-9ÁÉÍÓÚáéíóú]++[ ]+función[ ]+[a-zA-Z_ÁÉÍÓÚáéíóú][a-zA-Z0-9ÁÉÍÓÚáéíóú]++*)"
+/Function String 4 = "%destructor[ ]+[a-zA-Z_ÁÉÍÓÚáéíóú][a-zA-Z0-9ÁÉÍÓÚáéíóú]++*)"
+/Function String 3 = "%constructor[ ]+[a-zA-Z_ÁÉÍÓÚáéíóú][a-zA-Z0-9ÁÉÍÓÚáéíóú]++*)"
+/Function String 2 = "%procedimiento[ ]+[a-zA-Z_ÁÉÍÓÚáéíóú][a-zA-Z0-9ÁÉÍÓÚáéíóú]++*)"
+/Function String 1 = "%algoritmo[ ]+[a-zA-Z_ÁÉÍÓÚáéíóú][a-zA-Z0-9ÁÉÍÓÚáéíóú]++"
+/Indent Strings = "/*" ":" "{" "const" "constantes" "entonces" "hacer" "incluir" "inicio" "iterar" "repetir" "si_no" "tipo" "tipos" "var" "variables"
+/Indent Strings SOL = "privado" "protegido" "público" "registro" "salir_si"
+/Unindent Strings = "*/" "}" "const" "constantes" "fin" "fin_clase" "fin_constructor" "fin_desde" "fin_destructor" "fin_función" "fin_iterar" "fin_mientras" "fin_para" "fin_procedimiento" "fin_registro" "fin_según" "fin_si" "hasta_que" "incluir" "inicio" "privado" "protegido" "público" "salir_si" "si_no" "tipo" "tipos" "var" "variables"
+/C1"Palabras clave"
+array
+cadena carácter conjunto_de const constantes continuar
+de dec desde devolver div
+entero entonces enumerado es
+fin_desde fin_iterar fin_mientras fin_para fin_registro fin_según fin_si
+hacer hasta hasta_que hereda_de
+inc incluir iterar
+liberar lógico
+mientras mod
+para privado protegido público puntero puntero_a
+real registro repetir reservar
+salir salir_si según_sea si_no si subrango_de
+tabla tipo tipos
+var variables
+C
+E E|S
+S
+/C2"Módulos"
+clase constructor
+destructor
+fin fin_clase fin_constructor fin_destructor fin_función fin_procedimiento función
+inicio
+procedimiento
+/C3"Funciones Estándar"
+abs aleatorio arctan
+cad car cos código cuadrado
+ent exp
+ln log longitud
+posición
+raíz2 redondeo
+sen subcadena
+tamaño_de trunc
+valor
+/C4"Archivos"
+abrir arch_dir arch_sec arch_ind
+borrar
+cerrar clave_p clave_s crear
+duplicada
+escribir
+fda fdl
+leer leercar leersec lda
+renombrar
+/C5"Algoritmo principal"
+algoritmo
+/C6"Constantes"
+FALSO
+NIL NULO
+PI
+VERDADERO
+/C7"Operador y símbolo"
+*
++
+-
+:
+.
+=
+/
+%
+&
+;
+>
+<
+^
+no
+o o_x
+y
+{
+}
+|
+

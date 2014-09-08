@@ -1,0 +1,41 @@
+/L20"MOF" Line Comment = // Nocase File Extensions = MOF
+/Function String = "^{Sub^}^{Function^} [a-z,A-Z,0-9,_, ,(,)]+$"
+/Delimiters =  	.(),-+=|\/{}[]:;"'<	>
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1"Statement/Operator"
+as association alias arraytype aggregation  aggregate abstract
+boolean bitvalues bitmap
+char16 class Constructor counter
+datetime description dynamic Destructor disableoverride displayname delete
+enableoverride expensive
+flavor
+gauge
+Instance Implemented include instancelocale indication invisible in ifdeleted
+key
+Locale large
+namespace NULL nonlocal nonlocaltype nullvalue
+MappingStrings min minvalue max maxvalue modelcorrespondence
+Of Object Override Out
+#pragma
+provider Privileges property propagated
+qualifier
+ref real32 real64 read restricted reference revision
+string sint8 sint16 sint32 sint64 Static source sourcetype scope schema syntax syntaxtype
+ToSubClass ToInstance translate terminal triggertype
+uint8 uint16 uint32 uint64 UUID Units unknownvalues unsupportedvalues
+valuemap values version
+weak write
+
+/C2"Functions"
+
+/C3"Properties"
+
+/C4"Methods"
+
+/C5"Objects"
+Meta_Method Meta_Qualifier Meta_Property
+
+/C6"Constants"
+False FALSE
+True TRUE

@@ -1,0 +1,15 @@
+/L20"INI Files" Nocase Line Comment = ; Line Comment Preceding Chars = [~0-9A-Za-z_] String Chars = "% DisableMLS File Extensions = INF INI PRJ PUI
+/Delimiters = ! "	%&'()*+,-./:;<=>?@[\]^{|}~
+/Function String = "%^[^(*^)^]"
+/Open Fold Strings = "["
+/Close Fold Strings = "["
+/Ignore Fold Strings = "="
+/Marker Characters = "[]"
+/C1"Section name"
+[]
+/C2"Separators"
+,
+-
+=
+/C3"Variables"
+%

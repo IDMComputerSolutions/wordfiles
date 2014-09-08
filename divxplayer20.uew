@@ -1,0 +1,38 @@
+/L20"DivX Player 2.0 Skin" HTML_LANG Line Comment = # File Extensions = DIVL
+/Delimiters = ~!@$%^&*()+=|\{}[];"'< ,	.?
+/Function String = "name=*">"
+/C1"Tags"
+>
+<author> </author> <authorEmail> </authorEmail> <area> </area> <action> </action>
+<bitmap> </bitmap> <bitmapfont> </bitmapfont> <backColor> </backcolor> <b> </b> <bottom> </bottom> <button> </button>
+<charheight> </charheight> <charwidth> </charwidth> <comment> </comment> <caption> </caption> <clickedArea> </clickedArea> <cursorArea> </cursorArea> <clickedCursorArea> </clickedCursorArea>
+<dx> </dx> <dy> </dy> <dontShowWhenNoVideoLoaded> </dontShowWhenNoVideoLoaded>
+<file> </file> <font> </font>
+<g> </g>
+<hotspot> </hotspot>
+<initialValue> </initialValue>
+<layer> </layer> <logo> </logo> <left> </left> <layerArea> </layerArea> <label> </label>
+<maskColor> </maskColor> <maskArea> </maskArea> <minValue> </minValue> <maxValue> </maxValue>
+<name> </name> <normalArea> </normalArea>
+<offsets> </offsets> <overArea> </overArea> <orientation> </orientation>
+<properties> </properties> <position> </position> <playbackArea> </playbackArea> <playArea> </playArea> <pixelStart> </pixelStart>
+<resizePolicy> </resizePolicy> <r> </r> <right> </right>
+<skin> </skin> <skinName> </skinName> <screenshot> </screenshot> <size> </size> <scrollbar> </scrollbar> <state> </state> <scrollBarArea> </scrollBarArea>
+<top> </top>
+<url> </url>
+<version> </version>
+<window> </window>
+<x> </x>
+<y> </y>
+/C2"Special Values"
+CLOSE
+FALSE FILENAME FASTFORWARD FULLSCREEN
+HORIZONTAL
+LOAD
+MINIMIZE MENU
+PLAY_PAUSE PLAY PAUSE PROGRESS
+QUALITY
+REWIND RESIZE
+STOP
+TRUE TIME TOTALTIME
+VOLUME

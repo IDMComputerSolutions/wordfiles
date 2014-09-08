@@ -1,0 +1,235 @@
+/L20"SBP" Line Comment = ' Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = SBP
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String 1 = "%SUB "
+/Function String 2 = "%FUNCTION "
+
+/C1"keywords"
+? 
+ABS ADD AFTER APPACTIVATE ASC ASK ATN AVG ALPHA ANSI ALL ANSICONVERT ATTR 
+BEFORE BELL BF BG BLANK BREAK BUFFERS BUILDFILE BUILDTABLE 
+CALL CHAIN CHR$ CLEAR CLOSE COMMS CLS COL COPY COS COUNT CREATE CURRENT 
+CASE CROSSTAB CALC CURRENCYSYMBOL CONNECT CREATEFILE CREATETABLE 
+DIRECTORY DIALOG DATA DATE$ DATEBASE DAY DAY$ DAYS DBCOUNT DDE$ DDEEXEC 
+DDEINIT DDEPOKE DDEREPLY DDEREQ DDETERM DEBUG DELETE DIM DISKSPACE DISPLAY 
+DEC DUPLICATE DROW DISPLAYSPEED DISCONNECT 
+EDIT EJECT END ENTER ENTRYORDER EODB EOF ERASE ERR$ ERRNO ERROR EVENTCLASS 
+EVENTDEFAULT EXECUTE EXISTS EXP EXPORT EXT ELSE 
+FORM FIELDS FILE FROM FOOTING FUNCTION FCASE$ FG FIELDINFO$ FILEINFO 
+FILLARRAY FIX FN FACT FV FOR FORMAT$ FOUND FREE FIRST FONT FIELD FETCH 
+GROUP GET GETOBJECT GLOBAL GOSUB GOTO GETCOLUMNS GETCOUNT GETDATABASES 
+GETTABLES 
+HELP HEADING HEX HOME HRS 
+INPUT INDEX IBM ICON IF IMPORT INSTR INT IS IT INSERTTABLE 
+KEY 
+LIST LFN LPATH LABELS LCASE$ LEFT$ LEN LET LIKE LOAD LOCATE LOCK LOG 
+LOOKUP LTRIM$ LAST 
+MEMORY MAKE MAX MCISEND MEAN MENU MID$ MIN MINS MERGE MOD MODIFY MONTH 
+MONTH$ MOUSE 
+NEW NEXT NAME NPER NUMERIC NEWLINE NOT NOTHING NOW NUMBASE NUMDELIM 
+NULLMODE 
+OUTPUT OEM ON OFF OPEN ORDER OLE OPTION 
+PROGRAMFILE PAGE PATH PHONE PMT PV PAD$ PANEL PASSWORD PCOL POSITION PRINT 
+PRINTER PROTECT PROW PREVIOUS PAGING PG PREPARE 
+QUERY QBE QUIT 
+REPLICATE REPORT RATE ROOT READ RECCOUNT REDIM REGISTER REM REMOVE RENAME 
+REORGANIZE REQUEST RESTORE RESUME RETURN RIGHT$ RND ROW RUN RECORD 
+STATUS SELECT SQL SUB SFN SLN SPATH SYS SAVE SD SECS SENDKEYS SER SET SHOW 
+SGN SHARE SIN SPACE$ SQR STORE STR$ SUM 
+TEXT TO THEN TABLE TABLEGRID TODAY TAN THOUSECS TIME$ TIMEVAL TRIM$ 
+UPDATE UL USING UCASE$ UNLOCK USERNAME 
+VIEW VAL VAR 
+WINDOW WHILE WHERE WAIT WEND 
+YEAR 
+
+/C2"Objects"
+Array Auto AutoObject 
+CheckBox Collection ComboBox CommandButton Comms Connection 
+ConnectionLocalClient ConnectionLocalServer ConnectionNetBIOSClient 
+ConnectionNetBIOSServer Connections ConnectionsData ConnectionSerial 
+ConnectionUDPClient ConnectionUDPServer ControlCollection Controls 
+ConvAscii ConvCSV ConvDatabase Converter Converters ConvHTM 
+ConvSpreadsheet ConvSQL ConvSuperbase ConvUserDefined ConvXML 
+CrossTabWindow 
+DetailBlock Dialog DialogCheckBox DialogComboBox DialogCommandButton 
+DialogControl DialogFrame DialogIcon DialogLabel DialogListBox 
+DialogOptionButton Dialogs DialogTextBox DiskFile DisplayTextBox 
+DocumentWindow 
+Ellipse 
+FiniteElmtArray FiniteElmtAttribute Float Form FormCollection FormControl 
+Forms 
+HugeInteger 
+Icon IconBar IconBarCollection IconBars IconComboBox IconControl 
+Icons Image ImageWindow Integer Items 
+Label Line ListBox Long 
+MailBox MailMessage MailMessages Matrix MDIWindow Menu MenuBar 
+MenuBarCollection MenuBars MenuItem Menus Model 
+Object Objects OptionButton OutputWindow 
+Page PageCollection Pages Printer 
+QueuedEventPort 
+Rectangle ReportForm 
+SDIWindow Server Servers Set ShareableBinaryFile ShareableDataFile 
+ShareableFile ShareableFiles ShareableFilesCollection String Superbase 
+TextBox 
+UnQueuedEventPort 
+Vector ViewWindow 
+Window WindowCollection Windows 
+
+/C3"Properties"
+(IP) 
+AbsolutePosition Active Aggregate Alignment AllowableErrorFactor 
+AllowableErrorMin ANSIConvert AnyMessageCount Archive Attributes 
+AutoAnswerRings AutoCreateVariables AutoEdit AutoLocking AutoRedraw 
+AutoScroll AutoUpdateTime Available 
+BackColor BackVisible BaudRate Bitmap BorderColor BorderStyle 
+BorderVisible BorderWidth BottomMargin BoundColumn Break BufferCount 
+Buffers BuildNo 
+CalcCount CalcFormat Calculation Cancel Caption CaptionBinding Carrier 
+CenturyBase Checked Child Chop ClearOnEnd ClientHeight ClientName 
+ClientWidth CloseOnError Color Column ColumnHeadings Columns ColumnSpace 
+ColumnWidths Command CommitType CommMask Contents ContentsType 
+ControlBoxes ControlSource Count CountryCode CRLFConvert Ctl3D Currency 
+CurrencySymbol CurrencySymbolPosition CurrentDirectory CurrentFileName 
+CurrentFormName CurrentIndexName CurrentReportName CurrentX CurrentY 
+CurrentZ CursorBusy CursorNormal CursorType 
+DataViewStyle Date DateFormat DebugDialog DebugMode DebugSQL 
+DebugStatementDelay DecimalPointSeparator DefAlignment Default 
+DefBackColor DefBackVisible DefBorderColor DefBorderStyle DefBorderVisible 
+DefBorderWidth DefEnabled DefFontBold DefFontCharSet DefFontDevice 
+DefFontItalic DefFontName DefFontPitch DefFontSize DefFontString 
+DefFontUnderline DefForeColor DefForePattern DefForeVisible DefHeight 
+DefLeft DefPage DefPrintable DefSectionH DefSectionV DefShadow 
+DefStepWidth DefStretch DefTop DefViewStyle DefVisible DefWidth 
+DefWindowsDefaults DefWindowState Descending DestExtensions DestFile 
+DestFormats DestFormat DetailBlockRow Determinant DialNumber Dimensions 
+DirtyX1 DirtyX2 DirtyY1 DirtyY2 DisplayFont DisplayHeight DisplayMinDigits 
+DisplayPlanes DisplaySpeed DisplayString DisplayWidth Distinct Driver 
+Duplex 
+EditColor EditFont EditMode EditorTabWidth EditSelection Eigenvalues 
+Eigenvectors Element Elements Enabled EndCol EndOfData EndRow 
+EnforceDataConsistency Error ErrorRequest ErrorTrapLabel 
+EventActiveClasses EventCharacter EventDefinedClasses EventPendingClasses 
+EventPermittedClasses EventCount ExcludeFromWindowsMenu Exists 
+FieldDelimiter FieldListOrder FieldNameDisplay FieldSeparator 
+FileCreationIndexOrder FileHandlesMaxOpen FileHandlesTotal 
+FileHandlingExtended FileIndexOrders FileName Filter FilterDirectory Focus 
+Font FontBold FontCharSet FontDevice FontItalic FontName FontPitch 
+FontSize FontString FontUnderline ForeColor ForePattern ForeVisible 
+FormPrintClose Formulae FormulaIndexes FormViewIconName FreeMemory 
+FunctionKeyDetection 
+Handle Headings Height HelpButtons HelpContextID HelpFileName HelpText 
+HelpTopic Hidden HorizontalPosition 
+IconBarState IconName ImageFlags ImageName ImagePrintMode InBufferLen 
+InBufferSize IncludeNulls Index IndexSkip InitialMDIMode InitialValues 
+InitString Instance Interleave IntratextAlignment Item 
+KeepConnection 
+LabelRow LanAdapter LanguageDLL LastActiveControl LastError 
+LastExternalError Left LeftMargin Length LimitToList Linked Links List 
+ListBinding ListCount ListIndex ListSources ListSourceType 
+LocalFileLocking LockDelayFile LockDelayRecord LockDelaySystem 
+LockRetention LockRetryFile LockRetryRecord LockRetrySystem Locks 
+LockTimeout LogErrors LoggedOn LongFileName 
+MailMergeClose MailSystem MajorVersion MasterLink MaxButton MaxHeight 
+MaxLength MaxWidth MDIMode Member MenuFont Merge MessageBell 
+MessageConfirmation MinButton MinHeight MinorVersion MinWidth Mode 
+MouseLButton MouseMButton MouseRButton MouseX MouseY Moveable MultiLine 
+MultiResponse MultiSelect 
+Name NativeIconBar NativeMenuBar NCBs NestedDialogName NetworkDirectory 
+NewLineMode NextActiveControl NoKeyboardEquivalent Now Number 
+NumberOfCopies NumericFormat 
+ObjectType ODBCBufferCount OLEAutoUpdate OnlineStatus Order Originator 
+OutBufferLen OutBufferSize 
+PageHeight PageOrientation PageWidth Paging Palette PaperLength PaperSize 
+PaperSource PaperWidth Parent ParentDBlock Parity PassthroughEndJob 
+PassthroughStartJob Passwords Permits PixelsPerInchX PixelsPerInchY 
+PollTime Port PortName Position Postfix PostfixIfNegative 
+PostfixIfNonNegative Prefix PrefixIfNegative PrefixIfNonNegative Printable 
+PrinterName PrintQuality Priority Procedure ProcessQueue 
+ProcessSelectionBar ProductType ProgramColors ProgramInsertReturns 
+ProgramSaveAsText Prompt PromptBinding Protocol 
+QueryOptimizer QueryShowExternalData QuotePlaceholder 
+Read ReadOnly ReadThreshold Receipt Received RecipAddress RecordSeparator 
+RecordSetCount RecordTag RefreshStyle RequestFont RequestHeading 
+ReturnValue Retry RightMargin RightClickMenu Rotation Row Rows 
+RowSeparator RowSpace RunIconBar RunMenuBar Running 
+SBHelp SBLWindow ScaleMode ScalingFactor ScreenColumn ScreenRow ScrollBar 
+ScrollBars ScrollBarSpace ScrollEnable ScrollH ScrollV SectionH SectionV 
+SelCount SelectBinding Selected SelectionBar SelectionBarStyle Sent 
+ServerName Shadow Shareable ShareableData Shortcut ShowDocuments 
+ShowExternalData ShowExternals ShowQueryDocuments ShowHiddenWindows 
+ShowLongFileNames ShowToolTips Size Sizeable Sorted SlaveLink SortField 
+SortOrder SourceExtensions SourceFile SourceFormats SourceFormat StartCol 
+StartCommandLine StartDirectory StartRow State StatusBar 
+StatusProgressMode StatusText StepWidth StopBits Stretch Style 
+Subdirectory Subject System 
+TabCount TabDirection TabIndex TabIndexControl TableTag TableViewGrid 
+TabPositions Tag Tags Text TextBinding TextStyle ThousandsSeparator Time 
+TimeFormat Timeout Today Top TopIndex TopMargin TopMost TopRow TotalCount 
+Trace Transparent Type TypeCount 
+UniqueFieldFormat UnreadMessageCount UseConnection UseLabels UserCount 
+UserFocusChange UserName UserOptions UtilityOutputDestination 
+ValidationRule Value ValueBinding ValueOff ValueOffBinding ValueOn 
+ValueOnBinding Values VerticalPosition ViewMode ViewStyle Visible Volatile 
+VolID 
+WantReturn Width WindowsMajorVersion WindowsMinorVersion WindowState 
+WordLength WrapOverflow WriteThreshold 
+X1 X2 
+Y1 Y2 
+dt 
+
+/C4"Methods"
+Add AddArray AddItem AdvanceTo ArrangeIcons 
+Bind 
+Cascade Clear ClearLastError ClearObjects Close Connect Convert Copy 
+CopyElements CrossProduct 
+DBCopy Delete DeleteMessage Dial Difference Differentiate Disconnect 
+DistNormal DistNormalInverse DivideBy DivideInto DotProduct 
+ErrorHandlingPop ErrorHandlingPush Escape 
+FindString Flush 
+GenerateCode GetAnyMessage GetCharacter GetCount GetData GetDefault 
+GetFile GetLabel GetMessage GetSelected GetString 
+HangUp 
+Integrate Intersect Invert 
+LoadForm LockRelease Logoff Logon 
+Maximum MemberContents MemberCount MemberDflt MemberEnum MemberEnumCount 
+MemberFlags MemberHasDflt MemberLower MemberName MemberType MemberUpper 
+MemberWriteable Minimum Mod Move Multiply 
+NewForm Next 
+Open OpenForm OutputToBMP OutputToMetafile 
+Populate PopUp Power PowerMod Previous Print Process ProcessClear 
+ProcessFlush Product PutFile PutString 
+RaiseError ReadMessage Recalculate Refresh Remove RemoveItem Restore 
+RestoreSBLWindow 
+Save SaveItem SaveSettings SelectCurrent SelectCurrentPage SelectFirst 
+SelectFirstPage SelectLast SelectLastPage SelectNext SelectNextPage 
+SelectPrevious SelectPreviousPage SendMail SendMessage SetActive 
+SetColumnWidths SetCurrent SetDefault SetDirtyRect SetFocus SetFormula 
+SetImage SetInitialValue SetLinks SetListSources SetMargins SetMSLink 
+SetPalette SetRightClickMenu SetSBLWindow SetShareableData Setup Show 
+Stop Subtract SubtractFrom Summation Supertype 
+TextHeight TextWidth Tile Transpose TripleProduct TypeName 
+Unite Update 
+ValidateLanAdapter ValueChange 
+WaitCarrier 
+ZOrder 
+
+/C5"Events"
+OnActivate OnChange OnClick OnCommEvent OnDblClick OnDeactivate OnGotFocus 
+OnKeyDown OnKeyPress OnKeyUp OnLoad OnLostFocus OnMailReceived OnMessage 
+OnMessageQueue OnMiddleClick OnMiddleDblClick OnMove OnQueryUnload 
+OnResize OnRightClick OnRightDblClick OnScrollH OnScrollV OnSelChange 
+OnUnload 
+
+/C6"operators"
+!
+$
+%
+(
+)
++
+-
+<
+=
+>
+?
+^
+|

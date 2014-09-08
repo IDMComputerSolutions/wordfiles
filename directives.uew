@@ -1,0 +1,19 @@
+/L20"Directives file" String Chars = " File Extensions = DIR ARC
+/Delimiters = ",	. ?;
+/C1 Keywords
+ACTIONS ALL
+DELETE
+END_TO EXPORT EXPORT_REF
+GROUP
+NO_EXPORT
+OBJECT
+STOP_IF
+THROUGH TO
+UNIQUE_FIELD UNIQUE_RELATION
+WHERE
+/C2
+=
+::
+;
+,
+

@@ -1,0 +1,143 @@
+/L20"Sisctus Prolog" Line Comment = % Block Comment On = /* Block Comment Off = */ Escape Char = \ File Extensions = pl pro
+/Delimiters = []() 	,;!
+/C1
+[
+]
+(
+)
+_
+add_breakpoint
+breakpoint
+current_breakpoint
+debug debugging disable_breakpoints debugger_command_hook
+enable_breakpoints execution_state error_exception
+leash
+nodebug notrace nozip nospy nospyall
+profile_data profile_reset
+remove 
+spy
+trace
+unkown
+zip
+
+
+
+/C2
+consult compile catch context_error consistency_error current_atom current_predicate
+current_module current_prolog_flag
+domain_error
+ensure_loaded existence_error evaluation_error
+fcompile
+instantiation_error
+load_files load listing
+module
+on_exeption
+print_message portray_message permission_error predicate_property prolog_flag
+prolog_load_context
+raise_exception reconsult require representation_error resource_error
+source_file syntax_error system_error set_prolog_flag statistics
+throw type_error trimcore
+use_module unkown_predicate_handler
+
+/C3
+absolute_file_name at_end_of_stream at_end_of_line
+byte_count
+cycles char_conversion current_char_conversion close current_input current_output
+current_stream character_count
+display
+expand_term
+format file_search_path flush_output fileerrors
+goal_expansion get_code get_char get_byte get0 get garbage_collect garbage_collect_atom
+gc
+help
+layout library_directory line_count line_position
+nl nofileerrors nogc
+open open_null_stream
+print portray portray_clause peek_code peek_char peek_byte put_code put_char 
+put_byte put phrase prompt
+read read_term restore reinitialise
+syntax_errors singletons skip skip_line set_input set_output stream_position 
+stream_property singletons see seeing seen syntax_errors stream_select
+set_stream_position seek stream_interrupt save_files save_modules save_predicates
+save_program
+term_expansion tab ttynl ttyflush ttyget0 ttyget ttyput ttyskip ttytab tell telling told
+user_help
+variables varible_names version
+write write_canonical write_term writeq
+
+/C4
++
+-
+/ // /\
+\/ \==
+#
+< <<
+> >= >>
+=< == =\= =:=
+@< @> @=< @>=
+?=
+abs asin acos atan acot acot2 asinh acosh atanh acoth
+ceiling cos cot cosh coth compare
+exp
+float_integer_part float_fractional_part float floor
+gcd
+inf is integer
+keysort
+log
+max min mod msb
+nan
+round rem
+sin sign sinh sqrt sort
+tan truncate tanh
+
+/C5
+,
+:-
+;
+.
+!
+\+
+->
+^:
+bagof
+call call_cleanup call_residue
+dif
+false fail findall freeze frozen
+if incore
+once otherwise
+repeat
+setof
+true
+when
+
+
+/C6
+=.. =
+\=
+atom_codes atomic atom arg atom_length atom_concat atom_chars abort assert
+asserta assertz abolish
+break bb_put bb_get bb_delete bb_update
+copy_term callable compound char_code create_mutable current_op clause current_key
+erase
+functor
+ground get_mutable
+halt
+is_mutable instance
+length
+nonvar name number number_codes number_chars numbervars
+op
+retract retractcall recorded recorda recordz
+simple sub_atom
+update_mutable unify_with_occurs_check 
+var
+
+/C7
+append
+delete
+is_list
+last
+max_list member memberchk min_list
+nextto no_doubles non_member nth nth0
+permutation prefix
+remove_duplicates reverse
+same_lenght select sublist substitute sum_list suffix 

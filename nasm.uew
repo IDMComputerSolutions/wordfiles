@@ -1,0 +1,391 @@
+/L20"Netwide Assembler" NASM_LANG Nocase Line Comment = ; Block Comment On = %comment Block Comment Off = %endcomment String Chars = "' Escape Char = \ File Extensions = asm inc mac
+/Delimiters = ! 	"&'()*+,-/:<>[\]^`{|}
+/Open Fold Strings = "proc" "struc" "istruc" "%macro" "%imacro" "%depend" "%ifdef" "%ifndef" "%ifmacro" "%ifctx" "%if" "%ifidn" "%ifidni" "%ifid" "%ifnum" "%ifstr" "%iftoken" "%ifempty" "%rep" "%rmacro" "%irmacro" "%while" "%comment"
+/Close Fold Strings = "endproc" "endstruc" "iend" "%endmacro" "%endmacro" "%endmacro" "%endif" "%endif" "%endif" "%endif" "%endif" "%endif" "%endif" "%endif" "%endif" "%endif" "%endif" "%endif" "%endrep" "%endmacro" "%endmacro" "%endwhile" "%endcomment"
+/Indent Strings =  "proc" "struc" "istruc" "%macro" "%imacro" "%depend" "%ifdef" "%ifndef" "%ifmacro" "%ifctx" "%if" "%ifidn" "%ifidni" "%ifid" "%ifnum" "%ifstr" "%iftoken" "%ifempty" "%rep"
+/Unindent Strings = "endproc" "endstruc" "iend" "%endmacro" "%endmacro" "%endmacro" "%endif" "%endif" "%endif" "%endif" "%endif" "%endif" "%endif" "%endif" "%endif" "%endif" "%endif" "%endif" "%endrep"
+/Open Brace Strings = "proc" "struc" "istruc" "%macro" "%imacro" "%depend" "%ifdef" "%ifndef" "%ifmacro" "%ifctx" "%if" "%ifidn" "%ifidni" "%ifid" "%ifnum" "%ifstr" "%iftoken" "%ifempty" "%rep"
+/Close Brace Strings = "endproc" "endstruc" "iend" "%endmacro" "%endmacro" "%endmacro" "%endif" "%endif" "%endif" "%endif" "%endif" "%endif" "%endif" "%endif" "%endif" "%endif" "%endif" "%endif" "%endrep"
+/TGBegin "Procedure"
+/TGFindStr = "%[ ^t]++proc[ ^t]+^([a-z$.?_][0-9a-z#$.?@_~]++^)"
+/TGFindBStart = "%[ ^t]++proc[ ^t]+"
+/TGFindBEnd = "%[ ^t]++endproc"
+/TGBegin "Argument"
+/TGFindStr = "[ ^t,]++^([a-z$.?_][0-9a-z#$.?@_~]++^)[ ^t]++:"
+/TGFindBStart = "%[ ^t]++^%arg[ ^t]+*"
+/TGFindBEnd = "*$"
+/TGEnd
+/TGBegin "Local Variable"
+/TGFindStr = "[ ^t,]++^([a-z$.?_][0-9a-z#$.?@_~]++^)[ ^t]++:"
+/TGFindBStart = "%[ ^t]++^%local[ ^t]+*"
+/TGFindBEnd = "*$"
+/TGEnd
+/TGBegin "Label, Local"
+/TGFindStr = "[ ^t]++^(.[0-9a-z#$.?@_~]+^)[ ^t]++:[ ^t]++$"
+/TGFindBStart = "%[ ^t]++proc[ ^t]+"
+/TGFindBEnd = "%[ ^t]++endproc"
+/TGEnd
+/TGBegin "Label, Local"
+/TGFindStr = "[ ^t]++^(.[0-9a-z#$.?@_~]+^)[ ^t]++:[ ^t]++;"
+/TGFindBStart = "%[ ^t]++proc[ ^t]+"
+/TGFindBEnd = "%[ ^t]++endproc"
+/TGEnd
+/TGEnd
+/TGBegin "Structure"
+/TGFindStr = "%[ ^t]++^{struc^}^{istruc^}[ ^t]+^([a-z$.?_][0-9a-z#$.?@_~]++^)"
+/TGFindBStart = "%[ ^t]++^{struc^}^{istruc^}[ ^t]+"
+/TGFindBEnd = "%[ ^t]++^{endstruc^}^{iend^}"
+/TGBegin "Field"
+/TGFindStr = "at[ ^t]+^([a-z$.?_][0-9a-z#$.?@_~]++^)[ ^t]++,"
+/TGFindBStart = "%[ ^t]++^{struc^}^{istruc^}[ ^t]+"
+/TGFindBEnd = "%[ ^t]++^{endstruc^}^{iend^}"
+/TGEnd
+/TGBegin "Data, Initialized, Local"
+/TGFindStr = "^(.[0-9a-z#$.?@_~]+^)[ ^t:]+d[bdoqtwy][ ^t]+"
+/TGFindBStart = "%[ ^t]++^{struc^}^{istruc^}[ ^t]+"
+/TGFindBEnd = "%[ ^t]++^{endstruc^}^{iend^}"
+/TGEnd
+/TGBegin "Data, Uninitialized, Local"
+/TGFindStr = "^(.[0-9a-z#$.?@_~]+^)[ ^t:]+res[bdoqtwy][ ^t]+"
+/TGFindBStart = "%[ ^t]++^{struc^}^{istruc^}[ ^t]+"
+/TGFindBEnd = "%[ ^t]++^{endstruc^}^{iend^}"
+/TGEnd
+/TGEnd
+// Ignores local labels preceded with a "." which are hopefully declared within a proc.
+/TGBegin "Label"
+/TGFindStr = "%[ ^t]++^([a-z$?_][0-9a-z#$.?@_~]++^)[ ^t]++:[ ^t]++;"
+/TGFindStr = "%[ ^t]++^([a-z$?_][0-9a-z#$.?@_~]++^)[ ^t]++:[ ^t]++$"
+/TGEnd
+// Ignores local labels preceded with a "." which are hopefully declared within a struct.
+/TGBegin "Data, Initialized"
+/TGFindStr = "%[ ^t]++^([a-z$?_][0-9a-z#$.?@_~]++^)[ ^t:]+d[bdoqtwy][ ^t]+"
+/TGEnd
+/TGBegin "Constant"
+/TGFindStr = "%[ ^t]++^([a-z$.?_][0-9a-z#$.?@_~]++^)[ ^t:]+equ[ ^t]+"
+/TGEnd
+/TGBegin "Macro, Multiline"
+/TGFindStr = "%[ ^t]++^%^{macro^}^{imacro^}[ ^t]+^([a-z$.?_][0-9a-z#$.?@_~]++^)"
+/TGFindBStart = "%[ ^t]++^%^{macro^}^{imacro^}[ ^t]+"
+/TGFindBEnd = "%[ ^t]++^%endmacro"
+/TGBegin "Label, Macro-Local"
+/TGFindStr = "^(^%^%[a-z$.?_][0-9a-z#$.?@_~]++^)[ ^t]++:[ ^t]++$"
+/TGFindBStart = "%[ ^t]++^%^{macro^}^{imacro^}[ ^t]+"
+/TGFindBEnd = "%[ ^t]++^%endmacro"
+/TGEnd
+/TGBegin "Label, Context-Local"
+/TGFindStr = "^(^%^$[a-z$.?_][0-9a-z#$.?@_~]++^)[ ^t]++:[ ^t]++$"
+/TGFindBStart = "%[ ^t]++^%^{macro^}^{imacro^}[ ^t]+"
+/TGFindBEnd = "%[ ^t]++^%endmacro"
+/TGEnd
+/TGEnd
+/TGBegin "Macro, Recursive"
+/TGFindStr = "%[ ^t]++^%^{rmacro^}^{irmacro^}[ ^t]+^([a-z$.?_][0-9a-z#$.?@_~]++^)"
+/TGFindBStart = "%[ ^t]++^%^{rmacro^}^{irmacro^}[ ^t]+"
+/TGFindBEnd = "%[ ^t]++^%endmacro"
+/TGBegin "Label, Macro-Local"
+/TGFindStr = "^(^%^%[a-z$.?_][0-9a-z#$.?@_~]++^)[ ^t]++:[ ^t]++$"
+/TGFindBStart = "%[ ^t]++^%^{rmacro^}^{irmacro^}[ ^t]+"
+/TGFindBEnd = "%[ ^t]++^%endmacro"
+/TGEnd
+/TGBegin "Label, Context-Local"
+/TGFindStr = "^(^%^$[a-z$.?_][0-9a-z#$.?@_~]++^)[ ^t]++:[ ^t]++$"
+/TGFindBStart = "%[ ^t]++^%^{rmacro^}^{irmacro^}[ ^t]+"
+/TGFindBEnd = "%[ ^t]++^%endmacro"
+/TGEnd
+/TGEnd
+/TGBegin "Macro, Expression"
+/TGFindStr = "%[ ^t]++^%^{define^}^{idefine^}[ ^t]+^([a-z$.?_][0-9a-z#$.?@_~]++^)"
+/TGEnd
+/TGBegin "Macro, Numeric"
+/TGFindStr = "%[ ^t]++^%^{assign^}^{iassign^}[ ^t]+^([a-z$.?_][0-9a-z#$.?@_~]++^)"
+/TGEnd
+/TGBegin "Macro, Resolved"
+/TGFindStr = "%[ ^t]++^%^{xdefine^}^{ixdefine^}[ ^t]+^([a-z$.?_][0-9a-z#$.?@_~]++^)"
+/TGEnd
+/TGBegin "Macro, String"
+/TGFindStr = "%[ ^t]++^%^{defstr^}^{idefstr^}[ ^t]+^([a-z$.?_][0-9a-z#$.?@_~]++^)"
+/TGEnd
+/TGBegin "Macro, Token"
+/TGFindStr = "%[ ^t]++^%^{deftok^}^{ideftok^}[ ^t]+^([a-z$.?_][0-9a-z#$.?@_~]++^)"
+/TGEnd
+/TGBegin "Section"
+/TGFindStr = "%[^t ]++^{section^}^{segment^}[ ^t]+^([a-z$.?_][0-9a-z#$.?@_~]++^)"
+/TGEnd
+// Ignores local labels preceded with a "." which are hopefully declared within a struct.
+/TGBegin "Data, Uninitialized"
+/TGFindStr = "%[ ^t]++^([a-z$?_][0-9a-z#$.?@_~]++^)[ ^t:]+res[bdoqtwy][ ^t]+"
+/TGEnd
+/TGBegin "Environment Reference"
+/TGFindStr = "^%!^([a-z$.?_][0-9a-z#$.?@_~]++^)"
+/TGEnd
+/TGBegin "Dependency Condition"
+/TGFindStr = "%[ ^t]++^%depend[ ^t]+^([a-z$.?_][0-9a-z#$.?@_~]++^)"
+/TGEnd
+/C1"Operators" STYLE_OPERATOR
+! !=
+$ $$
+% %%
+&
+(
+)
+*
++
+,
+-
+// /
+< <=
+= ==
+> >=
+?
+[
+]
+^
+|
+~
+/C2"Preprocessor" STYLE_STATEMENT
+%$ %$$ %0 %? %?? %arg %assign %clear %comment %define %defstr %deftok %depend %elif %elifctx %elifdef
+%elifempty %elifid %elifidn %elifidni %elifmacro %elifn %elifnctx %elifndef %elifnempty %elifnid %elifnidn
+%elifnidni %elifnmacro %elifnnum %elifnstr %elifntoken %elifnum %elifstr %eliftoken %else %endcomment
+%endif %endm %endmacro %endrep %endwhile %error %exitmacro %exitmarco %exitrep %exitwhile %fatal %final
+%iassign %idefine %idefstr %ideftok %if %ifctx %ifdef %ifempty %ifid %ifidn %ifidni %ifmacro %ifn %ifnctx
+%ifndef %ifnempty %ifnid %ifnidn %ifnidni %ifnmacro %ifnnum %ifnstr %ifntoken %ifnum %ifstr %iftoken
+%imacro %include %irmacro %ixdefine %line %local %macro %pathsearch %pop %push %rep %repl %rmacro %rotate
+%stacksize %strcat %strlen %substr %undef %unimacro %unmacro %use %warning %while %xdefine
+.nolist
+flat64
+macro
+ne
+small
+/C3"Standard Macros and Directives" STYLE_KEYWORD
+*end *macros *tasm
+__align__ __alignmode__ __bits__ __date__ __date_num__ __file__ __flat__ __float128h__ __float128l__
+__float16__ __float32__ __float64__ __float80e__ __float80m__ __float8__ __float__ __float_daz__
+__float_round__ __gnuc__ __infinity__ __line__ __nan__ __nasm_major__ __nasm_minor__ __nasm_patchlevel__
+__nasm_subminor__ __nasm_ver__ __nasm_version_id__ __nou__ __nou_var__ __output_format__ __pass__
+__posix_time__ __qnan__ __sect__ __snan__ __time__ __time_num__ __use_altreg__ __use_smartalign__
+__utc_date__ __utc_date_num__ __utc_time__ __utc_time_num__ __utf16__ __utf32__ __windows16__
+__windows32_386__ __windows32__ __windows__ _ax _bp _bx _cx _di _dx _es _lds _les _si _sp _stubs _sub
+_subs
+abs absolute align alignb alignmode altreg arg at
+begcodeseg begcodeseg_near begdataseg begin_imports_def begin_stubs_def bits bool byte
+cextern cexternfunc cglobal cglobalfunc clrhi common cprocend cprocfar cprocnear cprocstart
+cprocstartdll16 cprocstatic cptr cpu cpublic
+daz db dclb dcld dclw dd debug declare_imp declare_stdcall declare_stub default do double down dptr dq
+dreal dt duint dw dword dy
+end end_imports_def end_stubs_def endcodeseg endcodeseg_near enddataseg endproc endstruc enter_c equ
+export extern
+false far fcptr fdptr flatmodel float fptr
+generic global group
+header
+ia64 ideal iend import incbin intsize invert invoke istruc
+jumps
+k7 k8 katmai
+large library list loadint lodsint long
+map module
+ncptr ndptr near no nodaz nosplit
+off offset org osabi oword
+p2 p3 p386 p4 p486 p586 p6 pentium ppro prescott proc
+qword
+r0 r0h r0l r1 r10h r10l r11h r11l r12h r12l r13h r13l r14h r14l r15h r15l r1h r1l r2 r2h r2l r3 r3h r3l r4
+r4h r4l r5 r5h r5l r6 r6h r6l r7 r7h r7l r8h r8l r9h r9l real rel resb resd reso resq rest resw resy
+safeseh section seg segment sgnhi short stdcall_mangle stosint strict struc stubs_start
+to true tword
+uchar uint ulong unuse_ds unuse_ebx unuse_es up uppercase use_ds use_ebx use_es use_nasm ushort
+warning willamette word wrt
+x64
+yes yword
+zero
+/C4"Output Keywords" STYLE_KEYWORD
+..got ..gotpc ..gottpoff ..imagebase ..plt ..start ..sym.absolut .bss .code .comment .data .debug_abbrev
+.debug_aranges .debug_frame .debug_info .debug_line .debug_loc .debug_pubnames .drectve .info .lbss .ldata
+.lrodata .nss .pdata .rdata .rel.sta .rela .rodata .shstrtab .srec .stab .stabstr .strtab .sxdata .symtab
+.tbss .tdata .text .xdata
+@feat.00
+__data __global_offset_table_ __nasmdefseg __text _bss _data _global_offset_table_ _text
+absolute= align= alloc
+bss
+class= code comment const cseg
+data dseg
+exec
+flat follows= function
+hidden
+info internal
+lcomment linedebug
+noalloc nobits nodata noexec notype nowrite null
+object overlay=
+parm= pcomment pdata private progbits protected public
+rdata resident
+stack start= symdebug
+text tls
+use16 use32 use64
+vfollows= vstart=
+write
+xdata
+/C5"Registers" STYLE_VARIABLE
+ah al ax
+bh bl bp bpl bx
+ch cl cr0 cr1 cr10 cr11 cr12 cr13 cr14 cr15 cr2 cr3 cr4 cr5 cr6 cr7 cr8 cr9 cs cx
+dh di dil dl dr0 dr1 dr10 dr11 dr12 dr13 dr14 dr15 dr2 dr3 dr4 dr5 dr6 dr7 dr8 dr9 ds dx
+eax ebp ebx ecx edi edx es esi esp
+fs
+gs
+mm0 mm1 mm2 mm3 mm4 mm5 mm6 mm7
+r10 r10b r10d r10w r11 r11b r11d r11w r12 r12b r12d r12w r13 r13b r13d r13w r14 r14b r14d r14w r15 r15b
+r15d r15w r8 r8b r8d r8w r9 r9b r9d r9w rax rbp rbx rcx rdi rdx rsi rsp
+segr6 segr7 si sil sp spl ss st0 st1 st2 st3 st4 st5 st6 st7
+tr0 tr1 tr2 tr3 tr4 tr5 tr6 tr7
+xmm0 xmm1 xmm10 xmm11 xmm12 xmm13 xmm14 xmm15 xmm2 xmm3 xmm4 xmm5 xmm6 xmm7 xmm8 xmm9
+ymm0 ymm1 ymm10 ymm11 ymm12 ymm13 ymm14 ymm15 ymm2 ymm3 ymm4 ymm5 ymm6 ymm7 ymm8 ymm9
+/C6"Prefixes" STYLE_ATTRIBUTE
+a16 a32 a64 asp
+lock
+o16 o32 o64 osp
+rep repe repnz repz
+times
+wait
+/C7"Conventional Instructions" STYLE_COMMAND
+aaa aad aam aas adc add and arpl
+bb0_reset bb1_reset bound bsf bsr bswap bt btc btr bts
+call cbw cdq cdqe clc cld clgi cli clts cmc cmova cmovae cmovb cmovbe cmovc cmove cmovg cmovge cmovl
+cmovle cmovna cmovnae cmovnb cmovnbe cmovnc cmovne cmovng cmovnge cmovnl cmovnle cmovno cmovnp cmovns
+cmovnz cmovo cmovp cmovpe cmovpo cmovs cmovz cmp cmpsb cmpsd cmpsq cmpsw cmpxchg cmpxchg16b cmpxchg486
+cmpxchg8b cpu_read cpu_write cpuid cqo cwd cwde
+daa das dec div dmint
+emms enter
+f2xm1 fabs fadd faddp fbld fbstp fchs fclex fcmovb fcmovbe fcmove fcmovnb fcmovnbe fcmovne fcmovnu fcmovu
+fcom fcomi fcomip fcomp fcompp fcos fdecstp fdisi fdiv fdivp fdivr fdivrp femms feni ffree ffreep fiadd
+ficom ficomp fidiv fidivr fild fimul fincstp finit fist fistp fisttp fisub fisubr fld fld1 fldcw fldenv
+fldl2e fldl2t fldlg2 fldln2 fldpi fldz fmul fmulp fnclex fndisi fneni fninit fnop fnsave fnstcw fnstenv
+fnstsw fpatan fprem fprem1 fptan frndint frstor fsave fscale fsetpm fsin fsincos fsqrt fst fstcw fstenv
+fstp fstsw fsub fsubp fsubrp ftst fucom fucomi fucomip fucomp fucompp fwait fxam fxch fxtract fyl2x
+fyl2xp1
+hlt
+ibts icebp idiv imul in inc insb insd insw int int01 int03 int1 int3 into invd invlpg invlpga iret iretd
+iretq iretw
+ja jae jb jbe jc jcxz je jecxz jg jge jl jle jmp jmpe jna jnae jnb jnbe jnc jne jng jnge jnl jnle jno jnp
+jns jnz jo jp jpe jpo jrcxz js jz
+lahf lar lds lea leave les lfence lfs lgdt lgs lidt lldt lmsw loadall loadall286 lodsb lodsd lodsq lodsw
+loop loope loopne loopnz loopz lsl lss ltr
+mfence monitor mov movd movq movsb movsd movsq movsw movsx movsxd movzx mul mwait
+neg nop not
+or out outsb outsd outsw
+packssdw packsswb packuswb paddb paddd paddsb paddsiw paddsw paddusb paddusw paddw pand pandn pause paveb
+pavgusb pcmpeqb pcmpeqd pcmpeqw pcmpgtb pcmpgtd pcmpgtw pdistib pf2id pfacc pfadd pfcmpeq pfcmpge pfcmpgt
+pfmax pfmin pfmul pfrcp pfrcpit1 pfrcpit2 pfrsqit1 pfrsqrt pfsub pfsubr pi2fd pmachriw pmaddwd pmagw
+pmulhriw pmulhrwa pmulhrwc pmulhw pmullw pmvgezb pmvlzb pmvnzb pmvzb pop popa popad popaw popf popfd popfq
+popfw por prefetch prefetchw pslld psllq psllw psrad psraw psrld psrlq psrlw psubb psubd psubsb psubsiw
+psubsw psubusb psubusw psubw punpckhbw punpckhdq punpckhwd punpcklbw punpckldq punpcklwd push pusha pushad
+pushaw pushf pushfd pushfq pushfw pxor
+rcl rcr rdm rdmsr rdpmc rdshr rdtsc rdtscp ret retf retn rol ror rsdc rsldt rsm rsts
+sahf sal salc sar sbb scasb scasd scasq scasw seta setae setb setbe setc sete setg setge setl setle setna
+setnae setnb setnbe setnc setne setng setnge setnl setnle setno setnp setns setnz seto setp setpe setpo
+sets setz sfence sgdt shl shld shr shrd sidt skinit sldt smi smint smsw stc std stgi sti stosb stosd stosq
+stosw str sub svdc svldt svts swapgs syscall sysenter sysexit sysret
+test
+ud0 ud1 ud2 ud2a ud2b umov
+verr verw
+wbinvd wrmsr wrshr
+xadd xbts xchg xlat xlatb xor
+/C8"Extended Instructions" STYLE_COMMAND
+addpd addps addsd addss addsubpd addsubps aesdec aesdeclast aesenc aesenclast aesimc aeskeygenassist
+andnpd andnps andpd andps
+blendpd blendps blendvpd blendvps
+clflush cmpeqpd cmpeqps cmpeqsd cmpeqss cmplepd cmpleps cmplesd cmpless cmpltpd cmpltps cmpltsd cmpltss
+cmpneqpd cmpneqps cmpneqsd cmpneqss cmpnlepd cmpnleps cmpnlesd cmpnless cmpnltpd cmpnltps cmpnltsd
+cmpnltss cmpordpd cmpordps cmpordsd cmpordss cmppd cmpps cmpss cmpunordpd cmpunordps cmpunordsd cmpunordss
+comisd comiss crc32 cvtdq2pd cvtdq2ps cvtpd2dq cvtpd2pi cvtpd2ps cvtpi2pd cvtpi2ps cvtps2dq cvtps2pd
+cvtps2pi cvtsd2si cvtsd2ss cvtsi2sd cvtsi2ss cvtss2si cvttpd2dq cvttpd2pi cvttps2pi cvttsd2si cvttss2si
+divpd divps divsd divss dppd dpps
+extractps extrq
+fxrstor fxsave
+getsec
+haddpd haddps hint_nop0 hint_nop1 hint_nop10 hint_nop11 hint_nop12 hint_nop13 hint_nop14 hint_nop15
+hint_nop16 hint_nop17 hint_nop18 hint_nop19 hint_nop2 hint_nop20 hint_nop21 hint_nop22 hint_nop23
+hint_nop24 hint_nop25 hint_nop26 hint_nop27 hint_nop28 hint_nop29 hint_nop3 hint_nop30 hint_nop31
+hint_nop32 hint_nop33 hint_nop34 hint_nop35 hint_nop36 hint_nop37 hint_nop38 hint_nop39 hint_nop4
+hint_nop40 hint_nop41 hint_nop42 hint_nop43 hint_nop44 hint_nop45 hint_nop46 hint_nop47 hint_nop48
+hint_nop49 hint_nop5 hint_nop50 hint_nop51 hint_nop52 hint_nop53 hint_nop54 hint_nop55 hint_nop56
+hint_nop57 hint_nop58 hint_nop59 hint_nop6 hint_nop60 hint_nop61 hint_nop62 hint_nop63 hint_nop7 hint_nop8
+hint_nop9 hsubpd hsubps
+insertps insertq invept invvpid
+lddqu ldmxcsr llwpcb lwpins lwpval lzcnt
+maskmovdqu maskmovq maxpd maxps maxsd maxss minpd minps minsd minss montmul movapd movaps movbe movddup
+movdq2q movdqa movdqu movhlps movhpd movhps movlhps movlpd movlps movmskpd movmskps movntdq movntdqa
+movnti movntpd movntps movntq movntsd movntss movq2dq movshdup movsldup movss movupd movups mpsadbw mulpd
+mulps mulsd mulss
+orpd orps
+pabsb pabsd pabsw packusdw paddq palignr pavgb pavgw pblendvb pblendw pclmulhqhqdq pclmulhqlqdq
+pclmullqhqdq pclmullqlqdq pclmulqdq pcmpeqq pcmpestri pcmpestrm pcmpgtq pcmpistri pcmpistrm pextrb pextrd
+pextrq pextrw pf2iw pfnacc pfpnacc pfrcpv pfrsqrtv phaddd phaddsw phaddw phminposuw phsubd phsubsw phsubw
+pi2fw pinsrb pinsrd pinsrq pinsrw pmaddubsw pmaxsb pmaxsd pmaxsw pmaxub pmaxud pmaxuw pminsb pminsd pminsw
+pminub pminud pminuw pmovmskb pmovsxbd pmovsxbq pmovsxbw pmovsxdq pmovsxwd pmovsxwq pmovzxbd pmovzxbq
+pmovzxbw pmovzxdq pmovzxwd pmovzxwq pmuldq pmulhrsw pmulhuw pmulld pmuludq popcnt prefetchnta prefetcht0
+prefetcht1 prefetcht2 psadbw pshufb pshufd pshufhw pshufw psignb psignd psignw pslldq psrldq psubq pswapd
+ptest punpckhqdq punpcklqdq
+rcpps rcpss roundpd roundps roundsd roundss rsqrtps rsqrtss
+shufpd shufps slwpcb sqrtpd sqrtps sqrtsd sqrtss stmxcsr subpd subps subsd subss
+ucomisd ucomiss unpckhpd unpckhps unpcklpd unpcklps
+vaddpd vaddps vaddsd vaddss vaddsubpd vaddsubps vaesdec vaesdeclast vaesenc vaesenclast vaesimc
+vaeskeygenassist vandnpd vandnps vandpd vandps vblendpd vblendps vblendvpd vblendvps vbroadcastf128
+vbroadcastsd vbroadcastss vcmpeq_ospd vcmpeq_osps vcmpeq_ossd vcmpeq_osss vcmpeq_uqpd vcmpeq_uqps
+vcmpeq_uqsd vcmpeq_uqss vcmpeq_uspd vcmpeq_usps vcmpeq_ussd vcmpeq_usss vcmpeqpd vcmpeqps vcmpeqsd
+vcmpeqss vcmpfalse_ospd vcmpfalse_osps vcmpfalse_ossd vcmpfalse_osss vcmpfalsepd vcmpfalseps vcmpfalsesd
+vcmpfalsess vcmpge_oqpd vcmpge_oqps vcmpge_oqsd vcmpge_oqss vcmpgepd vcmpgeps vcmpgesd vcmpgess
+vcmpgt_oqpd vcmpgt_oqps vcmpgt_oqsd vcmpgt_oqss vcmpgtpd vcmpgtps vcmpgtsd vcmpgtss vcmple_oqpd
+vcmple_oqps vcmple_oqsd vcmple_oqss vcmplepd vcmpleps vcmplesd vcmpless vcmplt_oqpd vcmplt_oqps
+vcmplt_oqsd vcmplt_oqss vcmpltpd vcmpltps vcmpltsd vcmpltss vcmpneq_oqpd vcmpneq_oqps vcmpneq_oqsd
+vcmpneq_oqss vcmpneq_ospd vcmpneq_osps vcmpneq_ossd vcmpneq_osss vcmpneq_uspd vcmpneq_usps vcmpneq_ussd
+vcmpneq_usss vcmpneqpd vcmpneqps vcmpneqsd vcmpneqss vcmpnge_uqpd vcmpnge_uqps vcmpnge_uqsd vcmpnge_uqss
+vcmpngepd vcmpngeps vcmpngesd vcmpngess vcmpngt_uqpd vcmpngt_uqps vcmpngt_uqsd vcmpngt_uqss vcmpngtpd
+vcmpngtps vcmpngtsd vcmpngtss vcmpnle_uqpd vcmpnle_uqps vcmpnle_uqsd vcmpnle_uqss vcmpnlepd vcmpnleps
+vcmpnlesd vcmpnless vcmpnlt_uqpd vcmpnlt_uqps vcmpnlt_uqsd vcmpnlt_uqss vcmpnltpd vcmpnltps vcmpnltsd
+vcmpnltss vcmpord_spd vcmpord_sps vcmpord_ssd vcmpord_sss vcmpordpd vcmpordps vcmpordsd vcmpordss vcmppd
+vcmpps vcmpsd vcmpss vcmptrue_uspd vcmptrue_usps vcmptrue_ussd vcmptrue_usss vcmptruepd vcmptrueps
+vcmptruesd vcmptruess vcmpunord_spd vcmpunord_sps vcmpunord_ssd vcmpunord_sss vcmpunordpd vcmpunordps
+vcmpunordsd vcmpunordss vcomisd vcomiss vcvtdq2pd vcvtdq2ps vcvtpd2dq vcvtpd2ps vcvtph2ps vcvtps2dq
+vcvtps2pd vcvtps2ph vcvtsd2si vcvtsd2ss vcvtsi2sd vcvtsi2ss vcvtss2sd vcvtss2si vcvttpd2dq vcvttps2dq
+vcvttsd2si vcvttss2si vdivpd vdivps vdivsd vdivss vdppd vdpps vextractf128 vextractps vfmadd123pd
+vfmadd123ps vfmadd123sd vfmadd123ss vfmadd132pd vfmadd132ps vfmadd132sd vfmadd132ss vfmadd213pd
+vfmadd213ps vfmadd213sd vfmadd213ss vfmadd231pd vfmadd231ps vfmadd231sd vfmadd231ss vfmadd312pd
+vfmadd312ps vfmadd312sd vfmadd312ss vfmadd321pd vfmadd321ps vfmadd321sd vfmadd321ss vfmaddpd vfmaddps
+vfmaddsd vfmaddss vfmaddsub123pd vfmaddsub123ps vfmaddsub132pd vfmaddsub132ps vfmaddsub213pd
+vfmaddsub213ps vfmaddsub231pd vfmaddsub231ps vfmaddsub312pd vfmaddsub312ps vfmaddsub321pd vfmaddsub321ps
+vfmaddsubpd vfmaddsubps vfmsub123pd vfmsub123ps vfmsub123sd vfmsub123ss vfmsub132pd vfmsub132ps
+vfmsub132sd vfmsub132ss vfmsub213pd vfmsub213ps vfmsub213sd vfmsub213ss vfmsub231pd vfmsub231ps
+vfmsub231sd vfmsub231ss vfmsub312pd vfmsub312ps vfmsub312sd vfmsub312ss vfmsub321pd vfmsub321ps
+vfmsub321sd vfmsub321ss vfmsubadd123pd vfmsubadd123ps vfmsubadd132pd vfmsubadd132ps vfmsubadd213pd
+vfmsubadd213ps vfmsubadd231pd vfmsubadd231ps vfmsubadd312pd vfmsubadd312ps vfmsubadd321pd vfmsubadd321ps
+vfmsubaddpd vfmsubaddps vfmsubpd vfmsubps vfmsubsd vfmsubss vfnmadd123pd vfnmadd123ps vfnmadd123sd
+vfnmadd123ss vfnmadd132pd vfnmadd132ps vfnmadd132sd vfnmadd132ss vfnmadd213pd vfnmadd213ps vfnmadd213sd
+vfnmadd213ss vfnmadd231pd vfnmadd231ps vfnmadd231sd vfnmadd231ss vfnmadd312pd vfnmadd312ps vfnmadd312sd
+vfnmadd312ss vfnmadd321pd vfnmadd321ps vfnmadd321sd vfnmadd321ss vfnmaddpd vfnmaddps vfnmaddsd vfnmaddss
+vfnmsub123pd vfnmsub123ps vfnmsub123sd vfnmsub123ss vfnmsub132pd vfnmsub132ps vfnmsub132sd vfnmsub132ss
+vfnmsub213pd vfnmsub213ps vfnmsub213sd vfnmsub213ss vfnmsub231pd vfnmsub231ps vfnmsub231sd vfnmsub231ss
+vfnmsub312pd vfnmsub312ps vfnmsub312sd vfnmsub312ss vfnmsub321pd vfnmsub321ps vfnmsub321sd vfnmsub321ss
+vfnmsubpd vfnmsubps vfnmsubsd vfnmsubss vfrczpd vfrczps vfrczsd vfrczss vhaddpd vhaddps vhsubpd vhsubps
+vinsertf128 vinsertps vlddqu vldmxcsr vldqqu vmaskmovdqu vmaskmovpd vmaskmovps vmaxpd vmaxps vmaxsd vmaxss
+vmcall vmclear vminpd vminps vminsd vminss vmlaunch vmload vmmcall vmovapd vmovaps vmovd vmovddup vmovdqa
+vmovdqu vmovhlps vmovhpd vmovhps vmovlhps vmovlpd vmovlps vmovmpd vmovmskps vmovntdq vmovntdqa vmovntpd
+vmovntps vmovntqq vmovq vmovqqa vmovqqu vmovsd vmovshdup vmovsldup vmovss vmovupd vmovups vmpsadbw vmptrld
+vmptrst vmread vmresume vmrun vmsave vmulpd vmulps vmulsd vmulss vmwrite vmxoff vmxon vorpd vorps vpabsb
+vpabsd vpabsw vpackssdw vpacksswb vpackusdw vpackuswb vpaddb vpaddd vpaddq vpaddsb vpaddsw vpaddusb
+vpaddusw vpaddw vpalignr vpand vpandn vpavgb vpavgw vpblendvb vpblendw vpclmulhqhqdq vpclmulhqlqdq
+vpclmullqhqdq vpclmullqlqdq vpclmulqdq vpcmov vpcmpeqb vpcmpeqd vpcmpeqq vpcmpeqw vpcmpestri vpcmpestrm
+vpcmpgtb vpcmpgtd vpcmpgtq vpcmpgtw vpcmpistri vpcmpistrm vpcomb vpcomd vpcomq vpcomub vpcomud vpcomuq
+vpcomuw vpcomw vperm2f128 vpermil2pd vpermil2ps vpermilmo2pd vpermilmo2ps vpermilmz2pd vpermilmz2ps
+vpermilpd vpermilps vpermiltd2pd vpermiltd2ps vpextrb vpextrd vpextrq vpextrw vphaddbd vphaddbq vphaddbw
+vphaddd vphadddq vphaddsw vphaddubd vphaddubq vphaddubw vphaddudq vphadduwd vphadduwq vphaddw vphaddwd
+vphaddwq vphminposuw vphsubbw vphsubd vphsubdq vphsubsw vphsubw vphsubwd vpinsrb vpinsrd vpinsrq vpinsrw
+vpmacsdd vpmacsdqh vpmacsdql vpmacssdd vpmacssdqh vpmacssdql vpmacsswd vpmacssww vpmacswd vpmacsww
+vpmadcsswd vpmadcswd vpmaddubsw vpmaddwd vpmaxsb vpmaxsd vpmaxsw vpmaxub vpmaxud vpmaxuw vpminsb vpminsd
+vpminsw vpminub vpminud vpminuw vpmovmskb vpmovsxbd vpmovsxbq vpmovsxbw vpmovsxdq vpmovsxwd vpmovsxwq
+vpmovzxbd vpmovzxbq vpmovzxbw vpmovzxdq vpmovzxwd vpmovzxwq vpmuldq vpmulhrsw vpmulhuw vpmulhw vpmulld
+vpmullw vpmuludq vpor vpperm vprotb vprotd vprotq vprotw vpsadbw vpshab vpshad vpshaq vpshaw vpshlb vpshld
+vpshlq vpshlw vpshufb vpshufd vpshufhw vpshuflw vpsignb vpsignd vpsignw vpslld vpslldq vpsllq vpsllw
+vpsrad vpsraw vpsrld vpsrldq vpsrlq vpsrlw vpsubb vpsubd vpsubq vpsubsb vpsubsw vpsubusb vpsubusw vpsubw
+vptest vpunpckhbw vpunpckhdq vpunpckhqdq vpunpckhwd vpunpcklbw vpunpckldq vpunpcklqdq vpunpcklwd vpxor
+vrcpps vrcpss vroundpd vroundps vroundsd vroundss vrsqrtps vrsqrtss vshufpd vshufps vsqrtpd vsqrtps
+vsqrtsd vsqrtss vstmxcsr vsubpd vsubps vsubsd vsubss vtestpd vtestps vucomisd vucomiss vunpckhpd vunpckhps
+vunpcklpd vunpcklps vxorpd vxorps vzeroall vzeroupper
+xcryptcbc xcryptcfb xcryptctr xcryptecb xcryptofb xgetbv xorpd xorps xrstor xsave xsetbv xsha1 xsha256
+xstore

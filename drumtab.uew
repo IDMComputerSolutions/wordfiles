@@ -1,0 +1,27 @@
+/L20"Drumtab"  File Extensions = TAB
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,    .?
+/C1"Notes"
+** b d f g o r x
+/C2"Seperators"
+-
+/C3"Bars"
+|
+/C4"Repeats"
+=
+/
+\
+/C5"Drums"
+B BD
+C C1 C2 C3 CC CB
+F FT
+H HH HT
+R RC
+S SD
+T T1 T2
+t
+/C6"Song Sections"
+Intro
+Outro
+Bridge
+Chorus
+Verse

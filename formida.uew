@@ -1,0 +1,84 @@
+/L20"Formida" Line Comment = # Block Comment On = /* Block Comment Off = */ String Chars = "' File Extensions = CMD cmd
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/C1
+applications arc args ask axes 
+bell bezier blow box break bspline busy 
+capability cell choice circle clearmap close component continue copy cspline 
+db dbdelete dbinsert dbrefresh dbtrans dbupdate debug decode delete delid dir do download drag draw dump duplicate dynlib 
+east ellipse else embed encode end enlarge env errlog exclude exec exit expand export 
+focus for formfeed function 
+get glabel glist gloop goto gtext 
+highlight hint history 
+indentbox indentloop idir if ifno ifyes import include interrupt iso 
+kill 
+linemerge lines list loop lower 
+menu merge message mirror mkdir modify monitor mount 
+node north 
+objlist open ortho 
+pan paneladd pardon path pause persp pfile plan poll polyclip polygon polygonize polymerge print prism procedure project protect pseries pulldown 
+raise_event rasdraw rasdump read rect rename renid reorder repoll restore return reverse rotate route 
+save save2d search set shift shrink skip sleep sort sortid sound south start stop stretch suppress switch 
+tell top treenode treenode_define type 
+uncache uncursor under unless unembed unload unmount unset until upper 
+vane vector 
+wadjust walpha wclose wcomponent wcloth wdelete wdisplay wedit west wexpose wform wgraphic wgroup whide while wlist wmenu wmove wopen wpaint wpanel wradio write writefile wscale wscroll wsize wswitch wtable wtree wweb 
+zone 
+/C2
+alias atable 
+channel color command compound cursor 
+database dbstructure 
+entity epointer 
+field fillstyle filter font 
+grid group gstructure 
+hatchstyle 
+label linestyle 
+markerstyle menupane 
+numeric 
+panel point projection 
+stanza string structure 
+textstyle tile time 
+window 
+/C3
+abs acos adir3d aindex aindexc aindexcw aindexw aliasval ang ang3 area ascii asin atan atan2 awchar awcol awline awpix awrow awword 
+bestlineseg bmatch 
+cart cbrt ccent cdrop chext choosefile choosefont clash_b clash_c clash_e clash_p clash_r clash_s clash_w clump_b clump_c clump_e clump_p clump_r clump_s clump_w config cos cross ctrls cubic 
+dexist dir3d dircos dist dot 
+earea efdesc efsize eleng elev envval evol exp exist extents 
+far fexist fext filepix flines fload flocal fmt fname fpath fsize ftime full 
+inbox index indexc ingroup inpoly int intcc intlc intll intlp intpp 
+kbchar 
+ldrop len ljoin log logx longlat low lread luglock 
+matchmatx2 matx3 matx4 max members midp min mofi 
+near nint norm ns ntos nval 
+onarc online onplane order 
+pbox pcirc pcur pdrop plock pmeasure pnob proc_set prub ps 
+qs quadratic quartic 
+rand raspix rem root_members 
+sbox scirc scoords scur sin slide sm sqrt strim 
+tan tricur 
+uint um upp 
+value_set vcur 
+wcap wcur 
+/C4
+all angle_mode arc_filter audio 
+bit_per_pixel box_factor box_margin busy_cursor button 
+cell_filter circle_filter compound_filter cond_precision current_date current_dir current_filter current_time current_window 
+date_format date_mode dberr dec_places def_approx def_color def_fragment def_ls def_marker_height def_ms def_rank def_text_angle def_text_height def_text_just def_text_path def_ts def_view degs dialogue display_rect 
+echoing ee ellipse_filter epick err err_level eventing 
+false file_messages fkey found free_channel free_window funcerr funcval 
+gain gc gc_display glabel_filter global grads graphics gtext_filter 
+help home_dir host_name 
+ident ident_name instance_filter international interrupted 
+lines_filter ll_proj local lug_color lug_index 
+machine machine_no macro_name mapping max_color menu_option menu_position menu_switch menus_enabled monitor_menubar mouse mouse_buttons mouse_window mx_user_id 
+network_socket new_window no_change node_filter now null num_fkeys num_roots 
+off on on_interrupt os_name 
+p0 pi pick_cursor pixel_mm polygon_filter polygon_validation post_dump pre_dump printer_name print_length print_margin print_width prism_filter privileged process_id program 
+rads 
+scope scratch session_start stepping stuff sys_message_file 
+tabs tags these this today tomorrow tracking true 
+units user_id user_message_file user_name utc_mode 
+vector_filter version version_no 
+window_manager window_numbers 
+x_release x_server 
+yesterday 

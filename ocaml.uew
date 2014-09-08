@@ -1,0 +1,35 @@
+/L20 Block Comment On = (* Block Comment Off = *) File Extensions = ML MLI
+/C1
+and as asr
+begin
+class closed constraint
+do done downto
+else end exception external  
+failwith false flush for fun function functor
+if in include inherit incr
+land let lor lsl lsr lxor
+match method mod module mutable
+new not
+of open option or
+parser private
+ref rec raise regexp
+sig struct stdout stdin stderr
+then to true try type
+val virtual
+when while with
+/C2
+Hashtbl
+Array
+Data
+Util
+Printf
+Str
+/C3
+array 
+bool
+dummy
+float
+int
+list
+string
+unit

@@ -1,0 +1,178 @@
+/L20"Praat" Noquote Line Comment = # Line Comment Alt = ; Block Comment On = ! File Extensions = PRAAT
+/Delimiters = ; 	+=
+/Indent Strings SOL = "if" "elsif" "elif" "else" "for" "repeat" "while" "editor" "procedure"
+/Unindent Strings = "endif" "endfor" "until" "endwhile" "fi" "endeditor" "endproc"
+/Ignore Strings SOL = "#" "!" ";"
+/Marker Characters = "''"
+
+/C1"Scripting Components"
+''
+...
+all assert
+boolean button
+call choice clearinfo comment
+echo editor elif else elsif endeditor endfor endform endif endproc endwhile execute exit
+fappendinfo fi fileappend filedelete for form from
+if include integer
+minus
+natural
+option optionmenu
+pause plus positive print printline printtab procedure
+real repeat
+select sendsocket sentence system system_nocheck
+text then to
+until
+while word
+
+/C2"Functions and Predefined Variables"
+abs arccos arccosh arcsin arcsinh arctan arctan2 arctanh
+barkToHertz besselI besselK beta binomialP binomialQ
+ceiling chiSquareP chiSquareQ col cos cosh
+date$ differenceLimensToPhon dx dy
+e environment$ erb erbToHertz erf erfc exp extractLine$ extractNumber extractWord$
+fileReadable fisherP fisherQ fixed$ floor
+gaussP gaussQ
+hertzToBark hertzToErb hertzToMel hertzToSemitones
+imax imin index invBinomialP invBinomialQ invFisherQ invGaussQ invStudentQ
+left$ left_ length ln lnGamma log10 log2
+max melToHertz mid$ min
+Matrix_
+ncol newline$ nrow numberOfSelected nx ny
+percent$ phonToDifferenceLimens pi
+randomGauss randomInteger randomPoisson randomUniform right$ right_ rindex round row
+selected selected$ self semitonesToHertz sigmoid sin sinh sqrt studentP studentQ
+Sound_
+tab$ tan tanh
+TableOfReal_ Table_
+undefined
+x xmax xmin
+y ymax ymin
+
+/C3"Operators"
+< <= <>
+> >= >>
+*
+// /
+^
++
+-
+=
+;
+and
+div
+mod
+not
+or
+
+/C4"Praat Shell Commands"
+&
+("LPC ("PSOLA (...) (1) (1): (1-to-1) (2st) (4 (GLA)... (Kendall (LPC) (PSOLA) (PSOLA)... (Pearson (Peterson (Pols (SM)... (SPINET)... (Student (T&S) (T&S)... 
+(VAF)... (absolute (ac)... (any) (append (apq11) (apq11)... (apq3) (apq3)... (apq5) (apq5)... (autocorrelation)... (bandwidths)... (bartlett)... (box) (burg)... 
+(ca)... (cc) (cc)... (cholesky)... (classify)... (complex)... (congruence)... (covariance)... (curve)... (dB) (dda) (dda)... (ddp) (ddp)... (de-emphasis)... 
+(derivative) (distances) (edb)... (erb)... (exact)... (extrema)... (fft) (fixed (formula)... (fraction) (frequencies)... (gammatone)... (gne)... (gsvd) (hum) 
+(hum)... (i-spline (in-line)... (index)... (indscal)... (interval (inverse) (keep (kruskal)... (label)... (lda)... (list)... (loadings) (local) (local)... (local, 
+(local_dB) (local_dB)... (log (logarithmic)... (marginals) (mark)... (marple)... (maximum (mel)... (mm)... (monic) (monotone (no (noise (noise)... (one (pass (pc) 
+(pca)... (pdf)... (peaks) (peaks)... (period)... (periodic, (phonetogram)... (point) (points)... (ppq5) (ppq5)... (pre-emphasis)... (preserve (primitive) 
+(probability (pulse (pulses) (random (rank) (rap) (rap)... (ratio (reconstruct (reconstruct) (responses) (reversed (scores)... (scree)... (semitones)... 
+(shs)... (sl)... (slice)... (stimuli) (stop (unwrap) (valleys) (varimax)... (vuv)... (wc)... (weighted) (ytl)... (zero (zeroes)...
+--
+1 1)... 10 12 14 16-bit 18 1952) 1973) 1973)...
+2 2.0) 24
+3
+4
+8-bit
+AIFC AIFF AP About Acknowledgments Activation Activation... Add Add... Advanced AffineTransform Alaw Align AmplitudeTier AmplitudeTier... Append Append... Art 
+Articulation... Articulatory Artword Artword... Asked Axes...
+Back Bark... BarkFilter BarkFilter... Barney Big Black Blue Buttons...
+CCA... Calculator... Carroll Categories Categories... Centralize Centre Century Cepstral Cepstrum Change Change... ChebyshevSeries ChebyshevSeries... 
+ClassificationTable ClassificationTable... Close Cochleagram Cochleagram... Collect Compute Concatenate Condense... Confidence Configuration Configuration... 
+Conflate Confusion Conjugate ContingencyTable Control: Convolve Copy Copy... Correlation Count Courier Covariance Covariance... Cramer's Create Cross-correlate... 
+Cut Cyan
+DTW DTW... Dashed De-emphasize Debug... Deepen Delete Difference Difference... Discriminant Dissimilarity Dissimilarity... Distance Distance... Distributions 
+Distributions... Divide... Dotted Double Down Draw Draw... Draw? Duplicate Duration DurationTier DurationTier...
+EPS Edit Edit... Edit: Edit? Editors Eigen End Endian Equal? Equalize Erase Evaluate Evaluate... Excitation Excitation... Excitations Extend Extract
+FFNet Feedforward File: Fill Fill... Filter Filter... Filtering Find Font Font... Font: Forget Formant Formant... FormantFilter FormantFilter... FormantTier 
+FormantTier... Formula Formula... Formulas Forward Frequently
+GSVD Generate Genericize Get Go Goodies: Green Grey
+HTML Hann Harmonicity Has Help: Helvetica Hertz... Hide Horizontal Hum
+INDSCAL ISpline ISpline... In-line Info Input Inputs Insert Inspect Intensity Intensity... IntensityTier IntensityTier... Interpolate Interrupt Intersection 
+IntervalTier Into Intro Invert Is
+Join
+Kay Kill
+LFCC LFCC... LPC LPC... LVS Learn Learn... LegendreSeries LegendreSeries... Lengthen Lime Line Little Log Logarithmic LongSound LongSoundEditor Ltas Ltas...
+MDS MFCC MFCC... MSpline MSpline... Magenta Manipulation Manipulation... Manipulation: ManipulationEditor Manual Manual... Map Margins: Marks Maroon Matrix Matrix... 
+Measure MelFilter MelFilter... Merge Monotone Move Movie Multiply Multiply...
+NIST Nativize Navy NeXT/Sun NeXt/Sun Net... New New: Next Next/Sun Nierop NoCoda Normalize Normalize...
+OT OTGrammar OTGrammarEditor Object Olive One Open Override
+PCA Page Paint Paint... PairDistribution PairDistribution... Palatino ParamCurve Paste Pattern Pattern... Pen: Permute... Phonetic Picture Pitch Pitch... Pitch: 
+PitchTier PitchTier... PitchTierEditor Plain Play Play... PointEditor PointProcess PointProcess... Poisson Polish Polygon Polynomial Polynomial... PostScript 
+Power... Praat Praat... Pre-emphasize Predict... Preferences... Preferences: Print Print... Procrustus Programming Project Project... Publish Pulse Pulses Purple
+Questions Quit
+R Randomize Read Read: Record Red Remove Rename... Replace Replace? Report Resample... Reset Reset... Reverse Roots Rotate Rotate... Run
+SSCP SSCP... SVD Salesperson... Salience ScalarProduct ScalarProduct... Scale Scale... Scatter Schoolbook Scripting Scroll Search Select Select... Select: Sesam 
+Set Settings Shepard Shift Show Silver Similarity Similarity... Smooth... Solve Sort Sort... Sound Sound... Sound: Sound? SoundEditor Sounds Speaker Speaker... 
+Speckle Speckle... Spectrogram Spectrogram... Spectrum Spectrum... SpellingChecker Split Standardize Start Statistics Statistics... Stop Strings Strings... 
+Stringses... Stylize Stylize... Subtract Sum Sun
+Table Table... TableOfReal TableOfReal... Teal Test Text Text... TextGrid TextGrid... TextGrid? TextTier TextTier... Time Times To Track... Tract Transition 
+Transition... Translate... Transplant Transpose Truncate Types
+Undo Union Up
+VAF... Van Vertical View Viewport Viewport... Vocal VocalTract Voice Voice...
+WAV Wavelet Wavelet... Weight Weights What's White Wilks Windows Wish WordList World: Write
+X Xwaves...
+Y Yellow
+Zoom Zoom...
+absolute absolute) absolute)... accounted action activation... additive after air all) all)... allowed allowed... alone along analyses... arc... area... arrow... 
+as assimilation at at... audio autoscaling axes)...
+back band band)... band... bands bandwidth bandwidth... basis begin between-groups between... biases... bin bin... binary bins biplot... bottom bottom... boundary... 
+box by by...
+candidate candidate... candidates... cc)... cell... cells... central centre centre... centroid centroids chart chi chronological circle circle... circles... class 
+clipboard clipped... coefficient coefficient... coefficients column column... column... columns columns... command... complex... components components... confidence 
+confusion... connection... console constant constraint constraint... contingency contour contour... contours... contribution correct correct... correlation correlation... 
+cost covariances cross crossing crossing... cumulative cursor
+degree degrees density density... deviation deviation... deviations diagonality diagram... dictionary difference difference... differences dimension dimension... 
+directory... discrimination distance distances... distribution distribution... domain domain... down dragging duration duration...
+eigenvalue... eigenvalues eigenvalues... eigenvector eigenvector... eigenvectors element... ellipse ellipse... ellipses... empty end energy energy... enthropy 
+equality equation... erb... every... example... existing extremum...
+file file... filter filters... filters: finishing first fit... floating fontless for... formant formant)... formant... formants formants... forward fourth fraction 
+fraction... frame frame... frames freedom freq)... frequencies frequencies... frequency frequency... function... functions functions...
+gain... gamma-tone... gender... grammar grammar... grammatical... grand gravity... group groups
+headerless help high highest history... homogeneity horizontal hyperplane
+i-spline if... image... imaginary in index... inner input input... inputs inputs... intensities... intensity interpretive intersections interval interval... intervals... 
+into iris
+jitter jumps
+knots... kurtosis...
+label label... labels labels... lambda... layer... learning left left... letter level... likelihood) line line... linear lines... list... list? listing ln(determinant) 
+ln(determinant_group)... ln(determinant_total) log logarithmic logarithmic... long loudness low lowest
+manipulation") manual manual... mark marks matching) matrix matrix... maximum maximum... mds)... mean mean... means mel... menu mesh metafile... method metrics minimum 
+minimum... mm mm... modulation... moment... mono monotone movie
+name... near... nearest new new? noise) non-empty norm number numbers numbers... numeric
+objects observations observations... octave of old one one... optimal order original out output output... outputs...
+page page... parse... part part... partial path... peaks)... period period... periods... phases... phone... picture pitch pitch... place playing plot plot... plots... 
+point point(s) point... points points... poles... pooled power power... praat prefs... probability probability... process... product properties pts) pulse pulse(s) pulses
+quadratically quadratically... quantile... quotient
+r)... range range... rangings... ranking... rankings... rate rate... ratio ratio... raw recoverably rectangle... regression... relations report report... response... 
+results resynthesis resynthesis") right right... root-mean-square... root... roots rounded row... rows rows) rows...
+sample samples samples... sampling)... scale) scales... scatter script script... second selection selection... semitones... separately separately... settings... shimmer 
+short sigma signed significance simple singly size... skewness... slice slope slope... slow... smoothing... sorting... sound soundfile... special special... spectral 
+spectrogram spectrum splines... spreadsheet squared squares... standard starting statistic stdev step stereo stimuli stimulus... stop strategy... stress stress... string 
+string... strings styles sum sum... surface... symbol symbols synthesis
+t)... table table... tableau... tableaus target target... tau)... test... text... third tier tier... tier? tiers time time)... time... times times) times... to... tone 
+tone... tongue-root top top... topology total tracks... train train)... trend trials tutorial two two-way typology
+unique units... unshared unsigned up user
+value value... variance variance... variances vertical visible voiced
+wc wc... weights where width width... window window... windowed winner winner... with within-group within-groups without word...
+x... xy...
+zero zeroes...
+
+/C5"Symbols & Formatting"
+\!d \"p \#  \%  \'^ \'p \+- \+v \-- \-> \-v \.3 \.c \/d \0^ \0v \3v \9- \9e \:- \:^ \:f \:v \<- \<< \<= \<> \<_ \=/ \=3 \=> \=~ \>> \>_ \?- \?d \?g \A" \A' \A^ \A` \Ae 
+\Al \Ao \At \A~ \Be \C, \Ci \De \E" \E' \E^ \E` \Ep \Er \Et \Fi \G^ \Ga \I" \I' \I^ \I` \Io \Ka \La \Lp \Mu \Nu \Nv \N~ \O" \O' \O. \O/ \O^ \O` \Oe \Om \On \O| \O~ \Pi 
+\Ps \Ro \SS \Si \T^ \Ta \Te \Tt \Tv \U" \U' \U^ \U` \Up \Vr \Xi \Y' \Y= \Ze \^  \^^ \^| \_  \_| \`^ \a" \a' \a^ \a_ \a` \ab \ae \al \an \ao \as \at \a~ \b^ \bc \be \bf 
+\bs \bu \c, \c/ \c= \cc \ci \cl \cn \co \ct \cu \cv \d. \d^ \dd \de \dg \dh \di \e" \e' \e= \e^ \e` \ef \ep \eq \er \et \f. \fd \ff \fh \fi \g^ \ga \gc \gf \gs \h- \h^ 
+\hc \he \hj \hs \ht \i" \i' \i- \i^ \i` \ic \in \io \j- \j^ \jc \ka \l- \l. \la \lc \li \lz \l~ \mj \ml \mt \mu \n. \nc \ng \ni \nj \no \nu \n~ \o" \o' \o+ \o- \o/ \o^ 
+\o_ \o` \oc \oe \om \on \oo \or \ox \pi \ps \r. \rc \re \rh \ri \rl \ro \rt \s \s. \sh \si \sp \sr \ss \su \sw \t. \ta \te \tf \th \tm \u" \u' \u- \u^ \u` \up \uu \u~ 
+\v^ \vs \vt \wt \xi \xx \y" \y' \yc \yt \z. \zc \ze \zh \|- \|1 \|2 \|f \|v \|| \~^ \~v \~~
+% %%
+# ## #%
+^^
+_ __

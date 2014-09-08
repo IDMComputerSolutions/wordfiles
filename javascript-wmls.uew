@@ -1,0 +1,80 @@
+/L20"JavaScript/WMLS" JSCRIPT_LANG Line Comment = // Block Comment On = /* Block Comment Off = */ File Extensions = JS WMLS
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String = "%[ 	]+[psv]*(*)*{"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1"Keywords"
+abstract
+break byte
+case catch char class const continue
+default delete do double
+else extends
+false final finally float for function
+goto
+if implements import in instanceof int interface
+long
+native new null
+package private protected public
+reset return
+short static super switch synchronized
+this throw transient true try
+var void
+while with
+/C2"Methods"
+$n
+abort above abs acos action activeElement alert alinkColor all altKey anchor anchors appCodeName applet applets apply appName appVersion arguments arity asin assign atan atan2 atob availHeight availLeft availTop availWidth
+Area Arguments Array
+back background below bgColor big blink blur bold border borderWidths bottom btoa button
+Boolean
+call callee caller cancelBubble captureEvents ceil charAt charCodeAt characterSet charset checked children classes className clear clearInterval clearTimeout click clientInformation clientX clientY close closed closeFile colorDepth compare compile complete concat confirm constructor contains contextual cookie cos crypto ctrlKey current
+Checkbox
+data defaultCharset defaultChecked defaultSelected defaultStatus defaultValue description disableExternalCapture disablePrivilege document domain
+Date Dialogs
+element elementAt elements embeds enabledPlugin enableExternalCapture enablePrivilege encoding escape escapeString eval event exec exp expando extern
+E
+fgColor fileName find fixed floor focus fontColor fontSize form format forms forward frames fromCharCode fromElement fromPoint
+Function FileUpload Float Frame
+getAttribute get getBase getClass getCurrentCard getDate getDay getFragment getFullYear getHost getHours getMember getMilliseconds getMinutes getMonth getParameters getPath getPort getQuery getReferer getScheme getSeconds getSelection getSlot getTime getTimezoneOffset getUTCDate getUTCDay getUTCFullYear getUTCHours getUTCMilliseconds getUTCMinutes getUTCMonth getUTCSeconds getVar getWindow getYear global go
+handleEvent hash hidden history home host hostName href hspace
+HTMLElement
+id ids ignoreCase images index indexOf innerHeight innerHTML innerText innerWidth insertAdjacentHTML insertAdjacentText insertAt isEmpty isFinite isFloat isInt isNAN isValid italics
+Image Infinity Input
+java javaEnabled join
+JavaArray JavaClass JavaObject JavaPackage JSObject
+keyCode
+lang language lastIndex lastIndexOf lastMatch lastModified lastParen layers layerX layerY left leftContext length link linkColor load loadString location locationBar log lowsrc
+Layer Links LN10 LN2 LOG10E LOG2E
+margins match max maxFloat maxInt menubar method mimeTypes min minFloat minInt modifiers moveAbove moveBelow moveBy moveTo moveToAbsolute multiline
+Math MAX_VALUE MimeType MIN_VALUE
+name navigate navigator netscape newContext next
+Number NaN NEGATIVE_INFINITY
+offscreenBuffering offset offsetHeight offsetLeft offsetParent offsetTop offsetWidth offsetX offsetY onabort onblur onchange onclick ondblclick ondragdrop onerror onfocus onHelp onkeydown onkeypress onkeyup onload onmousedown onmousemove onmouseout onmouseover onmouseup onmove onreset onresize onsubmit onunload open opener openFile options outerHeight outerHTML outerText outerWidth
+Object Option
+paddings pageX pageXOffset pageY pageYOffset parent parentElement parentLayer parentWindow parse parseFloat parseInt pathname personalbar pixelDepth platform plugins pop port pow preference prev previous print printIn prompt protocol prototype push
+Packages Password PI Plugin POSITIVE_INFINITY PrivilegeManager
+random readyState reason referrer refresh releaseEvents reload removeAt removeAttribute removeMember replace replaceAt resizeBy resizeTo resolve returnValue reverse right rightcontext round
+RegExp
+screenX screenY scroll scrollbars scrollBy scrollIntoView scrollTo search seed select selected selectedIndex self setAttribute setDay setFullYear setHotkeys setHours setInterval setMember setMilliseconds setMinutes setMonth setResizable setSeconds setSlot setTime setTimeout setUTCDate setUTCFullYear setUTCHours setUTCMillseconds setUTCMinutes setUTCMonth setUTCSeconds setVar setYear setZOptions shift shiftKey siblingAbove siblingBelow signText sin slice smallsort source sourceIndex splice split squeeze sqrt src srcElement srcFilter status statusbar stop strike style sub submit substr substring suffixes sun sup systemLanguage
+Screen SQRT1_2 SQRT2 String
+tagName tags taint taintEnabled tan target test text title toElement toGMTString toLocaleString toLowerCase toolbar top toString toUpperCase toUTCString trim type typeof
+Textarea TYPE
+unescape unescapeString unshift untaint unwatch userAgent userLanguage
+URL UTC
+value valueOf visibility vlinkColor vspace
+watch which width window write writeln
+WMLBrowser
+x
+y
+zIndex
+/C4"Operators"
++
+-
+=
+// /
+%
+&
+>
+<
+^
+!
+|

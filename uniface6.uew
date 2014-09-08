@@ -1,0 +1,94 @@
+/L20"Uniface V6" Nocase Line Comment = ; String Chars = " File Extensions = uv6
+/Delimiters = ~!@%^&*()+=|\/{}[];"'<> ,	.?
+/Function String = "%[e][n][t][r]"
+/Indent Strings = ")"
+/Unindent Strings = "else" "end" "endif" "endwhile"
+/Marker Characters "$$"
+/C1 COMMANDS
+addmonths apexit askmess
+blockdata break by
+call clear close clrmess commit compare compute creocc
+debug delete delitem discard display done
+edit eject else end endif endwhile entry erase exit
+field_syntax field_video filebox filedump file_dump fileload file_load from
+getitem getlistitems goto
+help
+if
+length lock lookup lowercase
+macro message
+nodebug numgen numset
+open order
+perform pragma previous print print_break pulldown putitem putlistitems
+putmess
+read refresh release reload remocc repeat reset retrieve return rollback run
+scan selectdb set setocc skip sort spawn sql store
+to
+u_where until uppercase using
+where while write
+/C2
+append ask
+complete
+desc dump
+e error 
+field
+global
+hint
+id image info init
+list load local 
+menu mod
+net next nobeep noborder nolock noterm nowander
+o occ
+query
+raw
+save
+truncate
+warning
+x
+:a :ascending :d :descending
+/C3 FUNCTIONS
+$applname
+$batch
+$char $check $clock $curline $curocc $currhits $curword
+$date $datim $dberror $dbocc $direction $disable $display
+$empty $entname $error
+$fieldcheck $fieldendmod $fieldmod $fieldname $fieldprofile $fieldproperties
+$fieldvalrep $format $formdb $formdbmod $formmod $formname $formtitle
+$framedepth
+$gui
+$hide $hits
+$ioprint
+$keyboard
+$language $lines
+$next $number
+$occcheck $occdel $occdepth $occmod $oprsys
+$page $password $previous $printing $prompt $properties $putmess
+$relation $result $rettype
+$selblk $status $storetype $syntax
+$text $time $totdbocc $totlines $totocc
+$user
+$valrep $variation
+/C5
+!
+$
+%
+&
+(
+)
+*
++
+,
+-
+.
+/
+:
+;
+<
+=
+>
+[
+\
+]
+^
+|
+\
+$$

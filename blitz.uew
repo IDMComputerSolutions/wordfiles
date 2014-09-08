@@ -1,0 +1,78 @@
+/L20"Blitz Basic 3D" Line Comment = ; String Chars = " File Extensions = BB
+/Function String = "%Function"
+/Indent Strings = "While" "For" "Select" "If" "ElseIf" "Repeat"
+/Unindent Strings = "Wend" "Next" "EndIf" "Else" "End"
+/C1"Reserved words"
+After And
+Before
+Case Const
+Data Default Delete Dim 
+Each Else ElseIf End EndIf Exit
+False Field First For Forever Function
+Global Gosub Goto
+Handle
+If Include Insert
+Last Local
+New Next Not Null
+Object Or
+Read Repeat Restore Return
+Select Step
+Then To True Type
+Until
+Wend While
+/C2"2D Functions"
+ACos ASin ATan ATan2 Abs AcceptTCPStream AppTitle Asc AutoMidHandle AvailVidMem
+BackBuffer BankSize Bin
+Ceil ChangeDir ChannelPan ChannelPitch ChannelPlaying ChannelVolume Chr CloseDir CloseFile CloseTCPServer CloseTCPStream Cls ClsColor Color ColorBlue ColorGreen ColorRed CommandLine CopyBank CopyFile CopyImage CopyPixel CopyPixelFast CopyRect CopyStream Cos CountGfxDrivers CountGfxModes CreateBank CreateDir CreateImage CreateNetPlayer CreateTCPServer CreateTimer CurrentDate CurrentDir CurrentTime
+DebugLog Delay DeleteDir DeleteFile DeleteNetPlayer DrawBlock DrawBlockRect DrawImage DrawImageRect
+Eof ExecFile Exp
+FilePos FileSize FileType Flip Float Floor FlushJoy FlushKeys FlushMouse FontHeight FontWidth FreeBank FreeFont FreeImage FreeSound FreeTimer FrontBuffer
+GetColor GetJoy GetKey GetMouse GfxDriverName GfxModeDepth GfxModeExists GfxModeHeight GfxModeWidth GrabImage Graphics GraphicsBuffer GraphicsDepth GraphicsHeight GraphicsWidth
+HandleImage Hex HidePointer HostNetGame
+ImageBuffer ImageHeight ImageRectCollide ImageRectOverlap ImageWidth ImageXHandle ImageYHandle ImagesCollide ImagesOverlap Input Instr Int
+JoinNetGame JoyHit JoyType JoyX JoyY JoyZ
+KeyDown KeyHit
+Left Len Line LoadAnimImage LoadBuffer LoadFont LoadImage LoadSound LockBuffer Log Log10 LoopSound Lower LSet
+MaskImage Mid MidHandle Millisecs Mod MouseDown MouseHit MouseX MouseXSpeed MouseY MouseYSpeed MouseZ MouseZSpeed MoveMouse
+NetMsgData NetMsgFrom NetMsgTo NetMsgType NetPlayerLocal NetPlayerName NextFile
+OpenFile OpenTCPStream Origin Oval
+PauseChannel PeekByte PeekFloat PeekInt PeekShort Pi PlayCDTrack PlayMusic PlaySound Plot PokeByte PokeFloat PokeInt PokeShort Print
+RSet Rand ReadAvail ReadByte ReadBytes ReadDir ReadFile ReadFloat ReadInt ReadLine ReadPixel ReadPixelFast ReadShort ReadString Rect RectsOverlap RecvNetMsg Replace ResizeBank ResizeImage ResumeChannel Right Rnd RotateImage RuntimeError
+Sar SaveBuffer SaveImage ScaleImage Scanline SeedRand SeekFile SetBuffer SetFont SetGfxDriver SetNetMsg Sgn Shl ShowPointer Shr Sin SoundPan SoundPitch SoundVolume Sqr StartNetGame Stop StopChannel StopNetGame Str String StringHeight StringWidth
+TCPTimeouts TFormFilter TFormImage Tan Text TileBlock TileImage TotalVidMem Trim
+UnlockBuffer Upper
+VWait Viewport
+WaitJoy WaitKey WaitMouse WaitTimer Write WriteByte WriteBytes WriteFile WriteFloat WriteInt WriteLine WritePixel WritePixelFast WriteShort WriteString
+Xor
+/C3"3D Functions"
+AddAnimSeq AddTriangle AddVertex AlignToVector AmbientLight Animate AnimateMD2 Animating AnimLength AnimSeq AnimTime AntiAlias
+BrushAlpha BrushBlend BrushColor BrushFX BrushShininess BrushTexture
+CameraClsColor CameraClsMode CameraFogColor CameraFogMode CameraFogRange CameraPick CameraProject CameraRange CameraViewport CameraZoom CaptureWorld ClearCollisions ClearSurface ClearTextureFilters ClearWorld CollisionEntity CollisionNX CollisionNY CollisionNZ Collisions CollisionSurface CollisionTime CollisionTriangle CollisionX CollisionY CollisionZ CopyEntity CountChildren CountCollisions CountSurfaces CountTriangles CountVertices CreateBrush CreateCamera CreateCone CreateCube CreateCylinder CreateLight CreateListener CreateMesh CreateMirror CreatePivot CreatePlane CreateSphere CreateSprite CreateSurface CreateTerrain CreateTexture
+Dither
+EmitSound EntityAlpha EntityAnimating EntityAnimTime EntityAutoFade EntityBlend EntityBox EntityCollided EntityColor EntityDistance EntityFX EntityInView EntityName EntityOrder EntityParent EntityPick EntityPickMode EntityPitch EntityRadius EntityRoll EntityShininess EntityTexture EntityType EntityVisible EntityX EntityY EntityYaw EntityZ
+FindChild FindSurface FitMesh FlipMesh FreeBrush FreeEntity FreeTexture
+GetChild GetEntityType GetParent GetSurface GfxDriver3D GfxMode3D Graphics3D
+HandleSprite HideEntity HWMultiTex
+LightColor LightConeAngles LightMesh LightRange LinePick Load3DSound LoadAnimMesh LoadAnimSeq LoadAnimTexture LoadBrush LoaderMatrix LoadMD2 LoadMesh LoadSprite LoadTerrain LoadTexture
+MD2Animating MD2AnimLength MD2AnimTime MeshDepth MeshesIntersect MeshHeight MeshWidth ModifyTerrain MoveEntity
+NameEntity
+PaintEntity PaintMesh PaintSurface PickedEntity PickedNX PickedNY PickedNZ PickedSurface PickedTime PickedTriangle PickedX PickedY PickedZ PointEntity PositionEntity PositionMesh PositionTexture ProjectedX ProjectedY ProjectedZ
+RenderWorld ResetEntity RotateEntity RotateMesh RotateSprite RotateTexture
+ScaleEntity ScaleMesh ScaleSprite ScaleTexture SetAnimKey ShowEntity SpriteViewMode
+TerrainDetail TerrainHeight TerrainShading TerrainSize TerrainX TerrainY TerrainZ TextureBlend TextureBuffer TextureCoords TextureFilter TextureHeight TextureWidth TFormedX TFormedY TFormedZ TFormNormal TFormPoint TFormVector TranslateEntity TriangleVertex TurnEntity
+UpdateNormals UpdateWorld
+VertexBlue VertexColor VertexCoords VertexGreen VertexNormal VertexNX VertexNY VertexNZ VertexRed VertexTexCoords VertexU VertexV VertexW VertexX VertexY VertexZ
+WBuffer Windowed3D WireFrame
+/C4"Operators"
+.
+\
+=
++
+[
+]
+-
+// /
+(
+)
+*
+#

@@ -1,0 +1,67 @@
+/L20"Actionscript-JS" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = AS JS
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String = "%[a-zA-Z_]*)[~;]"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1"Keywords"
+abs acos add and appendChild asin atan atan2 attachMovie attachSound attributes
+Array
+break
+BACKSPACE Boolean
+call ceil charAt charCodeAt childNodes chr cloneNode close concat connect constructor continue cos createElement createTextNode
+CAPSLOCK Color CONTROL
+delete docTypeDecl do duplicateMovieClip
+Date DELETEKEY DOWN
+else eq escape eval evaluate exp
+E END ENTER ESCAPE
+firstChild floor for for fromCharCode fscommand function
+ge getAscii getBeginIndex getBounds getBytesLoaded getBytesTotal getCaretIndex getCode getDate getDay getEndIndex getFocus getFullYear getHours getMilliseconds getMinutes 
+getMonth getPan getProperty getRGB getSeconds getTime getTimer getTimezoneOffset getTransform getURL getUTCDate getUTCDay getUTCFullYear getUTCHours getUTCMilliseconds 
+getUTCMinutes getUTCMonth getUTCSeconds getVersion getVolume getYear globalToLocal gotoAndPlay gotoAndStop gt
+hasChildNodes hide hitTest
+HOME
+INSERT Infinity 
+if ifFrameLoaded indexOf insertBefore int isDown isFinite isNaN isToggled
+join
+Key
+lastChild lastIndexOf le length load loaded loadMovie loadVariables localToGlobal log lt
+LEFT LN2 LN10 LOG2E LOG10E
+max maxscroll mbchr mblength mbord mbsubstring min
+Math MAX_VALUE MIN_VALUE Mouse MovieClip
+ne new newline nextFrame nextScene nextSibling nodeName nodeType nodeValue not null
+NaN NEGATIVE_INFINITY Number
+onClipEvent onClose onConnect onXML or ord
+Object On OnLoad
+parentNode parseFloat parseInt parseXML play pop pow prevFrame previousSibling prevScene print printAsBitmap prototype push
+PGDN PGUP PI POSITIVE_INFINITY
+random removeMovieClip removeNode return reverse round
+RIGHT
+scroll send sendAndLoad set setDate setFocus setFullYear setHours setMilliseconds setMinutes setMonth setPan setProperty setRGB setSeconds setSelection setTime setTransform 
+setUTCDate setUTCFullYear setUTCHours setUTCMilliseconds setUTCMinutes setUTCMonth setUTCSeconds setVolume setYear shift show sin slice sort splice split sqrt start startDrag 
+status stop stopAllSounds stopDrag substr substring swapDepths
+Selection SHIFT Sound SPACE SQRT1_2 SQRT2 String
+tan targetPath tellTarget this toggleHighQuality toLowerCase toString toUpperCase trace typeof
+TAB
+unescape unloadMovie unshift updateAfterEvent
+UP UTC
+valueOf var void
+while with
+xmlDecl
+XML XMLSocket
+_alpha _currentframe _droptarget _focusrect _framesloaded _height _highquality _name _parent _quality _root _rotation _soundbuftime _target _totalframes _url _visible _width 
+_x _xmouse _xscale _y _ymouse _yscale
+#include
+/C4"Operators"
++
+-
+=
+// /
+%
+&
+>
+<
+^
+!
+|
+/
+:

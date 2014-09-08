@@ -1,0 +1,98 @@
+/L20"CSound csd" HTML_LANG Line Comment = ; #  File Extensions = csd
+/Delimiters = >\~^&()-+={}[]:"'%*,. ?          
+/C1"Opcodes"
+abs active add adsr adsyn adsynt adsynt2 aftouch alpass ampdb ampdbfs ampmidi areson aresonk atone atonek atonex
+babo balance bamboo betarand bexprnd biquad birnd bmopen bmoscil bmoscili bmscan bmscani bmtable bmtablei butbp butbr buthp butlp butterbp butterbr butterhp butterlp buzz
+cabasa cauchy cggoto chanctrl cigoto ckgoto clear clip clockoff clockon comb convle convolve cps2pch cpsmidi cpsmidib cpsoct cpspch cpstmid cpsxpch cpuprc cross2 crunch ctrl14 
+ctrl21 ctrl7 ctrlinit
+dam dbamp dbfsamp dcblock delay delay1 delayr delayw deltap deltap3 deltapi deltapn diff diskin dispfft display distort1 div divz downsamp dripwater dumpk dumpk2 dumpk3 dumpk4
+envlpx envlpxr exp expon exprand expseg expsega expsegr
+filelen filenchnls filepeak filesr filter2 fin fini fink fiopen flanger fmb3 fmbell fmmetal fmpercfl fmrhode fmvoice fmwurlie fof fof2 fog fold follow follow2 foscil foscili 
+fout fouti foutir foutk frac ftgen ftlen ftlptim ftsr
+gain gauss gbuzz gogobel goto grain granule guiro
+harmon hilbert hrtfer hsboscil
+i igoto ihold in in32 inch inh init initc14 initc21 initc7 ino inq ins int integ interp inx inz itablecopy itablegpw itablemix itablew
+kgoto kon ktableseg
+lfo limit line linen linenr linrand linseg linsegr locsend locsig lorenz loscil loscil3 lowpass2 lowres lowresx lpf18 lpfreson lpinterp lposcil lposcil3 lpread lpreson lpslot
+mac maca madsr mandel mandol marimba massign maxalloc mclock mdelay midic14 midic21 midic7 midictrl midiin midion midion2 midiout mirror moog moogvcf moscil mpulse mrtmsg mul 
+multitap mxadsr
+nestedap nlfilt noise noteoff noteon noteondur noteondur2 notnum nreverb nrpn nsamp ntrpol
+octcps octmidi octmidib octpch oscil oscil1 oscil1i oscil3 oscili osciln oscilx out out32 outc outch outh outiat outic outic14 outipat outipb outipc outkat outkc outkc14 
+outkpat outkpb outkpc outo outq outq1 outq2 outq3 outq4 outs outs1 outs2 outx outz
+pan pareq pcauchy pchbend pchmidi pchmidib pchoct peak phaser1 phaser2 phasor phasorbnk pinkish pitch pitchamdf planet pluck poisson port portk poscil poscil3 pow powoftwo 
+prealloc print printk printk2 printks product pset pvadd pvbufread pvcross pvinterp pvoc pvread
+rand randh randi readclock readk readk2 readk3 readk4 reinit release repluck reson resonk resonr resonx resony resonz reverb reverb2 rezzy rgb2hsvl rgb2hsvl_i rigoto 
+rireturn rms rnd rtclock
+s16b14 s32b14 samphold sandpaper scans scanu schedkwhen schedule schedwhen seed sekere sense sensekey seqtime sfilist sfinstr sfinstr3 sfinstr3m sfinstrm sfload sfpassign 
+sfplay sfplay3 sfplay3m sfplaym sfplist sfpreset shaker sleighbells slider16 slider16f slider32 slider32f slider64 slider64f slider8 slider8f sndwarp sndwarpst soundin 
+soundout space spdist specaddm specdiff specdisp specfilt spechist specptrk specscal specsum spectrum spsend sqrt stix streson strset
+table timeinsts timek times timout tival tone tonek tonex transeg trigger trigseq trirand turnoff turnon
+unirand upsamp
+vbap16 vbap16move vbap4 vbap4move vbap8 vbap8move vbaplsinit vbapz vbapzmove vcella vco vdelay vdelay3 vecdelay vecdelayk veloc vexpseg vibes vincr vlimit vlinseg vlowres 
+vmirror voice vport vpvoc vrandh vrandi vtaba vtabi vtabk vtablea vtablei vtablek vtablewa vtablewi vtablewk vtabwa vtabwi vtabwk vwrap
+weibull wgbow wgbowedbar wgbrass wgclar wgflute wgpluck wgpluck2 wguide1 wguide2 wrap
+xadsr xtratim xxx xyin
+zacl zakinit zamod zar zarg zaw zawm zfilter2 zir ziw ziwm zkcl zkmod zkr zkw zkwm
+** FL
+/C2"Variables"
+** a k i ga gk gi x p z
+kr ksmps 
+nchnls
+sr
+/C3"Operators"
+?
++
+-
+=
+//
+// /
+*
+** instr
+** # 
+(
+)
+%
+&
+.
+,
+^
+!
+|
+cos cosh cosinv
+di 
+endin 
+log log10 logbtwo
+mod 
+sin sinh sininv sub sum
+tan tanh taninv taninv2
+/C4"Macros"
+** $
+/C5"Events"
+** i i$
+/C6"Statements"
+** s t
+after
+before
+Before
+BEFORE
+After
+AFTER
+
+/C7"Function tables"
+** f
+/C8"Tags"
+<CsoundSynthesizer>
+</CsoundSynthesizer>
+<CsOptions>
+</CsOptions>
+<CsInstruments>
+</CsInstruments>
+<CsScore>
+</CsScore>
+<CsVersion>
+</CsVersion>
+<CsSampleB
+<CsMidifileB
+** <
+** </C
+>

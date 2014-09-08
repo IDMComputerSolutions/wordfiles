@@ -1,0 +1,25 @@
+/L20"Pixel Shader 1.4" Line Comment = ; Line Comment Alt = // File Extensions = PSH
+/Delimiters = [] +	.,;-
+
+/C1"Keywords"
+def
+phase ps
+
+/C2"Arithmetic"
+** add bem cmp cnd dp3 dp4 dp4 lrp mad mov mul nop sub
+
+/C3"Texture Addr."
+texcrd texdepth texkill texld
+
+/C4"Registers"
+** c0 c1 c2 c3 c4 c5 c6 c7 r0 r1 r2 r3 r4 r5 t0 t1 t2 t3 t4 t5 v0 v1
+
+/C5"Modifiers"
+a
+b ba
+g ga gb gba
+r ra rb rg rba rga rgb rgba
+x xw xy xz xyw xzw xyz xyzw
+y yw yz yzw
+z zw
+w

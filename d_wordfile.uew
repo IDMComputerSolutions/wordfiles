@@ -1,0 +1,49 @@
+/L15"D" Line Comment = // Block Comment On = /* Block Comment Off = */ Block Comment On Alt = /+ Block Comment Off Alt = +/ Escape Char = \ String Chars = "'` File Extensions = D DI
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'`<> ,	.?
+/Function String = "%^([a-zA-Z_0-9^[^]*]+^)[ ^t]+([^p*&:, ^t^[^]a-zA-Z_0-9.!]++)[~;]"
+/Function String 1 = "%[a-zA-Z_0-9*]*::^([a-zA-Z_0-9^~]+^)[ ^t^p]++([^p*&:, ^t^[^]/*^-'=:&a-zA-Z_0-9./(!]++)[~;]"
+/Function String 2 = "%[a-zA-Z_0-9^][a-zA-Z_0-9^[^]]+[ ^t*]+^([a-zA-Z_0-9]+^)[ ^t]++([^p*&:, ^t^[^]a-zA-Z_0-9./(!]++)[~;]"
+/Function String 3 = "%[a-zA-Z_0-9*&$^[^]*]+[ ^t]+[a-zA-Z_0-9*&$^[^]]+[ ^t*]+^([a-zA-Z_0-9]+^)[ ^t]++([^p*&:, ^t^[^]a-zA-Z_0-9./(!]++)[~;]"
+/Function String 4 = "%[a-z_0-9^[^]*]++ [a-z_0-9*^[^]]+[ ^t]++[a-z_0-9*^[^]]+[ ^t]++^([*a-z_0-9]+^)[ ^t]++([^p*&:, ^t^[^]a-z_0-9./(!]++)[~;]"
+/Function String 5 = "%^([a-zA-Z_0-9^[^]*]+^)[ ^t]++([^p*&:, ^t^[^]a-zA-Z_0-9./()!]++)[~;]"
+/Member String = "^([A-Za-z0-9_:.]+^)[ ^t^*&]+$S[ ^t^[^]A-Za-z0-9_]++[(-);,]"
+/Variable String = "%[ ^t]++^([!-ÿ~ ^t<>]+*[~a-z^p]^)$S[ ^t;,()^-]"
+/Indent Strings = "{" "if" "else" ":"
+/Unindent Strings = "}"
+/Open Brace Strings =  "{" "(" "["
+/Close Brace Strings = "}" ")" "]"
+/Open Fold Strings = "{"
+/Close Fold Strings = "}"
+/C1"Keywords" STYLE_KEYWORD
+abstract alias align asm assert auto
+body bool break byte
+case cast catch cdouble cent cfloat char class const continue creal
+dchar debug default delegate delete deprecated do double
+else enum export extern
+false final finally float for foreach foreach_reverse function
+goto
+idouble if ifloat import in inout int interface invariant ireal is
+long
+mixin module
+new null
+out override
+package pragma private protected public
+real return
+scope short static struct super switch synchronized
+template this throw true try typedef typeof
+ubyte ucent uint ulong union unittest ushort
+version void volatile
+wchar while with
+/C2"Operators"
+!
+%
+*
++
+-
+// /
+<
+=
+>
+^
+|
+~

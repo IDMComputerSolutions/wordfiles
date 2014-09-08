@@ -1,0 +1,37 @@
+/L20"RealPix" Nocase Noquote HTML_LANG Block Comment On = <!-- Block Comment Off = /--> File Extensions = RP
+/Delimiters = ~!@$%^&*()-+=|\{}[]:;"'<> ,	.?
+/C1
+<a </a>
+<b> </b> <br/>
+<center> </center> <clear <crossfade
+<font </font> <fadein <fadeout <fill
+<head  <hr 
+<i> </i> <image <imfl> </imfl>
+<li> </li>
+<ol> </ol>
+<p> </p> <pos <pre> </pre>
+<required> </required>
+<time <tl> </tl> <tu> </tu>
+<u> </u> <ul> </ul>
+<viewchange
+<window> </window> <wipe>
+// />
+/C2
+aspect= author=
+begin= bgcolor= bitrate=
+charset= color= copyright= crawlrate=
+direction= dsth= dstw= dstx= dsty= duration=
+end=
+face=
+handle= height= href=
+link= loop=
+maxfps=
+name=
+preroll=
+scrollrate= size= srch= srcw= srcx= srcy= start=
+target= timeformat= title= type=
+underline_hyperlinks= url=
+width= wordwrap=
+x=
+y=
+=

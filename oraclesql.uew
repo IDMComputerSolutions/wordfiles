@@ -1,0 +1,206 @@
+/L20"Oracle SQL" Nocase Line Comment = -- Block Comment On = /* Block Comment Off = */ Block Comment On Alt = Block Comment Off Alt = # String Chars = ' DisableMLS File Extensions = SQL PLS PLB PKS PKB
+/Delimiters = .~!%@^&*()-+=|\/{}[]:;"'<> ,    ?
+/Function String = "%*function +^(*^) "
+/Function String 1 = "%*procedure +^(*^) "
+/Function String 2 = "%*trigger +^(*^)$"
+/Indent Strings = "BEGIN" "THEN" "select" "from" "where" "group" "order" "("
+/Unindent Strings = "END" "END-IF" "from" "where" "group" "order" ")"
+/Open Fold Strings = "{Start}" "declare" "begin" "if" "loop" "(" "create or replace" "case"
+/Close Fold Strings = "{Stop}" "end;" "end if;" "end loop;" ")" "end case"
+/C1"SQL keywords"
+(
+)
+alter analyze
+backup begin
+case commit copy create
+database declare delete drop DUAL
+else end exec execute exit exp explain
+fetch for from
+group
+having
+if imp insert intersect into
+join
+load
+minus
+of off on open order outer
+prepare proc procedure
+read restrict return rollback
+save select shutdown sqlldr sqlplus startup
+table then truncate
+union update
+view
+when where while
+/C2"SQL Functions"
+** regr stddev
+ABS ACOS ADD_MONTHS ASCII ASIN ATAN ATAN2 AVERAGE AVG
+BFILE BFILE_TABLE BFILENAME binary BINARY_INTEGER bit BLOB BLOB_TABLE BOOLEAN
+cast ceil char character CHARRARR CHARTOROWID chr clob CLOB_TABLE compute CONCAT COS COSH count covar_pop
+covar_samp cube cume_dist current_row
+date DATE_TABLE datetime DBLINK_ARRAY dec decimal decode dense_rank DEREF DESC_REC DESC_TAB
+EMPTY EMPTY_BLOB EMPTY_CLOB ERROR estimate
+FILE_TYPE first first_value float floor following
+greatest grouping
+HEXTORAW
+image INDEX_TABLE_TYPE INITCAP instr INSTRB int integer ISOPEN
+lag last LAST_DAY last_value lead least LENGHT length LENGTHB LN LOG LONG LOWER lpad ltrim LUB
+MAKE_REF max MAXWAIT min MOD money MONTHS_BETWEEN multiset
+NAME_ARRAY NATIVE nchar nclob NCLOB_TABLE NEW_TIME NEXT_DAY NLS_CHARSET_DECL_LEN NLS_CHARSET_ID
+NLS_CHARSET_NAME NLS_INITCAP NLS_LOWER NLS_SORT NLS_UPPER nlssort ntext ntile nulls number NUMBER_ARRAY
+NUMBER_TABLE numeric nvarchar nvarchar2 nvl
+percent_rank pls_int PLS_INTEGER POWER preceding
+rank ratio_to_report RAW RAWTOHEX real RECORD REFCURSOR REFTOHEX REG_REPAPI_SNAPSHOT REG_UNKNOWN
+REG_V7_SNAPSHOT REG_V8_SNAPSHOT replace RNDS RNPS rollup round row_number ROWIDTOCHAR rpad rtrim
+sign SIGNTYPE SIN SINH smalldatetime smallint smallmoney SOUNDEX sqrt string substr SUBSTRB sum
+TAN TANH text timestamp tinyint to_char to_date TO_LABEL to_lob TO_MULTI_BYTE to_number TO_SINGLE_BYTE
+translate trim trunc
+UID UNBOUNDED UNCL_ARRAY uniqueidentifier upper urowid USERENV USING
+V6 V7 var_pop var_samp varbinary varchar VARCHAR2 VARCHAR2_TABLE VARCHAR2S VARIANCE varray VSIZE
+WNDS WNPS
+XOR
+/C3"Exceptions"
+ACCESS_INTO_NULL add_ all_ allocate_ allow_
+COLLECTION_IS_NULL column_ create_ CURSOR_ALREADY_OPEN
+dba_ dbms_ DEQUEUE drop_ DUP_VAL_ON_INDEX
+ENQUEUE ERASE
+file
+INCONSISTENT_TYPE index_ INTERNAL_ERROR invalid_
+job_
+load_ LOGIN_DENIED
+message_
+nls_ NO_DATA_FOUND NOT_LOGGED_ON
+OTHERS
+PROGRAM_ERROR
+queue_
+READ_ERROR receive_ remove_ REQUEST role_
+SCHEDULE session_ STORAGE_ERROR SUBSCRIPT_BEYOND_COUNT SUBSCRIPT_OUTSIDE_LIMIT SYS
+table_ TIMEOUT_ON_RESOURCE TOO_MANY_ROWS
+UNKEEP UNSCHEDULE_ user_
+V$ V_$ VALUE_ERROR verify
+ZERO_DIVIDE
+/C4"SqlPlus"
+#
+accept ali alias app append appi appinfo arraysize auto autocommit autop autoprint autorecovery autot
+autotrace
+blo blockterminator bre break breaks bti btitile btitle buff buffsize
+clear cmds cmdsep col colsep column com comp compatibility con conn copyc copycommit copytypecheck cou cre
+def define depth describe disc doc dup duplicates
+echo editf editfile emb embedded entmap esc
+feed feedback flagger flu fold_a fold_b format
+get
+hea head heading heads headsep help ho host html
+indent internal invisible
+jus
+left lin linenum lines linesize lis lno lobof loboffset logsource longc longchunksize
+markup
+new_v new_value newp newpage nodup noduplicates nol nolist noprint num numf numformat numwidth
+old_v old_value
+page pages pagesize parameter passw pau pause pno pref preformat pri print pro prompt
+recsep recsepchar rem remark rep repf repfooter reph repheader report
+sav serverout serveroutput shift shiftinout sho show showmode skip spo spoo spool sqlbl
+sqlblanklines sqlc sqlcase sqlcontinue sqln sqlnumber sqlp sqlpluscompatibility sqlpre
+sqlprefix sqlprompt sqlt sqlterminator suf suffix
+tab term termout ti timi timing trace trimout trims trimspool tru truncated tti ttitle
+und undef undefine underline
+value var variable ver version
+WHENEVER wor word word_wrapped wra wrap wrapped
+/C5"sql bits"
+add all and any as asc authorization
+between browse build bulk by
+call cascade check checkpoint close clustered coalesce collect committed confirm constraint contains
+containstable continue controlrow convert cross current current_date current_time current_timestamp
+current_user cursor
+dbcc deallocate default deny desc disconnect disk distinct distributed double dummy dump
+errlvl errorexit escape except exchange exists extend
+fillfactor floppy foreign freetext freetexttable full
+global go goto grant
+heap holdlock
+identity identity_insert identitycol in index indextype inner INSERTING invalidate is isolation
+key kill
+level like limit lineno logoff logon
+materialized merge mirrorexit move
+national nocheck nonclustered not novalidate null nullif
+offsets once only opendatasource openquery openrowset option or organization over
+percent perm permanent pipe plan precision primary privileges processexit public
+raiserror readtext reconfigure references repeatable replication resolver restore
+returning revoke right rowcount rowguidcol rule
+scan schema scope serializable servererror session session_user set setuser some
+split statistics store structure
+tape temp temporary textsize to top tran transaction trigger tsequal
+uncommitted unique updatetext updating use user
+validate values varying
+waitfor with work writetext
+/C6"PLSQL-Functions"
+ABORT ACCESS account activate ADMIN AFTER ALLOCATE ancillary ARCHIVE ARCHIVELOG ARRAY ARRAYLEN ASSERT
+ASSIGN AT attribute attributes AUDIT authenticated authid autoallocate autoextend automatic
+autonomous_transaction
+BASE_TABLE BECOME BEFORE binding BLOCK blocksize BODY buffer_pool
+CACHE calling CANCEL category chained CHANGE CHAR_BASE charsetform charsetid child class clone CLUSTER
+CLUSTERS COBOL COLAUTH COLUMNS COMMENT COMPILE complete COMPRESS CONNECT CONNECTED consistent CONSTANT
+CONSTRAINTS CONTENTS context CONTROLFILE cost CRASH CURRVAL CYCLE
+dangling data DATA_BASE DATAFILE DATAFILES DBA debug DEBUGOFF DEBUGON deferrable deferred definer DEFINITION degree
+DELAY DELTA demand descriptor determines deterministic dictionary DIGITS dimension DISABLE DISMOUNT
+DISPOSE DO
+EACH ELSIF ENABLE ENTRY ERRORS EVENTS EXCEPTION EXCEPTION_INIT EXCEPTIONS excluding EXCLUSIVE expire
+EXTENT external EXTERNALLY
+FALSE fast FLUSH FORCE FORM FORTRAN forward FOUND FREELIST FREELISTS FUNCTION
+GENERIC GROUPS
+hash hashkeys hierachy
+IDENTIFIED IMMEDIATE include INCLUDING INCREMENT indexed INDEXES INDICATOR INITIAL initially INITRANS
+input INSTANCE instances instead INTERFACE
+java
+keep
+LANGUAGE LAYER less library LIMITED LINK list LISTS lob local LOCK LOGFILE logging LOOP
+MANAGE managed management MANUAL map master MAXDATAFILES MAXEXTENTS MAXINSTANCES maxlen MAXLOGFILES
+MAXLOGHISTORY MAXLOGMEMBERS maxsize MAXTRANS MAXVALUE member MINEXTENTS minimize minimum MINVALUE
+MISLABEL MLSLABEL MODE MODIFY MODULE monitoring MOUNT
+named NATURAL NATURALN never NEW NEW_LINE NEXT NEXTVAL NOARCHIVELOG NOAUDIT NOCACHE NOCOMPRESS nocopy
+NOCYCLE noforce NOLOGGING NOMAXVALUE nominimize NOMINVALUE nomonitoring NONE NOORDER noparallel
+NORESETLOGS NORMAL NOSORT NOTFOUND NOWAIT NUMBER_BASE
+object OFFLINE OLD ONLINE operator OPTIMAL oracle OUT outline output overflow OWN
+PACKAGE PARALLEL parallel_enable parameters parent PARTITION PARTITIONs pascal password PCTFREE
+PCTINCREASE pctthreshold PCTUSED PLI POSITIVE POSITIVEN PRAGMA prebuilt PRIOR PRIVATE PROFILE
+query QUOTA
+RAISE RANGE rebuild RECOVER recoverable recycle reduced REF REFERENCING RELEASE REMR RENAME reset
+RESETLOGS resolve RESOURCE RESTRICT_REFERENCES RESTRICTED retry REUSE REVERSE rewrite ROLE ROLES ROW ROWID
+ROWLABEL ROWNUM ROWS ROWTYPE RUN
+sample SAVEPOINT SCN SECTION SEGMENT self SEPARATE SEPERATE SEQUENCE serially_reusable SHARE SHARED
+shared_pool shrink SIZE SNAPSHOT SORT source SPACE SQL SQLBUF SQLCODE SQLERRM SQLERROR SQLSTATE standard
+standby START STATEMENT STATEMENT_ID static STOP STORAGE subpartition subpartitions SUBTYPE SUCCESSFUL
+SWITCH SYNONYM SYSDATE SYSTEM
+TABAUTH TABLES TABLESPACE TASK tempfile TERMINATE than THREAD TIME timeout TRACING transactional TRIGGERS
+TRUE TYPE
+unarchived UNDER uniform unlimited unlock unrecoverable UNTIL unusable unused
+VIEWS
+without WRITE
+/C7"sp functions/deli."
+** is_ put_ read_ rowid_ set_ sp_ spt_ utl_ write_ xp_
+!
+%
++
+-
+// /
+<
+=
+>
+[
+]
+forall
+|
+/C8"Package Methods"
+** ALTER_ ANALYZE_ BIND_ DEFINE_ GET_ LAST_ NAME_ NEXT_ VALIABLE_
+BEGIN_TABLE_REORGANISATION
+CHECK_PRIVS CLOSE_CURSOR COMMA_TO_TABLE COMMIT_CM COMPILE_SCHEMA CREATE_PIPE
+DATA_BLOCK_ADDRESS_FILE DB_VERSION DELETING DESCRIBE_COLUMNS DESCRIBE_PROCEDURE
+END_TABLE_REORGANISATION EXEC_DDL_STATEMENT EXECUTE_AND_FETCH
+FCLOSE FCLOSE_ALL FETCH_ROWS FFLUSH FOPEN FORMAT_CALL_STACK FORMAT_ERROR_STACK
+I_AM_A_REFRESH INTERVAL ISUBMIT
+MAKE_DATA_BLOCK_ADDRESS
+OPEN_CURSOR
+PACK_MESSAGE PARSE PORT_STRING preserve PURGE PURGE_LOG PURGE_SNAPSHOT_FROM_LOG PUT PUTF
+RAISE_APPLICATION_ERROR RECEIVE_MESSAGE REFRESH REFRESH_ALL REGISTER REGISTER_SNAPSHOT
+REMOVE REMOVE_ALL REMOVE_PIPE RESET_BUFFER ROLLBACK_NR ROLLBACK_SV
+SEND_MESSAGE SET_DEFAULTS SET_I_AM_A_REFRESH SET_TRANSACTION_USE SIGNAL SUBMIT
+TABLE_TO_COMMA
+UNIQUE_SESSION_NAME UNPACK_MESSAGE UNREGISTER_SNAPSHOT
+VARIABLE_
+WAITANY WAITONE WHAT

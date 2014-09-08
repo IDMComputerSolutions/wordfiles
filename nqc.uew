@@ -1,0 +1,96 @@
+/L20"NQC" Line Comment = // Block Comment On = /* Block Comment Off = */ File Extensions = NQC NQH
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> , ?
+/Function String 1 = "%task [a-zA-Z]*"
+/Function String 2 = "%sub [a-zA-Z]*"
+/Function String 3 = "%void [a-zA-Z]*"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1"Keywords"
+ACQUIRE_OUT_A ACQUIRE_OUT_B ACQUIRE_OUT_C ACQUIRE_SOUND ACQUIRE_USER_1
+ACQUIRE_USER_2 ACQUIRE_USER_3 ACQUIRE_USER_4
+DISPLAY_WATCH DISPLAY_SENSOR_1 DISPLAY_SENSOR_2 DISPLAY_SENSOR_3
+DISPLAY_OUT_A DISPLAY_OUT_B DISPLAY_OUT_C DISPLAY_USER
+EVENT_MASK EVENT_1_PRESSED EVENT_1_RELEASED EVENT_2_PRESSED EVENT_2_RELEASED
+EVENT_LIGHT_HIGH EVENT_LIGHT_NORMAL EVENT_LIGHT_LOW EVENT_LIGHT_DOUBLECLICK
+EVENT_COUNTER_0 EVENT_COUNTER_1 EVENT_TIMER_0 EVENT_TIMER_1 EVENT_TIMER_2
+EVENT_MESSAGE
+EVENT_TYPE_PRESSED EVENT_TYPE_RELEASED EVENT_TYPE_PULSE EVENT_TYPE_EDGE
+EVENT_TYPE_FASTCHANGE EVENT_TYPE_LOW EVENT_TYPE_NORMAL EVENT_TYPE_HIGH
+EVENT_TYPE_CLICK EVENT_TYPE_DOUBLECLICK EVENT_TYPE_MESSAGE
+OUT_A OUT_B OUT_C
+OUT_OFF OUT_ON OUT_FLOAT
+OUT_FWD OUT_REV OUT_TOGGLE
+SENSOR_1 SENSOR_2 SENSOR_3
+SENSOR_TYPE_NONE SENSOR_TYPE_TOUCH SENSOR_TYPE_TEMPERATURE SENSOR_TYPE_LIGHT
+SENSOR_TYPE_ROTATION
+SENSOR_MODE_RAW SENSOR_MODE_BOOL SENSOR_MODE_EDGE SENSOR_MODE_PULSE
+SENSOR_MODE_PERCENT SENSOR_MODE_FAHRENHEIT SENSOR_MODE_CELSIUS
+SENSOR_MODE_ROTATION
+SENSOR_TOUCH SENSOR_LIGHT SENSOR_ROTATION SENSOR_CELSIUS SENSOR_FAHRENHEIT
+SENSOR_PULSE SENSOR_EDGE
+SERIAL_COMM_DEFAULT SERIAL_COMM_4800 SERIAL_COMM_DUTY25 SERIAL_COMM_76KHZ
+SERIAL_PACKET_DEFAULT SERIAL_PACKET_PREAMBLE SERIAL_PACKET_NEGATED
+SERIAL_PACKET_CHECKSUM SERIAL_PACKET_RCX
+__event_src __type __sensor
+acquire abs asm
+break
+case catch const continue
+default do
+else
+false for
+if inline int
+monitor
+repeat return
+sign start stop sub switch
+task true
+void
+while
+until
+/C3"Functions"
+ActiveEvents AddToDatalog AGC
+BatteryLevel
+CalibrateSensor CalibrateEvent ClearSensor ClearSound ClearMessage
+ClearTimer ClearCounter Counter CurrentEvents ClearEvent ClearAllEvents
+ClickTime ClickCounter CreateDatalog ClearTachoCounter
+DecCounter Drive
+Events EventState EventFeedback ExternalMotorRunning
+FastTimer Float Fwd FirmwareVersion
+GlobalOutputStatus
+Hysteresis
+IncCounter
+LowerLimit
+MuteSound
+Off On OnFwd OnRev OutputStatus OnWait OnWaitDifferent
+PlaySound PlayTone Program
+Random Rev
+SelectSounds SetRandomSeed SetSleepTime SleepNow SelectProgram
+SensorMode SensorType SensorValue SensorValueBool SensorValueRaw SetSensor
+SetSensorHysteresis SetSensorLowerLimit SetSensorMode SetSensorType
+SetSensorUpperLimit
+SetOutputs SetDirection SetPower SetGlobalOutput SetGlobalDirection
+SetMaxPower
+SetDisplay SetUserDisplay
+SendMessage SetTxPower
+SetSerialComm SetSerialPacket SetSerialData SerialData SendSerial SendVLL
+SetTimer SetWatch
+SetEvent SetUpperLimit SetLowerLimit SetClickTime SetHysteresis
+SetClickCounter SetSensorClickTime SetCounterLimit SetTimerLimit
+SetScoutRules ScoutRules SetScoutMode SetEventFeedback SetLight
+StopAllTasks
+Timer Toggle TachoCount TachoSpeed
+UnmuteSound UpperLimit UploadDatalog
+Wait Watch
+/C4"Directives"
+#include #define #ifdef #ifndef #if #elif #else #endif #undef #pragma
+/C5"Operators"
++
+-
+= ==
+// /
+%
+& &&
+< <<
+> >>
+^
+!
+| ||

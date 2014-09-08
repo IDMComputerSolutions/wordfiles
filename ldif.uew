@@ -1,0 +1,39 @@
+/L20"LDIF for Netscape Directory Server" Nocase Noquote File Extensions = LDIF LDF
+/Delimiters = ",.:;{ }="
+/C1
+aci audio
+binary businesscategory
+carlicense changetype cn commonname
+departmentNumber description dn
+employeenumber employeeType
+facsimileTelephoneNumber
+givenname
+homePhone homePostalAddress
+initials internationalIsdnNumber
+jpegPhoto
+l labeledURI locality
+mail mailalternateaddress maildeliveryoption mailhost manager mobile
+objectclass
+pager photo postOfficeBox preferredDeliveryMethod preferredLanguage
+physicaldeliveryofficename postaladdress postalcode
+registeredAddress roleOccupant roomnumber
+secretary seeAlso sn st street surname
+telephonenumber title
+uid userpassword userCertificate userCertificate userSMIMECertificate
+x500UniqueIdentifier
+/C2
+add
+c
+dc delete
+modify
+o ou
+/C4
+crypt
+inetOrgPerson
+mailRecipient
+nsLicenseUser
+organizationalPerson organizationalRole
+residentialPerson
+person
+SHA
+top

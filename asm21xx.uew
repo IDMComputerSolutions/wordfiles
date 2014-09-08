@@ -1,0 +1,78 @@
+/L20"21xx Assembly" AASM_LANG Nocase Line Comment = ! Block Comment On = { Block Comment Off = } Block Comment On Alt = /* Block Comment Off Alt = */ String Chars = "' File Extensions = DSP INC
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	?
+/C1"Preprocessor"
+#define #else #endif #if #ifdef #ifndef #include #undef
+/C2"Assembler directives"
+.const .endmacro .endmod .entry .external .global .include .init .init24 .local .macro .module .var
+any
+circ
+dm
+image
+io
+pm
+ram rom
+seg static
+/C3"Opcodes"
+abs and ashift
+by
+call clrbit
+dis divq divs do
+ena exp expadj
+hi hix
+idle if
+jump
+lo lshift
+modify
+neg nop norm not
+of or
+pass pop pos push
+reset rnd rti rts
+sat set setbit ss su
+tglbit toggle tstbit
+until us uu
+xor
+/C4"Data registers"
+af ar ax0 ax1 ay0 ay1
+mf mr mr0 mr1 mr2 mx0 mx1 my0 my1
+none
+se si sr sr0 sr1
+/C5"Index registers"
+i0 i1 i2 i3 i4 i5 i6 i7
+l0 l1 l2 l3 l4 l5 l6 l7
+m0 m1 m2 m3 m4 m5 m6 m7
+/C6"Special registers"
+ac alt_reg ar_sat astat av av_latch
+bit_rev
+c ce cntr
+dmovlay
+eq
+flag_in flag_out fl0 fl1 fl2
+ge g_mode gt
+icntl ifc imask ints
+le loop lt
+m_mode mstat mv
+ne
+owrcntr
+pc pmovlay px
+rx0 rx1
+sb sec_reg sstat sts
+timer toppcstack tx0 tx1
+/C7"Operators"
+%
+&
+(
+)
+*
++
+,
+-
+/
+:
+;
+=
+[
+]
+^
+|
+~
+

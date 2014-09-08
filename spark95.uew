@@ -1,0 +1,94 @@
+/L20 "SPARK95" Line Comment Num = 3--  Block Comment On Alt = -- Block Comment Off Alt = # String Chars = " File Extensions = ADS ADB ADA 
+/Delimiters =" ,();' 
+/Indent Strings = "begin" 
+/Unindent Strings = "end" 
+/Function String = "^(%[ \t]+^{function^}^{procedure^}*$^)" 
+/Function String 1 = "^(%^{function^}^{procedure^}*$^)" 
+/Function String 2 = "^[ \t]*(procedure|function)(.*)(is|;|)[ \t]*$" 
+
+/C1"Strings and Chars"
+" 
+/C2"Ada95 Keywords & SPARK Allowed Attributes"
+abort abs abstract accept access aliased all and array at 
+Adjacent Aft 
+begin body 
+Base 
+case constant 
+Ceiling Component_Size Compose Copy_Sign 
+declare delay delta digits do 
+Delta Denorm Digits 
+else elsif end entry exception exit 
+Exponent 
+for function 
+First Floor Fore Fraction 
+generic goto 
+if in is 
+Identity Image Input 
+limited loop 
+Last Leading_Part Length 
+mod 
+Machine Machine_Emax Machine_Emin Machine_Mantissa  Machine_Overflows  Machine_Radix Machine_Rounds Max 
+Min Model Model_Emin Model_Epsilon Model_Mantissa Model_Small 
+new not null 
+of or others out 
+package pragma private procedure protected 
+Pos Pred 
+raise range record rem renames requeue return reverse 
+Read Remainder Rounding 
+select separate subtype 
+Safe_First Safe_Last Scaling Signed_Zeros Size Small Succ 
+tagged task terminate then type 
+Truncation 
+until use 
+Unbiased_Rounding 
+Val Valid 
+when while with 
+xor 
+/C3"SPARK Keywords"
+assert 
+check 
+derives 
+from 
+global 
+hide hold 
+inherit initializes invariant 
+main_program 
+own 
+post pre 
+some 
+/C4"Forbidden Attributes"
+Access Address Alignment 
+Bit_Order Body_Version 
+Callable Caller Class Constrained Count 
+Definite 
+External_Tag 
+First_Bit 
+Last_Bit 
+Max_Size_In_Storage_Elements 
+Modulus
+Output
+Partition_Id Position 
+Range Round 
+Scale Storage_Pool Storage_Size 
+Tag Terminated 
+Unchecked_Access 
+Value Version 
+Wide_Image Wide_Value Wide_Width Width Write 
+/C5"FDL Words"
+are_interchangeable as assume 
+const 
+div 
+element 
+finish first for_all for_some 
+goal 
+last 
+may_be_deduced may_be_deduced_from may_be_replaced_by 
+nonfirst nonlast not_in 
+odd 
+pending pred proof 
+requires 
+save sequence set sqr start strict_asubset_of subset_of succ 
+update 
+var 
+where 
+

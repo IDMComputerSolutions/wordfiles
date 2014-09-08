@@ -1,0 +1,104 @@
+/L20"Poser" Line Comment = // String Chars = "' File Extensions = PZ3 CR2 HR2 HD2 LT2 CM2 PZ2 FC2
+/Delimiters = {}() ,	
+/Indent Strings = "{" "addChild" "weld" "linkParms"
+/Unindent Strings = "}"
+/Open Brace Strings =  "{"
+/Close Brace Strings = "}"
+/Open Fold Strings = "{" "figureResFile"
+/Close Fold Strings = "}" "figureResFile" "setGeomHandlerOffset"
+/C1"Sections"
+actor
+camera
+doc
+faceRoom figure
+hairGrowthGroup hairProp
+illustrationParms
+light
+movieInfo
+prop
+renderDefaults
+version
+/C2"SubSections"
+alternateGeom atmosShaderTree
+bgShaderTree bgStrokeParms
+channels
+deltas draftSettings
+edgeStrokeParms
+featurePoints fgStrokeParms flashInfo frontImage
+geomCustom groupNode
+inkyChain
+keys
+material morphInfo
+node nodeInput
+presetMaterial productionSettings
+shaderNodeParm shaderTree sideImage
+textureFile textureInfo texturePhotoLineup
+weights
+/C3"Channels"
+camAutoCenterX camAutoCenterY camAutoCenterZ camAutoScale curve
+depthMapSize depthMapStrength
+focal
+geomChan groups
+hairDynamicsParm handGrasp handSpread headGuides hither horizon
+jointX jointY jointZ
+kdRed kdGreen kdBlue kdIntensity
+liteAttenStart liteAttenEnd liteFalloffStart liteFalloffEnd
+morphPutty
+pointAtParm propagatingScale propagatingScaleX propagatingScaleY propagatingScaleZ
+rotateX rotateY rotateZ
+scale scaleX scaleY scaleZ smoothScale smoothScaleX smoothScaleY smoothScaleZ
+taper taperX taperY taperZ targetGeom thumbGrasp translateX translateY translateZ twistX twistY twistZ 
+valueParm
+xOffsetA xOffsetB
+yOffsetA yOffsetB
+zOffsetA zOffsetB
+/C4"Parameters"
+addActor addCamera addChild addLight addLink addToMenu allowsBending allowDisplacement allowRayTracing angles antiAlias antialiasing atmosphereStrength autoDensity autoPlay autoSpacing auxCamera
+backfaceCull baseActor bend bendBodies bgColor bgMovieOn bgPicOn bgStyle boxesAlways br britenessLoSegCutOff britenessSegCutOff brushStyle bucketSize bumpMap bumpStrength
+calcWeights cameraModel canonType caricatureFactor castShadows castsShadow center clearFigureKeys clumpiness collapsed colorBlend coloredLines colorRandom colorSegCutOff combineColor combineGradient con conforming conformingTarget cropRect crossHatch currentFrame customMaterial
+d defaultGeomName defaultPick deltaAddDelta density depthCamera depthCue depthMapShadows dimensions displacementBounds displayMode displayOn displayOrigin doBalance doBulge doCollisions dollyCamera doShadow doShadows dynamicsLock
+endPoint endPt
+faceCamera fastTracking fgColor figureType figureResFile file filterSize filterType flipped focalDistance forceLimits framesPerSec frontCamera fStop
+FourPorts_p1 FourPorts_p2 FourPorts_p3 FourPorts_p4 
+geomHandlerGeom geomResource goal gravityK groundDisplay groundShadows
+hairCacheFile hairShadingRate handLockOn hidden hipShoulder
+inactiveGroup includeInDepthCue indexes initValue inkyParent innerLines interpStyleLocked
+jointMult
+k keepLengths ksIgnoreTexture
+KaColor Kd KdColor Ks KsColor
+leftCamera lengthRange lHandCamera liteFactor1 liteFactor2 liteFactor3 lightOn lightType lin lineLength lineRandomness lineWidth linkParms linkWeight loaded locked loopEnd loopInterpolation loopStart
+mainCamera matrixActor max maxRadius maxRayDepth maxRotLenDelta maxTextureRes mBlurAmount min minDisplacementBounds minRadius minShadingRate morphBinaryFile motionBlur motionSamples movieName
+name negBulgeLeft negBulgeRight newWinDPI newWinHeight newWinWidth nonInkyParent normalSegCutOff numbDeltas numbElems number numbSets numbTSets numbTVerts numbVerts numColors numFeaturePoints numFrames numWeights
+Ns NsExponent
+objFile objFileGeom off on opacity orientation origFigureType origin otherActor outerLines outputEndFrame outputFramesPerSec outputHeight outputStartFrame outputType outputWidth overallDamping overBlack overlapColors
+paperTexture parent parmNode parmR parmG parmB pickActor pixelSamples populationCount pos posBulgeLeft posBulgeRight posingCamera pullBack pullDown pullLeft
+quantFrame quantOptions quatInterpolation
+rayTraceShadows readScript realTimeMode reflectionMap reflectionStrength reflectThruKd reflectThruLights renderOver renderQuality renderStyle res rHandCamera rightCamera root rootActor rotations rotationsOffset
+ReflectionColor
+screenPlace selfForce setGeomHandlerOffset shadingRate shadowBiasMin shadowBlurRadius shadowColor shadowRenderShadingRate showPopulated showPreview shutterClose shutterOpen sl sm smartParent smoothPolys smoothZones sphereMatsRaw spl springDamping springK startPt static staticValue stiffExpo storageOffset strokeHeadLength strokeTailLength
+tExpo textureMap textureStrength textureType thresholdGradient tMax tMin toNewWindow topCamera totalNormCutOff trackingScale transparencyMap turbDelay turbScale turbStrength
+TextureColor ThreePortsBigBottom_p1 ThreePortsBigBottom_p2 ThreePortsBigBottom_p3 
+ThreePortsBigLeft_p1 ThreePortsBigLeft_p2 ThreePortsBigLeft_p3 ThreePortsBigRight_p1 ThreePortsBigRight_p2 ThreePortsBigRight_p3 ThreePortsBigTop_p1 ThreePortsBigTop_p2 ThreePortsBigTop_p3 TwoPortsLeftRight_p1 TwoPortsLeftRight_p2 TwoPortsTopBottom_p1 TwoPortsTopBottom_p2
+uniqueInterp useBinaryMorph useBump useCamera useCustomFramesPerSec useDOF useLimits useP5renderer useRenderer useSumAreaTables useTexture useUVspace
+value valueOpDeltaAdd valueOpPlus valueOpMinus valueOpTimes valueOpDivideInto valueOpDivideBy vanishingLines vertsPerHair visibleInReflections visibleInRender
+w warped weightVertPct weld widthRange
+/C5"Constants"
+_NO_FIG_ _NONE_
+AUX_CAMERA
+BACK_CAMERA
+CARTOONNOLINE
+EDGESONLY
+FACE_CAMERA FLATLINED FLATSHADED FRONT_CAMERA
+GetStringRes GROUND
+HIDLINE
+LHAND_CAMERA LIGHT1 LIGHT2 LIGHT3
+MAIN_CAMERA
+NO_MAP NO_NODE NO_PARM
+POSE_CAMERA
+RHAND_CAMERA RIGHT_CAMERA
+SHADED SHADEDOUTLINE SHADOW_CAM_LITE1 SHADOW_CAM_LITE2 SHADOW_CAM_LITE3 SIDE_CAMERA STD_CAMERA SILHOUETTE SKETCHSHADED SMOOTHLINED
+TEXTURESHADED TOP_CAMERA
+UNIVERSE USEPARENT
+WIREFRAME
+/C6"Negative Numbers"
+** -

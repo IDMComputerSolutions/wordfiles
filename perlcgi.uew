@@ -1,0 +1,112 @@
+/L20"Perl" PERL_LANG Line Comment = # Line Comment Preceding Chars = [~[^]^^$/\(] Line Comment Alt = #! Escape Char = \ File Extensions = CGI PL PM SCAB
+/Delimiters = ~!^*()+|\/{}[]:;"'< 	,.?/
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/Function String = "%[ ^t]++sub[ ^t{]"
+/C1
+-A -B -C -M -O -R -S -T -W -X -b -c -d -e -f -g -k -l -o -p -r -s -t -u -w -x -z
+__DATA__ __END__ __FILE__ __LINE__
+continue
+do
+else elsif
+for foreach
+goto
+if
+last local
+my
+next no
+package
+redo return require
+sub
+until unless use
+while
+/C2
+accept alarm atan2
+bind binmode bless
+caller chdir chmod chomp chop chown chr chroot close closedir connect cos crypt
+dbmclose dbmopen defined delete die dump
+each endgrent endhostent endnetent endprotoent endpwent endservent eof eval exec exit exp exists
+fcntl fileno flock fork formline format
+getc getgrent getgrgid getgrname gethostbyaddr gethostbyname gethostent getlogin getnetbyaddr getnetbyname getnetent getpeername getpgrp getppid getpriority getprotobyname getprotobynumber getprotoent getpwent getpwnam getpwuid getservbyname getservbyport getservent getsockname getsockopt glob gmtime grep
+hex
+index int ioctl
+join
+keys kill
+lc lcfirst length link listen localtime log lstat
+map mkdir msgctl msgget msgrcv msgsnd
+oct open opendir ord
+pack pipe pop pos print printf push
+quotemeta
+rand read readdir readline readlink recv ref rename reset reverse rewinddir rindex rmdir
+scalar seek seekdir select semctl semgett semop send setgrent sethostent setnetent setpgrp setpriority setprotoent setpwent setservent setsockopt shift shmctl shmget shmread shmwrite shutdown sin sleep socket socketpair sort splice split sprintf sqrt srand stat study substr symlink syscall sysopen sysread system syswrite
+tell telldir tie tied time times truncate
+uc ucfirst umask undef unlink unpack unshift utime
+values vec
+wait waitpid wantarray warn write
+/C3
+Accept
+a autoEscape auth_type address
+button br b
+caption checkbox_group checkbox compile cookie
+defaults delete_all div
+end_html em endform escape escape_HTML end_h1 end_table end_ul
+filefield font
+header hr h1 h2 h3 h4 h5 hidden http https
+img isindex image_button
+li
+multipart_init multipart_start multipart_end
+ol
+p param param_fetch password_field popup_menu path_info pre
+query_string
+radio_group redirect raw_cookie referer remote_addr remote_indent remote_host remote_user request_method
+start_html self_url strong startform start_form start_multipart_form scrolling_list submit script_name server_name server_software server_port span start_h1 start_table start_ul
+textfield table td th textarea tmpFileName
+Tr
+url url_param use_named_parameters ul upload uploadInfo unescape unescapeHTML user_agent user_name
+virtual_host
+/C4
+-align=> -author=> -alt=> -absolute=> -action=>
+-bgcolor=> -border=> -base=> -boundary=> -background=> -BGCOLOR=>
+-cookie=> -columns=> -checked=> -content=> -colheader=> -code=> -class=> -colspan=> -color=> -cellspacing=> -cellpadding=> -compact=>
+-default=> -dtd=> -default=> -domain=>
+-expires=>
+-face=> -full=>
+-href=> -head=> -height=>
+-justification=>
+-linebreak=> -location=> -labels=> -label=> -language=> -leftmargin=>
+-meta=> -method=> -multiple=> -maxlength=>
+-name=> -nph=> -nolabels=>
+-on=> -onClick=> -onLoad=> -override=> -onUnload=> -onSubmit=> -onChange=> -onFocus=> -onBlur=> -onSelect=> -onMouseOver=> -onMouseOut=>
+-path=> -path_info=>
+-query=> -query_string=>
+-refresh=> -rel=> -rowheader=> -rows=> -rowspan=> -relative=>
+-status=> -script=> -src=> -style=> -size=> -selected=> -secure=>
+-type=> -target=> -title=> -topmargin=>
+-url=> -uri=>
+-value=> -values=> -valign=>
+-width=> -wrap=>
+-xbase=>
+/C5
+AUTOLOAD
+and
+BEGIN
+CORE
+cmp
+DESTROY
+eq
+END
+ge gt
+le lt
+ne not
+m
+or
+q qq qw qx
+SUPER
+s
+tr
+UNIVERSAL
+x xor
+y
+/C4
+$@
+@

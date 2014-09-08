@@ -1,0 +1,36 @@
+/L20"JCL" Line Comment = //* Line Comment Valid Columns = [1] Nocase String Chars = " File Extensions = JCL
+/Delimiters = ~!@$%^&*()_+=|\/{}[]:;"'<> ,.?/
+/Function String = "%//^(* +EXEC +* ++^)"
+/C1
+DD
+EXEC
+JOB
+/C2
+AND
+COND
+ELSE ENDIF EQ
+GE GT
+IF
+LE LT
+NE NOT
+OR
+THEN
+/C3
+BLKSIZE
+CLASS
+DCB DEN DISP DSN DSORG
+JOBPARM
+LABEL LRECL
+MSGCLASS MSGLEVEL
+NOTIFY
+PARM PGM
+RC RECFM REGION RESTART ROUTE
+SER SPACE
+UNIT
+VOL
+/C4
+(
+)
+/C8
+"%[~//] ++* ++"
+

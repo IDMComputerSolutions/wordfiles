@@ -1,0 +1,159 @@
+/L10"ProvideX" Line Comment = ! String Chars = " Nocase File Extensions = PVX PVC PVS PVT
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String = "^(%[^t0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_ ]++:^)"
+/Indent Strings = "{" "THEN" "THEN \" "ELSE" "ELSE \" "FOR" "WHILE" "REPEAT" "SELECT" "CASE"
+/Unindent Strings = "}" "END" "END_IF" "FI" "NEXT" "WEND" "UNTIL" "BREAK" "RETURN" "EXIT"
+/Open Fold Strings = "{" "WHILE" "REPEAT" "SELECT" "SWITCH" "ENTER"
+/Close Fold Strings = "}" "WEND" "UNTIL" "NEXT RECORD" "END SWITCH" "EXIT"
+/Open Brace Strings = "{" "SELECT" "SWITCH" "ENTER"
+/Close Brace Strings = "}" "NEXT RECORD" "END SWITCH" "EXIT"
+
+
+/C1"System Functions & Variables"
+** FN
+ABS ACS ALL AND ARG ASC ASN ATH ATN
+BCD BIN BKG BSY BSZ
+CHG CHN CHR COS CPL CRC CSE CTL CVS
+DAY DEC DIR DLL DLM DLX DOM DSK DSZ DTE
+ENV EOM EPT ERR ERS ESC EVN EVS EXP
+FFN FIB FID FIN FLG FMT FNT FPT
+GAP GBL GEP GFN GID
+HFN HLP HSA HSH HTA HWD HWN
+I3E I86 IND INT IOL IOR ISZ
+JUL
+KEC KEF KEL KEN KEP KEY KGN KNO
+LCS LEN LFA LFO LIP LOG LPG LRC LST LWD
+MAX MEM MID MIN MNM MNU MOD MSE MSG MSK MSL MXC MXL
+NAR NBF NID NOT NUL NUM
+OFF OPT OWN
+PAD PCK PFX PGM PGN POS PRC PRM PSZ PTH PUB
+QUO
+RCD RDX REC REF RET RND RNO RSZ RTY
+SEP SGN SID SIN SIZ SQR SRT SSN SSZ STK STP STR SUB SWP SYS
+TAN TBL TCB TIM TIP TME TMR TMS TRX TSK TSM TXH TXW
+UCS UID UNT UPK
+VIN VIS
+WHO
+XEQ XFA XOR
+@X @Y
+
+/C2"Directives"
+ACCEPT ADD ADDR AUTO AUTO_LOCK
+BEGIN BREAK BUTTON BYE
+CALL CASE CHART CHECK_BOX CLEAR CLIP_BOARD CLOSE CONTINUE CONTROL CREATE_TABLE CUSTOM_VBX CWDIR
+DATA DAY_FORMAT DEF DEFAULT DEFCTL DEFPRT DEFTTY DELETE DICTIONARY
+DIM DIRECT DIRECTORY DISABLE DROP DROP_BOX DUMP
+EDIT ELSE ENABLE END ENDTRACE END_IF ENTER 
+ERASE ERROR_HANDLER ESCAPE EXCEPT EXECUTE EXIT EXITTO EXTRACT
+FI FILE FIND FLOATINGPOINT FOR FROM
+GET_FILE_BOX GOSUB GOTO GRID
+H_SCROLLBAR HIDE
+IF INDEX INDEXED INPUT INSERT INVOKE IOLIST
+KEYED
+LET LIKE LINE_SWITCH LIST LIST_BOX LOAD LOCAL LOCK LONG_FORM
+MENU_BAR MERGE MESSAGE_LIB MNEMONIC MSGBOX MULTI_LINE MULTI_MEDIA
+NEXT
+OBTAIN ON OPEN OR
+PASSWORD PERFORM POINT POP POPUP_MENU PRECISION PREFIX PREINPUT
+PRINT PROCEED PROCESS PROGRAM PROPERTIES PROPERTY PURGE
+QUIT
+RADIO_BUTTON RANDOMIZE READ RECORD REDIM REFILE RELEASE REM
+REMOVE RENAME RENUMBER REPEAT RESET RESTORE RETRY RETURN ROUND RUN
+SAME SAVE SCALL SECURITY_MASK SELECT SERIAL SERVER SETCTL SETDAY SETDEV SETDRIVE
+SETERR SETESC SETFID SETMOUSE SETTIME SETTRACE SET_FOCUS SET_NBF SET_PARAM
+SHORT_FORM SHOW SORT START STEP STOP SWAP SWITCH SYSTEM_HELP SYSTEM_JRNL
+TABLE THEN TO TRANSLATE TRISTATE_BOX
+UNLOCK UNTIL UPDATE USER_LEX
+VARDROP_BOX VARLIST_BOX VIA VIDEO_PALETTE V_SCROLLBAR
+WAIT WEND WHERE WHILE WINDOW WINPRT_SETUP WRITE
+
+/C3"Mnemonics"
+Arc
+Backgr Black Blue Box BX
+Caption Circle CP CPI Cursor Cyan
+Dialogue
+Fill Flood Font Frame
+Green
+Image
+Line LPI
+Magenta Maxsize Message Minsize Mode Move
+Offset
+Pen Picture Pie Polygon Push
+Rectangle Red
+Scroll Size SP
+Text TextWdw
+WA WD WG White Wrap
+Yellow
+_Black _Blue _Cyan _Green _Magenta _Red _White _Yellow
+
+/C4"Operators"
+&
+$
+'
+* **
++ ++
+- --
+:
+;
+= =< =>
+< <= <>
+> >= ><
+
+/C5"Object Stuff"
+CREATE
+CLASS
+EVENT
+FUNCTION
+NEW
+OBJ
+OBJECT
+ON_CREATE
+ON_DELETE
+REQUIRED
+STATIC
+UNIQUE
+
+/C6"Line Continuation"
+\
+
+/C7"Nomads Variables"
+_eom$
+arg_1$ arg_2$ arg_3$ arg_4$ arg_5$ arg_6$ arg_7$ arg_8$ arg_9$ arg_10$ arg_11$ arg_12$ arg_13$ arg_14$ arg_15$ arg_16$ arg_17$ arg_18$ arg_19$ arg_20$
+Change_Flg Cmd_Str$
+Default_Prog$ Disp_Cmd$
+Exit_Cmd$
+Folder_ID$
+ID ID$
+Ignore_Exit Ignore_Exit$ Initialize_Flg Init_Text$ Init_Val$
+Jmp_Lvl
+Main_Scrn_K$ Mnu_Ln$
+Next_Folder Next_ID No_Flush
+Prior_Val Prior_Val$
+Qry_Val$
+Refresh_FLG Replacement_Folder$ Replacement_Lib$ Replacement_Scrn$
+Scrn_ID$ Scrn_K$ Scrn_Lib$
+Tab_Table$
+%Nomad_Center_Wdw
+%Nomad_Enter_Tab %Nomad_Esc_Sel
+%Nomad_Menu$ %Nomad_MsgMnt$
+%Nomad_Open_Load %Nomad_Override_Font$
+%Nomad_Prg_Cache
+%Nomad_Qry_Wide %Nomad_Pnl_Def_Font$
+%Nomad_Qry_Btn$ %Nomad_Qry_Tip$ %Nomad_Query_Kno %Nomad_Query_RetKno
+%Nomad_Relative_Wdw
+%Nomad_Script_FN %Nomad_Stk$
+%Nomad_Timeout
+%Nomad_Visual_Effect %Nomad_Visual_Override
+%Nomad_Win_Ver
+%Nomad_XChar %Nomad_XMax
+%Nomad_YChar %Nomad_YMax
+%Nomads_Auto_Qry
+%Nomads_Fkey_Handler$
+%Nomads_OnExit$
+%Nomads_Pre_Display$ %Nomads_Post_Display %Nomads_Process$
+%Nomads_CTL_Reset$
+%SCR_3D %SCR_DEF_ATTR$ %SCR_DEF_H_FL$ %SCR_DEF_H_ID$ %SCR_LIB %SCR_LIB$
+
+/C8"User Global Variables"
+%User_ID$
+%WDX$

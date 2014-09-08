@@ -1,0 +1,44 @@
+/L20"AutoIT 2.64" Escape Char = \ String Chars = % Line Comment = ; NoQuote File Extensions = AUT
+/Delimiters =  , 	\
+/Function String = "%^{[ a-zA-Z_0-9]+:^}^{^[ADLIB^]^}"
+/Marker Characters = "%%"
+/C1"Commands"
+#include
+[ADLIB]
+AdlibOn AdlibOff
+BlockInput Break
+DetectHiddenText
+EndRepeat EnvAdd EnvDiv EnvMult EnvSub Exit
+FileAppend FileCopy FileCreateDir FileDelete FileInstall FileReadLine FileRemoveDir FileSelectFile
+Gosub Goto
+HideAutoItDebug HideAutoItWin
+IfInString IfNotInString IfWinExist IfWinNotExist IfWinActive IfWinNotActive IfEqual IfNotEqual
+IfGreater IfGreaterOrEqual IfLess IfLessOrEqual IfExist IfNotExist IfMsgBox IniRead IniWrite
+IniDelete InputBox
+LeftClick LeftClickDrag
+MouseGetPos MouseMove MsgBox
+Random RegDelete RegRead RegWrite Repeat Return RightClick RightClickDrag Run RunWait
+Send SetBatchLines SetCapslockState SetEnv SetKeyDelay SetStoreCapslockMode SetTitleMatchMode SetWinDelay Shutdown Sleep SplashTextOn SplashTextOff
+StringCaseSense StringGetPos StringLeft StringRight StringMid StringLen StringReplace StringTrimLeft StringTrimRight
+WinGetActiveStats WinGetActiveTitle WinKill WinWait WinWaitClose WinWaitActive WinWaitNotActive WinHide
+WinRestore WinShow WinMinimize WinMaximize WinActivate WinClose WinMinimizeAll WinMinimizeAllUndo WinMove WinSetTitle
+/C2"Modifiers"
+Default
+Hide
+Max Min
+On Off
+REG_SZ REG_DWORD
+/C3"Markers"
+\
+%
+/C4"Variables"
+A_OSTYPE A_OSVERSION A_SCRIPTNAME A_SCRIPTDIR A_SCRIPTFULLPATH A_WORKINGDIR A_NUMBATCHLINES A_SEC A_MIN A_HOUR A_MDAY A_MON A_YEAR A_WDAY A_YDAY
+CLIPBOARD COMSPEC
+ERRORLEVEL
+HKEY_LOCAL_MACHINE HKEY_CURRENT_USER HKEY_CURRENT_CONFIG
+WIN32_WINDOWS WIN32_NT WIN_XP WIN_2000 WIN_NT4 WIN_95 WIN_98 WIN_ME
+/C5"Touches speciales"
+{!} {#} {+} {^} {{} {}} {SPACE} {ENTER} {ALT} {BACKSPACE} {BS} {DELETE} {DEL} {UP} {DOWN} {LEFT} {RIGHT} {HOME} {END} {ESCAPE} {ESC} {INSERT}
+{INS} {PGUP} {PGDN} {F1} {F2} {F3} {F4} {F5} {F6} {F7} {F8} {F9} {F10} {F11} {F12} {TAB} {PRINTSCREEN} {LWIN} {RWIN} {LWINDOWN} {RWINDOWN} {NUMLOCK}
+{CTRLBREAK} {PAUSE} {CAPSLOCK} {NUMPAD0} {NUMPAD1} {NUMPAD2} {NUMPAD3} {NUMPAD4} {NUMPAD5} {NUMPAD6} {NUMPAD7} {NUMPAD8} {NUMPAD9} {NUMPADMULT} {NUMPADADD}
+{NUMPADSUB} {NUMPADDIV} {NUMPADDOT} {APPSKEY} {ALTDOWN} {SHIFTDOWN} {CTRLDOWN}

@@ -1,0 +1,172 @@
+/L20"WinBatch" Line Comment = ; Nocase File Extensions = WBT WED MNU
+/Delimiters = %()+=|\/{}"' 	,.?
+/Indent Strings = "For" "If" "While" "Select" "#DefineFunction" "#DefineSubroutine"
+/Unindent Strings = "EndWhile" EndIf" EndSelect" "Next" "#EndFunction" "#EndSubroutine"
+/Function String = "%[^t ]++#DefineFunction ^([a-zA-Z0-9_]+*[^t ]++([, ^ta-zA-Z_0-9]++)^)"
+/Function String 1 = "%[^t ]++#DefineSubroutine ^([a-zA-Z0-9_]+*[^t ]++([, ^ta-zA-Z_0-9]++)^)"
+/Function String 2 = "^(:[a-zA-Z0-9_]+*^)"
+/C1 "WIL Functions"
+about abs acos addextender appexist appwaitclose arrayize arrdimension arrinfo ArrInitialize asin askdirectory askfilename askfiletext askitemlist askline askpassword 
+asktextbox askyesno atan average
+beep binaryalloc binaryand binaryclipget binaryclipput binarycompare binaryconvert binarycopy binaryeodget binaryeodset binaryfree binaryhashrec binaryincr2 binaryincr4 
+binaryincr binaryincrflt binaryindex binaryindexex binaryindexnc binaryoletype binaryor binarypeek2 binarypeek4 binarypeek binarypeekflt binarypeekstr binarypoke2 
+binarypoke4 binarypoke binarypokeflt binarypokestr binaryread binaryreadex binaryreplace binarysort binarystrcnt binarytagextr binarytagfind binarytagindex binarytaginit 
+binarytaglen binarytagrepl binarywrite binarywriteex binaryxlate binaryxor boxbuttondraw boxbuttonkill boxbuttonstat boxbuttonwait boxcaption boxcolor boxdataclear 
+boxdatatag boxdestroy boxdrawcircle boxdrawline boxdrawrect boxdrawtext boxesup boxmapmode boxnew boxopen boxpen boxshut boxtext boxtextcolor boxtextfont boxtitle 
+boxupdates buttonnames
+ceiling char2num clipappend clipget clipgetex cliphasformat clipput cos cosh currentfile currentpath currfilepath
+datetime ddeexecute ddeinitiate ddepoke dderequest ddeterminate ddetimeout debugdata debugtrace decimals delay dialog dialogbox dirattrget dirattrset dirchange direxist 
+dirget dirhome diritemize dirmake dirremove dirrename dirsize dirwindows diskexist diskfree diskinfo diskscan disksize diskvolinfo display dllcall dllfree dllhinst 
+dllhwnd dllload dosversion
+endsession environment environset envitemize exclusive exetypeinfo exp
+fabs fileappend fileattrget fileattrset fileclose filecompare filecopy filecopyattr filecreatetemp filedelete fileexist fileextension filefullname fileitemize 
+fileitempath filelocate filemapname filemove filemoveattr filenameeval1 filenameeval2 filenamelong filenameshort fileopen filepath fileread filerename fileroot filesize 
+filesizeex filetimecode filetimeget filetimegetex filetimeset filetimesetex filetimetouch fileverinfo filewrite fileymdhms findwindow floor
+getexacttime gettickcount
+iconarrange iconreplace ignoreinput inidelete inideletepvt iniitemize iniitemizepvt iniread inireadpvt iniwrite iniwritepvt installfile int intcontrol isdefined isfloat 
+isint iskeydown islicensed isnumber itemcount itemextract iteminsert itemlocate itemremove itemreplace itemselect itemsort itemsortnc
+keytoggleget keytoggleset
+lasterror log10 logdisk loge
+max message min mod mouseclick mouseclickbtn mousecoords mousedrag mouseinfo mousemove mouseplay msgtextget
+netinfo num2char
+objectaccess objectclose objectopen 
+parsedata pause playmedia playmidi playwaveform print
+random regapp regclosekey regconnect regcreatekey regdeletekey regdelvalue regentrytype regexistkey regexistvalue regloadhive regopenkey regopenkeyex regquerybin 
+regquerydword regqueryex regqueryexpsz regqueryitem regquerykey regquerykeys regquerymulsz regquerystr regqueryvalue regsetbin regsetdword regsetex regsetexpsz 
+regsetmulsz regsetvalue regunloadhive reload rtstatus run runenviron runexit runhide runhidewait runicon runiconwait runshell runwait runzoom runzoomwait
+sendkey sendkeyschild sendkeysto sendmenusto sendmenustoex shellexecute shortcutdir shortcutedit shortcutextra shortcutinfo shortcutmake sin sinh snapshot sounds sqrt 
+strcat strcharcount strclean strcmp strfill strfix strfixchars strfixcharsl strfixleft stricmp strindex strindexnc strindexwild strlen strlenwild strlower strreplace 
+strscan strsub strsubwild strtrim strupper svcsetaccept svcsetstate svcwaitforcmd
+tan tanh terminate textbox textboxsort textselect timeadd timedate timedelay timediff timediffdays timediffsecs timejulianday timejultoymd timesubtract timewait 
+timeymdhms
+vartype version versiondll
+waitforkey wallpaper webbaseconv webcloselog webcmddata webconbuf webcondata webconsize webcounter webdatdata webdumperror webhashcode webislocal weblogline webopenlog 
+webout weboutfile webparambuf webparamdata webparamnames webparamsize websettimeout webverifycard winactivate winactivchild winactivechild winarrange winclose winclosenot 
+winconfig winexename winexist winexistchild wingetactive winhelp winhide winiconize winidget winisdos winitemchild winitemize winitemizeex winitemnameid winitemprocid 
+winmetrics winname winparmget winparmset winplace winplaceget winplaceset winposition winresources winshow winstate winsysinfo wintitle winversion winwaitchild 
+winwaitclose winwaitexist winzoom
+yield yields
+/C2 "Constants"
+aboveicons acc_attrib acc_chng_nt acc_control acc_create acc_delete acc_full_95 acc_full_nt acc_list acc_pfull_nt acc_pmang_nt acc_print_nt acc_read acc_read_95 
+acc_read_nt acc_write amc arrange ascending attr_a attr_ci attr_dc attr_di attr_dm attr_h attr_ic attr_p attr_ri attr_ro attr_sh attr_sy attr_t attr_x avogadro
+backscan boltzmann breakpoint
+cancel capslock check columns commonformat continue cr crlf ctrl
+default definefunction deg2rad descending disable drive
+electric enable errormode eulers execute extended
+false faraday float8 fwdscan
+getprocid gftsec globalgroup gmtsec goldenratio gravitation
+hidden
+icon 
+lbutton lclick ldblclick lf lightmps lightmtps localgroup 
+magfield major mbokcancel mbutton mbyesno mclick mdblclick minor msformat multiple
+ncsaformat no none noresize normal notify nowait numlock 
+off on open
+parsec parseonly pi planckergs planckjoules printer
+qBadHandle qcommit qFirst qNeedData qNext qNoData qNull qrollback qStillEx qSuccess qSuccessInfo
+rad2deg rbutton rclick rdblclick regclasses regcurrent regmachine regroot regusers rows
+save scrolllock server shift single sorted stack string
+tab tile true
+uncheck unsorted
+wait wholesection word1 word2 word4
+yes
+zoomed
+/C3 "Extenders"
+aFileCopy aFileDelete aFileMove aFileRename aGetLastError AllSpoll aMsgTimeout aShellFolder aStatusbar aVersion
+ccheckbox cclearlball cclearlvitem ccleartvitem cclickbutton cclicktoolbar cclonecheck ccpubenchmark ccpufeat ccpuid ccpuidext ccpuspeed ccpusupt cdblclickitem 
+cenablestate cFindByClass cFindByName cgetcaldate cgetcbcount cgetcbtext cGetControlImageCRC cgetdtpdate cgetedittext cgethrtext cgetinfo cgetipaddr cgetlbcount 
+cgetlbseltext cgetlbtext cgetlvcoltext cGetLvDdtText cGetLvFocText cGetLvSelText cgetlvtext cgetsbtext cgettbtext cgettrackmax cgettrackmin cgettrackpos cgetupdownmax 
+cgetupdownmin cgetupdownpos cgetwndcursor cmemstat cpostbutton cpostmessage cradiobutton csendmessage csetcaldate csetcbitem csetdtpdate csetedittext csetfocus csetipaddr 
+csetlbitem csetlbitemex csetlvitem csettabitem csettrackpos csettvitem csetupdownpos cSetWndText cVersionInfo cWinIDConvert cwndbyclass cwndbyid cwndbyname cwndbyseq 
+cWndByWndSpec cwndexist cWndGetWndSpec cwndinfo cWndState
+DevClear DevClearList dsacladdace dsaclgetaces dsaclorderace dsaclremace dsAddToGrp dscopysecobj dsCreateObj dscreatsecobj dsDeleteObj dsFindPath dsGetChldPath dsGetClass 
+dsGetInfo dsGetMemGrp dsGetPrntPath dsGetProperty dsGetPropName dsgetsecprop dsIsContainer dsIsMemberGrp dsIsObject dsMoveObj dsrelsecobj dsRemFromGrp dsSetCredent 
+dssetcredentx dsSetObj dssetpassword dsSetProperty dssetsecprop dunConnect dunConnectEx dunDisconnect dunItemize
+EnableLocal EnableRemote envgetinfo envgetvar envlistvars envpathadd envpathchk envpathdel envsetvar
+FindLstn FindRQS ftpChDir ftpClose ftpDelete ftpFirewall ftpGet ftpList ftpOpen ftpPut ftpQuote ftpRename
+hBrowse hBrowseSetPos hCompatible hGetVarNames hGetVarValue httpAuth httpFirewall httpFullPath httpGetAnchor httpGetDir httpGetFile httpGetPath httpGetQuery httpGetServer 
+httpRecvFile httpRecvQryF httpRecvQuery httpRecvText httpRecvTextF httpStripHTML huge_Add huge_Decimal huge_Divide huge_ExtenderInfo huge_GetLastError huge_Multiply 
+huge_SetOptions huge_Subtract huge_Thousands hVersionInfo
+iAddr2Host ibask ibbna ibcac ibclr ibcmd ibcmda ibcnt ibcntl ibconfig ibdev ibdma iBegin ibeos ibeot iberr ibevent ibfind ibgetpad ibgetsad ibgts ibinit ibist iblines 
+ibln ibloc iblock ibmakeaddr ibonl ibpad ibpct ibpoke ibppc ibrd ibrdf ibrpp ibrsc ibrsp ibrsv ibsad ibsic ibsre ibsta ibstatus ibstop ibtmo ibtrg ibunlock ibversion 
+ibwait ibwrt ibwrtf iClose iContentData iContentFile iContentURL iDial iDialHangup iDialItemize iFtpCmd iFtpDelete iFtpDialog iFtpDirChange iFtpDirGet iFtpDirMake 
+iFtpDirRemove iFtpFindInit iFtpFindNext iFtpGet iFtpOpen iFtpPut iFtpRename iGetConState iGetConStatEx iGetLastError iGetResponse iHost2Addr iHostConnect iHttpHeaders 
+iHttpInit iHttpOpen iLocFindInit iLocFindNext iOptionGet iOptionSet ipAddr2Host ipGetAddress ipGetLastErr ipHost2Addr iPing ipPing ipVersion iReadData iReadDataBuf 
+iUrlDecode iUrlEncode IUrlOpen iVersion iWriteData
+kDeletePop3 kDest kExtra kGetMail kInit kManageImap4 kSendFile kSendText kStatusInfo kVerInfo
+mCompatible mError mFindNext mLogOff mLogOn mReadNextMsg mSendMail mSendMailEx mSyncMail mVersion
+n3attach n3captureend n3captureget n3captureprt n3chgpassword n3detach n3dirattrget n3dirattrset n3DirTimeGet n3drivepath n3drivestatus n3fileattrget n3fileattrset 
+n3FileTimeGet n3getconnnum n3getmapped n3getnetaddr n3getuser n3getuserid n3logout n3map n3mapdelete n3mapdir n3maproot n3memberdel n3memberget n3memberset n3msgsend 
+n3msgsendall n3serverinfo n3serverlist n3usergroups n3version n4attach n4captureend n4captureget n4captureprt n4chgpassword n4detach n4dirattrget n4dirattrset 
+n4dirtimeget n4drivepath n4drivestatus n4fileattrget n4fileattrset n4filetimeget n4fileusers n4getconnnum n4getcontext n4getmapped n4getnetaddr n4getuser n4getuserid 
+n4getusername n4login n4logout n4logouttree n4map n4mapdelete n4mapdir n4maproot n4memberdel n4memberget n4memberset n4msgsend n4msgsendall n4nameconvert n4objdelete 
+n4objectinfo n4objectlist n4objectprops n4objgetval n4objmove n4objoptions n4objrename n4objsearch n4serverinfo n4serverlist n4setcontext n4setcontextg n4setoptions 
+n4setprimserv n4usergroupex n4usergroups n4version netadddrive netaddprinter netcancelcon netdirdialog netgetcon netgetuser netresources netversion nwChgPassword 
+nwClientInfo nwDelConnNum nwDrivePath nwDriveStatus nwGetConnInfo nwGetContext nwGetDirInfo nwGetDirLimit nwGetFileInfo nwGetMapped nwGetNLMInfo nwGetObjInfo 
+nwGetObjValue nwGetOptions nwGetSrvCfg nwGetSrvInfo nwGetSrvParam nwGetSrvStats nwGetVolLimit nwLastErrMsg nwMap nwMapDelete nwNameConvert nwServerList nwSetContext 
+nwSetDirInfo nwSetDirLimit nwSetFileInfo nwSetOptions nwSetPassword nwSetPrimServ nwSetSrvInfo nwSetSrvParam nwSetVolLimit nwSrvExecNCF nwSrvGenGUID nwSrvNLMMgr 
+nwSrvShutdown nwVersionA nwVersionU nwVfyPassword
+p3Close p3Count p3Delete p3GetReply p3Open p3Peek p3RecvFile p3RecvText pAddPrinter  pAddPrtConn PassControl pCaptureLog pCaptureOff pCaptureOn pCheckBinary pCheckSum 
+pComClose pComControl pComInfo pComModify pComOpen pDelPrinter PDelPrtConn pGetBinary pGetByte pGetChar pGetDefPrtInf  pGetErrorCode pGetErrorMsg pGetLastError pGetLine 
+pGetPrtAttrib pGetPrtInfo pGetPrtList  pGetString pModemAnsCall pModemAnsRing pModemCommand pModemConnect pModemControl pModemDial pModemHangup pModemInit pModemParams 
+pModemSReg pPaperBins  pPaperSizes pPeekByte pPeekChar PPoll PPollConfig PPollUnconfig pPutBinary pPutByte pPutChar pPutLine pPutString pRecvFile pSendFile pSetDefPrt 
+pSetDefPrtEx  pSetPrtAttrib pSetPrtInfo pTimeout pVersionInfo  pWaitFor
+qAllocConnect qAllocEnv qAllocStmt qBindCol qColumns qConfigData qConfigError qConnect qDataSources qDisconnect qDriverCon qDriverList qError qExecDirect qFetch 
+qFreeConnect qFreeEnv qFreeStmt qGetData qLastCode qNativeSql qNumRsltCol qSetConnOpt qSpecial qTables qTransact qVersionInfo
+RasConStatus RasCopy RasDial RasEntryAdd RasEntryDel RasEntryExist RasEntryInfo RasEntrySet RasGetLastErr RasHangUp RasInstalled RasItemize RasListActCon RasNameValid 
+RasNumCons RasRename RasVersion RcvRespMsg ReadStsByte Receive ReceiveSetup ResetSys rRegSearch rRegVersion
+sAccept sByteOrder16  SByteOrder32 sClose sConnect Send SendCmds SendDataBytes SendIFC SendList SendLLO SendSetup SetRWLS sListen smtpSendFile smtpSendText sOK2Recv 
+sOK2Send sOpen srchfree srchinit srchnext srchversion sRecvBinary sRecvLine sRecvNum sSendBinary sSendLine sSendNum sSendString
+tBrowseCntrs tCloseProc tCompatible tcountproc TestSRQ TestSys tGetData tGetLastError tgetmodinfo tGetPriority tgetprocinfo tKillProc tlistmod tlistproc tOpenProc 
+tRemoteConn Trigger TriggerList tSetPriority tversion
+urlDecode urlEncode urlGetScheme
+w3addcon w3cancelcon w3dirbrowse w3getcaps w3getcon w3netdialog w3netgetuser w3prtbrowse w3version w95accessadd w95accessdel w95adddrive w95addprinter w95cancelcon 
+w95dirdialog w95fileclose w95fileusers w95getcon w95getdrive w95getuser w95resources w95serverinfo w95servertype w95serviceat w95serviceinf w95shareadd w95sharedel 
+w95shareinfo w95sharelist w95shareset w95shareusers w95version w9xaccessadd w9xaccessdel w9xaccessget w9xaccesslist w9xfileusers w9xGetDC w9xGroupAdd w9xGroupDel 
+w9xGroupInfo w9xlistgroups w9xmemberdel w9xmemberget w9xmembergrps w9xmemberlist w9xmemberset w9xownerget w9xRemoteTime w9xserverlist w9xserviceat w9xshareadd w9xsharedel 
+w9xshareinfo w9xshareset w9xUserAdd w9xUserAddDat w9xUserDel w9xUserExist w9xUserGetDat w9xuserinfo w9xUserList w9xuserprops w9xUserRename w9xUserSetDat w9xversion 
+WaitSRQ wnaddcon wncancelcon wncmptrinfo wndialog wndlgbrowse wndlgcon2 wndlgcon3 wndlgcon4 wndlgcon wndlgdiscon wndlgnoshare wndlgshare wngetcaps wngetcon wngetuser 
+wnnetnames wnrestore wnservers wnsharecnt wnsharename wnsharepath wnshares wntaccessadd wntaccessdel wntaccessget wntaccesslist wntaccessmod wntacctinfo wntacctpolget 
+wntacctpolset wntadddrive wntaddprinter wntauditadd2 wntauditadd wntauditdel wntauditget wntauditlist wntauditmod wntcancelcon wntchgpswd wntcurrusers wntdirdialog 
+wntdomainsync wnteventlog wnteventwrite wntfileclose wntfilesopen wntfileusers wntgetcon wntgetdc wntgetdrive wntgetuser wntgroupadd wntgroupdel wntgroupedit wntgroupinfo 
+wntGroupRen wntlistgroups wntlsapolget wntlsapolset wntmemberdel wntmemberget wntmembergrps wntmemberlist wntmemberlst2 wntmemberset wntownerget wntownerset wntprivadd 
+wntprivdel wntprivget wntprivlist wntrasuserget wntrasuserset wntremotetime wntresources2 wntresources wntrunasuser wntserverinfo wntserverlist wntservertype wntserviceat 
+wntserviceinf wntshareadd wntsharedel wntshareinfo wntsharelist wntshareset wntshareusers wntshutdown wntsvccfgget wntsvccfgset wntsvccontrol wntsvccreate wntsvcdelete 
+wntsvcstart wntsvcstatus wntuseradd wntuseradddat wntuserdel wntuserexist wntuserfiles wntusergetdat wntuserinfo wntuserlist wntuserprops wntuserrename wntusersetdat 
+wntusersidchk wntversion wntwtsuserget wntwtsuserset wnversion wnwrkgroups wwenvunload wxAddr2Host wxGetErrDesc wxGetInfo wxGetLastErr wxHost2Addr wxMsgGetBody 
+wxMsgGetHdr wxMsgSetHdr wxParmGet wxParmSet wxPing
+xbaseconvert xcursorset xdisklabelget xdriveready xejectmedia xextenderinfo xgetchildhwnd xgetelapsed xhex xmemcompact xmessagebox xsendmessage xverifyccard
+zClrPortBit zGetPortBit zLPortShift zNotPortBit zPortIn zPortOut zRPortShift zSetPortBit zUnZipFiles zVersion zVersionInfo zZipFiles
+/C4 "Control"
+#definefunction #definesubroutine #endfunction #endsubroutine
+break by
+call callext case
+debug drop dropwild
+else end endfor endfunction endif endselect endswitch endwhile exit
+for
+gosub goto
+if include
+next
+return
+select switch
+then to
+while
+/C5 "WinBatch Studio"
+EDADDBUTTON EDDELETEBUTTON EDEDITBACKSPACE EDEDITBACKTAB EDEDITBEGINNINGOFFILE EDEDITBEGINNINGOFLINE EDEDITCLEARSELECTION EDEDITCOPY EDEDITCOPYLINE EDEDITCUT 
+EDEDITCUTLINE EDEDITDELETE EDEDITDOWNLINE EDEDITENDOFFILE EDEDITENDOFLINE EDEDITENDSELECTION EDEDITGETCURRENTWORD EDEDITGOTOBOOKMARK EDEDITGOTOCOLUMN EDEDITGOTOLINE 
+EDEDITINSERTSTRING EDEDITLEFT EDEDITPAGEDOWN EDEDITPAGEUP EDEDITPASTE EDEDITREDO EDEDITRIGHT EDEDITSELECTALL EDEDITSETBOOKMARK EDEDITSETCOLUMNCLOCK EDEDITSTARTSELECTION 
+EDEDITTAB EDEDITTOGGLEINS EDEDITUNDO EDEDITUPLINE EDEDITWORDLEFT EDEDITWORDRIGHT EDEDITWRAP EDFILEEXIT EDFILELIST EDFILEMERGE EDFILENEW EDFILEOPEN EDFILEPAGESETUP 
+EDFILEPRINT EDFILEPRINTERSETUP EDFILESAVE EDFILESAVEAS EDFILESETPREFERENCES EDGETCHAR EDGETCOLUMNNUMBER EDGETINSERTSTATE EDGETLINENUMBER EDGETMODIFIEDSTATUS 
+EDGETREDOSTATE EDGETSELECTIONSTATE EDGETUNDOSTATE EDGETWINDOWNAME EDGETWORDWRAPSTATE EDHELPABOUT EDHELPCOMMANDS EDHELPHELP EDHELPINDEX EDHELPKEYBOARD EDHELPKEYWORD 
+EDHELPPROCEDURES EDRECORD EDRUNCOMMAND EDRUNCOMPILE EDRUNCONFIGURE EDRUNDEBUG EDRUNEXECUTE EDRUNMAKE EDRUNREBUILD EDSEARCHCHANGE EDSEARCHFIND EDSEARCHNEXTERROR 
+EDSEARCHPREVERROR EDSEARCHREPEAT EDSEARCHVIEWOUTPUT EDSTATUSMSG EDWINDOWARRANGEICONS EDWINDOWCASCADE EDWINDOWCLOSE EDWINDOWCLOSEALL EDWINDOWMAXIMIZE EDWINDOWMINIMIZE 
+EDWINDOWNEXT EDWINDOWRESTORE EDWINDOWTILE
+WADDBUTTON wautoindent wbackspace wbacktab WCALLMACRO WCHANGE wclearsel wcompile wcopy wcopyappend wcopyline wcopymarked wcut wcutappend wcutline wcutmarked WDELBUTTON 
+wdelete wdownline WEDBACKSPACE WEDBACKTAB WEDCLEARSEL WEDCOPY WEDCOPYLINE WEDCUT WEDCUTLINE WEDDELETE WEDDOWNLINE WEDEND WEDENDOFFILE WEDENDSEL WEDGETWORD WEDGOTOCOL 
+WEDGOTOLINE WEDHOME WEDINSSTRING WEDLEFT WEDNEWLINE WEDPAGEDOWN WEDPAGEUP WEDPASTE WEDREDO WEDRIGHT WEDSELECTALL WEDSETCOLBLK WEDSTARTSEL WEDTAB WEDTOGGLEINS WEDTOPOFFILE 
+WEDUNDO WEDUPLINE WEDWORDLEFT WEDWORDRIGHT WEDWRAP wend wendoffile wendsel WFILEEXIT WFILELIST WFILEMERGE WFILENEW WFILEOPEN WFILEPGSETUP WFILEPRINT wfilerevert WFILESAVE 
+WFILESAVEAS WFIND wfindinfiles wfindnext WFTPOPEN WGETCHAR WGETCOLNO WGETFILENAME WGETINS WGETLINENO WGETMODIFIED WGETOUTPUT WGETREDO WGETSELSTATE WGETUNDO WGETWORD 
+WGETWRAP wgotocol wgotoline WHELPABOUT WHELPCMDS WHELPHELP WHELPINDEX WHELPKEYBRD WHELPKEYWORD whome WINSLINE winsstring winvertcase wleft wlowercase wnewline WNEXTERROR 
+wpagedown wpageup wpaste WPREVERROR WPRINSETUP wprintdirect wproperties wrecord wredo WREPEAT wright WRUNCOMMAND WRUNCOMPILE WRUNCONFIG WRUNDEBUG WRUNEXECUTE WRUNMAKE 
+WRUNREBUILD wselbottom wseldown wselectall wselend wselhome wselinfo wselleft wselpgdn wselpgup wselright wseltop wselup wselwordleft wselwordright wsetbookmark 
+wsetcolblk WSETPREFS wsetproject wspellcheck wstartsel wstatusmsg wtab wtoggleins wtopoffile wundo wupline wuppercase wviewhtml wviewoptions WVIEWOUTPUT WWINARRICONS 
+WWINCASCADE WWINCLOSE WWINCLOSEALL WWINMAXIMIZE WWINMINIMIZE wwinnext WWINRESTORE WWINTILE wwordleft wwordright 

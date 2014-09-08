@@ -1,0 +1,97 @@
+/L20"Flash MX ActionScript" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ File Extensions = AS
+/Delimiters = ~!@%^&*()-+=|\/{}[];"'<> ,	
+/Function String 1 = "%[^t ]++function[^t ]+^([~ ^t(]+^)[^t ]++(*)[ ^t{}]++$"
+/Function String 2 = "[^t ]++^([a-zA-Z._]+^)[^t ]++=[^t ]++function[^t ]++(*)[ ^t{}]++$"
+/Function String 3 = "%^(//[*]+^p"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/Marker Characters = ""
+
+/C1"Operators"
+
+! !=
+% %=
+& && &=
+* *=
++ ++ +=
+,
+- -- -=
+.
+// / /=
+< << <<= <= <>
+= == ===
+> >= >> >>= >>> >>>=
+?:
+^ ^=
+| |= ||
+~
+
+/C2"Keywords"
+
+__proto__ _alpha _currentframe _droptarget _focusrect _framesloaded _global _height _highquality _level _listeners _name _parent _quality _root _rotation _soundbuftime _target 
+_totalframes _url _visible _width _x _xmouse _xscale _y _ymouse _yscale
+ALT ASSetNative ASSetPropFlags ASconstructor ASnative Accessibility Accessibility.isActive Array AsBroadcaster
+a abs acos add addListener addProperty addheader align allowDomain appendChild apply arguments arguments.callee arguments.caller asin atan atan2 attachAudio attachMovie 
+attachSound attachVideo attributes autoSize
+BACKSPACE Boolean Button
+background backgroundColor beginFill beginGradientFill blockIndent bold border borderColor bottomScroll break broadcastMessage bullet
+CAPSLOCK CONTROL Camera Capabilities Color Cookie CustomActions CustomActions.get CustomActions.install CustomActions.list CustomActions.uninstall
+call callee caller capabilities case ceil charAt charCodeAt childNodes chr clear clearInterval cloneNode close color concat condenseWhite connect constructor contentType 
+continue cos createElement createEmptyMovieClip createTextField createTextNode curveTo
+DELETEKEY DOWN Date Date.UTC
+data decode default delete do docTypeDecl domain dragOut dragOver duplicateMovieClip duration
+E END ENTER ESCAPE
+else embedFonts enabled endFill enterFrame escape eval exp
+FStyleFormat
+false firstChild floor flush focusEnabled font for fromCharCode fscommand function
+get getAscii getBeginIndex getBounds getBytesLoaded getBytesTotal getCaretIndex getCode getCookie getDate getDay getDepth getDuration getEndIndex getFocus getFontList 
+getFullYear getHours getMilliseconds getMinutes getMonth getNewTextFormat getPan getPosition getProperty getRGB getSeconds getSize getTextExtent getTextFormat getTime 
+getTimer getTimezoneOffset getTransform getURL getUTCDate getUTCDay getUTCFullYear getUTCHours getUTCMilliseconds getUTCMinutes getUTCMonth getUTCSeconds getUTCYear 
+getVersion getVolume getYear globalToLocal gotoAndPlay gotoAndStop
+HOME
+hasAccessibility hasAudio hasAudioEncoder hasChildNodes hasMP3 hasOwnProperty hasVideoEncoder height hide hitArea hitTest hscroll html htmlText
+INSERT Infinity IsActive
+if ifFrameLoaded ignoreWhite in indent indexOf input insertBefore install instanceof int isActive isDebugger isDown isFinite isNaN isPropertyEnumerable isPrototypeOf isToggled 
+italic
+john@3wgraphics.net join
+Key Key.ALT Key.BACKSPACE Key.CAPSLOCK Key.CONTROL Key.DELETEKEY Key.DOWN Key.END Key.ENTER Key.ESCAPE Key.HOME Key.INSERT Key.LEFT Key.PGDN Key.PGUP Key.RIGHT Key.SHIFT 
+Key.SPACE Key.TAB Key.UP Key.getAscii Key.getCode Key.isDown Key.isToggled
+keyDown keyPress keyUp
+LEFT LN10 LN2 LOG10E LOG2E LoadVars LocalConnection
+language lastChild lastIndexOf leading leftMargin length lineStyle lineTo list load loadMovie loadMovieNum loadSound loadVariables loadVariablesNum loaded localToGlobal log
+MAX_VALUE MIN_VALUE MMSave Math Math.E Math.LN10 Math.LN2 Math.LOG10E Math.LOG2E Math.PI Math.SQRT1_2 Math.SQRT2 Math.abs Math.acos Math.asin Math.atan Math.atan2 Math.ceil 
+Math.cos Math.exp Math.floor Math.log Math.max Math.min Math.pow Math.random Math.round Math.sin Math.sqrt Math.tan Microphone Mouse Mouse.hide Mouse.show MovieClip
+manufacturer max maxChars maxhscroll maxscroll mbchr mblength mbord mbsubstring metaInfo meth min mouseDown mouseMove mouseUp moveTo multiline
+NEGATIVE_INFINITY NaN NetConnection NetStream Number Number.MAX_VALUE Number.MIN_VALUE Number.NEGATIVE_INFINITY Number.NaN Number.POSITIVE_INFINITY
+new newline nextFrame nextScene nextSibling nodeName nodeType nodeValue null
+Object Object.registerClass
+on onChanged onClipEvent onClose onConnect onData onDragOut onDragOver onEnterFrame onKeyDown onKeyUp onKillFocus onLoad onMouseDown onMouseMove onMouseUp onPress onRelease 
+onReleaseOutside onResize onRollOut onRollOver onScroller onSetFocus onSoundComplete onUnload onXML ord os
+PGDN PGUP PI POSITIVE_INFINITY Product
+parentNode parseFloat parseInt parseXML password pause pixelAspectRatio play pop position pow press prevFrame prevScene previousSibling print printAsBitmap printAsBitmapNum 
+printNum prototype publish push
+RIGHT
+random receiveAudio receiveVideo registerClass release releaseOutside removeListener removeMovieClip removeNode removeTextField replaceSel restrict return reverse rightMargin 
+rollOut rollOver round
+SHIFT SPACE SQRT1_2 SQRT2 Selection Selection.getBeginIndex Selection.getCaretIndex Selection.getEndIndex Selection.getFocus Selection.setFocus Selection.setSelection 
+SendEvent SharedObject ShowSettings Sound Stage Stage.align Stage.height Stage.scaleMode Stage.showMenu Stage.width String String.fromCharCode System System.capabilities 
+System.capabilities.hasAccessibility System.capabilities.hasAudio System.capabilities.hasAudioEncoder System.capabilities.hasMP3 System.capabilities.hasVideoEncoder 
+System.capabilities.input System.capabilities.isDebugger System.capabilities.language System.capabilities.manufacturer System.capabilities.os 
+System.capabilities.pixelAspectRatio System.capabilities.screenColor System.capabilities.screenDPI System.capabilities.screenResolutionX System.capabilities.screenResolutionY 
+System.capabilities.serverString System.capabilities.version System.security.allowDomain
+scaleMode screenColor screenDPI screenResolutionX screenResolutionY scroll security seek selectable send sendAndLoad serverString set setBufferTime setCookie setDate 
+setDuration setFocus setFps setFullYear setGain setHours setInterval setKeyFrameInterval setLoopback setMask setMilliseconds setMinutes setMode setMonth setMotionLevel 
+setNewTextFormat setPan setPosition setProperty setQuality setRGB setRate setSeconds setSelection setSilenceLevel setTextFormat setTime setTransform setUTCDate setUTCFullYear 
+setUTCHours setUTCMilliseconds setUTCMinutes setUTCMonth setUTCSeconds setUseEchoSuppression setVolume setYear shift show showMenu sin size slice sort sortOn splice split 
+sqrt start startDrag status stop stopAllSounds stopDrag substr substring super swapDepths switch
+TAB TextField TextFormat
+tabChildren tabEnabled tabIndex tabStops tan target targetPath tellTarget text textColor textHeight textWidth this toLocaleString toLowerCase toString toUpperCase 
+toggleHighQuality trace trackAsMenu true type typeof
+UP UTC
+undefined underline unescape uninstall unload unloadMovie unloadMovieNum unshift unwatch updateAfterEvent url useHandCursor
+Video
+valueOf var variable version void
+watch while width with wordWrap
+XML XMLNode XMLSocket
+xmlDecl
+

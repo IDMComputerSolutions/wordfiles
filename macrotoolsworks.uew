@@ -1,0 +1,147 @@
+/L10"Macro ToolsWorks" Line Comment Num = 4<#>  Line Comment Alt = <#> Noquote File Extensions = MTW
+/Delimiters = %()=|\{}"' 	,?<>
+/Marker Characters = "%%"
+/Indent Strings SOL = "<if_" "<else>" "<begloop>"
+/Unindent Strings = "<else>" "<endif>" "<endloop>"
+/Function String 1 = "%[^t ]++<label>(^"^(*^)^")"
+/Function String 2 = "%<#>FN ^(*^)$"
+/C1"Commands"
+<
+>
+-dbp-
+// /script_basic /script_js /script_vbs
+actwin
+beep begloop
+ct:h24 ct:h12 ct:h12lz ct:ampm ct:AMPM ct:h24lz ct:m ct:mlz
+clp_copyselected clpempty clpload clppastetext clpput clpsave
+cmds
+contextmenu
+data_load data_save
+date
+dircopy dircreate dirdel dirmove diropen
+dialup
+display_changewallpaper display_getpixel
+else endif endloop
+email email_send
+execapp execappex extmacro
+exitmacro exitmacro_soft
+fastoff faston
+file_enum filecopy filecreate filedel fileinfo filemove fileopen
+file_print
+findcompdlg findfilesdlg
+form_item form_show
+ftp_createdir ftp_deldir ftp_delfile ftp_getfile ftp_putfile ftp_renamefile
+goto
+hangup
+if_clp if_dir if_file if_key if_num if_str if_win if_process
+keys keys_block keys_unblock
+listbox
+macromenu
+menu_additem menu_additem menu_show
+me_changeicon me_exit me_macroenable me_macroenable_group
+me_error_clear me_error_display me_error_nodisplay
+mousemove_absolute mousemove_relative_win mousemove_relative_pos mm
+msg msgoff
+multimedia
+netcondrive netcondrivedlg netdiscondrive netdiscondrivedlg
+pause
+post_win_msg
+printer_setdefault
+process_kill
+recbinempty rundlg
+reg_createkey reg_deletekey reg_deletevalue reg_enumsubkeys reg_enumvalues reg_getvalue reg_setvalue
+run run_ctxcommand
+script_basic script_js script_vbs script_file
+scrsaver_disable scrsaver_enable scrsavestart
+setsysdate setsystime
+shutdown
+td:d td:dlz td:m td:mlz time td:y
+var_load varout var_parse var_save varset var_oper
+waitfor wx
+win_enumerate winclose wininfo winmove winresize winstate wincascade winminall wintile_h wintile_v
+wwwopen
+/C2"Mouse & Keyboard"
+alt appskey
+back break
+capslock clear ctrl
+delete down
+end enter esc execkey extkey
+F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12
+home
+insert
+left lwinkey
+mlbd mmbd mrbd mlbu mmbu mrbu
+newline numlock numpad0 numpad1 numpad2 numpad3 numpad4 numpad5 numpad6 numpad7 numpad8 numpad9 numpad+ numpad- numpad* numpad/ numpad.
+pgup pgdn printscreen
+right rwinkey
+select shift
+tab
+up
+/C3"Labels"
+label
+/C4"Reserved Words"
+ACT ALWAYS_TOP
+BIGGER BUTTON
+CALC_EXPRESSION CHECK CLIP CLOSE
+DOWN
+EDIT EMPTY EXIST
+GET_TEXT_FROM_CLIPBOARD
+HIDE
+KEY
+LINE LIST LOADED LOGOFF
+MIN MAX MOUSE MUTE
+NO NOACT NOT_ALWAYS_TOP NOTEXIST
+OPEN
+POWEROFF PRESS PWD 
+RANDOM_NUMBER REBOOT RELEASE RESTORE
+SELECT_FILE SELECT_FOLDER SET SHOW SHUTDOWN SIZE SMALLER STANDBY STR_APPEND STR_LEFT STR_RIGHT STR_MID STR_TRIMLEFT STR_TRIMRIGHT STR_INSERT STR_REPLACE STR_DELETE 
+STR_FIND STR_UPPER STR_LOWER STR_LENGTH STR_GET_CHAR STR_TOGGLE_CASE STR_SENTENCE_CASE STR_INTERSPACES STR_FIRST_UPPER
+TEXT TEXT_GET_WORD TEXT_GET_NUMOFWORDS TEXT_GET_LINE TEXT_GET_NUMOFLINES TEXT_JUSTIFY TEXT_INDENT_LEFT TEXT_INDENT_RIGHT TEXT_ADDNUMBERING TEXT_CENTER 
+TEXT_UNDERLINE_LIKE TEXT_ALIGN_LEFT TEXT_ALIGN_RIGHT TIME_WRITE TIME_ACCESS TIME_CREATE
+UP
+VOLUME
+WEBPAGE WIN
+YES
+/C5"Variables"
+%%
+/C6"Global/Local/Constant"
+** ga_ gm_
+_vActiveWindow _vActiveWindowPrev _vWinActive _vWinFromMouseCur
+_vCurrDate_Day _vCurrDate_DD _vCurrDate_Month _vCurrDate_MM _vCurrDate_Year _vCurrDate_YY _vCurrDate_MonthName _vCurrDate_DDMMYYYY _vCurrDate_MMDDYYYY _vCurrTime_Hour12 
+_vCurrTime_Hour24 _vCurrTime_Minute _vCurrTime_Second _vCurrTime_AMPM _vCurrTime_Total _vCurrDate_DayName _vCurrDate_DayOfWeek
+_vDropFile_FileFullPath _vDropFile_FileName _vDropFile_FileDir _vDropFile_Num
+_vFolder_AppData _vFolder_CommonDesktop _vFolder_CommonPrograms _vFolder_CommonStartMenu _vFolder_Cookies _vFolder_Desktop _vFolder_Favourites _vFolder_Personal 
+_vFolder_Programs _vFolder_Recent _vFolder_SendTo _vFolder_StartMenu _vFolder_Startup _vFolder_Templates _vFolder_Windows _vFolder_System _vFolder_Temp
+_vIsCapsLockON _vIsNumLockON _vIsScrollLockON
+_vKeyReturn _vKeyTab _vQuoteChar _vKeySpace _vKeyPercent _vKeyBigger _vKeySmaller _vKeyBracketL _vKeyBracketR
+_vLastMouseClick _vLastKey
+_vLoopCounter0 _vLoopCounter
+_vMousePosX _vMousePosY
+_vScreenWidth _vScreenHeight
+_vStrEmpty _vMsgButton _vErr _vOperatingSystemVersion _vMacroFileLoaded
+_vWinRectX1 _vWinRectY1 _vWinRectX2 _vWinRectY2
+_vWinState _vWinWdt _vWinHgt _vWinTitle _vWinClass
+_vWinStarting _vIsExecOnlyCommands _vIsScreensaverRunning _vIsScreensaverEnabled _vIsConnectedToInternet
+ALLUSERSPROFILE APPDATA
+CD CMDLINE CMDEXTVERSION COMSPEC COMPUTERNAME
+DATE
+ERRORLEVEL
+HOMEDRIVE HOMEPATH HOMESHARE
+LOGONSERVER
+NUMBER_OF_PROCESSORS
+OS
+PATH PROMPT PATHEXT PROCESSOR_ARCHITECTURE PROCESSOR_IDENTIFIER PROCESSOR_LEVEL PROCESSOR_REVISION
+PATH_Audio PATH_Backup PATH_Images PATH_Install PATH_Scripts PATH_Settings PATH_Songs PATH_Video
+RANDOM
+SYSTEMDRIVE SYSTEMROOT
+TEMP TMP TIME
+USERDOMAIN USERNAME USERPROFILE
+WINDIR
+/C8"Operators"
+=
+!
+>
+<
+|
+
+/- - - - - - - - - - - - - - - - - - - - - - - - - -

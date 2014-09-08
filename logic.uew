@@ -1,0 +1,29 @@
+/L20"LOGIC" Line Comment = ; Nocase Block Comment On = ; Block Comment Off = ; File Extensions = DCB
+/Delimiters = ~!@$%^&*()+=|\/{}[]:;"'<> 	,.?/	
+/C1
+BOOLEAN-EQUATIONS
+end
+flow-table
+function-table
+IDENTIFICATION
+pal
+pins
+RUN-CONTROL
+special-functions
+STATE-ASSIGNMENT
+X-NAMES
+Y-NAMES
+/C2
+*
+/C3
+binary
+listing
+PROGFORMAT
+Type
+/C4
+EQUATIONS
+Relevant
+FUSE
+GA22V10
+JEDEC
+PinOut

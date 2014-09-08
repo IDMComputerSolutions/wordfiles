@@ -1,0 +1,173 @@
+/L20"PHP" Line Comment = // Nocase Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = PHP3 PHP4 PHP PHTML INC
+/Delimiters = ~!%^&*()-+=|\/{}[]:;"'` ,	.
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/Function String = "%[ ^t;]++function ^(*^)(*"
+/C1"Control Structures"
+break
+case continue
+default do
+else elseif endif endfor endswitch endwhile
+for foreach function
+if include
+return require
+switch
+while
+{
+}
+;
+/C2"Tags"
+<?
+<?PHP
+?>
+/C3"Variables"
+** $ &
+/C4"Operators"
+! !=
+%
+& &&
+* *=
++ ++ +=
+- -- -= ->
+. .=
+// / /=
+:
+< << <=
+= == =>
+> >>
+?
+@
+AND
+OR
+XOR
+^
+| ||
+~
+/C5"Build-in Functions"
+abs acos addcslashes addslashes apache_lookup_uri apache_note array array_count_values array_flip array_keys array_merge array_pad array_pop array_push array_reverse 
+array_shift array_shift array_slice array_slice array_splice array_unshift array_values array_walk arsort asin asort aspell_check aspell_check_raw aspell_new aspell_suggest 
+aster_date atan atan2
+base64_decode base64_encode base_convert basename bcadd bccomp bcdiv bcmod bcmul bcpow bcscale bcsqrt bcsub bin2hex bindec
+ceil chdir checkdate checkdnsrr chgrp chmod chop chown chr chunk_split clearstatcache closedir closelog compact convert_cyr_string copy cos count count_chars 
+cpdf_add_annotation cpdf_add_outline cpdf_arc cpdf_begin_text cpdf_circle cpdf_clip cpdf_close cpdf_closepath cpdf_closepath_fill_stroke cpdf_closepath_stroke 
+cpdf_continue_text cpdf_curveto cpdf_end_text cpdf_fill cpdf_fill_stroke cpdf_finalize cpdf_finalize_page cpdf_global_set_document_limits cpdf_import_jpeg cpdf_lineto 
+cpdf_moveto cpdf_open cpdf_output_buffer cpdf_page_init cpdf_place_inline_image cpdf_rect cpdf_restore cpdf_rlineto cpdf_rotate cpdf_save cpdf_save_to_file cpdf_scale 
+cpdf_set_char_spacing cpdf_set_creator cpdf_set_current_page cpdf_set_font cpdf_set_horiz_scaling cpdf_set_keywords cpdf_set_leading cpdf_set_page_animation cpdf_set_subject 
+cpdf_set_text_matrix cpdf_set_text_pos cpdf_set_text_rendering cpdf_set_text_rise cpdf_set_title cpdf_set_word_spacing cpdf_setdash cpdf_setflat cpdf_setgray cpdf_setgray_fill 
+cpdf_setgray_stroke cpdf_setlinecap cpdf_setlinejoin cpdf_setlinewidth cpdf_setmiterlimit cpdf_setrgbcolor cpdf_setrgbcolor_fill cpdf_setrgbcolor_stroke cpdf_show cpdf_show_xy 
+cpdf_stringwidth cpdf_stroke cpdf_text cpdf_translate crypt current
+date dba_close dba_delete dba_exists dba_fetch dba_firstkey dba_insert dba_nextkey dba_open dba_optimize dba_popen dba_replace dba_sync dbase_add_record dbase_close 
+dbase_create dbase_delete_record dbase_get_record dbase_get_record_with_name dbase_numfields dbase_numrecords dbase_open dbase_pack dbase_replace_record dblist dbmclose 
+dbmdelete dbmexists dbmfetch dbmfirstkey dbminsert dbmnextkey dbmopen dbmreplace debugger_off debugger_on decbin dechex decoct delete dir dirname diskfreespace dl doubleval
+each easter_days echo empty end ereg ereg_replace eregi eregi_replace error_log error_reporting escapeshellcmd exec exp explode extension_loaded extract
+fclose fdf_close fdf_create fdf_get_file fdf_get_status fdf_get_value fdf_next_field_name fdf_open fdf_save fdf_set_ap fdf_set_file fdf_set_status fdf_set_value feof fgetc 
+fgetcsv fgets fgetss file file_exists fileatime filectime filegroup fileinode filemtime fileowner fileperms filepro filepro_fieldcount filepro_fieldname filepro_fieldtype 
+filepro_fieldwidth filepro_retrieve filepro_rowcount filesize filetype flock floor flush fopen fpassthru fputs fread frenchtojd fseek fsockopen ftell ftp_cdup ftp_chdir 
+ftp_connect ftp_delete ftp_fget ftp_fput ftp_get ftp_login ftp_mdtm ftp_mkdir ftp_nlist ftp_pasv ftp_put ftp_pwd ftp_quit ftp_rawlist ftp_rename ftp_rmdir ftp_site ftp_size 
+ftp_systype func_get_arg func_get_args func_num_args fwrite
+get_cfg_var get_current_user get_html_translation_table get_magic_quotes_gpc get_magic_quotes_runtime get_meta_tags getallheaders getdate getenv gethostbyaddr gethostbyname 
+gethostbynamel getimagesize getlastmod getmxrr getmyinode getmypid getmyuid getprotobyname getprotobynumber getrandmax getrusage getservbyname getservbyport gettimeofday 
+gettype gmdate gmmktime gmstrftime gregoriantojd gzclose gzeof gzfile gzgetc gzgets gzgetss gzopen gzpassthru gzputs gzread gzrewind gzseek gztell gzwrite
+header hexdec htmlentities htmlspecialchars
+ibase_bind ibase_close ibase_connect ibase_execute ibase_fetch_row ibase_free_query ibase_free_result ibase_num_fields ibase_pconnect ibase_prepare ibase_query ibase_timefmt 
+ifx_affected_rows ifx_blobinfile_mode ifx_byteasvarchar ifx_close ifx_connect ifx_copy_blob ifx_create_blob ifx_create_char ifx_do ifx_error ifx_errormsg ifx_fetch_row 
+ifx_fieldproperties ifx_fieldtypes ifx_free_blob ifx_free_char ifx_free_result ifx_free_slob ifx_get_blob ifx_get_char ifx_getsqlca ifx_htmltbl_result ifx_nullformat 
+ifx_num_fields ifx_num_rows ifx_pconnect ifx_prepare ifx_query ifx_textasvarchar ifx_update_blob ifx_update_char ifxus_close_slob ifxus_create_slob ifxus_open_slob 
+ifxus_read_slob ifxus_seek_slob ifxus_tell_slob ifxus_write_slob imagearc imagechar imagecharup imagecolorallocate imagecolorat imagecolorclosest imagecolorexact 
+imagecolorresolve imagecolorset imagecolorsforindex imagecolorstotal imagecolortransparent imagecopyresized imagecreate imagecreatefromgif imagedashedline imagedestroy 
+imagefill imagefilledpolygon imagefilledrectangle imagefilltoborder imagefontheight imagefontwidth imagegif imageinterlace imageline imageloadfont imagepolygon imagepsbbox 
+imagepsencodefont imagepsfreefont imagepsloadfont imagepstext imagerectangle imagesetpixel imagestring imagestringup imagesx imagesy imagettfbbox imagettftext imap_8bit 
+imap_alerts imap_append imap_base64 imap_binary imap_body imap_check imap_clearflag_full imap_close imap_createmailbox imap_delete imap_deletemailbox imap_errors imap_expunge 
+imap_fetch_overview imap_fetchbody imap_fetchheader imap_fetchstructure imap_getmailboxes imap_getsubscribed imap_header imap_headers imap_last_error imap_listmailbox 
+imap_listsubscribed imap_mail imap_mail_compose imap_mail_copy imap_mail_move imap_mailboxmsginfo imap_msgno imap_num_msg imap_num_recent imap_open imap_ping imap_qprint 
+imap_renamemailbox imap_reopen imap_rfc822_parse_adrlist imap_rfc822_write_address imap_scanmailbox imap_search imap_setflag_full imap_sort imap_status imap_subscribe imap_uid 
+imap_undelete imap_unsubscribe imap_utf7_decode imap_utf7_encode imap_utf8 implode in_array intval is_array is_dir is_double is_executable is_file is_float is_int is_link 
+is_integer is_long is_object is_readable is_real is_string is_writeable isset
+jddayofweek jdmonthname jdtofrench jdtogregorian jdtojewish jdtojulian  jewishtojd join juliantojd
+key krsort ksort
+ldap_add ldap_bind ldap_close ldap_connect ldap_count_entries ldap_delete ldap_dn2ufn ldap_err2str ldap_errno ldap_error ldap_explode_dn ldap_first_attribute ldap_first_entry 
+ldap_free_result ldap_get_attributes ldap_get_dn ldap_get_entries ldap_get_values ldap_get_values_len ldap_list ldap_mod_add ldap_mod_del ldap_mod_replace ldap_modify 
+ldap_next_attribute ldap_next_entry ldap_read  ldap_search ldap_unbind link linkinfo list log log10 lstat ltrim
+mail max mcal_append_event mcal_close mcal_date_compare mcal_date_valid mcal_day_of_week mcal_day_of_year mcal_days_in_month mcal_delete_event mcal_event_init 
+mcal_event_set_alarm mcal_event_set_category mcal_event_set_class mcal_event_set_description mcal_event_set_end mcal_event_set_recur_daily mcal_event_set_recur_monthly_mday 
+mcal_event_set_recur_monthly_wday mcal_event_set_recur_none mcal_event_set_recur_weekly mcal_event_set_recur_yearly mcal_event_set_start mcal_event_set_title 
+mcal_fetch_current_stream_event mcal_fetch_event mcal_is_leap_year mcal_list_alarms mcal_list_events mcal_next_recurrence mcal_open mcal_snooze mcal_store_event 
+mcal_time_valid mcrypt_cbc mcrypt_cfb mcrypt_create_iv mcrypt_ecb mcrypt_get_block_size mcrypt_get_cipher_name mcrypt_get_key_size mcrypt_ofb md5 metaphone mhash mhash_count 
+mhash_get_block_size mhash_get_hash_name microtime min mkdir mktime msql msql_affected_rows msql_close msql_connect msql_create_db msql_createdb msql_data_seek msql_dbname 
+msql_drop_db msql_dropdb msql_error msql_fetch_array msql_fetch_field msql_fetch_object msql_fetch_row msql_field_seek msql_fieldflags msql_fieldlen msql_fieldname 
+msql_fieldtable msql_fieldtype msql_free_result msql_list_dbs msql_list_fields msql_list_tables msql_listdbs msql_listfields msql_listtables msql_num_fields msql_num_rows 
+msql_numfields msql_numrows msql_pconnect  msql_query msql_regcase msql_result msql_select_db msql_selectdb msql_tablename mssql_close mssql_connect mssql_data_seek 
+mssql_fetch_array mssql_fetch_field mssql_fetch_object mssql_fetch_row mssql_field_length mssql_field_name mssql_field_seek mssql_field_type mssql_free_result 
+mssql_get_last_message mssql_min_error_severity mssql_min_message_severity mssql_num_fields mssql_num_rows mssql_pconnect mssql_query mssql_result mssql_select_db 
+mt_getrandmax mt_rand mt_srand mysql_affected_rows mysql_change_user mysql_close mysql_connect mysql_create_db mysql_data_seek mysql_db_query mysql_drop_db mysql_errno 
+mysql_error mysql_fetch_array mysql_fetch_field mysql_fetch_lengths mysql_fetch_object mysql_fetch_row mysql_field_flags mysql_field_len mysql_field_name mysql_field_seek 
+mysql_field_table mysql_field_type  mysql_free_result mysql_insert_id mysql_list_dbs mysql_list_fields mysql_list_tables mysql_num_fields mysql_num_rows mysql_pconnect 
+mysql_query mysql_result mysql_select_db mysql_tablename
+next nl2br number_format
+ocibindbyname ocicolumnisnull ocicolumnname ocicolumnsize ocicolumntype ocicommit ocidefinebyname ocierror ociexecute ocifetch ocifetchinto ocifetchstatement ocifreecursor 
+ocifreestatement ociinternaldebug ocilogoff ocilogon ocinewcursor  ocinewdescriptor ocinlogon ocinumcols ociparse ociplogon ociresult ocirollback ocirowcount ociserverversion 
+ocistatementtype octdec odbc_autocommit odbc_binmode odbc_close odbc_close_all odbc_commit odbc_connect odbc_cursor odbc_do odbc_exec odbc_execute odbc_fetch_into 
+odbc_fetch_row odbc_field_len odbc_field_name odbc_field_type odbc_free_result odbc_longreadlen odbc_num_fields odbc_num_rows odbc_pconnect odbc_prepare odbc_result 
+odbc_result_all odbc_rollback odbc_setoption opendir openlog ora_bind ora_close ora_columnname ora_columntype ora_commit ora_commitoff ora_commiton ora_error ora_errorcode 
+ora_exec ora_fetch ora_getcolumn  ora_logoff ora_logon ora_open ora_parse ora_rollback ord
+parse_str parse_url passthru pclose pdf_add_annotation pdf_add_outline  pdf_arc pdf_begin_page pdf_circle pdf_clip pdf_close pdf_close_image pdf_closepath 
+pdf_closepath_fill_stroke pdf_closepath_stroke pdf_continue_text pdf_curveto pdf_end_page pdf_endpath pdf_execute_image pdf_fill pdf_fill_stroke pdf_get_info pdf_lineto 
+pdf_moveto pdf_open pdf_open_gif pdf_open_jpeg pdf_open_memory_image pdf_place_image  pdf_put_image pdf_rect pdf_restore pdf_rotate pdf_save pdf_scale pdf_set_char_spacing 
+pdf_set_duration pdf_set_font pdf_set_horiz_scaling pdf_set_info_author pdf_set_info_creator pdf_set_info_keywords pdf_set_info_subject pdf_set_info_title pdf_set_leading 
+pdf_set_parameter pdf_set_text_matrix pdf_set_text_pos pdf_set_text_rendering pdf_set_text_rise pdf_set_transition pdf_set_word_spacing pdf_setdash pdf_setflat pdf_setgray 
+pdf_setgray_fill pdf_setgray_stroke pdf_setlinecap pdf_setlinejoin pdf_setlinewidth pdf_setmiterlimit  pdf_setrgbcolor pdf_setrgbcolor_fill pdf_setrgbcolor_stroke pdf_show 
+pdf_show_boxed pdf_show_xy pdf_skew pdf_stringwidth pdf_stroke pdf_translate pfsockopen pg_close pg_cmdtuples pg_connect pg_dbname pg_errormessage pg_exec pg_fetch_array 
+pg_fetch_object pg_fetch_row pg_fieldisnull pg_fieldname  pg_fieldnum pg_fieldprtlen pg_fieldsize pg_fieldtype pg_freeresult pg_getlastoid pg_host  pg_loclose pg_locreate 
+pg_loopen pg_loreadpg_loreadall pg_lounlink pg_lowrite pg_numfields pg_numrows pg_options pg_pconnect pg_port pg_result pg_tty php_logo_guid phpinfo phpversion pi popen pos 
+posix_ctermid posix_getcwd posix_getegid posix_geteuid posix_getgid posix_getgrgid posix_getgrnam posix_getgroups posix_getlogin posix_getpgid posix_getpgrp posix_getpid 
+posix_getppid posix_getpwnam posix_getpwuid posix_getrlimit posix_getsid posix_getuid posix_isatty posix_kill posix_mkfifo posix_setgid posix_setpgid posix_setsid posix_setuid 
+posix_times posix_ttyname posix_uname pow preg_grep preg_match preg_match_all preg_quote preg_replace preg_split prev print print_r printf putenv
+quoted_printable_decode quotemeta
+rand range rawurldecode rawurlencode readdir readfile readgzfile readlink recode_file recode_string reset rename rewind rewinddir rmdir round rsort
+sem_acquire sem_get sem_release session_decode session_destroy session_encode session_id session_is_registered session_module_name session_module_name session_name 
+session_register session_save_path session_start session_unregister set_file_buffer set_magic_quotes_runtime set_socket_blocking  set_time_limit setcookie setlocale settype 
+shm_attach shm_detach shm_get_var shm_put_var shm_remove  shm_remove_var shuffle similar_text sin sizeof snmp_get_quick_print snmp_set_quick_print snmpget snmpset snmpwalk 
+snmpwalkoid sort soundex split sprintf sql_regcase sqrt srand stat str_repeat str_replace strcasecmp strchr strcmp strcspn strftime strip_tags stripcslashes stripslashes 
+stristr strlen strpos strrchr strrev strrpos strspn strstr strtok strtolower strtoupper strtr strval substr substr_replace sybase_affected_rows sybase_close sybase_connect 
+sybase_data_seek sybase_fetch_array sybase_fetch_field sybase_fetch_object sybase_fetch_row sybase_field_seek sybase_free_result sybase_num_fields sybase_num_rows 
+sybase_pconnect sybase_query sybase_result sybase_select_db symlink syslog system
+tan tempnam time touch trim
+uasort ucfirst ucwords uksort umask unlink unset urldecode urlencode usort utf8_decode utf8_encode
+var_dump virtual vm_addalias vm_adduser vm_delalias vm_deluser vm_passwd
+wddx_add_vars wddx_deserialize wddx_packet_end wddx_packet_start wddx_serialize_value wddx_serialize_vars
+xml_error_string xml_get_current_byte_index xml_get_current_column_number xml_get_current_line_number xml_get_error_code xml_parse xml_parser_create xml_parser_free 
+xml_parser_get_option xml_parser_set_option xml_set_character_data_handler xml_set_default_handler xml_set_element_handler xml_set_external_entity_ref_handler xml_set_object 
+xml_set_processing_instruction_handler xml_set_unparsed_entity_decl_handler
+yp_first yp_get_default_domain yp_master yp_match yp_next yp_order
+zend_logo_guid
+/C6"Built-in Constants"
+__FILE__ __LINE__
+CL_EXPUNGE CP_MOVE CP_UID CRYPT_BLOWFISH CRYPT_EXT_DES CRYPT_MD5 CRYPT_STD_DES
+DOCUMENT_ROOT
+E_CORE_ERROR E_CORE_WARNING E_ERROR E_NOTICE E_PARSE E_WARNING
+FALSE FT_INTERNAL FT_PEEK FT_UID
+GATEWAY_INTERFACE
+HTTP_ACCEPT HTTP_ACCEPT_CHARSET HTTP_ACCEPT_LANGUAGE HTTP_CONNECTION HTTP_ENCODING HTTP_HOST HTTP_REFERER HTTP_USER_AGENT
+LATT_MARKED LATT_NOINFERIORS LATT_NOSELECT LATT_UNMARKED LC_ALL LC_COLLATE LC_CTYPE LC_MONETARY LC_NUMERIC LC_TIME
+MCAL_APRIL MCAL_AUGUST MCAL_DECEMBER MCAL_FEBRUARY MCAL_FRIDAY MCAL_JANUARY MCAL_JULY MCAL_MARCH MCAL_MAYMCAL_JUNE MCAL_MONDAY MCAL_NOVEMBER MCAL_OCTOBER MCAL_RECUR_DAILY 
+MCAL_RECUR_MONTHLY_MDAY MCAL_RECUR_MONTHLY_WDAY MCAL_RECUR_NONE MCAL_RECUR_WEEKLY MCAL_RECUR_YEARLY MCAL_SATURDAY MCAL_SEPTEMBER MCAL_SUNDAY MCAL_THURSDAY MCAL_TUESDAY 
+MCAL_WEDNESDAY MCRYPT_CRYPT MCRYPT_DES MCRYPT_DES_COMPAT MCRYPT_GOST MCRYPT_IDEA MCRYPT_RC2 MCRYPT_RC6 MCRYPT_SAFER128 MCRYPT_SAFER128 MCRYPT_SAFER64 MCRYPT_TEAN 
+MCRYPT_TWOFISH MCRYPT_TWOFISH128 MCRYPT_TWOFISH192 MCRYPT_TWOFISH192 MCRYPT_ThreeWAY MCRYPT_TripleDES MHASH_CRC32 MHASH_CRC32B MHASH_GOST MHASH_HAVAL MHASH_MD5 MHASH_RIPEMD128 
+MHASH_RIPEMD160 MHASH_SHA1 MHASH_SNEFRU MHASH_TIGER
+OCI_ASSOC OCI_B_BLOB OCI_B_CFILE OCI_B_CLOB OCI_B_FILE OCI_B_ROWID OCI_COMMIT_ON_SUCCESS OCI_DEFAULT OCI_D_FILE OCI_D_LOB OCI_D_ROWID OCI_NUM OCI_RETURN_LOBS 
+ODBC_BINMODE_CONVERT ODBC_BINMODE_PASSTHRU ODBC_BINMODE_RETURN OP_ANONYMOUS OP_HALFOPEN OP_READONLY
+PATH_TRANSLATED PCRE_ANCHORED PCRE_CASELESS PCRE_DOLLAR_ENDONLY PCRE_DOTALL PCRE_EXTENDED PCRE_EXTRA PCRE_MULTILINE PCRE_NOTBOL PCRE_NOTEOL PCRE_UNGREEDY PGSQL_ASSOC 
+PGSQL_BOTH PGSQL_NUM PHP_OS PHP_VERSION PREG_PATTERN_ORDER PREG_SET_ORDER PREG_SPLIT_NO_EMPTY
+QUERY_STRING
+REMOTE_ADDR REMOTE_PORT REQUEST_METHOD REQUEST_URI RETURN_NULLS
+SCRIPT_FILENAME SCRIPT_NAME SERVER_ADMIN SERVER_NAME SERVER_PORT SERVER_PROTOCOL SERVER_SIGNATURE SERVER_SOFTWARE SQL_CUR_DEFAULT SQL_CUR_USE_DRIVER SQL_CUR_USE_IF_NEEDED 
+SQL_CUR_USE_ODBC
+TRUE
+XML_ERROR_ASYNC_ENTITY XML_ERROR_ATTRIBUTE_EXTERNAL_ENTITY_REF XML_ERROR_BAD_CHAR_REF XML_ERROR_BINARY_ENTITY_REF XML_ERROR_DUPLICATE_ATTRIBUTE 
+XML_ERROR_EXTERNAL_ENTITY_HANDLING XML_ERROR_INCORRECT_ENCODING XML_ERROR_INVALID_TOKEN XML_ERROR_JUNK_AFTER_DOC_ELEMENT XML_ERROR_MISPLACED_XML_PI XML_ERROR_NONE 
+XML_ERROR_NO_ELEMENTS XML_ERROR_NO_MEMORY XML_ERROR_PARAM_ENTITY_REF XML_ERROR_PARTIAL_CHAR XML_ERROR_RECURSIVE_ENTITY_REF XML_ERROR_SYNTAX XML_ERROR_TAG_MISMATCH 
+XML_ERROR_UNCLOSED_CDATA_SECTION XML_ERROR_UNCLOSED_TOKEN XML_ERROR_UNDEFINED_ENTITY XML_ERROR_UNKNOWN_ENCODING XML_OPTION_CASE_FOLDING XML_OPTION_TARGET_ENCODING
+/C7"Built-in Variables"
+argc argv
+HTTP_COOKIE_VARS HTTP_GET_VARS HTTP_POST_VARS
+PHP_SELF

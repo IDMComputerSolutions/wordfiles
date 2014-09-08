@@ -1,0 +1,85 @@
+/L20"Maple" Block Comment On = # String Chars = "' File Extensions = M Maple
+/C1"Operators"
+and assuming
+implies intersect
+minus mod
+not
+or
+subset
+union
+xor
+/C2"Keywords"
+break by
+catch
+Catalan
+description do done
+elif else end error export
+FAIL
+false fi finally for from
+gamma global
+if in infinity
+I
+lasterror libname local
+module
+next
+NULL
+od option options
+Pi
+printlevel proc
+quit
+read return
+save stop
+then to true try
+undefined use
+while
+/C3"Environment Variables"
+% %% %%%
+ASSERT
+Digits
+index
+newtable
+Normalizer NumericEventHandlers
+Order
+Printlevel
+Rounding
+Testzero
+UseHardwareFloats
+/C4"Functions"
+abs
+AiryAi AiryAiZeros AiryBi AiryBiZeros AngerJ
+arccos arccosh arccot arccoth arccsc arccsch arcsec arcsech arcsin arcsinh arctan 
+arctanh argument
+bernoulli binomial
+BesselI BesselJ BesselJZeros BesselK BesselY BesselYZeros Beta
+ceil conjugate convert cos cosh cot coth csc csch csgn
+ChebyshevT ChebyshevU Chi Ci CylinderD CylinderU CylinderV
+diff dilog
+Dirac
+Ei EllipticCE EllipticCK EllipticCPi EllipticE EllipticF EllipticK EllipticModulus 
+EllipticNome EllipticPi
+erf erfc erfi euler evalc evalf exp expand
+factorial floor frac
+FresnelC Fresnelf Fresnelg FresnelS
+GAMMA GaussAGM GegenbauerC
+HankelH1 HankelH2 Heaviside HermiteH
+harmonic hypergeom
+ilog ilog10 int integrate
+Im
+JacobiAM JacobiCD JacobiCN JacobiCS JacobiDC JacobiDN JacobiDS JacobiNC JacobiND 
+JacobiNS JacobiP JacobiSC JacobiSD JacobiSN JacobiTheta1 JacobiTheta2 JacobiTheta3 
+JacobiTheta4 JacobiZeta
+KelvinBei KelvinBer KelvinHei KelvinHer KelvinKei KelvinKer KummerM KummerU
+LaguerreL LambertW LegendreP LegendreQ LerchPhi Li LommelS1 LommelS2
+ln lnGAMMA log log10
+max min modp 
+MeijerG
+pochhammer polar polylog print printf
+Psi
+round
+Re
+sec sech series signum simplify sin sinh sqrt surd
+Shi Si Ssi StruveH StruveL
+tan tanh trunc type
+WeberE WeierstrassP WeierstrassPPrime WeierstrassSigma WeierstrassZeta 
+WhittakerM WhittakerW
+Zeta

@@ -1,0 +1,138 @@
+/L20"Assembly for MASM" MASM_LANG Nocase Line Comment = ; File Extensions = ASM COD INB INC MAC
+/Delimiters = ~!%&^*()-+=|\/{}[]:;"'<> ,
+/Function String = "%[a-zA-Z0-9_@?$]+[ ^t]+proc+[ ^t^p]"
+/C1"Instruction"
+.break .breakif .continue .else .elseif .endif .exit .if .repeat .startup
+.until .untilcxz .while
+aaa aad aam aas adc add and arpl
+bound bsf bsr bswap bt btc btr bts
+call cbw cdq clc cld cli clts cmc cmov cmp cmps cmpsb cmpsd cmpsw cmpxchg
+cmpxchg8b cpuid cwd cwde
+daa das dec div
+enter esc
+hlt
+idiv imul in inc ins insb insd insw int into invd invlpg invoke iret iretd
+ja jae jb jbe jc jcxz je jecxz jg jge jl jle jmp jna jnae jnb jnbe jnc jne
+jng jnge jnl jnle jno jnp jns jnz jo jp jpe jpo js jz
+lahf lar lds lea leave les lfs lgdt lgs lidt lldt lmsw lock lods lodsb
+lodsd lodsw loop loope loopne loopnz loopz lsl lss ltr
+mov movs movsb movsd movsw movsx movzx mul
+neg nop not
+oio or out outs outsb outsd outsw
+pop popa popad popf popfd push pusha pushad pushf pushfd pushw
+rcl rcr rdmsr rdtsc rep repe repne repnz repz ret retf retn rol ror rsdc
+rsldt rsm rsts
+sahf sal sar sbb scas scasb scasd scasw seta setae setb setbe setc sete
+setg setge setl setle setna setnae setnb setnc setne setng setnge setnl
+setnle setno setnp setns setnz seto setp setpe setpo sets setz sgdt shl
+shld shr shrd sidt sldt smsw stc std sti stos stosb stosd stosw str sub
+svdc svldt svts
+test
+verr verw
+wait wbinvd wrmsr
+xadd xchg xlat xlatb xor
+/C2"Preprocessor"
+%cond %out
+.186 .286 .286c .286p .287 .386 .386p .387 .486 .486c .486p .586 .586p .686
+.686p .8086 .8087 .alpha .dosseg .code .const .cref .data .data? .err .err1
+.err2 .errb .errdef .errdif .erre .fardata .fardata? .k3d .lall .lfcond
+.list .mmx .model .msfloat .nolist .nolistmacro .radix .sall .seq .sfcond
+.stack .type .xall .xcref .xlist
+@catstr @code @codesize @cpu @curseg @data @data? @datasize @date @environ
+@fardata @fardata? @filename @instr @interface @model @sizestr @stack
+@startup @substr @time @version @wordsize
+addr align and arg assume at
+basic byte
+c casemap catstr codeptr codeseg comm comment common compact
+dataptr db dd df dosseg dup dq dt dw dword
+echo else elseif elseifdef elseifidn elseifidni end endif endm endp ends
+epilogue epiloguedef eq equ even exitm export expr32 extern externdef extrn
+far far16 far32 farstack flat for forc fortran fword
+ge global goto group gt
+high highword huge
+ideal if if1 if2 ifb ifdef ifdif ifdifi ifidn ifidni ife ifnb ifndef
+include includelib instr integer irp irpc
+jumps
+label large le length lengthof listing local locals lroffset low lowword lt
+macro mask masm masm51 medium memory mm2word mmword model multerrs
+name near near32 nle nokeyword nolist nolocals noljmp nolocals nomasm51
+none nonunique noscoped nosmart not nothing
+offset opattr option or org
+page para pascal popcontext private proc prologue prologuedef proto ptr
+public publicdll purge pushcontext pword
+quirks qword
+readonly real4 real8 real10 record rept req
+sbyte sdword seg segment shl short size sizeof shr small smart stack
+stdcall struc struct substr subtitle subttl sword symtype
+tbyte textequ this tiny title tword type typedef
+use16 use32 uses union
+vararg
+width word
+xor
+\
+/C3"Coprocessor"
+f2xm1 fabs fadd faddp fbld fbstp fchs fclex fcmov fcom fcomp fcompp fcos
+fdecstp fdiv fdivp fdivr fdivrp ffree fiadd ficom ficomp fidiv fidivr fild
+fimul fincstp finit fist fistp fisub fisubr fld fld1 fldcw fldenv fldl2e
+fldl2t fldlg2 fldln2 fldpi fldz fly2x fly2xp1 fmul fmulp fnclex fninit fnop
+fnsave fnstcw fnstenv fnstsw fpatan fprem fprem1 fptan fqrt frndint frstor
+fsave fscale fsin fsincos fst fstcw fstenv fstp fstsw fsub fsubp fsubr
+fsubrb ftst fucom fucomp fucompp fwait fxam fxch fxtract
+/C4
+!
+%
+&
+*
++
+,
+-
+// /
+>
+=
+<
+|
+/C5"Register"
+$
+?
+@@ @b @f
+ah al ax
+bh bl bp bx
+carry? ch cl cr0 cr2 cr3 cr4 cs cx
+dh di dl dr0 dr1 dr2 dr3 dr4 dr5 dr6 dr7 ds dx
+eax ebx ebp ecx edi edx es esi esp ext0 ext1 ext2 ext3 ext4 ext5 ext6 ext7
+extb0 extb1 extb2 extb3
+fs
+gs
+mm mm0 mm1 mm2 mm3 mm4 mm5 mm6 mm7
+overflow?
+parity?
+si sign? sp ss
+tr3 tr4 tr5 tr6 tr7
+xmm xmm0 xmm1 xmm2 xmm3 xmm4 xmm5 xmm6 xmm7
+zero?
+/C6 MMX 3DNow SIMD
+addps addss andnps andps
+cmpeqps cmpeqss cmpleps cmpless cmpltps cmpltss cmpneqps cmpneqss cmpnleps
+cmpnless cmpnltps cmpnltss cmpordps cmpordss cmpps cmpss cmpunordps
+cmpunordss comiss cvtpi2ps cvtps2pi cvtsi2ss cvttps2pi cvttss2si cvtss2si
+divps divss
+emms
+femms fxrstor fxsave
+ldmxcsr
+maskmovq maxps maxss minps minss movaps movd movdf movdt movhps movhlps
+movlhps movlps movmskps movntps movntq movq movss movups mulps mulss
+orps
+packssdw packsswb packuswb paddb paddd paddsb paddsw paddusb paddusw paddw
+pand pandn pavgb pavgusb pavgw pcmpeqb pcmpeqd pcmpeqd pcmpeqw pcmpgtb
+pcmpgtd pcmpgtw pextrw pf2id pfacc pfadd pfcmpeq pfcmpge pfcmpgt pfmax
+pfmin pfmul pfrcp pfrcpit1 pfrcpit2 pfsqit1 pfrsqrt pfsub pfsubr pi2fd
+pinsrw pmaddwd pmaxsw pmaxub pminsw pminub pmovmskb pmulhrw pmulhuw pmulhw
+pmullw por prefetch prefetchw prefetchnta prefetcht0 prefetcht1 prefetcht2
+psadbw pslld psllq psllw psrad psraw psrld psrlq psrlw psubb psubd psubsb
+psubsw psubusb psubusw psubw punpckhbw punpckhdq punpckhwd punpcklbw
+punpckldq punpcklwd pxor pshufw
+rcpps rcpss rdpmc rsqrtps rsqrtss
+sfence shufps sqrtps sqrtss stmxcsr subps subss syscall sysret
+ucomiss unpckhps unpckps unpcklps
+xmmword xorps
+

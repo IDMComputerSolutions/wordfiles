@@ -1,0 +1,48 @@
+/L20"LISP" Line Comment = ; Block Comment On = #| Block Comment Off = |# String Chars = " File Extensions = lsp LSP
+/Delimiters = ~!@%^&()|{}[];"' ,	.?
+/Function String = "%[a-zA-Z_]*)[~;]"
+/C1"format directives"
+~a ~A ~b ~B ~d ~D ~e ~E ~o ~O ~s ~S ~x ~X ~%
+/C2"sharp signes"
+#\ #| #= #- #+ #( #. #' #: ## #a #A #b #B #c #o #O #r #R #s #S #x #X
+/C3"lambda lists"
+&allow-other-keys &aux &key &optional &rest
+/C4"global variables"
+*features* *load-verbose* *modules* *package* *print-array* *print-base* *print-case* *print-circle* *printescape* *printgensym* *print-length* *print-level* *print-pretty* *print-radix* *read-base* *readtable* *standard-input* *standard-output* *terminal-io*
+/C5"options"
+:allow-other-keys :append :array :base :capitalize :case :circle :count :direction :downcase :element-type :escape :external :from-end :gensym :if-exists :inherited :initial-element :input :internal :key :length :level :output :output-file :pretty :print :radix :stream :test :test-not :upcase :verbose
+/C6"keywords"
+abs acons acos alpha-char-p alphanumericp and append apply apropos aref array-dimensions array-rank arrayp asin assoc atan atom
+block boundp break by bye
+car case catch cdr ceiling char char= char/= char> char>= char< char<= char-code char-downcase char-upcase char-acterp close code-char compile compile-file compiler-let complexp concatenate cond cons consp copy-seq cos
+decf declare defconstant defmacro defparameter defstruct defun defvar delete delete-file delete-if delete-if-not describe digit-char-p do do* do-all-symbols do-external-symbols do-symbols documentation dolist dotimes
+ed eighth eq eql equal error eval eval-when exp export expt
+fifth find-package find-symbol finish-output first flet floatp floor format fourth fresh-line funcall function
+gcd gensym gentemp get getf get-macro-character get-properties go
+if import in-package incf inspect integerp intern isqrt
+labels lanbda last lcm length let let* list list* list-all-packages listp load log loop lower-case-p
+macroexpand macro-function macrolet make-array make-list make-string makunbound mapc mapcan mapcar mapcon mapl maplist max member member-if member-if-not min mod multiple-value-bind multiple-value-call multiple-value-list multiple-value-prog1 multiple-value-setq
+nconc nil ninth not nreverse nstring-downcase nstring-upcase nth nthcdr null numberp
+open or otherwise
+peek-char pi pop pprint prin1 princ print probe-file proclaim prog prog* prog1 progn progv provide psetf psetq push
+quote
+random rationalp read read-char read-preserving-whitespace rem remf remove remove-if remove-if-not remprop rename-file require rest return return-from reverse round rplace rplacd
+second set set-macro-character setf setq seventh shadow sin sixth special special-form-p sqrt step string string= string/= string> string< string>= string<= string-char string-downcase string-upcase stringp subseq symbol-name symbol-package symbol-values
+t tagbody tan tenth terpri the third throw time trace truncate typep
+unless unread-char untrace unwind-protect upper-case-p use-package
+values values-list variable vector vectorp
+when with-input-from-string with-open-file with-output-to-string write write-char write-to-string
+/C7"operators"
+=
+// /= /
+> >=
+< <=
++
+-
+*
+1+ 1-
+evenp
+minusp
+oddp
+plusp
+zerop

@@ -1,0 +1,145 @@
+/L20"XSL" XML_LANG Nocase Block Comment On = <!-- Block Comment Off = --> Block Comment On Alt = <% Block Comment Off Alt = %> File Extensions = XSL XSLT
+/Delimiters = ~!@$%^&*()+=|\{}[];"'<> ,	.
+/C1"HTML ELEMENTS"
+<a> <a </a> <abbr> <abbr </abbr> <above> <acronym> <acronym </acronym> <address> <address </address> <area
+<b> <b </b> <base <bdo> <bdo </bdo> <big> <big </big> <blockquote> <blockquote </blockquote> <body <body> </body> <br <button> </button>
+<caption> <caption </caption> <cite> <cite </cite> <code> <code </code> <col <colgroup> </colgroup>
+<dd> <dd </dd> <del> <del </del> <dfn> <dfn </dfn> <div> <div </div> <dl> <dl </dl> <dt> <dt </dt>
+<em> <em </em>
+<fieldset> <fieldset </fieldset> <font </font> <form> <form </form> <frame <frameset </frameset>
+<h1> <h1 </h1> <h2> <h2 </h2> <h3> <h3 </h3> <h4> <h4 </h4> <h5> <h5 </h5> <h6> <h6 </h6> <head> <head </head> <hr <html> <html </html>
+<i> <i </i> <iframe> </iframe> <ilayer> </ilayer> <img <input <ins> <ins </ins> <isindex
+<kbd> <kbd </kbd>
+<label> <label </label> <legend> <legend </legend> <li> <li </li> <link
+<map </map> <meta
+<noframes> </noframes> <noscript> </noscript>
+<object> <object <ol> <ol </ol> <optgroup> <optgroup </optgroup> <option> <option </option>
+<p <p> </p> <param <pre> <pre </pre>
+<q> <q </q>
+<samp> <samp </samp> <script <script> </script> <select </select> <small> <small </small> <span> <span </span> <strong> <strong </strong> <style> <style </style> <sub> <sub
+</sub> <sup> <sup </sup>
+<table> <table </table> <tbody> <tbody </tbody> <td <td> </td> <textarea <textarea> </textarea> <tfoot> <tfoot </tfoot> <th <th> </th> <thead> <thead </thead> <title> </title>
+<tr <tr> </tr> <tt> </tt> <tt
+<ul> <ul </ul>
+<var> </var> <var
+// />
+>
+/C2"Attributes"
+NaN
+abbr accept accept-charset accesskey action align alink alt archive axis
+background behavior below bgcolor border
+case-order cdata-section-elements cellpadding cellspacing char charoff charset checked cite class classid clear code codebase codetype color cols colspan compact content
+coords count
+data data-type datetime decimal-separator declare defer digit dir disable-output-escaping disabled doctype-public doctype-system
+elements encoding enctype exclude-result-prefixes extension-element-prefixes
+face for format frame frameborder framespacing from
+grouping-separator grouping-size
+headers height hidden href hreflang hspace http-equiv
+id indent infinity ismap
+label lang language letter-value level link longdesc loop
+mailto marginheight marginwidth match maxlength media media-type method minus-sign mode multiple
+name namespace nohref noresize noshade
+object omit-xml-declaration onblur onchange onclick ondblclick onfocus onkeydown onkeypress onkeyup onload onmousedown onmousemove onmouseout onmouseover onmouseup onreset
+onselect onsubmit onunload order
+pattern-separator per-mille percent priority profile prompt
+readonly rel result-prefix rev rows rowspan rules
+scheme scope scrolling select selected shape size span src standalone standby start style stylesheet-prefix summary
+tabindex target terminate test text title topmargin type
+url use use-attribute-sets usemap
+valign value valuetype version vlink vspace
+width
+xmlns:fo
+xmlns:xsl
+zero-digit
+=
+/C3"XSL Properties"
+apply-word-spacing auto-restore azimuth
+background background-attachment background-color background-image background-position background-repeat baseline-shift blank-page block-progression-dimension border
+border-after-color border-after-style border-after-width border-before-color border-before-style border-before-width border-bottom border-bottom-color border-bottom-style
+border-bottom-width border-collapse border-color border-end-color border-end-style border-end-width border-left border-left-color border-left-style border-left-width
+border-right border-right-color border-right-style border-right-width border-spacing border-start-color border-start-style border-start-width border-style border-top
+border-top-color border-top-style border-top-width border-width bottom break-after break-before
+caption-side case-name case-title character clear clip color column-count column-gap column-number column-width country cue cue-after cue-before
+destination-placement-offset direction dom-state
+elevation empty-cells end-indent ends-row extent external-destination
+float flow-name font font-family font-height-override-after font-height-override-before font-size font-size-adjust font-stretch font-style font-variant font-weight
+force-page-count format
+glyph-orientation-horizontal glyph-orientation-vertical grouping-separator grouping-size
+height href hyphenate hyphenation-character hyphenation-keep hyphenation-ladder-count hyphenation-push-character-count hyphenation-remain-character-count
+id indicate-destination inhibit-line-breaks initial-page-number inline-progression-dimension internal-destination
+keep keep-with-next keep-with-previous
+language last-line-end-indent leader-alignment leader-length leader-pattern leader-pattern-width left letter-spacing letter-value linefeed-treatment line-height
+line-height-shift-adjustment line-stacking-strategy
+margin margin-bottom margin-left margin-right margin-top master-name max-height maximum-block-progression-dimension maximum-inline-progression-dimension maximum-repeats
+max-width may-break-after-row may-break-before-row min-height minimum-block-progression-dimension minimum-inline-progression-dimension min-width
+number-columns-repeated number-columns-spanned number-rows-spanned
+odd-or-even orphans overflow
+padding padding-after padding-before padding-bottom padding-end padding-left padding-right padding-start padding-top page-break-after page-break-before page-break-inside
+page-height page-position page-width pause pause-after pause-before pitch pitch-range play-during position precedence provisional-distance-between-starts
+provisional-label-separation
+reference-orientation ref-id region-name richness right role rule-style rule-thickness
+scale score-spaces script show-destination size source-document space-after space-before space-end space-start space-treatment span speak speak-header speak-numeral
+speak-punctuation speech-rate start-indent starting-state starts-row stress suppress-at-eol switch-to
+table-layout table-omit-footer-at-break table-omit-header-at-break text-align text-align-last text-decoration text-indent text-shadow text-transform top
+unicode-bidi
+vertical-align visibility voice-family volume
+white-space white-space-collapse white-space-treatment widows width word-spacing wrap-option writing-mode
+xmllang
+z-index
+/C4"XSLT Elements"
+<fo:bidi-override> <fo:bidi-override </fo:bidi-override> <fo:block> <fo:block </fo:block> <fo:block-container> <fo:block-container </fo:block-container>
+<fo:character> <fo:character </fo:character> <fo:conditional-page-master-reference> <fo:conditional-page-master-reference </fo:conditional-page-master-reference>
+<fo:external-graphic> <fo:external-graphic </fo:external-graphic>
+<fo:float> <fo:float </fo:float> <fo:flow> <fo:flow </fo:flow> <fo:footnote> <fo:footnote </fo:footnote> <fo:footnote-citation> <fo:footnote-citation </fo:footnote-citation>
+<fo:initial-property-set> <fo:initial-property-set </fo:initial-property-set> <fo:inline> <fo:inline </fo:inline> <fo:inline-container> <fo:inline-container
+</fo:inline-container> <fo:instream-graphic> <fo:instream-graphic </fo:instream-graphic>
+<fo:layout-master-set> <fo:layout-master-set </fo:layout-master-set> <fo:leader> <fo:leader </fo:leader> <fo:list-block> <fo:list-block </fo:list-block> <fo:list-item>
+<fo:list-item </fo:list-item> <fo:list-item-body> <fo:list-item-body </fo:list-item-body> <fo:list-item-label> <fo:list-item-label </fo:list-item-label>
+<fo:multi-case> <fo:multi-case </fo:multi-case> <fo:multi-properties> <fo:multi-properties </fo:multi-properties> <fo:multi-property-set> <fo:multi-property-set
+</fo:multi-property-set> <fo:multi-switch> <fo:multi-switch </fo:multi-switch> <fo:multi-toggle> <fo:multi-toggle </fo:multi-toggle>
+<fo:page-number> <fo:page-number </fo:page-number> <fo:page-number-citation> <fo:page-number-citation </fo:page-number-citation> <fo:page-sequence> <fo:page-sequence
+</fo:page-sequence> <fo:page-sequence-master> <fo:page-sequence-master </fo:page-sequence-master>
+<fo:region-after> <fo:region-after </fo:region-after> <fo:region-before> <fo:region-before </fo:region-before> <fo:region-body> <fo:region-body </fo:region-body>
+<fo:region-end> <fo:region-end </fo:region-end> <fo:region-start> <fo:region-start </fo:region-start> <fo:repeatable-page-master-alternatives>
+<fo:repeatable-page-master-alternatives </fo:repeatable-page-master-alternatives> <fo:repeatable-page-master-reference> <fo:repeatable-page-master-reference
+</fo:repeatable-page-master-reference> <fo:root> <fo:root </fo:root>
+<fo:simple-link> <fo:simple-link </fo:simple-link> <fo:simple-page-master> <fo:simple-page-master </fo:simple-page-master> <fo:single-page-master-reference>
+<fo:single-page-master-reference </fo:single-page-master-reference> <fo:static-content> <fo:static-content </fo:static-content>
+<fo:table> <fo:table </fo:table> <fo:table-and-caption> <fo:table-and-caption </fo:table-and-caption> <fo:table-body> <fo:table-body </fo:table-body> <fo:table-caption>
+<fo:table-caption </fo:table-caption> <fo:table-cell> <fo:table-cell </fo:table-cell> <fo:table-column> <fo:table-column </fo:table-column> <fo:table-footer> <fo:table-footer
+</fo:table-footer> <fo:table-header> <fo:table-header </fo:table-header> <fo:table-row> <fo:table-row </fo:table-row>
+<fo:wrapper> <fo:wrapper </fo:wrapper>
+<xsl:apply-imports <xsl:apply-templates <xsl:apply-templates/> </xsl:apply-templates> <xsl:attribute </xsl:attribute> <xsl:attribute-set </xsl:attribute-set> <xsl:call-template </xsl:call-template>
+<xsl:choose> </xsl:choose> <xsl:comment> </xsl:comment> <xsl:copy </xsl:copy> <xsl:copy-of <xsl:decimal-format <xsl:element </xsl:element> <xsl:fallback> </xsl:fallback>
+<xsl:for-each </xsl:for-each> <xsl:if </xsl:if> <xsl:import <xsl:include <xsl:key <xsl:message </xsl:message> <xsl:namespace-alias <xsl:number <xsl:otherwise> </xsl:otherwise>
+<xsl:output <xsl:param </xsl:param> <xsl:preserve-space <xsl:processing-instruction </xsl:processing-instruction> <xsl:sort <xsl:strip-space <xsl:stylesheet </xsl:stylesheet>
+<xsl:template </xsl:template> <xsl:text> <xsl:text </xsl:text> <xsl:transform </xsl:transform> <xsl:value-of <xsl:variable </xsl:variable> <xsl:when </xsl:when> <xsl:with-param
+</xsl:with-param>
+<?xml
+?>
+/C5"XSL Values"
+-180 -270 -90
+0 100 180 200 270 300 400 500 600 700 800 90 900
+above absolute after all alpabetic always any auto avoid
+backslant baseline before behind below bidi-override blank blink bold bolder both bottom
+capitalize caption center center-left center-right code collapse column condensed consider-shifts continuous
+dashed digits disregard-shifts dots dotted double
+embed end even even-page expanded extra-condensed extra-expanded
+false far-left far-right fast faster first fixed font-height
+groove
+hidden hide high higher
+icon ignore indefinite inherit inside italic
+justify
+landscape last left left-side leftwards level lighter line-height line-through loud low lower lowercase lr lr-tb ltr
+max-height medium menu message-box middle mix?
+narrower new no no-force no-limit no-repeat no-wrap nonblank none normal nowrap
+oblique odd odd-page once outside overline
+page portrait pre preserve
+reference-area relative repeat repeat-x repeat-y repeat? replace rest retain ridge right right-side rightwards rl rl-tb rtl rule
+scroll semi-condensed semi-expanded separate show slow slower small-caps small-caption soft solid space spell-out spread start static status-bar sub super suppress
+tb tb-rl text-bottom text-top top traditional transparent treat-as-space true
+ultra-condensed ultra-expanded underline uppercase use-content use-font-metrics
+visible
+wider wrap
+x-fast x-high x-loud x-low x-slow x-soft xsl-any xsl-following xsl-preceding xsl-region-after xsl-region-before xsl-region-body xsl-region-end xsl-region-start
+yes

@@ -1,0 +1,63 @@
+/L20"zMUD Script" Noquote Escape Char = \ File Extensions = ZSC
+/Delimiters = #$%&,. /()0123456789:;<=>[\]^_|~`@
+/C1"Commands"
+ABORT ACTION ADD ADDITEM ADDKEY ALARM ALIAS ALL 
+BACKUP BEEP BUTTON 
+C+ C- CAPTURE CASE CHARACTER CLASS CLOSE CLR COLOR CONFIGURE CONNECT CR CW 
+DBCLOSE DBFIRST DBGET DBLOAD DBNEXT DBOFFLINE DBONLINE DBPREV DBPUT DBRESET 
+DBSAVE DDE DEFAULT DELCLASS DELITEM DELKEY DELNITEM DESCRIBE DIR DISCONNECT 
+DOOR 
+ECHO ECHOPROMPT ERASE EVAL EXEC 
+FILE FIND FORALL FREEZE FUNCTION 
+GAG GAGBLOCK GAGOFF GAGON 
+H+ H- HELP HIGHLIGHT HISTORY HOST 
+IF IGNORE INPUT 
+KEY KILLALL 
+LAUNCH LMAP LOAD LOG LOOK LOOP LOOPDB LOOPVIEW 
+MAKEROOM MAP MARK MATH MEDIA MENU MERGE MESSAGE MOVE 
+NAME NEW NODEF NODIR NOMAP NOOP 
+OK 
+PATH PAUSE PICK PLAY PLUGIN PROMPT PW 
+QUERY 
+READ RECALL RECORD RENAME RESET RETRACE 
+SAVE SAY SAYPROMPT SCROLL SEND SENDPROMPT SESSION SHOW SHOWDB SHOWPROMPT SLOW 
+STATUS STEP STOP STW SUBSTITUTE 
+T+ T- T? TAB TAG TELEPORT TEMP TIMER TRIGGER TS TYPE TZ 
+UNALIAS UNBUTTON UNCLASS UNDIR UNGAG UNKEY UNMENU UNTIL UNTRIGGER UNVAR URL 
+VARIABLE VERBATIM VERSION VIEW 
+WAIT WALK WHILE WINDOW WIZLIST WRAP WRITE 
+YESNO 
+# 
+/C4"Functions"
+abs additem addkey alias ansi ascii average 
+begins bitand bitnot bitor bitxor btncol btnimage 
+case char clip color concat copy count countlist 
+db dbget dblist dbmax dbmin dde ddeclose ddemacro ddeopen ddepoke defined 
+delete delitem delkey dice diceavg dicedev dicemax dicemin dups 
+ends eval exec expand 
+filesize find format 
+getglobal grep 
+handle 
+if insert iskey ismember isnumber item 
+lastdir left leftback len literal look lower 
+max min mod 
+null number numbuttons numitems numkeys numparam numrec numrooms numwords 
+numzones 
+param pick pos prompt proper 
+query quote 
+random read remove repeat replace right rightback roomcol roomcom roomcontents 
+roomcost roomdesc roomexit roomflags roomid roomkind roomlink roomload roomname 
+roomnote roomnum roomobj roomportal 
+setglobal sort stdev sum 
+time trigger trim trimleft trimright 
+upper 
+viewrec 
+walk walkmode window word write 
+yesno 
+zonename zonenum 
+% 
+/C3"Misc"
+-
++
+=
+@

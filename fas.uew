@@ -1,0 +1,58 @@
+/L20"Flash ActionScript" 1Line Comment = # Nocase String Chars = " File Extensions = FAS
+/Delimiters = ~!@%^&*()-+|\/{}[];"'<> ,	.?
+/Indent Strings = "else"")""(""1""2""3""4""5""6""7""8""9""0""""
+/Unindent Strings = "end" "else" "#"
+/Function String = "*=*" 
+/C1"actions"
+all 
+begin  
+Comment Call Clip Command
+Duplicate Drag  
+End Else   
+FS Frame
+get go Getproperty
+High
+If 
+Loop  Load Loaded
+Movie
+Next
+Play Property Previous
+Quality
+Remove
+Set Start Stop Sounds sp sv
+Trace Toggle tell Target to
+URL
+Variable
+While
+/C2"values"
+Alpha
+B= buffer
+Drag Over Drag Out
+focus
+High
+Key:
+L= lockcenter 
+Name
+Outside Over Out
+Press Position
+Rotation R Release Roll rectangle
+Show Sound Scale
+T= time
+vars visibility
+window
+X
+Y
+/C3"expression"
+_currentframe _x _y _width _height _rotation _target _name _xscale _yscale _droptarget _visible _alpha _framesloaded _totalframes
+and
+Chr
+Eval eq
+False
+GetTimer ge gt
+Int
+Length le lt
+Newline ne not
+Ord or
+Random
+Substring
+True

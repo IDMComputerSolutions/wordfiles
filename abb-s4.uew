@@ -1,0 +1,115 @@
+/L20"ABB-S4 + IRC5 RAPID" Nocase Line Comment = ! String Chars = " File Extensions = PRG SYS CFG MOD
+/Delimiters = %&*()-+=|\/{}[];"'<> ,	.?
+/Function String = "%[PMTF ]+[ROU][ODAN][CUP]*$"
+/Indent Strings = "ELSE" "ELSEIF" "THEN" "DO"
+/Unindent Strings = "ENDIF" "ELSE" "ENDFOR" "ENDPROC" "ENDMODULE" "ENDWHILE" "ENDFOR" "ENDTEST"
+/C1
+BACKWARD
+CONST
+DIV DO
+ENDFOR ENDIF ENDTEST ENDWHILE ERROR
+FOR FROM
+GOTO
+IF INOUT
+MOD
+NOSTEPIN NOT NOVIEW
+PERS
+RAISE READONLY RETRY RETURN
+STEP SYSMODULE
+TEST THEN TO TRYNEXT
+VAR VIEWONLY
+WHILE WITH
+/C2
+AccSet ActUnit Add
+Break
+CallByVar Clear ClkReset ClkStart ClkStop Close ConfJ ConfL CONNECT CorrClear CorrCon CorrDiscon CorrWrite
+DeactUnit Decr
+EoffsOff EOffsOn EoffsSet ERRNO ErrWrite EXIT ExitCycle
+GripLoad
+IDelete Idisable IEnable Incr IndAMove IndCMove IndDMove IndReset IndRMove
+InvertDO IODisable IOEnable IsignalDI ISignalDO Isleep ITimer IVarValue IWatch
+Load
+MoveAbsJ MoveC MoveJ MoveL
+Open
+PathResol PdispOff PDispOn PDispSet PulseDO
+Reset RestoPath Rewind
+SearchC SearchL Set SetAO SetDO SetGO SingArea SoftAct SoftDeact StartMove Stop StopMove StorePath
+TPErase TPReadFK TPReadNum TPShow TPWrite TriggC TriggEquip TriggInt TriggIO TriggJ TriggL TuneReset TuneServo
+UnLoad
+VelSet
+WaitDI WaitDO WaitTime WaitUntil WriteBin WriteStrBin WZBoxDef WZCylDef WZDisable WZDOSet WZEnable WZFree WZLimSup WZSphDef
+/C3
+bool
+clock confdata corrdescr
+dionum
+errnum extjoint
+intnum iodev
+jointtarget
+loaddata local
+mecunit motsetdata
+num
+o_jointtarget o_robtarget orient
+pos pose progdisp
+robjoint robtarget
+shapedata signalai signalao signaldi signaldo signalgi signalgo speeddata string symnum
+tooldata tpnum triggdata tunetype
+wobjdata wzstationary wztemporary
+zonedata
+/C4
+Abs ACos AOutput ArgName ASin ATan ATan2
+ByteToStr
+CDate CjointT ClkRead CorrRead Cos CPos CRobT CTime CTool CWObj
+DefDFrame DefFrame Dim DOutput
+EulerZYX Exp
+GetTime Goutput
+IndInpos IndSpeed IsPers IsVar
+MirPos
+NumToStr
+Offs OpMode OrientZYX ORobT
+PoseInv PoseMult PoseVect Pow Present
+ReadBin ReadMotor ReadNum ReadStr RelTool Round RunMode
+Sin Sqrt StrFind StrLen StrMap StrMatch StrMemb StrOrder StrPart StrToByte StrToVal
+Tan TestDI Trunc
+ValToStr
+/C5
+AbsPosVergleich
+CheckHomePos CheckParity
+EndSync
+FahreZuPos
+High
+Low
+Meldung mv
+PosVergleich ProgInfo
+RobSync
+SetParity SMoveJ SMoveL SyncEvent
+WaitBreakDI WaitMsgDI WaitTPBreakDI
+/C6
+ENDFUNC ENDMODULE ENDPROC ENDTRAP
+FUNC
+MODULE
+PROC
+TRAP
+/C7
+CASE
+DEFAULT
+ELSE ELSEIF
+/C8
+#
+%
+&
+*
++
+,
+-
+// /
+:
+<
+=
+>
+^
+AND
+FALSE
+OR
+TRUE
+XOR
+|

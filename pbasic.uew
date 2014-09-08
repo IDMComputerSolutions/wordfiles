@@ -1,0 +1,58 @@
+/L20"PowerBasic" Nocase Line Comment = ' File Extensions = BAS INC
+/Delimiters = ~!@^*()+=|\{}[]:;"' 	,.<>
+/Function String = "%*^{Sub^}^{Function^}*("
+/C1"PRECOMPILER NEW"
+#Compile
+#Debug #Dim
+#Else #ElseIf #EndIf
+#If #Include
+#Option
+#Register #Resource
+#Segment #Stack
+/C2"PRECOMPILER OLD"
+$Compile
+$Debug $Dim
+$Else $ElseIf $EndIf
+$If $Include
+$Option
+$Register $Resource
+$Segment $Stack
+/C3"PREDEFS"
+%Def
+/C4"STATEMENTS"
+Abs AcceptAccess Addr Alias All And Any Append Array As Asc Ascend Asciiz Asm At Atn Attach Attrib
+Base Baud Bdecl Beep Bin$ Binary Bit Bits% Bits& Bits? Bits?? Bits??? Break ByCopy ByRef Byte ByVal
+Call Case CByt CCur CCux Cd CDbl Cdecl CDwd Ceil Cext ChDir ChDrive Chr$ CInt CLng Close Cls CodePtr
+Collate Color Comm Command$ Con ConsIn ConsName$ Console ConsOut Cos CQud Create CSng CtsFlow Cur CurDir$
+Currency CurrencyX Cursor CursorX CursorY Cux CvByt CvCur CvCux Cvd CvDwd Cve Cvi Cvl Cvq Cvs CvWrd CWrd
+Data DataCount Date$ Declare Decr Default DefByt DefCur DefCux DefDbl DefDwd DefExt DefInt DefLng DefQud
+DefSng DefStr DefWrd Delete Descend Dim Dir$ DiskFree DiskSize Dll Do Double Down DseFlow
+DsrSens DtrFlow DtrLine Dword
+Else ElseIf End Environ$ Eof Eqv Erase Err ErrApi ErrClear Error Exe Exit Exp Exp10 Exp2 Explicit Export
+Ext Extended Extract$
+Far FileAttr FileCopy FileName$ Fix Flush For Format$ FormFeed Frac FreeFile From Function
+Get Get$ GetAttr GetStdErr GetStdIn GetStdOut Global GoSub GoTo
+Handle Hex$ HiByt HiWrd Host
+Idn If Imp In Incr InKey$ Input Input# Input$ Insert InShift InStat Instr Int Integer Inv IsFalse IsTrue Iterate
+Kill
+LBound LCase$ Left Left$ Len Let Lib Line LoByt Loc Local Locate Lock Lof Log Log10 Log2 Long Loop LoWrd
+Lprint Lprint$ Lset Ltrim$
+MakDwd MakLng MakPtr Mat Max Max$ Max% Max& MCase$ Mid$ Min Min$ Min% Min& MkByt$ MkCur$ MkCux$ Mkd$ MkDir
+MkDwd$ Mke$ Mki$ Mkl$ Mkq$ Mks$ MkWrd$ Mod Mouse MouseButtons MouseStat MouseX MouseY Move
+Name Next None Not Notify Null
+Oct$ Of Off On Open Option Or Output
+Page Parity ParityChar ParityRepl ParityType Parse$ ParseCount Pbd PbDebug PbMain Pcopy Peek Peek$ Pointer
+Poke Poke$ Port Preserve Print Print# Private Ptr Put Put$
+Quad
+Random Randomize Read Read$ Recv ReDim RegExpr Register RegRepl Rem Remain$ Remove$ Repeat$ Replace Reset
+Resume Ret16 Ret32 Ret87 Retp16 Retp32 RetPrm Return Rgb Right Right$ Ring Rlsd RmDir Rnd Rotate Round
+Rset Rtrim$ RtsFlow RxBuffer RxQue
+Scan Screen ScreenAttr ScreenX ScreenY Scroll Sdecl Seek Select Send Set SetAttr SetEof Sgn Shared Shell
+Shift Signed Sin Single SizeOf Sleep Sort Space$ Spc Sqr Static Status StdCall StdEof StdErr StdIn StdOut
+Step Str$ StrDelete$ String String$ StrInsert$ Stop StrPtr StrReverse$ Sub Suspend Swap
+Tab TagArray Tally Tan Tcp Then Thread Time$ TimeOut Timer To Toggle Trim$ Trn Type TxBuffer TxQue
+UBound Ucase UCase$ Udp Union UnLock Until Up Using
+Val VarPtr Verify Version3 Version4 Version5
+WaitKey$ WaitStat Wend While Width With Word Write Write
+XinpFlow XoutFlow Xor
+Zer

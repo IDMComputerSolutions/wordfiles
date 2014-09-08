@@ -1,0 +1,37 @@
+/L20"ChordPro" Noquote Line Comment = # File Extensions = PRO CHO CHOPRO CRD.CRDPRO
+/Delimiters = ~!@%^&*()-+=|\/{}[];"' <>,	?
+/Function String = "{*}"
+/Function String 1 = "^(^[[a-z]+^]^)"
+/Marker Characters = "[]"
+/Indent Strings SOL = "{start_of_tab}" "{sot}"
+/Unindent Strings = "{end_of_tab}" "{eot}"
+
+/C1"Titles"
+** subtitle: ** st:
+** title: ** t:
+/C2"Chords"
+define
+[]
+/C3"Comment"
+** comment: ** c:
+/C4"Chorus"
+start_of_chorus soc
+end_of_chorus eoc
+/C5"String"
+base-fret
+frets
+0
+1
+2
+3
+4
+5
+6
+x
+/C6"Print Format"
+** comment_italic: ** ci: ** comment_box: ** cb: ** chordsize: ** chordfont:
+** end_of_tab or ** eot
+** grid ** g
+** new_song ns ** no_grid ** ng ** new_page ** np ** new_physical_page ** npp
+** start_of_tab or ** sot
+** textfont: ** textsize:

@@ -1,0 +1,44 @@
+/L20"Schema" Block Comment On = <!-- Oracle BPEL = --> String Chars = " File Extensions = BPEL
+/Delimiters = |(),	.=;
+/C1"Elements"
+** <
+// />
+>
+<
+?>
+<?
+<?variable
+<?xml
+<?xmlns
+<?xmlns:?
+]]>
+/C2"Schema Keywords"
+condition
+default
+expression 
+form
+inputVariable 
+messageType
+myRole
+name 
+namespace
+operation 
+outputVariable
+part 
+partnerLink
+partnerLinkType 
+partnerRole
+portType
+portType
+query 
+targetNamespace
+type
+use
+value
+variable
+xmlns
+
+/C3
+,
+;
+=

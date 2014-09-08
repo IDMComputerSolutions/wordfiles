@@ -1,0 +1,817 @@
+/L20"Coq" Block Comment On = (* Block Comment Off = *) Escape Char = \ String Chars = " File Extensions = V COQ
+/Delimiters = . ()	[]:;=`,"
+/Function String = "%^{Definition^}^{Syntactic^}"
+/Function String 1 = "%^{Inductive^}^{Parameter^}"
+/Function String 2 = "%^{Lemma^}^{Theorem^}"
+/C1"KeyWords"
+arguments
+else end
+ident if implicit inside
+of outside
+then
+Abort Add All Arguments AutoInline Axiom
+Back Begin
+Canonical Cases Cd Chapter Check Classes CoFixpoint CoInductive Coercion
+Coercions Conjectures Constant Constructors Correctness
+Declare Defined Definition Drop
+End Eval Explicitation Export Extern Extract Extraction
+Fact File Fixpoint Focus
+Global Goal Grammar Graph
+HintDb Hypothesis Hyps_limit
+Identity If Immediate Implicit Implicits Inductive Infix Initial Inline Inspect
+Language Lemma LetLibrary Load LoadPath Local Locate
+ML Module Modules Morphism Mutual
+NoInline
+Off On Opaque Optimize
+Parameter Path Paths Printing Programs Proof Pwd
+Qed Quit
+Read Rec Recursive Remark Remove Require Reset Resolve Restart Restore Resume
+Save Scheme Script Search SearchPattern SearchRewrite Section Semi Setoid
+Show Silent Structure Suspend Syntactic Syntax Synth
+Table Tactic Test Theorem Time Transparent Tree
+Undo Unfocus Unset
+Variable Variables Verbose
+Wildcard Write
+/C2"Tactics"
+after
+in
+macros
+pattern
+tactic tactics
+until using
+with
+Abstract Absurd Apply Assert Assumption Auto AutoRewrite
+Binding
+Case CaseEqk Cbv Change Clear ClearBody Compare Compute Constructor
+Contradiction Conversion Cut CutRewrite
+Decide Decompose Dependent Derive Destruct DiscrR Discriminate Do Double
+EApply EAuto Elim ElimCompare ElimType Equality Exact Exists
+Fail Field First Fold Fourier
+Generalize
+Hint  Hints Hnf
+Idtac Induction Injection Intro Intros Intuition Inversion Inversion_clear
+Isrealint
+LApply Lazy Left LetTac
+Move
+NewDestruct NewInduction
+Omega Orelse
+Pattern Pose Print Prolog
+Quote
+Record Red Refine Reflexivity Rename Repeat Replace Rewrite Right Ring
+Setoid_replace Setoid_rewrite Simpl Simple Simplify_eq Solve Split SplitAbs
+SplitAbsolu SplitRmult SqRing Sum Sup0Symmetry
+Tacticals TailSimpl Tauto Transitivity Trivial Try
+Unfold
+/C3"IndDef"
+ad and
+between bool build_heap
+cardinal clos_refl_sym_trans clos_refl_trans clos_trans covers
+diveucl
+entier eq eqT eq_dep eq_dep1 even ex ex2 exT exT2 exists
+flat_spec fst_nth_spec
+identityT insert_spec is_heap
+le le_AsB le_WO lelistA lexprod list
+mapcanon merge_lem multiset
+nat natinf noetherian nth_spec
+odd option or
+positive prod prodT
+relation
+sig sig2 sigS sigS2 sigT sigT sigTT sort sum sumbool sumboolT sumor sumorT
+swapprod symprod
+uniset unit
+Acc AllS AllS_assoc Approximant
+Bottom
+Complete Conditionally_complete Couple
+Desc Directed Disjoint
+EmptyT Empty_set Empty_set EqSt Equivalence
+False Finite ForAll
+Glb
+IfProp Im InR In_spec Inhabited Integers Intersection
+JMeq
+Lower_Bound Ltl Lub
+Map
+Order
+PER P_nth Power_set Preorder
+Rplus Rstar Rstar1
+Set Singleton
+Totally_ordered Triple True
+Union Upper_Bound
+WO
+Z
+/C4"Definitions"
+aapp absolu acons ad_alloc_opt ad_bit ad_bit_0 ad_bit_1 ad_div_2 ad_double
+ad_double_plus_un ad_eq ad_eq_1 ad_in_list ad_inj ad_le ad_less ad_less_1
+ad_list_of_dom ad_list_stutters ad_min ad_monotonic ad_of_nat ad_pdist
+ad_plength ad_plength_1 ad_xor add_carry add_un adf_xor adhDa alist
+alist_nth_ad alist_of_Map alist_semantics alist_sorted alist_sorted_1
+alist_sorted_2 all allT andb andb_true_eq anil anti_convert antisymmetric app
+assoc
+beq_eq_not_false beq_eq_true beq_false_not_eq beq_nat beq_nat_eq bound
+charac coherence coherent commut comp compare confluence confluent const
+constant contains contents continue_in continuity continuity_pt convert
+cos_approx cos_lb cos_term cos_ub cosd
+decidable decreasing derivable derivable_pt derive dist_euc div2 div_fct
+div_real_fct double double_moins_deux double_moins_un
+empty_set entier_of_Z eq2eqT eqT2eq eqT_ind_r eqT_rec_r eqT_rect_r eq_S eq_dec
+eq_ind_r eq_nat eq_rec_r eq_rect_r eqb eqf eqm eqmap equiv equiv_Tree error
+eventually except exists_beq_eq
+fact fast_OMEGA10 fast_OMEGA11 fast_OMEGA12 fast_OMEGA13 fast_OMEGA14
+fast_OMEGA15 fast_OMEGA16 fast_Zmult_Zopp_left fast_Zmult_assoc_r
+fast_Zmult_plus_distr fast_Zmult_sym fast_Zopp_Zmult_r fast_Zopp_Zopp
+fast_Zopp_Zplus fast_Zopp_one fast_Zplus_assoc_l fast_Zplus_assoc_r
+fast_Zplus_permute fast_Zplus_sym fast_Zred_factor0 fast_Zred_factor1
+fast_Zred_factor2 fast_Zred_factor3 fast_Zred_factor4 fast_Zred_factor5
+fast_Zred_factor6 fct_cte find fix flat_map fleche floor floor_pos fold_left
+fold_right frac_part fst fstT
+ge gt gtof
+hd head
+identityT_ind_r identityT_rec_r identityT_rect_r ifb ifdec iff implb in_FSet
+in_dom in_int incl inclusion increasing index_p inf_dec infinit_sum inject_nat
+injective is_lub is_upper_bound iter iter_nat iter_pos
+leA_Tree le_or_le_S leb lel length lex_exp limit1_in limit_in list_contents
+list_power list_prod local_confluence locally_confluent log_inf log_inf_correct1
+log_inf_correct2 log_near log_sup lt lt_or_eq ltl ltof
+makeM2 map max mem meq min minus minus_fct mul_factor mult mult_acc mult_fct
+mult_real_fct multiplicity munion
+nat_le nat_of_ad nat_po negb neq newMap ni_le ni_min no_cond notT
+not_eq_false_beq nth nth_default nth_error nth_ok
+opp_fct orb
+p_xor permutation plat plus_acc plus_fct positive_to_nat pow powerRZ pred
+prodT_curry prodT_uncurry proj1_sig proj2_sig projS1 projS2 projT1 projT2
+reflexive rev
+same_relation same_relation seq set set_In set_add set_diff set_fold_left
+set_fold_right set_inter set_map set_mem set_power set_prod set_remove set_union
+shift shift_nat shift_pos sigma_aux sin_approx sin_lb sin_term sin_ub sind snd
+sndT sol_x1 sol_x2 strict_decreasing strict_increasing sub_neg sub_pos sub_un
+sum_f sum_f_R0 sum_nat sum_nat_O sum_nat_f sum_nat_f_O sym_equal sym_not_equal
+symmetric
+tail tail_mult tail_plus tan tand times1 tl toDeg toRad trans_clos trans_equal
+transitive transp try_find two_p two_power_nat two_power_pos
+union
+value
+well_founded wof
+xorb xr xt
+yr yt
+zerob
+Acc_rec Acc_rect AllT Antisymmetric
+Carrier Cauchy_crit CoInduction Compatible Complement Confluent Cons
+DMerge D_in D_x Delta Delta_is_pos Descl Dgf
+EUn Elems EmptyBag Emptyset Ensemble Error Ex Ex2 ExT ExT2 Exc Except
+FSet FSetDelta FSetDiff FSetInter FSetUnion Fix_F Fst Fullset
+IF IFProp INR INR2 INZ IZR In InR_inv Included Int_part IsSucc Is_power Is_true
+Isnil
+Le_AsB Length_l LexProd Lex_Exp List Locally_confluent
+MapCanonicalize MapCard MapCollect MapCollect1 MapDelta MapDisjoint
+MapDisjoint_1 MapDisjoint_2 MapDom MapDomRestrBy MapDomRestrTo MapEmptyp MapFold
+MapFold1 MapFold1_state MapFold_state MapGet MapMerge MapPut MapPut1
+MapPut_behind MapRemove MapSingleton MapSubset MapSubset_1 MapSubset_2 MapSweep
+MapSweep1 MapSweep2 Map_of_alist
+N_digits Nil Noetherian Not_b Nth_func
+Op
+Pow Power Power_set_PO ProjS1 ProjS2 Prop_S Pser
+R_dist R_met Rabsolu Rdiv Reflexive Rel Relation Rge Rgt Rle Rmax Rmax_N Rmin
+Rminus Rsqr Rstar'
+Same_set Setminus SingletonBag Snd Str_nth Str_nth_tl Strict_Included
+Strict_Rel_of Strongly_confluent Subtract SwapProd Symmetric Symprod
+Transitive
+Un_cv Un_growing Un_suivi_de
+Value
+Z_noteq_dec Z_notzerop Z_of_entier Zabs Zcompare Zdiv Zdiv2 Zdiv2_pos Zdiv_eucl
+Zdiv_eucl_POS Zdiv_rest Zdiv_rest_aux Zeq_bool Zero_suivi_de Zeven Zeven_bool
+Zge Zge_bool Zgt Zgt_bool Zle Zle_bool Zlt Zlt_bool Zmin Zminus Zmod Zmult
+Zmult_Zplus_distr Zmult_plus_distr Zne Zneq_bool Zodd Zodd_bool Zopp Zplus
+Zpower Zpower_nat Zpower_pos Zpred Zs Zsgn
+/C5"Constructors"
+ad_x ad_z allS_assoc_cons allS_assoc_nil allS_cons allS_nil
+bet_S bet_emp
+card_add card_empty conj cons cons_leA cons_sort
+d_conc d_nil d_one definition_of_noetherian divex
+eq_dep1_intro eq_dep_intro eqst even_O even_S exT_intro exT_intro2 ex_intro
+ex_intro2 exist exist2 existS existS2 existT existTT exists_S exists_le
+false flat_exist forall fst_nth_O fst_nth_S
+heap_exist
+inR_hd inR_tl in_hd in_tl infty inl inleft inleftT inr inright inrightT
+insert_exist
+le_S le_aa le_ab le_bb le_n le_sup left leftT left_lex left_sym
+merge_exist
+ni nil nil_is_heap nil_leA nil_sort node_is_heap nth_O nth_S nth_spec_O
+nth_spec_S
+odd_S or_introl or_intror
+pair pairT
+refl_eqT
+refl_equal refl_identity refl_identityT right rightT right_lex right_sym
+rst_refl rst_step rst_sym rst_trans rt_refl rt_step rt_trans
+sp_noswap sp_swap sup
+t_step t_trans true tt
+xH xI xO
+Acc_intro
+Bag Bottom_definition
+Charac Couple_l Couple_r
+Definition_of_Complete Definition_of_Conditionally_complete
+Definition_of_Directed Definition_of_PER Definition_of_Power_set
+Definition_of_covers Definition_of_equivalence Definition_of_order
+Definition_of_preorder Defn_of_Approximant Disjoint_intro
+EGAL Empty_is_finite
+Full_intro Further
+Glb_definition
+Here
+I INFERIEUR IT Iffalse Iftrue Im_intro In_singleton Inhabited_intro
+Integers_defn Intersection_intro
+JMeq_refl
+Lower_Bound_definition Lt_hd Lt_nil Lt_tl Lub_definition
+M0 M0_canon M1 M1_canon M2 M2_canon
+NEG NONE None Nul
+O
+POS Pos
+Rplus_0 Rplus_n Rstar1_0 Rstar1_1 Rstar1_n Rstar_0 Rstar_n
+S SOME SUPERIEUR Some
+Totally_ordered_definition Tree_Leaf Tree_Node Triple_l Triple_m Triple_r
+Union_introl Union_intror Union_is_finite Upper_Bound_definition
+ZERO Zdiv_rest_proof
+/C6"Axioms"
+add_0_x add_Sx_y add_assoc_l add_eq_compat add_sym arc_sin_cos archimed
+bar
+classic complet cos cos_0 cos_bound cos_minus cos_plus
+deriv_sin deriv_sqrt derive_increasing_interv_ax derive_pt derive_pt_def
+eqN eq_not_neq eq_rec_eq eq_refl eq_sym eq_trans
+fct_eq foo
+ge_not_lt gt_not_le
+le_lt_or_eq lt lt_S_compat lt_add_compat_l lt_anti_refl lt_eq_compat lt_or_eq_le
+lt_trans lt_x_Sx lt_x_Sy_le
+neq_not_neq_trans neq_sym nonneg_derivative_1 not_le_gt not_lt_ge
+one
+positive_derivative
+sigma sin sin_PI2 sin_bound sin_eq_0 sin_lb_gt_0 sin_minus sin_plus sqrt
+total_order_T
+up
+zero
+Extensionality_Ensembles
+IAF
+JMeq_eq
+List_Dom
+My_special_variable My_special_variable0 My_special_variable1
+NRplus
+PI PI_RGT_0
+R0 R1 R1_neq_R0 Rinv Rinv_l Rlt Rlt_antisym Rlt_compatibility Rlt_monotony
+Rlt_trans Rmult Rmult_1l Rmult_Rplus_distr Rmult_assoc Rmult_sym Ropp
+Rplus_Ol Rplus_Ropp_r Rplus_assoc Rplus_sym
+S_0_1 S_eq_compat
+/C7"Modules"
+auxiliary
+fast_integer
+zarith_aux
+Adalloc AddProps Addec Addr Adist Allmaps Arith Axioms
+Berardi Between Bool BoolEq
+Classical Classical_Pred_Set Classical_Pred_Type Classical_Prop Classical_Type
+Classical_sets Compare_dec Constructive_sets Cpo
+Datatypes DatatypesSyntax DecBool Decidable Definitions DiscrAxioms DiscrProps
+Disjoint_Union Div Div2
+Ensembles EqAxioms EqNat EqParams Eqdep Eqdep_dec Euclid Even
+Finite_sets Finite_sets_facts Fset
+GeAxioms GeProps Gt GtAxioms GtProps
+Heap
+Image Inclusion Infinite_sets Inverse_Image
+Le
+LeAxioms LeProps Lexicographic_Exponentiation Lexicographic_Product List ListSet
+Logic LogicSyntax Logic_Type Logic_TypeSyntax Lsort Lt LtProps
+Mapaxioms Mapc Mapcanon Mapcard Mapfold Mapiter Maplists Mapsubset Max Min
+Minus Mult Multiset
+NSyntax NeqAxioms NeqDef NeqParams NeqProps Newman
+Operators_Properties OppAxioms OppProps
+Params Partial_Order Peano Peano_dec Permut Permutation Plus PolyList
+PolyListSyntax Powerset Powerset_Classical_facts Powerset_facts Prelude
+R_Ifp R_sqr Ranalysis Raxioms Rbase Rbasic_fun Rdefinitions Rderiv Reals
+Relation_Definitions Relation_Operators Relations Relations_1 Relations_1_facts
+Relations_2 Relations_2_facts Relations_3 Relations_3_facts Rfunctions Rgeom
+Rlimit Rseries Rsigma Rsyntax Rtrigo Rtrigo_fun
+Sorting Specif SpecifSyntax Streams SubProps
+Sumbool
+TheoryList Transitive_Closure TypeSyntax
+Uniset
+Well_Ordering Wellfounded Wf Wf_Z Wf_nat
+ZArith ZArith_dec Zcomplements Zerob Zhints Zlogarithm Zmisc Zsyntax
+/C8"Operators"
+|
+: := ::
+= =>
+> >>
+<> << <-
+->
+\/
+// /\
+;
+~
+#
+*
+,
+?
+@
+/
+(
+)
+[
+]
+.
+_PI2_RLT_0
+aapp_length  absolu_lt  absoption_andb  absoption_orb  absurd  absurd_set
+acc_A_B_lexprod  acc_A_sum  acc_B_sum  acc_app  ad_alloc_opt_allocates
+ad_alloc_opt_allocates_1  ad_alloc_opt_optimal  ad_alloc_opt_optimal_1
+ad_bit_0_0_not_double_plus_un  ad_bit_0_1_not_double  ad_bit_0_correct
+ad_bit_0_gt  ad_bit_0_less  ad_bit_0_neq  ad_comp_double_inj
+ad_comp_double_monotonic  ad_comp_double_plus_un_inj
+ad_comp_double_plus_un_monotonic  ad_comp_monotonic  ad_div_2_correct
+ad_div_2_double  ad_div_2_double_plus_un  ad_div_bit_eq  ad_div_bit_neq
+ad_div_eq  ad_div_neq  ad_double_bit_0  ad_double_div_2  ad_double_inj
+ad_double_monotonic  ad_double_or_double_plus_un  ad_double_plus_un_bit_0
+ad_double_plus_un_div_2  ad_double_plus_un_inj  ad_double_plus_un_monotonic
+ad_eq_comm  ad_eq_complete  ad_eq_correct  ad_faithful  ad_faithful_1
+ad_faithful_2  ad_faithful_3  ad_faithful_4  ad_in_elems_in_list  ad_in_list_app
+ad_in_list_app_1  ad_in_list_forms_circuit  ad_in_list_l
+ad_in_list_of_dom_in_dom  ad_in_list_r  ad_in_list_rev  ad_ind_double
+ad_le_antisym  ad_le_double_mono  ad_le_double_mono_conv
+ad_le_double_plus_un_mono  ad_le_double_plus_un_mono_conv  ad_le_lt_trans
+ad_le_refl  ad_le_trans  ad_less_def_1  ad_less_def_2  ad_less_def_3
+ad_less_def_4  ad_less_not_refl  ad_less_total  ad_less_trans  ad_less_z
+ad_list_Elems  ad_list_app_length  ad_list_app_rev  ad_list_card
+ad_list_has_circuit_stutters  ad_list_not_stutters_card
+ad_list_not_stutters_card_conv  ad_list_of_dom_Dom  ad_list_of_dom_Dom_1
+ad_list_of_dom_card  ad_list_of_dom_card_1  ad_list_of_dom_not_stutters
+ad_list_rev_length  ad_list_stutters_app_conv_l  ad_list_stutters_app_conv_r
+ad_list_stutters_app_l  ad_list_stutters_app_r  ad_list_stutters_card
+ad_list_stutters_card_conv  ad_list_stutters_has_circuit
+ad_list_stutters_permute  ad_list_stutters_prev_conv_l
+ad_list_stutters_prev_conv_r  ad_list_stutters_prev_l  ad_list_stutters_prev_r
+ad_list_stutters_rev  ad_lt_double_mono  ad_lt_double_mono_conv
+ad_lt_double_plus_un_mono  ad_lt_double_plus_un_mono_conv  ad_lt_le_trans
+ad_lt_le_weak  ad_lt_trans  ad_min_choice  ad_min_le_1  ad_min_le_2  ad_min_le_3
+ad_min_le_4  ad_min_le_5  ad_min_lt_3  ad_min_lt_4  ad_neg_bit_0  ad_neg_bit_0_1
+ad_neg_bit_0_2  ad_neq  ad_not_div_2_not_double  ad_not_div_2_not_double_plus_un
+ad_of_nat_of_ad  ad_pdist_comm  ad_pdist_eq_1  ad_pdist_eq_2  ad_pdist_ultra
+ad_plength_first_one  ad_plength_infty  ad_plength_lb  ad_plength_one
+ad_plength_ub  ad_plength_ultra  ad_plength_ultra_1  ad_plength_zeros
+ad_rec_double  ad_same_bit_0  ad_sum  ad_xor_assoc  ad_xor_bit_0  ad_xor_comm
+ad_xor_div_2  ad_xor_eq  ad_xor_eq_false  ad_xor_eq_true  ad_xor_neutral_left
+ad_xor_neutral_right  ad_xor_nilpotent  ad_xor_sem_1  ad_xor_sem_2  ad_xor_sem_3
+ad_xor_sem_4  ad_xor_sem_5  ad_xor_sem_6  ad_xor_semantics  ad_z_less_1
+ad_z_less_2  add_Sx_y_swap  add_assoc  add_assoc_r  add_auto  add_one_x_S
+add_soustr_1  add_soustr_2  add_soustr_xy  add_sub_one    add_un_Zs
+add_verif  add_x_0  add_x_Sy  add_x_Sy_swap  add_x_one_S  add_x_x
+add_x_y_z_perm  adf_xor_assoc  adf_xor_eq  alist_MapMerge_semantics
+alist_MapMerge_semantics_disjoint  alist_canonical  alist_conc_sorted
+alist_nth_ad_aapp_1  alist_nth_ad_aapp_2  alist_nth_ad_semantics
+alist_of_Map_nth_ad  alist_of_Map_of_alist  alist_of_Map_of_alist_c
+alist_of_Map_semantics  alist_of_Map_semantics_1  alist_of_Map_semantics_1_1
+alist_of_Map_sorts  alist_of_Map_sorts1  alist_of_Map_sorts2
+alist_of_Map_sorts_1  alist_semantics_app  alist_semantics_disjoint_comm
+alist_semantics_nth_ad  alist_semantics_same_tail  alist_semantics_tail
+alist_sorted_1_imp_2  alist_sorted_2_imp  alist_sorted_imp_1  alist_sorted_tail
+alist_too_low  all_not_not_ex  all_not_not_ex  and_not_or  andb_assoc
+andb_b_false  andb_b_true  andb_false_b  andb_false_elim  andb_false_intro1
+andb_false_intro2  andb_neg_b  andb_prop  andb_prop2  andb_sym  andb_true_b
+andb_true_intro  andb_true_intro2  app_ass  app_ass  app_comm_cons
+app_cons_not_nil  app_eq_nil  app_eq_unit  app_inj_tail  app_length  app_nil_end
+app_nil_end  approximant_can_be_any_size  approximants_grow  approximants_grow'
+ass_app  ass_app  aze
+base_Int_part base_fp beq_nat_refl bet_eq between_Sk_l between_in_int between_le
+between_not_exists between_or_exists between_restr bij1 bij2 bij3 bool_choice
+bool_eq_ind bool_eq_rec
+card_Add_gen card_soustr_1 cardinalO_empty cardinal_Empty cardinal_Im_intro
+cardinal_decreases cardinal_elim cardinal_finite cardinal_invert
+cardinal_is_functional cardinal_unicity caseRxy case_Rabsolu cauchy_bound
+classical_proof_irrelevence clos_refl_trans_ind_left clos_rst_idempotent
+clos_rst_is_equiv clos_rt_clos_rst clos_rt_idempotent clos_rt_is_preorder
+coherence_intro coherence_sym coherent_symmetric comm_left comm_right
+compare_convert1 compare_convert_EGAL compare_convert_INFERIEUR
+compare_convert_O compare_convert_SUPERIEUR compare_positive_to_nat_O
+composition_derivable composition_derivable_var cong_antisymmetric_same_relation
+cong_congr cong_reflexive_same_relation cong_symmetric_same_relation
+cong_transitive_same_relation congr_eqT congr_idT const_continuity
+const_continuous const_derivable cont_deriv contains_is_preorder convert_add
+convert_add_carry convert_add_un convert_compare_EGAL convert_compare_INFERIEUR
+convert_compare_SUPERIEUR convert_intro convert_xH convert_xI convert_xO cos2
+cos3PI4 cos_2PI cos_2PI3 cos_2a cos_2a_cos cos_2a_sin cos_3PI2 cos_5PI4 cos_PI
+cos_PI2 cos_PI3 cos_PI4 cos_PI6 cos_decr_0 cos_decr_1 cos_decreasing_0
+cos_decreasing_1 cos_eq_0_0 cos_eq_0_1 cos_eq_0_2PI_0 cos_eq_0_2PI_1 cos_ge_0
+cos_ge_0_3PI2 cos_gt_0 cos_incr_0 cos_incr_1 cos_increasing_0 cos_increasing_1
+cos_le_0 cos_lt_0 cos_neg cos_period cos_shift cos_sin cos_sin_0 cos_sin_0_var
+covers_Add covers_is_Add cvt_carry
+dec_True dec_Zge dec_Zgt dec_Zle dec_Zlt dec_Zne dec_and dec_eq dec_eq_nat
+dec_eq_nat dec_ge dec_gt dec_imp dec_le dec_lt dec_not dec_not_not dec_or
+deg_rad demorgan1 demorgan2 demorgan3 demorgan4 deriv_Rsqr deriv_composition
+deriv_const deriv_constant2 deriv_cos deriv_diff deriv_id deriv_maximum
+deriv_minimum deriv_opposite deriv_prod deriv_scal deriv_sum
+derivable_continuous derivable_continuous_pt derivable_derive derive_composition
+derive_derivable derive_diff derive_increasing_interv
+derive_increasing_interv_var derive_prod derive_pt_D_in derive_pt_cos
+derive_pt_def_0 derive_pt_def_1 derive_pt_sin derive_scal derive_sum desc_end
+desc_prefix desc_tail diff_Rsqr diff_comp diff_continuity diff_continuous
+diff_cos diff_derivable diff_derivable_pt diff_false_true diff_id diff_plus_opp
+diff_sin diff_sqrt diff_true_false discrete_nat dist_Desc_concat dist_aux
+distance_refl distance_symm distr_rev div1  div2_even div2_odd
+div_continuity div_continuous div_eq_inv double_S double_even
+double_odd double_var double_var
+eps2 eps2_Rgt_R0 eps4 eqT_eq_bij eq_IZR eq_IZR_R0 eq_Rge eq_Rge_sym eq_Rle
+eq_Rle_sym eq_Rminus eq_Ropp eq_RoppO eq_add_S eq_dep1_dep eq_dep1_eq
+eq_dep_dep1 eq_dep_eq eq_dep_sym eq_dep_trans eq_eqT_bij eq_eq_nat eq_fct eq_le
+eq_lt_x_Sy eq_nat_dec eq_nat_decide eq_nat_elim eq_nat_eq eq_nat_refl eq_not_lt
+eq_not_neq_y_x eq_proofs_unicity eq_true_false_abs eqb_eq eqb_negb1
+eqb_negb2 eqb_prop eqb_refl eqb_reflx eqb_subst eqf_refl eqf_sym eqf_trans
+eqf_xor_1 eqm_refl eqm_sym eqm_trans eqmap_refl eqmap_sym eqmap_trans eqst_ntheq
+equiv_eqex_eqdep eucl_dev even_2n even_div2 even_double even_even_plus
+even_mult_aux even_mult_inv_l even_mult_inv_r even_mult_l even_mult_r
+even_odd_dec even_odd_div2 even_odd_double even_or_odd even_plus_aux
+even_plus_even_inv_l even_plus_even_inv_r even_plus_odd_inv_l
+even_plus_odd_inv_r event_O ex_not_not_all ex_not_not_all exists_S_le
+exists_in_int exists_le_S exists_lt
+f_equal f_equal2 f_equal3 f_equal4 f_equal5 fact_neq_0 false_xorb
+finite_cardinal finite_greater finite_image fix_eq floor_gt0 floor_ok
+fold_right_aapp fold_symmetric for_base_fp form1 form2 form3 form4 fp_R0 fp_nat
+fst_nth_nth
+ge0_plus_ge0_is_ge0 ge0_plus_gt0_is_gt0 gen growing_prop gt0_plus_ge0_is_gt0
+gt0_plus_gt0_is_gt0 gt_O_eq gt_S gt_S_le gt_S_n gt_Sn_O gt_Sn_n gt_antirefl
+gt_eq_gt_dec gt_le_S gt_le_trans gt_n_S gt_not_sym gt_pred gt_reg_l
+gt_trans gt_trans_S gt_wf_ind gt_wf_rec
+heap_to_list
+idempot_rev if_negb ifdec_left ifdec_right iff_refl iff_sym iff_trans
+image_empty imp_not_Req imp_simp imply_and_or imply_and_or2 imply_to_and
+imply_to_or in_FSet_delta in_FSet_diff in_FSet_inter in_FSet_union in_app_or
+in_app_or in_cons in_cons in_dom_DMerge_1 in_dom_DMerge_2 in_dom_DMerge_3
+in_dom_M0 in_dom_M1 in_dom_M1_1 in_dom_M1_2 in_dom_delta in_dom_merge
+in_dom_none in_dom_put in_dom_put_behind in_dom_remove in_dom_restrby
+in_dom_restrto in_dom_some in_eq in_eq in_int_S in_int_Sp_q in_int_between
+in_int_exists in_int_intro in_int_lt in_int_p_Sq in_inv in_map in_nil in_or_app
+in_or_app in_prod in_prod_aux incl_add incl_add_x incl_app incl_app incl_appl
+incl_appl incl_appr incl_appr incl_card_le incl_clos_trans incl_cons incl_cons
+incl_left incl_refl incl_refl incl_right incl_soustr incl_soustr_add_l
+incl_soustr_add_r incl_soustr_in incl_st_add_soustr incl_st_card_lt incl_tl
+incl_tl incl_tran incl_tran increasing_decreasing increasing_decreasing_opp
+ind_0_1_SS induction_gtof1 induction_gtof2 induction_ltof1 induction_ltof2
+inh_card_gt_O inj_S inj_eq inj_ge inj_gt inj_le inj_lt inj_minus1 inj_minus2
+inj_minus_aux inj_mult inj_neq inj_pair2 inj_plus inj_right_pair
+inject_nat_complete inject_nat_complete_inf inject_nat_prop inject_nat_set
+injective_preserves_cardinal inser_trans_R insert inst interval_split intro_Z
+inv_continuity inv_continuous inverse_image_of_eq inverse_image_of_equivalence
+invert_heap is_double_moins_un is_heap_rec isometric_rot_trans
+isometric_rotation isometric_rotation_0 isometric_trans_rot
+isometric_translation iter_convert iter_nat_invariant iter_nat_plus iter_pos_add
+iter_pos_invariant
+law_cosines leA_Tree_Leaf leA_Tree_Node le_INR le_IZR le_IZR_R1 le_O_IZR le_O_n
+le_Order le_S_compat le_S_gt le_S_n le_Sn_O le_Sn_n le_Sx_y_lt le_add_compat
+le_add_compat_l le_add_compat_r le_antisym le_antisym le_dec le_decide
+le_elim_rel le_epsilon le_eq_compat le_ge_dec le_gt_S le_gt_dec le_gt_trans
+le_le_S_dec le_le_S_eq le_le_x_Sy le_lt_dec le_lt_eq_dec le_lt_n_Sm le_lt_or_eq
+le_lt_plus_plus le_lt_trans le_lt_trans le_lt_x_Sy le_max_l le_max_r le_min_l
+le_min_r le_minus le_n_O_eq le_n_S le_n_Sn le_ni_le le_not_gt le_not_lt le_or_lt
+le_plus_l le_plus_minus le_plus_minus_r le_plus_plus le_plus_r le_plus_trans
+le_pred_n le_reflexive le_reg_l le_reg_r le_total_order le_trans le_trans
+le_trans le_trans_S leb_refl left_prefix lel_cons lel_cons lel_cons_cons
+lel_cons_cons lel_nil lel_nil lel_refl lel_refl lel_tail lel_tail lel_trans
+lel_trans lelistA_inv length_as_fold length_as_fold_2 less_than_empty
+less_than_singleton lim_x limit_Ropp limit_comp limit_free limit_inv limit_minus
+limit_mul limit_plus list_contents_app list_eq_dec list_to_heap log_inf_correct
+log_inf_le_log_sup log_inf_shift_nat log_near_correct1 log_near_correct2
+log_sup_correct1 log_sup_correct2 log_sup_le_Slog_inf log_sup_log_inf
+log_sup_shift_nat low_trans lt_0_1 lt_INR lt_INR_0 lt_IZR lt_O_IZR lt_O_Sn
+lt_O_minus_lt lt_O_neq lt_S lt_S_n lt_Sx_y_lt lt_add_compat lt_add_compat_r
+lt_add_compat_weak_l lt_add_compat_weak_r lt_anti_sym lt_div2 lt_eq_lt_dec lt_le
+lt_le_S lt_le_Sx_y lt_le_plus_plus lt_le_trans lt_le_trans lt_le_weak lt_lt_x_Sy
+lt_minus lt_mult_left lt_n_O lt_n_S lt_n_Sm_le lt_n_Sn lt_n_n lt_neq lt_neq_sym
+lt_not_le lt_not_sym lt_plus_plus lt_plus_trans lt_pred lt_pred_n_n lt_reg_l
+lt_reg_r lt_wf lt_wf_double_ind lt_wf_double_rec lt_wf_ind lt_wf_rec
+lt_wf_rec1 ltl_unit
+makeM2_M2 makeM2_canon make_new_approximant map_dom_empty_1 map_dom_empty_2
+mapcanon_M2 mapcanon_M2_1 mapcanon_M2_2 mapcanon_exists mapcanon_exists_1
+mapcanon_exists_2 mapcanon_unique max_SS max_case max_case2 max_dec max_l max_r
+max_sym meq_congr meq_left meq_refl meq_right meq_sym meq_trans merge min_SS
+min_case min_case2 min_dec min_l min_r min_sym minus_INR minus_R0 minus_Rge
+minus_Rgt minus_Sn_m minus_n_O minus_n_n minus_plus minus_plus_simpl modulo
+mul_factor_gt mul_factor_gt_f mul_factor_wd mult_1_n mult_INR mult_IZR mult_O_le
+mult_acc_aux mult_assoc_l mult_assoc_r mult_le mult_le_conv_1 mult_lt
+mult_minus_distr mult_n_1 mult_n_O mult_n_Sm mult_non_zero mult_plus_distr
+mult_plus_distr_r mult_sym mult_tail_mult multiset_twist1 multiset_twist2
+munion_ass munion_comm munion_empty_left munion_empty_right munion_perm_left
+munion_rotate
+n_Sn nat_case nat_double_ind nat_le_complete nat_le_complete_conv nat_le_correct
+nat_le_correct_conv nat_of_ad_double nat_of_ad_double_plus_un nat_of_ad_of_nat
+nat_total_order natlike_ind natlike_rec neg_cos neg_pos_Rsqr_le neg_sin
+negative_derivative negb_andb negb_elim negb_intro negb_orb negb_sym neq_0_1
+neq_O_lt neq_antirefl neq_eq_compat neq_not_eq neq_not_eq_y_x
+neq_x_Sx newMap_semantics new_var ni_le_antisym ni_le_le ni_le_min_1
+ni_le_min_2 ni_le_min_induc ni_le_refl ni_le_total ni_le_trans ni_min_O_l
+ni_min_O_r ni_min_assoc ni_min_case ni_min_comm ni_min_idemp ni_min_inf_l
+ni_min_inf_r nil_cons nil_cons no_fixpoint_negb nonneg_derivative_0
+nonpos_derivative_0 nonpos_derivative_1 not_1_INR not_Empty_Add not_INR_O
+not_Isnil_cons not_O_INR not_O_IZR not_Req not_Rle not_SIncl_empty not_Zeq
+not_Zge not_Zgt not_Zle not_Zlt not_all_ex_not not_all_ex_not not_all_not_ex
+not_all_not_ex not_and not_and_or not_empty_Inhabited not_eq not_eq_S not_eq_sym
+not_even_and_odd not_ex_all_not not_ex_all_not not_ex_not_all not_ex_not_all
+not_false_is_true not_ge not_gt not_has_fixpoint not_imp not_imply_elim
+not_imply_elim2 not_included_empty_Inhabited not_injective_elim not_le not_lt
+not_neq_neq_trans not_nm_INR not_not not_or not_or_and not_sym not_true_is_false
+nth_In nth_S_cons nth_in_or_default nth_le nth_le_length nth_lt_O ntheq_eqst
+null_derivative_0 null_derivative_1
+odd_S2n odd_div2 odd_double odd_even_plus odd_mult odd_mult_inv_l odd_mult_inv_r
+odd_plus_even_inv_l odd_plus_even_inv_r odd_plus_l odd_plus_odd_inv_l
+odd_plus_odd_inv_r odd_plus_r one_IZR_lt1 one_IZR_r_R1 op_rotate opp_continuity
+opp_continuous opp_opp_fct opposite_derivable opposite_derivable_pt option_sum
+or_not_and or_to_imply orb_assoc orb_b_false orb_b_true orb_false_b
+orb_false_elim orb_false_intro orb_neg_b orb_prop orb_prop2 orb_sym orb_true_b
+orb_true_elim orb_true_intro
+pair_sp perm_left perm_right permut_app permut_cons permut_middle permut_refl
+permut_right permut_tran plus_INR plus_IZR plus_IZR_NEG_POS plus_Int_part1
+plus_Int_part2 plus_O_n plus_Sn_m plus_Snm_nSm plus_assoc_l plus_assoc_r
+plus_frac_part1 plus_frac_part2 plus_is_O plus_is_one plus_le_is_le
+plus_lt_is_lt plus_minus plus_n_O plus_n_Sm plus_permute plus_permute_2_in_4
+plus_sym plus_tail_plus poly pos_INR pos_Rsqr pos_Rsqr1 positive_to_nat_2
+positive_to_nat_4 positive_to_nat_mult pow_1 pow_O pow_R1 pow_RN_plus pow_add
+pow_lt pow_lt_1_zero pow_ne_zero pow_nonzero powerRZ_1 powerRZ_NOR powerRZ_O
+powerRZ_R1 powerRZ_add powerRZ_le powerRZ_lt pred_Sn pred_of_minus
+prod_continuity prod_continuous prod_derivable prod_derivable_pt prod_neq_R0
+proj1 proj2 prop_eps pythagorean
+quotient
+r_Rmult_mult r_Rplus_plus rad_deg rename retract_pow_U_U rev_ind right_prefix
+rotation_0 rotation_PI2
+same_relation_is_equivalence scal_continuity scal_continuous scal_derivable
+scal_derivable_pt scal_derivable_pt_var seq_congr seq_left seq_refl seq_right
+seq_sym seq_trans set_In_dec set_add_elim set_add_elim2 set_add_intro
+set_add_intro1 set_add_intro2 set_add_not_empty set_diff_elim1 set_diff_elim2
+set_diff_intro set_diff_trivial set_inter_elim set_inter_elim1 set_inter_elim2
+set_inter_intro set_mem_complete1 set_mem_complete2 set_mem_correct1
+set_mem_correct2 set_mem_ind set_mem_ind2 set_union_elim set_union_emptyL
+set_union_emptyR set_union_intro set_union_intro1 set_union_intro2
+setcover_intro setcover_inv shift_nat_correct shift_nat_plus shift_pos_correct
+shift_pos_nat sigma_aux_inv sigma_diff sigma_diff_neg sigma_eq_arg sigma_first
+sigma_last sigma_split simpl_add_l simpl_add_r simpl_fact simpl_gt_plus_l
+simpl_le_plus_l simpl_lt_plus_l simpl_plus_l sin2 sin2_cos2 sin3PI4 sin_0
+sin_2PI sin_2PI3 sin_2a sin_3PI2 sin_5PI4 sin_PI sin_PI3 sin_PI3_cos_PI6 sin_PI4
+sin_PI6 sin_PI6_cos_PI3 sin_PI_x sin_cos sin_cos5PI4 sin_cos_PI4 sin_decr_0
+sin_decr_1 sin_decreasing_0 sin_decreasing_1 sin_eq_0_0 sin_eq_0_1
+sin_eq_O_2PI_0 sin_eq_O_2PI_1 sin_ge_0 sin_gt_0 sin_incr_0 sin_incr_1
+sin_increasing_0 sin_increasing_1 sin_lb_ge_0 sin_le_0 sin_lt_0 sin_lt_0_var
+sin_neg sin_period sin_shift sincl_add_x single_limit single_z_r_R1 singlx
+sort_inv sort_rec sqr_pos sqrt2_neq_0 sqrt3_2_neq_0 sqrt_0 sqrt_1 sqrt_Rsqr
+sqrt_Rsqr_abs sqrt_cauchy sqrt_def sqrt_div sqrt_eq_0 sqrt_inj sqrt_le_0
+sqrt_le_1 sqrt_lem_0 sqrt_less sqrt_lt_0 sqrt_lt_1 sqrt_lt_R0 sqrt_more
+sqrt_square sqrt_times sqtr_lem_1 star_monotone
+strictincreasing_strictdecreasing_opp sub_add sub_add_one sub_pos_SUPERIEUR
+sub_pos_x_x sum_continuity sum_continuous sum_derivable sum_derivable_pt
+sum_derivable_pt_var sum_f_R0_triangle sum_fct_cte_derivable
+sum_fct_cte_derivable_pt sum_fct_cte_derive_pt sum_inequa_Rle_lt sumbool_and
+sumbool_not sumbool_of_bool sumbool_or swap_Acc sym_EqSt sym_eq sym_eqT sym_idT
+sym_not_eq sym_not_eqT sym_not_idT
+tan_0 tan_2PI tan_2PI3 tan_2a tan_PI tan_PI3 tan_PI4 tan_PI6 tan_diff tan_gt_0
+tan_incr_0 tan_incr_1 tan_increasing_0 tan_increasing_1 tan_lt_0 tan_minus
+tan_neg tan_plus tech_Rgt_minus tech_Rplus tech_limit tech_limit_contr
+tech_pow_Rmult tech_pow_Rplus tech_single_z_r_R1 tech_up times1_convert
+times_add_distr times_assoc times_convert times_sym times_true_sub_distr
+tl_nth_tl toRad_inj total_order total_order_Rge total_order_Rgt total_order_Rle
+total_order_Rle_Rlt_eq total_order_Rlt total_order_Rlt_Rle trans_EqSt trans_eq
+trans_eqT trans_idT translation_0 treesort treesort_twist1 treesort_twist1
+treesort_twist2 treesort_twist2 triangle triangle_rectangle
+triangle_rectangle_le triangle_rectangle_lt triv_nat true_sub_convert true_xorb
+twist two_or_two_plus_one two_p_S two_p_gt_ZERO two_p_is_exp two_p_pred
+two_power_nat_S two_power_nat_correct two_power_pos_correct two_power_pos_is_exp
+two_power_pos_nat
+unfold_Stream union_ass union_comm union_empty_left union_empty_right
+union_perm_left union_rotate uniset_twist1 uniset_twist2 up_tech
+weak_Zcompare_Zplus_compatible weak_Zmult_plus_distr_r weak_assoc
+weaken_Zcompare_Zplus_compatible well_founded_gtof well_founded_ind
+well_founded_induction well_founded_induction_type well_founded_lt_compat
+well_founded_ltof wf_WO wf_clos_trans wf_disjoint_sum wf_incl wf_inverse_image
+wf_lex_exp wf_lexprod wf_swapprod wf_symprod wf_union without_div_O_contr
+without_div_Od without_div_Oi without_div_Oi1 without_div_Oi2
+xorb_assoc xorb_comm xorb_eq xorb_false xorb_move_l_r_1 xorb_move_l_r_2
+xorb_move_r_l_1 xorb_move_r_l_2 xorb_nilpotent xorb_true
+zerob_false_elim zerob_false_intro zerob_true_elim zerob_true_intro zerop
+ALL ALLT AC AC_IF Acc_clos_trans Acc_incl Acc_inv Acc_inv_trans Acc_inverse_image
+Acc_swapprod Acc_symprod Acc_union Add_commutative Add_commutative' Add_covers
+Add_distributes Add_intro1 Add_intro2 Add_inv Add_not_Empty Add_preserves_Finite
+Alembert_exp Assoc
+COS COS_bound Choice Choice2 Complement_Complement Couple_as_union Couple_inv
+D_pow_n Dadd Dcomp Dcompare Dcompare_inf Dconst Diagram Distributivity
+Distributivity' Dminus Dmult Dmult_const Dopp Dx Dx_pow_n
+EX EXT EUn_noempty Elems_app Elems_canon Elems_of_list_of_dom Elems_of_list_of_dom_c
+Elems_rev Empty_set_is_Bottom Empty_set_minimal Empty_set_zero Empty_set_zero'
+EqSt_reflex Equiv_from_order Equiv_from_preorder Extension
+FSetDelta_assoc FSetDelta_assoc_c FSetInter_M0_s FSetInter_M0_s_c
+FSetInter_Union_l FSetInter_Union_l_c FSetInter_Union_r FSetInter_Union_r
+FSetInter_assoc FSetInter_assoc_c FSetInter_comm FSetInter_comm_c
+FSetInter_idempotent FSetInter_idempotent FSetInter_s_M0 FSetInter_s_M0_c
+FSetUnion_Inter_l FSetUnion_Inter_l_c FSetUnion_Inter_r FSetUnion_Inter_r
+FSetUnion_M0_s FSetUnion_M0_s_c FSetUnion_assoc FSetUnion_assoc_c FSetUnion_comm
+FSetUnion_comm_c FSetUnion_idempotent FSetUnion_idempotent FSetUnion_s_M0
+FSetUnion_s_M0_c FSet_Dom FSet_ext FSet_ext_c FSubset_antisym FSubset_antisym_c
+FSubset_refl FSubset_trans Find Finite_downward_closed Finite_subset_has_lub
+Fix_F_eq Fix_F_inv ForAll_coind
+GP_finite GP_infinite G_aux Generalized_induction_on_finite_sets
+Hd
+INR_IZR_INZ INR_eq INR_eq_INR2 INR_fact_neq_0 INR_le INR_lt INR_lt_1 INR_pos IZN
+IZR_ge IZR_le IZR_lt IfProp_false IfProp_or IfProp_sum IfProp_true Iffalse_inv
+Iftrue_inv Im_add Im_def Im_inv Image_set_continuous Image_set_continuous'
+InR_INV InR_app_or InR_cons_inv InR_or_app In_Image_elim In_In_spec In_dec
+Included_Add Included_Empty Included_Strict_Included Inclusion_is_an_order
+Inclusion_is_transitive Ind_proof Index Index_p Inhabited_Setminus Inhabited_add
+Inhabited_not_empty Int_part_INR Integers_has_no_ub Integers_infinite
+Intersection_commutative Intersection_decreases_l Intersection_decreases_r
+Intersection_inv Intersection_is_Glb Intersection_maximal
+Intersection_preserves_finite Is_power_correct Is_power_or Is_true_eq_left
+Is_true_eq_right Is_true_eq_true Is_true_eq_true2 Isnil_dec Isnil_nil Item
+JMeq_eq_ind JMeq_eq_ind_r JMeq_eq_rec JMeq_eq_rec_r JMeq_sym JMeq_trans
+K_dec K_dec_set
+L1 Lemma1 Length Length_l_pf
+M1_semantics_1 M1_semantics_2 M2_eqmap_1 M2_eqmap_2 Map2_semantics_1
+Map2_semantics_1_eq Map2_semantics_2 Map2_semantics_2_eq Map2_semantics_3
+Map2_semantics_3_eq MapCard_Dom MapCard_Dom_Put_behind MapCard_M0 MapCard_M1
+MapCard_Put1_equals_2 MapCard_Put_1 MapCard_Put_1_conv MapCard_Put_2
+MapCard_Put_2_conv MapCard_Put_behind_Put MapCard_Put_behind_sum MapCard_Put_lb
+MapCard_Put_sum MapCard_Put_ub MapCard_Remove_1 MapCard_Remove_1_conv
+MapCard_Remove_2 MapCard_Remove_2_conv MapCard_Remove_lb MapCard_Remove_sum
+MapCard_Remove_ub MapCard_as_Fold MapCard_as_Fold_1 MapCard_as_length
+MapCard_ext MapCard_is_O MapCard_is_Sn MapCard_is_not_O MapCard_is_one
+MapCard_is_one_unique MapCard_makeM2 MapCollect_as_Fold MapCollect_canon
+MapDelta_RestrTo_disjoint MapDelta_RestrTo_disjoint_2 MapDelta_as_DomRestrBy
+MapDelta_as_DomRestrBy_2 MapDelta_as_DomRestrBy_2_c MapDelta_as_DomRestrBy_c
+MapDelta_as_Merge MapDelta_as_Merge_c MapDelta_canon MapDelta_disjoint
+MapDelta_disjoint_c MapDelta_empty_m MapDelta_empty_m_1 MapDelta_ext
+MapDelta_ext_l MapDelta_ext_r MapDelta_m_empty MapDelta_m_empty_1
+MapDelta_nilpotent MapDelta_nilpotent_c MapDelta_semantics MapDelta_semantics_1
+MapDelta_semantics_1_1 MapDelta_semantics_2 MapDelta_semantics_2_1
+MapDelta_semantics_2_2 MapDelta_semantics_3 MapDelta_semantics_3_1
+MapDelta_semantics_comm MapDelta_sym MapDelta_sym_c MapDisjoint_1_imp
+MapDisjoint_2_imp MapDisjoint_M1_conv_l MapDisjoint_M1_conv_r MapDisjoint_M1_l
+MapDisjoint_M1_r MapDisjoint_M2 MapDisjoint_M2_l MapDisjoint_M2_r
+MapDisjoint_empty MapDisjoint_empty_c MapDisjoint_ext MapDisjoint_imp_1
+MapDisjoint_imp_2 MapDisjoint_sym MapDomRestrBy_By MapDomRestrBy_By_c
+MapDomRestrBy_By_comm MapDomRestrBy_By_comm_c MapDomRestrBy_Card_lb
+MapDomRestrBy_Card_ub_l MapDomRestrBy_Dom MapDomRestrBy_Dom_c MapDomRestrBy_To
+MapDomRestrBy_To_c MapDomRestrBy_To_comm MapDomRestrBy_To_comm_c
+MapDomRestrBy_canon MapDomRestrBy_empty_m MapDomRestrBy_empty_m_1
+MapDomRestrBy_ext MapDomRestrBy_ext_l MapDomRestrBy_ext_r MapDomRestrBy_m_empty
+MapDomRestrBy_m_empty_1 MapDomRestrBy_m_m MapDomRestrBy_m_m_1
+MapDomRestrBy_semantics MapDomRestrTo_By MapDomRestrTo_By_c
+MapDomRestrTo_By_comm MapDomRestrTo_By_comm_c MapDomRestrTo_Card_ub_l
+MapDomRestrTo_Card_ub_r MapDomRestrTo_Dom MapDomRestrTo_Dom_c
+MapDomRestrTo_To_comm MapDomRestrTo_To_comm_c MapDomRestrTo_assoc
+MapDomRestrTo_assoc_c MapDomRestrTo_canon MapDomRestrTo_empty_m
+MapDomRestrTo_empty_m_1 MapDomRestrTo_ext MapDomRestrTo_ext_l
+MapDomRestrTo_ext_r MapDomRestrTo_idempotent MapDomRestrTo_idempotent_c
+MapDomRestrTo_m_empty MapDomRestrTo_m_empty_1 MapDomRestrTo_semantics
+MapDomRestr_disjoint MapDom_Dom MapDom_Split_1 MapDom_Split_1_c MapDom_Split_2
+MapDom_Split_2_c MapDom_Split_3 MapDom_Split_3_c MapDom_canon MapDom_semantics_1
+MapDom_semantics_2 MapDom_semantics_3 MapDom_semantics_4 MapEmptyp_complete
+MapEmptyp_correct MapFold1_as_Fold MapFold1_as_Fold_1 MapFold1_ext MapFold_M1
+MapFold_Merge_disjoint MapFold_Merge_disjoint_1 MapFold_Put_behind_disjoint
+MapFold_Put_behind_disjoint_2 MapFold_Put_disjoint MapFold_Put_disjoint_1
+MapFold_Put_disjoint_2 MapFold_as_fold MapFold_as_fold_1 MapFold_canon
+MapFold_canon_1 MapFold_distr_l MapFold_distr_r MapFold_distr_r_1 MapFold_empty
+MapFold_ext MapFold_ext_f MapFold_ext_f_1 MapFold_orb MapFold_orb_1
+MapFold_state_stateless MapFold_state_stateless_1 MapGet_M2_bit_0
+MapGet_M2_bit_0_0 MapGet_M2_bit_0_1 MapGet_M2_bit_0_2 MapGet_M2_bit_0_if
+MapGet_M2_both_NONE MapGet_if_commute MapGet_if_same MapMerge_Card_disjoint
+MapMerge_Card_lb_l MapMerge_Card_lb_r MapMerge_Card_ub MapMerge_DomRestrBy
+MapMerge_DomRestrBy_c MapMerge_DomRestrTo MapMerge_DomRestrTo_c
+MapMerge_RestrTo_l MapMerge_RestrTo_l_c MapMerge_Restr_Card MapMerge_assoc
+MapMerge_assoc_c MapMerge_canon MapMerge_disjoint MapMerge_disjoint_Card
+MapMerge_empty_l MapMerge_empty_m MapMerge_empty_m_1 MapMerge_empty_m_c
+MapMerge_empty_r MapMerge_ext MapMerge_ext_l MapMerge_ext_r MapMerge_idempotent
+MapMerge_idempotent_c MapMerge_m_empty MapMerge_m_empty_1 MapMerge_semantics
+MapPut1_canon MapPut1_semantics MapPut1_semantics' MapPut1_semantics_1
+MapPut1_semantics_2 MapPut1_semantics_3 MapPut_as_Merge MapPut_as_Merge_c
+MapPut_behind_as_Merge MapPut_behind_as_Merge_c MapPut_behind_as_before
+MapPut_behind_as_before_1 MapPut_behind_canon MapPut_behind_ext
+MapPut_behind_new MapPut_behind_semantics MapPut_behind_semantics_3_1
+MapPut_canon MapPut_ext MapPut_semantics MapPut_semantics_1 MapPut_semantics_2
+MapPut_semantics_2_1 MapPut_semantics_2_2 MapPut_semantics_3_1
+MapRemove_as_RestrBy MapRemove_as_RestrBy_c MapRemove_canon MapRemove_ext
+MapRemove_semantics MapSingleton_semantics MapSplit_Card MapSubset_1_Dom
+MapSubset_1_imp MapSubset_2_imp MapSubset_Card_le MapSubset_Disjoint
+MapSubset_Disjoint_l MapSubset_Disjoint_r MapSubset_DomRestrBy_l
+MapSubset_DomRestrBy_mono MapSubset_DomRestrTo_l MapSubset_DomRestrTo_mono
+MapSubset_DomRestrTo_r MapSubset_Dom_1 MapSubset_Dom_2 MapSubset_Merge_l
+MapSubset_Merge_mono MapSubset_Merge_r MapSubset_Put MapSubset_Put_behind
+MapSubset_Put_behind_mono MapSubset_Put_mono MapSubset_Remove
+MapSubset_Remove_mono MapSubset_antisym MapSubset_antisym_c MapSubset_c_1
+MapSubset_c_2 MapSubset_card_eq MapSubset_card_eq_1 MapSubset_ext
+MapSubset_imp_1 MapSubset_imp_2 MapSubset_refl MapSubset_trans
+MapSweep_semantics_1 MapSweep_semantics_1_1 MapSweep_semantics_2
+MapSweep_semantics_2_1 MapSweep_semantics_2_2 MapSweep_semantics_3
+MapSweep_semantics_3_1 MapSweep_semantics_4 MapSweep_semantics_4_1
+Map_M0_disjoint Map_disjoint_M0 Map_of_alist_canon Map_of_alist_of_Map
+Map_of_alist_of_Map_c Map_of_alist_semantics
+NEG_add NEG_lt_ZERO NEG_xI NEG_xO NNPP
+Noetherian_contains_Noetherian Non_disjoint_union Non_disjoint_union'
+Noone_in_empty Nth
+OMEGA1 OMEGA10 OMEGA11 OMEGA12 OMEGA13 OMEGA14 OMEGA15 OMEGA16 OMEGA17 OMEGA18
+OMEGA19 OMEGA2 OMEGA20 OMEGA3 OMEGA4 OMEGA5 OMEGA6 OMEGA7 OMEGA8 OMEGA9 O_S
+O_or_S
+PI2_RGT_0 PI2_Rlt_PI PI4_RGT_0 PI4_RLT_PI2 PI6_RGT_0 PI6_RLT_PI2 PI_neq0 POS_add
+POS_gt_ZERO POS_xI POS_xO Pigeonhole Pigeonhole_bis Pigeonhole_principle
+Pigeonhole_ter Pow_Rabsolu Pow_x_infinity Power_monotonic Power_set_Inhabited
+R0_fp_O R1_sqrt2_neq_0 RTheory R_dist_eq R_dist_plus R_dist_pos R_dist_refl
+R_dist_sym R_dist_tri Rabsolu_R0 Rabsolu_R1 Rabsolu_Rabsolu Rabsolu_Rinv
+Rabsolu_Ropp Rabsolu_Zabs Rabsolu_def1 Rabsolu_def2 Rabsolu_left Rabsolu_left1
+Rabsolu_minus_sym Rabsolu_mult Rabsolu_no_R0 Rabsolu_pos Rabsolu_pos_eq
+Rabsolu_pos_lt Rabsolu_right Rabsolu_triang Rabsolu_triang_inv Req_EM
+Rge_RO_Ropp Rge_Ropp Rge_ge_eq Rge_gt_trans Rge_le Rge_minus Rge_monotony
+Rge_plus_plus_r Rge_r_plus_plus Rge_trans Rgt_2PI_0 Rgt_2_0 Rgt_3PI2_0 Rgt_3_0
+Rgt_RO_Ropp Rgt_Ropp Rgt_RoppO Rgt_ge Rgt_ge_trans Rgt_minus Rgt_not_eq
+Rgt_not_le Rgt_plus_plus_r Rgt_r_plus_plus Rgt_trans Rinv_R1 Rinv_Rinv
+Rinv_Rmult Rinv_Rmult_simpl Rinv_l_sym Rinv_lt Rinv_neq_R0 Rinv_pow Rinv_r
+Rinv_r_simpl_l Rinv_r_simpl_m Rinv_r_simpl_r Rinv_r_sym Rle_RO_Ropp Rle_Rabsolu
+Rle_Rmult_comp Rle_Ropp Rle_Ropp1 Rle_anti_compatibility Rle_anti_monotony
+Rle_antisym Rle_compatibility Rle_compatibility_r Rle_ge Rle_le_eq Rle_lt_trans
+Rle_minus Rle_monotony Rle_monotony_contra Rle_monotony_r Rle_not Rle_not_lt
+Rle_or_lt Rle_sym Rle_sym1 Rle_sym2 Rle_trans Rlt_3PI2_2PI Rlt_PI_3PI2 Rlt_R0_R1
+Rlt_RO_Ropp Rlt_Rinv Rlt_Rinv2 Rlt_Rinv_R1 Rlt_Ropp Rlt_Ropp1 Rlt_RoppO
+Rlt_anti_compatibility Rlt_anti_monotony Rlt_antirefl Rlt_compatibility_r
+Rlt_eps2_eps Rlt_eps4_eps Rlt_ge_not Rlt_le Rlt_le_not Rlt_le_trans Rlt_minus
+Rlt_monotony_contra Rlt_monotony_r Rlt_monotony_rev Rlt_not_eq Rlt_not_ge
+Rlt_pow Rlt_pow_R1 Rlt_r_plus_R1 Rlt_r_r_plus_R1 Rlt_rew Rlt_sqrt2_0 Rlt_sqrt3_0
+Rlt_sym RmaxAbs RmaxLess1 RmaxLess2 RmaxRmult RmaxSym Rmax_Rle
+Rmax_stable_in_negreal Rmin_Rgt Rmin_Rgt_l Rmin_Rgt_r Rmin_l Rmin_r
+Rmin_stable_in_posreal Rminus_Int_part1 Rminus_Int_part2 Rminus_Ropp
+Rminus_distr Rminus_eq Rminus_eq_contra Rminus_eq_right Rminus_fp1 Rminus_fp2
+Rminus_le Rminus_lt Rminus_not_eq Rminus_not_eq_right Rmult_1r Rmult_Ol Rmult_Or
+Rmult_Rplus_distrl Rmult_gt Rmult_le_pos Rmult_lt Rmult_lt2 Rmult_lt_0
+Rmult_lt_pos Rmult_mult_r Rmult_ne Ropp_O Ropp_Rinv Ropp_Rle Ropp_Rlt Ropp_Ropp
+Ropp_Ropp_IZR Ropp_distr1 Ropp_distr2 Ropp_distr3 Ropp_mul1 Ropp_mul2 Ropp_mul3
+Ropp_neq Rplus_Or Rplus_Rminus Rplus_Ropp Rplus_Ropp_l Rplus_Rsr_eq_R0
+Rplus_Rsr_eq_R0_l Rplus_contains_R Rplus_eq_R0 Rplus_eq_R0_l Rplus_le
+Rplus_le_lt_lt Rplus_lt Rplus_lt_le_lt Rplus_ne Rplus_ne_i Rplus_plus_r Rsqr_1
+Rsqr_O Rsqr_abs Rsqr_derivable Rsqr_derivable_pt Rsqr_derive Rsqr_div Rsqr_eq
+Rsqr_eq_0 Rsqr_eq_abs_0 Rsqr_eq_asb_1 Rsqr_gt_0_0 Rsqr_incr_0 Rsqr_incr_0_var
+Rsqr_incr_1 Rsqr_incrst_0 Rsqr_incrst_1 Rsqr_inj Rsqr_inv Rsqr_le_abs_0
+Rsqr_le_abs_1 Rsqr_lt_abs_0 Rsqr_lt_abs_1 Rsqr_minus Rsqr_minus_plus Rsqr_neg
+Rsqr_neg_minus Rsqr_neg_pos_le_0 Rsqr_neg_pos_le_1 Rsqr_plus Rsqr_plus_minus
+Rsqr_pos_lt Rsqr_r_R0 Rsqr_sin_cos_d_one Rsqr_sol_eq_0_0 Rsqr_sol_eq_0_1
+Rsqr_sqrt Rsqr_times Rstar'_R Rstar'_Rstar Rstar'_reflexive RstarRplus_RRstar
+Rstar_R Rstar_Rstar' Rstar_cases Rstar_coherence Rstar_contains_R
+Rstar_contains_Rplus Rstar_equiv_Rstar1 Rstar_imp_coherent Rstar_reflexive
+Rstar_reflexive Rstar_transitive Rstar_transitive Rsym_imp_Rstarsym
+Rsym_imp_notRsym
+SIN SIN_bound SUPERIEUR_POS S_INR S_O_plus_INR S_pred Setminus_intro
+Simplify_add Singleton_atomic Singleton_intro Singleton_inv Singleton_is_finite
+Sstar_contains_Rstar Str_nth_plus Str_nth_tl_plus Strict_Included_intro
+Strict_Included_inv Strict_Included_strict Strict_Rel_Transitive
+Strict_Rel_Transitive_with_Rel Strict_Rel_Transitive_with_Rel_left
+Strict_Rel_is_Strict_Included Strict_inclusion_is_transitive
+Strict_inclusion_is_transitive_with_inclusion
+Strict_inclusion_is_transitive_with_inclusion_left
+Strict_super_set_contains_new_element Strong_confluence Strong_confluence_direct
+Sub_Add_new Subtract_intro Subtract_inv
+Tl Triple_as_Couple Triple_as_Couple_Singleton Triple_as_union Try_find
+US USH Un_bound_imp Un_cv_crit Un_in_EUn Uncons Union_absorbs Union_add
+Union_associative Union_commutative Union_idempotent Union_increases_l
+Union_increases_r Union_inv Union_is_Lub Union_minimal Union_preserves_Finite
+ZC1 ZC2 ZC3 ZC4 ZERO_le_N_digits ZERO_le_POS ZERO_le_inj ZL0 ZL1 ZL10 ZL11 ZL12
+ZL12bis ZL13 ZL14 ZL15 ZL16 ZL17 ZL2 ZL3 ZL4 ZL4_inf ZL5 ZL6 ZL7 ZL8 ZLII ZLIS
+ZLSI ZLSS ZS ZSH Z_R_minus Z_div_POS_ge0 Z_div_ge Z_div_ge0 Z_div_lt Z_div_mod
+Z_div_mod_POS Z_div_mod_eq Z_div_plus Z_div_same Z_eq_dec Z_eq_mult Z_ge_dec
+Z_ge_lt_dec Z_gt_dec Z_gt_le_dec Z_le_dec Z_le_gt_dec Z_le_lt_eq_dec
+Z_lt_abs_induction Z_lt_abs_rec Z_lt_dec Z_lt_ge_dec Z_lt_induction Z_lt_rec
+Z_mod_lt Z_mod_plus Z_mod_same Z_modulo_2 Z_mult_div_ge Z_zerop Zabs_Zsgn
+Zabs_dec Zabs_eq Zabs_non_eq Zabs_pos Zcase_sign Zcompare_ANTISYM Zcompare_EGAL
+Zcompare_Zmult_compatible Zcompare_Zmult_left Zcompare_Zmult_right Zcompare_Zopp
+Zcompare_Zplus_compatible Zcompare_Zplus_compatible2 Zcompare_egal_dec
+Zcompare_elim Zcompare_eq_case Zcompare_et_un Zcompare_n_S Zcompare_rec
+Zcompare_trans_SUPERIEUR Zcompare_x_x Zdiv_eucl_exist Zdiv_eucl_extended
+Zdiv_rest_correct Zdiv_rest_correct1 Zdiv_rest_correct2 Zegal_left Zeq_S
+Zeq_Zminus Zeq_add_S Zeq_plus_swap Zero_left Zero_mult_left Zero_mult_right
+Zero_right Zeven_dec Zeven_div2 Zeven_not_Zodd Zeven_odd_dec Zge_Zcompare
+Zge_Zmult_pos_compat Zge_Zmult_pos_left Zge_Zmult_pos_right Zge_cases Zge_iff_le
+Zge_is_le_bool Zge_le Zge_left Zge_mult_simpl Zge_trans Zgt0_le_pred Zgt_S
+Zgt_S_le Zgt_S_n Zgt_Sn_n Zgt_ZERO_mult Zgt_Zcompare Zgt_Zmult_left
+Zgt_Zmult_right Zgt_antirefl Zgt_cases Zgt_iff_lt Zgt_is_le_bool Zgt_le_S
+Zgt_le_trans Zgt_left Zgt_left_gt Zgt_left_rev Zgt_lt Zgt_mult_simpl Zgt_n_S
+Zgt_not_le Zgt_not_sym Zgt_pred Zgt_reg_l Zgt_reg_r Zgt_square_simpl Zgt_trans
+Zgt_trans_S Zle_S_gt Zle_S_n Zle_Sn_n Zle_ZERO_mult Zle_Zcompare
+Zle_Zmult_pos_left Zle_Zmult_pos_right Zle_Zmult_right Zle_Zmult_right2
+Zle_antisym Zle_bool_antisym Zle_bool_imp_le Zle_bool_plus_mono Zle_bool_refl
+Zle_bool_total Zle_bool_trans Zle_cases Zle_ge Zle_gt_S Zle_gt_trans
+Zle_imp_le_bool Zle_is_le_bool Zle_le_S Zle_left Zle_left_rev Zle_lt_n_Sm
+Zle_lt_or_eq Zle_lt_reg Zle_lt_trans Zle_min_l Zle_min_r Zle_mult
+Zle_mult_approx Zle_mult_simpl Zle_n Zle_n_S Zle_n_Sn Zle_not_gt Zle_not_lt
+Zle_or_lt Zle_plus_minus Zle_plus_plus Zle_plus_swap Zle_pred_n Zle_refl
+Zle_reg_l Zle_reg_r Zle_trans Zle_trans_S Zlt_O_minus_lt Zlt_S Zlt_S_n
+Zlt_ZERO_pred_le_ZERO Zlt_Zcompare Zlt_Zmult_left Zlt_Zmult_right
+Zlt_Zmult_right2 Zlt_Zplus Zlt_cases Zlt_gt Zlt_is_le_bool Zlt_le_S Zlt_le_reg
+Zlt_le_trans Zlt_le_weak Zlt_left Zlt_left_lt Zlt_left_rev Zlt_lt_double
+Zlt_minus Zlt_n_S Zlt_n_Sm_le Zlt_n_Sn Zlt_n_n Zlt_not_eq Zlt_not_le Zlt_not_sym
+Zlt_plus_swap Zlt_pred Zlt_pred_n_n Zlt_reg_l Zlt_reg_r Zlt_trans Zmin_SS
+Zmin_case Zmin_n_n Zmin_or Zmin_plus Zminus_Sn_m Zminus_Zeq
+Zminus_Zplus_compatible Zminus_n_O Zminus_n_n Zminus_plus Zminus_plus_simpl
+Zmult_1_n Zmult_Sm_n Zmult_Zminus_distr_l Zmult_Zminus_distr_r Zmult_Zopp_Zopp
+Zmult_Zopp_left Zmult_assoc Zmult_assoc_l Zmult_assoc_r Zmult_eq Zmult_gt
+Zmult_le Zmult_le_approx Zmult_lt Zmult_minus_distr Zmult_n_1 Zmult_n_O
+Zmult_n_Sm Zmult_one Zmult_permute Zmult_plus_distr_l Zmult_plus_distr_r
+Zmult_reg_left Zmult_reg_right Zmult_sym Zmult_zero Zn_Sn Zne_left Znot_eq_S
+Zodd_dec Zodd_div2 Zodd_not_Zeven Zone_min_pos Zone_pos Zopp_NEG Zopp_Zmult
+Zopp_Zmult_l Zopp_Zmult_r Zopp_Zopp Zopp_Zplus Zopp_intro Zopp_one Zplus_S_n
+Zplus_Snm_nSm Zplus_assoc Zplus_assoc_l Zplus_assoc_r Zplus_inverse_l
+Zplus_inverse_r Zplus_minus Zplus_n_O Zplus_n_Sm Zplus_permute Zplus_simpl
+Zplus_sym Zplus_unit_left Zplus_unit_right Zpower_NR0 Zpower_exp
+Zpower_nat_is_exp Zpower_nat_powerRZ Zpower_nat_powerRZ_absolu Zpower_pos_is_exp
+Zpower_pos_nat Zpred_Sn Zred_factor0 Zred_factor1 Zred_factor2 Zred_factor3
+Zred_factor4 Zred_factor5 Zred_factor6 Zs_pred Zsgn_Zabs Zsimpl_gt_plus_l
+Zsimpl_gt_plus_r Zsimpl_le_plus_l Zsimpl_le_plus_r Zsimpl_lt_plus_l
+Zsimpl_lt_plus_r Zsimpl_plus_l

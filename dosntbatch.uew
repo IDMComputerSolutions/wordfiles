@@ -1,0 +1,63 @@
+/L15"DOS/NT Batch" Nocase Line Comment = rem Line Comment Alt = :: Escape Char = ^ String Chars = "' File Extensions = BAT CMD
+/Delimiters = @,(){}[]-+*#/=~!|\<>?;.&?
+/Indent Strings = "("
+/Unindent Strings = ")"
+/Open Brace Strings =  "("
+/Close Brace Strings = ")"
+/Open Fold Strings = "("
+/Close Fold Strings = ")"
+/C1"Commands"
+assoc append arp at attrib allow attach addusers associate auditpol arj awk
+break backup browstat
+call cd chdir cls color copy cacls chcp chkdsk cmd cmdsync command comp compact convert castoff caston chkdir chkvol cx capture chmod chown cat chgprint choice clip compreg 
+compress cp
+** cd chdir 
+date del dir debug diskcomp diskcopy doskey dspace dsrights dumpel drivers diruse diskmap disksave diskuse defptr delprof delsrv dh deltree
+echo endlocal erase exit edlin exe2bin expand endcap em2ms exetype
+** echo
+for ftype fastopen fc find findstr finger forcedos format ftp flagdir flag fcopy filever findgrp fixacls forfiles freedisk free
+goto graftabl graphics grant getmac getsid global grep
+** goto
+help hostname
+if ipconfig ifmember instsrv
+keyb kernprof kill
+label loadfix listdir logout login local logevent logoff logtime ls lha
+md mkdir move mem mode more map monitor munge mv
+** md mkdir
+nbtstat net netstat nslookup ntbackup nmenu nlist ncopy nprint nprinter ndir netsvc nlmon nltest now netdom ntrights
+oh
+path pause popd prompt pushd ping print psc purge pstat pulist pmon printmig passprop pathman permcopy perms pfmon pkzip pkunzip perl
+qbasic
+ren rename rd rdisk recover regedit regedt32 replace restore rmdir route rundll32 remove revoke rendir rights regfind regini raslist rasusers reg regback regdmp rexx rkill 
+rmtshare robocopy regrest remote rar reboot runhide repreg
+** rd rmdir
+set setlocal shift start share sort subst salvage session slist syscon send setpass settts systime showacls showdisk showgrps showmbrs shutdown shutgui suss sysdiff sc scanreg 
+sclist scopy secadd sleep soon srvcheck srvinfo su subinacl setx
+time title type tracert tree tlist tcopy tbackup touch translate timeout timethis timezone tlist
+userlist usrstat usrtogrp
+ver verify vol version volinfo vi
+winmsd whoami wait waitfor wc winmsdp wntipcfg winipcfg
+xcopy xcacls xxcopy xxcopy16
+/C2"Keywords"
+cmdextversion
+defined do
+else errorlevel exist equ
+gtr geq
+in
+lss leq
+not neq
+on off
+/C3"Devices"
+aux
+con com1 com2 com3 com4
+lpt1 lpt2 lpt3 lpt4 lpt5 lpt6 lpt7 lpt8
+nul
+prn
+/C4"Reserved Characters"
+|
+&
+>
+<
+=
+2>
+2>&1

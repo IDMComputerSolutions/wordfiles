@@ -1,0 +1,54 @@
+/L20"PASCALFC" PASCAL_LANG Line Comment = // Block Comment On = { Block Comment Off = } File Extensions = PFC
+/Delimiters = ~!@$%^&*()+=|\/{}[]:;"'<> 	,.?/
+/Indent Strings = "BEGIN"
+/Unindent Strings = "END"
+/Function String = "%[ ^t]++sub[ ^t{]"
+/C1
+and
+continue
+do
+else elsif
+for foreach forever
+if
+last local
+mod
+my
+next no
+or
+package
+redo return require repeat
+sub
+then to
+until unless use
+when while
+xor
+/C2"Funciones"
+ACCEPT
+BEGIN
+COBEGIN COEND CONST
+END ENTRY EXPORT
+FUNCTION
+GUARDED
+MONITOR
+PROCEDURE PROCESS PROGRAM PROVIDES
+REQUEUE RESOURCE
+TYPE
+VAR
+delay
+empty
+initial
+record resume
+select signal
+wait
+/C3
+AUTOLOAD
+DESTROY
+array
+boolean
+char condition
+false
+integer
+of
+real
+semaphore sleep string
+true

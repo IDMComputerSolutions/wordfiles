@@ -1,0 +1,164 @@
+/L20"Maya Script"   Line Comment = // Block Comment On = /* Block Comment Off = */  String Chars = "  File Extensions = MEL
+/Delimiters = ~!@%^&*()+=|\/{}[]:;"'<> , .?`
+/C1
+case
+if int
+float
+global
+proc
+string
+true
+/C2
+about addAttr aimConstraint air aliasAttr alignCurve alignSurface
+ambientLight angleBetween animCurveEditor animDisplay animView applyTake
+arcLenDimContext arcLengthDimension arclen arrayMapper assignCommand
+assignInputDevice attachCurve attachDeviceAttr attachSurface
+attrColorSliderGrp attrCompatibility attrEnumOptionMenu
+attrEnumOptionMenuGrp attrFieldGrp attrFieldSliderGrp
+attrNavigationControlGrp attributeQuery autoKeyframe autoPlace
+bakeResults bakeSimulation batchRender bevel bindPose bindSkin blend
+blendShape blendShapeEditor blendShapePanel blendTwoAttr boneLattice
+boundary boxDollyCtx boxZoomCtx buildBookmarkMenu buildKeyframeMenu button
+buttonManip
+camera cameraView canCreateManip canvas channelBox checkBox checkBoxGrp
+choice circle circularFillet closeCurve closeSurface cluster cmdShell
+collision color colorEditor colorIndex colorIndexSliderGrp
+colorSliderButtonGrp colorSliderGrp columnLayout commandEcho commandLine
+commandPort commonPaintCtx condition cone confirmDialog connectAttr
+connectControl connectDynamic connectJoint connectionInfo constrain
+constructionHistory contextInfo control convertSolidTx convertUnit copyKey
+createDrawCtx createEditor createNode ctxAbort ctxCompletion ctxEditMode
+ctxTraverse currentCtx currentTime currentTimeCtx currentUnit curve
+curveAddPtCtx curveCVCtx curveEPCtx curveEditorCtx curveMoveEPCtx
+curveOnSurface curveSketchCtx cutKey cycleCheck cylinder
+dagObjectHit defaultNavigation defineDataServer defineEditor
+defineEditorTemplate defineVirtualDevice delete deleteAttr deleteUI
+detachCurve detachDeviceAttr detachSurface devicePanel dimWhen directKeyCtx
+directionalLight disable disconnectAttr disconnectJoint displayAffected
+displayColor displayCull displayLevelOfDetail displayPref displayRGBColor
+displaySmoothness displayStats displaySurface distanceDimContext
+distanceDimension dolly dollyCtx dopeSheetEditor doubleProfileBirailSurface
+drag draggerContext dropoffLocator duplicate duplicateCurve dynCache
+dynControl dynExport dynExpression dynParticleCtx dynRelEdPanel dynRelEditor
+dynamicLoad
+editor editorTemplate effector emitter enableDevice encodeString eval
+evalDeferred evalEcho event exclusiveLightCheckBox expression
+expressionEditorListen extendCurve extendSurface extrude
+file fileBrowserDialog fileDialog filletCurve filter filterExpand
+findKeyframe finder fitBspline flexor floatField floatFieldGrp
+floatScrollBar floatSlider floatSliderButtonGrp floatSliderGrp flow
+flushThumbnailCache flushUndo fontDialog formLayout frameLayout
+freeFormFillet
+geometryConstraint getAttr getClassification getInputDeviceRange getPanel
+getParticleAttr glRender glRenderEditor goal grabColor graphDollyCtx
+graphSelectContext graphTrackCtx gravity grid gridLayout group
+handleRotateCtx hardenPointCurve hardware hardwareRenderPanel help helpLine
+hide hilite hotBox hotkey hotkeyCheck hyperGraph hyperPanel
+iconTextButton iconTextCheckBox iconTextRadioButton iconTextRadioCollection
+iconTextStaticLabel ikHandle ikHandleCtx ikHandleDisplayScale ikSolver
+ikSplineHandleCtx ikSplineManipCtx ikSystem ikSystemInfo image index
+inheritTransform insertJoint insertJointCtx insertKeyCtx insertKnotCurve
+insertKnotSurface instance intField intFieldGrp intScrollBar intSlider
+intSliderGrp internalVar interpPort intersect isConnected isDirty isTrue
+itemFilter itemFilterAttr itemFilterRender itemFilterType
+joint jointCluster jointCtx jointDisplayScale jointLattice journal
+keyTangent keyframe keyframeOutliner keyframeRegionCurrentTimeCtx
+keyframeRegionDirectKeyCtx keyframeRegionDollyCtx keyframeRegionInsertKeyCtx
+keyframeRegionMoveKeyCtx keyframeRegionScaleKeyCtx
+keyframeRegionSelectKeyCtx keyframeRegionSetKeyCtx keyframeRegionTrackCtx
+keyframeStats
+lastMenuItem lattice layeredShaderPort lightList lightListEditor
+lightListPanel listAnimatable listAttr listCameras listConnections
+listDeviceAttachments listHistory listInputDeviceAxes listInputDeviceButtons
+listInputDevices listNodeTypes listRelatives listerEditor loadPlugin loft
+lookThru ls lsThroughFilter lsUI
+makeIdentity makeLive manipMoveContext manipMoveLimitsCtx manipOptions
+manipRotateContext manipRotateLimitsCtx manipScaleContext
+manipScaleLimitsCtx marker memory menu menuBarLayout menuEditor menuItem
+messageLine minimizeApp mirrorJoint modelCurrentTimeCtx modelEditor
+modelPanel movIn movOut move moveKeyCtx multiProfileBirailSurface
+nameCommand nameField newPanelItems newton nodeOutliner nodeType
+normalConstraint nurbsCube nurbsPlane nurbsToPoly nurbsToPolygonsPref
+objExists objectCenter objectType objectTypeUI offsetCurve
+offsetCurveOnSurface openMayaPref optionMenu optionMenuGrp optionVar orbit
+orbitCtx orientConstraint outlinerEditor outlinerPanel overrideModifier
+palettePort paneLayout panel panelConfiguration panelHistory paramDimContext
+paramDimension paramLocator parent particle particleRenderInfo partition
+pasteKey pathAnimation pause percent performanceOptions pickWalk picture
+pixelMove planarSrf plane play playbackOptions playblast pluginInfo
+pointConstraint pointCurveConstraint pointLight pointOnCurve pointOnSurface
+poleVectorConstraint polyAppend polyBevel polyChipOff polyCloseBorder
+polyCollapseEdge polyCollapseFacet polyCone polyCreateFacet polyCube
+polyCylinder polyCylindricalProjection polyDelEdge polyDelFacet
+polyDelVertex polyEvaluate polyExtrudeFacet polyInstallAction polyMapCut
+polyMapDel polyMapSew polyMergeEdge polyMergeFacet polyMoveEdge
+polyMoveFacet polyMoveFacetUV polyMoveUV polyMoveVertex polyNormal
+polyOptions polyPlanarProjection polyPlane polyQuad polySelectConstraint
+polySelectConstraintMonitor polySeparate polySmooth polySoftEdge polySphere
+polySphericalProjection polySplit polySubdivideEdge polySubdivideFacet
+polySuperCtx polyTorus polyTriangulate polyUnite popupMenu projFileViewer
+projectCurve projectLight projectLightEditor projectTangent
+projectionContext projectionManip promptDialog propModCtx propMove puttyCtx
+quit
+radial radioButton radioButtonGrp radioCollection radioMenuItemCollection
+rampColorPort rangeControl readTake rebuildCurve rebuildSurface recordAttr
+recordDevice redo refresh reloadImage removeJoint removeMultiInstance rename
+renameUI render renderGlobalsNode renderInfo renderManip renderPartition
+renderQualityNode renderThumbnailUpdate renderWindowEditor
+renderWindowSelectContext reorder reorderDeformers requires reroot resetTool
+resolutionNode reverseCurve reverseSurface revolve rigidBody rigidSolver
+roll rollCtx rotate rowColumnLayout rowLayout
+saveAllShelves saveImage saveInitialState saveMenu savePrefs saveShelf
+saveToolSettings scale scaleConstraint scaleKey scaleKeyCtx
+sceneUIReplacement sceneViewer scriptJob scriptedPanel scriptedPanelType
+scrollField scrollLayout sculpt select selectContext selectKey selectKeyCtx
+selectMode selectPaintCtx selectPref selectPriority selectType selectedLine
+selectedNodes selectionConnection separator setAttr setAttrMapping
+setDefaultShadingGroup setDrivenKeyframe setDynamic setEditCtx setEditor
+setEscapeCtx setFocus setInfinity setInputDeviceMapping setKeyCtx setKeyPath
+setKeyframe setParent setParticleAttr setStartupMessage setToolTo
+setUITemplate sets shadingConnection shadingGeometryRelCtx
+shadingGroupDialogDaemon shadingLightRelCtx shadingNode shelfButton
+shelfLayout shelfTabLayout shellField showHidden showManipCtx
+showSelectionInTitle showShadingGroupAttrEditor showWindow simplify
+singleProfileBirailSurface snapMode snapshot soft sound soundControl
+spaceLocator sphere spotLight spotLightPreviewPort spreadSheetEditor spring
+srtContext stackTrace stitchSurface stitchSurfacePoints superCtx surface
+surfacePaintCtx surfaceShaderList swatchDisplayPort symbolButton
+symbolCheckBox
+tabLayout tangentConstraint texManipContext texSelectContext texWinToolCtx
+text textCurves textField textFieldButtonGrp textFieldGrp textScrollList
+texturePlacementContext textureWindow timeControl timePort toggle toggleAxis
+toggleWindowVisibility tolerance toolButton toolCollection toolDropped
+toolHasOptions toolPropertyWindow track trackCtx transformLimits translator
+trim tumble tumbleCtx turbulence
+uiTemplate unassignInputDevice undo undoInfo ungroup uniform unloadPlugin
+untrim upAxis userCtx userPaintCtx
+valuePaintCtx view2dToolCtx viewCamera viewClipPlane viewFit viewHeadOn
+viewLookAt viewPlace viewSet vortex
+waitCursor window windowPref wire wireContext workspace wrinkle
+wrinkleContext writeTake wtPaintCtx
+xform xpmPicker
+/C3
+-aob -annotation -attribute
+-b
+-c -cb -columnAttach -columnWidth -command -component -cpp
+-curveParameterPoint -cv
+-d -dragMenuCommand
+-e -editPoint -ex -exists
+-f -facet -false -field -fieldMaxValue -fieldMinValue
+-g
+-hull
+-imagePlane -isoparm -itt
+-jointPivot
+-l -label -latticePoint -localRotationAxis
+-m  -maxValue -minValue -mm
+-optionBox
+-p -particle -pmc -polymeshEdge -polymeshVertex
+-q -query
+-rb -rotatePivot -rowSpacing -rp
+-scalePivot -selectHandle -sh -spp -subMenu -surfaceEdge
+-surfaceParameterPoint
+-time
+-value
+-width

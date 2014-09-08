@@ -1,0 +1,101 @@
+/L20"CaeLib CTS Script" Line Comment = ! Escape Char = ^C String Chars = "' File Extensions = cts
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/C1
+@
+ABORT
+BLKMON BUSMON
+CBMON COLLECT CONNECT CONTINUE CREATE
+DEB DEBUG DEF DEFINE DEP DEPOSIT DIS DISCONNECT DR DRIVE
+ENQUIRE EXAMINE EXIT
+GRAPH
+HELP HOLD
+INFO INPUT
+JOURNAL
+LIST
+MONITOR
+PLOT PUT
+RAMP REFRESH REMOVE RUN
+SAY SET SHOW SPAWN STOP
+TEST TYPE
+UNDEFINE
+WAIT
+abort
+blkmon busmon
+cbmon collect connect continue create
+deb debug def define dep deposit dis disconnect dr drive
+enquire examine exit
+graph
+help hold
+input
+journal
+list
+monitor
+plot put
+ramp refresh remove run
+say set show spawn stop
+test type
+undefine
+wait
+/C2
+ADDRESS AFTER ALL ALPHABETIC_ORDER ALTERNATE ASCII AT
+BACKGROUND BEFORE BINARY BRIEF
+CDB CIRCLE CIRCLE_ALL CIRCLE_NONE CLOSE COLUMN CONNECTION
+DEFAULT DEFAULT_REPRESENTATION DEGREE DIRECTORY
+ERROR EVERY EXECUTABLE EXTEND EXTENDED_BINARY EXTERNAL
+FINALLY FOR FOREGROUND FREEZE_FLAG FULL
+GLOBAL GRID
+HEXADECIMAL
+IN INITIALLY INITIAL_CONDITIONS INTERPOLATE ITERATION_COUNTER
+LIMIT LINE LOCAL
+MAX_PRECISION MODULE
+NEXT NOALL NOERROR NOINPUT NOMONITOR NOOUTPUT NOPROMPT NOTRIM NOVERIFY NUMBER_OF_CIRCLES
+NUMBER_OF_Y_INTERVALS
+OFF ON OUTPUT
+PHYSICAL_ORDER PREVIOUS PROCESS PROMPT Playback
+RADIAN RAMP_TABLES RESULT Ramp_Tables
+SCOPE START_PROMPT SUBMIT SYMBOL
+TASK TIME_LABEL TIME_SHIFT TITLE TO TRIM
+UNTIL
+VALUE VALUE_OF_X_INTERVAL VERIFY VS
+WHEN
+XRANGE XTITLE X_LENGTH_OF_10_INTERVALS
+YRANGE YTITLE Y_LENGTH_OF_10_INTERVALS
+address after all alphabetic_order alternate ascii at
+background before binary brief
+cdb circle circle_all circle_none close column connection
+default default_representation degree directory
+error every executable extend extended_binary external
+finally for foreground freeze_flag full
+global grid
+hexadecimal
+in initial_conditions initially interpolate iteration_counter
+limit line local
+max_precision module
+next noall noerror noinput nomonitor nooutput noprompt notrim noverify number_of_circles
+number_of_y_intervals
+off on output
+physical_order playback previous process prompt
+radian ramp_tables result
+scope start_prompt submit symbol
+task time_label time_shift title to trim
+until
+value value_of_x_interval verify vs
+when
+x_length_of_10_intervals xrange xtitle
+y_length_of_10_intervals yrange ytitle
+/C4
+!
+$
+%
+&
+*
++
+-
+// /
+<
+=
+>
+EOF
+^
+eof
+|

@@ -1,0 +1,55 @@
+/L20"Visual PRO5 Basic" File Extensions = BBT
+/Line Comment Num = 3rem
+/Function String = "%[a-zA-Z_0-9]*:$"
+/C1"Functions"
+abs adjn and argv asc ath atn
+bin bsz
+chanopt chr clipisformat clipregformat cliptostr cos cpl crc crc16 ctrl cvs cvt
+date dec dims dir dsk 
+ept err errmes
+fattr fbin fdec fid field fileopt fill fin fnx fpt
+gap
+hsa hsh hta
+ind info int ior
+jul
+key keyf keyl keyn keyp kgen
+len log lrc lst
+mask max menuinfo min mod msgbox
+neval not notice noticetpl num
+pad pck pgm pos pub
+resfirst resget resget resinfo resnext resopen rnd round
+scall sendmsg seval sgn sin sqlerr sqlfetch sqllist sqltables sqltables sqltmpl sqr ssort ssz stbl str swap
+tbl tcb tmpl tsk
+upk
+winfirst wininfo wininfo winnext
+xor
+/C2"Variables"
+argc
+chn ctl
+day dsz
+opts
+pfx psz
+rev
+sqlchn sqlunt ssn sys
+tim
+unt
+/C3"Verbs"
+addr auto
+background begin break
+case call chdir cisam clear clipclear clipfromfile clipfromstr cliplock cliptofile clipunlock close continue
+data def delete dim direct disable dread drop dump
+edit else enable end endtrace enter erase escape escoff esconexecute exit exitto extract
+file find floatingpoint for
+gosub goto
+if indexed initfile input inpute inputn iolist
+let list load lock
+merge mkdir mkeyed
+next
+open
+precision prefix print program
+read record release rem remove rename renum repeatresclose reserve reset restore retry return rmdir run
+save select serial setday setdrive seterr setesc setopts settime settrace single step sort sqlclose sqlexec sqlopen sqlprep sqlset start stop string swendswitchtable
+then
+unlockuntilwait
+wend write
+while

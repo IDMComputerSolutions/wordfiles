@@ -1,0 +1,66 @@
+/L20"Verity Style File" Line Comment = # Nocase File Extensions = CFG DDD DDD DID DFT LEX NGM PDD PLC PRM SFL SID UFL UNI VGW WLD 
+/Delimiters = ~!@%^&*()+=|\/{}[];"'<> ,	.?
+/C1
+$$
+$control:
+$define
+$endif
+$include $ifdef
+$subst:
+/C2
+BulkLoad
+default
+false FastSearch
+guess
+NewsFeedIdx NewsFeedOpt no none
+ReadOnly
+skip
+true
+yes
+8859
+/C3
+agents: agt: autorec: autoval:
+collection: config: constant: copy:
+data-table: dda: default: define: descriptor: dft: dlv: drivers:
+dispatch:
+field: fixwidth:
+gateway:
+lex:
+mode:
+policy:
+repository:
+session:
+table: token: type: types: 
+user:
+varwidth: vdkwatch:
+worm:
+zone-begin: zone-end:
+/C4
+date
+EOS
+multiRow multiRowOrderBy multiRowCol multiRowFormat 
+NEWLINE
+PARA PUNCT
+signed-integer sirepath
+TAB text
+unsigned-integer
+WHITE WORD
+/C5
+_hexdata
+_implied_size
+action alias
+batch
+charset collection config createok
+def-charset disk_free_interval
+fill filter format-filter 
+globalstyle goaldocs gwkey gwtable
+hidden housekeeping_interval
+indexed inherit instance_ceiling instance_floor
+lock_retry_count
+maintenance_interval maxdocs max_new_docs max_new_work max-records merge_fully merge_parts minmax minparts
+ngram_index num-records
+offset outlevel
+packed partition_max_size pidfile post
+regular
+spanning_index startupKB statefile
+xor

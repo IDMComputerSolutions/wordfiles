@@ -1,0 +1,87 @@
+/L20"UNIX Shell Scripts" Line Comment = #  Escape Char = \ String Chars = "'` File Extensions = sh ksh csh SH KSH CSH
+/Delimiters = ~%^+|\/{}:;"'` ,	.
+/Function String = "%[a-zA-Z_]*)"
+/Indent Strings = "{" "if" "then" "for" "while" "do" "case" "function"
+/Unindent Strings = "}" "else" "fi" "endif" "done" "esac" "exit" "return"
+/C1"COMMAND"
+alias admin apropos ar as at atq atrm awk
+banner basename batch bc bdiff bfs bg break
+cal calendar cancel cat cb cc cd cdc cflow chgrp chmod chown
+clear cmp col comb comm compress continue cp cpio crontab crypt cscope
+csh csplit ctags ctrace cu cut cxref
+date dbx dc dd delta deroff df diff diff3 dircmp dirname dis download
+dpost du
+echo ed edit egrep env ed edpr eval exec exstr exit export
+face factor false fg fgrep file find finger fmli fmt fmtmsg fold ftp function
+gcore gencat get getopts gettxt gprof grep groups
+hash head help hostid hostname
+iconv id install ipcrm ipcs ismpx
+join jsh jterm jobs jwin
+keylogin keylogout kill ksh
+layers ld ldd lex line lint ln login logname lorder lp lpq lpr lprm lprof
+lpstat lptest ls lsm4
+mail mailalias mailx make makekey man mcs mesg mkdir mkmsgs more mv 
+nawk newform newgrp news nice nl nm nohup notify nroff
+od openwin
+pack page passwd paste pcat pg pic pr printenv printf prof prs ps ptx pwd
+rcp read readonly red regcmp relogin reset return rksh rlogin rm rmdel rmdir
+rsh ruptime rwho
+sact sccs sccsdiff sdb sdiff sed select set sh shl shift shutdown size
+sleep soelim sort spell split srchtxt strings strip stop stty su sum suspend
+tabs tail talk tar tbl tee telnet test time timex touch tput tr trap troff true
+truss tset tsort tty type typeset
+ulimit umask uname uncompress unget uniq unit unpack unset uptime users uucp
+uudecode uuencode uuglist uulog uunmae uupick uustat uuto uux
+vacation val vc vedit vi view
+w wait wall wc what whatis which who whoami write
+xargs
+yacc
+zcat
+/C2"SPECIAL VARIABLES"
+CDPATH
+DEBUG
+DIR DIR_LIST
+EDITOR
+FILE_NAME FILENAME
+HOME
+IFS
+LANG
+MAIL MAILCHECK MAILPATH
+OLDPWD
+PATH PPID PS1 PS2 PS3
+REPLY
+SAVE_STS SAVE_LST SHACCT SHELL SOURCE SOURCE_LIST
+TERM
+/C3"CONTROL COMMANDS"
+case
+do done
+elif else esac endif
+fi for
+if
+in
+then
+until
+while
+/C4
+! !=
+%
+& &&
+((
+))
++
+-
+// /
+<=
+= =>
+[[
+]]
+^
+/C8"I/O REDIRECTION OPERATORS"
+> >> >&
+< << <&
+|
+/C6"SPECIAL PARAMETERS"
+$# $- $? $! $* $@ $$
+$0 $1 $2 $3 $4 $5 $6 $7 $8 $9
+/C7"CONDITIONAL PARAMETER"
+-a -o -eq -ne -le -lt -ge -gt -b -c -d -f -g -k -l -p -r -s -S -t -u -w -x -n -z 

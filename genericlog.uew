@@ -1,0 +1,60 @@
+/L3"Generic Log" Line Comment = # Nocase Escape Char = \ File Extensions = log
+/C1"Blue-"
+/C2"RedAlerts"
+** abort alert boot den disabl disconnect error fail reboot
+bad busy
+cannot critical
+emergency
+fatal
+invalid
+not
+offline
+panic
+reset
+unable unavailable
+/C3"OrangeWarnings"
+** advi chang exit fix info miss noti replac retr skip stop
+** updat warn
+disconnect disconnecting down
+stopped
+/C4"Green-Success"
+** pass
+added applied
+checked clear cleared complete completed confirmed connected copied created
+decrypted delivered done
+enabled encrypted established executed
+finished
+generated
+initialised initialized initiated installed
+loaded
+moved
+ok online
+populated processed
+received
+started succeeded success successful
+transferred transmitted
+up upgraded
+validate validated verified
+written
+/C5"Maroon-Registry
+registry
+/C6"Blue-Actions"
+** begin call clean comput detect enter get propogat pull push
+** read replay run scan select set start us
+add adding applying
+check checking completing connect connecting copy copying create creating
+decrypt decrypting deliver delivering
+encrypt encrypting enumerating execute executing
+gather gathering generate generating
+initiate initiating
+load loading
+move moving
+populate populating process processing progress progressing put
+receive receiving
+stop stopping
+testing transfer transferring transmit transmitting
+upgrade upgrading
+validating verify verifying
+write writing
+/C7"Blue"
+/C8"Blue"

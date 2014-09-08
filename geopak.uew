@@ -1,0 +1,57 @@
+/L12"Geopak Criteria" Block Comment On = /* Block Comment Off = */ Nocase String Chars = ^" File Extensions = X MX BX XSC 3PC INP CTL LOG EX VAR x20 x08 x10 cri xe x21 x30
+/Delimiters = ~!@$%^*()+=|\/[]{}:;<> 	,.-?/
+/Indent Strings = "{"
+/Open Brace Strings = "(" "[" "{"
+/Close Brace Strings = ")" "]" "}"
+/Open Fold Strings = "{"
+/Close Fold Strings = "}"
+
+/Function String 1 = "%main"
+/Function String 2 = "%sub"
+/Function String 3 = "%subroutine"
+
+/C1"Reserved"
+above abs actual add alignment and append angle arc area ascii azimuth at auto atan alternate
+barrels back begin below between bl book baseline bylevel break
+c cancel cb cell cellname center cl cluster chain char cmp_string co cogo_angle_between_points cogo_distance_between_points cogo_profelev comp component compute corr ct cumulative curve cogo_distAlongChain cogo_distance_between_points cvt_d_s2 CVT_distAlongChain_Sta CVT_distAlongChain_Reg CVT_StaReg_distAlongChain CLOSE CONTENT cvt_d_sta cvt_sta_d CVT_D_S0 Criteria cogo_offsetFromChain cos clusters continue
+cogo_tangentanglechain cogo_angle_between_points
+d&c dec decimal define define_dgn delta depth description dgn diff difference dimension discharge distance downstream dpx dpy drainage draw dx dy DISTALONGCHAIN dtm_elevation dependent do ddb defined
+eg effect elev elevation elements elevation else end existing exist exit
+feature file for format front ft first filter filler fill
+gg ground get gaps goto
+hi horizontal hyd hydraulic horiz hor
+id if in intensity intersect intersection invert item include into independent int 
+job just
+KEYIN
+lb lc length library line line_string link locationx locationy lt lv lo left layout lvname label
+manning's mark material maximum median minimum mode main MESSAGE MICROSTATION
+n name nearest node num number not
+of off offset ok open orig original out or OPTION
+parameters pattern pave pavement places plot point points profile prompt px py plan proposed pt post
+quantity
+radius rb rc reference region remove report rewind rise rise:run rotation rt run:rise right readonly read reg run rewind remarks
+scale selection set shape skew skewed slope skip soffit span station sta side SEND Select sheet shapes sqrt shxftname sign
+table text th then to tolerance trace tw type tie tan ttftname thickness
+upstream unit
+val value var vertical variable view vert ver
+while width within write wt
+x xpgl xs
+y ypgl ys
+
+/C2"Variables"
+** _s_ _d_ _ed_ _ss_ 
+ad 
+
+/C3"Marked Pts"
+** _mp_ pz
+
+/C4"Subroutines"
+** call 
+sub subroutine
+
+/C5"Brackets"
+** { } ( ) [ ]
+
+/C6"Methods"
+.adhocnumber .color .colorisbylevel .complexcomponentelement .level .style .styleisbylevel .weight .userdefinedlinestyle .weightisbylevel
+.x1 .x2 .y1 .y2 .z1 .z2

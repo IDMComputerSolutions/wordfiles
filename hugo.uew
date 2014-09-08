@@ -1,0 +1,167 @@
+Below is a new UltraEdit word file for Hugo. Since UltraEdit doesn't yet support
+multi-line string coloring, I have hacked around that by defining strings as the
+default block comment, which Inform lacks anyway. However, this means any string
+enclosed by " must be preceded with a space, i.e.
+
+	print "Hello, world^^
+	 You have died"         will work, but
+
+	Format("Hello World")   will not.
+
+To use this syntax coloring mode, cut-and-paste all below the "dotted line" and
+drop it into your WORDFILE.TXT. Depending on how few/many languages you have
+defined, you might have to change the "/L10" to an unused number.
+
+Also note the definition (starting with "/L10") must be *all* *on* *one* *line*
+up to and including "File Extensions = H G HUG" or it won't work.
+
+If you find any useful library routines, constants or anything else I've missed,
+or if you have any comments at all, contact me!
+
+Version 2.19991201			Gunther Schmidl			<gschmidl@gmx.at>
+
+---cut here---cut here---cut here---cut here---cut here---cut here---cut here---
+
+/L20"Hugo" Nocase Escape Char = \ Block Comment On =  " Block Comment Off = " String Chars = ! File Extensions = H G HUG
+/Delimiters = !*()-+=|/{}[]:;"'<> ,	.?
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1"Keywords"
+and anything array attribute
+break
+call capital case child children cls color colour constant class
+dict do
+elder eldest else elseif
+false for
+global
+held hex
+if in input is
+jump
+local locate
+move multi multiheld multinotheld music
+nearby newline not notheld number
+object or
+parent parse$ pause picture playback print printchar player_character property
+quit
+random readfile readval recordoff recordon remove restart restore return
+run runevents routine replace room removal
+save scriptoff scripton select serial$ sibling sound string system
+text to true
+undo
+verb
+while window writefile writeval
+xobject xverb
+younger youngest
+/C2"Attributes"
+already_listed
+clothing container
+enterable
+female
+hidden
+known
+light living lockable locked
+mobile moved
+open openable
+platform plural
+quiet
+readable
+special static switchable switchedon
+transparent
+unfriendly
+visited
+workflag worn
+/C3"Globals"
+actor after_period
+best_parse_rank bgcolor boldcolor
+counter customerror_flag
+default_font
+endflag event_flag
+format
+general
+her_obj him_obj
+indent_size it_obj
+last_object light_source list_nest location
+max_rank max_score
+need_newline number_scripts
+objects obstacle old_location oldword override_indent
+player player_person prompt
+ranking replace_pronoun
+score scriptdata self setscript sl_bgcolor sl_textcolor speaking statustype
+textcolor them_obj
+verbosity verbroutine
+words
+/C4"Constants"
+_temp_array
+and_word are_word
+banner black blue bold_off bold_on bright_white brown
+cyan
+dark_gray def_background def_foreground def_sl_background def_sl_foreground
+descform_f down_arrow
+enter_key escape_key
+file_check
+green groupplurals_f
+here_word
+in_word is_word italic_off italic_on
+left_arrow light_blue light_cyan light_green light_magenta light_red list_f
+magenta match_foreground max_scripts max_words menu_bgcolor menu_selectbgcolor
+menu_selectcolor menu_textcolor menuitem
+noindent_f norecurse_f
+on_word
+prop_off prop_on
+red right_arrow
+underline_off underline_on up_arrow
+white
+yellow
+/C5"Properties"
+adjective adjectives after article
+before
+cant_go capacity contains_desc cursor_column cursor_row
+d_to desc_detail door_to
+e_to exclude_from_all
+found_in
+hasgraphics holding
+ignore_response in_scope in_to initial_desc inv_desc
+key_object
+linelength list_contents long_desc
+misc
+n_to name ne_to noun nouns nw_to
+order_response out_to
+parse_rank prep preposition pronoun
+reach
+s_to screenheight screenwidth se_to short_desc size statusline_height sw_to
+title_caption type
+u_to
+w_to when_closed when_open windowlines
+/C6"Verbs/Actions"
+** Do 
+&Do &Char &Loop
+/C7"Routines"
+Acquire AnyVerb AssignPronoun Activate Art abs
+CThe CArt CalculateHolding CenterTitle CheckReach Contains CustomError
+CancelScript
+DarkWarning DeleteWord DescribePlace  Deactivate
+EndGame ExcludeFromAll
+FindLight Font FindObject
+GetInput
+HoursMinutes higher
+Indent InList InsertWord IsorAre
+ListObjects lower
+MatchPlural MatchSubject Menu Message MovePlayer mod
+NumberWord
+ObjectIs ObjectisKnown ObjectisLight ObjWord
+Parse ParseError PauseScript PreParse PrintEndGame PrintScore pow
+PrintStatusLine PropertyList PutInScope
+RemoveFromScope ResumeScript RunScripts
+Script SetObjWord ShortDescribe SpecialDesc SkipScript SpeakTo StringPrint
+StringCompare StringCopy StringDictCompare StringEqual StringLength
+The
+WhatsIn
+YesOrNo
+/C8"Settings/Flags"
+** # NO_
+clear
+defined
+error
+set
+undefined
+warning

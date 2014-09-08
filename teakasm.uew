@@ -1,0 +1,70 @@
+/L20"TEAK ASM" AASM_LANG Line Comment = ; Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = ASM DBG SRC lnk lin lst
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String = "%[a-zA-Z_]*)"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1
+add addh addl addv and adda add3 add3a add3aa addsub addsuba addhp
+banke bkrep br break brr bankr bitrev bkreprst bkrepsto
+call calla callr chng clr clrr cmp cmpu cmpv cntx copy clrp
+dec dint divs
+eint exp
+inc
+lim load lpg
+maa maasu mac macsu macus macuu max maxd min moda modb modr mov movd movp movr movs movsi mpy mpyi mpys mpysu msu msusu mac1 movpdw mov
+neg nop norm not
+or
+pacr pacr0 pacr1 pop push popa pusha
+rep ret retd reti retid rets rnd rol ror rst
+set shfc shfi shl shl4 shr shr4 sqr sqra sub subh subl subv swap sub3 sub3a sub3aa suba sbr scall
+trap tst0 tst1 tstb tst4b
+vtrclr vtrmov vtrshr
+xor
+
+/C2
+a0 a1 a0l a0h a0e a1l a1h a1e arp0 arp1 arp2 arp3 ar0 ar1
+b0 b0l b0h b1 b1h b1l
+cfgi cfgj
+ext0 ext1 ext2 ext3
+lc
+p ph pc p0 p1
+r0 r1 r2 r3 r4 r5 r6 r7 rb
+sv sp st0 st1 st2 stt0 stt1 stt2 stepi stepj
+y y0 y1
+mod0 mod1 mod2 mod3 modj modi
+
+/C3
+eq e
+true
+lt le l
+gt ge
+nn nr neq niu0
+iu0 iu1
+v
+c
+
+/C4
+animate
+code command config
+CSECT
+DSECT DW DB
+data define dw db
+ELSE ENDIF EQU
+GLOBAL
+global
+IFDEF INCLUDE
+internal iow iorw
+map memory
+LOAD
+open
+Port PORT
+RLOAD
+register
+text
+wait
+xram xyram
+yram
+
+/C5
+#
+@

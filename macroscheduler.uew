@@ -1,0 +1,81 @@
+/L20"Macro Scheduler Script" HTML_LANG Nocase Line Comment = # Escape Char = \ String Chars = "' File Extensions = SCP 
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> , .? 
+/Function String = "%[a-z_]*)" 
+/Indent Strings = "{" 
+/Unindent Strings = "}" 
+/C1"Clics and Keys" 
+Add ALT ALTGR 
+Backspace 
+CAPS CapsOff> CapsOn> CTRL 
+Decimal Del Divide Down 
+Enter End Esc 
+F1 F10 F11 F12 F13 F14 F15 F16 F17 F18 F19 
+F2 F20 F21 F22 F23 F24 
+F3 F4 F5 F6 F7 F8 F9 
+Home 
+Ins 
+LClick> LDblClick> LDown> Left Lock LUp> LWinKey 
+MClick> MDblClick> MDown> MenuKey Multiply MUp> 
+NP0 NP1 NP2 NP3 NP4 NP5 NP6 NP7 NP8 NP9 
+Num NumOff> NumOn> 
+Page Press 
+RClick> RDblClick> RDown> Release Right  RUp> RWinKey 
+Scroll ScrollOff> ScrollOn> Shift Subtract 
+Tab 
+Up 
+/C2"Jump and Call" 
+Goto> 
+Label> 
+Macro> 
+Program> 
+Repeat> 
+Run 
+Until> 
+/C4"Basic commands" 
+Add> Ask> Ascii> 
+Change Character CloseWindow> ConCat> CountFiles> CopyFile> CreateDir> 
+DateStamp> Day> DayOfWeek> DeleteFile> DDEPoke> DDERequest> Directory> 
+EditIniFile> ExecuteFile> 
+FileDate> FileSize> FindWindowWithText> FTPDelFile> FTPGetDirList> FTPGetFile> FTPPutFile> FTPRenameFile> 
+GetActiveWindow> GetCheckBox> GetClipBoard> GetCursorPos> GetDate> GetFileList> GetPixelColor> GetRectCheckSum> GetTime> GetWindowPos> 
+Hour> HTTPRequest> 
+Input> 
+Length> Let> 
+Message> MessageModal> MidStr> Min> Month> MouseMove> MouseMoveRel> MouseOver> MoveFile> MoveWindow> 
+PlayWav> Position> PushButton> PutClipBoard> 
+Random> ReadIniFile> ReadLn> RegistryDelKey> RegistryDelVal> RegistryReadKey> RegistryWriteKey> Remark> ResizeWindow> 
+Sec> Send Separate> SetCheckBox> SetFocus> ShutDownWindows> SMTPSendMail> Sub> 
+Text> TimeStamp> 
+Wait> WaitCursorChanged> WaitKeyDown> WaitPixelColor> WaitReady> WaitRectChanged> WaitWindowClosed> WaitWindowOpen> WindowAction> WriteLn> 
+
+Year> 
+/C7"If commands" 
+If> IfFileChanged> IfFileExists> IfWindowOpen> 
+/C6 
+VBEND> VBEval> VBSTART> VBRun> 
+/C3"Env. Variables" 
+CF_OVERWRITE COMPUTER_NAME CR CRLF 
+DDE_TIMEDOUT 
+FTP_PASSIVE FTP_RESULT FTP_STATUS FTP_TIMEOUT 
+LF 
+MSG_CENTERED MSG_STAYONTOP 
+OS_VER 
+REG_INTASSTR RND_SEED RP_DISPLAYERROR RP_RESULT RP_WINDOWMODE 
+SENDMAIL_STATUS SK_DELAY SMTP_AUTH SMTP_PASSWORD SMTP_PORT SMTP_RECEIPT SMTP_RESULT SMTP_USERID SYS_DIR 
+USER_NAME 
+VBS_TIMEOUT 
+WCC_RESULT WF_TYPE WIN_DIR WW_RESULT WW_TIMEOUT 
+/C4"Operators" 
++ 
+- 
+= 
+// / 
+% 
+& 
+> 
+< 
+^ 
+! 
+| 
+$ 
+* 

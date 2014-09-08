@@ -1,0 +1,45 @@
+/L20"HTML 4.01" Nocase Noquote HTML_LANG Block Comment On = <!-- Block Comment Off = --> Block Comment On Alt = =" Block Comment Off Alt = > String Chars = " File Extensions = HTM HTML ASP SHTML HTT HTX JSP
+/Delimiters = ~!@$%^&*()+=|\{}[];"'<> ,	.?
+/Function String = "name=*">"
+/C1"Tags"
+>
+<a </a> <abbr> <abbr </abbr> <acronym> <acronym </acronym> <address> <address </address> <applet </applet> <area </area>
+<b> <b </b> <base <basefont <bdo> <bdo </bdo> <big> <big </big> <blockquote> <blockquote </blockquote> <body> <body </body> <br> <button> <button </button>
+<caption> <caption </caption> <center> <center </center> <cite> <cite </cite> <code> <code </code> <col <col> <colgroup <colgroup> </colgroup>
+<dd> <dd </dd> <dfn> <dfn </dfn> <dir> <dir </dir> <div> <div </div> <dl> <dl </dl> <dt> <dt </dt>
+<em> <em </em>
+<fieldset> <fieldset </fieldset> <font </font> <form> <form </form> <frame <frameset </frameset>
+<h1> <h1 </h1> <h2> <h2 </h2> <h3> <h3 </h3> <h4> <h4 </h4> <h5> <h5 </h5> <h6> <h6 </h6> <head> <head </head> <hr> <hr <html> <html </html>
+<i> <i </i> <iframe> </iframe> <ilayer> </ilayer> <img <input> <input <isindex> <isindex
+<kbd> <kbd </kbd>
+<label> <label </label> <legend> <legend </legend> <li> <li </li> <link
+<map </map> <menu> <menu </menu> <meta
+<noframes> <noframes </noframes> <noscript> <noscript </noscript>
+<object> <object </object> <ol> <ol </ol> <optgroup> <optgroup </optgroup> <option> <option </option>
+<p <p> </p> <param <pre> <pre </pre>
+<q> <q </q>
+<s> <s </s> <samp> <samp </samp> <script <script> </script> <select <select> </select> <small> <small </small> <span> <span </span> <strike> <strike </strike> <strong> <strong </strong> <style> <style </style> <sub> <sub </sub> <sup> <sup </sup>
+<table> <table </table> <tbody> <tbody </tbody> <td <td> </td> <text> <textarea <textarea> </textarea> <tfoot> <tfoot </tfoot> <th <th> </th> <thead> <thead </thead> <title> </title> <tr> <tr </tr> <tt> <tt </tt>
+<u> <u </u> <ul> <ul </ul>
+<var> <var </var>
+/C2"Attributes"
+abbr= accept-charset= accept= accesskey= action= align= alink= alt= archive= axis=
+background= bgcolor= border=
+cellpadding= cellspacing= char= charoff= charset= checked cite= class= classid= clear= code= codebase= codetype= color= cols= colspan= compact content= coords=
+data= datetime= declare defer dir= disabled
+enctype=
+face= for= frame= frameborder=
+headers= height= href= hreflang= hspace= http-equiv=
+id= ismap=
+label= lang= language= link= longdesc=
+mailto: marginheight= marginwidth= maxlength= media= method= multiple
+name= nohref noresize noshade nowrap
+object= onblur= onchange= onclick= ondblclick= onfocus= onkeydown= onkeypress= onkeyup= onload= onmousedown= onmousemove= onmouseout= onmouseover= onmouseup= onreset= onselect= onsubmit= onunload= 
+profile= prompt=
+readonly rel= rev= rows= rowspan= rules=
+scheme= scope= scrolling= selected shape= size= span= src= standby= start= style= summary=
+tabindex= target= text= title= type=
+usemap=
+valign= value= valuetype= version= vlink= vspace=
+width=
+=

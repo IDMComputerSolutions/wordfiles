@@ -1,0 +1,39 @@
+/L20"AutoIT 2.61" Escape Char = \ String Chars = % Line Comment = ; NoQuote File Extensions = AUT
+/Delimiters =  , 	\
+/Function String = "%^{[ a-zA-Z_0-9]+:^}^{^[ADLIB^]^}"
+/Marker Characters = "{}"
+/C1"Commands"
+#include
+AdlibOn AdlibOff
+BlockInput Break
+DetectHiddenText
+Exit EndRepeat EnvAdd EnvDiv EnvMult EnvSub
+FileAppend FileReadLine FileSelectFile
+Gosub Goto
+HideAutoItWin
+IfInString IfNotInString IfWinExist IfWinNotExist IfWinActive IfWinNotActive IfEqual IfNotEqual
+IfGreater IfGreaterOrEqual IfLess IfLessOrEqual IfExist IfNotExist IfMsgBox IniRead IniWrite
+IniDelete InputBox
+LeftClick LeftClickDrag
+MouseGetPos MouseMove MsgBox
+Random RegDelete RegRead RegWrite Repeat Return RightClick RightClickDrag Run RunWait
+Send SetBatchLines SetCapslockState SetEnv SetKeyDelay SetStoreCapslockMode SetTitleMatchMode SetWinDelay Shutdown Sleep SplashTextOn SplashTextOff
+StringCaseSense StringGetPos StringLeft StringRight StringMid StringLen StringReplace StringTrimLeft StringTrimRight
+WinGetActiveStats WinGetActiveTitle WinKill WinWait WinWaitClose WinWaitActive WinWaitNotActive WinHide
+WinRestore WinShow WinMinimize WinMaximize WinActivate WinClose WinMinimizeAll WinMinimizeAllUndo WinMove WinSetTitle
+/C2"Modifieurs"
+Default
+Hide
+Max Min
+On Off
+REG_SZ REG_DWORD
+/C3"Marqueurs"
+\
+{}
+%
+/C4"Variables"
+A_OSTYPE A_OSVERSION A_SCRIPTNAME A_SCRIPTDIR A_SCRIPTFULLPATH A_WORKINGDIR A_NUMBATCHLINES A_SEC A_MIN A_HOUR A_MDAY A_MON A_YEAR A_WDAY A_YDAY 
+CLIPBOARD COMSPEC
+ERRORLEVEL
+HKEY_LOCAL_MACHINE HKEY_CURRENT_USER HKEY_CURRENT_CONFIG
+WIN32_WINDOWS WIN32_NT WIN_XP WIN_2000 WIN_NT4 WIN_95 WIN_98 WIN_ME

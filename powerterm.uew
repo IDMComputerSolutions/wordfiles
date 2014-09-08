@@ -1,0 +1,110 @@
+/L20"PowerTerm Scripts" Line Comment = # Escape Char = \ String Chars = "' DisableMLS File Extensions = PSL
+/Delimiters = ! "	$%&'()*+,./:;<=>?@[\]^{|}~
+/Function String = "proc +^([0-9a-z_^-]+^)"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/Open Brace Strings =  "{" "(" "["
+/Close Brace Strings = "}" ")" "]"
+/Open Fold Strings = "{"
+/Close Fold Strings = "}"
+/C1"Switch/Permission"
+-all -ascii -code -command -decreasing -errorcode -exact -glob -increasing -indices -integer -nocase
+-nocomplain -nonewline -real -regexp
+APPEND
+CREAT
+EXCL
+NOCTTY NONBLOCK
+PSL_BREAK PSL_CONTINUE PSL_RETURN
+RDONLY RDWR
+TRUNC
+WRONLY
+/C2"Reserved words"
+break
+case continue
+default
+else
+for
+if
+return
+switch
+while
+/C3"Commands"
+abs activate-menu-item append array ascii-code
+catch cd clear-screen close color concat copy-file copy-from-clipboard copy-to-clipboard cursor
+dde display double
+eof error eval exec exit-emulator exit-script expr
+file flush foreach format func
+get get-printer-name getenv gets glob global
+history
+incr indfile info input-line input-password int iscommand
+join
+key
+lappend lindex linsert list llength lock-columns lrange lreplace lsearch lsort
+md menu message move-file
+open open-keyboard-file open-power-pad-file open-setup-file
+pad paste paste-from-clipboard print-file print-screen proc puts pwd
+read recv-ascii-file recv-binary-file recv-binary-stop recv-file recv-indfile regexp regsub
+remove-menu-item rename rename-file ring-bell round run
+save-keyboard-file save-power-pad-file save-setup-file scan screen screen-rect seek send send-abort-output
+send-ascii-file send-binary-file send-break send-file send-indfile send-raw-data session set split
+start-auto-print status-message stop-auto-print string system-request
+tell terminal-id time toggle-auto-print trace
+unlock-columns unprotected-field unset uplevel upvar use-default-printer
+wait window
+/C4"Options"
+3des
+add aes answerback-message anymore args ascii ask atime auto-signon avblocks
+baud-rate block-paste block-size blowfish body buttons
+caps-lock change cics cmdcount cms col comm-type commands compare complete convert cr crlf current
+cylinders
+dedicated des device-name digital dirname disable-exit-active-session donesearch
+end end-of-medium event execute exists extension
+ff first fixed func-cols func-hotspot-rows func-rows
+globals graphics
+hardware hide host-name
+ibm index information initiate isdirectory isfile
+keep keyboard
+l2r last length level library lk450 locals lrecl lu-category lu-name
+mark-func-only match max-sessions menu-hotspot-rows menu-hotspots message-library message-queue minimize
+modem-init-string modem-name modify mouse-control mouse-report mtime
+namens nextelement nextid no no_convert node-name none
+off ok okcancel on option-hotspots options overwrite
+pad-cols pad-pos pad-rows pad-size parity poke pooled port-number position print-device-name
+print-direction print-file-name print-prefix print-screen-convert print-suffix printer-header-lines
+printer-name printer-transparent-header printer-transparent-trailer procs program protocol-type public put
+question
+r2l range record redo repeat-left-alt-key repeat-left-ctrl-key repeat-right-alt-key repeat-right-ctrl-key
+request restore rootname row
+script seconds security-type server-name server-topic service-name session-count session-name show-buttons
+show-status-bar show-toolbar size slave-printer-convert slave-printer-delimiter space ssh ssh-allow-agent
+ssh-attempt-tis ssh-cipher ssh-enable-compression ssh-enable-x11 ssh-type ssh-username ssh1 ssh2 ssl
+ssl-type ssl2 ssl3 start startsearch stat status-bar stop-bits substitute system system-name
+tail telnet-port terminate title tls1 tolower toolbar toupper tracks trim trimleft trimright tso type
+undefined unsecured use-alt-key-up use-available-ssh-show-info use-tn3270e-protocol user-name
+value variable vars vdelete vinfo vt-hotspots
+warn warning words wyse-esc-b
+xonxoff
+yes yesno
+/C5"Delimiters"
+!
+$
+&
+(
+)
+*
++
+,
+-
+.
+// /
+:
+;
+<
+=
+>
+[
+]
+{
+|
+}
+~

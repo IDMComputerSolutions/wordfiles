@@ -1,0 +1,75 @@
+/L20"MATLAB 6" Nocase Line Comment = % String Chars = ' File Extensions = m M
+/Function String = "%[ ^t]++function*=[ ^t]++^([a-z0-9_]+^)"
+/Function String 1 = "%[ ^t]++function[ ^t]+^([a-z0-9_]+^)[ ^t]++[~=]"
+/Delimiters = ~!@$^&*()-+=|\/{}[]:;"'<> ,	.?
+/C1
+break
+case catch
+else elseif end
+for function
+global
+if
+otherwise
+persistent
+return
+switch
+try
+while
+/C2
+abs acos acosh add_annotation add_block add_line add_param all and any asin asinh assignin atan atan2 atanh
+balance beep bitand bitcmp bitget bitor bitset bitshift bitxor builtin
+callstats cat cd ceil cell cell2struct cellhorzcat cells char chdir check_system chol cholinc cholupdate class clc clear clock close_system colon compare_system computer 
+conj contourc conv2 copyobj cos cosh cputime ctranspose cumprod cumsum
+dbclear dbcont dbdown dbquit dbstack dbstatus dbstep dbstop dbtype dbup delete delete_annotation delete_block delete_line delete_param det diag diary diff disp display 
+dongarra dos double dragrect drawnow
+echo eig eps eq error errortrap eval evalc evalin exist exit exp expm eye
+fclose feature feof ferror feval fft fftn fftw fgets fieldnames fields filesep fill fill3 filter find find_system findpackage findstr findtype finite fix floor fopen 
+format fprintf frame2im fread fscanf fschange fseek ftell full func2str functions functionscalled fwrite
+ge getenv getframe gs_get_buttonmotion gt
+handle handle2struct hardcopy hcreate help hess hittest home horzcat hregister
+i ieee ifft ifftn im2frame imag import inf Inf inferiorto inmem input inputname int16 int32 int8 inv isa iscell ischar isempty isequal isfinite isglobal ishandle isieee 
+isinf isjava isletter islogical isnan isreal isruntime isspace issparse isstr isstudent
+j java javaArray javaMethod javaObject java_array java_method java_object
+keyboard
+lasterr lastwarn ldivide le length license load log log2 logical loglog lookfor lower lt ltitr lu luinc
+magic matlabpath matlabroot max methods mexext mfilename mimofr min minus mislocked mldivide mlock mod more movie mpower mrdivide mtimes munlock
+nan NaN nargin nargout ndims ne new_system norm not numel
+ones open_system or
+pack pause permute pfile pi plot plot3 plus pow2 power prod
+qr qrupdate quit qz
+rand randn rbbox rcond rdivide real rehash rem reset reshape rmappdata round rtwgen runtime
+save save_system schur selectmoveresize semilogx semilogy setappdata setstr sign sim simulink simver sin single sinh size sldebug sort sparse sparsfun sprintf sqrt sscanf 
+str2func strcmp strcmpi strfind string strncmp strncmpi strrep struct struct2cell struct2handle subsasgn subsindex subsref sum superiorto svd system system_dependent
+tan tanh tic times toc transpose tril triu trmginput type
+u_convert_to_gobject  uigetfile uimenufcn uint16 uint32 uint8 uipushtool uiputfile uisetcolor uisetfont uitoggletool uitoolbar uminus unix uplus upper
+version vertcat vms
+waitfor waitforbuttonpress warning what which who whos
+xlate
+zeros
+/C3
+axes
+dir
+figure findobj
+gcbf gcbo gcf gco get get_param gcbh
+image
+light line
+patch pwd
+rectangle
+set set_param sf surface
+text
+uicontrol uimenu uicontextmenu
+/C4
++
+-
+=
+// /
+\
+%
+&
+>
+<
+^
+!
+{
+}
+|

@@ -1,0 +1,141 @@
+/L20"ActionScript" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = " File Extensions = FAS AS
+/Delimiters = ~!@%^&*()-+=\|/{}[]:;"'<> ,.
+/Function String = "%[a-z]*)"
+/C1"Operators"
+- -- -=
++ ++ +=
+! !=
+% %=
+& && &=
+* *=
+?
+.
+:
+// /
+^ ^=
+| || |=
+~
+< << <<= <=
+<>
+= ==
+> >> >>= >>> >>>=
+$version
+add and
+eq
+ge gt
+le lt
+ne new not null
+or
+this typeof
+void
+/C2"Properties"
+_alpha
+_currentframe
+_droptarget
+_focusrect
+_framesloaded
+_height
+_highquality 
+_name
+_parent
+_quality 
+_root
+_rotation 
+_soundbuftime
+_target
+_totalframes
+_url
+_visible
+_width
+_x
+_xmouse
+_xscale
+_y
+_ymouse
+_yscale
+** _level 
+Infinity
+-Infinity
+NaN
+/C3"Objects"
+Array
+Boolean
+Color
+Date
+Key
+Math Mouse MovieClip
+Number
+Object
+Selection Sound String
+XML XMLSocket
+/C4"Methods"
+__proto__
+abs acos appendChild arguments asin atan atan2 attributes attachMovie attachSound
+break
+call continue callee ceil charAt charCodeAt childNodes chr cloneNode close concat 
+connect constructor contentType cos createElement createTextNode
+docTypeDecl duplicateMovieClip delete do
+E 
+escape eval exp else
+firstChild floor fromCharCode for fscommand function
+getAscii getBeginIndex getBounds getBytesLoaded getBytesTotal getCaretIndex getCode getDate getDay getEndIndex getFocus 
+getFullYear getHours getMilliseconds getMinutes getMonth getPan getRGB getSeconds getTime getTimezoneOffset getTransform 
+getURL getUTCDate getUTCDay getUTCFullYear getUTCHours getUTCMilliseconds getUTCMinutes getUTCMonth getUTCSeconds 
+getVolume getYear globalToLocal gotoAndPlay gotoAndStop getProperty getTimer getVersion
+hasChildNodes hide hitTest 
+indexOf insertBefore isDown isToggled int isFinite isNaN if ifFrameLoaded in ignoreWhite
+join
+lastChild lastIndexOf length load loaded loadMovie loadMovieNum loadVariblesNum loadVariables localToGlobal log
+LN2 LN10 LOG2E LOG10E
+MAX_VALUE MIN_VALUE
+min max maxscroll mbchr mblength mbord mbsubstring
+NEGATIVE_INFINITY
+newline nextFrame nextSibling nodeName nodeType nodeValue nextFrame nextScene
+OnLoad On
+onClose onConnect onXML ord on onClipEvent onData onLoad
+parseFloat parseInt parentNode parseXML play pop pow prevFrame previousSibling push
+play prevFrame prevScene print printAsBitmap printAsBitmapNum printNum
+PI POSITIVE_INFINITY
+random removeMovieClip removeNode reverse round return
+SQRT1_2 SQRT2
+scroll send sendAndLoad setDate setFocus setFullYear setHours setMilliseconds setMinutes setMonth setPan setRGB setSeconds 
+setSelection setTime setTransform setUTCDate setUTCFullYear setUTCHours setUTCMilliseconds setUTCMinutes setUTCMonth 
+setUTCSeconds setVolume setYear shift show sin slice sort splice split sqrt start startDrag status stop stopDrag
+substr substring swapDepths set setProperty stop stopAllSounds
+tan targetPath toLowerCase toString toUpperCase tellTarget toggleHighQuality trace
+updateAfterEvent unescape unloadMovie unloadMovieNum unshift
+UTC 
+valueOf var
+while with
+xmlDecl
+/C5"Keys"
+BACKSPACE
+CAPSLOCK CONTROL
+DELETEKEY DOWN
+END ENTER ESCAPE
+HOME
+INSERT
+LEFT
+PGDN PGUP 
+RIGHT
+SHIFT SPACE 
+TAB
+UP
+/C6"FSCommands"
+allowscale
+exec
+fullscreen
+quit
+showmenu
+trapallkeys
+/C7"Directives"
+#include
+/C8"Events"
+enterFrame
+load
+data dragOut dragOver
+mouseDown mouseUp mouseMove
+keyDown keyUp keyPress
+unload
+press
+release releaseOutside rollOver rollOut

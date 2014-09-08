@@ -1,0 +1,103 @@
+/L20"Purebasic" Nocase Block Comment On = Block Comment Off = Line Comment = ; String Chars = "' File Extensions = PB
+/Delimiters = %^&*()-+|\/[];"'<> ,	.
+/Indent Strings = "if" "while" "for" "foreach" "repeat" "select" "gosub" "structure" "procedure"
+/Unindent Strings = "endif" "wend" "next" "next" "until" "endselect" "return" "endstructure" "endprocedure"
+/Function String 1 = "%procedure ^([a-zA-Z_]+*^)"
+/Function String 2 = "%procedure.[a-zA-Z_]* ^([a-zA-Z_]+*^)"
+/Open Brace Strings = "(" "{" "[" "<" "if" "while" "for" "foreach" "repeat" "select" "gosub" "structure" "procedure" "break" "enumeration" "interface"
+/Close Brace Strings = ")" "}" "]" ">" "endif" "wend" "next" "next" "until" "endselect" "return" "endstructure" "endprocedure" "continue" "endenumeration" "endinterface"
+/Open Fold Strings = "if" "while" "for" "foreach" "repeat" "repeat" "select" "gosub" "structure" "procedure" "break" "enumeration" "interface" "datasection"
+/Close Fold Strings = "endif" "wend" "next" "next" "until" "forever" "endselect" "return" "endstructure" "endprocedure" "continue" "endenumeration" "endinterface" "enddatasection"
+/C1"Commands"
+ACos ASin ATan Abs ActivateGadget ActivateWindow Add3DArchive AddBillboard AddDate AddElement AddGadgetColumn AddGadgetItem AddKeyboardShortcut AddMaterialLayer AddPackFile AddPackMemory AddStatusBarField AddSysTrayIcon AdvancedGadgetEvents AllocateMemory AmbientColor AnimateEntity Asc AvailableScreenMemory
+BackColor Base64Decoder Base64Encoder BillboardGroupLocate BillboardGroupMaterial BillboardGroupX BillboardGroupY BillboardGroupZ BillboardHeight BillboardLocate BillboardWidth BillboardX BillboardY BillboardZ Bin Blue Box ButtonGadget ButtonImageGadget
+CDAudioLength CDAudioName CDAudioStatus CDAudioTrackLength CDAudioTrackSeconds CDAudioTracks CRC32Fingerprint CalendarGadget CallCFunction CallCFunctionFast CallFunction CallFunctionFast CameraBackColor CameraFOV CameraLocate CameraLookAt CameraProjection CameraRange CameraRenderMode CameraX CameraY CameraZ CatchImage CatchSound CatchSprite ChangeAlphaIntensity ChangeCurrentElement ChangeGamma ChangeListIconGadgetDisplay ChangeSysTrayIcon CheckBoxGadget Chr Circle ClearBillboards ClearClipboard ClearConsole ClearError ClearGadgetItemList ClearList ClearScreen ClipSprite CloseConsole CloseDatabase CloseFile CloseFont CloseGadgetList CloseHelp CloseLibrary CloseNetworkConnection CloseNetworkServer ClosePack ClosePreferences CloseScreen CloseSubMenu CloseTreeGadgetNode CloseWindow ColorRequester ComboBoxGadget CompareMemory CompareMemoryString ConsoleColor ConsoleCursor ConsoleLocate ConsoleTitle ContainerGadget CopyDirectory CopyEntity CopyFile CopyImage CopyLight CopyMaterial CopyMemory CopyMemoryString CopyMesh CopySprite CopyTexture Cos CountBillboards CountGadgetItems CountLibraryFunctions CountList CountMaterialLayers CountRenderedTriangles CountString CountTreeGadgetNodeItems CreateBillboardGroup CreateCamera CreateDirectory CreateEntity CreateFile CreateGadgetList CreateImage CreateLight CreateMaterial CreateMenu CreateMesh CreateNetworkServer CreatePack CreatePalette CreateParticleEmitter CreatePopupMenu CreatePreferences CreateSprite CreateSprite3D CreateStatusBar CreateTerrain CreateTexture CreateThread CreateToolBar
+DESFingerprint DatabaseColumnName DatabaseColumnType DatabaseColumns DatabaseDriverDescription DatabaseDriverName DatabaseError DatabaseQuery DatabaseUpdate Date DateGadget Day DayOfWeek DayOfYear DefaultPrinter Delay DeleteDirectory DeleteElement DeleteFile DesktopDepth DesktopFrequency DesktopHeight DesktopMouseX DesktopMouseY DesktopName DesktopWidth DetachMenu DirectoryEntryAttributes DirectoryEntryName DirectoryEntrySize DisASMCommand DisableGadget DisableMaterialLighting DisableMenuItem DisableToolBarButton DisplayAlphaSprite DisplayPalette DisplayPopupMenu DisplayRGBFilter DisplayShadowSprite DisplaySolidSprite DisplaySprite DisplaySprite3D DisplayTranslucideSprite DisplayTransparentSprite DrawImage DrawText DrawingBuffer DrawingBufferPitch DrawingBufferPixelFormat DrawingFont DrawingMode
+EditorGadget EjectCDAudio ElapsedMilliseconds Ellipse Engine3DFrameRate EntityAnimationLength EntityLocate EntityMaterial EntityX EntityY EntityZ Eof EventGadgetID EventMenuID EventType EventWindowID ExamineDatabaseDrivers ExamineDesktops ExamineDirectory ExamineIPAddresses ExamineJoystick ExamineKeyboard ExamineLibraryFunctions ExamineMouse ExamineScreenModes ExplorerComboGadget ExplorerListGadget ExplorerTreeGadget
+FileSeek FileSize FillArea FindString FirstDatabaseRow FirstElement FlipBuffers Fog FontID FontRequester FormatDate Frame3DGadget FreeBillboardGroup FreeCamera FreeEntity FreeGadget FreeImage FreeLight FreeMaterial FreeMemory FreeMenu FreeMesh FreeModule FreeMovie FreePalette FreeParticleEmitter FreeSound FreeSprite FreeSprite3D FreeStatusBar FreeTexture FreeToolBar FrontColor
+GadgetHeight GadgetID GadgetItemID GadgetToolTip GadgetWidth GadgetX GadgetY GetClipboardData GetClipboardText GetCurrentEIP GetDatabaseFloat GetDatabaseLong GetDatabaseString GetDisASMString GetEntityAnimationTime GetErrorAddress GetErrorCounter GetErrorDLL GetErrorDescription GetErrorLineNR GetErrorModuleName GetErrorNumber GetErrorRegister GetExtensionPart GetFilePart GetGadgetAttribute GetGadgetFont GetGadgetItemAttribute GetGadgetItemState GetGadgetItemText GetGadgetState GetGadgetText GetMenuItemState GetModulePosition GetModuleRow GetPaletteColor GetPathPart GetToolBarButtonState GetWindowTitle GoToEIP GrabImage GrabSprite Green
+Hex HideBillboardGroup HideEntity HideGadget HideLight HideMenu HideParticleEmitter HideWindow HostName Hour HyperLinkGadget
+IPAddressField IPAddressGadget IPString ImageDepth ImageGadget ImageHeight ImageID ImageOutput ImageWidth InitCDAudio InitDatabase InitEngine3D InitJoystick InitKeyboard InitModule InitMouse InitMovie InitNetwork InitPalette InitSound InitSprite InitSprite3D Inkey Input InputRequester InsertElement Int IsDatabase IsDirectory IsFile IsFilename IsFont IsFunction IsFunctionEntry IsGadget IsImage IsLibrary IsMenu IsModule IsMovie IsPalette IsScreenActive IsSound IsSprite IsSprite3D IsStatusBar IsSysTrayIcon IsToolBar IsWindow
+JoystickAxisX JoystickAxisY JoystickButton
+KeyboardInkey KeyboardMode KeyboardPushed KeyboardReleased KillThread
+LCase LSet LTrim LastElement Left Len LibraryFunctionAddress LibraryFunctionName LibraryID LightColor LightLocate LightSpecularColor Line LineXY ListIconGadget ListIndex ListViewGadget LoadFont LoadImage LoadMesh LoadModule LoadMovie LoadPalette LoadSound LoadSprite LoadTexture LoadWorld Loc Locate Lof Log Log10
+MD5FileFingerprint MD5Fingerprint MDIGadget MakeIPAddress MaterialAmbientColor MaterialBlendingMode MaterialDiffuseColor MaterialFilteringMode MaterialID MaterialShadingMode MaterialSpecularColor MemoryStringLength MenuBar MenuHeight MenuID MenuItem MenuTitle MeshID MessageRequester Mid Minute ModuleVolume Month MouseButton MouseDeltaX MouseDeltaY MouseLocate MouseWheel MouseX MouseY MoveBillboard MoveBillboardGroup MoveCamera MoveEntity MoveLight MoveParticleEmitter MoveWindow MovieAudio MovieHeight MovieInfo MovieLength MovieSeek MovieStatus MovieWidth
+NetworkClientEvent NetworkClientID NetworkServerEvent NewPrinterPage NextDatabaseDriver NextDatabaseRow NextDirectoryEntry NextElement NextIPAddress NextLibraryFunction NextPackFile NextScreenMode NextSelectedFileName
+OSVersion OnErrorGosub OnErrorGoto OnErrorResume OpenConsole OpenDatabase OpenDatabaseRequester OpenFile OpenFileRequester OpenGadgetList OpenHelp OpenLibrary OpenNetworkConnection OpenPack OpenPreferences OpenScreen OpenSubMenu OpenTreeGadgetNode OpenWindow OpenWindowedScreen OptionGadget
+PackFileSize PackMemory PackerCallback PanelGadget ParseDate ParticleColorFader ParticleColorRange ParticleEmissionRate ParticleEmitterLocate ParticleEmitterX ParticleEmitterY ParticleEmitterZ ParticleMaterial ParticleSize ParticleTimeToLive ParticleVelocity PathRequester PauseCDAudio PauseMovie PauseThread PeekB PeekF PeekL PeekS PeekW PlayCDAudio PlayModule PlayMovie PlaySound Plot Point PokeB PokeF PokeL PokeS PokeW Pow PreferenceComment PreferenceGroup PreviousDatabaseRow PreviousElement Print PrintN PrintRequester PrinterOutput PrinterPageHeight PrinterPageWidth ProgramParameter ProgressBarGadget
+RGB RSet RTrim Random RandomSeed ReAllocateMemory ReadByte ReadData ReadFile ReadFloat ReadLong ReadPreferenceFloat ReadPreferenceLong ReadPreferenceString ReadString ReadWord ReceiveNetworkData ReceiveNetworkFile Red ReleaseMouse RemoveBillboard RemoveGadgetColumn RemoveGadgetItem RemoveKeyboardShortcut RemoveMaterialLayer RemoveString RemoveSysTrayIcon RenameFile RenderMovieFrame RenderWorld ReplaceString ResetList ResizeBillboard ResizeEntity ResizeGadget ResizeImage ResizeMovie ResizeParticleEmitter ResizeWindow ResumeCDAudio ResumeMovie ResumeThread Right RotateBillboardGroup RotateCamera RotateEntity RotateMaterial RotateParticleEmitter RotateSprite3D Round RunProgram
+SaveFileRequester SaveImage SaveSprite ScaleEntity ScreenID ScreenModeDepth ScreenModeHeight ScreenModeRefreshRate ScreenModeWidth ScreenOutput ScrollAreaGadget ScrollBarGadget ScrollMaterial Second SelectElement SelectedFilePattern SelectedFontColor SelectedFontName SelectedFontSize SelectedFontStyle SendNetworkData SendNetworkFile SendNetworkString SetClipboardData SetClipboardText SetEntityAnimationTime SetErrorNumber SetFrameRate SetGadgetAttribute SetGadgetFont SetGadgetItemAttribute SetGadgetItemState SetGadgetItemText SetGadgetState SetGadgetText SetMenuItemState SetMeshData SetModulePosition SetPaletteColor SetRefreshRate SetToolBarButtonState SetWindowCallback SetWindowTitle Sin SkyBox SkyDome SortArray SortList SortStructuredArray SortStructuredList SoundFrequency SoundPan SoundVolume Space SpinGadget SplitterGadget Sprite3DBlendingMode Sprite3DQuality SpriteCollision SpriteDepth SpriteHeight SpriteOutput SpritePixelCollision SpriteWidth Sqr Start3D StartDrawing StartPrinting StartSpecialFX StatusBarIcon StatusBarText Stop3D StopCDAudio StopDrawing StopModule StopMovie StopPrinting StopSound StopSpecialFX Str StrF StrU StringField StringGadget SwapElements SysTrayIconTooltip
+Tan TerrainHeight TextGadget TextLength TextureHeight TextureID TextureOutput TextureWidth ThreadPriority ToolBarImageButton ToolBarSeparator ToolBarStandardButton ToolBarToolTip TrackBarGadget TransformSprite3D TransparentSpriteColor TreeGadget TreeGadgetItemNumber Trim
+UCase UnpackMemory UseBuffer UseCDAudio UseDatabase UseDirectory UseFile UseFont UseGadgetList UseImage UseJPEGImageDecoder UseJPEGImageEncoder UseMovie UseOGGSoundDecoder UsePNGImageDecoder UsePNGImageEncoder UsePalette UseTGAImageDecoder UseTIFFImageDecoder UseWindow
+Val ValF
+WaitThread WaitWindowEvent WebGadget WindowEvent WindowHeight WindowID WindowMouseX WindowMouseY WindowOutput WindowWidth WindowX WindowY WriteByte WriteData WriteFloat WriteLong WritePreferenceFloat WritePreferenceLong WritePreferenceString WriteString WriteStringN WriteWord
+Year
+ZoomSprite3D 
+
+/C2"Data types"
+.b .f .l .s .w
+Byte
+Float
+Long
+String
+Word
+
+
+/C3"Operators"
+=
++
+-
+*
+/
+&
+|
+!
+~
+()
+<
+>
+<=
+>=
+<>
+And
+Or
+<<
+>>
+%
+
+/C4"Flow Control"
+break
+case
+else elseif endif endprocedure endselect
+for foreach forever
+gosub
+if
+next
+repeat return
+select
+until
+wend while
+
+/C5"ArraysListsStructs"
+deftype
+dim
+enumeration endenumeration endinterface endstructure
+interface
+newlist
+structure
+
+/C6"ProcedureSupport"
+endprocedure
+global
+procedure procedurereturn protected
+shared static
+
+/C7"ConstantsAddr&PTRS"
+** #
+** @
+** *
+
+
+/C8"Debugging"
+calldebugger
+debug

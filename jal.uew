@@ -1,0 +1,60 @@
+/L20"JAL" Nocase Line Comment Num = 3-- Line Comment Alt = ; Escape Char = \ String Chars = " File Extensions = JAL
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"<> , 	.?
+/Function String = "%[ ^t]++procedure[ ^t]+^([a-zA-Z_0-9']+^)[ ^t]++([a-zA-Z_0-9, ^t]+)[ ^t]+is"
+/Function String 1 = "%[ ^t]++function[ ^t]+^([a-zA-Z_0-9']+^)[ ^t]++([a-zA-Z_0-9, ^t]+)[ ^t]+return[ ^t]+^{bit^}^{byte^}[ ^t]+is"
+/Function String 2 = "%[ ^t]++procedure[ ^t]+^([a-zA-Z_0-9']+^)[ ^t]+is"
+/Function String 3 = "%[ ^t]++function[ ^t]+^([a-zA-Z_0-9']+^)[ ^t]+return[ ^t]+^{bit^}^{byte^}[ ^t]+is"
+/Function String 4 = "%[ ^t]++procedure[ ^t]+^([a-zA-Z_0-9']+^)[ ^t]++("
+/Function String 5 = "%[ ^t]++function[ ^t]+^([a-zA-Z_0-9']+^)[ ^t]++("
+/Indent Strings = "is" "loop" "then" "else"
+/Unindent Strings = "end"
+/C1"Keywords"
+assert at
+begin bit byte
+catch clock const
+done
+else elsif end error
+for forever function fuses
+get
+if in is
+loop
+name
+osc out
+powerup procedure protection put
+return
+then
+var volatile
+watchdog while
+/C2"Commands"
+macro
+asm assembler
+bank bank_0 bank_1 bank_2 bank_3
+chip
+include
+keep
+local
+mac
+page pragma
+target test
+/C3"Constants"
+high hs
+low
+off
+on
+true
+false
+input
+output
+/C4"Operators"
++
+-
+=
+// /
+%
+&
+>
+<
+^
+!
+|
+

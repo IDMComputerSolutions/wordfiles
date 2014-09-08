@@ -1,0 +1,42 @@
+/L20"Litestep step.rc" Line Comment = ; File Extensions = RC
+/Delimiters = @$%^&()+=|\/{}[]:;"'<> 	,?/
+/Indent Strings = "Folder"
+/Unindent Strings = "~Folder"
+/C1"Standard List Items"
+*Desktop *Hotkey *Popup *Shortcut *Wharf
+/C2"Standard Commands"
+!New
+~Folder ~New
+Folder
+LoadModule
+/C3"Bang Commands"
+!About !Alert !CascadeWindows !Confirm !Execute !Gather !Logoff !MinimizeWindows !None !Popup !PopupControlPanel !PopupDesktops !PopupDynamicFolder !PopupFolder
+!PopupMyComputer !PopupNetwork !PopupRecentDocuments !PopupRecycleBin !PopupRun !PopupTasks !Quit !Recycle !Refresh !Reload !ReloadModule !RemoteAmp !RestoreWindows !Run
+!ShortcutGroupHide !ShortcutGroupShow !ShortcutGroupToggle !ShortcutGroupOnTop !ShortcutGroupOnBottom !ShortcutGroupOnTopToggle !Shutdown !TileWindowsH !TileWindowsV
+!UnloadModule !WharfTasks
+/C4"Keywords"
+.icon .none
+Alt
+bottom
+center
+Ctrl
+down
+if
+else elseif endif
+LButton 
+left
+MButton
+no
+off on
+RButton 
+right
+Shift
+top
+up
+Win
+yes
+/C5"Boolean"
+false
+true
+FALSE
+TRUE

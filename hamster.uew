@@ -1,0 +1,16 @@
+/L20"Hamster Scripts" Nocase Line Comment = # String Chars = " File Extensions = HSC
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	?
+/C1 Connection Control
+ras.dial ras.hangup
+setlogin
+/C2 Script Control
+msgbox
+quit
+restart
+start.wait start.nowait
+wait.delay wait.idle wait.until
+/C3 Mail and News
+fetchmail
+mail.pull
+news.post news.pull news.purge news.rebuildhistory
+sendmail

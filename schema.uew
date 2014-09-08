@@ -1,0 +1,26 @@
+/L20"Schema" Block Comment On = <!-- Block Comment Off = --> String Chars = " File Extensions = XSD
+/Delimiters = |()",	.=;
+/C1"Elements"
+** <
+// />
+>
+<
+?>
+<?
+<?xml
+]]>
+/C2"Schema Keywords"
+base
+default
+form
+id
+maxOccurs minOccurs
+name namespace
+ref
+type
+use
+value
+/C3
+,
+;
+=

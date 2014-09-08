@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# for any existing wordfile originally named ".txt"
+RewriteRule ^(.*)\.txt http://www.ultraedit.com/files/wf/$1.uew [R=301,L] 
+
+# for any incoming link that does not exist
+RewriteCond %{THE_REQUEST} ^(.*)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*) http://www.ultraedit.com/downloads/extras\.html [R=301,L] 
+
+<FilesMatch "\.(?i:uew)$">
+  Header set Content-Disposition attachment
+</FilesMatch>

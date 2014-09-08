@@ -1,0 +1,52 @@
+/L20"XHTML BASIC (Mobile Applications)" Noquote HTML_LANG Block Comment On = <!-- Block Comment Off = --> Block Comment On Alt = <% Block Comment Off Alt = %> String Chars = "' File Extensions = html html
+/Delimiters = ~@$%^&*()+=|\{};"'<> ,	.
+/Marker Characters = "&;"
+/Function String = "name=*">"
+/C1"Elements"
+<a> <a </a> <abbr> <abbr </abbr> <acronym> <acronym </acronym> <address> <address </address>
+<base <blockquote> <blockquote </blockquote> <body> <body </body> <br 
+<caption> <caption </caption> <cite> <cite </cite> <code> <code </code> 
+<dd> <dd </dd> <dfn> <dfn </dfn> <div> <div </div> <dl> <dl </dl> <dt> <dt </dt>
+<em> <em </em>
+<form> <form </form> 
+<h1> <h1 </h1> <h2> <h2 </h2> <h3> <h3 </h3> <h4> <h4 </h4> <h5> <h5 </h5> <h6> <h6 </h6> <head> <head </head> <html> <html </html>
+<img <input 
+<kbd> <kbd </kbd>
+<label> <label </label> <li> <li </li> <link 
+<meta 
+<object> <object </object> <ol> <ol </ol> <option> <option </option>
+<p> <p </p> <param <pre> <pre </pre>
+<q> <q </q>
+<samp> <samp </samp> <select> <select </select> <span> <span </span> <strong> <strong </strong> 
+<table> <table </table> <td> <td </td> <textarea> <textarea </textarea> <th> <th </th> <title> <title </title> <tr> <tr </tr> 
+<ul> <ul </ul>
+<var> <var </var>
+
+/C2"Attributes"
+abbr= accesskey= action= align= alt= archive= axis=
+charset= checked= cite= class= classid= codebase= codetype= cols= colspan= content=
+data= declare=
+enctype=
+for=
+headers= height= href= hreflang= http-equiv=
+id=
+longdesc=
+maxlength= media= method= multiple=
+name=
+onclick= ondblclick= onkeydown= onkeypress= onkeyup= onmousedown= onmousemove= onmouseout= onmouseover= onmouseup=
+rel= rev= rows= rowspan=
+scheme= scope= selected= size= src= standby= style= summary=
+tabindex= title= type=
+valign= value= valuetype=
+width=
+xml:lang= xml:space=
+/C3
+&;
+/C4"XML Elements"
+<!DOCTYPE <![CDATA[
+<?xml <?xml-stylesheet
+?>
+DTD
+PUBLIC
+SCHEMA
+]]>
