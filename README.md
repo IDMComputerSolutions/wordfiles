@@ -11,4 +11,12 @@ As a general guideline - we'd like to keep this repo as clean as possible for pr
 
 For more info on creating wordfiles, [see our wordfiles page on ultraedit.com](http://www.ultraedit.com/downloads/extras/wordfiles.html).
 
+### Downloading a wordfiles
 
+If you're only looking for single wordfiles, the easiest way to download is at [our wordfiles page](http://www.ultraedit.com/downloads/extras/wordfiles.html).
+
+It is also possible to download all of the files at once by cloning this repository to your computer, or downloading a .zip file using GitHub's 'Download Zip' button.
+
+Need some info on cloning a repo? GitHub has [a wealth of information on cloning](https://help.github.com/articles/search?utf8=%E2%9C%93&q=clone).
+
+#### Happy editing :)
