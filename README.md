@@ -1,6 +1,6 @@
 # UltraEdit/UEStudio wordfiles
 
-The official repo for UE/UES wordfiles, as seen on [ultraedit.com](http://www.ultraedit.com/downloads/extras/wordfiles.html).
+The official repo for UE/UES wordfiles -  [syntax highlighting for the best text editor in the world](http://www.ultraedit.com/downloads/extras/wordfiles.html).
 
 ### Adding a wordfile
 Users who are less comfortable with git and/or GitHub are still welcome to submit new wordfiles to support@ultraedit.com. But we encourage
