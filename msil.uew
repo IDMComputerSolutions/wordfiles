@@ -1,0 +1,94 @@
+/L20"MSIL" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = IL
+/Delimiters = ~!@%^&*()-+=|\/{}[];"'<> , ?
+/Function String = "%[a-z_]*)[~;]"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1"Keywords"
+alignment algorithm auto ansi
+beforefieldinit
+cil
+extends extern
+hidebysig
+instance init
+managed
+nested
+private protected public
+rtspecialname
+specialname
+unmanaged
+virtual void
+/C2"Directives"
+.assembly
+.class .corflags .custom .culture
+.data
+.field .file
+.entrypoint
+.hash
+.imagebase
+.language .locals .locale
+.mresource .method .module .maxstack
+.namespace
+.publickey .publickeytoken
+.subsystem
+.ver .vtfixup
+/C3"Operators"
++
+-
+=
+// /
+%
+&
+>
+<
+^
+!
+|
+::
+/C4"Native Types"
+bool boxed 
+char class
+float32 float64
+int8 int16 int32 int64
+method modopt modreq
+native
+unsigned
+object
+pinned
+string
+typedref
+valutype
+/C5"Commands"
+add and add.ovf add.ovf.un arglist
+break br.s brfalse.s brtrue.s beq.s bge.s bgt.s ble.s blt.s box bne.un.s bge.un.s 
+bgt.un.s ble.un.s blt.un.s be brfalse brtrue be be but be but bne.un bge.un bgt.un 
+ble.un blt.un
+call calli callvirt cpobj castclass ckfinite cgt cgt.un clt clt.un conv.i1 conv.i2 
+conv.i4 conv.i8 conv.r4 conv.r8 conv.u4 conv.u8 conv.r.un conv.ovf.i1.un conv.ovf.i2.un 
+conv.ovf.i4.un conv.ovf.i8.un conv.ovf.u1.un conv.ovf.u2.un conv.ovf.u4.un 
+conv.ovf.u8.un conv.ovf.i.un conv.ovf.u.un conv.ovf.i1 conv.ovf.u1 conv.ovf.i2 
+conv.ovf.u2 conv.ovf.i4 conv.ovf.u4 conv.ovf.i8 conv.ovf.u8 conv.u2 conv.u1 conv.i 
+conv.ovf.i conv.ovf.u conv.u cpblk
+dup did div.un
+endfinally endfilter
+isinst initobj initblk
+jump
+ldarg.0 ldarg.1 ldarg.2 ldarg.3 ldarg.s ldarga.s ldloc.0 ldloc.1 ldloc.2 ldloc.3 
+ldloc.s ldloca.s ldnull ldobj ldstr ldfld ldflda ldsfld ldsflda ldc.i4.m1 ldc.i4.0 
+ldc.i4.1 ldc.i4.2 ldc.i4.3 ldc.i4.4 ldc.i4.5 ldc.i4.6 ldc.i4.7 ldc.i4.8 ldc.i4.s 
+ldc.i4  ldc.i8 ldc.r4  ldc.r8 ldind.i1 ldind.u1 ldind.i2 ldind.u2 ldind.i4 ldind.u4 
+ldind.i8 ldind.i ldind.r4 ldind.r8 ldind.ref ldlen ldelema ldelem.i1 ldelem.u1 
+ldelem.i2 ldelem.u2 ldelem.i4 ldelem.u4 ldelem.i8 ldelem.i ldelem.r4 ldelem.r8 
+ldelem.ref ldtoken leave leave.s ldftn ldvirtftn ldarg ldarga ldloc ldloca localloc
+mul mkrefany mul.ovf mul.ovf.un
+nop new not newobj newarr
+or
+pop
+ret rem rem.un refanyval rethrow refanytype
+stloc.0 stloc.1 stloc.2 stloc.3 starg.s stloc.s switch stind.ref stind.i1 stind.i2 
+stind.i4 stind.i8 stind.r4 stind.r8 stfld stsfld stobj stelem.i stelem.i1 stelem.i2 
+stelem.i4 stelem.i8 stelem.r4 stelem.r8 stelem.ref stind.i starg stloc sub she she 
+shr.un sub.ovf sub.ovf.un sizeof
+throw tail.
+unbox unaligned.
+volatile.
+xor

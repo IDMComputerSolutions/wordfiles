@@ -1,0 +1,74 @@
+/L16"MPE Command Files for HP3000" Line Comment = COMMENT Line Comment Alt = # String Chars = "' File Extensions = hp3 hp3000 mpe
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,   .?
+/Function String = "%[ ^t]++[:!][ ^t]++FUNCTION[ ^t]++^([a-zA-Z0-9_]+^)[ ^t]++"
+/Indent Strings = "IF" "ELSE" "ELSEIF" "WHILE"
+/Unindent Strings = "ENDIF" "ENDWHILE"
+/C1"Keywords"
+AND
+BUILD
+CONTINUE
+ECHO ELSE ELSEIF ENDIF ENDWHILE ESCAPE EXIT
+FALSE FCOPY FILE FINFO
+IF INPUT
+NOT
+OPTION OR
+PAUSE PRINT PURGE
+RELEASE RETURN RUN
+TRUE
+WHILE
+/C2"System Keywords"
+CIERROR
+EOD EOJ
+FTPLASTERR
+HPCIDEPTH HPDATEF HPJOBNUM HPMSGFENCE HPTIMEF
+JOB
+LISTFTEMP
+SETJCW SHOWJCW SHOWVAR
+/C3"Parameters"
+ASCII
+CCTL CIR
+DISC
+EXCLUDE
+FROM
+GMULTI
+HIPRI
+LIST
+MSG
+NEW NOCCTL NOLIST
+OLD OLDTEMP OUTCLASS
+REC
+SEMI SKIPEOF SUBSET
+TEMP TO
+UPSHIFT
+VERIFY
+/C4"Operators"
++
+-
+=
+// /
+%
+&
+>
+<
+^
+!
+|
+/C5"Variables"
+ANYPARM
+BOUND
+DELETEVAR DWNS
+LEN LTRIM
+PARM POS
+RHT RTRIM
+SETVAR STR
+UPS
+/C6"FTP commands"
+bye
+cd close
+exec exit exitonerror
+open
+put
+quote
+site
+timeout type
+user

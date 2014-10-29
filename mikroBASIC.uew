@@ -1,0 +1,139 @@
+/L20"mikroBASIC" Line Comment = ' Nocase String Chars = " File Extensions = pbas
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"' ,	.?
+/C1"Keywords"
+Reset
+absolute abs array as asm
+begin boolean
+case chr clear clearbit clock_khz clock_mhz clrwdt
+dec dim do double
+else end exit
+for function
+goto gosub
+hi higher highest
+if in inc include int interrupt is 
+lo loop label 
+module
+new next nop
+ord org
+print procedure program
+read
+select setbit step sub swap switch symbol
+testbit then to 
+until
+wend while with
+/C2"Operators"
+*
++
+-
+// /
+< << 
+<=
+=
+>=
+> >>
+\
+^
+and
+div
+mod
+not
+or
+xor
+/C3"Constants"
+ADCON1
+CCP1CON CCP1IE CCP1IF CCP2CON CCP2IE CCP2IF CCPR1H CCPR1L CCPR2H CCPR2L
+FALSE FSR0H FSR0L FSR1H FSR1L FSR2H FSR2L
+GIE
+INDF1 INDF2 INT0IF INT1IF INT2IF INTCON INTCON0 INTCON1 INTCON2 INTEDG0
+OPTION_REG
+PIE1 PIE2 PEIE PIR1 PIR2 PORTA PORTB PORTC PORTD PORTE
+RBIE RBIF RCIE RCIF
+T0CON T1CON T2CON T3CON TMR0 TMR0IE TMR0IF TMR0IP TMR0H TMR0L TMR0ON TMR1 TMR1IE TMR1IF TMR1IP TMR1H TMR1L TMR1ON
+TMR2 TMR2IE TMR2IF TMR2IP TMR2H TMR2L TMR2ON TRISA TRISB TRISC TRISD TRISE TRUE TXIE TXIF
+/C4"Types"
+byte
+char
+float
+integer
+longint
+short
+string
+word
+/C5"Hardware Library"
+adc_read
+cangetoperationmode caninitialize canread cansetbaudrate cansetfilter cansetmask cansetoperationmode canwrite
+canspigetoperationmode canspiinitialize canspiread canspisetbaudrate canspisetfilter canspisetmask canspisetoperationmode canspiwrite
+cf_detect cf_fat_append cf_fat_assign cf_fat_delete cf_fat_get_file_date cf_fat_get_file_size cf_fat_get_swap_file 
+cf_fat_init cf_fat_read cf_fat_reset cf_fat_rewrite cf_fat_set_file_date cf_fat_write 
+cf_init cf_read_byte cf_read_init cf_read_sector cf_write_byte cf_write_init cf_write_sector
+eeprom_read eeprom_write
+eth_arp_responce eth_get_dest_ip_address eth_get_hdr_chksum eth_get_icmp_info eth_get_ip_hdr_len
+eth_get_source_ip_address eth_get_tcp_flags eth_get_tcp_hdr_offset eth_get_udp_dest_port
+eth_get_udp_port eth_get_udp_source_port eth_inport eth_int eth_load_ip_packet eth_load_tcp_header
+eth_ping_response eth_scan_for_event eth_send_udp eth_set_ip_address eth_set_tcp_data eth_set_udp_port eth_tcp_response
+exapnder_read_array expander_init expander_read_arrayporta expander_read_arrayportb expander_read_byte expander_read_porta 
+expander_read_portb expander_set_directionporta expander_set_directionportb expander_set_mode expander_set_pullupsporta 
+expander_set_pullupsportb expander_write_array expander_write_byte expander_write_porta  expander_write_portb
+flash_erase flash_read flash_write 
+glcd_box glcd_circle glcd_dot glcd_fill glcd_h_line glcd_image glcd_init glcd_line glcd_read_data glcd_rectangle
+glcd_set_font glcd_set_page glcd_set_side glcd_set_x glcd_v_line glcd_write_char glcd_write_data glcd_write_text
+hid_disable hid_enable hid_read hid_write
+i2c_init i2c_is_idle i2c_rd i2c_repeated_start i2c_start i2c_stop i2c_wr
+keypad_init keypad_read keypad_released
+lcd8_chr lcd8_chr_cp lcd8_cmd lcd8_init lcd8_out lcd8_out_cp
+lcd_chr lcd_chr_cp lcd_cmd lcd_config lcd_init lcd_out lcd_out_cp
+man_receive man_receive_config man_receive_init man_send man_send_config man_send_ini man_synchro
+mmc_fat_append mmc_fat_assign mmc_fat_delete mmc_fat_get_file_date mmc_fat_get_file_size mmc_fat_get_swap_file
+mmc_fat_init mmc_fat_read mmc_fat_reset mmc_fat_rewrite mmc_fat_set_file_date mmc_fat_write 
+mmc_init mmc_read_cid mmc_read_csd mmc_read_sector mmc_write_sector
+ow_read ow_reset ow_write
+portexpanderselect portexpanderunselect
+ps2_config ps2_init ps2_key_read
+pwm_change_duty pwm_init pwm_start pwm_stop
+rs485master_init rs485master_receive rs485master_send
+rs485slave_init rs485slave_receive rs485slave_send
+soft_i2c_config soft_i2c_read soft_i2c_start soft_i2c_stop soft_i2c_write soft_spi_config soft_spi_read 
+soft_spi_write soft_uart_init soft_uart_read soft_uart_write
+sound_init sound_play 
+spi_ethernet_dopacket spi_ethernet_getbyte spi_ethernet_init spi_ethernet_putbyte spi_ethernet_usertcp spi_ethernet_userudp
+spi_glcd_box spi_glcd_circle spi_glcd_dot spi_glcd_fill spi_glcd_h_line spi_glcd_image spi_glcd_init spi_glcd_line 
+spi_glcd_read_data spi_glcd_rectangle spi_glcd_set_font spi_glcd_set_page spi_glcd_set_side spi_glcd_set_x
+spi_glcd_v_line spi_glcd_write_chr spi_glcd_write_data spi_glcd_write_text
+spi_init spi_init_advanced 
+spi_lcd8_chr spi_lcd8_chr_cp spi_lcd8_cmd spi_lcd8_config spi_lcd8_init spi_lcd8_out spi_lcd8_out_cp
+spi_lcd_chr spi_lcd_chr_cp spi_lcd_cmd spi_lcd_config spi_lcd_init spi_lcd_out spi_lcd_out_cp 
+spi_read
+spi_t6963c_cursor_blink spi_t6963c_cursor_height spi_t6963c_displaygrpanel spi_t6963c_graphics
+spi_t6963c_image spi_t6963c_line spi_t6963c_panelfill spi_t6963c_rectangle spi_t6963c_setgrpanel
+spi_t6963c_init_240x128 spi_t6963c_init_240x64 spi_t6963c_box spi_t6963c_circle spi_t6963c_cursor
+spi_t6963c_set_cursor spi_t6963c_sprite spi_t6963c_text spi_t6963c_write_text
+spi_write
+usart_data_ready usart_init usart_read usart_write 
+/C6"Software Library"
+acos asin atan atan2
+bcd2dec bcd2dec16 bytetostr 
+ceil cos cose3 cosh
+dec2bcd dec2bcd16 delay_ms delay_us
+exp 
+fabs floattostr floor fmod frexp
+inittostr ldexp 
+log log10 longinttostr
+memchr memcmp memcpy memmove memset modf
+pow
+shorttostr sin sine3 sinh sqrt strappendpre strappendsuf strcat strchr strcmp strcpy strcspn strlen 
+strncat strncmp strncpy strpbrk strrchr strspn strstr 
+tan tanh
+wordtostr wordtostrwithzero
+/C7"Library Constants"
+CAN_CONFIG_DBL_BUFFER_ON CAN_CONFIG_LINE_FILTER_OFF  CAN_CONFIG_PHSEG2_PRG_ON CAN_CONFIG_SAMPLE_THRICE  CAN_CONFIG_STD_MSG CAN_CONFIG_VALID_XTD_MSG
+CAN_CONFIG_XTD_MSG 
+CAN_FILTER_B1_F1  CAN_FILTER_B2_F4
+CAN_MASK_B1 CAN_MASK_B2 
+CAN_MODE_CONFIG CAN_MODE_NORMAL CAN_TX_NO_RTR_FRAME  CAN_TX_PRIORITY_0 CAN_TX_XTD_FRAME
+CLK_IDLE_LOW
+DATA_SAMPLE_MIDDLE
+LCD_CLEAR LCD_CURSOR_OFF LCD_FIRST_ROW LCD_RETURN_HOME LCD_SECOND_ROW LCD_SHIFT_LEFT LCD_SHIFT_RIGHT 
+LOW_2_HIGH
+MASTER_OSC_DIV16
+PIN PORT
+T6963C_BLACK T6963C_CHARACTER_HEIGHT T6963C_ROM_MODE_XOR T6963C_WHITE

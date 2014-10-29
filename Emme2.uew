@@ -1,0 +1,64 @@
+
+/L12"M2 Macro" Block Comment On = ~#   Line Comment Alt = ~/   Line Comment Num = 3~~/  String Chars = " File Extensions = MAC
+/Delimiters = !^&*()+-=|#\/{}[];"'<> ,	
+/C1"FileNames"
+~<
+batchin batchout
+device
+errors
+files
+on=
+plots 
+reports 
+/C2"TestsFlags"
+~o ~+
+~? ~?! ~?e ~?q ~!e 
+**  ~: ~$ 
+/C3"Substitutable"
+%x% %y% %z%  %1% %2% %3% %4% %5% %6% %7% %8% %9% 
+%t0% %t1% %t2% %t3% %t4% %t5% %t6% %t7% %t8% %t9%
+%s% %p%
+~x ~y ~z 
+~t0 ~t1 ~t2 ~t3 ~t4 ~t5 ~t6 ~t7 ~t8 ~t9
+~r0 ~r1 ~r2 ~r3 ~r4 ~r5 ~r6 ~r7 ~r8 ~r9
+/C4"Variables"
+board
+dwt dwtn dwfac
+el1 el2 el3
+hdwy
+lan lanes len length lay1 lay2
+mode
+pvolau pvolad ptimau
+speed
+tmpi1 tmpi2 tmpi3 tmpj1 tmpj2 tmpj3 tmpl1 tmpl2 tmpl3
+timau type tpf ttf
+ul1 ul2 ul3 ui1 ui2 ui3 uj1 uj2 uj3 up1 up2 up3
+vdf volau volad volax voltr
+xi xj
+yi yj
+** @a @b @c @d @e @f @g @h @i @j @k @l @m @n @o @p @q @r @s @t @u @v @w @x @y @z ft fd fp
+/C5"Matrices"
+** ms mo md mf
+/C6"Operators"
+.and. .or. .eq. .ge. .gt. .le. .lt. .not. .max. .min.
+and
+exp
+get
+int
+not  nint
+or
+put
+sqrt
++
+= ==
+%
+&
+> >=
+< <= <>
+^
+! !=
+| ||
+$
+*
+//
+

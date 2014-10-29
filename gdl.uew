@@ -1,0 +1,219 @@
+/L20"GDL Scripts" Line Comment = #  File Extensions = GDL
+/Delimiters = *()-+=/[]:;"'<> ,	.?
+/Function String = "%routine*is"
+/Indent Strings = "begin"
+/Unindent Strings = "end"
+/C1  GDL Keywords
+and abs avgdev after all also average as
+be backslash boolean by begin break before
+copy chartoint call colour cos count compound current cache calculate
+decr decrement destroy do dimension display
+extract end else each expn except eis
+fi file for false factorial financial floating fixed from font
+if incr increment instring integer inttochar is isboolean isdefined 
+iseis isfile isinteger ismodel isreal isspecial istext isvariable int 
+implicit in isnan imageobject
+kurtosis
+let length lowercase ln log leastsquares lead lag load 
+model max min mean median mode movingavg mathematical mod modulo
+new not next no npv nl newline
+or orderelement on
+program print
+readonly real routine return rand round rankelement rms rootmeanssquare rules
+scenario sqlscript split strip sin sqrt seasonality skewness 
+stddeviation stddeviationn statistical superiorelement source save slice 
+sum
+text then true tan
+uppercase until
+valuesum variance variancen
+while
+yes
+AND ABS AVGDEV AFTER ALL ALSO AVERAGE AS
+BE BACKSLASH BOOLEAN BY BEGIN BREAK BEFORE
+COPY CHARTOINT CALL COLOUR COS COUNT COMPOUND CURRENT CACHE CALCULATE
+DECR DECREMENT DESTROY DO DIMENSION DISPLAY
+EXTRACT END ELSE EACH EXPN EXCEPT EIS
+FI FILE FOR FALSE FACTORIAL FINANCIAL FLOATING FIXED FROM FONT
+IF INCR INCREMENT INSTRING INTEGER INTTOCHAR IS ISBOOLEAN ISDEFINED 
+ISEIS ISFILE ISINTEGER ISMODEL ISREAL ISSPECIAL ISTEXT ISVARIABLE INT 
+IMPLICIT IN ISNAN IMAGEOBJECT
+KURTOSIS
+LET LENGTH LOWERCASE LN LOG LEASTSQUARES LEAD LAG LOAD
+MODEL MAX MIN MEAN MEDIAN MODE MOVINGAVG MATHEMATICAL MOD MODULO
+NEW NOT NEXT NO NPV NL NEWLINE
+OR ORDERELEMENT ON
+PROGRAM PRINT
+READONLY REAL ROUTINE RETURN RAND ROUND RANKELEMENT RMS ROOTMEANSSQUARE RULES
+SCENARIO SQLSCRIPT SPLIT STRIP SIN SQRT SEASONALITY SKEWNESS 
+STDDEVIATION STDDEVIATIONN STATISTICAL SUPERIORELEMENT SOURCE SAVE SLICE 
+SUM
+TEXT THEN TRUE TAN
+UPPERCASE UNTIL
+VALUESUM VARIANCE VARIANCEN
+WHILE
+YES
+/C2 Object Modifiers
+action acrossSelection addCoordinate addDimension addRule add arrowSize 
+autoScale autoScaleBase autoScaleMin addClientService addItem addService 
+addTopic addLabel autoScroll addToFilter addFormat addSlice addColumn 
+addEntry addToColumns addToRows ascending adHocEnabled appendLine addToFilter
+allowDuplicateEntries appendEntry
+background bordered bottomMarginSizable bitmapName booleanValue  
+barOverlappedFromLeft barShadowFrom baseBackground baseFillStyle 
+baseForeground baseLineOn baseLineStyle baseLineThickness bitmapFillMode 
+bottomMargin bitmapWidth bitmapHeight bottomCoordinate
+columnIgnoreRow columnSelection checked clickedCol currentRangeBaseValue 
+currentRangeMajor currentRangeMaximum currentRangeMinor clickedRow 
+clientTopic clientTopics contents children coordinates canChange 
+closeFile compiled columnsOnly commaPoint currentFormat currentSlice 
+currentColumn coordParent currentDimension connectors columnDimensions 
+currentColumnDimension currentRowDimension currentValue clearSelection 
+countFileItems countTextItems currentCharacter currentLine cancel changeState
+commit consolidate coordinate characterSeparator columnType
+currentFrameIndex currentFrameName currentFrameTextItem closeImage
+chartTreeBackground chartTreeBud chartTreeHeight chartTreeLeaf 
+chartTreeLineColour chartTreeLinesEnabled chartTreeWidth chartTreeXOrigin
+chartTreeYOrigin currentPanelIndex currentPanelPercentage
+cellColumnName cellRowName cellSliceNames cellValue columnHeaderFormat
+currentColour currentFont clearFrameIndex
+displayWidget disjointSelection downSelection disabledText dimensions 
+depthAxisGridOn depthAxisNameOn depthAxisOn depthLabelOccurence 
+depthTickAtLableOnly dimensionIs dimensions displayAs decimalPlaces 
+decimalPoint definitionOk dimensionStates displayAgent displayAgentAt 
+displayFile displayFileAt displayText displayTextAt defaultFormat
+enabled exit execute endOfFile error enableBitmaps expandUpTo
+foreground files fixedDimensions floatingDimensions field fontName 
+fontSize fontStyle formatHighlight formatWidth filterCoordinates 
+firstResponder fullPanelIndex flattenHierarchies fileBased fileName
+frameHeight frameWidth frameXOrigin frameYOrigin 
+gotoPage graphType
+height heightSizeable hidden highlight holdOff hierachical highLimitsAre 
+highLimitsBackground highLimitsForeground highBitmap
+id inputId inputName inputIs iconName iconPosition integerValue isEqual 
+isGreater isLess isNotEqual isNotGreater isNotLess inhibitSlice 
+isContinuous isVertical insertLine insertText includeDescendants 
+includeChildren 
+leftMarginSizeable login labelAxisGridOn labelAxisNameOn labelAxisOn 
+labelAxisTitle labelAxisTitleOn labelLabelOccurence labelLabelLines 
+labelTickAtLabelsOnly leftMargin legendCols legendOn legendPosition 
+legendRows logValue label labelAlignmentCentre labelAlignmentLeft 
+labelAlignmentRight labelBackground labelForeground labelPositionBottom 
+labelPositionleft labelPositionRight labelPositionTop labelWidth 
+lowerCaseField limitsAre lowLimitsAre lowLimitsBackground 
+lowLimitsForeground lowestLevelChildren longVersion lowBitmap
+levelHierarchy
+modifier modelIs modelBe maximumChartValue maximumColumns maximumRows 
+minimumChartValue makeFilter midLimitsBackground midLimitsForeground 
+maximumValue minimumValue modelSpecName midBitmap multipleCurrentColumn
+multipleSelectedEntry multipleSelectedEntryName multipleSelectedIndices
+mouseYOrigin mouseXOrigin monoFont 
+name newCoordinates nextField nextLine negativeFilter nextColumn 
+nextAgent nextFile nextText naBitmap noColumns
+orientation openChartTree
+parameter printWidget printAsReport pageHelp printReport pointSize
+pieChartStyle pageName password parent presetDimension placesToScale
+rightMarginSizeable rowIgnoreColumn rowSelection removeCoordinate 
+removeDimension removeRule realValue restart runChain runGDL runJob 
+runSystemCommand rangeBaseValue rangeMajor rangeMaximum rangeMinimum 
+rangeMinor repeatFormatFrom rightMargin rowFormats removeClientService 
+remocveService readOnlyField readPosition rowsOnly removeColumn 
+removeEntry removeColumnDimension removeRowDimension rowDimensions 
+retainSiblings replaceCoordinate removeSlice resetConnector refreshData
+rowHeaderFormat
+subWidgets sliceSelection selectedColumn selectedRow selectRowColumn 
+shadow style saveAsScenario showInfoBase stopRun subtract stackSeparate 
+starAllowNegative starOverlapped starWithLines selectedEntry 
+selectedType services selectField selectNextField sliceSize 
+selectedEntryName singleRowDimension singleColumnDimension 
+sliceDimensions specifyCoordinate switchColumnDimension switchDimensions 
+switchRowDimension showValue sortCoordinate selectToLine setReadOnly
+scrollable startAnchor submitParam selectedEntryIndex startURL selectedTitle
+title topMarginSizeable targetId targetIs 
+targetModifier textAlignment theRules textValue triggerAgent 
+titleLineNumbers titleLines titleOn titlePosition topMargin 
+topCoordinate textBased textName titleColumn titleSectionOn titleFormat
+upperCaseField
+valid valueAxisGridOn valueAxisMinorGridOn valueAxisNameOn valueAxisOn 
+valueAxisTitle valueAxisTitleOn valuesWithPresets values value
+widgetType writePosition width widthSizeable webServer webPort webCGI webCLASSES webICONS
+webSSL
+xOrigin
+yOrigin
+/C3  Gentia System Functions and Variables
+!_jobResult !_jobStatus !_remoteExecute 
+!_login !_exit
+!_runPageLayout !_runPrinterSetup 
+!_systemCommand !_userCallOut 
+!_sleep
+!_errorAlert !_infoAlert !_infoMessage !_warningAlert 
+!_warningAlertWithCancel !_warningAlertWithYesNo !_infoMessageWithValue 
+!_asciiDate !_asciiDateAndTime !_asciiDayOfWeek !_asciiTime !_time
+!_ddeServer 
+!_BMaccess !_BM_outputStream !_BM_eofStream !_BM_logError
+!_runScript 
+!_addEis !_changeEisFile !_nameOfEis !_resetEis !_switchEis
+!_isWebUser !_changeWebPassword 
+!_changePassword
+!_username !_makeUser !_addUser !_deleteUser !_removeUser !_userPref
+!_userAccess !_usersInStore
+!_booksForUser !_readersForBook !_makeBook !_deleteBook !_booksForGroup
+!_booksInStore 
+!_makeGroup !_deleteGroup !_addGroup !_removeGroup !_groupsForUser
+!_groupsInStore
+!_winHelp1 !_winHelp2
+!_writeOutConfig
+!_tooManyUsers !_tooManyWebUsers
+!_itemsInBook !_deleteItem !_loadToStore !_loadToFile
+!_triggerAgent !_agentFileList !_agentValue
+!_localString
+!_openFileDialog !_saveFileDialog
+$_enterPage $_gotoPage $_page $_gotoReportAndPrint
+/C4 SQL Modifiers and Functions
+$sql
+!sql !_sqlServer !_sqlConnect !_sqlDelete !_sqlExecute !_sqlGetValue 
+!_sqlLastError !_sqlUpdate !_sqlNoRecords !_sqlNoColumns !_sqlCloseQuery 
+!_sqlDisconnect
+application authorizationId accessMode addField appendStatement applyAllChanges
+batchBackward batchForward batchSize beginTransaction
+callQueryBuilder columnName columnNumber clearParameter characterSet 
+connect connected columnNumber columnsList commitTransaction
+database dataDict dataFiles dataSource delimiterCharacter 
+deleteSearchCondition deleteRecord
+executeParameterise endStatement executeSelect errorCode errorText excludeKey
+fastBackwardBatch fastForwardBatch firstBatch fields findRecordNext 
+findRecordNumber findRecordSearch formatColumn failed
+group groupBy getColumnValue getNumberColumns getNumberRecords
+havingClause
+indefiniteTimeout
+joinTable
+lastBatch lockOption lockRecord localService
+maximumRecords
+newConnection newRecord namedService
+options orderBy
+parameterType parameterValue parameterNumber parameterFile 
+precision putBinary putDecimal putDouble putFloat putInteger putLong 
+putNull putText
+refreshSql rowScan rows results recordNumber recordState rollbackTransaction
+server selectOption sqlStatement storedSql startExecution searchColumn 
+searchOperator searchType searchValue scale setKey
+titleField tableSpace tableType table tablesList
+user updateOption undoAllChanges undoRecord updateRecord
+workstation whereCriteria
+/C5 Global Variables and Functions
+!xReportTitle !xReportSubTitle !xSectionTitle !xSectionSubTitle 
+!xPrintSetup !xUserLevel !xStructSecurity !xStructSecurity !xDefaultPage 
+!xCurrentApp !xCurrentAppBigLogo !xCurrentAppName !xCurrentAppSmlLogo 
+!xListPages !xListWinApp !xListWinParams !xListPrefPages 
+!xListPrefPageName !xMaxPrefPagesNum !xPageCount !xPreviousPageCount 
+!xListNavigatedPages !xMessages !FWKEditUser !FWKFromReport 
+!FWKCurrentModel !FWK_SourceType
+!gApplicationHelp !gChangePassword !gCheckRec !gCheckUserAppAdmin 
+!gCheckUserSysAdmin !gCreateUser !gDeleteUser !gForceExit !gGetAccessLevels
+!gGetCurrentCycle !gGetCurrentPeriod !gGetDefaultApp !gGetDefaultPage
+!gGetDefaultWebApp !gGetDefaultWebPage !gGetGentiaApplications
+!gGetSourceTypes
+!gGetUserLevel !gGetUsers !gListbarAttributes !gLoadMenus !gLoadMessage
+!gMakeUserBookReader !gMessageDisplay !gNavigateToPage !gRemoveUserBookReader
+!gSetCurrentApp !gSetPageTitle !gSetUserLanguage !gShowApps !gShowMessage  
+!gStoreNavigatedPages !gTextStyle !gUserPagesListbar !gWriteDefaultMonthYear 
+!gWriteDefaultPage !gWriteDefaultWebPage

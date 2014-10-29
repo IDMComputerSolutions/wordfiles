@@ -1,0 +1,29 @@
+/L20"Portable Game Notation" Line Comment = ; Line Comment Alt = % Block Comment On = { Block Comment Off = } Escape Char = \ String Chars = " File Extensions = PGN
+/Delimiters = ~@^&()|\{}[]:"'<>,	 ?+#
+/Function String = "[A-Z]++[a-h]++[1-8]++[*-]++[a-h][1-8][=]++[A-Z]++"
+/Indent Strings = ""
+/Unindent Strings = ""
+/C1"Tagnames"
+Annotator
+Black BlackCountry BlackElo BlackTeam BlackTitle Board Blackcountry Blackelo Blackteam Blacktitle
+Date
+ECO Eco Event
+FEN Fen
+Mode
+NIC Nic
+Opening
+PlyCount Plycount
+Remark Result Round
+Section SetUp Setup Site Stage Subvariation SubVariation
+TimeControl Timecontrol
+Variation
+White WhiteCountry WhiteElo WhiteTeam WhiteTitle Whitecountry Whiteelo Whiteteam Whitecountry
+/C2"Results"
+*
+0-1
+1/2-1/2 1-0
+/C3"Moves"
+0-0 0-0-0
+O-O O-O-O
+
+

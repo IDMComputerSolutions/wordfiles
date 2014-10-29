@@ -1,0 +1,49 @@
+/L4"Juniper WX PNLog" Line Comment = # Nocase Escape Char = \ File Names = pnlog.txt pnlog1.txt pnlog2.txt pnlog3.txt pnlog4.txt pnlog5.txt pnlog6.txt pnlog7.txt pnlog8.txt pnlog9.txt pnlog10.txt
+/C1"Blue-"
+/C2"Red-Alerts"
+** abort alert bad boot busy cannot critical den disabl disconnect
+** emergency error fail fatal fragment invalid loss lost miss not
+** offline panic reboot refus reset stop unable unacceptable unavailable
+/C3"Orange-Warnings"
+** advi chang disallow exit fix info remov replac
+** restart retr skip updat warn
+disconnect disconnecting down
+/C4"Green-Success"
+** acceptable accepted added allow applied checked clear closed
+** complete completed compressed confirmed connected copied created decrypted
+** delivered done enabled encrypted established executed finished generated
+** initialised initialized initiated installed loaded moved negotiated ok
+** online populated processed received reduced save start succeeded
+** success transferred transmitted up upgraded validate
+** verified written
+/C5"Maroon-Nouns"
+** ip session
+assembler assembly
+compression
+hub
+link
+mesh
+performance
+receiver reducer reduction registration rollup
+socket spoke
+tunnel
+/C6"Blue-Verbs"
+** begin call clean comput detect enter get insert propogat pull
+** push read replay run scan select sen set us
+add adding applying
+check checking closing completing compressing connect connecting copy copying create creating
+decompressing decrypt decrypting deliver delivering
+encrypt encrypting execute executing
+generate generating
+initiate initiating
+load loading
+move moving
+negotiate negotiating negotiation
+populate populating process processing progress progressing put
+receive receiving reducing
+transfer transferring transmit transmitting
+uncompressing upgrade upgrading
+validate validating verify verifying
+write writing
+/C7"Blue"
+/C8"Blue"

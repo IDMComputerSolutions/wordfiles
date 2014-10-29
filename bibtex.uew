@@ -1,0 +1,135 @@
+/L20"BibTeX" Nocase Line Comment = % String Chars = " File Extensions = BIB BST
+/Delimiters =#$%&()+,-. {=}    /0123456789:;<>[]^_|~`   
+/Function String = "%@^([a-z]*{?*^),"
+/Open Brace Strings = "{"
+/Close Brace Strings = "}"
+/Open Fold Strings = "{"
+/Close Fold Strings = "}"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1
+\!
+\"
+\&
+\'
+\(
+\)
+\*
+\+
+\,
+\-
+\.
+\/
+\:
+\;
+\=
+\>
+\@
+\[
+\\
+\]
+\^
+\_
+=
+{
+}
+,
+/C5
+@article 
+@book @booklet 
+@conference
+@inbook @incollection @inproceedings
+@manual @mastersthesis @misc
+@patent @phdthesis @proceedings 
+@techreport @thesis
+@unpublished 
+@report
+@\acute
+/C3
+\a' \a` \acute \aleph \alph \alpha \amalg \and \angle \approx \arabic
+\arccos \arcsin \arctan \arg \arraybackslash \arrowvert \ast \asymp
+\Arrowvert
+\backslash \bar \bf \bibitem \bigcap \bigcirc \bigcup \bigodot \bigoplus
+\bigotimes \bigsqcup \bigtriangledown \bigtriangleup \biguplus \bigvee
+\bigwedge \boldmath \boldsymbol \boolean \bot \botfigrule \bottomcaption
+\bottomfraction \bowtie \boxed \bracevert \branch \breve \bullet
+\Box
+\cal \cap \caption \cdot \cdots \cfrac \chi \circ \circle \circle* \cline
+\clubsuit \cong \coprod \copyright \cos \cosh \cot \coth \csc \cup
+\d \dag \dagger \dashbox \ddag \ddagger \ddot \ddots \deg \delta \det
+\diamond \diamondpar \diamondsuit \dim \displaystyle \dot \doteq \dotfill
+\dots \downarrow
+\Delta \Diamond \Downarrow
+\ell \em \emph \emptyset \enspace \epsilon \eqref \eta \exists \exp
+\fbox \flat \fnsymbol \forall \frac \frown \fussy
+\gamma \ge \geq \gets \gg \grave
+\Gamma
+\hat \heartsuit \hom \hookleftarrow \hookrightarrow \hspace \hspace* \huge
+\hyphenation \hyphenchar
+\Huge
+\idotsint \ignorespaces \imath \in \include \indent \inf \infty \input \int
+\iota \isucaption \it \itdefault \item \itemindent \itemsep \itshape
+\Im
+\jmath \jot
+\Join
+\kappa \ker
+\label \lambda \langle \large \lceil \ldots \le \leadsto \left \leftarrow
+\leftharpoondown \leftharpoonup \leftmargin \leftmark \leftrightarrow \leq
+\lfloor \lg \lgroup \lhd \lhead \lim \liminf \limits \limsup \line
+\linebreak \linethickness \linewidth \ll \lmoustache \ln \log \longleftarrow
+\longleftrightarrow \longmapsto \longrightarrow
+\LARGE \Lambda \Large \Leftarrow \Leftrightarrow \Longleftarrow
+\Longleftrightarrow \Longrightarrow
+\mapsto \mathbf \mathcal \mathindent \mathit \matrix \max \mid \min \mod \mp
+\mu \nabla \ne \nearrow \neg \neq \ni \nobreak \nolinebreak \normalsize \not
+\notin \nu \nwarrow
+\odot \oint \omega \ominus \oplus \oslash \otimes \oval \overbrace
+\overleftarrow \overline \overrightarrow
+\Omega
+\parallel \parbox \part \part* \partial \perp \phantom \phi \pi \pm \pmb
+\pmod \pod \prec \preceq \prime \prod \propto \psi
+\Phi \Pi \Pr \Psi
+\qquad \quad
+\rangle \rceil \ref \rfloor \rgroup \rhd \rho \right \rightarrow
+\rightharpoondown \rightharpoonup \rightmark \rm \rmoustache \roman
+\Re \Rightarrow \Roman
+\scshape \searrow \sec \secdef \sf \sharp \shortstack \sigma \sim \simeq
+\sin \sinh \sl \sloppy \small \smile \space \spadesuit \spcheck \sqcap
+\sqcup \sqrt \sqsubseteq \sqsupseteq \ss \stackrel \star \stepcounter
+\stretch \strut \subset \subseteq \subsubsection \succ \succeq \sum \sup
+\supset \supseteq \surd \swarrow \symbol
+\Sigma
+\tan \tanh \tau \texlmd \textbf \textit \textnormal \textrm \textsc \textsf
+\textsl \textstyle \texttt \textup \theta \tilde \times \tiny \top \triangle
+\triangleleft \triangleright \tt \twlrm
+\Theta
+\unboldmath \underbrace \underline \unlhd \unrhd \uparrow \updownarrow
+\uplus \uproot \upshape \upsilon
+\Uparrow \Updownarrow \Upsilon
+\vapace \varepsilon \varphi \varpi \varprojlim \varrho \varsigma \vartheta
+\vdash \vdots \vec \vector \vee \verb \vline \voffset \vrule
+\wedge \widehat \widetilde \wp \wr
+\xi
+\Xi
+\zeta
+\{
+\|
+\}
+/C3
+address author
+booktitle
+chapter
+edition editor
+howpublished
+institution
+journal
+key keywords
+month
+note number
+organization
+pages publisher
+school series
+title type
+url
+volume
+year

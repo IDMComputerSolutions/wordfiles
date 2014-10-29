@@ -1,0 +1,55 @@
+/L20"Z80 Assembler" AASM_LANG Line Comment = ; Nocase Escape Char = \ String Chars = "' File Extensions = asm dzm def
+/Delimiters = ~#!$@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/C1
+adc add and
+bit
+call ccf cp cpd cpdr cpi cpir cpl
+daa dec di djnz
+ei ex exx
+halt
+im in inc ind indr ini inir
+jp jr
+ld ldd lddr ldi ldir
+neg nop
+or otdr otir out outd outi
+pop push
+res ret reti retn rl rla rlc rlca rld rr rra rrc rrca rrd rst
+sbc scf set sla sll sra srl sub
+xor
+/C2
+binary
+defb defc defgroup define defl defm defs defvars defw
+else endif
+if include
+lib lstoff lston
+module
+org
+xdef xlib xref
+/C4
+$
+.
++
+-
+=
+// /
+%
+&
+>
+<
+^
+!
+|
+/C5
+A AF AF'
+B BC
+C
+D DE
+E
+F
+H HL
+IX IY IXL IXH IYL IYH
+L
+M
+NZ NC
+P PE PO
+Z

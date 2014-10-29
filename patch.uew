@@ -1,0 +1,24 @@
+/L20"Patch" File Extensions = PATCH
+/Delimiters =
+/Function String = "%#P "
+/Function String 1 = "%Index: */^([~/]++^)$"
+/Function String 2 = "%Index: ^(*^)$"
+/Open Fold Strings = "Index:"
+/Close Fold Strings = "Index:"
+/C1"Index"
+** #
+** Index:
+/C2"Command"
+** diff
+** RCS
+** retrieving
+/C3"Header"
+** ---
+** +++
+** ===
+/C4"Position"
+** @@
+/C5"Deleted"
+** -
+/C6"Added"
+** +

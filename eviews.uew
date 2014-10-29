@@ -1,0 +1,138 @@
+/L20"EViews" Line Comment = ' String Chars = " EnableSpellasYouType File Extensions = PRG
+/Delimiters = ( )	~!^&*()-+=|\/{}[]:;"'<>,.?
+/Indent Strings = "For" "Then"  "While" "Sub" "Subroutine" "Else"
+/Unindent Strings = "Next" "EndIf" "WEnd" "EndSub" "EndSub" "Else"
+/Open Fold Strings = "For" "If"  "While" "Sub" "Subroutine"
+/Close Fold Strings = "Next" "EndIf" "WEnd" "EndSub" "EndSub"
+/Open Brace Strings = "{" "(" "["
+/Close Brace Strings = "}" ")" "]"
+/C1"Control Structures"
+Else EndIf EndSub ExitLoop
+For
+If
+Next
+Step
+Then
+WEnd While
+/C2"Parentheses"
+(
+)
+[
+]
+/C3"Operators"
+*
++
+-
+// /
+<
+=
+>
+^
+and
+nrnd
+or
+to
+/C4"Variables"
+** ! % {
+}
+/C5"Objects"
+Alpha
+Coef
+Equation
+Graph Group
+Link Logl
+Matrix Model
+Pool
+Rowvector
+SSpace SVector Sample Scalar Series Spool String Sym System
+Table Text
+Valmap Var Vector
+/C6"Commands"
+3Sls
+Add Addassign Addin Addinit Addtext Align Anticov Append Arch Archtest Area Arlm Arma Arroots Auto Axis
+Band Bdstest Binary Block Boxplot Bpf Bplabel
+Call Cause Cdfplot Cellipse Censored Checkderivs Chow Clabel Clear Clearerrs Cleartext Close Coefcov
+Coefscale Coint Colplace Comment Control Copy Copyrange Copytable Cor Correl Correlsq Count Cov Create
+Cross Cvardecomp
+D Data Db DbCreate DbOpen DbRebuild DbRepair Decomp Define Delete Deletecol Depfreq Derivs Describe
+Display Displayname Distdata Do Dot Draw Drawdefault Driconvert Drop Dtable
+Ec Eigen Endog Eqs Errbar Exce Exclude Exec Exit Expand
+Facbreak Fetch Fill Fiml Fit Fitted Fixedtest Forecast Freeze Freq Frml
+Garch Genr Glm Gmm Grads Graphmode
+Hconvert Hilo Hist Horizindent Hpf
+Impulse Include Innov Insertcol Instsum Ipolate
+Jbera
+Kdensity
+Label Leftmargin Legend Line Linefit Linkto Load Logclear Logit Lrvar Ls
+Makecoint Makeendog Makefilter Makegarch Makegrads Makegraph Makegroup Makelimits Makemap Makemodel
+Makeregs Makeresids Makescores Makesignals Makestates Makestats Makesystem Makewhiten Map Matplace Maxcor
+Means Merge Metafile Ml Mode Move Msa Msg Mtos
+Name Nnfit
+Observed Options Ordered Output Override
+Pace PageCopy PageCreate PageDelete PageLoad PageRename PageSave PageSelect PageStack PageStruct
+PageUnstack Param Pcomp Pf Pie Pon Predict Print Probit Program
+Qqplot Qrslope Qstats Quiet
+Range Reduced Rename Representations Resample Reset Residcor Residcov Resids Results Return Rls Rndint
+Rotate Rotateout Run
+Save Scale Scat Scatmat Scenario Seas Seasplot Set SetCell SetColWidth SetConvert SetElem SetErr
+SetErrCount SetFillColor SetFont SetFormat SetHeight SetIndent SetJust SetLine SetLines SetMaxErrs
+SetMerge SetObsLabel SetTextColor SetTrace SetUpdate SetWidth Setbpelem Sheet Shell Show SignalGraphs Smc
+Smooth Smpl Solve SolveOpt Sort Spec Spike Statby StateFinal StateGraphs StateInit Stats StatusLine Stepls
+Stochastic Stom Stomna Stop Store Structure Subroutine Sur Svar
+Template TestAdd TestBtw TestBy TestDrop TestExog TestFit TestLags TestStat TextDefault Tic Toc TopMargin
+Trace Track TramoSeats Tsls
+Ubreak Update Updatecoefs Uroot Usage
+Varinf Vars VertIndent VertSpacing
+Wald WfClose WfCreate WfOpen WfSave WfSelect White Width Wls Workfile Write Wtsls
+X11 XClose XLog XPut Xy XyBar XyLine XyPair
+/C6"Special Expressions"
+Ar
+Ma
+Na Nrnd
+Pdl
+Rnd
+Sar Sma
+/C7"Operators and Functions"
+@Abs @Acos @AddQuotes @AddinsPath @All @Asc @Asin @Atan @Beta @Betainc @Betaincder @Betaincinv @Betalog
+@Binom @Binomlog @Cbeta @Cbinom @Cchisq @Ceiling @Cellid @Cexp @Cextreme @Cfdist @Cgamma @Cged @Chisq @Chr
+@Claplace @Clogistic @Cloglog @Clognorm @Cnegbin @Cnorm @Columns @Cor @Cos @Cov @Covp @Covs @Cpareto
+@Cpoisson @Crossid @Ctdist @Cumbmax @Cumbmean @Cumbmin @Cumbnas @Cumbobs @Cumbprod @Cumbstdev @Cumbstdevp
+@Cumbstdevs @Cumbsum @Cumbsumsq @Cumbvar @Cumbvarp @Cumbvars @Cummax @Cummean @Cummin @Cumnas @Cumobs
+@Cumprod @Cumstdev @Cumstdevp @Cumstdevs @Cumsum @Cumsumsq @Cumvar @Cumvarp @Cumvars @Cunif @Cweib @Date
+@DateAdd @DateDiff @DateFloor @DatePart @DateStr @DateVal @Day @Dbeta @Dbinom @Dchisq @Dexp @Dextreme
+@Dfdist @Dgamma @Dged @Digamma @Dlaplace @Dlogistic @Dlognorm @Dnegbin @Dnorm @Dpareto @Dpoisson @Dtdist
+@Dtoo @Dunif @Dweib @Elem @EndDate @Eqna @EqualOption @Erf @Erfc @ErrorCount @Evpath @Exp @Expand @Fact
+@FactLog @Fdist @FileExist @First @Floor @Fv @Gamma @GammaDer @GammaInc @GammaIncDer @GammaIncInv
+@GammaLog @GetNextName @GetThisType @Gmean @Hasoption @Hmean @Hour @Hourf @Iff @Ifirst @Ilast @Imax @Imin
+@Inner @Insert @Instr @Inv @IsEmpty @IsNa @IsObject @IsPanel @IsPeriod @IsValidName @Kurt @Kurtsby @LTrim
+@Last @LastErrNum @LastErrStr @Left @Len @Length @Log @Log10 @Logit @Logx @Lower @MakeDate @MakeValidName
+@Map @Mav @Mavc @Max @MaxErrs @Maxsby @Mcor @Mcov @Mcovp @Mcovs @Mean @Meansby @Median @Mediansby @Mid
+@Min @Minner @Minsby @Minute @Mkurt @Mmax @Mmin @Mnas @Mobs @Mod @Month @Movav @Movavc @Movcor @Movcov
+@Movcovp @Movcovs @Movinner @Movkurt @Movmax @Movmin @Movnas @Movobs @Movskew @Movstdev @Movstdevp
+@Movstdevs @Movsum @Movsumsq @Movvar @Movvarp @Movvars @Mskew @Mstdev @Mstdevp @Mstdevs @Msum @Msumsq
+@Mvar @Mvarp @Mvars @Nan @Nas @Nasby @Neqna @Now @Nper @Objects @Obs @ObsBy @ObsId @ObsNum @ObsRange
+@ObsSmpl @Option @Otod @Otods @PageCount @PageExist @PageFreq @PageIds @PageList @PageName @PageSmpl @Pc
+@Pca @Pch @Pcha @Pchy @Pcy @Pmt @Prod @Psi @Pv @Qbeta @Qbinom @Qchisq @Qexp @Qextreme @Qfdist @Qgamma
+@Qged @Qlaplace @Qlogistic @Qlognorm @Qnegbin @Qnorm @Qpareto @Qpoisson @Qtdist @Quantile @Quantilesby
+@Quarter @Qunif @Qweib @RTrim @Ranks @Rate @Rbeta @Rbinom @Rchisq @Recode @Replace @Rexp @Rextreme @Rfdist
+@Rfirst @Rfirsti @Rgamma @Rged @Right @Rlaplace @Rlast @Rlasti @Rlogistic @Rlognorm @Rmax @Rmaxi @Rmean
+@Rmin @Rmini @Rmse @Rnas @Rnegbin @Rnorm @Robs @Round @Rpareto @Rpoisson @Rstdev @Rstdevp @Rstdevs @Rsum
+@Rsumsq @Rtdist @Runif @Rvalcount @Rvar @Rvarp @Rvars @Rweib @Seas @Second @Sin @Skew @Skewsby @Sqrt
+@Stdev @Stdevp @Stdevpsby @Stdevs @Stdevsby @Stdevssby @Str @StrDate @StrLen @StrNow @StripCommas
+@StripParens @StripQuotes @Sum @SumSq @SumSqsby @Sumsby @TableNames @Tan @Tdist @Temppath @Theil @Time
+@Toc @Trend @Trendc @Trigamma @Trim @UiDialog @UiEdit @UiList @UiPrompt @UiRadio @Unmap @UnmapTxt @Upper
+@Val @Var @Varp @Varpsby @Vars @Varsby @Varssby @VerNum @VerStr @WCount @WCross @WDelim @WDrop @WFind
+@WFindNc @WInterleave @WIntersect @WKeep @WLeft @WLookup @WMid @WNotIn @WOrd @WOrdQ @WQuery @WReplace
+@WRight @WSort @WSplit @WUnion @WUnique @Wdir @Weekday @WfName @WfPath @Xputnames @Year
+Abs
+Dlog
+Exp
+Log
+Sleep Sqr
+/C8"Matrix Functions"
+@Capplyranks @Cfirst @Cholesky @Cifirst @Cilast @Cimax @Cimin @Clast @Cmax @Cmean @Cmin @Cnas @Cobs
+@Columnextract @Command @Cond @Convert @Csum @Det @Ediv @Eeq @Eeqna @Ege @Egt @Eigenvalues @Eigenvectors
+@Einv @Ele @Elt @Emult @Eneq @Eneqna @Epow @Explode @Filledmatrix @Filledrowvector @Filledsym
+@Filledvector @GetMainDiagonal @Identity @Implode @Inverse @Issingular @Kronecker @Makediagonal @Mnrnd
+@Mrnd @Norm @Ones @Outer @Permute @Pinverse @Rank @Rapplyranks @Resample @Rowextract @Rows @Scale
+@Solvesystem @Sort @Subextract @Svd @Trace @Transpose @Unitvector @Unvec @Unvech @Vec @Vech

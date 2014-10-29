@@ -1,0 +1,28 @@
+/L20"Tivoli TLL" Line Comment = // String Chars = "' File Extensions = TL TLL
+/Delimiters = ~!@$%^&*()+=|\{}:;"'<> ,   .?
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/Function String = "%[ ^t]++\[[ ^t]+^([a-z0-9_]+^)[ {^p]"
+/C1"ArgLayout attribs"
+Argument
+ButtonLabel
+Choice CryptoText ChoiceButton Context
+Distribute Description DefaultValue
+File FileData FileBrowser
+Gid
+HelpMessage HostFileBrowser
+Layout
+Multi
+Program ProgramData
+RadioButton Requires Roles
+SectionLabel
+Text TextChoice
+Uid
+Version
+/C2"TaskTitles"
+Binary
+Implementation
+TaskLibrary Task
+/C3"Task Attributes"
+ArgLayout
+Binary

@@ -1,0 +1,120 @@
+/L20"JamagicScript" Nocase Line Comment = // Block Comment On File Extensions = J
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String = "%[a-zA-Z_]*)"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1 LANGUAGE COMMANDS (project started on Feb.2001 by Giovanni@Cardona.com)
+Break
+Case Copy
+Default
+Else End
+For Function
+If
+New
+Refresh Return
+This
+Var
+While
+/C2 PARAMETERS
+CDROM
+DESEMITRANSP DIRECT3D DIRECTORY_SEPARATOR
+FALSE FIXED
+GLIDE
+NODIRS NOFILES
+OFF ON OPENGL
+RAMDISK REMOTE REMOVABLE
+SHORTNAMES SOFTWARE_DIRECTDRAW SORT SUBDIRS
+TRUE
+UNKNOWN USEIMAGEPALETTE
+/C3 WINDOWS AND SYSTEM FUNCTIONS (DISK)
+AddLine AppendFile
+Button 
+CheckBox Clipboard ComboBox CopyFile
+DebugBreak Disable DisableEvents Disk
+Edit Enable EnableEvents
+File FillArray Flush Font FontColor FontSize
+GroupBox
+Ini
+Keyboard
+ListBox ListDrives ListFiles
+MakeDirectory MakePath Menu MessageBox
+OnClick OnTimeElapsed
+Printer Process Program ProgressBar
+RadioButton Registry RemoveFromDebugger Rename RichEdit
+ScrollBar Selector Serial SetCurrentDirectory SetDir SetDrive SetExtension SetName
+SetText Slider Spin StaticText SysDebug System
+Timer TrayIcon
+Window
+/C4 FUNCTIONS & OBJECTS
+AddToDebugger Animation ApplyMaterial AVI
+BeginPolygonChange Big Binary Blob Bold 
+Camera CanChangeDirectSound3DUsage CaptureScreen CDAudio Continue CreateBrick
+CreatePlane CreateSphere 
+Delete DisableDirectSound3D
+Editor EnableCollision EnableDirectSound3D EndPolygonChange
+FFDevice 
+GameInput
+Follow
+Hide HideMouseCursor
+In Italics
+Light LoadBankString LoadImage
+Material Matrix MODPlayer Moo MooChannel MooConnection MooPlayer MooServer MooSession
+MooSocket MooUser MoveDown MoveToBack MoveToFront MPEG Music
+Object OnCollide Optimise
+ParseEnvironmentString Play Point3D PointArray Polygon Position
+QTime Quaternion
+Restart Rotate
+Set SetAngle SetAutoRefresh SetBackfaces SetBackground SetCollision SetDisplayInterface
+SetDrawEffect SetEnvironmentVariable SetFlush SetFocus SetFullScreenMode SetGouraud
+SetInterval SetLoop SetPosition SetShadowMode SetStatic ShowAxis ShowMouseCursor
+ShowObjectBox ShowZones Small Sound Speaker Sprite Sub SubString Sup Surface Start
+Strike String
+Texture ToLowerCase ToUpperCase ToLowerCase
+Vector Voice
+Wait Walk World Write WriteLn
+Zone
+/C5 READ OBJECT INFO
+CharAt CurWindow
+Exist EventsEnabled
+GetArgument GetArrayDimensionCount GetArrayDimensionSize GetAscii GetBlue GetCamera
+GetChar GetCommandLine GetCurrentDirectory GetDefaultGameInput GetDir GetDisplayDeviceCount
+GetDisplayDeviceName GetDisplayDriverCount GetDisplayDriverName GetDisplayInterface
+GetDisplayInterfaceName GetDrive GetDriveType GetElapsedTime GetExtension GetFileSize
+GetFileTime GetFloat GetGreen GetInt GetMaterial GetName GetNArguments GetNFilenames
+GetNObjects GetRed GetRGB GetScreenModeCount GetScreenModeDepth GetScreenModeHeight
+GetScreenModeWidth GetString GetSurface GetXMouse
+IndexOf IsApplication IsArray IsAutoRefresh IsBool IsDebug IsDefaultValue IsDirectory
+IsDirectSound3DEnabled IsDirectSound3DUsed IsDisplayInterfaceAvailable IsDouble
+IsEditorMode IsFunction IsInitialized IsInteger IsNumber IsObject IsRelease IsStandAlone
+IsScreenSaver IsScreenSaverControlPanel IsScreenSaverSetupDialog IsString IsWindowedModeSupported
+LastIndexOf Length
+/C6 MATHEMATICS
+Abs Acos Asin Atan
+Ceil Cos
+Exp
+Floor
+IsFloatFinite IsNotAFloatNumber
+Log
+Math Max Min
+Pi Pow
+Random Round
+Sin Sqrt
+Tan
+/C7 SYMBOLS
+;
+,
++
+-
+=
+// /
+.
+*
+(
+)
+&
+^
+!
+[
+]
+{
+}

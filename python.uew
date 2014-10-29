@@ -1,0 +1,117 @@
+/L20"Python" PYTHON_LANG Line Comment = #  Escape Char = \ File Extensions = PY PYC
+/Function String = "%[ ,^t]++def[ ]+^([a-zA-Z0-9_]+[ ,^t]++([a-zA-Z0-9_,="' ]++)^):"
+/Delimiters = []{}()<>="'.,:+
+/Open Fold Strings = "def" "class"
+/Close Fold Strings = "def" "class"
+/C1"Reserved Words"
+and assert
+break
+class continue
+def del
+elif else except exec
+finally for from
+global
+if import in is
+lambda
+map
+not
+None
+or
+pass print
+raise range return
+try
+while
+/C2"Built-in Functions"
+abs apply
+callable chr cmp coerce compile complex
+delattr dir divmod
+eval execfile
+filter float
+getattr globals group
+hasattr hash hex
+id input int intern isinstance issubclass
+joinfields
+len list local long
+max min match
+oct open ord
+pow
+raw_input reduce reload repr round
+search setattr slice str splitfields
+tuple type
+vars
+xrange
+__import__
+/C3"__Methods__"
+__abs__ __add__ __and__
+__call__ __cmp__ __coerce__
+__del__ __delattr__ __delitem__ __delslice__ __div__ __divmod__
+__float__
+__getattr__ __getitem__ __getslice__
+__hash__ __hex__
+__invert__ __int__ __init__
+__len__ __long__ __lshift__
+__mod__ __mul__
+__neg__ __nonzero__
+__oct__ __or__
+__pos__ __pow__
+__radd__ __rdiv__ __rdivmod__ __rmod__ __rpow__ __rlshift__ __rrshift__ __rshift__ __rsub__ __rmul__ __repr__
+__rand__ __rxor__ __ror__
+__setattr__ __setitem__ __setslice__ __str__ __sub__
+__xor__
+/C4"__Attributes__"
+__bases__
+__class__
+__dict__
+__methods__ __members__
+__name__
+__version__
+/C5"Exceptions"
+ArithmeticError AssertionError AttributeError
+EOFError Exception
+FloatingPointError
+IOError ImportError IndexError
+KeyError KeyboardInterrupt
+LookupError
+MemoryError
+NameError
+OverflowError
+RuntimeError
+StandardError SyntaxError SystemError SystemExit
+TypeError
+ValueError
+ZeroDivisionError
+/C6"Common Libs"
+AST
+BaseHTTPServer Bastion
+cmd commands compileall copy
+CGIHTTPServer Complex
+dbhash dircmp dis dospath dumbdbm
+emacs
+find fmt fnmatch ftplib
+getopt glob gopherlib grep
+htmllib httplib
+ihooks imghdr
+linecache lockfile
+macpath macurl2path mailbox mailcap
+mimetools mimify mutex math
+Mimewriter
+newdir ni nntplib ntpath nturl2path
+os ospath
+pdb pickle pipes poly popen2 posixfile posixpath profile pstats pyclbr
+Para
+quopri
+Queue
+rand random regex regsub rfc822
+sched sgmllib shelve site sndhdr string sys snmp
+SimpleHTTPServer StringIO SocketServer
+tb tempfile toaiff token tokenize traceback tty types tzparse
+Tkinter
+urllib urlparse util uu
+UserDict UserList
+wave whatsound whichdb whrandom
+xdrlib
+zmod
+/C7"Others"
+array
+fnmatch
+struct self

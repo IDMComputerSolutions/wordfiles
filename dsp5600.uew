@@ -1,0 +1,65 @@
+/L20"DSP56K asm" Line Comment = ; Nocase String Chars = ' File Extensions = ASM INC LST
+/Delimiters = ~!%^&*()+-=|\/{}[];"'<># ,	?
+/C1
+abs adc add addl addr and andi asl asr
+bchg bclr bset btst
+clr cmp cmpm
+debug dec div do
+debugcc debughs debugcs debuglo debugec debugeq debuges debugge debuggt debuglc debugle debugls debuglt debugmi debugne debugnr debugpl debugnn
+enddo eor
+illegal inc
+jclr jmp jsclr jset jsr jsset
+jcc jhs jcs jlo jec jeq jes jge jgt jlc jle jls jlt jmi jne jnr jpl jnn
+jscc jshs jscs jslo jsec jseq jses jsge jsgt jslc jsle jsls jslt jsmi jsne jsnr jspl jsnn
+lsl lsr lua
+mac macr move movec movem movep mpy mpyr
+neg nop norm not
+or ori
+rep reset rnd rol ror rti rts
+sbc stop sub subl subr swi
+tfr tst
+tcc ths tcs tlo tec teq tes tge tgt tlc tle tls tlt tmi tne tnr tpl tnn
+wait
+/C2
+by 
+downto 
+then to
+.break .continue .else .endf .endi .endl .endw .for .if .loop .repeat .until .while
+/C3
+baddr bsb bsc buffer cobj comment
+dc dcb define ds dsm dsr dup dupa dupc dupf
+else end endbuf endif endm endsec equ exitm
+fail force
+global
+himem
+ident if include
+list local lomem lstcol
+maclib macro mode msg
+nolist
+opt org
+page pmacro prctl
+radix rdirect
+scsjmp scsreg section set stitle symobj
+tabs title
+undef
+warn
+xdef xref
+/C4
+@abs @acs @asn @atn @arg @cel @coh @cos @cvf @cvi @cvs @cnt @ccc @chk @ctr @def @flr @fld @frc @exp @int @l10 @log @lfr @lng @lun @len @lcv @lst @max @min @mac @mxp @msp @rel @pow @pos @rnd @sgn @sin @snh @sqt @scp @tan @tnh @unf @xph
+/C5
+a a0 a1 a2
+b b0 b1 b2
+ccr
+lc la
+m0 m1 m2 m3 m4 m5 m6 m7 mr
+n0 n1 n2 n3 n4 n5 n6 n7
+omr
+pc
+r0 r1 r2 r3 r4 r5 r6 r7
+sr sp ssh ssl
+x x0 x1
+y y0 y1
+(r0) (r1) (r2) (r3) (r4) (r5) (r6) (r7) (r0)+ (r1)+ (r2)+ (r3)+ (r4)+ (r5)+ (r6)+ (r7)+ (r0)- (r1)- (r2)- (r3)- (r4)- (r5)- (r6)- (r7)- (r0)+n0 (r1)+n1 (r2)+n2 (r3)+n3 (r4)+n4 (r5)+n5 (r6)+n6 (r7)+n7 (r0)-n0 (r1)-n1 (r2)-n2 (r3)-n3 (r4)-n4 (r5)-n5 (r6)-n6 (r7)-n7
+-x0 -x1 -y0 -y1 -(r0) -(r1) -(r2) -(r3) -(r4) -(r5) -(r6) -(r7)
++x0 +x1 +y0 +y1
+

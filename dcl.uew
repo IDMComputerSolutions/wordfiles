@@ -1,0 +1,46 @@
+/L20"Digital Command Language" Line Comment = ! Nocase File Extensions = COM com
+/Function String = "%^$^([A-Z,a-z]*^):$"
+/Function String 1 = "%^$ +^([A-Z,a-z]*^):$"
+/Delimiters = ~!%^&()+=|\{}[]:;"<> ,?/
+/C1"Lexicals"
+F$CONTEXT F$CSID F$CVSI F$CVTIME F$CVUI F$DEVICE
+F$DIRECTORY F$EDIT F$ELEMENT F$ENVIRONMENT F$EXTRACT
+F$FAO F$FILE_ATTRIBUTES F$GETDVI F$GETENV F$GETJPI F$GETQUI
+F$GETSYI F$IDENTIFIER F$INTEGER F$LENGTH F$LOCATE F$MESSAGE
+F$MODE F$PARSE F$PID F$PRIVILEGE F$PROCESS  F$SEARCH
+F$SETPRV F$STRING F$TIME F$TRNLNM F$TYPE F$USER F$VERIFY
+/C2"Redirection"
+Exit
+Gosub Goto
+Return
+/C3"Logic"
+.And. .Not. .Or.
+Else EndIf
+If
+Then
+=
+/C4"Integer Operators"
++ 
+- 
+* 
+// /
+.EQ. .GE. .GT. .LE. .LT. .NE.
+/C5"String Operators"
+.EQS. .GES. .GTS. .LES. .LTS. .NES.
+/C6"Keywords"
+ASSIGN
+CLOSE
+DEFAULT DEFINE
+INQUIRE
+OPEN
+PROMPT
+SET SUBMIT
+WRITE
+/C7"Miscellaneous"
+LOG
+NOLOG NOPUNC
+PUNC
+SYS$INPUT SYS$LOGIN SYS$OUTPUT SYS$SYSTEM
+/C8"Dollar Sign"
+$
+

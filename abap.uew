@@ -1,0 +1,67 @@
+/L20"ABAP/4" FORTRAN_LANG Nocase Line Comment Num = 1* Line Comment Alt = " Escape Char = @ File Extensions = abap txt
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	?
+/Function String = "select "
+/Function String 1 = "select single "
+/C1"General"
+add and
+call case check continue. clear co ca cs
+do
+else. elseif elseif. endcase. enddo. endfunction. endif. endloop. eq exit. exporting exceptions
+function
+gt
+if importing initial initial. is
+loop lt
+ne not
+or others others.
+refresh replace
+search set
+times.
+when
+/C2"Database"
+all append at appending
+begin block by
+commit concatenate condense corresponding
+data delete describe
+endselect. entries end
+fields for from
+header
+in into insert index
+key
+like line line. lines
+modify move
+no
+gaps gaps.
+occurs of output
+read
+select separated single sort space. space structure
+tables table to type
+value
+where with work.
+/C3"SAP"
+assign
+break
+changing
+datum datum. dbcnt. dbcnt
+field form
+endform.
+high high.
+include
+langu langu. low low.
+mandt mandt. message msgty msgid msgid. msgno. msgno msgv1 msgv1. msgv2 msgv2. msgv3 msgv3. msgv4 msgv4. msgv5 msgv5.
+options
+perform
+raise repid repid.
+selection selection. screen start sy syst subrc subrc. symbols sysid sysid.
+tabix tabix. text
+ucomm ucomm. uname uname. using uzeit uzeit.
+/C4"IDoc"
+cimtyp cimtyp.
+doctyp doctyp. docnum docnum.
+edidc edidc. edidd edidd. edids edids. edp12 edp12. edp13 edp13.
+idoc idoc. idoctp idoctp. idoc_data idoc_data.
+komkbv7 komkbv7. komkbv2 komkbv2. kschl kschl.
+mestyp mestyp.
+nast nast.
+outmod outmod.
+rcvprn rcvprn. rcvprt rcvprt. rcvpor rcvpor. rcvpfc rcvpfc.
+segnam segnam. sdata sdata. sndprn sndprn. sndprt sndprt. sndpor sndpor.

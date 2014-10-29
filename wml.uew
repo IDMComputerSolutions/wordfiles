@@ -1,0 +1,52 @@
+/L20"WML" Nocase Noquote HTML_LANG Block Comment On = <!-- Block Comment Off = --> File Extensions = WML wml
+/Delimiters = ~@$%^*()+=|\{}"'<> ,
+/Function String = "name=*">"
+/C1"Elements"
+// />
+<
+<!DOCTYPE 
+<![CDATA[
+<a </a> <anchor <anchor> </anchor> <access> </access> 
+<b> </b> <big> </big> <br> <br/>
+<card </card> 
+<do </do> 
+<em> </em>
+<go 
+<head> </head>
+<i> </i> 
+<meta
+<p> <p </p> <prev <prev/> </prev> 
+<small> </small> <strong> </strong>
+<table <table> </table> <template> </template> <td <td> </td> <tr <tr> </tr> 
+<u> </u>
+<wml> </wml> 
+<xml> </xml> <xmp> </xmp> <xptr <xr> <xr </xr> <xref <xsl> </xsl>
+>
+]]>
+<? <?xml ?>
+
+/C2"Attributes"
+accept-charset align alt
+columns content
+domain
+emptyok
+format forua
+height href hspace http-equiv
+id iname ivalue
+label localsrc
+maxlength method mode multiple
+name newcontext
+optional ordered
+path
+scheme sendreferer size src
+tabindex title type
+value vspace
+width
+xml:lang
+=
+
+/C4"Entities"
+&amp; &apos; &gt; &lt; &nbsp; &quot; &shy;
+
+/C5"Events"
+onenterbackward= onenterforward= onpick= ontimer=

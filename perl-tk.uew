@@ -1,0 +1,128 @@
+/L2"Perl-Tk" PERL_LANG 1Line Comment = # File Extensions = CGI PL PM PLX
+/String Chars = "'
+/Delimiters = ~!^&*()+=|\{}[]:;"'<> 	,.?/
+/Escape Char = \
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/Function String = "%[ ^t]++sub[ ^t]+^([a-z0-9_]+^)[ {^p]"
+/Function String 1 = "%^([a-z_1-9]+^):*$"
+/C1"Operators"
+-A -B -C -M -O -R -S -T -W -X -b -c -d -e -f -g -k -l -o -p -r -s -t -u -w -x -z
+__DATA__ __END__ __FILE__ __LINE__
+continue
+do
+else elsif
+for foreach
+goto
+if
+last local
+my
+next no
+our
+package
+redo return require
+sub
+until unless use
+while
+/C2"Sys Words"
+accept alarm atan2
+binmode bless
+caller chdir chmod chomp chop chown chr chroot close closedir connect cos crypt
+dbmclose dbmopen defined delete die dump
+each endgrent endhostent endnetent endprotoent endpwent endservent eof eval exec exit exp exists
+fcntl fileno flock fork formline format
+getc getgrent getgrgid getgrname gethostbyaddr gethostbyname gethostent getlogin getnetbyaddr getnetbyname getnetent getpeername getpgrp getppid getpriority getprotobyname
+getprotobynumber getprotoent getpwent getpwnam getpwuid getservbyname getservbyport getservent getsockname getsockopt glob gmtime grep
+hex
+index int ioctl
+join
+keys kill
+lc lcfirst length link listen localtime log lstat
+map mkdir msgctl msgget msgrcv msgsnd
+MainLoop
+new
+oct open opendir ord
+pipe pop pos print printf push
+quotemeta
+rand read readdir readline readlink recv ref rename reset reverse rewinddir rindex rmdir
+scalar seek seekdir select semctl semgett semop setgrent sethostent setnetent setpgrp setpriority setprotoent setpwent setservent setsockopt shift shmctl shmget shmread
+shmwrite shutdown sin sleep socket socketpair sort splice split sprintf sqrt srand stat study substr symlink syscall sysopen sysread system syswrite
+tell telldir tie tied time times truncate
+uc ucfirst umask undef unlink unpack unshift utime untie
+values vec
+wait waitpid wantarray warn write
+/C3
+AUTOLOAD
+and
+BEGIN
+CORE
+cmp
+DESTROY
+eq
+END
+ge gt
+le lt
+ne not
+m
+or
+q qq qw qx
+SUPER
+s
+tr
+UNIVERSAL
+x xor
+y
+/C4"Tk Methods"
+Button
+bell bind bindtags bitmap button
+Checkbutton
+canvas checkbutton clipboard configure
+destroy
+Entry
+entry event
+focus frame
+Frame
+grab grid gridColumnconfigure gridRowconfigure gridForget gridInfo gridPropagate gridSize gridSlaves
+image
+label listbox lower
+Label Listbox
+menu menubutton message
+Menu Menubutton MainWindow
+option
+pack photo place packForget packInfo packPropagate packSlaves placeForget placeInfo placeSlaves
+radiobutton raise
+Radiobutton
+scale scrollbar selection send
+Scale Scrollbar Scrolled
+text tk tk_bindForTraversal tk_bisque tk_chooseColor tk_dialog tk_focusFollowsMouse tk_focusNext tk_focusPrev tk_getOpenFile tk_getSaveFile tk_menuBar tk_messageBox
+tk_optionMenu tk_popup tk_setPalette tkerror tkvars tkwait toplevel title
+Text Tk Title
+winfo wm
+/C5"Tk options"
+=>
+->
+-activebackground -activeforeground -activeimage -anchor -activeborderwidth -after
+-background -bd -bg -bitmap -borderwidth -bigincrement -before -bordermode
+-command -cursor -closeenought -confine -class -colormap -container -column -columnspan
+-default -disabledforeground -digits
+-exportselection -elementborderwidth -expand
+-fg -font -foreground -from -fill
+-highlightbackground -highlightcolor -highlightthickness -height
+-image -insertbackground -insertborderwidth -insertofftime -insertontime -insertwidth -indicatoron -in -ipadx -ipady
+-justify -jump
+-label -labelPack -labelVariable -length
+-menu -minsize -maxsize
+-name
+-offvalue -onvalue -overanchor -orient
+-padx -pady -popanchor -popover -postcommand -pad
+-relief -repeatdelay -repeatinterval -resolution -row -rowspan -relheight -relwidth -relx -rely
+-state -scrollregion -selectcolor -selectimage -selectbackground -selectborderwidth -selectforeground -show -selectmode -setgrid -showvalue -sliderlength -sliderrelief
+-spacing1 -spacing2 -spacing3 -screen -side -sticky
+-takefocus -text -title -textvariable -tearoff -tearoffcommand -type -tickinterval -to -troughcolor -tabs
+-underline -use
+-value -variable -visual
+-width -wraplength -wrap -weight
+-xscrollcommand -xscrollincrement
+-yscrollcommand -yscrollincrement -y
+/C6"Variables"
+** $ @ %

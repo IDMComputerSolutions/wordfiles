@@ -1,0 +1,84 @@
+/L20"Batch" Nocase Line Comment = rem Line Comment Alt = :: Escape Char = ^ String Chars = "' File Extensions = bat cmd
+/Delimiters = @$&^(){}[]-+*#/=~!|\<>	 "'?,;:.
+/Indent Strings = "("
+/Unindent Strings = ")"
+/Open Brace Strings = "("
+/Close Brace Strings = ")"
+/Open Fold Strings = "("
+/Close Fold Strings = ")"
+/C1"Commands"
+accounts add addusers allow assoc associate at attach attrib auditpol awk
+backup break browstat
+cacls call capture castoff caston cat cd chcp chdir chgprint chkdir chkdsk chkvol chmod choice chown clip cls cmd cmdsync color command comp compact compare compreg computer config continue convert copy cp cx
+date debug defptr del delete delprof delsrv deltree dh dir diruse diskcomp diskcopy diskmap disksave diskuse doskey drivers dspace dsrights
+echo em2ms endcap endlocal erase exetype exit expand export
+fc fcopy file filever find findgrp findstr fixacls flag flagdir flags for forfiles format free freedisk fsutil ftype
+getsid global goto gpresult graftabl grant graphics grep group
+help helpmsg
+icacls if ifmember import instsrv
+kernprof keyb kill
+label listdir load loadfix local localgroup logevent login logout logtime ls
+map md mkdir mklink mode monitor more move munge mv
+ncopy ndir net netdom netsvc nlist nlmon nltest nmenu now nprint nprinter ntrights
+oh openfiles
+passprop path pathman pause permcopy perms pfmon pmon popd print printmig prompt psc pstat pulist purge pushd
+qbasic query
+rar raslist rasusers rd rdisk reboot recover reg regback regdmp regfind regrest remote remove ren rename rendir replace repreg restore revoke rexx rights rkill rmdir rmtshare robocopy
+salvage save scanreg schtasks sclist scopy secadd send session set setlocal setpass settts setx shift showacls showdisk showgrps showmbrs shutgui sleep slist soon sort srvcheck srvinfo start statistics stop su subinacl subst suss syscon sysdiff systeminfo systime
+taskkill tbackup tcopy time timeout timethis timezone title tlist touch tree tskill type
+unload usrstat usrtogrp
+ver verify version vi view vol volinfo
+wait waitfor wc whoami winipcfg wmic wntipcfg
+xcacls xcopy xxcopy xxcopy16
+/C2"Keywords"
+cmdextversion
+defined do
+else eof equ errorlevel exist
+geq gtr
+in
+leq lss
+neq not
+off on
+/C3"Extern Commands"
+accwiz actmovie ahui alg append arj arp asr_fmt asr_ldm asr_pfu atmadm auditusr autmgr32 autochk autoconv autofmt autolfn
+bat bcp blastcln bootcfg bootok bootvrfy brsp104a brsp204a brss01a brsvc01a
+calc cdw charmap cidaemo cipher cisvc ckcnv cleanmgr cleanup cliconfg clipbrd clipsrv clspack cmdl32 cmdwrap cmmon32 cmstp cnfgsvr compress conime console control convlog cscript csrss ctfmon
+dcomcnfg dcomscm ddeshare defrag dfrgfat dfrgntfs diantz diskpart diskperf distrib dllhost dllhst3g dmadmin dmremote dosx dplaysvr dpnsvr dpvsetup driverquery drwatson drwtsn32 dsndup dtsrun dtsrunui dtswiz dumpcap dumpel dumprep dvdplay dvdupgrd dw15 dwwin dxdiag
+edlin elogdmp esentutl eudcedit eventcreate eventtriggers eventvwr evntcmd evntwin exe exe2bin explorer extrac32
+fastopen fileops finger fixmapi fltmc fontview forcedos fsquirt ftp
+gdi getmac gpupdate grpconv
+hkcmd hostname htmlgen
+ie4uinit iexplore iexpress igfxcfg igfxdiag igfxext igfxtray igfxzoom iisreset imapi ini insrepim ipconfig ipsec6 ipv6 ipxroute isql isqlw itwiz
+jar java javaw javaws jdbgmgr jview
+krnl386
+lha lights lnkstub locator lodctr log logagent logman logoff logonui logread lpq lpr lsass
+magnify makecab mdm mem migpwd mmc mnmsrvc mobsync mountvol mplay32 mpnotify mqbkup mqsvc mqtgsvc mrinfo mrt mscdexnt msdtc msg mshta msiexec mspaint msswchx mstinit mstsc
+narrator nbtstat nddeapir net1 netdde netsetup netsh netstat nfsclnt nlsfunc notepad nslookup ntbackup ntkrnlpa ntoskrnl ntsd ntvdm nw16 nwscript
+odbcad32 odbccmpt odbcconf osk osql osuninst
+packager pathping pentnt perfmon perl ping ping6 pkunzip pkzip pl posix powercalc powercfg profiler progman proquota prounstl proxycfg psexec psfile psgetsid psinfo pskill pslist psloggedon psloglist pspasswd psservice psshutdown pssuspend psxrun psxss putty
+qappsrv qprocess qrdrsvc qwinsta
+racmgr32 rasautou rasdial rasphone rcimlby rcp rdpclip rdsaddin rdshost rebuildm redir regcladm regedit regedt32 regini regsvr32 regwiz relog replmerg replupd reset rexec route routemon rsh rsm rsmsink rsmui rsnotify rsopprov rsvp rtcshare runas rundll32 runhide runonce rwinsta
+savedump sc scardsvr scm sdbinst secedit services sessmgr sethc setup setver sfc shadow share shell shmgrate shrpubw shutdown sigverif skeys smbinst smlogsvc smss snapshot sndrec32 sndvol32 snmp snmptrap spiisupd spnpinst spoolsv sprestrt spupdsvc sqladhlp sqlagent sqldiag sqldumper sqlftwiz sqlmaint sqlmangr stimon svchost svrnetcn syncapp sys sysedit syskey sysocmgr systray
+tasklist taskman taskmgr tcmsetup tcpsvcs telnet temp textcopy tftp tlntadmn tlntsess tlntsvr tmp tourstart tracerpt tracert tracert6 translate tscon tscupgrd tsdiscon tsshutdn tweakui typeperf
+uncol unlodctr upnpcont ups use user userinit userlist usrmlnka usrprbda usrshuta utilman
+vbs verifier verinst vfp6run vssadmin vssvc vswitch vwipxspx
+w32tm wextract wiaacmgr winchat windbver winhlp32 winlogon winmsd winmsdp winspool winver wisptis wiztrace wjview wowdeb wowexec wowpost wpabaln wpnpinst write wscntfy wscript wuauclt wuauclt1 wupdmgr
+xpadsi
+/C4"Reserved Characters"
+&
+*
+// /
+:
+<
+=
+>
+@
+\
+|
+~
+/C5"Devices"
+aux
+com1 com2 com3 com4 con
+lpt1 lpt2 lpt3 lpt4 lpt5 lpt6 lpt7 lpt8
+nul
+prn

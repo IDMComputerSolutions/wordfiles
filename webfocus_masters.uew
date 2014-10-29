@@ -1,0 +1,14 @@
+/L19"WebFOCUS Masters" Line Comment = $ String Chars = "' File Extensions = MAS
+/Delimiters = .!^*+()=|;"'/ ,
+/Open Brace Strings =  "{" "(" "["
+/Close Brace Strings = "}" ")" "]"
+/Function String = "%[a-zA-Z_]*)[~;]"
+/C1"Reserved Words"
+ALIAS
+DEFINE
+FIELD FIELDNAME FIELDTYPE FILE FILENAME FIX FOC FORMAT
+GROUP
+MISSING
+PARENT
+SEGNAME SEGTYPE SUFFIX SYB SEGMENT
+TITLE

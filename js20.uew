@@ -1,0 +1,107 @@
+/L20"JavaScript 2.0" JSCRIPT_LANG Line Comment = // Block Comment On = /* Block Comment Off = */ File Extensions = JS
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	?
+/Function String = "%[ ^t]++function^(*(*)^)"
+/Function String 1 = "%[ ^t]++^(*^)=[ ^t]++function*(*)"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1"Keywords"
+boolean
+break byte
+case catch char class const continue
+debugger default delete do double
+else enum export extends
+false final finally float for function
+goto
+if implements import in instanceof int interface
+long
+native new null
+package private protected public
+return
+short static super switch synchronized
+this throw throws transient true try typeof
+var void volatile
+while with
+/C2"Objects"
+Anchor Applet Area Array
+Boolean Button
+Checkbox
+Date
+document
+event
+FileUpload Form Frame Function
+Hidden History
+Image
+JavaArray JavaClass JavaObject JavaPackage
+java
+Layer Link Location
+Math MimeType
+Number
+navigator netscape
+Object Option
+Packages Password Plugin
+Radio RegExp Reset
+Select String Style Submit
+screen sun
+Text Textarea
+window
+/C3"Methods"
+abs acos alert anchor apply asin atan atan2 atob attachEvent
+back big blink blur bold borderWidths btoa
+call captureEvents ceil charAt charCodeAt clear clearInterval clearTimeout click close compile concat confirm contextual cos createElement createEventObject createPopup createStyleSheet createTextNode
+detachEvent disableExternalCapture dump
+elementFromPoint enableExternalCapture escape eval exec execCommand execScript exp
+fileCreatedDate fileModifiedDate fileSize fileUpdatedDate find firstChild fixed floor focus fontcolor fontsize fromCharCode forward
+getAttention getDate getDay getElementById getElementsByName getElementsByTagName getFullYear getHours getMilliseconds getMinutes getMonth getSeconds getSelection getTime getTimezoneOffset getUTCDate getUTCDay getUTCFullYear getUTCHours getUTCMilliseconds getUTCMinutes getUTCMonth getUTCSeconds getYear go
+handleEvent home
+indexOf isFinite isNaN italics
+javaEnabled join
+lastIndexOf link load log
+margins match max mergeAttributes min moveAbove moveBelow moveBy moveTo moveToAbsolute
+navigate
+open
+paddings parse parseFloat parseInt plugins.refresh pop pow preference print prompt push
+queryCommandEnabled queryCommandIndeterm queryCommandState queryCommandValue
+random recalc releaseCapture releaseEvents reload replace reset resizeBy resizeTo returnValue reverse round routeEvents
+savePreferences scroll scrollBy scrollByLines scrollByPages scrollTo scrollX scrollY search select setDate setFullYear setActive setCursor setHotKeys setHours setInterval setMilliseconds setMinutes setMonth setResizable setSeconds setTime setTimeout setUTCDate setUTCFullYear setUTCHours setUTCMilliseconds setUTCMinutes setUTCMonth setUTCSeconds setYear setZOptions shift showHelp showModalDialog showModelessDialog sidebar sin signText sizeToContent slice small sort splice split sqrt strike stop sub submit substr substring sup
+taint taintEnabled tan test toGMTString toLocaleString toLowerCase toSource toString toUpperCase toUTCString
+UTC
+unescape unshift untaint updateCommands unwatch
+valueOf
+watch write writeln
+/C4"Properties"
+_content
+above action align aLinkcolor all anchors appCodeName appCore appMinorVersion appName applets appVersion arguments arguments.callee arguments.caller arguments.length arity attributes availHeight availLeft availTop availWidth
+background backgroundColor backgroundImage below bgColor body border borderBottomWidth borderColor borderLeftWidth borderRightWidth borderStyle borderTopWidth bottom bufferDepth
+characterSet checked childNodes classes className clientInformation clip clipboardData closed colorDepth complete components constructor controllers cookie cookieEnabled cpuClass crypto current
+data defaultCharset defaultChecked defaultStatus defaultValue defaultView description dialogArguments dialogHeight dialogLeft dialogTop dialogWidth dir directories display doctype documentElement domain
+E
+elements embeds enabledPlugin encoding expando external
+fgColor filename fontFamily fontSize fontWeight form formName forms frameElement frames
+global
+hasFocus hash height history host hostname href hspace
+Infinity
+ids ignoreCase images implementation input innerHeight innerWidth index
+LN10 LN2 LOG10E LOG2E
+language lastChild lastIndex lastMatch lastModified lastParen layers layerX left leftContext length lineHeight linkColor links listStyleType localName location locationbar lowsrc
+MAX_VALUE MIN_VALUE
+marginBottom marginLeft marginRight marginTop media method menubar mimeTypes multiline
+NaN NEGATIVE_INFINITY
+name nameProp namespaces namespaceURI next nextSibling nodeName nodeType nodeValue
+offscreenBuffering onLine opener opsProfile oscpu options outerHeight outerWidth ownerDocument
+POSITIVE_INFINITY PI
+paddingBottom paddingLeft paddingRight paddingTop pageX pageY pageXOffset pageYOffset parent parentLayer parentNode parentWindow pathname personalbar pixelDepth platform
+plugins pkcs11 port prefix previous previousSibling product productSub prompter protocol prototype
+readyState referrer right rightContext
+SQRT1_2 SQRT2
+screenLeft screenTop screenX screenY scripts scrollbars security securityPolicy selected selection selectedIndex self siblingAbove siblingBelow src source status statusbar styleSheets suffixes systemLanguage
+tags target text textAlign textDecoration textIndent textTransform title toolbar top type
+URL URLUnencoded
+undefined uniqueID updateInterval userAgent userLanguage userProfile
+value vendor vendorSub visibility vLinkcolor vspace
+whiteSpace width
+XMLDocument XSLDocument
+x
+y
+zIndex
+/C5"Events"
+onAbort onActivate onAfterprint onAfterupdate onBeforeactivate onBeforecut onBeforedeactivate onBeforeeditfocus onBeforepaste onBeforeprint onBeforeunload onBeforeupdate onBlur onCellchange onChange onClick onClose onContextmenu onControlselect onCut onDataavailable onDatasetchanged onDatasetcomplete onDblclick onDeactivate onDrag onDragdrop onDragend onDragenter onDragleave onDragover onDragstart onDrop onError onErrorupdate onFocus onHelp onKeydown onKeypress onKeyup onLoad onMousedown onMousemove onMouseout onMouseover onMouseup onPaste onPropertychange onReadystatechange onReset onResize onResizeend onResizestart onRowenter onRowexit onRowsdelete onRowsinserted onScroll onSelect onSelectionchange onSelectstart onStop onSubmit onUnload

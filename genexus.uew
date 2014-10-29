@@ -1,0 +1,65 @@
+/L20"Genexus" Nocase Line Comment = // Block Comment On = /* Block Comment Off = */ File Extensions = GX
+/Delimiters = ~@$%^*()+=|\};"'<> ,	 
+/Function String = "Sub '*'"
+/Indent Strings = "if" "do" "for" "xfor" "new" "xnew"
+/Unindent Strings = "endsub" "Endif" "endcase" "enddo" "endfor" "xendfor" "endnew" "xendnew" "else"
+/C1"Statements"
+By
+Case
+Defined Do
+Each Else EndCase EndDo EndFor EndIF EndNew EndSub Exit
+For
+If
+New None
+Otherwise
+Sub
+When Where While
+XEndFor XEndNew XFor XNew
+/C2"Rules"
+Accept Add AllowNulls Assign
+Call Color
+Default Default_Mode
+Equal Error
+Hidden
+NoAccept NoCheck NoConfirm NoPrompt NoRead
+Order
+Parm Prompt
+Refcall Refmsg
+Search Serial Substract
+Workfile_lines
+XOrder
+/C3"Commands"
+CP Call Commit Confirm
+Delete Detail
+Eject
+Footer
+Graph
+Header
+Lineno Load
+MB MT Msg
+NoSkip
+PL Print Printer
+Refresh Return Rollback
+Submit
+/C4"Functions"
+.and. .or. .not.
+Addmth Addyr After Age Ask
+Cdow Cmonth Cols Concat Confirmed Count CtoT Ctod Cursor
+Day Dow Dtoc
+Eom
+Find
+Hour
+Insert Int
+LTrim Len Level Link LoadBitmap Lower
+Max Min Minute Modified Month Months
+Now Null NullValue
+Old
+Previous
+RGB RTrim Round Rows
+Second Set Space Str SubStr Sum Sysdate Systime
+Tadd Tdiff Time Today Trim Trunc TtoC 
+Udf Udp Update Upper UserId Usercls
+Val Value 
+Wrkst 
+Year Years YmdHmstoT Ymdtod
+

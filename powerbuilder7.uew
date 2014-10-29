@@ -1,0 +1,538 @@
+/L20"PowerBuilder 7.0" Line Comment = // Block Comment On = /* Block Comment Off = */ String Chars = "' Nocase File Extensions = SCR SRA SRD SRF SRJ SRM SRP SRQ SRS SRU SRW
+/Delimiters = ~@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String = "%[a-zA-Z]*)"
+/Indent Strings = "do" "else" "then"
+/Unindent Strings = "case else" "else" "end choose" "end if" "loop" "next"
+/C1"Reserved words"
+*
++
+-
+// /
+<
+=
+>
+^
+_debug
+and alias autoinstantiate
+call case choose close commit connect constant continue create cursor
+declare delete describe descriptor destroy disconnect do dynamic
+else elseif end enumerated event execute exit external
+false fetch first for forward from function
+global goto
+halt
+if immediate indirect insert into intrinsic is
+last library loop
+next not
+of on open or
+parent post prepare prior private privateread privatewrite procedure
+protected protectedread protectedwrite prototypes public
+readonly ref return rollback rpcfunc
+select selectblob shared static step subroutine super system systemread
+systemwrite
+then this to trigger true type
+until update updateblob using
+variables
+while with within
+/C2"Data types"
+any
+blob boolean
+char character
+date datetime dec decimal double
+int integer
+long
+real
+string
+time
+uint ulong unsignedint unsignedinteger unsignedlong
+/C3"Object types"
+adoresultset application arraybounds
+checkbox classdefinition classdefinitionobject commandbutton connection
+connectioninfo connectobject contextinformation contextkeyword corbaobject
+corbaunion cplusplus
+datastore datawindow datawindowchild dragobject drawobject dropdownlistbox
+dropdownpicturelistbox dwobject dynamicdescriptionarea dynamicstagingarea
+editmask enumerationdefinition enumerationitemdefinition environment error
+errorlogging extobject
+function_object
+graph graphicobject graxis grdispattr groupbox
+hprogressbar hscrollbar htrackbar
+inet internetresult
+jaguarorb
+line listbox listview listviewitem
+mailfiledescription mailmessage mailrecipient mailsession mdiclient menu
+menucascade message multilineedit
+nonvisualobject
+olecontrol olecustomcontrol oleobject olestorage olestream oletxnobject
+omcontrol omcustomcontrol omembeddedcontrol omobject omstorage omstream orb
+oval
+pbtocppobject picture picturebutton picturehyperlink picturelistbox
+pipeline powerobject profilecall profileclass profileline profileroutine
+profiling
+radiobutton rectangle remoteobject resultset resultsets richtextedit
+roundrectangle
+scriptdefinition service simpletypedefinition singlelineedit sslcallback
+sslserviceprovider statichyperlink statictext structure
+tab timing traceactivitynode tracebeginend traceerror traceesql tracefile
+tracegarbagecollect traceline traceobject traceroutine tracetree
+tracetreeerror tracetreeesql tracetreegarbagecollect tracetreeline
+tracetreenode tracetreeobject tracetreeroutine tracetreeuser traceuser
+transaction transactionserver transport treeview treeviewitem typedefinition
+userobject
+variablecardinalitydefinition variabledefinition vprogressbar vscrollbar
+vtrackbar
+window windowobject
+/C4"Enumerated types"
+abortretryignore! actbegin! acterror! actesql! actgarbagecollect! activate!
+activatemanually! activateondoubleclick! activateongetfocus! actline!
+actobjectcreate! actobjectdestroy! actprofile! actroutine! acttrace!
+actual! actuser! adoresultset! adtdate! adtdatetime! adtdefault! adtdouble!
+adttext! adttime! aix! alignatbottom! alignatleft! alignatright!
+alignattop! all! allowpartialchanges! alpha! ansi! any! anycase! anyfont!
+append! application! arabiccharset! area3d! areagraph! arraybounds! arrow!
+ascending! asstatement! atbottom! atleft! atright! attop! autosize!
+background! balticcharset! bar3dgraph! bar3dobjgraph! bargraph!
+barstack3dobjgraph! barstackgraph! bdiagonal! beam! begin! begindrag!
+beginlabeledit! beginrightdrag! behind! blob! bold! boolean! bottom!
+boundedarray! box! byreferenceargument! byvalueargument!
+cancel! cascade! cascaded! category! center! character! charsetansi!
+charsetansiarabic! charsetansihebrew! charsetdbcsjapanese! charsetunicode!
+checkbox! child! childtreeitem! chinesebig5! classdefinition!
+classdefinitionobject! classorstructuretype! clicked! clip! clipboard!
+clipformatbitmap! clipformatdib! clipformatdif! clipformatenhmetafile!
+clipformathdrop! clipformatlocale! clipformatmetafilepict!
+clipformatoemtext! clipformatpalette! clipformatpendata! clipformatriff!
+clipformatsylk! clipformattext! clipformattiff! clipformatunicodetext!
+clipformatwave! clock! close! closequery! col3dgraph! col3dobjgraph!
+colgraph! colstack3dobjgraph! colstackgraph! columnclick! commandbutton!
+connection! connectioninfo! connectobject! connectprivilege!
+connectwithadminprivilege! constructor! containsany! containsembeddedonly!
+containslinkedonly! contextinformation! contextkeyword! continuous!
+corbaobject! corbaunion! cplusplus! cross! csv! cumulative!
+cumulativepercent! currenttreeitem! customvisual!
+dash! dashdot! dashdotdot! data! datachange! datamodified! datastore!
+datawindow! datawindowchild! date! datemask! datetime! datetimemask!
+dbase2! dbase3! dberror! deactivate! decimal! decimalmask! decorative!
+default! defaultcharset! delete! deleteallitems! deleteitem! descending!
+desktop! destructor! detail! diamond! dif! dirall! dirapplication!
+dirdatawindow! directionall! directiondown! directionleft! directionright!
+directionup! dirfunction! dirmenu! dirpipeline! dirproject! dirquery!
+dirstructure! diruserobject! dirwindow! displayasactivexdocument!
+displayascontent! displayasicon! dot! double! doubleclicked! dragdrop!
+dragenter! dragleave! dragobject! dragwithin! drawobject! dropdownlistbox!
+dropdownpicturelistbox! drophighlighttreeitem! dwobject!
+dynamicdescriptionarea! dynamicstagingarea!
+easteuropecharset! editchanged! editmask! editmenu! end! endlabeledit!
+enterprise! enterpriseonlyfeature! enumeratedtype! enumerationdefinition!
+enumerationitemdefinition! environment! error! errorlogging!
+eventnotexisterror! eventwrongprototypeerror! excel! excel5! exceptionfail!
+exceptionignore! exceptionretry! exceptionsubstitutereturnvalue!
+exclamation! exclude! exportapplication! exportdatawindow! exportfunction!
+exportmenu! exportpipeline! exportproject! exportquery! exportstructure!
+exportuserobject! exportwindow! externalvisual! extobject!
+failonanyconflict! fdiagonal! featurenotsupportederror!
+filealreadyopenerror! filecloseerror! fileexists! fileinvalidformaterror!
+filemenu! filenotopenerror! filenotseterror! fileopenerror! filereaderror!
+filetyperichtext! filetypetext! filewriteerror! filter! first!
+firstvisibletreeitem! fixed! floating! focusrect! footer! foreground!
+frombeginning! fromcurrent! fromend! functionobject!
+gb2312charset! getfocus! graph! graphicobject! graxis! grdispattr!
+greekcharset! groupbox!
+hand! hangeul! header! hebrewcharset! helpmenu! hide! horizontal!
+hotlinkalarm! hourglass! hppa! hprogressbar! hpux! hscrollbar!
+hticksonboth! hticksonbottom! hticksonneither! hticksontop! htmltable!
+htrackbar!
+i286! i386! i486! icon! icons! idle! importdatawindow! imputfieldselected!
+indent! index! inet! information! inplace! insertitem! inside! integer!
+internetresult! italic! itemchanged! itemchanging! itemcollapsed!
+itemcollapsing! itemerror! itemexpanded! itemexpanding! itemfocuschanged!
+itempopulate!
+jaguarorb! johabcharset! justify!
+key! key0! key1! key2! key3! key4! key5! key6! key7! key8! key9! keya!
+keyadd! keyalt! keyapps! keyb! keyback! keybackquote! keybackslash! keyc!
+keycapslock! keycomma! keycontrol! keyd! keydash! keydecimal! keydelete!
+keydivide! keydownarrow! keye! keyend! keyenter! keyequal! keyescape! keyf!
+keyf1! keyf10! keyf11! keyf12! keyf2! keyf3! keyf4! keyf5! keyf6! keyf7!
+keyf8! keyf9! keyg! keyh! keyhome! keyi! keyinsert! keyj! keyk! keyl!
+keyleftarrow! keyleftbracket! keyleftbutton! keyleftwindows! keym!
+keymiddlebutton! keymultiply! keyn! keynull! keynumlock! keynumpad0!
+keynumpad1! keynumpad2! keynumpad3! keynumpad4! keynumpad5! keynumpad6!
+keynumpad7! keynumpad8! keynumpad9! keyo! keyp! keypagedown! keypageup!
+keypause! keyperiod! keyprintscreen! keyq! keyquote! keyr! keyrightarrow!
+keyrightbracket! keyrightbutton! keyrightwindows! keys! keyscrolllock!
+keysemicolon! keyshift! keyslash! keyspacebar! keysubtract! keyt! keytab!
+keyu! keyuparrow! keyv! keyw! keyword! keyx! keyy! keyz!
+languageafrikaans! languagealbanian! languagearabicalgeria!
+languagearabicbahrain! languagearabicegypt! languagearabiciraq!
+languagearabicjordan! languagearabickuwait! languagearabiclebanon!
+languagearabiclibya! languagearabicmorocco! languagearabicoman!
+languagearabicqatar! languagearabicsaudiarabia! languagearabicsyria!
+languagearabictunisia! languagearabicuae! languagearabicyemen!
+languagebasque! languagebulgarian! languagebyelorussian! languagecatalan!
+languagechinese! languagechinesehongkong! languagechinesesimplified!
+languagechinesesingapore! languagechinesetraditional! languagecroatian!
+languageczech! languagedanish! languagedutch! languagedutchbelgian!
+languagedutchneutral! languageenglish! languageenglishaustralian!
+languageenglishcanadian! languageenglishirish! languageenglishnewzealand!
+languageenglishsouthafrica! languageenglishuk! languageenglishus!
+languageestonian! languagefaeroese! languagefarsi! languagefinnish!
+languagefrench! languagefrenchbelgian! languagefrenchcanadian!
+languagefrenchluxembourg! languagefrenchneutral! languagefrenchswiss!
+languagegerman! languagegermanaustrian! languagegermanliechtenstein!
+languagegermanluxembourg! languagegermanneutral! languagegermanswiss!
+languagegreek! languagehebrew! languagehindi! languagehungarian!
+languageicelandic! languageindonesian! languageitalian!
+languageitalianneutral! languageitalianswiss! languagejapanese!
+languagekorean! languagekoreanjohab! languagelatvian! languagelithuanian!
+languagemacedonian! languagemaltese! languageneutral! languagenorwegian!
+languagenorwegianbokmal! languagenorwegiannynorsk! languagepolish!
+languageportuguese! languageportuguese_brazilian!
+languageportugueseneutral! languagerhaetoromanic! languageromanian!
+languageromanianmoldavia! languagerussian! languagerussianmoldavia!
+languagesami! languageserbian! languageslovak! languageslovenian!
+languagesorbian! languagesortnative! languagesortunicode! languagespanish!
+languagespanishcastilian! languagespanishmexican! languagespanishmodern!
+languagesutu! languageswedish! languagesystemdefault! languagethai!
+languagetsonga! languagetswana! languageturkish! languageukrainian!
+languageurdu! languageuserdefault! languagevenda! languagexhosa!
+languagezulu! last! layer! layered! left! leftmargin! line! line3d! linear!
+linecolor! linedown! linegraph! lineleft! linemode! lineright! lineup!
+linkupdateautomatic! linkupdatemanual! listbox! listview! listviewitem!
+listviewlargeicon! listviewlist! listviewreport! listviewsmallicon!
+lockread! lockreadwrite! lockwrite! log10! loge! long! losefocus! lower!
+lowered!
+m68000! m68020! m68030! m68040! maccharset! macintosh! mailattach! mailbcc!
+mailbodyasfile! mailcc! maildownload! mailentiremessage! mailenvelopeonly!
+mailfiledescription! mailmessage! mailnewsession!
+mailnewsessionwithdownload! mailole! mailolestatic! mailoriginator!
+mailrecipient! mailreturnaccessdenied! mailreturnattachmentnotfound!
+mailreturnattachmentopenfailure! mailreturnattachmentwritefailure!
+mailreturndiskfull! mailreturnfailure! mailreturninsufficientmemory!
+mailreturninvalidmessage! mailreturnloginfailure! mailreturnmessageinuse!
+mailreturnnomessages! mailreturnsuccess! mailreturntexttoolarge!
+mailreturntoomanyfiles! mailreturntoomanyrecipients!
+mailreturntoomanysessions! mailreturnunknownrecipient! mailreturnuserabort!
+mailsession! mailsuppressattachments! mailto! main! maximized! mdi!
+mdiclient! mdihelp! menu! menucascade! menuitemtypeabout! menuitemtypeexit!
+menuitemtypehelp! menuitemtypenormal! merge! message! minimized! mips!
+modelexistserror! modelnotexistserror! modern! modified! mousedown!
+mousemove! mouseup! moved! multiline! multilineedit! mutexcreateerror!
+new! newmodified! next! nexttreeitem! noborder! noconnectprivilege!
+nolegend! none! nonvisualobject! normal! nosymbol! notic! notmodified!
+notopmost! notype! numericmask!
+objhandle! oem! off! offsite! ok! okcancel! olecontrol! olecustomcontrol!
+oleobject! olestorage! olestream! oletxnobject! omcontrol! omcustomcontrol!
+omembeddedcontrol! omobject! omstorage! omstream! open! orb! original!
+osf1! other! outside! oval!
+pagedown! pageleft! pageright! pageup! parenttreeitem! pbtocppobject!
+pentium! percentage! picture! picturebutton! picturehyperlink!
+picturelistbox! pictureselected! pie3d! piegraph! pipeend! pipeline!
+pipemeter! pipestart! popup! powerobject! powerpc! powerrs! ppc601! ppc603!
+ppc604! previewdelete! previewfunctionreselectrow! previewfunctionretrieve!
+previewfunctionupdate! previewinsert! previewselect! previewupdate!
+previoustreeitem! previousvisibletreeitem! primary! printend! printfooter!
+printheader! printpage! printstart! prior! private! process! profilecall!
+profileclass! profileline! profileroutine! profiling! protected! psreport!
+public!
+question!
+radiobutton! raised! rbuttondown! rbuttonup! read! readonlyargument! real!
+rectangle! regbinary! regexpandstring! reglink! regmultistring! regstring!
+regulong! regulongbigendian! remoteexec! remotehotlinkstart!
+remotehotlinkstop! remoteobject! remoterequest! remotesend! rename!
+replace! resize! resizeborder! response! resultset! resultsets!
+retrieveend! retrieverow! retrievestart! retrycancel! richtextedit! right!
+rightclicked! rightdoubleclicked! rightmargin! rnddays!  rndefault!
+rndhours! rndmicroseconds! rndminutes! rndmonths! rndnumber! rndseconds!
+rndyears! roman! roottreeitem! roundrectangle! routineesql! routineevent!
+routinefunction! routinegarbagecollection! routineobjectcreation!
+routineobjectdestruction! routineroot! rowfocuschanged! russiancharset!
+save! scalartype! scattergraph! script! scriptdefinition! scriptevent!
+scriptfunction! scrollhorizontal! scrollvertical! selected!
+selectionchanged! selectionchanging! series! service! shade! shadowbox!
+shared! sharedobjectcreateinstanceerror! sharedobjectcreatepbsessionerror!
+sharedobjectexistserror! sharedobjectnotexistserror! shiftjis! show!
+simpletype! simpletypedefinition! singlelineedit! size! sizenesw! sizens!
+sizenwse! sizewe! sol2! solid! sort! sourcepblerror! spacing1! spacing15!
+spacing2! sparc! sqlinsert! sqlpreview! square! sslcallback!
+sslserviceprovider! statichyperlink! statictext! stgdenynone! stgdenyread!
+stgdenywrite! stgexclusive! stgread! stgreadwrite! stgwrite! stopsign!
+straddle! streammode! stretch! strikeout! string! stringmask! structure!
+stylebox! stylelowered! styleraised! styleshadowbox! subscript! success!
+superscript! swiss! sylk! symbol! symbolhollowbox! symbolhollowcircle!
+symbolhollowdiamond! symbolhollowdownarrow! symbolhollowuparrow!
+symbolplus! symbolsolidbox! symbolsolidcircle! symbolsoliddiamond!
+symbolsoliddownarrow! symbolsoliduparrow! symbolstar! symbolx! system!
+systemerror! systemfunctions! systemkey!
+tab! tabsonbottom! tabsonbottomandtop! tabsonleft! tabsonleftandright!
+tabsonright! tabsonrightandleft! tabsontop! tabsontopandbottom! text!
+thaicharset! thread! tile! tilehorizontal! time! timemask! timer!
+timernone! timing! tobottom! toolbarmoved! top! topic! topmost! totop!
+traceactivitynode! traceatomic! tracebeginend! traceerror! traceesql!
+tracefile! tracegarbagecollect! tracegeneralerror! tracein! traceline!
+tracenomorenodes! tracenotstartederror! traceobject! traceout!
+traceroutine! tracestartederror! tracetree! tracetreeerror! tracetreeesql!
+tracetreegarbagecollect! tracetreeline! tracetreenode! tracetreeobject!
+tracetreeroutine! tracetreeuser! traceuser! transaction! transactionserver!
+transparent! transport! treeview! treeviewitem! turkishcharset!
+typeboolean! typecategory! typecategoryaxis! typecategorylabel! typedata!
+typedate! typedatetime! typedecimal! typedefinition! typedouble! typegraph!
+typeinteger! typelegend! typelong! typereal! typeseries! typeseriesaxis!
+typeserieslabel! typestring! typetime! typetitle! typeuint! typeulong!
+typeunknown! typevalueaxis! typevaluelabel!
+ultrasparc! unboundedarray! underline! underlined! unsignedinteger!
+unsignedlong! unsorted! uparrow! updateend! updatestart! upper!
+userdefinedsort! userobject!
+variable! variableargument! variablecardinalitydefinition!
+variabledefinition! variableglobal! variableinstance! variablelocal!
+variableshared! varlistargument! vbxvisual! vcenter! vertical!
+vietnamesecharset! viewchanged! vprogressbar! vscrollbar! vticksonboth!
+vticksonleft! vticksonneither! vticksonright! vtrackbar!
+window! windowmenu! windowobject! windows! windowsnt! wk1! wks! wmf! write!
+xpixelstounits! xunitstopixels! xvalue!
+yesno! yesnocancel! ypixelstounits! yunitstopixels! yvalue!
+zoom!
+/C5"Functions"
+abs asc
+beep blobedit blobmid
+ceiling classname clipboard closechannel closewithreturn
+commandparm cos cpu
+day dayname daynumber daysafter debugbreak doscript
+draggedobject
+execremote exp
+fact fileclose filedelete fileexists filelength fileopen fileread fileseek
+filewrite fill fillc fillw findclassdefinition findfunctiondefinition
+findtypedefinition fromansi fromunicode
+garbagecollect garbagecollectgettimelimit garbagecollectsettimelimit
+getapplication getcommanddde getcommandddeorigin getdatadde
+getdataddeorigin getenvironment getfileopenname getfilesavename getfocus
+getlibrarylist getremote
+handle hour
+idle imegetcompositiontext imegetmode imesetmode inthigh intlow
+isallarabic isallhebrew isanyarabic isanyhebrew isarabic isarabicandnumbers
+isdate ishebrew ishebrewandnumbers isnull isnumber istime isvalid
+keydown
+left leftc lefttrim lefttrimw leftw len lenw librarycreate librarydelete
+librarydirectory libraryexport libraryimport log logten lower lowerbound
+match matchw max messagebox mid midc midw min minute mod month
+now
+openchannel opensheet opensheetwithparm openwithparm
+pi pixelstounits populateerror pos posw print printbitmap printcancel
+printclose printdatawindow printdefinefont printline printopen printoval
+printpage printrect printroundrect printscreen printsend printsetfont
+printsetspacing printsetup printtext printwidth printx printy profileint
+profilestring
+rand randomize registrydelete registryget registrykeys registryset
+registryvalues relativedate relativetime replace replacew respondremote
+restart reverse rgb right rightc righttrim righttrimw rightw round run
+second secondsafter send setdatadde setlibrarylist setnull setpointer
+setprofilestring setremote sharedobjectdirectory sharedobjectget
+sharedobjectregister sharedobjectunregister showhelp sign signalerror sin
+space sqrt starthotlink startserverdde stophotlink stopserverdde
+tan timer toansi today tounicode tracebegin traceclose
+tracedisableactivity traceenableactivity traceend traceopen
+trim trimw truncate
+unitstopixels upper upperbound
+year yield
+/C6"Object functions"
+_is_a _narrow
+accepttext activate addcategory addcolumn adddata additem addlargepicture
+addpicture addseries addsmallpicture addstatepicture arrange arrangesheets
+buildmodel
+cancel canundo categorycount categoryname changemenu check classlist
+clear clearvalues close closetab
+closeuserobject collapseitem connecttonewobject connecttonewremoteobject
+connecttoobject connecttoremoteobject connecttoserver copy copyrtf create
+create_object createfrom createinstance createpage crosstabdialog cut
+datacount datasource dbcancel dberrorcode dberrormessage dbhandle
+deletecategory deletecolumn deletecolumns deletedata deletedcount
+deleteitem deleteitems deletelargepicture deletelargepictures deletepicture
+deletepictures deleterow deleteseries deletesmallpicture
+deletesmallpictures deletestatepicture deletestatepictures describe
+destroymodel dirlist dirselect disable disablecommit disconnectobject
+disconnectserver doverb drag draw
+editlabel enable enablecommit entrylist eventparmdouble eventparmstring
+expandall expanditem
+filter filteredcount find findcategory findgroupchange finditem
+findmatchingfunction findnext findrequired findseries
+generatehtmlform generateresultset getactivesheet getalignment
+getautomationnativepointer getbandatpointer getborderstyle
+getcertificatelabel getchanges getchild getchildrenlist getclickedcolumn
+getclickedrow getcolumn getcolumnname
+getcompanyname getcontextkeywords getcontextservice getcredentialattribute
+getdata getdatapieexplode getdatastyle
+getdatavalue getdescriminatortype getdiscriminatortype getdynamicdate
+getdynamicdatetime getdynamicnumber getdynamicstring getdynamictime
+getfirstsheet getfixesversion getformat getfullstate getglobalproperty
+gethostobject getitem getitemdate getitemdatetime getitemdecimal
+getitemnumber getitemstatus getitemstring getitemtime getmajorversion
+getmessagetext getminorversion getname getnativepointer getnextmodified
+getnextsheet getobjectatpointer getorigin getparagraphsetting getparent
+getpin getrecordset getrow getrowfromrowid getrowidfromrow
+getselectedrow getseriesstyle getserverinfo getshortname getspacing
+getsqlpreview getsqlselect getstatestatus gettext gettextcolor gettextstyle
+gettoolbar gettoolbarpos gettrans getupdatestatus geturl getvalidate
+getvalue getversionname groupcalc
+hide hyperlinktourl
+impersonateclient importclipboard importfile importstring incomingcalllist
+init inputfieldchangedata inputfieldcurrentname inputfielddeletecurrent
+inputfieldgetdata inputfieldinsert inputfieldlocate insertcategory
+insertclass insertcolumn insertdata insertdocument insertfile insertitem
+insertitemfirst insertitemlast insertitemsort insertobject insertpicture
+insertrow insertseries internetdata internetstatus isalive iscallerinrole
+isimpersonating isintransaction ispreview issecurityenabled isselected
+istransactionaborted
+length linecount linelength linelist linkto listen lookup
+mailaddress maildeletemessage mailgetmessages mailhandle maillogoff
+maillogon mailreadmessage mailrecipientdetails mailresolverecipient
+mailsavemessage mailsend memberdelete memberexists memberrename
+modifiedcount modify modifydata move movetab
+nextactivity
+object_to_string objectatpointer offsetpos oleactivate open
+opentab opentabwithparm openuserobject openuserobjectwithparm outgoingcalllist
+pagecount pagecreated parentwindow paste pastelink pastertf pastespecial
+pointerx pointery popmenu position postevent posturl preview
+read releaseautomationnativepointer releasenativepointer
+remotestopconnection remotestoplistening repair replacetext reselectrow
+reset resetdatacolors resettransobject resetupdate resize
+resolve_initial_references retrieve reverttoself routinelist
+rowcount rowscopy rowsdiscard rowsmove
+save saveas saveasascii savedocument scroll scrollnextpage scrollnextrow
+scrollpriorpage scrollpriorrow scrolltorow seek selectedcolumn
+selectedindex selecteditem selectedlength selectedline selectedpage
+selectedstart selectedtext selectionrange selectitem selectobject selectrow
+selecttab selecttext selecttextall selecttextline selecttextword
+seriescount seriesname setabort setactioncode setalignment
+setautomationlocale setautomationpointer setautomationtimeout
+setborderstyle setchanges setcolumn setcomplete setconnect setdata
+setdatapieexplode setdatastyle setdescriminatortype
+setdetailheight setdiscriminatortype setdrophighlight setdynamicparm
+setfilter setfirstvisible setfocus setformat setfullstate setglobalproperty
+sethtmlaction setitem setitemstatus setlevelpictures setmask
+setmicrohelp setoverlaypicture setparagraphsetting setpicture setposition
+setrange setrecordset setredraw setresultset setrow
+setrowfocusindicator setseriesstyle setsort setspacing setsqlpreview
+setsqlselect setstate settaborder settext settextcolor settextstyle
+settoolbar settoolbarpos settop settracefilename settrans settransobject
+settranspool setvalidate setvalue sharedata sharedataoff show showheadfoot
+sort sortall start state stepit stop
+stoplistening string_to_object syntaxfromsql
+systemroutine
+tabpostevent tabtriggerevent text textline top totalcolumns totalitems
+totalselected triggerevent trustverify typeof
+uncheck undo update updatelinksdialog
+which workspaceheight workspacewidth workspacex workspacey write
+/C7"Object properties"
+absoluteselftime absolutetotaltime accelerator access activation
+activitytype address aliasname alignment allowedit ancestor
+applicationname appname argument argumentlist arraydefinition
+attachmentfile autoarrange autocommit autohscroll automatic autoscale
+autosize autoskip autovscroll
+backcolor beginx beginy binaryindex binarykey bold boldselectedtext border
+bordercolor borderstyle bottommargin bringtotop busy buttonheader
+callcount calledroutine callingconvention callingline cancel cardinality
+category categorysort charset checkboxes checked children class
+classlongname classshortname clientedge clientid
+collectiontime columns columnsperpage connectstring connecttime
+connectuserid contentsallowed contexthelp control controlmenu
+conversationid cornerheight cornerwidth cputype createondemand currentitem
+cuthighlighted
+data database dataobject datatype datatypeof datereceived dbms dbparm
+dbpass ddetimeout default deleteitems depth disabledlook disabledname
+disabledragdrop disablenoscroll dispattr displaydata displayeverynlabels
+displayexpression displayname displayonly displaytype docfilename
+documentname doubleparm dragauto dragicon driver dropdown drophighlighted
+droplines dwmessagetitle
+editlabels elevation enabled endx endy entertimervalue entryid enumeration
+errcode errtext escapement eventid eventidname exittimervalue expanded
+expandedonce extendedselect externaluserfunction
+facename filename filetype fillcolor fillpattern fixedlocations fixedwidth
+focusonbuttondown focusrectangle fontcharset fontfamily fontpitch format
+frame fullrowselect
+graphtype gridlines
+hasbuttons hasfocus haslines headerdragdrop headerfooter height
+hideselection hitcount hsplitscroll htextalign
+icon ignoredefaultbutton imemode increment indent initialvalue inparmtype
+inputfieldbackcolor inputfieldnamesvisible inputfieldsvisible interval
+invert isautoinstantiate isconstant iscontrol iscreate isdragtarget isevent
+isexternalevent islocallydefined islocallyscripted isrpcfunction isscripted
+isstructure issystemtype isuserdefined isvariablelength isvisualtype italic
+item itemhandle itempictureindex itemx itemy
+keyboardicon kind
+label labeldispattr labelwrap language largepictureheight
+largepicturemaskcolor largepicturename largepicturewidth lastcalltime
+lasterror lefttext legend legenddispattr level libraryname limit
+linecolor linenumber linesatroot linesize linesperpage linestyle
+linethickness linkitem linkupdateoptions livescroll localvariablelist
+location lock logid logpass longparm
+machinecode majordivisions majorgridline majortic mask maskdatatype maxbox
+maximumvalue maxposition maxselftime maxtotaltime maxvaldatetime menuid
+menuitemtype menuname mergeoption messageid messagesent messagetype
+microhelp microhelpdefault microhelpheight minbox minimumvalue minmax
+minordivisions minorgridline minortic minposition minselftime mintotaltime
+minvaldatetime modified multiline multiselect
+name nestedclasslist notetext number numberofactivities numberofcolors
+numinputs numoutputs
+object objectdata objectevent objectid objecttype oneclickactivate options
+originalsize originline osfixesrevision osmajorrevision osminorrevision
+ostype outparmtype overlappercent overlaypictureindex overrideancestorvalue
+pagesize palettewindow parentclass parentnode parentstorage parentwindow
+password pathname pbfixesrevision pbmajorrevision pbminorrevision pbtype
+percentcalleeselftime percentcalleetotaltime percentselftime
+percenttotaltime perpendiculartext perspective pictureasframe pictureheight
+pictureindex picturemaskcolor picturename pictureonright picturewidth
+piedispattr pointer popmenu position powerobjectparm powertips powertiptext
+primaryline processed
+raggedright readaccess receiptrequested recipient recipienttype resizable
+resultsetlist returnsvisible returntype returnvalue rightmargin righttoleft
+rotation roundto roundtounit routine rowsinerror rowsread rowswritten
+rulerbar running
+scaletype scalevalue screenheight screenwidth scriptlist scrolling
+secondaryline selected selectedpictureindex selectedtab series seriessort
+servername sessionid setstep severity shadebackedge shadecolor shifttoright
+shortcut showheader showlist showpicture showtext singleexpand sizemode
+slider slidersize smallpictureheight smallpicturemaskcolor smallpicturename
+smallpicturewidth smoothscroll sorted sorttype source spacesvisible spacing
+spin sqlcode sqldbcode sqlerrtext sqlnrows sqlreturndata statepictureheight
+statepictureindex statepicturemaskcolor statepicturename statepicturewidth
+stdheight stdwidth storage stringparm style subject syntax systemfunction
+tabbackcolor tabbar taborder tabposition tabstop tabsvisible tabtextcolor
+tag text textcase textcolor textsize thirdstate thishandle threestate
+tickfrequency tickmarks timeout timervalue title titlebar titledispattr
+toolbar toolbaralignment toolbarframetitle toolbarheight
+toolbaritembarindex toolbaritemdown toolbaritemdownname toolbaritemname
+toolbaritemorder toolbaritemspace toolbaritemtext toolbaritemvisible
+toolbarpopmenutext toolbarsheettitle toolbartext toolbartips
+toolbarusercontrol toolbarvisible toolbarwidth toolbarx toolbary tooltips
+topmargin trace tracefilename trackselect twoclickactivate typeinfo
+underline underlinecold underlinehot undodepth unitspercolumn unitsperline
+unread url usecodetable userid
+value values variablelist view visible vtextalign
+weight width win16 windowmenu windowstate windowtype wordparm wordwrap
+writeaccess
+x
+y
+/C8"Object events"
+activate
+begindrag beginlabeledit beginrightdrag buttonclicked buttonclicking
+clicked close closequery columnclick connectionbegin connectionend constructor
+datachange dberror deactivate deleteallitems deleteitem destructor
+doubleclicked dragdrop dragenter dragleave dragwithin
+editchanged endlabeledit externalexception
+help hide hotlinkalarm
+inputfieldselected insertitem itemactivate itemchanged itemchanging
+itemcollapsed itemcollapsing itemerror itemexpanded itemexpanding
+itemfocuschanged itempopulate
+key
+linedown lineleft lineright lineup losefocus
+modified mousedown mousemove mouseup moved
+open other
+pagedown pageleft pageright pageup pictureselected pipeend pipemeter
+pipestart printend printfooter printheader printstart
+propertychanged propertyrequestedit
+rbuttondown rbuttonup remoteexec remotehotlinkstart remotehotlinkstop
+remoterequest remotesend rename resize retrieveend retrieverow
+retrievestart rightclicked rightdoubleclicked rowfocuschanged rowfocuschanging
+save scrollhorizontal scrollvertical selected selectionchanged
+selectionchanging show sort sqlpreview systemerror systemkey
+toolbarmoved
+updateend updatestart
+viewchange

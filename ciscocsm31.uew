@@ -1,0 +1,49 @@
+/L20"Cisco CSM 3.1 Config" Line Comment = ! Nocase File Extensions = conf
+/Delimiters = ~@$%^&*()+=|\{}[]:;"<> ,	.?
+/C1"CSM_Commands"
+cookie csm
+dfp dns
+enable
+file ft
+group
+header
+ip 
+map mode module
+natpool
+owner
+policy probe
+real redirect-vserver retcode
+script serverfarm slb snmp static sticky
+task traps
+url
+vlan vserver 
+xml-config
+
+/C4"CSM_Submode_Commands"
+address advertise agent alias
+backup billing-info bindid
+csrp
+domain dscp
+expect
+failaction failed failover
+gateway
+header-map health heartbeat-time http
+idle inservice interval 
+kal-ap-udp
+manager match maxconns minconns
+name nat no
+open
+parse-length pending persistent port predictor preempt priority
+protocol purge
+rebalance receive relocation replicate request
+retcode-map retries reverse-sticky route
+set slb-policy ssl ssl-sticky status sticky-group
+url-hash url-map
+virtual
+webhost weight
+
+/C3"Options"
+any
+connection
+destination
+source

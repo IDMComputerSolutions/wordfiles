@@ -1,0 +1,78 @@
+/L20"INI Files" Block Comment On = /* Block Comment Off = */ String Chars = " File Extensions = INI
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/C1"Sections"
+adobe 
+AlertDatabase Alerts ARGOCalc
+bpcommon bpqueue bpslog bsi bpdbms bpssec bpstot bpsejl bpsabm bpsapm bpshcm bpcredco 
+BPApplication BPFANNIEMAE BPClient BPSSFW BPSERVER BPNodeManager BPNodeResource BPNetPro BPContext BPUEJFMT BPCFG BPSCOMAP
+cko custverification
+demo
+efa
+objlocations
+PROCLIST
+R0001
+signon
+SECURITY 
+TELNET
+/C2"Keywords"
+applname
+ADOBE ADOBEPATH Alert1 Alert2 Alert3 Alert4 Alert5 Alert6 Alert7 Alert8 Alert9 Alert10 Alert11 Alert12 AccumInOut ActiveApplPoll
+AddressFailCount AddressFailTime AddressResetTime AlwaysCheckUserLoggedOn AlwaysCheckUserSecurity AlwaysCheckUserStatus 
+AutoResetFailures AutoResetLocks AutoResetTime ACTrace 
+AHQn001 AHQn002 AHQn003 AHQn004 AHQn005 AHQn006 AHQn045 AHQn064 AHQn119 AHQn120 AHQn600
+bpefadef bpgrpid 
+BFOCPATH BFODPATH BPApplHScroll BPApplHeight BPApplLeft BPApplTop BPApplVScroll BPApplWidth BPCalcAssumeDec BPCalcChgDec BPCalcChgPrint BPCalcPr
+BPCalcPrint BPCalcPrt BPConfig BPCursorHt BPCursorWd BPDevTrace BPFFixed BPFHelvetica BPFSystem BPFTimes BPFailBackFrequency BPGTFullScreen
+BPGTWIcon BPGTWMin BPGTWName BPHideWSComm BPHideWSCtl BPLocalServer BPLocalSpool BPMCLBAutoSel BPMCLBCUA BPMagStr BPMagStr2 BPMicrReader BPModalFuncKey
+BPNTrace BPNetDef BPNodeapplPrime BPNodeapplbkup BPNodecompBkup BPNodecompPrime BPPinPad BPPrPath BPPrType BPPriNetpro BPPrtTrace BPRSOAlert BPReqFldAct
+BPRoundOff BPScriptTrace BPSecNetpro BPTermID BPViewTop BPWTrace BPYYCutoff BSI BTrTrace BegTrace
+BPGblDef BPGrpDef BPTracePath BPNameServer BPExtPath BPCTREEPATH1 BPCTREEPATH2 BPCTREEPATH3 BPCTREEPATHx
+BPLocalTCPName BPApplID BPAutoSTFW BPBitmap BPBinChar BPCacheDefn BPCondErr BPDefHelp BPHelpIfc BPEpriseId BPGblMem 
+BPHelp BPLockFl BPMxTask BPOForms BPStatTime BPUsrFil BPWrkFl1 BPProfID BPProfRelease BPStaticWWS BPPriCfgSrv BPSecCfgSrv BPTCDCashBoxID BPTCDSide
+BPOperImp BPOperSecurity BPNadaPath BPNadaName BPSMTPServer BPScriptLibrary BPScriptThread BPApplModal BP3270Enhanced BP3270Width BP3270Height
+BP3270FBold BP3270FS BP3270Title BP3270WinRow BP3270WinCol BP3270Icon BPEmDflt BPEmPrHi BPEmPrNm BPEmUpHi BPEmUpNm BPHostAlarm BPLOG BPLOGpath BPLOGlevel
+BPVersionCheckAction BPTraceSize BPDataSource BPMaxSessions BPUserDump BPMaxUserDump BPReqTimeout BPQueueThreshold 
+BPQueueCheckFrequency BPServerIP BPUserExit BPQEnv BPQMgr BPQDefPriority BPQPersist BPQSecurity BPQEncrypt BPQEncryptKey
+BPQThreads BPQPollTranData BPQPollStartTranCount BPNameServerSynch BPWorkerThreads BPPrQueue BPCTrace BPCTraceFilter
+BPException BPReentry BPTranStatus BPErrorID BPXMLOnly BPDelimiter
+compname 
+CKO CUSTVERIFICATION CurrencyCntr ContextData CheckIPLocking ContextCheck CONTEXTDATABASE CashId CredcoThreads
+CLDecSingle CLDecJoint CLLevelSingle CLLevelJoint ContextTimeout CustomerInfo CustomerDesc 
+DBMSBPConnectTimeout DBMSBPTraceSize DBMSBPTracefile DBMSBPTracelevel DBMSTruncateGreaterThan DEMO DbmsBPTrace DbmsDLLName DbmsName DiskDocument
+DiskForm DiskMemory DataSrcName Dest1 Dest2 Dest3 Dest4 Dest5 Dest6 Dest7 Dest8 Dest9 Dest10 Dest11 Dest12 DbContext DbName
+DisplayStats DisplayFrequency DefaultErrorFormatId DefaultErrorText DSN Date Delimiter DataEntryThreads DisplayANR DisplayLCD
+EFAOnly EFAOutput ErrorSheet ExtendedFonts EventLogging EJProcList Exclude
+FlashDocument FlashForm FlashMemory FreePercentage FannieThreads FaxID FaxQueue
+GroupId
+Hqueue
+INT17 InactiveApplPoll IPProfileWCLevel IPRequestWCLevel IPUserProfileWCLevel Include InputDir InputRetention
+JobTimeout JobAgingInterval JobAgingLimit
+LogStats LogoffRequestName LogonFailCount LogonFailTime LogonRequestName LeapInterest
+MultiConfig MaxSessions MajorFnct MinorFnct MsgSeq MaxLoops MaxAHAnnually MaxAHSemiAnnually MaxAHQuarterly MaxAHBiMonthly 
+MaxAHMonthly MaxAHSemiMonthly MaxAHBiWeekly MaxAHWeekly MaxAHDaily MaxAHBalloon MICRMethod
+NetRequestTimeout NetCFGDataSource Node1 Node2 Node3 Node4 Node5 Node6 Node7 Node8 Node9 Node10 Node11 NmvContextTimeout                                                                        
+NumThreads
+OfficeId Output OverrideOper OutputDir OutputRetention OutputBin
+PDL PDLSecondary PermMemory PrinterMemory PrinterModel ProcDate PendRequestTimeout PRINTQUEUE PrtAdminID PrtAdminLevel PrtBCMExpiration PrtLineStatus
+queue1 queue2
+ResetDocument ResetForm Res1 Res2 Res3 Res4 Res5 Res6 Res7 Res8 Res9 Res10 Res11 Res12 RLIContextTimeout RQUEUE
+RequestManager1 RequestManager2 RequestManager3 Region RegionId
+SpoolDir SetLastAccessOnAll SBADuUserid SBADuPassword SBADebug ServerName StatusMethod
+tnhost trace 
+TraceLvl TransVarOut TestUserID Time TranId TranSeq Threads 
+UpdateUserID UpperCaseUserId UseSmallNames UseTestInfo UWInputDir UWOutputDir UWInputRetention UWOutputRetention
+VENDOR ValidatePassword
+WordAutoTempPath WakeupTime
+XMLFile XSL
+/C3"Settings"                                                                              
+disk db2
+false
+LJET_III 
+level1
+MSSQLServer
+No
+on off over odbc32 oracle
+pcl4 pcl5
+true
+yes                                                                                        
+

@@ -1,0 +1,65 @@
+/L20"IBIS" Line Comment = | File Extensions = IBS PKG EBD
+/Delimiters = ~!@%^&*()=|\{}:;"'<> ,	.?
+/C1"Keywords"
+Board
+Char] Clamp Clamp] Current]
+Data] Description] Designator
+Groups]
+List]
+MOSFET] Map] Mapping] Matrix] Model Model]
+Name] Numbers]
+Of
+Package Pin Pin] Pins] Pulse
+Range] Reference] Rev]
+Schedule] Sections] Selector] Series] Spec] Submodel] Switch
+Table]
+Ver]
+Waveform]
+[Add 
+[Bandwidth] [Begin
+[C [Cac] [Capacitance [Comment [Component] [Copyright]
+[Date] [Define [Description] [Diff [Disclaimer] [Driver
+[End [End]
+[Falling [File
+[GND
+[IBIS [Inductance
+[L [Lc
+[Manufacturer] [Model [Model]
+[Notes] [Number
+[OEM] [Off] [On]
+[POWER [Package [Package] [Path [Pin [Pin] [Pulldown [Pulldown] [Pullup [Pullup]
+[R [Rac] [Ramp] [Rc [Reference [Resistance [Rgnd] [Rising [Rl [Row] [Rpower]
+[Series [Source] [Submodel [Submodel]
+[TTgnd] [TTpower] [Temperature
+[Voltage
+/C2"Sub-Params"
+Banded_matrix
+C C_comp C_dut C_fixture C_pin C_pkg Cref
+D_overshoot_high D_overshoot_low D_overshoot_time
+Enable Endfork
+Fall_off_dly Fall_on_dly Fork Full_matrix
+L L_dut L_fixture L_pin L_pkg Len
+Model_type
+Node
+Off Off_delay On
+Polarity Pulse_high Pulse_low Pulse_time
+R R_dut R_fixture R_load R_pin R_pkg Rise_off_dly Rise_on_dly Rref
+S_overshoot_high S_overshoot_low Si_location Sparse_matrix Submodel_type
+Timing_location
+V_fixture V_fixture_max V_fixture_min V_trigger_f V_trigger_r Vinh Vinh+ Vinh- Vinl Vinl+ Vinl- Vmeas Vref
+dV/dt_f dV/dt_r
+function_table_group
+gnd_clamp_ref
+inv_pin
+model_name
+pin_2 power_clamp_ref pulldown_ref pullup_ref
+signal_name
+tdelay_max tdelay_min tdelay_typ
+vdiff
+/C3"Model Types"
+3-state 3-state_ECL
+I/O I/O_ECL I/O_open_drain I/O_open_sink I/O_open_source
+Input Input_ECL
+Open_drain Open_sink Open_source Output Output_ECL
+Series Series_switch
+Terminator

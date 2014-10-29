@@ -1,0 +1,62 @@
+/L20"Blitz Basic v1.73" Line Comment = ; String Chars= " File Extensions = BB
+/Function String = "%[ ^t]++Function+[ ^t]+^(*^)$"
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Indent Strings = "Then"
+/Unindent Strings = "End" "Next" "EndIf" "End If" "End Function" "End Select" "End Type"
+/C1"Keywords"
+Abs After And
+Before
+Case Const
+Data Default Delete Dim
+Each Else ElseIf End EndFunction EndSelect EndType EndIf Exit
+False Field First Float For Forever Function
+Global Gosub Goto
+If Include Insert Int
+Last Local
+Mod
+New Next Not Null
+Or
+Pi
+Read Repeat Restore Return
+Sar Select Sgn Shl Shr Step Str
+Then To True Type
+Until
+Wend While
+Xor
+/C2"Commands"
+AcceptTCPStream ACos# ACos ASin# ASin ATan# ATan ATan2# ATan2 AppTitle Asc AutoMidHandle AvailVidMem
+BackBuffer BankSize Bin$ Bin
+Ceil# Ceil ChangeDir ChannelPan ChannelPitch ChannelPlaying ChannelVolume Chr$ Chr CloseDir CloseFile CloseTCPServer CloseTCPStream Cls ClsColor Color ColorBlue ColorGreen ColorRed CopyBank CopyFile CopyImage CopyPixel CopyPixelFast CopyRect Cos# Cos CountGfxDrivers CountGfxModes CreateBank CreateDir CreateImage CreateNetPlayer CreateTCPServer CreateTimer CurrentDate$ CurrentDate CurrentDir$ CurrentDir CurrentTime$ CurrentTime
+DebugLog Delay DeleteDir DeleteFile DeleteNetPlayer DrawBlock DrawBlockRect DrawImage DrawImageRect
+EndGraphics Eof ExecFile Exp# Exp
+FilePos FileSize FileType FindGfxMode Flip Floor# Floor FlushJoy FlushKeys FlushMouse FontHeight FontWidth FreeBank FreeFont FreeImage FreeSound FreeTimer FrontBuffer
+GetColor GetJoy GetKey GetMouse GfxDriverName$ GfxDriverName GfxModeDepth GfxModeExists GfxModeHeight GfxModeWidth GrabImage Graphics GraphicsBuffer GraphicsDepth GraphicsHeight GraphicsWidth
+HandleImage Hex$ Hex HidePointer HostNetGame
+ImageBuffer ImageHeight ImageRectCollide ImageRectOverlap ImageWidth ImageXHandle ImageYHandle ImagesCollide ImagesOverlap Input$ Input Instr
+JoinNetGame JoyDown JoyHit JoyType JoyWait JoyX# JoyX JoyXDir JoyY# JoyY JoyYDir JoyZ# JoyZ JoyZDir
+KeyDown KeyHit
+LSet$ LSet Left$ Left Len Line LoadAnimImage LoadBuffer LoadFont LoadImage LoadSound Locate LockBuffer Log# Log Log10# Log10 LoopSound Lower$ Lower
+MaskImage Mid$ Mid MidHandle MilliSecs MouseDown MouseHit MouseWait MouseX MouseXSpeed MouseY MouseYSpeed MoveMouse
+NetMsgData$ NetMsgData NetMsgFrom NetMsgTo NetMsgType NetPlayerLocal NetPlayerName$ NetPlayerName NextFile$ NextFile
+OpenFile OpenTCPStream Origin Oval
+PauseChannel PeekByte PeekFloat# PeekFloat PeekInt PeekShort PlayCDTrack PlayMusic PlaySound Plot PokeByte PokeFloat# PokeFloat PokeInt PokeShort Print
+Rand ReadAvail ReadByte ReadBytes ReadFloat# ReadInt ReadLine ReadShort ReadString$ ResizeBank RSet$ RSet ReadByte ReadBytes ReadDir ReadFile ReadFloat# ReadFloat ReadInt ReadLine$ ReadLine ReadPixel ReadPixelFast ReadShort ReadString$ ReadString Rect RectsOverlap RecvNetMsg Replace$ Replace ResizeImage ResumeChannel Right$ Right Rnd# Rnd RotateImage RuntimeError RuntimeStats 
+SaveBuffer SaveImage ScaleImage ScanLine SeedRnd SeekFile SendNetMsg SetBuffer SetFont SetGfxDriver ShowPointer Sin# Sin SoundPan SoundPitch SoundVolume Sqr# Sqr StartNetGame Stop StopChannel StopNetGame String$ String StringHeight StringWidth
+TFormFilter TFormImage Tan# Tan Text TileBlock TileImage TotalVidMem Trim$ Trim
+UnlockBuffer Upper$ Upper
+VWait Viewport
+WaitJoy WaitKey WaitMouse WaitTimer Write WriteByte WriteBytes WriteFile WriteFloat WriteInt WriteLine WritePixel WritePixelFast WriteShort WriteString
+/C4"Operators"
++
+-
+=
+// /
+%
+*
+#
+>
+<
+^
+!
+|
+\

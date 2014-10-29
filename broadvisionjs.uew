@@ -1,0 +1,55 @@
+/L20"BV JavaScript" JSCRIPT_LANG Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ File Extensions = JSP JS
+/Delimiters = ~!@%^&*()+=|\{}[]:;"'<> ,	.?
+/Function String = "%[ 	]+[psv]*(*)*{"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1"JavaScript Keywords"
+abstract
+boolean break byte
+case catch char class const continue
+default do double
+else extends
+false final finally float for function
+goto
+if implements import in instanceof int interface
+long
+native new null
+package private protected public
+return
+short static super switch synchronized
+this throw throws transient true try
+var void
+while with
+/C2"BroadVision Objects"
+BV_SmgrSessionHandle BVI_ACLManager BVI_Category BVI_CategoryList
+BVI_Content BVI_ContentList BVI_ContentManager BVI_ContentSchema
+BVI_DateTime BVI_File BVI_FilePath BVI_FileSystem BVI_GenericDBManager
+BVI_Log BVI_MatchingAgent BVI_Money BVI_MonitorManager BVI_MonitorVariable
+BVI_MultiValueModifierList BVI_MultiValueRow BVI_MultiValueSchema
+BVI_MultiValueTable BVI_NameValuePair  BVI_NamingContext BVI_Properties
+BVI_Request BVI_Response BVI_Session BVI_SessionLocation
+BVI_SessnProf BVI_StringList BVI_SystemConfiguration BVI_SystemMonitor
+BVI_Table BVI_Value BVI_ValueList BVI_Visitor BVI_VisitorManager
+Error
+Strings System
+portal
+/C3"HTTP Session Objects"
+Request Response
+RETURN
+Session
+/C6"BroadVision built-in Scripts"
+classOf comment currentService currentVisitor
+dquote dumpEnvironment
+getMatchingRow getMatchingValue
+HTMLEncode
+init2DArray initSessionState isEmptyString isNullString
+loginData
+makeScriptURL
+obslogBuy obslogBuyContent obslogChoose obslogChooseContent
+obslogEnterStore obslogIdentify obslogTargetingRule obslogRegisterUser
+obslogSee obslogSeeContent obslogSeeContentList obslogSelect
+obslogSelectContent obslogUserDefined
+sessionContentInfo setCurrentService setCurrentVisitor showError
+squote stringLeft stringLeftTrim statusMessage stringRight stringRightTrim
+stringTrim substring2
+visitScript

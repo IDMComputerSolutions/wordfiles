@@ -1,0 +1,68 @@
+/L20"Spin" Line Comment Num = 1#  Block Comment On = /* Block Comment Off = */ Escape Char = \ File Extensions = SPIN SPN
+/Delimiters = ~@%^&*()|\/{}[];"' ,	.
+/C1"Types"
+bit bool byte
+chan
+int
+local
+mtype
+short
+typedef
+unsigned
+/C2"Declarative keywords"
+assert
+init
+priority proctype provided
+/C3"Command keywords"
+active
+break
+do
+else empty enabled eval
+fi full
+goto
+if inline
+len
+nempty nfull
+od of
+printf
+run
+skip
+timeout
+xr xs
+/C4"Channel operators"
+? ??
+! !!
+@
+/C5"Operators"
+!=
++
+-
+->
+::
+<
+<=
+==
+>
+>=
+unless
+
+/C6"Predefines"
+_ _last _pid
+cond_expr
+false
+np_
+pc_value
+STDIN
+true
+/C7"Label headers"
+accept
+end
+progress
+/C8"Simulation keywords"
+atomic
+d_step
+hidden
+ltl
+never notrace
+trace
+show

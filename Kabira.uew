@@ -1,0 +1,136 @@
+/L20"Kabira" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = ACT SOC KDS OSC SDL
+/Delimiters = ~!@%^&*()+=|\/{}[]:;<> ,	.?
+/Function String = "%[ ^t]++action [0-9a-z]+::^([0-9a-z]+^)$"
+/Function String 1 = "%[ ^t]++action ::[0-9a-z]+::^([0-9a-z]+::[0-9a-z]+^)$"
+/Function String 2 = "%[ ^t]++action [0-9a-z]+::[0-9a-z]+::^([0-9a-z]+^)$"
+/Function String 3 = "%[ ^t]++^(^{module^}^{interface^} +[0-9a-z]+^)"
+/Function String 4 = "%[ ^t]++action [0-9a-z]+::[0-9a-z]+::^([0-9a-z]+::[0-9a-z]+^)$"
+/Function String 5 = "%[ ^t]++action ^([0-9a-z]+^)$"
+
+/Indent Strings = "{" ":" "`"
+/Unindent Strings = "}" "`"
+/C1"Preprocessor"
+#include #pragma
+include
+pragma
+
+/C2"Type"
+any array 
+bool boolean bounded
+char class const_cast const context
+double
+entity enum exception extern
+fixed float
+int interface
+long
+native 
+NULL
+Object 
+octet
+package pipe
+sequence signed short string struct 
+typedef typeid typename
+union unsigned
+volatile void
+wchar_t wchar wstring
+
+/C3"Keywords"
+abort action asm attribute auto
+break
+cannothappen case catch commit continue create
+declare default delete do during dynamic_cast
+else empty expose explicit 
+false finished for friend from
+FALSE
+goto
+if ignore in inline inout
+key
+module mutable
+namespace new
+out oneway operator
+private protected public
+raises readonly recovery refresh register reinterpret_cast relate relationship return role
+select signal singleton sizeof stateset static_cast static switch
+template this throw to transition trigger true try
+TRUE 
+unrelate upon using
+virtual
+while with
+
+/C4"Attribute"
+length
+
+/C5"Operation"
+attachConstBuffer
+beginsWith
+endsWith
+formatAppend formatHexAppend
+getCString
+indexOf insertChar insertString
+lastIndexOf
+pad
+remove replaceChar replaceCharAt replaceString replaceStringAt reset resetSize
+stringAppend stringCompare stringContains stringCopy stringNAppend stringNCopy stringToBoolean stringToChar stringToDouble stringToFloat stringToLong stringToLongLong
+stringToOctet stringToShort stringToSize stringToULong stringToULongLong stringToUShort stringValid substring
+tolower toupper trim
+ 
+/C6"IDLos Grammar"
+abstract annotation
+createaccess
+deleteaccess
+extentaccess
+granted
+initialize 
+local
+post-get post-set pre-get pre-set
+revoked
+terminate 
+
+/C7"Build Specification"
+abortTimeout adapter autoStart
+ALL
+buildPath buildType
+classPath component config
+deadlockBackoffMSec debugPause deploy description developmentExecutable
+DEVELOPMENT 
+engine engineArguments engineKillTimeout exitOnSystemException export extraArchiveFile
+flushRate
+group 
+implementation import importPath include includePath inheritEnvironment
+killTimeout
+library libraryPath lowMemoryWarningLevel
+maxFailCount maxReadChannels minReadChannels
+name numReadChannels numTypesPerFlush
+PRODUCTION 
+productionExecutable
+readChannelInc reload restart
+servicePeriod source
+traceDebugFilter traceEnable traceFile traceSize traceTruncate
+use
+workingDirectory
+
+/C8"Operators"
+-
+`
+:
++
+~ 
+= 
+! 
+| 
+& 
+/
+* 
+( 
+)
+{
+} 
+[
+]
+?
+<
+>
+;
+.
+,
+self    

@@ -1,0 +1,31 @@
+/L20"RealText" Nocase Noquote HTML_LANG Block Comment On = <!-- Block Comment Off = /--> File Extensions = RT
+/Delimiters = ~!@$%^&*()-+=|\{}[]:;"'<> ,	.?
+/C1
+<a </a> <a> </a>
+<b> </b> <br/>
+<center> </center> <clear/>
+<font> <font </font>
+<hr/>
+<i> </i>
+<li> </li>
+<ol> </ol>
+<p> </p>
+<pos/> <pos/> <pre> </pre>
+<required> </required>
+<time <tl> </tl> <tu> </tu> 
+<u> </u> <ul> </ul>
+<window> <window </window>
+// />
+/C2
+attribute=
+begin= bgcolor=
+color= crawlrate=
+duration=
+end=
+height= href=
+scrollrate= size=
+target= type=
+width= wordwrap=
+x=
+y=
+=

@@ -1,0 +1,19 @@
+/L1"Mill G Code" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = C CPP CC H HPP AWK
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String = "%[a-zA-Z_]*)"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1
+G40 G41 G42 G68 G69 G70 G71 G90 G91 G92 G93 G94 G99
+/C2
+G00 G04
+/C3
+G01
+/C4
+G02 G03
+/C5
+G17 G18 G19
+/C6
+M00 M01 M02 M03 M04 M05 M06 M07 M08 M09 M13 M14 M19 M26 M60
+/C7
+G80 G81 G82 G83 G84

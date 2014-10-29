@@ -1,0 +1,240 @@
+Below is a brand-new UltraEdit word file for Inform 6. Since UltraEdit doesn't
+yet support multi-line string coloring, I have hacked around that by defining
+strings as the default block comment, which Inform lacks anyway. However, this
+means any string enclosed by " must be preceded with a space, i.e.
+
+	print "Hello, world^^
+	 You have died";         will work, but
+
+	Format("Hello World");   will not.
+
+To use this syntax coloring mode, cut-and-paste all below the "dotted line" and
+drop it into your WORDFILE.TXT. Depending on how few/many languages you have
+defined, you might have to change the "/L10" to an unused number.
+
+Also note the definition (starting with "/L10") must be *all* *on* *one* *line*
+up to and including "File Extensions = H INF INC" or it won't work.
+
+Starting with UltraEdit 7.0, it is possible to use bold/italic text for
+highlighting. For reference, I use the following settings in UltraEdit itself,
+all on white:
+
+Normal Text			RGB 000/000/000
+Comments			RGB 128/128/128, italic (that's comments and ""-Strings)
+Strings				RGB 128/128/128, italic (that's ''-Strings)
+Numbers				RGB 255/000/000
+Statemts/Routines	RGB 000/000/255
+Directives			RGB 255/000/000
+Attributes			RGB 255/128/000
+Properties/Ops		RGB 000/128/000
+Verb actions		RGB 128/064/064
+Grammar				RGB 128/064/064
+Assembler			RGB 128/128/000
+Miscellaneous		RGB 128/000/255
+Alt Block Comments  (not used)
+
+If you find any useful library routines, constants or anything else I've missed,
+or if you have any comments at all, contact me!
+
+Version 2.19991202			Gunther Schmidl			<gschmidl@gmx.at>
+
+Version history:
+
+2.19991202	Minor additions (AfterRoutines, ValueOrRun, RunRoutines) and fixes
+			(moved 'NULL' to C8, removed 'a')
+1.19991201	Initial release; all statements, routines etc. culled from the DM.
+
+---cut here---cut here---cut here---cut here---cut here---cut here---cut here---
+
+/L20"Inform 6" Line Comment Num = 1! Block Comment On =  " Block Comment Off = " String Chars = '  File Extensions = H INF INC
+/Delimiters = ~!%^&*()-+=|\/{}[]:;"'<> ,	.?
+/C1"Statemts/Routines"
+AfterLife AfterPrompt Amusing Achieved AddToScope AllowPushDir AfterRoutines
+box break bold
+BeforeParsing
+class continue child children
+ChangePlayer ChangeDefault ChooseObjects CDefArt
+do
+DeathMessage DarkToDark DoMenu DefArt
+else
+EnglishNumber
+font for fixed
+give
+GamePostRoutine GamePreRoutine
+has hasnt
+HasLightSource
+if in indirect inversion
+InScope InDefArt Initialise
+jump
+LookRoutine Locale LoopOverScope
+metaclass move
+new_line near notin nothing
+NextWord NextWordStopped NounDomain NewRoom
+objectloop ofclass or
+ObjectIsUntouchable OffersLight
+print print_ret print_to_array parent provides
+PlayerTo PrintRank PrintTaskName ParseNoun ParseNumber PlaceInScope PrononValue
+PronounNotice ParserError PrintShortName PrintVerb
+quit
+random read remove restore return rfalse rtrue roman reverse
+RunRoutines
+save spaces string style switch sibling sender
+StartDaemon StopDaemon StartTimer StopTimer Statusline SetTime ScopeWithin
+SetPronoun
+to the
+The TestScope TryNumber TimePasses
+until underline
+UnknownVerb UnsignedCompare
+ValueOrRun
+while with
+WriteListFrom WordAddress WordLength
+YesOrNo
+ZRegion
+/C2"Directives"
+** #
+Abbreviate Array Attribute
+Class Constant
+Default Dictionary
+End Endif Extend
+endif
+Fake_action
+Global
+Ifdef Ifndef Ifnot Iftrue Iffalse Import Include Ifv3 Ifv5
+ifdef ifndef ifnot iftrue iffalse ifv3 ifv5
+Link Lowstring
+Message
+Nearby
+Object
+Property
+Release Replace Routine
+Serial Switches System_file Stub String
+Trace
+Verb Version
+/C3"Attributes"
+absent animate
+creature clothing concealed container
+edible enterable
+female
+general
+held
+light lockable locked
+male moved
+neuter
+on open openable
+pluralname proper
+scenery scored static supporter switchable
+talkable transparent
+visited
+workflag worn
+/C4"Properties/Ops"
+~
+.
+:
+;
+,
+-
+=
+>
+<
+&
+|
+(
+)
+[
+]
+{
+}
++
+*
+// /
+add_to_scope after article articles
+before
+cant_go capacity create copy call
+door daemon describe description door_dir door_to d_to destroy
+each_turn e_to
+found_in
+initial inside_description invent in_to
+grammar
+life list_together
+name number n_to nw_to ne_to
+orders out_to
+parse_name plural private
+react_after react_before recreate remaining
+short_name short_name_indef s_to se_to sw_to
+time_left time_out
+u_to
+when_closed when_open when_off when_on with_key w_to
+/C5"Verb Actions"
+** ##
+ActionsOn ActionsOff Attack Answer Ask AskFor
+Burn Blow Buy
+CommandsOn CommandsOff CommandsRead Close Consult Cut Climb
+Drop Disrobe Dig Drink
+default
+Empty Enter Exit Examine Eat
+Fullscore Fill
+Goto Gonear GetOff Go GoIn Give
+Inv InvTall InvWide Insert
+Jump JumpOver
+Kiss
+LMode1 LMode2 LMode3 Look Lock Listen LookUnder LetGo
+Mild Miscellany
+NotifyOn NotifyOff No NotUnderstood
+Objects Open Order
+Pronouns Places Predictable PutOn Pray Pull Push PushDir PluralFound Prompt
+Quit
+Restart Restore RoutinesOn RoutinesOff Read Remove Rub Receive
+Save SciptOn ScriptOff Score Scope Search Show SwitchOn SwitchOff Smell Sorry
+Strong Swim Swing Set SetTo Squeeze Sing Sleep
+TraceOn TraceOff TraceLevel TimersOn TimersOff Transfer Think Taste Touch Tie
+Turn ThrowAt ThrownAt TheSame Take Tell
+Unlock
+VagueGo VagueSay Verify
+Wear Wake WakeOther Wave WaveHands Wait
+Xpurloin Xabstract Xtree
+Yes
+/C6"Grammar"
+first
+last
+multi multiheld multiexcept multiinside meta
+noun
+only
+replace
+scope special second
+topic the
+/C7"Assembler"
+** @
+/C8"Miscellaneous"
+action
+AMUSING_PROVIDED ALWAYS_BIT ANIMA_PE ASKSCOPE_PE
+compass
+CONCEAL_BIT CANTSEE_PE
+d_obj deadflag
+DEFART_BIT DEBUG
+e_obj
+ENGLISH_BIT EACHTURN_REASON EXCEPT_PE
+FULLINV_BIT
+Headline
+in_obj inventory_stage item_name item_width
+INDENT_BIT ISARE_BIT ITGONE_PE InformLibrary InformParser
+JUNKAFTER_PE
+LibraryMessages LOOPOVERSCOPE_REASON
+moves menu_item
+MAX_CARRIED MAX_SCORE MAX_TIMERS MANUAL_PRONOUNS MULTI_PE MMULTI_PE
+n_obj ne_obj nw_obj
+NULL NUMBER_TASKS NO_PLACES NEWLINE_BIT NUMBER_PE NOTHELD_PE NOTHING_PE
+out_obj
+OBJECT_SCORE
+player parser_action parser_one parser_two parsed_number
+PARTINV_BIT PARSING_REASON
+real_location
+ROOM_SCORE RECURSE_BIT REACT_BEFORE_REASON REACT_AFTER_REASON
+s_obj sw_obj se_obj score self selfobj
+SACK_OBJECT STUCK_PE SCENERY_PE Story
+time thedark
+TASKS_PROVIDED TERSE_BIT TALKING_REASON TESTSCOPE_REASON TOOLIT_PE TOOFEW_PE
+u_obj
+UPTO_PE
+VAGUE_PE VERB_PE
+w_obj
+WORKFLAG_BIT WITHOUT_DIRECTIONS

@@ -1,0 +1,54 @@
+/L20"GPX" XML_LANG Noquote Block Comment On = <!-- Block Comment Off = --> File Extensions = GPX
+/Delimiters = " '	,<=>
+/Function String = "%[ ^t]++<trkpt ^(*^)>"
+/Open Brace Strings =  "{" "(" "[" "<"
+/Close Brace Strings = "}" ")" "]" ">"
+/C1"GPX Schema Nodes" STYLE_ELEMENT
+// />
+>
+?> <?xml
+<ageofdgpsdata> </ageofdgpsdata> <author> </author>
+<bounds
+<cmt> </cmt> <course> </course> <creator> </creator>
+<desc> </desc> <dgpsid> </dgpsid>
+<ele> </ele> <email> </email> <extensions> </extensions>
+<fix> </fix>
+<geoidheight> </geoidheight> <gpx </gpx>
+<hdop> </hdop>
+<keywords> </keywords>
+<lat> </lat> <link </link> <lon> </lon>
+<magvar> </magvar> <metadata> </metadata>
+<name> </name> <number>
+<pdop> </pdop> <pt> </pt>
+<rte> </rte> <rtept> </rtept>
+<sat> </sat> <speed> </speed> <src> </src> <sym> </sym>
+<text> </text> <time> </time> <trk> </trk> <trkpt </trkpt> <trkseg> </trkseg> <type> </type>
+<url> </url> <urlname> </urlname>
+</vdop> <version> </version>
+<wpt </wpt>
+/C2"GPX Attributes" STYLE_ATTRIBUTE
+author
+creator
+domain
+encoding
+href
+id
+lat lon
+maxlat maxlon minlat minlon
+standalone
+version
+xmlns xmlns:xsi xsi:schemaLocation
+/C3"Quotes"
+"
+'
+/C4"Equal Sign"
+=
+/C5"Links"
+** file:// ftp:// http:// https://
+/C6"Time Strings"
+** 2000- 2001- 2002- 2003- 2004- 2005- 2006- 2007- 2008- 2009-
+** 2010- 2011- 2012- 2013- 2014- 2015- 2016- 2017- 2018- 2019-
+/C7"Key Values"
+UTF-8
+no
+yes

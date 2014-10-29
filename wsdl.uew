@@ -1,0 +1,29 @@
+/L20"Schema" Block Comment On = <!-- WSDL = --> String Chars = " File Extensions = WSDL
+/Delimiters = |(),	.=;
+/C1"Elements"
+** <
+// />
+>
+<
+?>
+<?
+<?xml
+]]>
+/C2"Schema Keywords"
+attributeFormDefault
+default
+element
+elementFormDefault
+message
+name 
+namespace
+targetNamespace
+type
+use
+value
+variable
+xmlns
+/C3
+,
+;
+=

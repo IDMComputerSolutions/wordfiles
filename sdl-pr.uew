@@ -1,0 +1,66 @@
+/L20"SDL-PR Files" Line Comment = // Block Comment On = /* Block Comment Off = */ File Extensions = PR SDL
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/C1"stuctural types"
+CALL
+DCL DECISION
+ELSE ENDCONNECTION ENDDECISION ENDNEWTYPE ENDPROCESS ENDSTATE ENDSYNTYPE
+GATE
+INPUT
+JOIN
+NEWTYPE NEXTSTATE
+OUTPUT
+PROCEDURE PROCESS
+SAVE SIGNAL SIGNALLIST START STATE STRUCT SYNTYPE
+TASK TYPE
+call connection
+dcl decision
+else endconnection enddecision endnewtype endprocess endstate endsyntype
+gate
+input
+join
+newtype nextstate
+out output 
+procedure process
+save signal signallist start state struct syntype
+task type
+{
+}
+/C2"values"
+FALSE
+TRUE
+false
+true
+/C3"modifiers"
+CHOICE CONSTANTS
+DEFAULT
+IN
+OPTIONAL OUT
+REFERENCED RESET
+SET
+VIA
+WITH
+choice constants
+default
+in
+optional
+referenced reset
+set
+via
+with
+/C4"baseDataTypes"
+Array
+Bit_string Boolean
+INTEGER Integer
+NULL
+Octet_string
+PId
+TIMER
+size
+timer
+/C5"Ids"
+CHILD
+PARENT
+SELF SENDER
+child
+parent
+self sender

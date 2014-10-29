@@ -1,0 +1,106 @@
+/L20"Stata7" Line Comment = * Block Comment On = /* Block Comment Off = */ String Chars = " File Extensions = DO DCT ADO
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1"Statements"
+about adjust alpha anova append arch areg arima averagelinkage 
+binreg biprobit bitest boxcox brier bstrap by
+canon cd centile cf checksum ci clogit cloglog cluster completelinkage
+cnsreg codebook collapse
+compare compress constraint contract copy copyright corr2data correlate corrgram
+count cox cross ct ctset cttost cumsp cumul cusum 
+dendrogram describe destring dfuller diagplots dir display do doedit dotplot drawnorm drop
+dstdize 
+edit egen eivreg epitab erase expand
+factor fillin for format fracpoly 
+gen glm glogit grmeanby gsort generate 
+hadimvo hausman heckman heckprob help hetprob hilite hist hotel
+icd9 impute infile input insheet inspect ipolate ivreg
+jknife joinby 
+kappa kdensity ksm ksmirnov kwallis kmeans kmedians keep
+label ladder level limits lincom linktest list lnskew0 log
+logistic logit loneway lorenz lrtest ltable lv
+matsize maximize means memory merge meta mfx mkdir mkspline ml
+mlogit more mvencode mvreg 
+nbreg net ncode search newey news nl nlogit notes nptrend notes 
+obs ologit oneway oprobit order orthog outfile outsheet
+pcorr pctile pergram pk pkcollapse pkcross pkequiv pkexamine pkshape
+pksumm plot poisson pperron prais predict probit prtest
+qc qreg quadchk query
+range recast recode reg3 regress rename replace reshape roc rreg runtest
+sample sampsi save scobit sdtest search separate serrbar set shell signrank singlelinkage 
+simul sktest smooth snapspan sort spearman spikeplot st stbase stci stcox
+stdes stfill stgen stir stphplot stptime strate streg sts stset stsplit stsum
+sttocc sttoct stvary stack statsby stb stem summarize sureg svy svydes svylc
+svymean svyset svytab svytest sw swik symmetry 
+table tabstat tabsum tabulate test testnl tobit translate treatreg truncreg
+tsreport tsset ttest type
+update use 
+vce view vwls 
+weibull which wntestb wntestq
+xcorr xi xpose xt xtabond xtclog xtdata xtdes xtgee xtgls xtintreg xtivreg
+xtlogit xtnbreg xtpcse xtpois xtprobit xtrchh xtreg xtregar xtsum xttab xttobit
+zip
+#review 
+/C2"Program"
+assert args
+break byable 
+capture char confirm continue 
+discard define
+error estimates exit end
+foreach forvalues 
+gettoken global 
+hexdump 
+local 
+more 
+numlist 
+pause postfile preserve program
+quietly quiet
+return rmsg restore
+scalar sleep smcl sortpreserve st_is syntax sysdir 
+tabdisp tokenize tsrevar 
+unab 
+version 
+while window 
+#delimit 
+_predict _rmcoll _robust 
+/C3"functions"
+Binomial 
+F  Ftail 
+_caller 
+abbrev abs acos asin atan autocode 
+binorm 
+chi2 chi2tail comb cos cond 
+d date day digamma dow doy 
+e exp 
+floate 
+gammap group 
+halfyear
+ibeta index inlist inrange int invF invFtail invbinomial invchi2 invchi2tail invgammap invnchi2 invnorm invttail 
+length ln lnfact lngamma log10 lower ltrim 
+match matrix max mdy min missing mod month 
+nchi2 norm normden npnchi2 
+quarter 
+r real reldif replay reverse round rtrim 
+s sign sin string subinstr subinword substr sum 
+tan trigamma trim ttail 
+uniform upper 
+week 
+year 
+/C4"syntax"
+if in 
+using
+/C5"personal"
+dcount
+/C6"Operators"
+==
+=
+<
+>
++
+*
+^
+-
+// /
+|
+&
+~=

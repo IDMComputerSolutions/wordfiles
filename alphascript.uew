@@ -1,0 +1,13 @@
+/L20"AlphaScript" Escape Char = ^ File Extensions = AAS
+/Delimiters = ()
+/Function String = "!#"
+/C1"VARS"
+@command @date @fileout @listout @regout @scriptfile @textout @time @user @ver
+/C2"CRITICAL FUNCTIONS"
+!quit
+/C3
+!#BEGIN !#END 
+/C4"FUNCTIONS"
+!about !clearallvars !copy !del !delay !else !email !emptyfile !exe !exist !fileread !goto !if !input !iscancel !isfault !isnotfound !isok !let !list 
+!listadd !listclear !log !msg !multitask !openfolder !regcreate !regread !regwrite !skeys !then !winactive !winkill !winwait !_closelogwindow 
+!_openlogwindow !_pauselogwindow

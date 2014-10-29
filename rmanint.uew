@@ -1,0 +1,70 @@
+/L20"Rman Interface" Line Comment = # Noquote File Extensions = RIB 
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> , .?
+/Indent Strings = "{" "Begin" "AttributeBegin" "FrameBegin" "MotionBegin" "ObjectBegin" "SolidBegin" "TransformBegin" "WorldBegin"
+/Unindent Strings = "}" "End" "AttributeEnd" "FrameEnd" "MotionEnd" "ObjectEnd" "SolidEnd" "TransformEnd" "WorldEnd"
+/C1 GRAPHICS_STATE 
+AreaLightSource Attribute AttributeBegin AttributeEnd 
+Begin Bound 
+Clipping Color ColorSamples ConcatTransform CoordinateSystem CropWindow 
+Declare DepthOfField Detail DetailRange Displacement Display 
+End Exterior 
+Format FrameAspectRatio FrameBegin FrameEnd 
+GeometricApproximation 
+Hider 
+Identity Illuminance Illuminate Interior 
+LightSource 
+Matte 
+Opacity Option Orientation 
+Perspective PixelFilter PixelSamples PixelVariance Projection 
+Quantize 
+RelativeDetail 
+RiAreaLightSource RiAttribute RiAttributeEnd RiBegin RiBound RiClipping RiColor RiColorSamples RiConcatTransform RiCoordinateSystem RiCropWindow RiDepthOfField RiDetail RiDetailRange RiDisplacement RiDisplay RiEnd RiExterior RiFormat RiFrameAspectRatio RiFrameBegin RiFrameEnd RiGeometricApproximation RiHider RiIdentity RiIlluminate RiInterior RiLightSource RiMatte RiOpacity RiOption RiOrientation RiPerspective RiPixelFilter RiPixelSamples RiPixelVariance RiProjection RiQuantize RiRelativeDetail RiRotate RiScreenWindow RiShadingInterpolation RiShadingRate RiShutter RiSides RiSkew RiSurface RiTextureCoordinates RiTransform RiTransformBegin RiTransformEnd RiTransformPoints RiTranslate RiWorldBegin RiWorldEnd 
+Rotate 
+Scale ScreenWindow ShadingInterpolation ShadingRate Shutter Sides Skew Surface 
+TextureCoordinates Transform TransformBegin TransformEnd TransformPoints Translate 
+version 
+WorldBegin WorldEnd 
+/C2 GEOMETRIC PRIMITIVES
+Basis 
+Cylinder 
+Disk 
+GeneralPolygon Geometry 
+Hyperboloid 
+NuPatch 
+ObjectBegin ObjectEnd ObjectInstance 
+Patch Paraboloid PointsPolygons PointsGeneralPolygons Polygon Procedural 
+SolidBegin SolidEnd Sphere 
+Torus 
+RiBasis RiCylinder RiGeneralPolygon RiGeometry RiHyperboloid RiNuPatch RiObjectBegin RiObjectEnd RiObjectInstance RiPatch RiParaboloid RiPointsPolygons RiPointsGeneralPolygons RiPolygon RiProcedural RiSolidBegin RiSolidEnd RiSphere RiTorus 
+/C3 MOTION
+MotionBegin MotionEnd 
+RiMotionBegin RiMotionEnd 
+/C4 TEXTURE MAP UTILITIES
+MakeBump MakeCubeFaceEnvironment MakeLatLongEnvironment MakeTexture 
+RiMakeBump RiMakeCubeFaceEnvironment RiMakeLatLongEnvironment RiMakeTexture 
+/C5 EXTERNAL RESOURCES
+ArchiveRecord 
+ErrorHandler 
+RiArchiveRecord RiErrorHandler 
+/C6 OTHER_RESERVED_WORDS 
+Ci 
+Cl 
+Cs 
+E 
+I 
+L 
+N Ng 
+Oi 
+Ol 
+Os 
+P 
+dPdu 
+dPdv 
+du 
+dv 
+ncomps 
+s 
+t 
+time 
+u 
+v 

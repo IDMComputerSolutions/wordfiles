@@ -1,0 +1,120 @@
+/L16"OmniMark" Line Comment = ; Block Comment On = <!-- Block Comment Off = --> Escape Char = % File Extensions = ARG XAR XIN XMD XOM XOP new
+/Delimiters = ~@$%^&*()+=|\/{}[]:;"'<> ,	?/
+/Function String = "^(^{ FUNCTION^}^{%MACRO^} [a-z-]+^)"
+
+
+/C1"Key Words"
+activate again always
+catch clear close copy copy-clear
+deactivate declare decrement define discard divide do document-end document-start done dtd-start
+element else escape exit export
+fail find find-end find-start format
+group
+halt halt-everything
+ignore implied import include include-end include-guard include-start increment input into
+join
+line-end line-start log lookahead
+macro
+macro-end marked-section markup-comment markup-error markup-parser mask match minus module modulo
+new newline next
+open output output-to over
+prefixed process process-end process-start processing-instruction prolog-end prolog-in-error put
+remove reopen repeat require reset rethrow return
+save save-clear scan select set sgml sgml-comment sgml-declaration-end sgml-dtd sgml-dtds sgml-error sgml-in sgml-out sgml-parse sgml-parser shift string submit succeed suppress
+system-call
+test-system throw to translate
+uc ul unless up-translate
+when white-space
+xml-parse
+
+
+/C2"Other Key Words"
+
+active after ancestor and another arg as attached attribute attributes
+base before binary binary-input binary-mode binary-output break-width buffer by
+case children closed compiled-date complement conref content context-translate counter created creating creator cross-translate current
+data-attribute data-attributes data-content data-letters date declared-conref declared-current declared-defaulted declared-fixed declared-implied declared-required
+default-entity defaulted defaulting delimiter difference directory doctype document document-element domain-free down-translate dtd dtd-end dtds
+elements elsewhere empty entities entity epilog-start equal except exists external external-data-entity external-entity external-function external-output-function
+external-text-entity external-exception
+false file function function-library
+general global greater-equal greater-than groups
+has hasnt heralded-names
+id id-checking idref idrefs in in-library inclusion initial initial-size insertion-break instance integer internal invalid-data is isnt item
+key keyed
+last lastmost lc length less-equal less-than letters library literal local
+matches mixed modifiable
+name name-letters namecase named names ndata-entity negate nested-referents nmtoken nmtokens no no-default-io non-cdata non-implied non-sdata not notation number-of numbers
+nutoken nutokens
+occurrence of opaque optional or
+parameter parent past pattern plus preparent previous proper public program-error
+read-only readable referent referents referents-allowed referents-displayed referents-not-allowed remainder repeated replacement-break reversed
+silent-referent size skip source specified status stream subdoc-entity subdocument subdocuments subelement switch symbol system
+text-mode this times token true
+unanchored unattached unbuffered union using usemap
+value valued variable
+with writable
+xml xml-dtd xml-dtds
+yes
+#additional-info #appinfo #capacity #charset #class #command-line-names #console #current-input #current-output #data #doctype #document #dtd #empty #error #error-code #external-exception
+#file-name #first #group #implied #item #language-version #last #libpath #library #libvalue #line-number #main-input #main-output #markup-error-count #markup-error-total
+#markup-parser #markup-stream #markup-warning-count #markup-warning-total #message #none #output #platform-info #process-input #process-output #program-error #recovery-info #sgml #sgml-error-count
+#sgml-error-total #sgml-warning-count #sgml-warning-total #suppress #syntax
+!#additional-info !#appinfo !#capacity !#charset !#class !#command-line-names !#console !#current-input !#current-output !#data !#doctype !#document !#dtd !#empty !#error !#error-code !#external-exception
+!#file-name !#first !#group !#implied !#item !#language-version !#last !#libpath !#library !#libvalue !#line-number !#main-input !#main-output !#markup-error-count !#markup-error-total
+!#markup-parser !#markup-stream !#markup-warning-count !#markup-warning-total !#message !#none !#output !#platform-info !#process-input !#process-output !#program-error !#recovery-info !#sgml !#sgml-error-count
+!#sgml-error-total !#sgml-warning-count !#sgml-warning-total !#suppress !#syntax
+
+
+/C3"More Key Words"
+any any-text
+blank
+cdata cdata-entity content-end content-start
+digit
+letter
+number
+pcdata
+rcdata
+sdata sdata-entity space
+take text
+value-end value-start
+word-end word-start
+
+/C4"Libraries"
+dbClose dbDatabase dbExecute dbField dbFieldValue dbIsVersionCompatible dbLibraryVersion dbOpenODBC dbQuery dbRecordExists dbRecordMove dbTable dbTableClose dbTableDelete dbTableInsert dbTableOpen dbTableUpdate
+db.advance-recordset db.close db.commit db.compile-statement db.database db.delete db.discard db.document-writer-sedna db.execute db.execute-in db.field db.insert db.move-dynamic-record db.move-record db.omdb-version db.omdb-version-oci10g db.omdb-version-oci8i db.omdb-version-oci9i db.omdb-version-odbc db.omdb-version-sedna db.open-oci10g db.open-oci8i db.open-oci9i db.open-odbc db.open-procedure db.open-sedna db.open-table db.prepare db.procedure db.query db.reader db.record-exists db.rollback db.set-transaction-type db.statement db.streaming-execute db.table db.update db.writer
+FS_ChangeDirectory FS_ChangeOwner FS_ChangePermissions FS_DeleteDirectory FS_DeleteFile FS_Error FS_GetCurrentDirectory FS_LibraryVersion FS_Link FS_ListDirectory FS_MakeDirectory FS_Rename
+FTPConnection FTPConnectionChangeDir FTPConnectionClose FTPConnectionDelete FTPConnectionDeleteDir FTPConnectionGetStatusReport FTPConnectionGetWorkingDir FTPConnectionIsInError FTPConnectionIsOpen FTPConnectionListDir FTPConnectionMakeDir FTPConnectionOpen FTPConnectionRemoteInputFile FTPConnectionRemoteOutputFile FTPConnectionSetASCII FTPConnectionSetBinary FTPIsVersionCompatible FTPLibraryVersion
+HttpConnectionSendResponse HttpLibraryVersion HttpObjectGetCookieAttributes HttpObjectGetCookieValues HttpObjectGetHeaders HttpObjectGetStatusReport HttpObjectIsInError HttpObjectSetCookieAttribute HttpObjectSetCookieValue HttpObjectSetHeader HttpRequest HttpRequestGetSearchItems HttpRequestSend HttpRequestSetFromUrl HttpRequestSetProxy HttpRequestSetSearchItem HttpResponse HttpResponseOutput HttpServiceAwaitRequest
+insertionsortbykey
+MailInBoxClose MailInBoxCreate MailInBoxGetMessage MailInBoxGetMessageSize MailInBoxGetNumberOfMessages MailInBoxGetStatusReport MailInBoxIsInError MailInBoxIsOpen MailInBoxMarkAllMessagesForDeletion MailInBoxMarkMessageForDeletion MailInBoxOpen MailInBoxResetDeletionFlags MailIsVersionCompatible MailLibraryVersion MailOutBoxCreate MailOutBoxGetStatusReport MailOutBoxIsInError MailOutBoxSendMail
+sql stat
+SQL-query
+TCPConnectionClose TCPConnectionGetCharacters TCPConnectionGetLine TCPConnectionGetOutput TCPConnectionGetPeerIP TCPConnectionGetPeerName TCPConnectionGetSource TCPConnectionGetStatusReport TCPConnectionIsConnected TCPConnectionIsInError TCPConnectionOpen TCPConnectionPut TCPConnectionSetBuffering TCPConnectionSignalSourceEnd TCPIsVersionCompatible TCPLibraryVersion TCPServiceAcceptConnection TCPServiceClose TCPServiceGetPort TCPServiceGetStatusReport TCPServiceIsInError TCPServiceIsOpen TCPServiceOpen TCPTraceConnectionOpen
+vfs.all-contents vfs.all-files
+vfs.change-directory vfs.change-owner vfs.change-permissions vfs.close vfs.connect vfs.connect-directory vfs.copy vfs.cursor-position vfs.default-certificates-file vfs.delete-directory vfs.delete-file vfs.describe vfs.describe-file vfs.directory vfs.directory-name vfs.disconnect vfs.file vfs.file-directory vfs.file-name vfs.link vfs.list vfs.lock vfs.make-directory vfs.move vfs.move-cursor vfs.omvfs-version vfs.open vfs.open-file-system vfs.open-ftp vfs.open-http vfs.open-https vfs.reader vfs.set-default-certificates-file vfs.truncate vfs.unlock vfs.writer
+!dbClose !dbDatabase !dbExecute !dbField !dbFieldValue !dbIsVersionCompatible !dbLibraryVersion !dbOpenODBC !dbQuery !dbRecordExists !dbRecordMove !dbTable !dbTableClose !dbTableDelete !dbTableInsert !dbTableOpen !dbTableUpdate
+
+
+/C5"Functions"
+upto upto-inc
+w-s
+-a
+-brief
+-c
+-d -dea
+-f
+-i
+-libpath -library -load -log
+-of
+-s -sb
+-x
+!
+&
+*
++
+=
+>
+?
+|
+

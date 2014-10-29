@@ -1,0 +1,39 @@
+/L20"WinRexx" Nocase Line Comment = // Block Comment On = /* Block Comment Off = */ String Chars = "' File Extensions = CMD REX REXX
+/Delimiters = ~!@$%^&*()+=|\/{}[]:;"'<> ,.?/    
+/Function String = "%[a-zA-Z]*)"
+/Indent Strings = "do"
+/Unindent Strings = "end"
+
+/C1 KEYWORDS
+ABBREV ABS ADDRESS ARG
+BITAND BITOR BITXOR B2X
+CENTER CHARIN CHAROUT CHARS COMPARE CONDITION COPIES C2D C2X
+DATATYPE DATE DELSTR DELWORD DIGITS D2C D2X
+ERRORTEXT 
+FORM FORMAT FUZZ filespec
+INSERT
+LASTPOS LEFT LENGTH LINEIN LINEOUT LINES
+MAX MIN 
+nop
+OVERLAY
+POS
+QUEUED
+RANDOM RANDOM REVERSE RIGHT
+SIGN SOURCELINE SPACE STREAM STRIP SUBSTR SUBWORD SYMBOL
+TIME TRACE TRANSLATE TRUNC 
+VALUE VERIFY 
+WORD WORDINDEX WORDLENGTH WORDPOS WORDS 
+XRANGE X2B X2C X2D
+
+/C2 Other
+say signal      
+
+/C3 Other
+call
+do
+end exit    
+if
+otherwise
+select
+then
+when

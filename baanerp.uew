@@ -1,0 +1,117 @@
+/L20"BaanERP 3/4-GL" Line Comment = | String Chars = " Nocase Block Comment On = dllusage Block Comment Off = endusage File Extensions = cln bc txt cod
+/Delimiters = ~!@%^&*()-+=|\/{}[];"'<> ,	?
+/Function String = "%function*("
+/Indent Strings = "{" "if" "else" "repeat" "selectdo" "selectempty" "selecteos" "while" "for" "case" "dllusage"
+/Unindent Strings = "}" "endif" "endselect" "endwhile" "endfor" "endcase" "until" "enddllusage"
+/C1
+at and as auto
+base based break bset by
+call case char clean commit common const continue 
+default dim do domain double
+else empty end endcase endfor endif endwhile endselect enum eq extern
+false fixed for from function 
+ge global goto gt group
+if in input inrange
+le long lt
+mb mess multibyte
+ne not
+on or order
+print prompt prepared
+ref reference register repeat return rows
+select selectbind selectdo selectempty selecteos selecterror set static step stop string switch 
+table then to transaction true typedef 
+union unsigned until update 
+void
+where wherebind whereused while with
+#define #include #elif #if #line #else #ifdef #pragma #endif #ifndef #undef #ident
+/C2
+db.update
+db.insert
+db.delete
+db.retry.point
+commit.transaction
+abort.transaction
+/C3
+AbstractMethodError AccessException Acl AclEntry AclNotFoundException ActionEvent ActionListener Adjustable AdjustmentEvent AdjustmentListener
+Adler32 AlreadyBoundException Applet AppletContext AppletStub AreaAveragingScaleFilter ArithmeticException Array
+ArrayIndexOutOfBoundsException ArrayStoreException AudioClip AWTError AWTEvent AWTEventMulticaster AWTException
+BeanDescriptor BeanInfo Beans BigDecimal BigInteger BindException BitSet Boolean BorderLayout BreakIterator BufferedInputStream BufferedOutputStream
+BufferedReader BufferedWriter Button ButtonPeer Byte ByteArrayInputStream ByteArrayOutputStream
+Calendar CallableStatement CanvasCanvasPeer Certificate Character CharacterIterator CharArrayReader CharArrayWriter CharConversionException
+Checkbox CheckboxGroup CheckboxMenuItem CheckboxMenuItemPeer CheckboxPeer CheckedInputStream CheckedOutputStream Checksum Choice ChoiceFormat
+ChoicePeer Class ClassCastException ClassCircularityError ClassFormatError ClassLoader ClassNotFoundException Clipboard ClipboardOwner Cloneable
+CloneNotSupportedException CollationElementIterator CollationKey Collator Color ColorModel Compiler Component ComponentAdapter ComponentEvent
+ComponentListener ComponentPeer ConnectException ConnectIOException Connection Constructor Container ContainerAdapter ContainerEvent
+ContainerListener ContainerPeer ContentHandler ContentHandlerFactory CRC32 CropImageFilter Cursor Customizer CardLayout
+DatabaseMetaData DataFlavor DataFormatException DatagramPacket DatagramSocket DatagramSocketImpl DataInput DataInputStream DataOutput
+DataOutputStream DataTruncation Date DateFormat DateFormatSymbols DecimalFormat DecimalFormatSymbols Deflater DeflaterOutputStream DGC Dialog
+DialogPeer Dictionary DigestException DigestInputStream DigestOutputStream Dimension DirectColorModel Driver DriverManager DriverPropertyInfo
+DSAKey DSAKeyPairGenerator DSAParams DSAPrivateKey DSAPublicKey
+EmptyStackException Enumeration EOFException Error Event EventListener EventObject EventQueue EventSetDescriptor Exception
+ExceptionInInitializerError ExportException 
+FeatureDescriptor Field FieldPosition File FileDescriptor FileDialog FileDialogPeer FileInputStream FilenameFilter FileNameMap
+FileNotFoundException FileOutputStream FileReader FileWriter FilteredImageSource FilterInputStream FilterOutputStream FilterReader
+FilterWriter Float FlowLayout FocusAdapter FocusEvent FocusListener Font FontMetrics FontPeer Format Frame FramePeer
+Graphics GregorianCalendar GridBagConstraints GridBagLayout GridLayout GZIPInputStream GZIPOutputStream
+Hashtable HttpURLConnection
+Identity IdentityScope IllegalAccessError IllegalAccessException IllegalArgumentException IllegalComponentStateException
+IllegalMonitorStateException IllegalStateException IllegalThreadStateException Image ImageConsumer ImageFilter ImageObserver
+ImageProducer IncompatibleClassChangeError IndexColorModel IndexedPropertyDescriptor IndexOutOfBoundsException InetAddress Inflater
+InflaterInputStream InputEvent InputStream InputStreamReader Insets InstantiationError InstantiationException Integer InternalError
+InterruptedException InterruptedIOException IntrospectionException Introspector InvalidClassException InvalidKeyException
+InvalidObjectException InvalidParameterException InvocationTargetException IOException ItemEvent ItemListener ItemSelectable
+Key KeyAdapter KeyEvent KeyException KeyListener KeyManagementException KeyPair KeyPairGenerator
+Label LabelPeer LastOwnerException LayoutManager LayoutManager2 Lease LightweightPeer LineNumberInputStream LineNumberReader LinkageError List
+ListPeer ListResourceBundle LoaderHandler Locale LocateRegistry LogStream 
+MalformedURLException MarshalException Math MediaTracker Member MemoryImageSource Menu MenuBar MenuBarPeer MenuComponent MenuComponentPeer
+MenuContainer MenuItem MenuItemPeer MenuPeer MenuShortcut MessageDigest MessageFormat Method MethodDescriptor MissingResourceException Modifier
+MouseAdapter MouseEvent MouseListener MouseMotionAdapter MouseMotionListener MulticastSocket
+Naming NegativeArraySizeException NoClassDefFoundError NoRouteToHostException NoSuchAlgorithmException NoSuchElementException
+NoSuchFieldError NoSuchFieldException NoSuchMethodError NoSuchMethodException NoSuchObjectException NoSuchProviderException
+NotActiveException NotBoundException NotOwnerException NotSerializableException NullPointerException Number NumberFormat NumberFormatException
+Object ObjectInput ObjectInputStream ObjectInputValidation ObjectOutput ObjectOutputStream ObjectStreamClass ObjectStreamException ObjID Observable
+Observer Operation OptionalDataException OutOfMemoryError OutputStream OutputStreamWriter Owner
+PaintEvent Panel PanelPeer ParameterDescriptor ParseException ParsePosition Permission PipedInputStream PipedOutputStream PipedReader PipedWriter
+PixelGrabber Point Polygon PopupMenu PopupMenuPeer PreparedStatement Principal PrintGraphics PrintJob PrintStream PrintWriter PrivateKey Process
+Properties PropertyChangeEvent PropertyChangeListener PropertyChangeSupport PropertyDescriptor PropertyEditor PropertyEditorManager
+PropertyEditorSupport PropertyResourceBundle PropertyVetoException ProtocolException Provider ProviderException PublicKey PushbackInputStream PushbackReader
+Random RandomAccessFile Reader RectangleRegistry RegistryHandler Remote RemoteCall RemoteException RemoteObject RemoteRef RemoteServer RemoteStub
+ReplicateScaleFilter ResourceBundle ResultSet ResultSetMetaData RGBImageFilter RMIClassLoader RMIFailureHandler RMISecurityException
+RMISecurityManager RMISocketFactory RuleBasedCollator Runnable Runtime RuntimeException
+Scrollbar ScrollbarPeer ScrollPane ScrollPanePeer SecureRandom Security SecurityException SecurityManager SequenceInputStream Serializable
+ServerCloneException ServerError ServerException ServerNotActiveException ServerRef ServerRuntimeException ServerSocket Shape Short Signature
+SignatureException Signer SimpleBeanInfo SimpleDateFormat SimpleTimeZone Skeleton SkeletonMismatchException SkeletonNotFoundException Socket
+SocketException SocketImpl SocketImplFactory SocketSecurityException SQLException SQLWarning Stack StackOverflowError Statement
+StreamCorruptedException StreamTokenizer StringBuffer StringBufferInputStream StringCharacterIterator StringIndexOutOfBoundsException StringReader StringSelection
+StringTokenizer StringWriter StubNotFoundException SyncFailedException System SystemColor
+TextArea TextAreaPeer TextComponent TextComponentPeer TextEvent TextField TextFieldPeer TextListener Thread ThreadDeath ThreadGroup Throwable Time
+Timestamp TimeZone Toolkit TooManyListenersException Transferable Types
+UID UnexpectedException UnicastRemoteObject UnknownError UnknownHostException UnknownServiceException UnmarshalException
+Unreferenced UnsatisfiedLinkError UnsupportedEncodingException UnsupportedFlavorException URL URLConnection URLEncoder URLStreamHandler
+URLStreamHandlerFactory UTFDataFormatException
+Vector VerifyError VetoableChangeListener VetoableChangeSupport VirtualMachineError Visibility VMID 
+Window WindowAdapter WindowEvent WindowListener WindowPeer WriteAbortedException Writer
+ZipEntry ZipException ZipFile ZipInputStream ZipOutputStream
+/C4
+after.choice: after.delete: after.display: after.field: after.form: after.input: after.program: after.read: after.rewrite: after.skip.delete: after.skip.rewrite: after.skip.write: after.update.db.commit: after.write: after.zoom:
+before.checks: before.choice: before.delete: before.display: before.field: before.form: before.input: before.program: before.read: before.rewrite: before.write: before.zoom:
+check.input: choice.abort.program: choice.add.set: choice.bms: choice.change.frm: choice.change.order: choice.cont.process: choice.create.job: choice.def.find: choice.dupl.occur: choice.end.program: choice.find.data: choice.first.frm: choice.first.set: choice.first.view: choice.get.defaults: choice.global.copy: choice.global.delete: choice.interrupt: choice.last.frm: choice.last.set: choice.last.view: choice.make.resident: choice.mark.delete: choice.mark.occur: choice.modify.set: choice.next.frm: choice.next.halfset: choice.next.set: choice.prev.frm: choice.prev.halfset: choice.prev.set: choice.prev.view: choice.print.data: choice.recover.set: choice.resize.frm: choice.restart.input: choice.run.job: choice.save.defaults: choice.start.chart: choice.start.query: choice.start.set: choice.text.manager: choice.update.db: choice.user.0: choice.user.1: choice.user.2: choice.user.3: choice.user.4: choice.user.5: choice.user.6: choice.user.7: choice.user.8: choice.user.9: choice.zoom:
+declaration:
+domain.error:
+field.all: field.other: form.10: form.11: form.12: form.1: form.2: form.3: form.4: form.5: form.6: form.7: form.8: form.9: form.all: form.other: functions:
+init.field: init.form:
+main.table.io:
+on.choice: on.entry: on.error: on.exit: on.input:
+read.view: ref.display: ref.input:
+when.field.changes:
+zoom.from.all: zoom.from.other:
+/C5
+bms.send bms.receive bms.add.mask bms.receive$ 
+brw.parse.message brw.message.type brw.message.argument brw.message.content
+brw.start.init brw.end.init brw.mess brw.mouse.normal brw.mouse.watch brw.display
+browser.send 
+evt.bms.sender 
+/C6
+dal.start.business.method dal.new dal.update dal.destroy dal.set.error.message
+DALHOOKERROR
+

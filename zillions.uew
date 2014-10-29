@@ -1,0 +1,29 @@
+/L20"Zillions of Games" Line Comment = ; Escape Char = \ String Chars = " File Extensions = ZRF
+/Delimiters = ~!@%^&*()+=|\/{}[]:;"'<> ,	.
+/Function String   = "^([a-zA-Z_0-9]+^)[ ^t]++([^p*, a-zA-Z_0-9]++)[~;]"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1"Keywords"
+absolute-config add add-copy add-copy-partial add-partial adjacent-to-enemy? allow-flipping and animate-captures animate-drops any-owner attacked? attribute
+back board board-setup
+capture capture-sound captured cascade change-owner change-sound change-type checkmated click-sound count-condition
+default defended? define description dimensions directions draw-condition draw-sound drop-sound drops dummy
+else empty? enemy? engine
+false flag? flip forced friend? from
+game go grid
+help history
+if image in-zone? include include-off-pieces
+kill-positions
+last-from last-from? last-to last-to? links loss-condition loss-sound
+mark marked? maximal-captures move-priorities move-sound move-type moves music
+name neutral? not not-adjacent-to-enemy? not-attacked? not-defended? not-empty? not-enemy? not-flag? not-friend? not-in-zone? not-last-from? not-last-to? not-marked? 
+not-neutral? not-on-board? not-piece? not-position-flag? not-position? notation
+off on-board? open opening-sound opponent opposite or
+pass-partial pass-turn piece piece? pieces-remaining players position-flag? position? positions
+recycle-captures recycle-promotions relative-config release-sound repeat repetition
+set-attribute set-flag set-position-flag solution stalemated start-rectangle strategy symmetry
+title to total-piece-count translate true turn-order
+unlink
+variant verify version
+while win-condition win-sound
+zone

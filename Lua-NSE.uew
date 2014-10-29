@@ -1,0 +1,128 @@
+/L14"Lua-NSE" Line Comment = -- Block Comment On = --[[ Block Comment Off = --]] Escape Char = \ String Chars = "' File Extensions = nse
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;<> ,	.?
+/Function String = "%[ ^t]++function^(*(*)^)"
+/Function String 1 = "%[ ^t]++^(*^)=[ ^t]++function*(*)"
+/Function String 2 = "%[ ^t]++local[ ^t]++function^(*(*)^)"
+/Function String 3 = "%[ ^t]++local[ ^t]++^(*^)=[ ^t]++function*(*)"
+/Indent Strings = "then" "do" "else"
+/Unindent Strings = "end" "else"
+/C1"Keywords"
+_G _VERSION
+action author
+break
+categories
+copyright
+description do
+else elseif end err error error_message
+false for function
+global
+host
+id if in
+license local localip localport
+nil
+port
+remoteip remoteport repeat require result return runlevel
+ssl status
+tcp then true
+udp until
+value
+while
+
+/C2"Functions"
+abs acos append appento apply ascii assert asin atan atan2
+bin_ip bin_ip_src build_query byte
+call car cdr ceil char clear clock clock_ms collectgarbage cons copytagmethods cos cosh
+cpath create
+date debug debugging deg devicetype difftime directly_connected dofile dostring dump
+ethernet_close ethernet_open ethernet_send exchange exec execute exit exp extrainfo
+fetchfile filter find flags flatten floor flush fmod foreach foreachvar format frexp
+gcinfo get get_banner get_info get_interface_link get_parts_as_number get_port_state
+get_url getbinmethod getenv getfenv getinfo getglobal getlocal getmetatable getPortState
+getregsitry gettagmethod getupvalue gmatch gsub
+have_ssl hostname huge
+index insert interface input io ip ipairs is_empty is_list isPrivate
+ldexp len lines load loaded loaders loadfile loadlib loadstring log log10 lower lua
+mac_addr mac_addr_src map match max maxn min mod modf mutex
+name name_confidence ncar ncdr new newindex newtag new_dnet new_socket new_try next
+nextvar number numbytes
+open ostype output
+pairs parse_protocols parse_query parse_rpc parse_services path pcall pcap_close pcap_open
+pcap_receive pcap_register pi popen port_service port_or_service portnumber pow print
+print_debug preload product protocol
+rad random randomseed rawequal rawget rawgetglobal rawgettable rawset rawsetglobal
+rawsettable read readfrom regex remove rename rep request resume reverse rpc_status
+rpc_program rpc_lowver rpc_higver
+seeall seek select service service_fp service_ftp service_tunnel set_port_state
+set_port_version set_timeout seterrormethod setfenv setglobal sethook setlocal setlocale
+setmetatable settag settagmethod setupvalue setvbuf sin sinh sort sqrt state strbyte
+strchar strfind strjoin strlen strlower strrep strsplit strsub strupper sub
+tag tan tanh targetname time timing_level tmpfile tmpname todword tonumber tostring
+traceback type
+unpack upper
+verbosity version
+wrap write writeto
+xpcall
+yield
+
+/C3"Libraries"
+bit
+comm coroutine
+datafiles
+file
+http
+ipOps
+listop
+math module
+nmap
+os
+package pcre
+registry
+shortport socket stdnse strbuf string
+table
+url
+
+/C4"Operators"
++
+-
+*
+?
+#
+// /
+^
+<
+>
+=
+~
+%
+.
+:
+add and arshift
+band bor bnot
+concat
+div
+eq eqbuf
+le lshift lt
+mul
+not
+or
+rshift
+unm
+
+/C5"Methods"
+_INPUT _OUTPUT _STDERR _STDIN _STDOUT
+cgi cgilua cgilua_url char2hexa chdir close connect
+dbluaerrorfb dblua_escape decode default_script
+encodecgi encodetable escape
+filetype
+getvalue
+hexa hexa2char hostsrules hosttests html_mask
+includehtml insertfield
+lua_mask
+maketable mkurl
+nopipe
+pcap portrules porttests preprocess
+receive receive_buf receive_bytes receive_lines redirect relativeurl relative_url
+saveluavar savestate script_path script_pdir script_vdir send stateerrormethod
+statefile stdin
+thread_records
+unescape

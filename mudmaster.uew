@@ -1,0 +1,56 @@
+/L20"Mud Master Script" Noquote Escape Char = \ File Extensions = MM 
+/Delimiters = #$%&+,-. /()0123456789:;<=>[\]^_|~`@
+/C1"Commands"
+action alias array assign autoaccept 
+barback barfore baritem baritemback baritemfore baritem barseparator bell 
+CacheSize 
+call calldll changes char chat chatall chatback chatcommands chatfore chatgroup chatgroupremove chatgroupset chatignore chatname chatport chatprivate chatserve chattransfers chatversions clearlist cr
+debugdepth default dir disableaction disablealias disablebaritem disableevent disablegag disablegroup disablehighlight disablemacro disablesub dll dnd doevents downloadpath 
+echo editaction editalias editbaritem editevent editgag edithighlight editmacro editsub edit emote emoteall emotegroup empty enableaction enablealias enablebaritem enableevent enablegag enablegroup enablehighlight enablemacro enablesub event 
+filecancel filedelete filestatus fireevent freelibrary 
+gag grep groupactions groupaliases grouparrays groupbaritems groupchat groupemote groupevents grouplists groupmacros groupsubs groputablist groupvariables 
+help highlight 
+if ignore ignorealiases information itemadd itemdelete 
+killall killgroup 
+listadd listdelete listitems lists loadlibrary logpath logstatus loop 
+macro math message msp 
+nodefault 
+openport 
+pace pause peekconnections ping playmidi playwav presubstitute promptoverwrite 
+read remark requestconnects resetevent 
+savescrollback scriptpath sendaction sendalias sendarray sendbaritem sendevent sendfile sendgag sendgroup 
+sendhighlight sendlist sendmacro sendsub sendvariable session sessionaddress sessionname sessionpath sessionport setbackcolor setCWD seteventtime setforecolor setIP showme showmismatcherrors snoop soundpath speedwalk startchatserver suball substitute subword 
+tabadd tabdelete tablist textin 
+unaction unalias unarray unbaritem unchat undo unevent ungag unhighlight unmacro unsubstitute unvariable updatebaritem updatestatusbar uploadpath 
+variable version volumebits volumedefault volumemax 
+while write writegroup 
+zap 
+/C4"Procedures"
+Abs AnsiBold AnsiReset Asc 
+BackBlack BackCyan BackGreen BackMagenta BackRed BackWhite BackYellow 
+CharColor Chr CommandCount CommandToList ConCat Connected CWD 
+Day 
+EventTime Exists 
+FileExists ForeBlack ForeCyan ForeGreen ForeMagenta ForeRed ForeWhite ForeYellow 
+GetCount GetArray GetItem 
+Hour 
+InList 
+IP IPP IsEmpty IsNumber 
+Left Len Lower LTrim 
+Math Mid Minute Month 
+NumActions NumAliases NumArrays NumBars NumEvents NumGags NumHighlights NumLists NumMacros 
+NumTabs NumSubstitutes NumVars 
+PadLeft PadRight PreTranslate ProcedureCount 
+Random ReadableTime Right RTrim 
+Second StripAnsi StrStr 
+TextColor Time TimeToDay TimeToDayOfWeek TimeToHour TimeToMinute TimeToMonth TimeToSecond TimeToYear 
+Upper 
+Val Var Version 
+Word WordColor WordCount 
+Year 
+@
+/C3"Misc"
+-
++
+=
+$

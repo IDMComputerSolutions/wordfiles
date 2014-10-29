@@ -1,0 +1,168 @@
+/L20"Clarion-Template" Line Comment = #! Nocase Escape Char = \ String Chars = ' File Extensions = TPL TPW
+/Delimiters = ~{}@^&*()-+=|\/[];"'>.,
+/Function String = "%#GROUP+*(^(*^))"
+/Indent Strings = "#IF" "#LOOP" "#FOR"
+/Unindent Strings = "#ENDIF" "#ENDLOOP" "#ENDFOR"
+/C1" 8 TPL Organisation"
+#ACCEPT #APPLICATION #AT #ATEND #ATSTART
+#CODE #CONTROL #CONTEXT
+#EMBED #EMPTYEMBED #ENDAT #ENDCONTEXT #ENDRESTRICT #EXTENSION
+#GROUP
+#MODULE
+#POSTEMBED #PREEMBED #PROCEDURE #PROGRAM  #PRIORITY
+#RESTRICT #REJECT
+#TEMPLATE
+#UTILITY
+#WHERE
+/C2" 8 Template Data"
+#ADD #ALIAS
+#CLEAR
+#DECLARE #DELETE #DELETEALL #DEFAULT
+#ENDDEFAULT
+#ENDGLOBALDATA #ENDLOCALDATA #ENDREPORTS #ENDWINDOWS
+#FIND #FIX #FREE
+#GLOBALDATA
+#LOCALDATA #LINK
+#ORIG
+#POP #PURGE
+#REPORTS
+#REQ
+#SELECT #SET
+#UNFIX
+#WINDOWS
+SAVE
+UNIQUE
+/C3" 8 Programmer Input"
+#BOXED #BUTTON
+#DISPLAY
+#ENABLE #ENDBOXED #ENDBUTTON #ENDCASE #ENDENABLE #ENDFIELD #ENDPREPARE #ENDSHEET #ENDTAB #ENDWITH
+#FIELD
+#IMAGE
+#PREPARE
+#PROMPT
+#SHEET
+#TAB
+#VALIDATE
+#WITH
+/C4" 8 Source Generation"
+#?
+#ABORT #APPEND
+#BREAK
+#CALL #CASE #CLOSE #CYCLE #CREATE
+#ELSE #ELSIF #ENDCASE #ENDFOR #ENDIF #ENDLOOP #ENDSECTION
+#FOR
+#GENERATE
+#IF #INVOKE #INDENT #INSERT
+#LOOP
+#OF #OROF #OPEN
+#PRINT
+#READ #REDIRECT #RELEASE #REMOVE #REPLACE #RESUME #RETURN #RUN #RUNDLL
+#SERVICE #SUSPEND #SECTION
+
+/C5" 8 Miscellaneous"
+#<
+#ASSERT
+#CLASS
+#COMMENT
+#DEBUG
+#ERROR #EXPORT
+#HELP
+#IMPORT #INCLUDE
+#MESSAGE
+#PROJECT #PROTOTYPE
+/C6" 8 Built-In Symbols"
+%ActiveTemplate %ActiveTemplateInstance %ActiveTemplateOwnerInstance %ActiveTemplateParentInstance
+%ActiveTemplatePrimaryInstance %AliasFile %Application %ApplicationDebug %ApplicationLocalLibrary %ApplicationTemplate
+%ApplicationTemplateInstance %ApplicationTemplateParentInstance
+%BytesOutput
+%ConditionalGenerate %Control %ControlAlert %ControlDefaultHeight %ControlDefaultWidth
+%ControlEvent %ControlField %ControlFieldFormat %ControlFieldHasColor %ControlFieldHasIcon
+%ControlFieldHasLocator %ControlFieldHasTree %ControlFieldHeading %ControlFieldPicture %ControlFrom
+%ControlIndent %ControlInstance %ControlMenu %ControlMenuBar %ControlOriginal %ControlParameter %ControlParent
+%ControlParentTab %ControlParentType %ControlStatement %ControlTemplate %ControlTool %ControlToolBar
+%ControlType %ControlUnsplitStatement %ControlUse
+%CreateLocalMap
+%DictionaryChanged %DictionaryFile %Driver %DriverBinMemo %DriverCreate %DriverDescription %DriverDLL
+%DriverEncrypt %DriverLIB %DriverMaxKeys %DriverMemo %DriverOpcode %DriverOwner %DriverReclaim %DriverRequired
+%DriverSQL %DriverType %DriverUniqueKey
+%EditFilename %EditProcedure
+%EmbedDescription %EmbedID %EmbedParameters %EOF
+%False
+%Field %FieldChoices %FieldDescription %FieldDimension1 %FieldDimension2 %FieldDimension3 %FieldDimension4
+%FieldDisplayPicture %FieldFile %FieldFormatWidth %FieldHeader %FieldHelpID %FieldID %FieldIdent
+%FieldInitial %FieldJustIndent %FieldJustType %FieldLongDesc %FieldLookup
+%FieldMemoImage %FieldMemoSize %FieldName %FieldPicture %FieldPlaces %FieldQuickOptions %FieldRangeHigh %FieldRangeLow
+%FieldRecordPicture
+%FieldReportControl %FieldReportControlHeight %FieldReportControlWidth
+%FieldScreenControl %FieldScreenControlHeight %FieldScreenControlWidth
+%FieldStatement %FieldStruct %FieldType %FieldUserOptions %FieldValidation
+%File %File32BitOnly %FileBindable %FileCreate %FileDescription
+%FileDriver %FileDriverParameter %FileEncrypt %FileExternal %FileExternalModule
+%FileIdent %FileKey %FileKeyField %FileKeyFieldLink
+%FileLongDesc %FileName %FileOwner %FilePrefix
+%FilePrimaryKey %FileQuickOptions
+%FileReclaim %FileRelationType %FileStatement
+%FileStruct %FileStructEnd %FileStructRec %FileStructRecEnd
+%FileThreaded %FileType %FileUserOptions %FirstProcedure
+%Formula %FormulaClass %FormulaDescription
+%FormulaExpression %FormulaExpressionCase %FormulaExpressionFalse %FormulaExpressionTrue
+%FormulaExpressionType %FormulaInstance
+%GlobalData %GlobalDataStatement
+%HelpFile
+%Key %KeyAuto %KeyDescription %KeyDuplicate %KeyExcludeNulls %KeyField %KeyFieldSequence
+%KeyFile %KeyID %KeyIdent %KeyIndex %KeyLongDesc %KeyName %KeyNoCase %KeyPrimary
+%KeyQuickOptions %KeyStatement %KeyStruct %KeyUserOptions
+%LocalData %LocalDataStatement
+%MenuBarStatement
+%Module %ModuleBase %ModuleChanged %ModuleData %ModuleDataStatement %ModuleExtension
+%ModuleExternal %ModuleInclude %ModuleLanguage %ModuleProcedure
+%ModuleReadOnly %ModuleTemplate
+%Null
+%OtherFiles
+%Primary %PrimaryInstance %PrimaryKey
+%Procedure %ProcedureCalled %ProcedureDateChanged %ProcedureDateCreated %ProcedureDescription
+%ProcedureExported %ProcedureIsGlobal %ProcedureLanguage %ProcedureLongDescription
+%ProcedureReadOnly %ProcedureReturnType %ProcedureTemplate %ProcedureTimeChanged
+%ProcedureTimeCreated %ProcedureToDo %ProcedureType
+%Program %ProgramDateChanged %ProgramDateCreated %ProgramExtension %ProgramTimeChanged
+%ProgramTimeCreated %Prototype %QuickProcedure
+%RegistryChanged
+%Relation %RelationAlias %RelationConstraintDelete %RelationConstraintUpdate %RelationKey
+%RelationKeyField %RelationKeyFieldLink %RelationPrefix %RelationQuickOptions %RelationUserOptions
+%Report %ReportControl %ReportControlField %ReportControlIndent %ReportControlInstance
+%ReportControlLabel %ReportControlOriginal %ReportControlStatement %ReportControlTemplate
+%ReportControlType %ReportControlUse %ReportStatement
+%Secondary %SecondaryTo %SecondaryType
+%Target32 %ToolbarStatement %True
+%ViewFile %ViewFileField %ViewFileFields %ViewFiles %ViewFileStruct %ViewFileStructEnd %ViewFilter
+%ViewJoinedTo %ViewPrimary %ViewPrimaryField %ViewPrimaryFields %ViewStatement %ViewStruct %ViewStructEnd
+%Window %WindowEvent %WindowStatement
+/C7" 8 Other Symbols"
+%pClassName %pClassIncFile %pClassMethod %pClassMethodPrototype %pClassMethodPrivate %pClassMethodVirtual
+%pClassMethodProtected %pClassMethodProcAttribute %pClassMethodInherited %pClassMethodReturnType
+%pClassMethodParentCall
+%pClassProperty %pClassPropertyPrototype %pClassPropertyPrivate %pClassPropertyProtected
+%pClassPropertyInherited %ClassMethodList
+%SysActiveInvisible %SysAllowUnfilled %SysRetainRow %SysResetOnGainFocus
+%SysAutoToolbar %SysAutoRefresh  %PropertyList %MethodList %ObjectList %ObjectListType
+%CWTemplateVersion %IsExternal %SaveCreateLocalMap %GlobalIncludeList %ModuleIncludeList
+%CalloutModules %ClassDeclarations %OOPConstruct %ByteCount %IncludePrototype
+%UsedFile %ProcFilesUsed %UsedDriverDLLs %PrintPreviewUsed %FileExternalFlag %FileThreadedFlag
+%IniFileName %GenerationCompleted %GenerateModule %VBXList %OLENeeded %OCXList %LastTarget32
+%LastProgramExtension %LastApplicationDebug %LastApplicationLocalLibrary %CustomGlobalMapModule
+%CustomGlobalMapProcedure %CustomGlobalMapProcedurePrototype
+%CustomGlobalData %CustomGlobalDataDeclaration %CustomGlobalDataBeforeFiles
+%CustomGlobalDataComponent %CustomGlobalDataComponentIndent %CustomGlobalDataComponentDeclaration
+%CustomModuleMapModule %CustomModuleMapProcedure %CustomModuleMapProcedurePrototype
+%CustomModuleData %CustomModuleDataDeclaration %CustomModuleDataComponent %CustomModuleDataComponentIndent
+%CustomModuleDataComponentDeclaration %CustomGlobalMapIncludes %CustomGlobalDeclarationIncludes
+%CustomFlags %CustomFlagSetting %AccessMode %BuildFile %BuildHeader %BuildInclude %ExportFile
+%ValueConstruct %HoldConstruct %RegenerateGlobalModule %ClipName
+%UpdateRelationPrimary %UpdateRelationSecondary %UpdateAttachedFile
+%DeleteRelationPrimary %DeleteRelationSecondary %DeleteAttachedFile %AllFile
+%BRWList %GlobalRegenerate %FilesPerBCModule %RelatesPerRoutine
+/C8" 8 Equates/Properties"
+** BEEP: BUTTON: COLOR: CREATE: CURSOR: DDE: EVENT: ff_: FILE: FONT: ICON: LISTZONE: PEN: PROP: PROPLIST: PROPPRINT: REJECT: STD: VBXEVENT:
+#FIELDS
+FALSE
+TRUE

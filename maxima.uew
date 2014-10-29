@@ -1,0 +1,184 @@
+/L20"Maxima 5.9.0" Nocase Line Comment = // String Chars = " Block Comment On = /* Block Comment Off = */ File Extensions = mac
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/C1"Keywords"
+allbut 
+do 
+else 
+for 
+if 
+in 
+step 
+then 
+thru 
+unless 
+while 
+/C2"Functions"
+abs acos acosh acot acoth acsc acsch activate addcol addrow adjoint airy alarmclock algsys alias alloc allroots antid 
+antidiff append appendfile apply apply1 apply2 applyb1 apply_nouns apropos args array arrayapply arrayinfo arraymake 
+asec asech asin asinh askinteger asksign assoc assoc_legendre_p assoc_legendre_q assume asymp asympa at atan atan2 
+atanh atom atrig1 atvalue augcoefmatrix 
+backup bashindices batch batchload batcon bern bernpoly bessel bessel_i bessel_j bessel_k bessel_y beta bezout bffac 
+bfloat bfloatp bfpsi bfzeta bgzeta bhzeta bindtest binomial block bothcoef box break bug buildq burn bzeta 
+cabs canform canten carg cartan catch cbfac cf cfdisrep cfexpand cgamma cgamma2 changevar charpoly chebyshev_t chebyshev_u 
+check_overlaps chr1 chr2 christof clearscreen closefile closeps coeff coefmatrix col collapse collectterms columnvector 
+combine comp2pui compfile compile compile_file compile_lisp_file concat conjugate cons constantp cont2part content 
+continue contract contract copylist copymatrix cos cosh cot coth covdiff create_list csc csch curvature 
+dblint ddt deactivate debug debugprintmode declare declare_translated declare_weight defcon define define_variable 
+defint defmatch defrule deftaylor del delete delfile delta demo denom depends derivdegree derivlist describe desolve 
+determinant diagmatrix diff dimension direct diskfree disolate disp dispcon dispform dispfun display disprule dispterms 
+distrib divide divsum dotsimp dpart dscalar dummy 
+echelon eigenvalues eigenvectors einstein ele2comp ele2polynome ele2pui elem eliminate elliptic_e elliptic_ec elliptic_eu 
+elliptic_f elliptic_kc elliptic_pI ematrix endcons entermatrix entier equal erf errcatch error errormsg euler ev eval 
+evenp every example exp expand expandwrt expandwrt_factored explose express expt extract_linear_equations ezgcd 
+facsum factcomb factor factorfacsum factorial factorout factorsum facts fassave fasttimes 
+fast_central_elements fast_linsolve featurep fft fib fibtophi filedefaults filename_merge file_type fillarray first 
+fix flatten float floatdefunk floatnump flush flushd flushnd forget fortmx fortran freeof fullmap fullmapl fullratsimp 
+fullratsubst funcsolve fundef funmake 
+gamma gauss gcd gcdex gcfactor gen_laguerre gendiff genfact genmatrix get getchar gfactor gfactorsum go gradef gramschmidt grind grobner_basis
+hach hermite hipow horner
+ic1 ident ieqn ift ilt imagpart indices infix innerproduct inpart inrt integerp integrate interpolate intopois intosum intsce 
+inverse_jacobi_cd inverse_jacobi_cn inverse_jacobi_cs inverse_jacobi_dc inverse_jacobi_dn inverse_jacobi_ds 
+inverse_jacobi_nc inverse_jacobi_nd inverse_jacobi_ns inverse_jacobi_sc inverse_jacobi_sd inverse_jacobi_sn invert is isolate isqrt 
+jacobi jacobi_cd jacobi_cn jacobi_cs jacobi_dc jacobi_dn jacobi_ds jacobi_nc jacobi_nd jacobi_ns jacobi_p jacobi_sc jacobi_sd jacobi_sn 
+kdelta kill killcontext kostka
+labels laguerre laplace last lc lcm ldefint ldisp ldisplay legendre_p legendre_q length let letrules letsimp lfreeof 
+lgtreillis lhs limit linsolve lispdebugmode listarray listofvars listp list_nc_monomials load loadfile local log 
+logcontract lopow lorentz lpart lratsubst lriccicom lsum ltreillis
+makebox makefact makegamma makelist make_array make_transform map mapatom maplist matchdeclare matchfix matrix matrixmap matrixp mattrace 
+max member metric min minfactorial minor mod mode_declare mode_identity mon2schur mono monomial_dimensions motion
+multinomial multi_elem multi_orbit multi_pui multsym multthru 
+ncexpt ncharpoly nc_degree new_disrep newcontext newdet newton niceindices nonscalarp nostring nounify nroots nterms 
+ntermsg ntermsrci nthroot num numberp numerval numfactor nusum nzeta 
+oddp ode ode2 op openplot_curves operatorp optimize orbit ordergreat ordergreatp orderless orderlessp outchar outofpois 
+pade part part2cont partfrac partition partpol pcoeff permanent permut pickapart playback plog plot2d plot2d plot2d_ps 
+plot3d plot3d poisdiff poisexpt poisint poismap poisplus poissimp poissubst poistimes poistrim polarform polartorect
+polynome2ele potential powers powerseries pred prime primep print printpois printprops prodrac product properties props 
+propvars pscom psdraw_curve psi pui pui2comp pui2ele pui2polynome puireduc pui_direct put 
+qput qq quanc8 quit qunit quotient 
+radcan radsubstflag raiseriemann random rank rat ratcoef ratdenom ratdiff ratdisrep ratexpand ratnumer ratnump ratp 
+ratsimp ratsubst ratvars ratweight read readonly realpart realroots rearray rectform recttopolar rem remainder remarray 
+rembox remcon remfunction remlet remove remrule remtrace remvalue rename reset residue resolvante resolvante_alternee1
+resolvante_bipartite resolvante_diedrale resolvante_klein resolvante_klein3 resolvante_produit_sym resolvante_unitaire 
+resolvante_vierer rest restore resultant return reveal reverse revert rhs riccicom riemann rinvariant risch rncombine 
+romberg room rootscontract round row 
+save scalarp scalefactors scanmap schur2comp sconcat scsimp scurvature sec sech setelmx setup setup_autoload set_plot_option 
+set_up_dot_simplifications show showratvars sign signum similaritytransform simp sin sinh solve somrac sort spherical_bessel_j 
+spherical_bessel_y spherical_hankel1 spherical_hankel2 spherical_harmonic splice sprint sqfr sqrt srrat sstatus status 
+string stringout sublis sublist submatrix subst substinpart substpart subvarp sum sumcontract supcontext symbolp system 
+tan tanh taylor taylorinfo taylorp taylor_simplifier taytorat tcl_output tcontract tellrat tellsimp tellsimpafter tex 
+th throw time timer timer_info tldefint tlimit tobreak todd_coxeter toplevel totaldisrep totient to_lisp tpartpol trace 
+trace_options transform translate translate_file transpose treillis treinat triangularize trigexpand trigrat trigreduce 
+trigsimp trunc truncate tr_warnings_get tsetup ttransform 
+ultraspherical undiff uniteigenvectors unitvector unknown unorder unsum untellrat untrace
+vectorpotential vectorsimp verbify
+weyl with_stdout writefile 
+xgraph_curves xthru 
+zeroequiv zeromatrix zeta zrpoly zsolve
+/C3"Variables1"
+all_dotsimp_denoms assume_pos assume_pos_pred 
+change_filedefaults current_let_rule_package 
+default_let_rule_package display_format_internal 
+error_size error_syms expandwrt_denom 
+file_search file_string_print 
+in_netmath integration_constant_counter isolate_wrt_times 
+let_rule_packages linsolve_params 
+matrix_element_add matrix_element_mult matrix_element_transpose mode_checkp mode_check_errorp mode_check_warnp 
+plot_options 
+solve_inconsistent_error sublis_apply_lambda 
+taylor_logexpand taylor_order_coefficients taylor_truncate_polynomials timer_devalue 
+tr_array_as_ref tr_bound_function_applyp tr_file_tty_messagesp tr_float_can_branch_complex tr_function_call_default 
+tr_gen_tags tr_numer tr_optimize_max_loop tr_output_file_default tr_predicate_brain_damage tr_semicompile tr_state_vars 
+tr_true_name_of_file_being_translated tr_version tr_warn_bad_function_calls tr_warn_fexpr tr_warn_meval tr_warn_mode 
+tr_warn_undeclared tr_warn_undefined_variable tr_windy 
+use_fast_arrays
+/C4"Variables2"
+absboxchar activecontexts algebraic algepsilon algexact aliases allsym arrays askexp assumescalar assumescalarp atomgrad 
+backsubst backtrace batchkill batcount berlefact besselexpand bftorat bftrunc bothcases boxchar breakup 
+cauchysum cflength colour_z compgrind context contexts counter cursordisp
+debugmode demoivre dependencies derivabbrev derivsubst detout diagmetric dim direc dispflag display2d doallmxops 
+domain domxexpt domxmxops domxnctimes dontfactor doscmxops doscmxplus dot0nscsimp dot0simp dot1simp dotassoc 
+dotconstrules dotdistrib dotexptsimp dotident dotscrules dskall 
+erfflag errexp errintsce errorfun evflag evfun exptdispflag expon exponentialize expop exptisolate exptsubst
+facexpand facsum_combine factlim factorflag filename filenum float2bf fortindent fortspaces fpprec fpprintprec functions 
+gammalim genindex gensumnum geomview globalsolve gnuplot gradefs grid 
+halfangles 
+ibase ieqnprint inchar inflag intfaclim infolists integrate_use_rootsof intpolabs intpolerror intpolrel
+keepfloat 
+lasttime letrat lhospitallim linechar linedisp linel linenum linsolvewarn listarith listconstvars listdummyvars 
+lmxchar loadprint logabs logarc logconcoeffp logexpand lognegint lognumer logsimp 
+m1pbranch macroexpansion maperror maxapplydepth maxapplyheight maxnegex maxposex maxprime maxtayorder modulus 
+multiplicities myoptions 
+negdistrib negsumdispflag nextlayerfactor newfac niceindicespref nolabels noundisp nticks 
+obase omega openmath opproperties opsubst optimprefix optionset 
+packagefile parsewindow partswitch pfeformat piece plot_format poislim polar_to_xy powerdisp prederror prodhack programmode prompt ps psexpand 
+radexpand radprodexpand ratalgdenom ratdenomdivide ratepsilon rateinstein ratfac ratmx ratprint ratrieman ratriemann 
+ratsimpexpons ratweights ratweyl ratwtlvl realonly refcheck rmxchar rombergabs rombergit rombergmin rombergtol
+rootsconmode rootsepsilon run_viewer 
+savedef savefactors scalarmatrixp setcheck setcheckbreak setval showtime simpsum solvedecomposes solveexplicit
+solvefactors solvenullwarn solveradcan solvetrigwarn sparse sqrtdispflag stardisp sumexpand sumhack sumsplitfact 
+taylordepth tlimswitch transbind transcompile transform_xy transrun trigexpandplus trigexpandtimes triginverses trigsign ttyintfun 
+ttyintnum ttyoff 
+undeclaredwarn
+values vect_cross verbose view_direction
+zerobern zetapi zunderflow
+/C5"Constants"
+e 
+pi 
+false 
+inf infinity 
+minf 
+true 
+/C6"Operators"
+' 
+'' 
+! 
+!! 
+# 
+.. 
+: 
+:: 
+::= 
+:= 
+= 
+< 
+> 
++ 
+- 
+* 
+/ 
+^ 
+and 
+not 
+or 
+/C7"Special Symbols"
+additive 
+constant 
+edispflag 
+infeval 
+noeval 
+nouns 
+numer 
+poisson 
+rnum_list 
+verb 
+/C8"Declarations"
+alphabetic 
+antisymmetric 
+commutative 
+feature 
+features 
+lassociative 
+linear 
+mainvar 
+multiplicative 
+nary 
+nofix 
+nonscalar 
+noun 
+outative 
+posfun
+postfix 
+prefix  
+rassociative 
+scalar 
+symmetric 

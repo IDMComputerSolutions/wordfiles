@@ -1,0 +1,37 @@
+/L20"CSound score" Line Comment = ;  File Extensions = sco
+/Delimiters = ~^&*()-+=/{}[]:"'*<> ,.?                  
+/C1"Operators"
+!
+%
+&
+(
+)
+*
+** #
+** instr
++
+,
+-
+.
+// /
+<
+=
+>
+?
+^
+abs add
+cos cosh cosinv
+di divz
+e exp
+log log10 logbtwo
+mac maca mod mul
+pow powoftwo product
+sin sinh sininv sqrt sub sum
+tan tanh taninv taninv2
+|
+/C2"Events"
+** i i$
+/C3"Statements"
+** s t a
+/C4"Function tables"
+** f

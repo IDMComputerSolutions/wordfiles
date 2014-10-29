@@ -1,0 +1,41 @@
+/L20"Small" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = ^ String Chars = "' File Extensions = SMA INC
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String 1 = "%^([a-zA-Z_@0-9]+^)[ ^t]++([a-zA-Z_:&=^^'^"., 0-9^[^]-]++)"
+/Function String 2 = "%^{native^}^{public^}[ ^t]++^([a-zA-Z_@0-9]+^)[ ^t]++([a-zA-Z_:&=^^'^"., 0-9^[^]-]++)"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1"Keywords"
+assert
+break
+case char const continue
+default defined do
+else enum exit
+for forward
+goto
+if
+native new
+operator
+public
+return
+sizeof sleep static stock switch
+while
+/C2"Directives"
+#assert #else #emit #endif #endinput #endscript #if #include
+/C4"Operators"
++
+-
+=
+// /
+%
+&
+>
+<
+^
+!
+|
+~
+:
+?
+char
+defined
+sizeof

@@ -1,0 +1,86 @@
+/L20"VRML97" Line Comment = # File Extensions = wrl
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String = 
+/Indent Strings = "{" "["
+/Unindent Strings = "}" "]"
+/C1"Keywords"
+DEF
+eventIn eventOut exposedField
+EXTERNPROTO
+field
+IS
+PROTO
+ROUTE
+TO
+USE
+/C2"Nodes"
+Anchor Appearance AudioClip 
+Background Billboard Box 
+Collision Color ColorInterpolator Cone Coordinate CoordinateInterpolator Cylinder CylinderSensor
+DirectionalLight
+ElevationGrid Extrusion
+Fog FontStyle
+Group
+ImageTexture IndexedFaceSet IndexedLineSet Inline
+LOD
+Material MovieTexture
+NavigationInfo Normal NormalInterpolator
+OrientationInterpolator
+PixelTexture PlaneSensor PointLight PointSet PositionInterpolator ProximitySensor
+ScalarInterpolator Script Shape Sound Sphere SphereSensor SpotLight Switch
+Text TextureCoordinate TextureTransform TimeSensor TouchSensor Transform
+Viewpoint VisibilitySensor
+WorldInfo
+/C3"Field & Event Types"
+MFColor MFFloat MFInt32
+MFNode MFRotation MFString
+MFTime MFVec2f MFVec3f
+SFBool
+SFColor SFFloat SFImage SFInt32 
+SFNode SFRotation SFString  
+SFTime SFVec2f SFVec3f
+/C4"Fields"
+ambientColor ambientIntensity appearance attenuation autoOffset avatarSize axisOfRotation
+backUrl bboxCenter bboxSize beamWidth beginCap bottom bottomRadius bottomUrl
+ccw choice center children collide color colorIndex colorPerVertex convex coord coordIndex creaseAngle crossSection cutOffAngle
+depth description diffuseColor direction directOutput diskAngle dropOffRate
+emissiveColor enabled endCap
+faceType family fieldOfViewfields filename focalDistance fogType fontStyle frontUrl
+geometry groundAngle groundColor
+headlight height heightAngle horizontal
+image indexOfRefraction info intensity isA
+jump justification justify
+key keyValue
+language leftToRight leftUrl length level location loop
+map material materialIndex matrix mustEvaluate maxAngle maxBack maxExtent maxFront maxPosition
+minAngle minBack minFront minPosition
+name normal normalIndex normalPerVertex numPoints
+offset on orientation
+parameter parts pitch point position priority proxy
+radius range renderCulling repeatS repeatT rightUrl rotation
+scale scaleFactor scaleOrientation shapeType shininess side size skyAngle skyColor
+solid source spacing spatialize specularColor speed spine startIndex startTime stopTime string style
+title texCoord texCoordIndex texture textureCoordIndex textureTransform top topToBottom topUrl translation transparency type
+url
+value vector vertexOrdering visibilityLimit visibilityRange
+whichChild whichChoise width wrapS wrapT
+xDimension xSpacing
+zDimension zSpacing
+/C5"Parameters"
+ALL AUTO
+BINDINGS BOLD BOTTOM
+CENTER CLAMP CLOCKWISE CONVEX COUNTERCLOCKWISE CULLING
+DEFAULT DEFAULTS
+ENUMS
+FACE FALSE FAMILY FILE FORMAT
+ITALIC
+JUSTIFICATION
+LEFT
+NONE NULL
+OFF ON OVERALL
+PARTS PER_FACE PER_FACE_INDEXED PER_PART PER_PART_INDEXED PER_VERTEX PER_VERTEX_INDEXED
+REPEAT RIGHT
+SHAPE SIDES SOLID STYLE
+TRUE TYPE
+UNKNOWN_FACE_TYPE UNKNOWN_ORDERING UNKNOWN_SHAPE_TYPE
+WRAP

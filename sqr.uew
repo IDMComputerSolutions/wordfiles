@@ -1,0 +1,63 @@
+/L20"SQR" Nocase Line Comment = !  Block Comment On = !  Block Comment Off = ! File Extensions = SQR SQC INC sqr sqc inc
+/Delimiters = ~!@%^&*()+=|\/{}[]:;"'<> ,	.?
+/Function String = "%[bB][eE][gG][iI][nN]-[pP][rR][oO][cC][eE][dD][uU][rR][eE]"
+/C1
+begin-footing begin-heading begin-procedure begin-program begin-report begin-setup
+end-footing end-heading end-procedure end-program end-report end-setup
+Input
+/C2
+alter-printer
+begin-document begin-select begin-sql
+declare-chart declare-image declare-layout declare-printer declare-procedure declare-report
+end-declare end-declare end-document end-select end-sql
+load-lookup
+/C3
+#debug #define #else #end-if #endif #if #ifdef #ifndef #include
+/C4
+add array-add array-divide array-multiply array-subtract ask
+break
+call clear-array close columns commit concat connect create-array
+date-time display divide do dollar-symbol
+else encode end-evaluate end-if end-while evaluate execute extract
+find font
+get goto graphic
+if
+last-page let lookup lowercase
+money-symbol move multiply
+new-page new-report next-column next-listing no-formfeed
+open
+page-number page-size position print print-bar-code print-chart print-direct print-image printer-deinit printer-init put
+read rollback
+show stop string subtract
+unstring uppercase use use-column use-printer-type use-procedure use-report use-report
+while write
+/C5
+#current-column #current-line #end-file #page-count #return-status #sql-count #sql-status #sqr-pid
+$sql-error $sqr-database $sqr-platform $sqr-program $sqr-report $sqr-ver $username
+3d-effects
+abs acos after-bold after-page after-report and array as ascii asin at-end atan
+beep before-bold before-page before-report blink bold bottom-margin box by
+ceil center char char-size char-width chars-inch chart-size cl clear-line clear-screen cond cos cosh cs
+date deg delete distinct
+e10 edit erase-page exists exp extent
+field fill fixed fixed_nolf floor font-type for-append for-reading for-reports for-writing formfeed from
+getenv goto-top group
+having horz-line
+image-size in insert instr integer into isblank isnull is
+key
+layout left-margin legend legend-placement legend-presentation legend-title length line-height line-size line-width lines-inch local log10 loops lower lpad ltrim
+max-columns max-lines maxlen mod
+name need newline newpage no-advance noprompt normal not number nvl null
+on-error or order orientation
+page-depth paper-size pie-segment-explode pie-segment-percent-display pie-segment-quantity-display pitch point-markers point-size power printer-type
+quiet
+rad range record rename return_value reverse right-margin round rows rpad rtrim
+select sign sin sinh size skip skiplines sort source sqr-database sqr-platform sqrt startup-file status sub-title substr symbol-set
+table tan tanh times title to to_char to_date to_number top-margin translate trunc type
+underline update upper using
+vary vert-line
+warn when when-other where with
+x-axis-grid x-axis-label x-axis-major-increment x-axis-major-tick-marks x-axis-max-value x-axis-min-value x-axis-minor-increment x-axis-minor-tick-marks x-axis-scale
+x-axis-tick-mark-placement xor
+y-axis-grid y-axis-label y-axis-major-increment y-axis-major-tick-marks y-axis-max-value y-axis-min-value y-axis-minor-increment y-axis-minor-tick-marks y-axis-scale
+y-axis-tick-mark-placement

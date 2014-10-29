@@ -1,0 +1,106 @@
+/L20"PL/I IBM-VisualeAge" Nocase Block Comment On = /* Block Comment Off = */ String Chars = "' File Extensions = pli cpy inc mac
+/Delimiters = ~!@^¬&*()-+=|\/:;,"'<>  	.?
+/Function String = "%[a-z_]"
+/Indent Strings = "begin;" "do;" "if"
+/Unindent Strings = "else" "end;" "other" "otherwise" "then"
+
+/C1"Source Language Keywords"
+a abnormal addbuff alias aligned all allocate alloc anycondition anycond area ascii assembler asm assignable asgn attach attention attn automatic auto
+b backward based begin binary bin bit bkwd blksize buffered buf buffers buffoff bufnd bufni bufsp builtin by byaddr byvalue
+c call cdecl cdecl16 character char chargraphic charg cics close cobol consecutive column col complex cplx condition cond connected conn constant controlled ctl 
+conversion conv copy ctlasa ctl360
+d db data decimal dec declare dcl default dft define defined def delay delete descriptor detach descriptors dimension dim direct display do downthru
+e edit else end endfile endf endpage endp entry environment env error event exclusive exec exit exports external ext
+f fb fs fbs fastcall16 fetch fetchable file finish fixed fixedoverflow fofl float flow forever format fortran free from fromalien
+g generic genkey get go goto graphic
+handle hexadec
+ieee if ignore in indexed indexarea initial init input inline inter internal int into invalidop irreducible irred iterate
+key keyed keyfrom keylength keys keyloc keyto
+label leave like limited line linkage linesize list locate loop
+main margins mar
+name native ncp nochargraphic nocharg noconversion noconv nodescriptor noexecops nofixedoverflow nofofl noinline noinvalidop nolock nonassignable nonasgn nonconnected 
+nonconn nonnative nonvarying nonvar nooverflow noofl norescan normal nosize nostringrange nostrg nostringsize nostrz nosubscriptrange nosubrg note nounderflow noufl 
+nowrite nozerodivide nozdiv noscan
+offset on open optional options optlink order ordinal organization otherwise other output overflow ofl
+p package page pagesize parameter pascal16 password pending picture pic pointer ptr position pos precision prec print priority procedure proc put
+r range read real record recsize recursive reducible red reentrant refer regional relative release reorder repeat reply reread rescan reserves resignal retcode return 
+returns reuse revert rewrite
+scalarvarying scan segmented select sequential seql set signal signed sis size skip snap sql statement static stop storage stream string stringrange strg stringsize strz 
+structure subscriptrange subrg system
+task task then thread title to total tp transmit trkofl tstack type
+u unaligned unal unbuffered unbuf undefinedfile undf underflow ufl union unlock unsigned until update upthru
+v vb vs vbs value variable varying var varyingz varz vsam
+wait when while write 
+zerodivide zdiv
+
+/C2"Build in Functions"
+abs acos acosf add addr allocation allocn allocsize any asin asinf atan atand atanf atanh availablearea
+binaryvalue binvalue bitlocation bitloc bool byte
+cds ceil centerleft center centreleft centre centerright centreright charval collate compare conjg cos cosd cosf cosh count cs currentsize currentstorage cstg
+datafield date datetime days daystodate daystosecs divide
+empty entryaddr epsilon erf erfc exp expf exponent
+fileddint fileddtest fileddword fileid fileopen fileread fileseek filetell filewrite floor
+gamma getenv 
+hbound hex heximage high huge
+iand ieor imag index inot ior isll ismain isrl iunsigned
+lbound left length lineno location log logf loggamma log2 log10 log10f low lowercase lower2
+max maxexp maxlength min minexp mod mpstr multiply
+null
+offsetadd offsetdiff offsetsubtract offsetvalue omitted onchar oncode oncondcond oncondid oncount onfile ongsource onkey onloc onsource onsubcode onwchar onwsource 
+ordinalname ordinalpred ordinalsuccpackagename 
+pageno places pliascii plicanc plickpt plidelete plidump pliebcdic plifill plifree plimove pliover pliretc pliretv plisaxa plisaxb plisrta plisrtb plisrtc plisrtd 
+plistsize pointeradd ptradd pointerdiff ptrdiff pointersubtract ptrsubtract pointervalue ptrvalue poly pred present procedurename procname 
+prod putenv
+radix raise2 random rank rem repattern reverse right round
+samekey scale search searchr secs secstodate secstodays sign sin sind sinf sinh sourcefile sourceline sqrt sqrtf stg substr subtract succ sum sysnull 
+tally tan tand tanf tanh threadid time tiny translate trim trunc 
+unallocated unspec uppercase
+valid validdate varglist vargsize verify verifyr 
+wcharval weekday whigh widechar wlow
+y4date y4julien y4year
+
+/C3"TYPE function names"
+bind
+cast
+first
+last
+new
+respec
+
+/C4"Preprocessor"
+/ %STATEMENTS
+%activate %act %assignment
+%deactivate %deact %declare %do
+%end
+%go %goto
+%if %include 
+%noprint %note %null
+%option
+%procedure %proc %pop %print %push
+%replace 
+%select %skip
+activate act answer ans assignment
+comment compiletime compiledate counter
+deactivate deact
+include item itemcount
+macargs maccol macecho macindex maclmar macrmar
+parmset
+quote
+sysparm sysversion
+
+
+/C5"Operators"
+!
+&
+* **
++
+-
+// /
+< 
+=
+> 
+\
+^ 
+| ||
+¬ 
+

@@ -1,0 +1,147 @@
+/L20"JScript" JSCRIPT_LANG Line Comment = // Block Comment On = /* Block Comment Off = */ String Chars = "' File Extensions = JS ASP
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/C1
+all anchors applets areas
+Array
+Boolean
+cells checkbox children
+Collection
+Date Dictionary Drive Drives DT
+document
+elements embeds external
+Enumerator
+File Files FileSystemObject Folder Folders Function
+false filters forms frames
+Global
+hidden history
+image images imports
+layer layers links
+Math
+navigator
+Number
+Object
+options
+password plugins
+radio reset rows rules
+RegExp
+screen scripts selection styleSheet styleSheets
+String
+TextRange TextStream
+tbodies true
+userProfile
+VBArray
+window
+/C2
+accessKey action activeElement align aLink alinkColor alt altHTML altKey appCodeName appMinorVersion appName appVersion arguments availHeight availWidth
+AtEndOfLine AtEndOfStream Attributes AvailableSpace
+background backgroundAttachment backgroundColor backgroundImage backgroundPosition backgroundPositionX backgroundPositionY backgroundRepeat balance
+behavior bgColor bgProperties border borderBottom borderBottomColor borderBottomStyle borderBottomWidth borderColor borderColorDark borderColorLight
+borderLeft borderLeftColor borderLeftStyle borderLeftWidth borderRight borderRightColor borderRightStyle borderRightWidth borderStyle borderTop
+borderTopColor borderTopStyle borderTopWidth borderWidth bottomMargin browserLanguage bufferDepth button
+caller cancelBubble caption cellIndex cellPadding cellSpacing charset checked classid className clear clientHeight clientInformation clientLeft
+clientTop clientWidth clientX clientY clip closed code codeBase codeType color colorDepth cols colSpan compact complete
+connectionSpeed constructorCount content cookie cookieEnabled coords cpuClass cssText ctrlKey cursor
+Column CompareMode
+data dataFld dataFormatAs dataPageSize dataSrc defaultCharset defaultChecked defaultSelected
+defaultStatus defaultValue defer dialogArguments  dialogHeight dialogLeft dialogTop dialogWidth direction disabled display domain dynsrc
+DriveLetter DriveType DateCreated DateLastAccessed DateLastModified
+encoding event expando
+face fgColor fileCreatedDate fileModifiedDate fileSize fileUpdatedDate filter font fontFamily fontSize fontSmoothingEnabled fontStyle fontVariant
+fontWeight form frame frameBorder frameSpacing fromElement
+FileSystem  FreeSpace
+global
+hash height host hostname href hspace htmlFor htmlText httpEquiv
+Hidden
+id ignoreCase indeterminate index innerHTML innerText input isMap isTextEdit
+Infinity IsReady IsRootFolder Item
+Key
+keyCode
+lang language lastIndex lastMatch lastModified lastParent left leftContext leftMargin length letterSpacing lineHeight link linkColor listStyle
+listStyleImage listStylePosition listStyleType location loop lowsrc
+Line LN10 LN2 LOG10E LOG2E
+map margin marginBottom marginHeight marginLeft marginRight marginTop marginWidth maxLength media method mimeTypes multiline multiple
+MAX_VALUE Methods MIN_VALUE
+Name NaN NEGATIVE_INFINITY
+noHref noResize noShade noWrap
+object offscreenBuffering offsetHeight offsetLeft offsetParent offsetTop offsetWidth offsetX offsetY onLine opener outerHTML outerText overflow owningElement
+padding paddingBottom paddingLeft paddingRight paddingTop pageBreakAfter pageBreakBefore palette parent parentElement parentStyleSheet parentTextEdit
+parentWindow pathname pixelHeight pixelLeft pixelTop pixelWidth  platform pluginspage port posHeight position posLeft posTop posWidth protocol prototype
+Path PI POSITIVE_INFINITY
+readOnly readyState reason recordNumber recordset referrer rel returnValue rev rightContext rightMargin rowIndex rowSpan
+RootFolder
+screenX screenY scrollAmount scrollDelay scrollHeight scrolling scrollLeft scrollTop scrollWidth search sectionRowIndex selected selectedIndex
+self shape shiftKey source sourceIndex span src srcElement srcFilter status style styleFloat systemLanguage
+SerialNumber ShareName ShortName ShortPath Size SQRT1_2 SQRT2 SubFolders
+tabIndex tagName target text textAlign textDecoration textDecorationBlink textDecorationLineThrough textDecorationNone textDecorationOverline
+textDecorationUnderline textIndent textTransform tfoot thead title toElement top topMargin trueSpeed
+TotalSize Type
+units updateInterval urn useMap userAgent userLanguage
+URL
+vAlign value verticalAlign visibility vLink vlinkColor volume vspace
+VolumeName
+width wrap
+x
+y
+zIndex
+/C3
+abs acos addChannel addImport addReadRequest addRule alert anchor asin assign atan atan2
+Add AddFolders AtEnd
+back big blink blur bold
+BuildPath
+ceil charAt charCodeAt clearInterval clearRequest clearTimeout click collapse compareEndPoints compile concat confirm contains cos createCaption
+createElement createRange createStyleSheet createTextRange createTFoot createTHead
+Close Copy CopyFile CopyFolder CreateFolder CreateTextFile
+deleteCaption deleteCell deleteRow deleteTFoot deleteTHead doReadRequest duplicate
+Delete DeleteFile DeleteFolder Dimensions DriveExists
+elementFromPoint empty escape eval exec execCommand execScript exp expand
+Exists
+findText fixed floor focus fontcolor fontsize forward fromCharCode
+FileExists FolderExists
+getAttribute getBookmark getDate getDay getFullYear getHours getItem getMilliseconds getMinutes getMonth getSeconds
+getTime getTimezoneOffset getUTCDate getUTCDay getUTCFullYear getUTCHours getUTCMilliseconds getUTCMinutes getUTCMonth getUTCSeconds getVarDate getYear go
+GetAbsolutePathName GetBaseName GetDrive GetDriveName GetExtensionName GetFile GetFileName GetFolder GetParentFolderName GetSpecialFolder GetTempName
+indexOf inRange insertAdjacentHTML insertAdjacentText insertCell insertRow isEqual isFinite isNaN isSubscribed italics item
+Items
+javaEnabled join
+Keys
+lastIndexOf lbound log
+max min moveBy moveEnd moveFirst moveNext moveStart moveTo moveToBookmark moveToElementText moveToPoint
+Move MoveFile MoveFolder
+navigate nextPage
+open
+OpenAsTextStream OpenTextFile
+parse parseFloat parseInt pasteHTML pow previousPage prompt
+queryCommandEnabled queryCommandIndeterm queryCommandState queryCommandSupported queryCommandValue
+random refresh reload removeAttribute replace resizeBy resizeTo reverse round
+Read ReadAll ReadLine Remove RemoveAll
+scroll scrollBy scrollIntoView scrollTo select setAttribute setDate setEndPoint setFullYear  setHours setInterval setMilliseconds setMinutes setMonth
+setSeconds setTime setTimeout setUTCDate setUTCFullYear setUTCHours setUTCMilliseconds setUTCMinutes setUTCMonth setUTCSeconds setYear showHelp
+showModalDialog sin slice small sort sqrt start stop strike sub submit substr substring sup
+Skip SkipLine
+tags taintEnabled tan test toArray toGMTString toLocaleString toLowerCase toString toUpperCase toUTCString
+ubound unescape
+UTC
+valueOf
+Write WriteBlankLines WriteLine
+write writeln
+zOrder
+/C4
+onabort onafterupdate onbeforeunload onbeforeupdate onblur onbounce onchange onclick ondataavailable ondatasetchanged ondatasetcomplete ondblclick
+ondragstart onerror onerrorupdate onfilterchange onfinish onfocus onhelp onkeydown onkeypress onkeyup onload onmousedown onmousemove onmouseout onmouseover onmouseup onreadystatechange onreset onresize onrowenter onrowexit onscroll onselect onselectstart onstart onsubmit onunload
+/C5
+break
+Comments
+continue
+do
+else
+for
+function
+if
+in
+Labeled
+return
+switch
+this
+var
+while
+with

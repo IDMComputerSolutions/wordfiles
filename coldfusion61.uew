@@ -1,0 +1,262 @@
+/L20"ColdFusion MX 6.1" HTML_LANG Block Comment On = <!--- Block Comment Off = ---> File Extensions = CFM CFC
+/Delimiters = "'#~!@%^&*()+|\{}[]:;<> ,  .
+
+/C1"HTML Tags"
+<A </A> <ABBR> <ABBR </ABBR> <ABOVE> <ACRONYM> <ACRONYM </ACRONYM> <ADDRESS>
+<ADDRESS </ADDRESS> <APPLET </APPLET> <ARRAY> <AREA </AREA
+<B> <B </B> <BASE <BASEFONT <BDO> <BDO </BDO> <BGSOUND <BIG> <BIG </BIG> <BLINK>
+</BLINK> <BLOCKQUOTE> <BLOCKQUOTE </BLOCKQUOTE> <BODY <BODY> </BODY> <BOX> <BR
+<BR> <BIG <BLINK <BUTTON> </BUTTON>
+<CAPTION> <CAPTION </CAPTION> <CENTER> <CENTER </CENTER> <CITE> <CITE </CITE>
+<CODE> <CODE </CODE> <COL> <COL <COLGROUP <COLGROUP> </COLGROUP> <COMMENT>
+</COMMENT>
+<DD> <DD </DD> <DEL> <DEL </DEL> <DFN> <DFN </DFN> <DIR> <DIR </DIR> <DIV> <DIV
+</DIV> <DL> <DL </DL> <DT> <DT  </DT>
+<EM> <EM </EM> <EMBED
+<FIELDSET> <FIELDSET </FIELDSET> <FIG> <FONT </FONT> <FORM> <FORM </FORM> <FRAME
+<FRAMESET </FRAMESET>
+<H1> <H1 </H1> <H2> <H2 </H2> <H3> <H3 </H3> <H4> <H4 </H4> <H5> <H5 </H5> <H6>
+<H6 </H6> <HEAD> <HEAD </HEAD> <HR> <HR <HTML> <HTML </HTML>
+<I> <I </I> <IFRAME> </IFRAME> <ILAYER> </ILAYER> <IMG <INPUT> <INPUT <INS> <INS
+</INS> <ISINDEX> <ISINDEX
+<KBD> <KBD </KBD>
+<LABEL> <LABEL </LABEL> <LAYER> <LAYER </LAYER> <LEGEND> <LEGEND </LEGEND> <LI>
+<LI </LI> <LINK <LISTING> </LISTING>
+<MAP </MAP> <MARQUEE </MARQUEE> <MENU> <MENU </MENU> <META <MULTICOL>
+</MULTICOL>
+<NEXTID <NOBR> </NOBR> <NOFRAMES> </NOFRAMES> <NOLAYER> </NOLAYER> <NOTE>
+</NOTE> <NOSCRIPT> </NOSCRIPT>
+<OBJECT> <OBJECT </OBJECT> <OL> <OL </OL> <OPTION> <OPTION </OPTION> <OPTGROUP>
+<OPTGROUP </OPTGROUP>
+<P <P> </P> <PARAM <PRE> <PRE </PRE>
+<Q> <Q </Q> <QUOTE>
+<RANGE> <ROOT>
+<S> <S </S> <SAMP> <SAMP </SAMP> <SCRIPT <SCRIPT> </SCRIPT> <SELECT <SELECT>
+</SELECT> <SMALL> <SMALL </SMALL> <SOUND <SPACER> <SPAN> <SPAN </SPAN> <SQRT>
+<STRIKE> <STRIKE </STRIKE> <STRONG> <STRONG </STRONG> <STYLE> <STYLE </STYLE>
+<SUB> <SUB </SUB> <SUP> <SUP </SUP>
+<TABLE> <TABLE </TABLE> <TBODY> <TBODY </TBODY> <TD <TD> </TD> <TEXT> <TEXTAREA
+<TEXTAREA> </TEXTAREA> <TFOOT> <TFOOT </TFOOT> <TH <TH> </TH> <THEAD> <THEAD
+</THEAD> <TITLE> </TITLE> <TR <TR> </TR> <TT> </TT> <TT
+<U> <U </U> <UL> <UL </UL>
+<VAR> </VAR> <VAR
+<WBR>
+<XMP> </XMP>
+
+/C2"CFML Attributes"
+abort= accept= access= action= addNewLine= addToken= align= appendKey=
+appletSource= application= applicationTimeout= applicationToken= archive=
+argumentCollection= arguments= attachmentPath=
+attributeCollection= attributes= autoWidth=
+ASCIIExtensionList= 
+baseTag= bcc= bgColor= blockFactor= body= bold= border border= branch=
+cachedAfter= cachedWithin= caseSensitive= category= cc= CFSQLType= charset=
+chartHeight= chartWidth= class= clientManagement= clientStorage= codeBase=
+colHeaderAlign= colHeaderBold= colHeaderFont= colHeaderFontSize=
+colHeaderItalic= colHeaderTextColor= colHeaders colHeaders= colSpacing=
+collection= colorlist= columns= completePath= component= condition= connection=
+context= cookieDomain= criteria= custom1= custom2=
+data= dataAlign= dataBackgroundColor= dataCollection= dataSource= dbtype= debug
+debug= default= delete= deleteButton= deleteFile= delimiter= delimiters=
+destination= detail= directory= display= displayName= dn= domain=
+enableCFoutputOnly= encType= encoded= endDate= endRow= endTime= entry=
+errorCode= exception= existing= expand= expireURL= expires= expression=
+extendedInfo= extends= extensions=
+failIfExists= failto= file= fileField= filter= firstrowasheaders= font=
+fontBold= fontItalic= fontSize= foregroundColor= formFields= format= formula=
+from=
+generateUniqueFilenames= getasbinary= grid= gridDataAlign= gridLines= group=
+groupcasesensitive=
+hScroll= hSpace= header= headerAlign= headerBold= headerFont= headerFontSize=
+headerItalic= headerLines= headerTextColor= height= highlightHref= hint=
+href= hrefKey= 
+HTMLTable
+idletimeout= img= imgopen= index= inline= input= insert= insertButton= interval=
+isolation= italic= item= itemColumn=
+key= keyOnly=
+label= labelFormat= language= list= localFile= locale= log= loginStorage=
+lookAndFeel=
+mailTo= mailerid= markerSize= markerStyle= maxLength= maxRows= message=
+messageNumber= method= mimeType= mimeattach= mode= modifyType= multipart=
+multiple=
+name= nameConflict= new= newDirectory= notSupported= null= numberFormat=
+object= onError= operation= orderBy= output= outputFile=
+pageencoding= paintStyle= parent= passThrough= passive= password= path=
+pattern= pictureBar= pieSliceStyle= port= prefix= preserveData= procedure=
+protocol= proxyPassword= proxyPort= proxyServer= proxyUser= publish=
+query= queryAsRoot=
+range= rebind= recurse= redirect= referral= refreshLabel= remoteFile= replyto=
+report= requestTimeOut= required= reset= resolveURL= resultSet= retryCount=
+returnCode= returnType= returnVariable= roles= rotated= rowHeaderAlign=
+rowHeaderBold= rowHeaderFont= rowHeaderFontSize= rowHeaderItalic=
+rowHeaderTextColor= rowHeaders= rowHeight=
+scale= scaleFrom= scaleTo= scope= scriptSrc= secure= select= selectColor=
+selectMode= selected= separator= seriesColor= seriesLabel= seriesPlacement=
+server= sessionManagement= sessionTimeout= setClientCookies= setDomainCookies=
+show3D= showBorder= showDebugOutput= showError showLegend= showMarkers=
+showXGridlines= showYGridlines= size= sort= sortAscendingButton= sortControl=
+sortDescendingButton= sortXAxis= source= spoolenable= start= startDate=
+startRow= startTime= statusCode= statusText= step= stopOnError= subject=
+suppressWhiteSpace=
+tableName= tableOwner= tableQualifier= taglib= target= task= template= text=
+textColor= textQualifier= throwOnError= throwOnTimeout= tickMarkImages=
+tickMarkLabels= tickMarkMajor= tickMarkMinor= timeout= timespan= tipBGColor=
+tipStyle= title= to= topLevelVariable= transferMode= type=
+uid= url= useTimeZoneInfo= userAgent= username=
+URLpath= 
+vScroll= vSpace= validate= value= valueColumn= values= valuesDelimiter=
+valuesDisplay= var var= variable= vertical=
+webservice= width= wraptext=
+xAxisTitle= xAxisType= xOffset=
+yAxisTitle= yAxisType= yOffset=
+
+/C3"CFML Tags"
+<CFABORT> <CFABORT <CFAPPLET> <CFAPPLET <CFAPPLICATION> <CFAPPLICATION
+<CFARGUMENT> <CFARGUMENT <CFASSOCIATE> <CFASSOCIATE
+<CFAUTHENTICATE> <CFAUTHENTICATE
+<CFBREAK>
+<CFCACHE> <CFCACHE <CFCASE> <CFCASE </CFCASE> <CFCATCH> <CFCATCH </CFCATCH>
+<CFCHART> <CFCHART </CFCHART> <CFCHARTDATA> <CFCHARTDATA
+<CFCHARTSERIES> <CFCHARTSERIES </CFCHARTSERIES>
+<CFCOL> <CFCOL <CFCOLLECTION> <CFCOLLECTION <CFCOMPONENT> <CFCOMPONENT
+</CFCOMPONENT> <CFCONTENT> <CFCONTENT <CFCOOKIE> <CFCOOKIE
+<CFDEFAULTCASE> <CFDEFAULTCASE </CFDEFAULTCASE> <CFDIRECTORY> <CFDIRECTORY
+<CFDUMP> <CFDUMP
+<CFELSE> <CFELSE <CFELSEIF> <CFELSEIF <CFERROR> <CFERROR <CFEXECUTE>
+<CFEXECUTE </CFEXECUTE> <CFEXIT> <CFEXIT
+<CFFILE> <CFFILE <CFFLUSH> <CFFLUSH <CFFORM> <CFFORM </CFFORM> <CFFTP> <CFFTP
+<CFFUNCTION> <CFFUNCTION </CFFUNCTION>
+<CFGRID> <CFGRID </CFGRID> <CFGRIDCOLUMN> <CFGRIDCOLUMN <CFGRIDROW>
+<CFGRIDROW <CFGRIDUPDATE> <CFGRIDUPDATE
+<CFHEADER> <CFHEADER <CFHTMLHEAD> <CFHTMLHEAD <CFHTTP> <CFHTTP </CFHTTP>
+<CFHTTPPARAM> <CFHTTPPARAM
+<CFIF> <CFIF </CFIF> <CFIMPERSONATE> <CFIMPERSONATE <CFIMPORT> <CFIMPORT
+<CFINCLUDE> <CFINCLUDE <CFINDEX> <CFINDEX <CFINPUT> <CFINPUT
+<CFINSERT> <CFINSERT <CFINVOKE> <CFINVOKE </CFINVOKE>
+<CFINVOKEARGUMENT> <CFINVOKEARGUMENT
+<CFLDAP> <CFLDAP <CFLOCATION> <CFLOCATION <CFLOCK> <CFLOCK </CFLOCK>
+<CFLOG> <CFLOG <CFLOGIN> <CFLOGIN </CFLOGIN> <CFLOGINUSER> <CFLOGINUSER
+<CFLOGOUT> <CFLOGOUT <CFLOOP> <CFLOOP </CFLOOP>
+<CFMAIL> <CFMAIL </CFMAIL> <CFMAILPARAM> <CFMAILPARAM <CFMODULE> <CFMODULE
+<CFOBJECT> <CFOBJECT <CFOBJECTCACHE> <CFOBJECTCACHE
+<CFOUTPUT> <CFOUTPUT </CFOUTPUT>
+<CFPARAM> <CFPARAM <CFPOP> <CFPOP <CFPROCESSINGDIRECTIVE> <CFPROCESSINGDIRECTIVE
+</CFPROCESSINGDIRECTIVE> <CFPROCPARAM> <CFPROCPARAM
+<CFPROCRESULT> <CFPROCRESULT <CFPROERTY> <CFPROERTY
+<CFQUERY> <CFQUERY </CFQUERY> <CFQUERYPARAM> <CFQUERYPARAM
+<CFREGISTRY> <CFREGISTRY <CFREPORT> <CFREPORT </CFREPORT> <CFRETHROW>
+<CFRETHROW <CFRETURN> <CFRETURN
+<CFSAVECONTENT> <CFSAVECONTENT </CFSAVECONTENT>
+<CFSCHEDULE> <CFSCHEDULE <CFSCRIPT> <CFSCRIPT </CFSCRIPT> <CFSEARCH>
+<CFSEARCH <CFSELECT> <CFSELECT </CFSELECT>
+<CFSERVLET> <CFSERVLET </CFSERVLET> <CFSERVLETPARAM > <CFSERVLETPARAM
+<CFSET> <CFSET <CFSETTING> <CFSETTING <CFSILENT> <CFSILENT
+</CFSILENT> <CFSLIDER>  <CFSLIDER <CFSTOREDPROC> <CFSTOREDPROC
+<CFSWITCH> <CFSWITCH </CFSWITCH>
+<CFTABLE> <CFTABLE </CFTABLE> <CFTEXTINPUT> <CFTEXTINPUT <CFTHROW> <CFTHROW
+<CFTRACE> <CFTRACE </CFTRACE> <CFTRANSACTION> <CFTRANSACTION </CFTRANSACTION>
+<CFTREE> <CFTREE </CFTREE> <CFTREEITEM> <CFTREEITEM
+<CFTRY> <CFTRY  </CFTRY>
+<CFUPDATE> <CFUPDATE
+<CFWDDX> <CFWDDX
+<CFXML> <CFXML </CFXML>
+
+/C4"HTML Attributes"
+ABBR= ACCEPT-CHARSET= ACCEPT= ACCESSKEY= ACTION= ALIGN= ALINK= ALT= ARCHIVE= AXIS=
+BACKGROUND= BEHAVIOR BELOW BGCOLOR= BORDER=
+CELLPADDING= CELLSPACING= CHAR= CHAROFF= CHARSET= CHECKED CITE= CLASS= CLASSID=
+CLEAR= CODE= CODEBASE= CODETYPE= COLOR= COLS= COLSPAN= COMPACT CONTENT= COORDS=
+DATA= DATETIME= DECLARE DEFER DIR= DISABLED
+ENCTYPE=
+FACE= FOR= FRAME= FRAMEBORDER= FRAMESPACING=
+HEADERS= HEIGHT= HIDDEN= HREF= HREFLANG= HSPACE= HTTP-EQUIV=
+ID= ISMAP=
+LABEL= LANG= LANGUAGE= LINK= LOOP= LONGDESC=
+MAILTO= MARGINHEIGHT= MARGINWIDTH= MAXLENGTH= MEDIA= METHOD= MULTIPLE
+NAME= NOHREF NORESIZE NOSHADE
+OBJECT= ONBLUR= ONCHANGE= ONFOCUS= ONKEYDOWN= ONKEYPRESS= ONKEYUP= ONLOAD=
+ONRESET= ONSELECT= ONSUBMIT= ONUNLOAD= ONCLICK= ONDBLCLICK= ONMOUSEDOWN=
+ONMOUSEMOVE= ONMOUSEOUT= ONMOUSEOVER= ONMOUSEUP=
+PROFILE= PROMPT=
+READONLY REL= REV= ROWS= ROWSPAN= RULES=
+SCHEME= SCOPE= SCROLLING= SELECTED SHAPE= SIZE= SPAN= SRC= STANDBY= START=
+STYLE= SUMMARY=
+TABINDEX= TARGET= TEXT= TITLE= TOPMARGIN= TYPE=
+URL= USEMAP=
+VALIGN= VALUE= VALUETYPE= VERSION= VLINK= VSPACE=
+WIDTH=
+=
+
+/C5"CF Functions"
+Abs ACos ArrayAppend ArrayAvg ArrayClear ArrayDeleteAt ArrayInsertAt ArrayIsEmpty
+ArrayLen ArrayMax ArrayMin ArrayNew ArrayPrepend ArrayResize ArraySet ArraySort
+ArraySum ArraySwap ArrayToList Asc ASin Atn
+BitAnd BitMaskClear BitMaskRead BitMaskSet BitNot BitOr BitSHLN BitSHRN BitXor
+Ceiling Chr CJustify Compare CompareNoCase Cos CreateDate CreateDateTime
+CreateObject CreateODBCDate CreateODBCDateTime CreateODBCTime CreateTime
+CreateTimeSpan CreateUUID
+DateAdd DateCompare DateConvert DateDiff DateFormat DatePart Day DayOfWeek
+DayOfWeekAsString DayOfYear DaysInMonth DaysInYear DE DecimalFormat
+DecrementValue Decrypt DeleteClientVariable DirectoryExists DollarFormat
+Duplicate
+Encrypt Evaluate Exp ExpandPath
+FileExists Find FindNoCase FindOneOf FirstDayOfMonth Fix FormatBaseN
+GetAuthUser GetBaseTagData GetBaseTagList GetBaseTemplatePath
+GetClientVariablesList GetCurrentTemplatePath GetDirectoryFromPath
+GetEncoding GetException GetFileFromPath GetFunctionList GetHttpRequestData
+GetHttpTimeString GetK2ServerDocCount GetK2ServerDocCountLimit GetLocale
+GetMetaData GetMetricData GetPageContext GetProfileSections GetProfileString
+GetTempDirectory GetTempFile GetTemplatePath GetTickCount GetTimeZoneInfo
+GetToken
+Hash Hour HTMLCodeFormat HTMLEditFormat
+IIf IncrementValue InputBaseN Insert Int IsArray IsBinary IsBoolean
+IsCustomFunction IsDate IsDebugMode IsDefined IsK2ServerABroker
+IsK2ServerDocCountExceeded IsK2ServerOnline IsLeapYear IsNumeric IsNumericDate
+IsObject IsQuery IsSimpleValue IsStruct IsUserInRole IsWDDX IsXmlDoc IsXmlElem
+IsXmlRoot
+JavaCast JSStringFormat
+LCase Left Len ListAppend ListChangeDelims ListContains ListContainsNoCase
+ListDeleteAt ListFind ListFindNoCase ListFirst ListGetAt ListInsertAt ListLast
+ListLen ListPrepend ListQualify ListRest ListSetAt ListSort ListToArray
+ListValueCount ListValueCountNoCase LJustify Log Log10 LSCurrencyFormat
+LSDateFormat LSEuroCurrencyFormat LSIsCurrency LSIsDate LSIsNumeric
+LSNumberFormat LSParseCurrency LSParseDateTime LSParseEuroCurrency
+LSParseNumber LSTimeFormat LTrim
+Max Mid Min Minute Month MonthAsString
+Now NumberFormat
+ParagraphFormat ParameterExists ParseDateTime Pi PreserveSingleQuotes
+Quarter QueryAddColumn QueryAddRow QueryNew QuerySetCell QuotedValueList
+Rand Randomize RandRange REFind REFindNoCase ReleaseComObject RemoveChars
+RepeatString Replace ReplaceList ReplaceNoCase REReplace REReplaceNoCase
+Reverse Right RJustify Round RTrim
+Second SetEncoding SetLocale SetProfileString SetVariable Sgn Sin SpanExcluding
+SpanIncluding Sqr StripCR StructAppend StructClear StructCopy StructCount
+StructDelete StructFind StructFindKey StructFindValue StructGet StructInsert
+StructIsEmpty StructKeyArray StructKeyExists StructKeyList StructNew StructSort
+StructUpdate
+Tan TimeFormat ToBase64 ToBinary ToString Trim
+UCase URLDecode URLEncodedFormat URLSessionFormat
+Val ValueList
+Week Wrap WriteOutput
+XmlChildPos XmlElemNew XmlFormat XmlNew XmlParse XmlSearch XmlTransform
+Year YesNoFormat
+
+/C6"CF Operators"
+*
++
+-
+/
+\
+^
+AND
+CONTAIN CONTAINS
+DOES
+EQ EQUAL EQV
+GE GREATER GT GTE
+IMP IS
+LE LESS LT LTE
+MOD
+NEQ NOT
+OR
+THAN TO
+XOR

@@ -1,0 +1,79 @@
+/L20"WAP" Nocase Noquote HTML_LANG Block Comment On = <!-- Block Comment Off = --> File Extensions = wml
+/Delimiters = ~!@$%^&*()+=|\{}[]:;"'<> ,	.?
+/Function String = "name=*">"
+/C1"Tags"
+=
+<
+>
+<a> <a <access> <access <anchor> <anchor
+<b> <big> <br/> 
+<card> <card
+<do> <do
+<em>
+<fieldset> <fieldset
+<go
+<head>
+<i> <img <input
+<meta
+<noop/>
+<option> <option <optgroup> <optgroup <onevent
+<p> <p <prev> <prev/> <postfield> <postfield
+<refresh>
+<select <setvar <small> <strong>
+<table> <table <td> <td <template> <template <tr> <tr <timer> <timer
+<u>
+<wml>
+/C2"Tag End"
+</a> </access> </anchor> </b> </big>
+</b> </big>
+</card>
+</do> 
+</em>
+</fieldset>
+</go>
+</head>
+</i> </img> </input>
+</meta>
+</option> </optgroup> </onevent>
+</p> </prev> </postfield> 
+</refresh>
+</select> </setvar> </small> </strong>
+</table> </td> </template> </tr> </timer>
+</u>
+</wml>
+/C3"Attributes"
+'
+"
+accept-charset= align= alt= 
+columns= content=
+domain=
+emptyok=
+format= forua=
+height= href= hspace= http-equiv=
+id= iname= ivalue=
+label= localsrc=
+maxlength= method= mode= multiple=
+name= nextcontext=
+onpick= optional= ontimer= ordered=
+path=
+sendreferer= src=
+title= type=
+value= vspace=
+width=
+xml:lang=
+/C4"Functions"
+accept action
+bottom
+Cache-Control center
+delete
+false
+get
+left
+max-age
+nowrap
+onenterforward onenterbackward onpick ontimer options 
+passwd password prevpost
+right
+text timer true
+wrap
+

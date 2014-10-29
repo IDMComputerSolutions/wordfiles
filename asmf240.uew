@@ -1,0 +1,60 @@
+/L20 "F240" AASM_LANG Line Comment = ; Block Comment On =  Block Comment Off =  Escape Char = \ String Chars = "' File Extensions = A ASM
+/Delimiters =  ,(){}[]-+*/="'!&|\<> ?:;
+/Function String = "%[a-zA-Z_]*)"
+/C1
+ABS ADD ADDC ADDH ADDK ADDS ADDT ADLK ADRK AND ANDK APAC
+B BACC BANZ BANZ BBNZ BBZ BC BCND BGEZ BGZ BIOZ BIT BITT BLDD BLEZ BLKD BLKP
+BLPD BLZ BNC BNV BNZ BV BZ
+CALA CALL CC CLRC CMPL CMPR CNFD CNFP
+DINT DMOV
+EINT
+IDLE IN INTR
+LAC LACC LACL LACT LALK LAR LARP LDP LDPK LPH LRLK LST LST1 LT LTA LTD LTP
+LTS
+MAC MACD MAR MPY MPYA MPYK MPYS MPYU
+NEG NMI NOP NORM
+OR ORK OUT
+PAC POP POPD PSHD PUSH
+RC RET RETC RHM ROL ROR ROVM RPT RPTK RSXM RTC RXF
+SACH SACL SAR SBRK SC SETC SFL SFR SHM SOVM SPAC SPH SPL SPLK SPM SPM SQRA
+SQRS SST SSXM STC SUB SUBB SUBC SUBH SUBK SUBS SUBT SXF
+TBLR TBLW TRAP
+XOR
+ZALR
+/C2
+.align .asect .asg .bes .bfloat .blong .break .bss .byte .copy .data .def
+.double .drlist .drnolist .else .elseif .emsg .end .endif .endm .endloop
+.endstruct .equ .eval .even .fclist .fcnolist .field .float .global .hword
+.ieee .if .include .int .label .ldouble .length .list .long .loop .macro
+.mlib .mlist .mmregs .mmsg .mnolist .newblock .nolist .option .page .port
+.ref .regalias .sblock .sect .set .sfloat .space .sslist .ssnolist .start
+.string .struct .tab .tag .text .title .usect .version .width .wmsg .word
+/C3
+ACC AR0 AR1 AR2 AR3 AR4 AR5 AR6 AR7 ARB ARP
+BIO
+C CNF
+DP
+EQ
+GEQ GT
+INTM
+LEQ
+NC NEQ NOV NTC
+OV OVM
+PM
+SP ST SXM
+TC
+XF
+/C4
++
+-
+=
+// /
+%
+&
+>
+<
+^
+!
+|
+/C5
+.cinit .const .stack .switch .sysmem .vector .vectors

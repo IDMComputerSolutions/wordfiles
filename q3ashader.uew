@@ -1,0 +1,60 @@
+/L20"Quake 3 Arena Shader" Line Comment = // Nocase Noquote Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = SHADER
+/Delimiters =  	~!@%^&*()-+=|\/{}[]:;"'<> , .?
+/Function String = "%[a-zA-Z_]*)"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1 Keywords
+cull
+deformvertexes
+fogparms
+nomipmap nopicmip
+polygonoffset portal
+q3map_backshader q3map_globaltexture q3map_lightimage q3map_lightsubdivide q3map_sun q3map_surfacelight
+skyparms sort surfaceparm
+tesssize
+/C3 Q3MAP Functions
+alphashadow areaportal
+clusterportal
+donotenter
+flesh
+fog
+lava
+metalsteps
+nodamage nodlight nodraw nodrop noimpact nolightmap nomarks nonsolid nosteps
+origin
+playerclip
+slick slime structural
+trans
+water
+/C4 Editor Specific
+qer_editorimage qer_nocarve qer_trans
+/C5 Stage Keywords
+alphafunc alphagen animmap
+blendfunc
+clampmap
+depthfunc depthwrite detail dstblend
+map
+rgbgen
+srcblend
+tcgen tcmod
+/C6 Global Variables
+$lightmap
+$whiteimage
+/C7 Functions
+GL_DST_COLOR GL_ONE GL_ONE_MINUS_DST_ALPHA GL_ONE_MINUS_DST_COLOR GL_ONE_MINUS_SRC_ALPHA GL_SRC_ALPHA GL_ZERO
+add additive autosprite autosprite2
+base blend bulge
+disable
+entity environment
+filter fromVertex
+identity identityLighting inversesawtooth
+lightingDiffuse lightmap
+move
+nearest none normal
+oneMinusEntity
+rotate
+sawtooth scale scroll sin square stretch
+triangle turb
+vertex
+wave
+

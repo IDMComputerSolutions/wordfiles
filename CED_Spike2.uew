@@ -1,0 +1,47 @@
+/L20"CED Spike2 Script" Line Comment = ' String Chars = " File Extensions = s2s
+/C1"CED Keywords"
+and
+band bor bxor
+case const
+do docase
+else end endcase endif
+for func
+halt
+if
+mod
+next not
+or
+proc
+repeat resize return
+step
+then to
+until
+var view
+wend while
+xor
+/C2"Commands"
+Abs App ArrAdd ArrConst ArrDiff ArrDiv ArrDivR ArrDot ArrFFT ArrFilt ArrIntgl ArrMul ArrSort ArrSpline ArrSub ArrSubR ArrSum Asc ATan
+BinError Binsize BinToX BRead BReadSize BRWEndian BSeek BurstMake BurstRevise BurstStats BWrite BWriteSize
+ChanCalibrate ChanColour ChanComment$ ChanData ChanDelete ChanDuplicate ChanFit ChanFitCoef ChanFitShow ChanFitValue ChanHide ChanKind ChanList ChanMeasure ChanNew ChanNumbers ChanOffset ChanOrder ChanPort ChanProcessAdd ChanProcessArg ChanProcessClear ChanProcessInfo ChanSave ChanScale ChanSearch ChanSelect ChanShow ChanTitle$ ChanUnits$ ChanValue ChanVisible ChanWeight ChanWriteWave Chr$ Colour CondFilter CondFilterList CondGain CondGainList CondGet CondOffset CondOffsetLimit CondRevision$ CondSet CondSourceList CondType Cos Count Cursor CursorActive CursorActiveGet CursorDelete CursorExists CursorLabel CursorLabelPos CursorNew CursorRenumber CursorSearch CursorSet CursorValid CursorVisible
+Date$ Debug DebugList DebugOpts DelStr$ DiscrimChanGet DiscrimChanSet DiscrimClear DiscrimLevel DiscrimMode DiscrimMonitor DiscrimTimeOut DlgAllow DlgButton DlgChan DlgCheck DlgCreate DlgEnable DlgGroup DlgInteger DlgLabel DlgList DlgReal DlgShow DlgString DlgText DlgValue DlgVisible DlgXValue Draw DrawAll DrawMode Dup DupChan
+EditClear EditCopy EditCut EditPaste EditSelectAll Error$ Eval EventToWaveform Exp ExportChanFormat ExportChanList ExportRectFormat ExportTextFormat
+FileApplyResource FileClose FileComment$ FileConvert$ FileCopy FileDate$ FileDelete FileGlobalResource FileList FileName$ FileNew FileOpen FilePath$ FilePathSet FilePrint FilePrintScreen FilePrintVisible FileQuit FileSave FileSaveAs FileTime$ FileTimeDate FiltApply FiltAtten FiltCalc FiltComment$ FiltCreate FiltInfo FiltName$ FiltRange FIRMake FIRQuick FIRResponse FitExp FitGauss FitLine FitLinear FitNLUser FitPoly FitSin FocusHandle FontGet FontSet Frac FrontView
+GammaP Grid Gutter
+HCursor HCursorChan HCursorDelete HCursorExists HCursorLabel HCursorLabelPos HCursorNew HCursorRenumber Help
+IIRLp IIRBp IIRBs IIRReson IIRHp IIRNotch Inkey Input Input$ InStr Interact
+Keypress
+LastTime LCase$ Left$ Len Ln LnGamma Log LogHandle
+MarkEdit MarkSet MarkMask MarkInfo MATDet MATInv MATMul MATSolve MATTrans Max Maxtime MeasureChan MeasureToXY MeasureX MeasureY MemChan MemDeleteItem MemDeleteTime MemGetItem MemImport MemSave MemSetItem Message Mid$ Min Minmax MMAudio MMImage MMOpen MMPosition MMRate MMVideo MoveBy MoveTo
+NextTime
+Optimise
+PaletteGet PaletteSet PCA PlayWaveAdd PlayWaveChans PlayWaveCopy PlayWaveCycles PlayWaveDelete PlayWaveEnable PlayWaveInfo$ PlayWaveLabel$ PlayWaveLink$ PlayWaveRate PlayWaveSpeed PlayWaveStatus$ PlayWaveStop PlayWaveTrigger Pow Print Print$ PrintLog Process ProcessAll ProcessAuto ProcessTriggered Profile ProgKill ProgRun ProgStatus
+Query
+Rand RandExp RandNorm RasterAux RasterGet RasterSet RasterSort RasterSymbol Read ReadSetup ReadStr ReRun Right$ Round
+SampleAbort SampleAutoComment SampleAutoCommit SampleAutoFile SampleAutoName$ SampleBar SampleCalibrate SampleChannels SampleClear SampleComment$ SampleDigMark SampleEvent SampleHandle SampleKey SampleLimitSize SampleLimitTime SampleMode SampleOptimise SampleRepeats SampleReset SampleSeqControl SampleSeqStep SampleSeqTable SampleSequencer SampleSequencer$ SampleSeqVar SampleStart SampleStartTrigger SampleStatus SampleStop SampleText SampleTextMark SampleTimePerAdc SampleTitle$ SampleTrigger SampleUsPerTime SampleWaveform SampleWaveMark SampleWrite ScriptBar ScriptRun Seconds Selection$ SerialClose SerialCount SerialOpen SerialRead SerialWrite SetAverage SetEvtCrl SetEvtCrlShift SetINTH SetPhase SetPower SetPSTH SetResult SetWaveCrl SetWaveCrlDC Sin SMControl SMOpen Sound Speak Sqrt SSButton SSChan SSClassify SSOpen SSParam SSRun SSTempDelete SSTempGet SSTempInfo SSTempSet SSTempSizeGet SSTempSizeSet Str$ Sweeps System$ System
+Tan Time$ TimeDate The ToolbarClear ToolbarEnable ToolbarSet ToolbarText ToolbarVisible Trunc
+toolbar
+UCase$
+Val View ViewColour ViewFind ViewKind ViewLink ViewList ViewStandard ViewTrigger ViewUseColour
+Window WindowDuplicate WindowGetPos WindowSize WindowTitle$ WindowVisible
+XAxis XAxisMode XAxisStyle XHigh XLow XRange XScroller XTitle$ XToBin XUnits$ XYAddData XYColour XYCount XYDelete XYDrawMode XYGetData XYInCircle XYInRect XYJoin XYKey XYRange XYSetChan XYSize XYSort
+YAxis YAxisLock YAxisMode YAxisStyle Yield YHigh YLow 

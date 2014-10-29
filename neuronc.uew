@@ -1,0 +1,160 @@
+used in programming embedded Neuron (MC3150,3120) chips for distributed control applications
+
+/L20"Neuron C" Line Comment = // Block Comment On = /* Block Comment Off = */ String Chars = "' File Extensions = NC H
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String = "%[a-zA-Z_]*)"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1
+auto
+break
+case char const continue
+default do double
+else enum extern 
+float float_type for
+goto
+if int
+long
+msg_tag mtimer
+network
+quad
+register return
+short signed sizeof static stimer struct switch s32_type
+typedef
+union unsigned
+void volatile
+when while
+#define #error #include #elif #if #line #else #ifdef #pragma #endif #ifndef #undef
+/C2
+addr_table_index
+bcd2bin bin2bcd
+eeprom_memcpy
+flush_completes
+get_tick_count
+high_byte
+io_changes io_change_init io_in io_in_ready io_in_request
+io_out io_out_ready io_out_request 
+io_preserve_input io_select io_set_clock io_set_direction
+io_update_occurs is_bound
+low_byte
+make_long msg_alloc msg_alloc_priority msg_cancel msg_completes
+msg_fails msg_free msg_receive msg_send msg_succeeds
+nv_table_index
+poll propagate
+reset resp_alloc resp_arrives resp_cancel resp_free resp_receive resp_send
+sleep swap_bytes
+timer_expires touch_bit touch_byte touch_first touch_next touch_reset
+wink
+/C3
+ackd activate_service_led auth authenticated
+baud bind bit bitshift byte
+clock clockedge config config_data
+ded dualslope
+eeprom edgedivide edgelog
+far fastaccess frequency
+infrared input input_is_new input_value invert i2c
+IO_0 IO_1 IO_2 IO_3 IO_4 IO_5 IO_6 IO_7 IO_8 IO_9
+kbaud
+leveldetect
+magcard magtrack1 master max_rate_est msg_arrives msg_in 
+msg_out msg_tag_index mux muxbus
+neurowire nibble nonbind nonconfig nonpriority numbits 
+nv_array_index nv_in_addr nv_in_index
+offchip offline onchip oneshot output
+parallel period polled priority pulsecount pulsewidth
+quadrature
+ram rate_est read_only_data read_only_data2 resp_in resp_out
+select serial slave slave_b sync synchronized system
+totalcount touch triac triggeredcount
+unackd unackd_rpt uninit
+wiegand
+/C4
+SNVT_address
+SNVT_alarm
+SNVT_amp SNVT_amp_f SNVT_amp_mil
+SNVT_angle SNVT_angle_deg SNVT_angle_f
+SNVT_angle_vel SNVT_angle_vel_f
+SNVT_area
+SNVT_btu_f SNVT_btu_kilo SNVT_btu_mega
+SNVT_char_ascii
+SNVT_chlr_status
+SNVT_color
+SNVT_config_src
+SNVT_count SNVT_count_f SNVT_count_inc SNVT_count_inc_f
+SNVT_currency
+SNVT_date_cal SNVT_date_day SNVT_date_time
+SNVT_defr_mode SNVT_defr_state SNVT_term
+SNVT_density SNVT_density_f
+SNVT_earth_pos
+SNVT_elapsed_tm
+SNVT_elec_kwhr SNVT_elec_whr SNVT_elec_whr_f
+SNVT_evap_state
+SNVT_file_pos SNVT_file_req SNVT_file_status
+SNVT_fire_indcte SNVT_fire_init SNVT_fire_test
+SNVT_flow SNVT_flow_f SNVT_flow_mil
+SNVT_freq_f SNVT_freq_hz SNVT_freq_kilohz SNVT_freq_milhz
+SNVT_grammage SNVT_grammage_f
+SNVT_hvac_emerg SNVT_hvac_mode SNVT_hvac_overid SNVT_hvac_status
+SNVT_ISO_7811
+SNVT_length SNVT_length_f SNVT_length_kilo SNVT_length_micr SNVT_length_mil
+SNVT_lev_cont SNVT_lev_cont_f SNVT_lev_disc SNVT_lev_percent
+SNVT_lux
+SNVT_magcard
+SNVT_mass SNVT_mass_f SNVT_mass_kilo SNVT_mass_mega SNVT_mass_mil
+SNVT_muldiv
+SNVT_multiplier
+SNVT_obj_request
+SNVT_obj_status
+SNVT_occupancy
+SNVT_override
+SNVT_ph SNVT_ph_f
+SNVT_power SNVT_power_f SNVT_power_kilo
+SNVT_ppm SNVT_ppm_f
+SNVT_preset
+SNVT_press SNVT_press_f SNVT_press_p
+SNVT_pwr_fact SNVT_pwr_fact_f
+SNVT_res SNVT_res_f SNVT_res_kilo
+SNVT_rpm
+SNVT_scene SNVT_scene_cfg
+SNVT_setting
+SNVT_smo_ocscur
+SNVT_sound_db SNVT_sound_db_f
+SNVT_speed SNVT_speed_f SNVT_speed_mil
+SNVT_state
+SNVT_str_asc SNVT_str_int
+SNVT_switch
+SNVT_telcom
+SNVT_temp SNVT_temp_f SNVT_temp_p SNVT_temp_ror SNVT_temp_setpt
+SNVT_therm_mode
+SNVT_time_f SNVT_time_hour SNVT_time_min SNVT_time_passed SNVT_time_sec
+SNVT_time_stamp SNVT_time_zone
+SNVT_tod_event
+SNVT_trans_table
+SNVT_vol SNVT_vol_f SNVT_vol_kilo SNVT_vol_mil
+SNVT_volt SNVT_volt_dbmv SNVT_volt_f SNVT_volt_kilo SNVT_volt_mil
+SNVT_zerospan
+/C5
+alarm_type_t
+calendar_type_t
+chiller_t
+config_source_t
+currency_t
+days_of_week_t
+defrost_mode_t defrost_state_t defrost_term_t
+discrete_levels_t
+emerg_t
+evap_t
+file_request_t file_status_t
+fire_indicator_t fire_init_t fire_test_t
+hvac_override_t hvac_t
+interp_t
+learn_mode_t
+object_request_t
+occup_t
+override_t
+priority_level_t
+scene_config_t
+scene_t
+setting_t
+telcom_states_t
+therm_mode_t

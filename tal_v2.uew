@@ -1,0 +1,41 @@
+/L20"TAL" Line Comment Num = 2-- Line Comment Alt = ! String Chars = " File Extensions = TAL
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String = "% ++proc +^(*;^)"
+/Function String 1 = "% ++proc +^(* ++^)"
+/Function String 2 = "% ++int ++[(32)]++ ++proc +^(*;^)"
+/Function String 3 = "% ++int ++[(32)]++ ++proc +^(* ++^)"
+/Function String 4 = "% ++real ++proc +^(*;^)"
+/Function String 5 = "% ++real ++proc +^(* ++^)"
+/C1
+BEGIN
+CALL
+END
+begin
+call
+end
+/C2
+AND
+ELSE ENDIF
+IF
+NOT
+OR
+THEN
+WHEN
+and
+else endif
+if
+not
+or
+then
+when
+/C4
+** ?
+/C8 "OPERATORS"
++
+-
+// /
+&
+>
+<
+
+

@@ -1,0 +1,64 @@
+/L20"Mumps" Line Comment = ; String Chars = " File Extensions = DAT RTN M 
+/Delimiters = +&_/=**>#@\<-*.!? []"	,.?()|:;
+/Marker Characters = "^(^;^,"
+/C1 COMMANDS
+B 
+C 
+D 
+E 
+F 
+G 
+H 
+I 
+J 
+K 
+L 
+M 
+N 
+O 
+Q 
+R 
+S 
+TC TRE TRO TS
+U 
+V 
+W 
+X
+ZA ZD ZF ZG ZHOROLOG ZI ZL ZM ZN ZP ZQ ZR ZS ZSY ZT ZU ZW
+/C2 FUNCTIONS
+$$
+$A $C $D $E $F $FN $G $L $NA $N $O $P $Q $R $RE $S $T $TR $V 
+$ZB $ZBN $ZB $ZCR $ZD $ZDE $ZH $ZN $ZO $ZOS $ZP $ZS $ZSE $ZU $ZU $ZV
+/C3 SPECIAL VARIABLES
+$H $I $IO $J $K $SY $TL $X $Y $ZA $ZC $ZE $ZL $ZR $ZT 
+/C4 STRUCTURED SYSTEM VARIABLES
+^$DEVICE ^$GLOBAL ^$JOB ^$LOCK ^$ROUTINE
+/C5 OPERATORS
+= 
++ 
+- 
+* 
+_ 
+\ 
+/ 
+: 
+. 
+, 
+[ 
+] 
+' 
+< 
+> 
+@ 
+#
+/C6
+^ 
+^( 
+^; 
+^, 
+( 
+)
+/C7
+APPEND
+NEWVERSION
+OVERWRITE

@@ -1,0 +1,49 @@
+/L20"Go" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = go
+/Delimiters = ~!%^&*()-+=|\/{}[]:;"'<> ,	.
+/Function String = "%func[ ^t]+^([~{]+^)[ ^t]++"
+/Member String = "^([A-Za-z0-9_:.]+^)[ ^t^*&]+$S[ ^t^[^]A-Za-z0-9_]++[(-);,]"
+/Variable String = "%[ ^t]++^([!-ÿ~ ^t<>]+*[~a-z^p]^)$S[ ^t;,()^-]"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/Open Brace Strings =  "{" "(" "["
+/Close Brace Strings = "}" ")" "]"
+/Open Fold Strings = "{" "("
+/Close Fold Strings = "}" ")"
+/C1"Keywords"
+break
+case chan const continue
+default defer
+else
+fallthrough for func
+go goto
+if import interface
+map
+package
+range return
+select struct switch
+type
+var
+/C2"Operators"
+!
+%
+&
+*
++
+-
+.
+// /
+:
+<
+=
+>
+^
+|
+/C3"Brackets, comma, semicolon"
+(
+)
+,
+;
+[
+]
+{
+}

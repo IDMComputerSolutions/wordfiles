@@ -1,0 +1,127 @@
+/L20"ISS Files" Noquote Line Comment = ; Line Comment Valid Columns = [1]; File Extensions = ISS
+/Delimiters = *()+=/[]:;"'<> , .?
+/Function String = "%\w+"
+/C1
+Components CustomMessages
+Dirs
+Icons INI InstallDelete
+Files
+LangOptions Languages
+Messages
+Registry Run
+Setup
+Tasks Types
+UninstallDelete UninstallRun
+/C2
+AllowCancelDuringInstall AllowNoIcons AllowRootDirectory AllowUNCPath
+AlwaysCreateUninstallIcon AlwaysRestart AlwaysShowComponentsList
+AlwaysShowDirOnReadyPage AlwaysShowGroupOnReadyPage AlwaysUsePersonalGroup
+AppComments AppContact AppCopyright AppendDefaultDirName AppendDefaultGroupName
+AppId AppModifyPath AppMutex AppName AppPublisher AppPublisherURL AppReadmeFile
+AppSupportURL AppUpdatesURL AppVerName AppVersion ArchitecturesAllowed
+ArchitecturesInstallIn64BitMode
+BackColor BackColor2 BackColorDirection BackSolid
+ChangesAssociations ChangesEnvironment Compression CreateAppDir
+CreateUninstallRegKey
+DefaultDirName DefaultGroupName DefaultUserInfoName DefaultUserInfoOrg
+DefaultUserInfoSerial DirExistsWarning DisableAppendDir DisableDirPage
+DisableFinishedPage DisableProgramGroupPage DisableReadyMemo DisableReadyPage
+DisableStartupPrompt DiskClusterSize DiskSliceSize DiskSpanning
+DontMergeDuplicateFiles
+EnableDirDoesntExistWarning Encryption ExtraDiskSpaceRequired
+FlatComponentsList
+InfoAfterFile InfoBeforeFile Installer-related InternalCompressLevel
+LanguageDetectionMethod LicenseFile
+MergeDuplicateFiles MessagesFile MinVersion
+OnlyBelowVersion OutputBaseFilename OutputDir OutputManifestFile
+Password PrivilegesRequired
+ReserveBytes RestartIfNeededByRun
+SetupIconFile ShowComponentSizes ShowLanguageDialog ShowTasksTreeLines
+ShowUndisplayableLanguages SlicesPerDisk SolidCompression SourceDir
+TerminalServicesAware TimeStampRounding TimeStampsInUTC TouchDate TouchTime
+Uninstallable UninstallDisplayIcon UninstallDisplayName UninstallFilesDir
+UninstallIconFile UninstallIconName UninstallLogMode UninstallRestartComputer
+UninstallStyle UpdateUninstallLogAppName UsePreviousAppDir UsePreviousGroup
+UsePreviousSetupType UsePreviousTasks UsePreviousUserInfo UserInfoPage
+UseSetupLdr
+VersionInfoCompany VersionInfoCopyright VersionInfoDescription
+VersionInfoTextVersion VersionInfoVersion
+WindowResizable WindowShowCaption WindowStartMaximized WindowVisible
+WizardImageBackColor WizardImageFile WizardImageStretch
+WizardSmallImageBackColor WizardSmallImageFile WizardStyle
+/C3 STYLE_OPERATOR
+[
+]
+:
+#include
+=
+\
+/C4
+AdditionalIcons AssocFileExtension AssocingFileExtension Attribs
+BeveledLabel
+Comment CopyMode CopyrightFontName CopyrightFontSize
+CreateDesktopIcon CreateQuickLaunchIcon
+Description DestDir DestName DialogFontName DialogFontSize
+Excludes 
+Filename Flags FontInstall
+GroupDescription
+HotKey
+IconFilename IconIndex
+Key
+LanguageCodePage LanguageID LanguageName  LaunchProgram 
+Name NameAndVersion
+Parameters Permissions ProgramOnTheWeb
+Root RunOnceId
+Section Source Subkey StatusMsg String
+TitleFontName TitleFontSize Type 
+UninstallProgram
+ValueData ValueName ValueType
+WelcomeFontName WorkingDir
+/C5
+32bit
+64bit
+allowunsafefiles
+binary
+checkablealone checkedonce closeonexit comparetimestamp confirmoverwrite
+createallsubdirs createkeyifdoesntexist createvalueifdoesntexist
+createonlyiffileexists
+deleteafterinstall deletekey deletevalue dirifempty disablenouninstallwarning
+dontcloseonexit dword dontcopy dontcreatekey dontinheritcheck
+dontverifychecksum
+exclusive expandsz external
+files filesandordirs fixed foldershortcut fontisnttruetype  full
+hidden hidewizard 
+HKCR HKCU HKLM HKU HKCC
+ignoreversion iscustom isreadme
+modify multisz
+nocompression noencryption noerror none noregerror nowait
+onlyifdestfileexists onlyifdoesntexist overwritereadonly
+postinstall preservestringtype promptifolder
+read readexec recursesubdirs regserver regtypelib replacesameversion restart
+restartreplace runhidden runmaximized runminimized
+sharedfile shellexec skipifdoesntexist skipifnotsilent skipifsilent
+skipifsourcedoesntexist sortfilesbyextension string system
+touch
+unchecked uninsalwaysuninstall uninsclearvalue uninsdeleteentry uninsdeletekey
+uninsdeletekeyifempty uninsdeletesection uninsdeletesectionifempty
+uninsdeletevalue uninsneveruninstall uninsnosharedfileprompt
+uninsremovereadonly uninsrestartdelete uninsneveruninstall useapppaths
+waituntilidle waituntilterminated
+/C6
+app
+cf cf32 cf64 cmd commonappdata commondesktop commonfavorites commonprograms
+commonstartmenu commonstartup commontemplates computername cm
+dao
+drive
+fonts
+group groupname
+hwnd
+ini
+language localappdata
+param pf pf32 pf64
+reg
+sd sendto src srcexe sys sysuserinfoname sysuserinfoorg syswow64
+tmp templates
+uninstallexe userappdata userdesktop userdocs userfavorites userinfoname
+userinfoorg userinfoserial username userprograms userstartmenu userstartup user
+win wizardhwnd

@@ -1,0 +1,66 @@
+/L20"AutoLev" Nocase Line Comment = % File Extensions = al AL all ALL
+/Delimiters = !@$^&*(){}-+=|\/{}[]:;,".?<>	~
+/Indent Strings = "&"
+/C1
+autoepsilon autoexpress autorhs autoz autolevpath
+complex 
+defaults degrees digits doce
+factoring
+input
+overwrite
+pause
+scratch_directory spacing
+units
+/C2
+bodies
+constants
+frames
+inertia
+mass
+newtonian
+particles points
+specified
+variables
+/C3
+abs acos asin atan autotaylor
+cos cosh cross cols cm
+d( dt dot det diagmat
+evaluate exp express eig element
+factorial
+inverse
+log log10
+mag magsq
+polynomial
+real rem round roots represent rows
+sin sinh spline solve
+tan tanh taylor trace transpose
+unitvec
++ 
+- 
+* 
+// / 
+^ 
+= 
+'
+/C4
+angvel
+a1pts a2pts
+constrain
+dircos
+fr frstar force
+gyrostat gravity
+kindiffs kane ke
+momentum
+partials
+remainder
+simprot
+tstar torque
+v1pt v2pts
+/C5
+arrange
+coef
+expand explicit exclude
+factor
+include
+rhs replace
+Zee

@@ -1,0 +1,254 @@
+/L20"C/C++" C_LANG Line Comment = // Block Comment On = /* Block Comment Off = */ String Chars = "' File Extensions = C CPP H HPP AWK
+/Delimiters = ~@%^&*()+=|\/{}[]:;"'<> ,	?
+/Function String = "%[a-zA-Z]*)"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1 KEYWORDS
+auto
+break bool
+case char const continue
+default dllexport2 dllimport2 do double
+else enum extern
+float for
+goto
+if int
+long
+register return
+short signed sizeof static struct switch
+thread2 typedef
+union unsigned
+void volatile
+while
+__asm __based1 __cdecl __declspec __except __fastcall __finally __inline __int16 __int32 __int64 __int8 __leave __stdcall __try
+/C2 CLASSES & DECLARATIONS
+catch class
+delete dllexport dllimport
+friend
+inline
+namespace new
+operator
+private protected public
+template this thread throw try
+using
+virtual
+__multiple_inheritance __single_inheritance __virtual_inheritance
+/C3 FUNCTIONS
+__emit__ _atold _bios_disk _bios_equiplist _bios_keybrd _bios_memsize _bios_printer _bios_serialcom _bios_timeofday _c_exit _cexit _chain_intr _chdrive _chmod _clear87
+_close _control87 _creat _disable _dos_allocmem _dos_close _dos_creat _dos_creatnew _dos_findfirst _dos_findnext _dos_freemem _dos_getdate _dos_getdiskfree _dos_getdrive
+_dos_getfileattr _dos_getftime _dos_gettime _dos_getvect _dos_keep _dos_open _dos_read _dos_setblock _dos_setdate _dos_setdrive _dos_setfileattr _dos_setftime _dos_settime
+_dos_setvect _dos_write _enable _exit _fmemccpy _fmemchr _fmemcmp _fmemcpy _fmemicmp _fmemset _fpreset _fsopen _fstrcat _fstrchr _fstrcmp _fstrcpy _fstrcspn _fstrdup
+_fstricmp _fstrlen _fstrlwr _fstrncat _fstrncmp _fstrncpy _fstrnicmp _fstrnset _fstrpbrk _fstrrchr _fstrrev _fstrset _fstrspn _fstrstr _fstrtok _fstrupr _fullpath _getdcwd
+_getdrive _graphfreemem _graphgetmem _harderr _hardresume _hardretn _lrotl _lrotr _makepath _matherrl _open _OvrInitEms _OvrInitExt _read _rotl _rotr _searchenv
+_setcursortype _splitpath _status87 _strdate _strerror _strtime _strtold _tolower _toupper _write
+FP_OFF FP_SEG
+MK_FP
+abort abs absread abswrite access acos acosl allocmem arc arg asctime asin asinl assert atan atan2 atan2l atanl atexit atof atoi atol
+bar bar3d bcd bdos bdosptr bioscom biosdisk biosequip bioskey biosmemory biosprint biostime brk bsearch
+cabs cabsl calloc ceil ceill cgets chdir chmod chsize circle cleardevice clearerr clearviewport clock close closedir closegraph clreol clrscr complex conj coreleft cos cosh
+coshl cosl country cprintf cputs creat creatnew creattemp cscanf ctime ctrlbrk cout cin cerr
+delay delline detectgraph difftime disable div dosexterr dostounix drawpoly dup dup2
+ecvt ellipse enable eof execl execle execlp execlpe execv execve execvp execvpe exit exp expl
+fabs fabsl farcalloc farcoreleft farfree farheapcheck farheapcheckfree farheapchecknode farheapfillfree farheapwalk farmalloc farrealloc fclose fcloseall fcvt fdopen feof
+ferror fflush fgetc fgetchar fgetpos fgets filelength fileno fillellipse fillpoly findfirst findnext floodfill floor floorl flushall fmod fmodl fnmerge fnsplit fopen fprintf
+fputc fputchar fputs fread free freemem freopen frexp frexpl fscanf fseek fsetpos fstat ftell ftime fwrite
+gcvt geninterrupt getarccoords getaspectratio getbkcolor getc getcbrk getch getchar getche getcolor getcurdir getcwd getdate getdefaultpalette getdfree getdisk getdrivername
+getdta getenv getfat getfatd getfillpattern getfillsettings getftime getgraphmode getimage getlinesettings getmaxcolor getmaxmode getmaxx getmaxy getmodename getmoderange
+getpalette getpalettesize getpass getpid getpixel getpsp gets gettext gettextinfo gettextsettings gettime getvect getverify getviewsettings getw getx gety gmtime gotoxy
+graphdefaults grapherrormsg graphresult
+harderr hardresume hardretn heapcheck heapcheckfree heapchecknode heapfillfree heapwalk highvideo hypot hypotl
+imag imagesize initgraph inp inport inportb inpw insline installuserdriver installuserfont int86 int86x intdos intdosx intr ioctl isalnum isalpha isascii isatty iscntrl
+isdigit isgraph islower isprint ispunct isspace isupper isxdigit itoa
+kbhit keep
+labs ldexp ldexpl ldiv lfind line linerel lineto localeconv localtime lock locking log log10 log10l logl longjmp lowvideo lsearch lseek ltoa
+malloc matherr max mblen mbstowcs mbtowc memccpy memchr memcmp memcpy memicmp memmove memset min mkdir mktemp mktime modf modfl movedata moverel movetext moveto movmem
+norm normvideo nosound
+open opendir outp outport outportb outpw outtext outtextxy
+parsfnm peek peekb perror pieslice poke pokeb polar poly polyl pow pow10 pow10l powl printf putc putch putchar putenv putimage putpixel puts puttext putw
+qsort
+raise rand randbrd randbwr random randomize read readdir real realloc rectangle registerbgidriver registerbgifont registerfarbgidriver registerfarbgifont remove rename
+restorecrtmode rewind rewinddir rmdir rmtmp
+sbrk scanf searchpath sector segread set_new_handler setactivepage setallpalette setaspectratio setbkcolor setblock setbuf setcbrk setcolor setdate setdisk setdta
+setfillpattern setfillstyle setftime setgraphbufsize setgraphmode setjmp setlinestyle setlocale setmem setmode setpalette setrgbpalette settextjustify settextstyle settime
+setusercharsize setvbuf setvect setverify setviewport setvisualpage setwritemode signal sin sinh sinhl sinl sleep sopen sound spawnl spawnle spawnlp spawnlpe spawnv spawnve
+spawnvp spawnvpe sprintf sqrt sqrtl srand sscanf stackavail stat stime stpcpy strcat strchr strcmp strcmpi strcoll strcpy strcspn strdup strerror strftime stricmp strlen
+strlwr strncat strncmp strncmpi strncpy strnicmp strnset strpbrk strrchr strrev strset strspn strstr strtod strtok strtol strtoul strupr strxfrm swab system
+tan tanh tanhl tanl tell tempnam textattr textbackground textcolor textheight textmode textwidth time tmpfile tmpnam toascii tolower toupper tzset
+ultoa umask ungetc ungetch unixtodos unlink unlock utime
+va_arg va_end va_list va_start vfprintf vfscanf vprintf vscanf vsprintf vsscanf
+wcstombs wctomb wherex wherey window write
+/C4 DIRECTIVES
+#define #error #include #elif #if #line #else #ifdef #pragma #endif #ifndef #undef
+/C5 OPERATORS
++
+-
+=
+// /
+%
+&
+>
+<
+^
+!
+|
+
+/C6 TAO's API
+_ahblitm _ahblit _ahsblitm _ahsblit _aihline _aphline _alloc _alias _atan _clone _create _deinit _delete _deref _destroy
+_devproc _div __errno _flushregion _fprintf _free _getattr _getclassfile _hblitm _hblit _hsblitm _hsblit _init _init_class
+_interfacename _loadisr _new _node _numinterfaces _obsize _prepare _resource _ref _setattr _simple_close _simple_open _size
+_sprintf _statfs __string _tracef __tracef
+.align .priority .path .scheduler .subblock .system .toolext .trans
+!absname
+aarc ablit ablitm abox absname acknowledgestate action add addavo addbuffer addbuffer_utf8
+addbyte_utf8 addElement addElements addevt addflush addgeventfilter addhead addimage addinputgen additem addlink
+addlistener addmem addnode addnodeb addnotify addnotifycb addobserver addpatch addrec addrecb addrechead addrectail
+addset addstateimage addstatetext addstroke addtail addtimedevent add_time adler32 afarc afbox afd_endpolling
+afd_startpolling afoval afpoly afrbox ahline aifbox aio_cancel
+aio_error aio_fsync aio_read aio_return aio_suspend aio_write alarm alias align aline alloc alloca
+allocaligned allocblk alloccode allocdata allocdef allocevent allocmail allocstk allocstruct allocsys als
+alter alter_fn and announce any aoval apfbox aplot apoly arbox argcargv arh arrange_args_for
+arrange_args_for_call_on_stack arrange_return_value arrowdown arrowleft arrowright arrowup asblit asblitm
+ashtombs atarc atbox atfarc atfbox atfarc atfbox atfoval atfpoly atfrbox athline atline atom2header atomdump
+atomenum_next atomenum_start atomenum_start2 atomenum_stop atoval atplot atploy atrbox attach atvline au2snd
+autoconf auto_dec ave_new avline
+b2i backspace basename bcleara bclr bcn bcopy bcr begin_i bagin_s begin_t bell besttype bind bintro bit1op bitcount
+bitcountdata bitop blend blit blitm blkbegin blkcpy blklen blocksize bmp2pix box breakpt brighten bsdsum
+bset bsize buttondownevent buttonheldevent buttonupevent bzero
+CommAsyncNotify CommClose CommOpen CommRead CommSemaphoreNotify CommStatus CommWrite
+calccksum calibrate call cancel cancelevent cancelqueue cancelqueuemtx cancel_aio cancel_aio_list ceilf cfgetispeed
+cfgetospeed cfmakeraw cfmakesane cdsetispeed cdsetospeed change changeby change_attr change_colour character_delete
+character_insert check checkflags checkhdrcksum checkhrefs checksum check_status chld chppid chpri circle_back circle_backnext
+circle_buffersize circle_elementsize circle_font circle_frontnext circle_init circle_isroom circle_noroom circle_readpos
+circle_start circle_writepos claim_pixmap claim_sndmap clearerror clearhome clearitems clearmem clearstrokes clear_eol
+clear_eos clip closeall closenetwork closeobs closesession closesocket closetool closetoolkit closevoice clr
+clrcount clrhandle clrhandles clrrec clrstateimage clrstatetext clrtoken clrtokens clr_occured cmp cmp_displayname
+cmp_flags cmp_panose cmp_weight code_ref commit commitall commsevent comp complete_aio config_read config_write
+connect connecta cons contextchange control convert convertback cook copy countformats cmp2pix crc32 crc32p create
+createborder createbutton createcheckbox createchoice createcmenuitem createcolumn createdialog createfile creategadget
+createitem createlabel createlbutton createlcheckbox createlist createlitem createmenu createmenuitem createmenubar
+createpix createprogress createrbutton creatercheckbox createritem createscrollbar createscrollpane createstroke
+createtextarea createtextfield createtitle createwindow csm2snd cstrprint cstrprintu cstrsize cstrsizeu cursorleft
+cursorright cursor_cr cursor_down cursor_home cursor_left cursor_right cursor_up cut
+datasink datasource datasource daysto dbox decode decons defer deflate deflateEnd deflateInit deflateInit2 deflateReset
+deflateSetDictionary defloader defzap deinit deinitmodemstatus deinitstatus deinitstatusx del deleteall delset deref
+derefbuffer deregister deregisterprotocol deschedule destroy detach devinfo devsleep dfafree dfainit dfaproc dispatchk
+dispatchm display divrem dlclose dlerror dllock dlopen dlsym dlunlock dmount dmount_delayed dmp_blk dmp_sin dos2time
+drem dropevent droplink dset dto dtoaefg dunmount
+emit_word empty emptyset enablerecv endRead end_i end_s end_t ensureCapacity ensureCapacity enterchar
+enterevent enumapp enumerate enumfamily enumfiles enumformats enuminstance enumlink enumrec enumstrobj errno
+errorf event evf_assoc evf_destroy evf_disassoc exec exec_c exec_p extract
+fabsf false falsespectrum farc fbox fchmod fcntl fgetattr fillset find findapp findcursor findhandle findindexes
+findinputgen finditems findkey findparent findrelpos find_io find_irq find_mem finish finite finitef firstbit fixed
+fixed_comp fixed_comp_c fixed_comp_p floorf flush flushctx flushicache flushloader flushname fmodf fonts foval
+fpfrac fpoly fppack fpscale fptest fptestf fptrunc fpunpack frbox frecf freeatom freeblk freeblks freeevent freeheap
+freetool free_a free_nda_or_file frmbegin frmend fsetattr fsync fto
+GLOB
+gainevent gamma gcd  generator generator_name generic get getalarm getalpha  getapp getarea getatomname
+getatomvalue getattr getattrib getbaud getbit getbounds getbp getbytes getcandidates
+getcapabilities getcapability getchannel_id getchannel_input getcharpos getchars
+getclip getcommitted getconfig getcontroller getconverter getcurrproc getcursor getdata getdatasize getdtr getecho
+getegid getElement getenumeration geteuid getevent getfields getflagq getfm getfont getfontinfo getformat getformatname
+getfreq getfrmsize getgadgets getgid getgp gethostbyaddr gethostbyaddra gethostbyname gethostbynamea gethostname getid
+getidataxmethod getim getimctx getindex getindexline getinfo getink getitem getitems getitemstate getjavaarraydata
+getjavaclasstoolname getjavaobjectsize getjavaobjecttype getjavastatics getjavastringbufferdata getjavastringdata
+getkeycooker getlargesttokensize getlast getlayout getlineindex getlines getlogin getlookahead getmaintool getmarks
+getmask getmaxsize getmodal getname getnext getnextid getnextresnumber getobj getowner getparams getparent getparentmenu
+getpass_r getpc getpeername getpixinfo getplane getpointerstate getpos getposchar getppid getprefsize getpri getprocesshandle
+getprotobyname getprotobynamea getprotobynumber getprotobynumbera getrand getrawevent getrefcount getrelpos getrts
+getschedpriority getschedstate getschedsuspcount getschedwakecount getscreen getselect getservbyname getservbyname
+getservbynamea getservbyport getservbyporta getsize getsndinfo getsndtype getsockname getsockopt getsp getstate getstateimage
+getstateitems getstatetext getstatics getstdio getstream getstroke getstrokes getstrokesize gettexture getthreadhandle gettimeofday
+gettoken gettokenemask gettoolcode gettoolcodelimit gettooldebugdata gettoolfixuptable gettoolname gettrans gettype gettype
+getUartBaud getUartFlags getuid getuncommitted getupdate getuserinput getutcoffset getvalue getvalues getwc getwidth getwinsize
+getwrap getwritabledata getzindex get_abort get_async get_class_name get_comm get_phys  get_rel_addr get_utf8 get_vendordevice_name
+get_vendor_name gif2pix glob glob_comp glob_comp_c glob_comp_p gmtime_r greyscale grfflush grfreset
+halt handler handler_unset hash hashpjw header2atom header2tool
+hibit hide hideinputgen hidenotify hit hittree hline hold hostparms htonl htons hypotf
+IntVec
+idata ideschedule imageinfo import indframe indlookahead indsenddone indstatus indtransferdone inet_addr inet_aton inet_ntoa
+inet_ntoa_ex inflate inflateEnd inflateInit inflateInit2 inflateReset inflateSetDictionary inflateSync inflateSyncPoint info init
+initmodemstatus initstatus initstatusx inittables inittimefixup init_dup init_dup_rs init_rs inputevent insert insertbreak
+installisr instance int_dis int_en int_off int_on int_restore inv invalidate invert iocomplete ioctlex iogetresp ioinblk_b
+ioinblk_i ioinblk_s ioin_b ioin_i ioin_s iooutblk_b iooutblk_i iooutblk_s ioout_b ioout_i ioout_s ioprep ioprepcallback
+ioprepdevcallback ioprepevent ioprepevf ioprepsignal iotimedwait iowait io_window isfinite isfinitef isinf isinff islocked
+ismember isnan isnanf iso_dec iso_enc ispreempted isupperisxdigit itox iwait ix86common
+j2sj jisx0208 jisx0212
+Kernel KEY_MDFY_ALL KEY_MDFY_C## KEY_MDFY_HLD KEY_MDFY_ONE KEY_MDFY_TGL
+kernelversion kerntoreal keycharevent keydown keydownevent keyevent keyup keyupevent kill
+line_delete line_insert linkdown linkidle linkinitialised linkstarted linkstopped linkup
+linux listen list_enumerate load loader loaderallocmethod loaderclass loaderclassdata loaderclassend loaderfreemethod loadermethod
+loadertrace loadstream lobit local locale localeptr localtime_r lockio lock_simple_mutex log10int lookahead lookup loseevent losefm
+ltoaiodux ltox
+MABs Mailboxes MAKE_OPENTOOL_STD_SKELETON MAKE_OPENTOOL_STD_SKELETON_FOR_VARIANT MAKE_OPENTOOL_WRAPPERS Mutexes
+make makeexec makelink make_tp map matchfont maximum mbox_assoc mbox_disassoc mbsindex mbslen mbstobs memchri memchrs memobject memseti
+memsetl memsets memstats memtest mem_window merge mergectl messenger metrics microtime minimum mkboot mkdir_p mod modemStatus modemstatus
+modemstatusa modemStatusWait modfd modglobs modify modinv modlocal modmul modparent modpow modsig modstack modstklimit modud
+module-genericinfo module-nativeregs module-pid module-processes module-stacktrace mount mount_delayed  mouseevent move movelist move_rs
+mpito ms932_dec ms932_enc mtx_assoc mtx_disassoc mul mxradd mxrrm
+NDA NETITEM_CURRENTADDR NETITEM_PERMANENTADDR
+n2i name nbit nbits ndm_deinit ndm_init ndobj neg netboot next nextdev nextframe nextinputgen notify notifyall notify_flags notify_freq notify_pixel
+notify_sample notify_size notify_trans notify_type ntohl ntohs
+ObVec
+o2njis observe occurred odata on_exit open2d open3d openindex openmxr opennetwork openobs openpix opens openscreen opensession opensnd opentool
+opentoolkit openvoice openvoiceopt optfail option optionIDnda optionnda opts optval orpending otfixup otu-allocargarray otu-alloctoolmem
+otu-arrange-args-for-call otu-arrange-args-for-call-on-stack otu-arrange-return-value otu-calcarglocations otu-calctoollen otu-freeargarray
+otu-getargstackusage otu-parsetoolname otu-writeheader output output-odata output-stdstreams oval
+PID PLANE_SIZE PRIVATEWORD_FLAGS PRIVATEWORD_POINTER PROC_TFHANDLER
+param parse paste pastel pastelscale patchvf pause pcx2pix pc_destroy pending phraseextend phraseshrink pick pidenum_next pidenum_start pidenum_stop
+pipe pix2bmp pix2cpm pix2ppm pix2rpm pix2tga plain play playback_trace playnotify playstream plot plotpick png2pix poolclasses popcount post postevent
+posteventint postlink pow10int power_addlistener primetest process procmask proc_errno protif_getitem protif_send protif_setitem protif_setrec
+protif_transfer put_utf8
+QueryCounter QueryFrequency
+querysize queue_aio
+RF_ATOM RF_CONST RF_FIXUP RF_NDA RF_SYSTEM RF_VIRTUAL RX
+raised randprime rbox rbox rclip rdlock reada readavo readcodei readcodep readmem readtext readv read_nda_or_file read_pixel read_utf8 realtokern
+recognise record record_keyboard record_keyboard_timestamp record_mouse record_mouse_timestamp recv recva recvdone recvframe recvfrom recvfrom
+recvfroma redraw ref refbuffer refcount reference regcomp regdef regerror regexec regfree register registered registerformat registerprotocol
+register_output reg_time release releasechannel_id rem remnotifycb remote removeall removeElement removeElements removeflush removehead removenode
+removerange render repeat reqdefer reqtimer reset resfixup resume ret rethrow rewait rfbug rgbadjust rgbfilter rlookup round rpcall rpcgetportrpchdr
+rpchdrdump rpchdrsetproc rpchdr_null rpchdr_short rpchdr_unix rpcmsgdump rpczpad rpm2pix rsm2snd rw_iso rw_unicode rw_utf8 rx rx_comp rx_comp_c
+rx_comp_p r_iso r_unicode r_utf8
+SIGABRT SIGALRM SIGCHLD SIGCONT SIGDLINE SIGFPE SIGHUP SIGILL SIGINT SIGKILL Signals SIGNULL SIGPIPE SIGQUIT SIGRES SIGSEGV SIGSTOP SIGTERM SIGTOOL
+SIGTSTP SIGTTIN SIGTTOU SIGUSR SIMPLE SIMPLE_LOCK SIMPLE_USE_CCNT SIMPLE_USE_SIZE START_HOOK_FUNCTION SYSOB_SIZE SYSOB_SIZE_NM SYSOB_SUPERCLASS
+SYSOB_FLAGS SYSOB_FLAGS_NM SYSOB_GETCLASS SYSOB_INSTANCEOF SYSOB_NEW SYSOB_NEW_NM SYSOB_OFFSET SYSOB_REFTOOL SYSOB_SUPERCLASS_NM
+save sblitsblitm scale scaleindexdown scaleindexup scansjis sched_op search seek select selectcandidate sem_assoc sem_disassoc send senda sendapp
+senddone sendframe sendfrm sendim sendkeyboard sendmail sendto sendtoa sepia set setallstate setalpha setattr setattrib setattrib setbaud setbp
+setcallback setcb setclip setcolors setconfig setconnection setcontent setcontroller setCtxFlags setcursor setdata setdbg setdtr setecho setElement
+setElements setenv setevent setevt setexc setfer setfilter setflag setflags setfont setformat setfreq setgid sethandle sethit setim setimage
+setimbyname setimctx setimg setindex setink setint setitem setitemstate setlargesttokensize setlayout setlistener setlookahead setlookaheadhandler
+setmarks setmask setmicrotime setmodal setmodemstatus setmulticasts setowner setparams setparentflags setpending setpos setposrel setprefs setpri
+setrecv setrecvhandler setrts setscreen setselect setsenddonehandler setsize setSize setsockopt setspngo setstall setstate setstateimage setstatetext
+setstatus setstatuschange setstatushandler setsys settext settexture settimeofday settimer settoken settokentmask settrans settransferdonehandler
+setUart setuid setupdate setvalues setvoice setwinsize setwrap sgp_assoc sgp_disassoc sgrp structure share shl show showinputgen showmem shownotify shr
+shutdown sigaction sigaddset sigdelset sigismember siglock siglongjmp sigprocmask sigsetjmp sigsuspend sigtimedlock sigunlock sincos sito size sj2j sj2uc
+sjis_dec sjis_enc slto snd2csm snd2rsm sniff snprintf socket sort sp spawn spawnend spawnstart sqrtf stackdepth start startRead startrecord statfs
+statics_delete statics_get status statusa statusax statuscancel statusWait statusx stderr stdin stdout stdwidth stksize stktrace stkvars stop stopenum
+stoprecord stoptimer strbound strboundu strbskpb strbskpw streamtool streamtype strings strlowc strnchr strnlen strnprint strnprintu strnsize strnsizeu
+strprint strprintbm strprintbmu strprintu strptime strsignal strsize strsizeu strskipb strskipw strto strupc strwidth sub subavo subevt subgeventfilte
+subimage subinputgen subitem sublink subnotify subpatch subrec subscribe subscribe_name substateimage substatetext subtimedevent suspend swap sysob_checkclass
+sysob_class sysob_classend sysob_flags sysob_getclass sysob_instanceof sysob_new sysob_offset sysob_reftool sysob_size sysob_superclass systemevent sysV
+TARGET TARGET_ECC TARGET_RMVBL TERMIOS TF_ALIGN1 TF_ALIGN2 TF_DUMMY TF_DUMMY TF_EMBED TF_FIXEDUP TF_FIXEDUP TF_HDREXT TF_HDREXT TF_IMAGE TF_INTERRUPT
+TF_MODIFIED TF_MODIFIED TF_ROM TF_SYSOB TL_BYTES TL_BYTES TL_CKSUM TL_CODE0 TL_CODE0 TL_CODEBYTES TL_FLAGS TL_FLAGS TL_LOADER TL_PROC TL_SIGNATURE
+TL_SKP TL_SKP TL_TOOLNAME TL_TOOLNAME TL_USECOUNT TOOLHDREXT_EMBEDDABLE TOOLHDREXT_JCODECLASS TOOLHDREXT_JCODEMETHOD TOOLHDREXT_JCODESTATICMETHOD
+TOOLHDREXT_MAIN TOOLHDREXT_NOFLUSH TOOLHDREXT_NOSTKCACHE TOOLHDREXT_STKTRACE TOOLHDREXT_WRDATA TSORT_FREEBUF TSORT_GETSIZE TZ Tool
+tao_deschedule tao_dlclose tao_dlerror tao_dlopen tao_dlsym tao_event_deinit tao_event_init  tao_event_reset tao_event_set tao_event_wait tao_free
+tao_getcurrentthreadid tao_icall tao_invoke_intent tao_malloc tao_memcmp tao_msgpipe_read tao_msgpipe_write tao_mutex_deinit tao_mutex_init tao_mutex_lock
+tao_mutex_unlock tao_once tao_onload tao_onunload tao_swap tao_thread_create tao_thread_equal tao_thread_exit tarc tarc tblit tblit tblitm tbox tcdrain
+tcflow tcflush tcgetattr tcsendbreak tcsetattr terminate test teststall tfarc tfbox tfoval tfpoly tfrbox tftpstart tftpstop thline threadevent thread_delete
+thread_get time2dos timedlock timedread timedwait timedwait_fn timer timetotm tline tmtotime toback tobin tod tof tofront tokenevent tokengained tokenlost
+tool tooldbg toolenum_next toolenum_start toolenum_stop tosi tosl tostr tostrl touch toul toval to_utf8 to_utf8s to_wc to_wcs tplot tpoly trace tracef
+trackingevent transfer transferdone trbox trdata trigclip trimToSize trimToSize truncate trylock trymwait tryread trywait trywait_fn tsblit tsblitm tsort
+ttarc ttbox ttfarc ttfbox ttfoval ttfpoly ttfrbox tthline ttline ttoval ttplot ttpoly ttrbox ttvline ttyname tvline typename
+ubound uboundkey uito uitoa ulto unaligned unblock unblockall undoconvert ungenerator
+unloadisr unlockio unlock_simple_mutex unmap unmount uno unregister_output unset unsetdbg
+unsetenv unsetexc unsetint unsetlistener unsetsys unsubscribe unsubscribe unwrap update updatelocal
+updatepatch updatepatchlocal upgrade userevent usleep uudecode
+validate varargs verify visible vline
+vsnprintf vtracef
+WaveFormats
+wait waitpid waitstall wait_fn wake walkleft walkright wav2snd wclip wcs2mbsl wexitstatus width_utf8 wordbits wrap writea writeascii writemem writetext
+writeutf8 writev write_pixel write_utf8 wrlock ws w_iso w_unicode w_utf8
+xarc xargs xblit xblitm xbm2pix xbox xchar xexit xfarc xfarc xfbox xfbox xfbug xfoval xfoval xfpoly xfrbox xgetwidth xhline xline xlocaleptr xoval xplot
+xpoly xprintf xrbox xsblit xsblitm xscanf xstrbound xstrprint xstrsize xtarc xtbox xtfarc xtfbox xtfoval xtfpoly xtfrbox xthline xtline xtoval xtplot xtpoly
+xtrbox xtvline xvline xwrite
+yield
+zap

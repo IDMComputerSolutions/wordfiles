@@ -1,0 +1,5 @@
+/L20"IBM Bookmaster" Line Comment = .* File Extensions = BKM
+/Delimiters = ~!@%^&*()-+=|\/{}[];"'<> ,	?
+/Marker Characters = ":." 
+/C1
+:.

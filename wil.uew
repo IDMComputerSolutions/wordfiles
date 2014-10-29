@@ -1,0 +1,41 @@
+/L20 "WIL" Line Comment = ; String Chars = "' File Extensions = WBT WIL
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> , .?
+/Function String = "%[a-zA-Z_]*)"
+/Indent Strings = "("
+/Unindent Strings = ")"
+/C1
+About Abs Acos AddExtender AppExist AppWaitClose Asin AskDirectory AskFileName AskFileText AskItemList AskLine AskPassword AskYesNo Atan Average
+Beep BinaryAlloc BinaryAnd BinaryClipGet BinaryClipPut BinaryCompare BinaryConvert BinaryCopy BinaryEodGet BinaryEodSet BinaryFree BinaryHashRec BinaryIncr BinaryIncr2
+BinaryIncr4 BinaryIncrFlt BinaryIndex BinaryIndexEx BinaryOleType BinaryOr BinaryPeek BinaryPeek2 BinaryPeek4 BinaryPeekFlt BinaryPeekStr BinaryPoke BinaryPoke2 BinaryPoke4
+BinaryPokeFlt BinaryPokeStr BinaryRead BinaryReadEx BinarySort BinaryStrCnt BinaryTagExtr BinaryTagFind BinaryTagInit BinaryTagRepl BinaryWrite BinaryWriteEx BinaryXor Break 
+ButtonNames
+Call Ceiling Char2Num ClipAppend ClipGet ClipGetEx ClipPut Continue Cos Cosh CurrentFile CurrFilePath CurrentPath
+DDEExecute DDEInitiate DDEPoke DDERequest DDETerminate DDETimeout Debug DebugData DebugTrace Decimals Dialog DirAttrGet DirAttrSet DirChange DirExist DirGet DirHome
+DirItemize DirMake DirRemove DirRename DirSize DirWindows DiskExist DiskFree DiskInfo DiskScan DiskSize DiskVolInfo Display DllCall DllFree DllHinst DllHwnd DllLoad DOSVersion 
+Drop DropWild
+Else Endif EndSession Environment EnvironSet EnvItemize ErrorMode Exclusive Executestatement ExeTypeInfo Exit Exp
+Fabs FileAppend FileAttrGet FileAttrSet FileClose FileCompare FileCopy FileCopyAttr FileDelete FileExist FileExtension FileFullName FileItemize FileLocate FileMapName
+FileMove FileMoveAttr FileNameLong FileNameShort FileOpen FilePath FileRead FileRename FileRoot FileSize FileTimeCode FileTimeGet FileTimeGetEx FileTimeSet FileTimeSetEx 
+FileTimeTouch FileVerInfo FileWrite FileYmdHms FindWindow Floor For
+GetExactTime GetTickCount GoSub Gotolabel
+IconReplace If IniDelete IniDeletePvt IniItemize IniItemizePvt IniRead IniReadPvt IniWrite IniWritePvt InstallFile Int IntControl IsDefined IsFloat IsInt IsKeyDown IsLicensed
+IsMenuChecked IsMenuEnabled IsNumber ItemCount ItemExtract ItemInsert ItemLocate ItemRemove ItemSort
+KeyToggleGet KeyToggleSet
+LastError Log10 LogDisk LogE
+Max MenuChange  Message Min MouseClick MouseClickBtn MouseCoords MouseInfo MouseMove MsgTextGet
+NetInfo Num2Char
+ParseData Pause PlayMedia PlayMidi PlayWaveForm Print
+Random RegApp RegCloseKey RegConnect RegCreateKey RegDeleteKey RegDelValue RegEntryType RegExistKey RegExistValue RegLoadHive RegOpenKey RegQueryBin RegQueryDword
+RegQueryEx RegQueryExpSz RegQueryItem RegQueryKey RegQueryKeys RegQueryMulSz RegQueryValue RegSetBin RegSetDword  RegSetEx RegSetExpSz RegSetMulSz RegSetValue RegUnloadHive 
+Reload  Return Run RunEnviron RunHide RunHideWait RunIcon RunIconWait RunShell RunWait RunZoom RunZoomWait
+Selectvarname SendKey SendKeysChild SendKeysTo SendMenusTo ShellExecute ShortcutDir ShortcutEdit ShortcutExtra ShortcutInfo ShortcutMake Sin Sinh SnapShot Sounds Sqrt
+StrCat StrCharCount StrCmp StrFill StrFix StrFixChars StrFixCharsL StrFixLeft StriCmp StrIndex StrIndexNc StrIndexWild StrLen StrLenWild StrLower StrReplace StrScan StrSub 
+StrSubWild StrTrim StrUpper Switchvarname
+Tan Tanh Terminate TimeAdd TimeDate TimeDayofWeek TimeDayofYear TimeDelay TimeDiff TimeDiffDays TimeDiffSecs TimeJulianDay TimeJulToYmd TimeSubtract TimeWait TimeYmdHms
+to
+Version VersionDLL
+WaitForKey WallPaper While WinActivate WinActivChild WinArrange WinClose WinExeName WinExist WinExistChild WinGetActive WinHelp WinHide WinIconize WinIdGet WinIsDOS
+WinItemChild WinItemize WinItemizeEx WinItemNameId WinItemProcID WinMetrics WinName WinParmGet WinParmSet WinPlace WinPlaceGet WinPlaceSet WinPosition WinResources WinShow 
+WinState WinSysInfo WinTitle WinVersion WinWaitChild WinWaitClose WinWaitExist WinZoom
+Yield Yields
+

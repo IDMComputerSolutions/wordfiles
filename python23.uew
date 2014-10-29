@@ -1,0 +1,158 @@
+/L20"Python 2.3" PYTHON_LANG Line Comment = #  Escape Char = \ File Extensions = PY PYW
+/Indent Strings = ":"
+/Function String 1 = "%[ ,^t]++def[ ]+^([a-zA-Z0-9_]+*^):"
+/Function String 2 = "%[ ,^t]++^(class[ ]+[a-zA-Z0-9_]+*^):"
+/Delimiters = 	[]{}()"',:
+/C1"Reserved Words"
+and as assert
+break
+class continue
+def del
+elif else except exec
+finally for from
+global
+if import in is
+lambda
+not
+or object
+pass print
+raise range return
+try
+yield
+while
+/C2"Built-in Functions"
+__import__
+abs apply
+basestring bool buffer
+callable chr classmethod cmp coerce compile complex
+delattr dict dir divmod
+enumerate eval execfile
+Ellipsis
+file filter float
+False
+getattr globals
+hasattr hash help hex
+id input int intern isinstance issubclass iter
+len list locals long
+map max min
+None NotImplemented
+oct open ord
+pow property 
+raw_input reduce reload repr round
+setattr slice staticmethod sum super str
+tuple type
+True
+unichr unicode
+vars
+xrange
+zip
+/C3"__Methods__"
+__abs__ __add__ __and__
+__call__ __cmp__ __coerce__
+__del__ __delattr__ __delitem__ __delslice__ __div__ __divmod__
+__float__
+__getattr__ __getitem__ __getslice__
+__hash__ __hex__
+__iadd__ __isub__ __imod__ __idiv__ __ipow__ __iand__ __ior__ __ixor__
+__ilshift__ __irshift__
+__invert__ __int__ __init__
+__len__ __long__ __lshift__
+__mod__ __mul__
+__neg__ __nonzero__
+__oct__ __or__
+__pos__ __pow__
+__radd__ __rdiv__ __rdivmod__ __rmod__ __rpow__ __rlshift__ __rrshift__
+__rshift__ __rsub__ __rmul__ __repr__
+__rand__ __rxor__ __ror__
+__setattr__ __setitem__ __setslice__ __str__ __sub__
+__xor__
+/C4"__Attributes__"
+__author__
+__bases__
+__class__
+__dict__ __doc__
+__email__
+__members__ __methods__
+__name__
+__slots__
+__version__
+/C5"Exceptions"
+ArithmeticError AssertionError AttributeError
+DeprecationWarning
+EnvironmentError EOFError Exception
+FloatingPointError FutureWarning
+ImportError IndentationError IndexError IOError
+KeyboardInterrupt KeyError
+LookupError
+MemoryError
+NameError NotImplementedError
+OSError OverflowWarning OverflowError
+PendingDeprecationWarning
+ReferenceError RuntimeError RuntimeWarning
+StandardError StopIteration SyntaxError SyntaxWarning SystemError SystemExit
+TabError TypeError
+UnboundLocalError UnicodeError UnicodeDecodeError UnicodeEncodeError UnicodeTranslateError UserWarning
+ValueError
+Warning WindowsError
+ZeroDivisionError
+/C6"Operators"
++=
+-=
+%=
+// /=
+**=
+&=
+|=
+^=
+>>=
+<<=
+/C7"Common Libs"
+__builtin__
+__future__
+__main__
+_winreg
+aepack aetools aetypes aifc al anydbm applesingle array asynchat asyncore atexit audioop autoGIL
+AL AST
+base64 binascii binhex bisect bsddb buildtools bz2
+BaseHTTPServer Bastion
+calendar cd cfmfile cgi cgitb chunk cmath cmd code codecs codeop colorsys commands compileall compiler copy copy_reg cPickle crypt cStringIO csv curses
+Carbon CGIHTTPServer ColorPicker ConfigParser Cookie
+datetime dbhash dbm difflib dircache dis distutils dl doctest dumbdbm dummy_thread dummy_threading
+DEVICE DocXMLRPCServer
+email encodings errno exceptions
+EasyDialogs
+fcntl filecmp fileinput findertools fl flp fm fnmatch formatter fpectl fpformat ftplib
+FL FrameWork
+gc gdbm gensuitemodule getopt getpass gettext gl glob gopherlib grp gzip
+GL
+heapq hmac hotshot htmlentitydefs htmllib httplib
+HTMLParser
+ic icopen imageop imaplib imgfile imghdr imp inspect itertools
+jpeg
+keyword
+linecache locale logging
+mac macerrors macfs macostools macpath macresource mailbox mailcap marshal math md5 mhlib mimetools mimetypes mimify mkcwproject mmap mpz msvcrt multifile mutex
+MacOS MimeWriter MiniAEFrame
+netrc new nis nntplib nsremote
+Nac
+operator optparse os os ossaudiodev
+parser pdb pgdb pickle pipes pkgutil popen2 poplib posix posixfile pprint preferences profile pstats pty pwd py_compile py_resource pyclbr pydoc pythonprefs
+PixMapWrapper
+quietconsole quopri
+Queue
+random re readline resource rexec rfc822 rgbimg rlcompleter robotparser rotor
+sched select sets sgmllib sha shelve shlex shutil signal site smtplib sndhdr socket stat statcache statvfs string stringprep struct sunau sunaudiodev symbol sys syslog
+ScrolledText SimpleHTTPServer SimpleXMLRPCServer SocketServer SUNAUDIODEV StringIO
+tabnanny tarfile telnetlib tempfile termios test test.test_support textwrap thread threading time timeit token tokenize traceback tty turtle types
+TERMIOS Tix Tkinter
+unicodedata unittest urllib urllib2 urlparse user uu
+UserDict UserList UserString
+videoreader
+warnings waste wave weakref webbrowser whichdb whrandom winsound
+xdrlib xml xmllib xmlrpclib xreadlines
+zipfile zlib
+/C8"Others"
+array
+cls
+fnmatch
+struct self

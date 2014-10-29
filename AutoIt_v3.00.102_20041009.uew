@@ -1,0 +1,144 @@
+/L10"AutoIT 3.00.102" String Chars = '" Line Comment = ; Block Comment On = #cs Block Comment Off = #ce File Extensions = AU3
+/Delimiters = ~%&*()=|/[]:;"'<> ,	.?
+/Function String = "%[ ^t]++Func[ ^t]+^([_a-zA-Z][_a-zA-Z0-9]++^)[ ^t]++^{([ ^t]++[$][_a-zA-Z0-9]+[ ^t]++)^}^{([ ^t]++)^}"
+/Indent Strings = "Then"
+/Indent Strings SOL = "Case" "Do" "Else" "ElseIf" "For" "Func" "If" "Select" "While"
+/Unindent Strings = "Else" "Elsif" "EndFunc" "EndIf" "EndSelect" "Next" "Until" "WEnd"
+/C1"Keywords/Statements"
+#comments-start #comments-end #include #include-once
+If
+Case ContinueLoop
+Dim Do
+Else ElseIf EndFunc EndIf EndSelect Exit ExitLoop
+For Func
+Global
+Local
+Next
+ReDim Return
+Select Step
+Then To
+Until
+While WEnd
+/C2"Internal Functions"
+Abs ACos AdlibDisable AdlibEnable Asc ASin ATan AutoItSetOption AutoItWinGetText AutoItWinSetTitle
+BitAND BitNOT BitOR BitShift BitXOR BlockInput Break
+Call CDTray Chr ClipGet ClipPut ControlClick ControlCommand ControlDisable ControlEnable ControlFocus
+ControlGetFocus ControlGetPos ControlGetText
+ControlHide ControlMove ControlSend ControlSetText ControlShow Cos
+Dec DirCopy DirCreate DirMove DirRemove DriveGetDrive DriveGetFileSystem DriveGetLabel DriveGetSerial
+DriveGetType DriveMapAdd DriveMapDel DriveMapGet DriveSetLabel
+DriveSpaceFree DriveSpaceTotal DriveStatus
+EnvGet EnvSet EnvUpdate Eval Exp
+FileChangeDir FileClose FileCopy FileCreateShortcut FileDelete FileExists FileFindFirstFile FileFindNextFile
+FileGetAttrib FileGetLongName FileGetShortcut FileGetShortName FileGetSize FileGetTime FileInstall FileMove
+FileOpen FileOpenDialog FileRead FileReadLine FileRecycle FileRecycleEmpty FileSaveDialog FileSelectFolder
+FileSetAttrib FileSetTime FileWrite FileWriteLine
+Hex HotKeySet
+IniDelete IniRead IniWrite InputBox Int IsAdmin IsArray IsDeclared IsFloat IsInt IsNumber IsString
+Log
+MemGetStats Mod MouseClick MouseClickDrag MouseDown MouseGetCursor MouseGetPos MouseMove MouseUp MouseWheel MsgBox
+Number
+Opt
+PixelChecksum PixelGetColor PixelSearch ProcessClose ProcessExists ProcessSetPriority ProcessWait
+ProcessWaitClose ProgressOff ProgressOn ProgressSet
+Random RegDelete RegEnumKey RegEnumVal RegRead RegWrite Round Run RunAsSet RunWait
+Send SetError Shutdown Sin Sleep SoundPlay SoundSetWaveVolume SplashImageOn SplashOff SplashTextOn Sqrt
+StatusbarGetText String StringAddCR StringFormat StringInStr StringIsAlNum StringIsAlpha StringIsASCII StringIsDigit
+StringIsFloat StringIsInt StringIsLower StringIsSpace StringIsUpper StringIsXDigit StringLeft StringLen StringLower
+StringMid StringReplace StringRight StringSplit StringStripCR StringStripWS StringTrimLeft StringTrimRight StringUpper
+Tan TimerDiff TimerInt ToolTip TrayTip
+UBound URLDownloadToFile
+WinActivate WinActive WinClose WinExists WinGetCaretPos WinGetClassList WinGetClientSize WinGetHandle WinGetPos WinGetState WinGetText WinGetTitle WinKill WinMenuSelectItem WinMinimizeAll
+WinMinimizeAllUndo WinMove WinSetOnTop WinSetState WinSetTitle
+WinWait WinWaitActive WinWaitClose WinWaitNotActive
+/C3"Macros"
+@AppDataCommonDir @AppDataDir @AutoItVersion
+@CommonFilesDir @Compiled @ComputerName @ComSpec @CR @CRLF
+@DesktopCommonDir @DesktopDir @DesktopDepth @DesktopHeight @DesktopRefresh @DesktopWidth @DocumentsCommonDir
+@error
+@FavoritesCommonDir @FavoritesDir
+@HomeDrive @HomePath @HomeShare @HOUR
+@IPAddress1 @IPAddress2 @IPAddress3 @IPAddress4
+@LF @LogonDNSDomain @LogonDomain @LogonServer
+@MDAY @MIN @MON @MyDocumentsDir
+@OSBuild @OSLang @OSServicePack @OSTYPE @OSVersion
+@ProgramFilesDir @ProgramsCommonDir @ProgramsDir
+@SEC @SW_HIDE @SW_MAXIMIZE @SW_MINIMIZE @SW_RESTORE @SW_SHOW @SW_SHOWDEFAULT @SW_SHOWMAXIMIZED @SW_SHOWMINIMIZED
+@SW_SHOWMINNOACTIVE @SW_SHOWNA @SW_SHOWNOACTIVATE @SW_SHOWNORMAL
+@ScriptDir @ScriptFullPath @ScriptName @StartMenuCommonDir @StartMenuDir @StartupCommonDir @StartupDir @SystemDir
+@TAB @TempDir
+@UserProfileDir @UserName
+@WDAY @WindowsDir @WorkingDir
+@YDAY @YEAR
+/C4"Constants"
+AddString ALL
+CaretCoordMode CDROM Check ColorMode CurrentTab
+DelString
+EditPaste ExpandEnvStrings
+FindString FIXED
+GetCurrentCol GetCurrentLine GetCurrentSelection GetLine GetLineCount GetSelected
+HKEY_CLASSES_ROOT HKEY_CURRENT_CONFIG HKEY_CURRENT_USER HKEY_LOCAL_MACHINE HKEY_USERS
+HKCR HKCC HKCU HKLM HKU HideDropDown
+IsChecked IsEnabled IsVisible INVALID
+left 
+middle
+MouseClickDelay MouseClickDownDelay MouseClickDragDelay MouseCoordMode MustDeclareVars
+NETWORK NOTREADY
+PixelCoordMode
+right
+RAMDISK READY REMOVABLE RunErrorsFatal REG_BINARY REG_DWORD REG_EXPAND_SZ REG_MULTI_SZ REG_SZ
+SendAttachMode SendCapslockMode SendKeyDelay SendKeyDownDelay SelectString SetCurrentSelection ShowDropDown
+TabLeft TabRight TrayIconDebug TrayIconHide
+UnCheck UNKNOWN
+WinDetectHiddenText WinSearchChildren WinTextMatchMode WinTitleMatchMode WinWaitDelay
+/C5"Variables"
+** $
+/C6"Special Keys"
+{!} {#} {+} {^} {{} {}}
+{ALTDOWN} {ALT} {APPSKEY} {ASC}
+{BACKSPACE} {BS} {BROWSER_BACK} {BROWSER_FAVORITES} {BROWSER_FORWARD} {BROWSER_HOME} {BROWSER_REFRESH}
+{BROWSER_SEARCH} {BROWSER_STOP}
+{CAPSLOCK} {CTRLBREAK} {CTRLDOWN}
+{DELETE} {DEL} {DOWN}
+{END} {ENTER} {ESCAPE} {ESC}
+{F1} {F2} {F3} {F4} {F5} {F6} {F7} {F8} {F9} {F01} {F11} {F12}
+{HOME}
+{INSERT} {INS}
+{LALT} {LAUNCH_APP1} {LAUNCH_APP2} {LAUNCH_MAIL} {LAUNCH_MEDIA} {LCTRL} {LEFT} {LSHIFT} {LWINDOWN} {LWIN}
+{MEDIA_NEXT} {MEDIA_PLAY_PAUSE} {MEDIA_PREV} {MEDIA_STOP}
+{NUMLOCK}
+{NUMPAD0} {NUMPAD1} {NUMPAD2} {NUMPAD3} {NUMPAD4} {NUMPAD5} {NUMPAD6} {NUMPAD7} {NUMPAD8} {NUMPAD9}
+{NUMPADADD} {NUMPADDIV} {NUMPADDOT} {NUMPADENTER} {NUMPADMULT} {NUMPADSUB}
+{PAUSE} {PGDN} {PGUP} {PRINTSCREEN}
+{RALT} {RCTRL} {RIGHT} {RSHIFT} {RWINDOWN} {RWIN}
+{SHIFTDOWN} {SLEEP} {SPACE}
+{TAB}
+{UP}
+{VOLUME_DOWN} {VOLUME_MUTE} {VOLUME_UP}
+/C7"Operators"
++
+-
+*
+/
+&
+^
+NOT
+=
+==
+<>
+>
+>=
+<
+<=
+AND
+OR
+/C8"Library Functions"
+_ColorGetBlue _ColorGetGreen _ColorGetRed
+_DateDayOfWeek _DateDaysInMonth _DateIsLeapYear _DateIsValidMonthNum _DateIsValidWeekdayNum
+_DateIsValidYear _DateLastMonthNum _DateLastMonthYear _DateLastWeekdayNum _DateMonthOfYear
+_DateNextMonthNum _DateNextMonthYear _DateNextWeekdayNum _DirRemoveContents
+_FileAppend _FileCountLines _FileCreate _FileReadToArray _FileWriteLog
+_Max _Min
+_RunDOS
+_StringRepeat _StringReverse
+_TicksToTime _TimeIsValidHour _TimeIsValidMinute _TimeIsValidSecond _TimeToTicks

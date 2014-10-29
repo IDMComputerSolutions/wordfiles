@@ -1,0 +1,89 @@
+/L20"Rman Shader" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = SL SLC SLO
+/Delimiters =  	~!@%^&*()-+=|\/{}[]:;"'<> , .?
+/Function String = "%[a-zA-Z_]*)"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1 RESERVED_COMMANDS
+__asm __based __cdecl __export __far __fastcall __fortran __huge __inline __interrupt __loadds __near __pascal __saveregs __segment __segname __self 
+#define #elif #else #endif #error #if #ifdef #ifndef #include #line #pragma #undef 
+auto 
+break 
+case char color const continue 
+default do double 
+else enum extern 
+float for 
+goto 
+if int 
+long 
+normal 
+point 
+register return 
+short signed sizeof static struct switch 
+typedef 
+uniform union unsigned 
+varying void volatile 
+while 
+/C2 RESERVED_VARIABLES
+Ci Cl Cs 
+E 
+I 
+L 
+N Ng 
+Oi Ol Os 
+P 
+alpha 
+class 
+dPdu dPdv delete displacement du dv 
+friend 
+imager inline 
+light 
+ncomps new null 
+operator 
+printf private protected public 
+s surface 
+t this time transformation try 
+u 
+v version virtual volume 
+__multiple_inheritance __single_inheritance __virtual_inheritance 
+/C3 MATH_FUNCTIONS
+Du Dv 
+abs acos asin atan 
+ceil clamp cos 
+degrees 
+exp 
+filteredpulse filteredpulsetrain floor 
+max min mod 
+noise 
+pow pulse pulsetrain 
+random round 
+sign sin smoothstep snoise snoisexy sqr sqrt step 
+tan 
+vsnoise 
+/C4 GEOMETRIC_FUNCTIONS 
+area 
+calculatenormal 
+depth distance 
+faceforward fresnel 
+length 
+normalize 
+reflect refract 
+setxcomp setzcomp 
+transform 
+ycomp 
+/C5 COLOR_FUNCTIONS 
+comp 
+mix 
+setcomp 
+/C6 SHADING_AND_LIGHTING_FUNCTIONS 
+ambient 
+phong 
+specular 
+trace 
+/C7 TEXTURE_MAPPING_FUNCTIONS
+bump 
+environment 
+shadow 
+texture 
+/C8 VOLUME_VARIABLE_ACCESS_FUNCTIONS
+incident 
+opposite 

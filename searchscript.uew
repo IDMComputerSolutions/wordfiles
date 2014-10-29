@@ -1,0 +1,89 @@
+/L20"SearchScript" Nocase Noquote HTML_LANG Block Comment On = %- Block Comment Off = -% File Extensions = HTS
+/Delimiters = ~!@$%^&*()-+=|\{}[]:;"'<> ,	.?
+/C1
+<A </A> <ABOVE> <ADDRESS> </ADDRESS> <APPLET </APPLET> <ARRAY> <AREA </AREA
+<B> </B> <BASE <BASEFONT <BGSOUND <BIG> </BIG> <BLINK> </BLINK> <BLOCKQUOTE> </BLOCKQUOTE> <BODY <BODY> </BODY> <BOX> <BR <BR>
+<CAPTION> </CAPTION> <CENTER> </CENTER> <CITE> </CITE> <CODE> </CODE>
+<DD> <DFN> <DIR> </DIR> <DIV </DIV> <DL> </DL> <DT>
+<EM> </EM> <EMBED
+<FIG> <FONT </FONT> <FORM> <FORM </FORM> <FRAME <FRAMESET </FRAMESET>
+<H <H1> <H2> <H3> <H4> <H5> <H6> </H1> </H2> </H3> </H4> </H5> </H6> <HEAD> </HEAD> <HR> <HR <HTML> </HTML>
+<I> </I> <IMG <INPUT> <INPUT <ISINDEX>
+<KBD> </KBD>
+<LI> <LINK </LI>
+<MAP </MAP> <MARQUEE </MARQUEE> <MENU> </MENU> <META
+<NEXTID <NOBR> </NOBR> <NOFRAMES> </NOFRAMES> <NOTE> </NOTE>
+<OL> </OL> <OPTION> <OPTION 
+<P <P> </P> <PRE> </PRE> <PARAM>
+<RANGE> <ROOT>
+<SAMP> </SAMP> <SCRIPT </SCRIPT> <SELECT> </SELECT> <SMALL> </SMALL> <SOUND <SQRT> <STYLE> <STRIKE> </STRIKE> <STRONG> </STRONG> <SUB> </SUB> <SUP> </SUP> <SELECT
+<TABLE> <TABLE </TABLE> <TD <TD> </TD> <TEXT> <TEXTAREA <TEXTAREA> </TEXTAREA> <TH <TH> </TH> <TITLE> </TITLE> <TR <TR> </TR> <TT> </TT>
+<U> </U> <UL> </UL>
+<VAR> </VAR>
+<WBR>
+/C2
+ACTION= ALIGN= ALINK ALT
+BACKGROUND= BEHAVIOR BELOW BGCOLOR= BORDER=
+CELLPADDING CELLSPACING COLOR= COLS COLSPAN CONTENT=
+DIRECTION
+FACE= FRAMEBORDER= FRAMESPACING=
+HEIGHT= HREF= HSPACE= HTTP-EQUIV=
+ISMAP
+LANGUAGE LINK
+METHOD= MARGINHEIGHT= MARGINWIDTH= MULTIPLE
+NAME= NORESIZE NOSHADE
+ONBLUR ONCLICK ONFOCUS ONLOAD ONMOUSEOUT ONMOUSEOVER
+REV= ROWS ROWSPAN
+SCROLLING SIZE= SRC= START
+TARGET= TEXT= TOPMARGIN TYPE=
+URL=
+VALIGN= VALUE= VLINK= VSPACE=
+WIDTH=
+/C3
+and
+Boolplus
+Course
+else endif endfor exit exitfor
+Fine Fixed for foreach Freetext
+if in
+Medium
+not
+or
+Simple stop
+then to
+/C4
+abs AddHeader asc
+date
+count
+eval exists
+GetCookie getenvvariable GetNextPageURLKeys GetPageURLKeys  GetSummary GetURLKeys
+instr int isempty
+lcase left len log ltrim
+mid
+now
+print printhtmlesc printurlesc
+reverse right rtrim
+setenvvariable SetContentType SetCookie str strcomp
+trim
+ucase undate urlesc urlescpath
+val
+/C5
+AccessQueryMode AccessQueryText Alias Author
+BeginHighlight
+ClientHost ClientSoftware Cluster Clusters ClusterKeywordCount ClusterCount ClusterEffort ClusterOrder ClusterPageSize ClusterScore ClusterStyle Collection CollectionName Comments Created Config Cookie
+DefaultList Description DocsCount DocsEnd DocsFound DocsSearched DocsStart Document DocumentPrint Documents 
+EndHighlight Ext
+Filter
+HLBookmark HLFirstURL HLNavigate HLNextLabel HLPrevLabel HTMLBodyPrint HGMLBodyPrintPre HTMLHeadPrint 
+Index
+Keywords KeywordSummary
+Mime-Type Modified
+Name NextDocMime NextDocURL NextDocXML NextPageURL
+PageNumber PageURLs Path PrevDocMime PrevDocURL PrevDocXML PrevPageURL
+QBEDOC QBE_Key QBE_Input QueryMode QueryText QueryWeight QueryZip
+Rank RefinedQueryZip Request Result ResultCount ResultErrorTemplate ResultField ResultMaxDocs ResultStart ResultTemplate
+Score ScoreThreshold ScriptName SearchURL ServerHost ServerKB ServerPort ServerURL Size Snippet SortSpec SourceQueryMode SourceQueryText State StoredKeywords StoredSummary Subject
+Title
+URL URL_HTML URL_QBE URL_XML
+ViewTemplate
+Web

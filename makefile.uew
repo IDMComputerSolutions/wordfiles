@@ -1,0 +1,18 @@
+/L20"Makefiles" Line Comment = # String Chars = "' File Extensions = MAK MK
+/Delimiters = ~!$%^&-+=|\/{}[];"'()<> ,	
+/Marker Characters = "()"
+/C1"Special Targets"
+.DEFAULT:
+.IGNORE:
+.PRECIOUS:
+.SILENT:
+.SUFFIXES
+/C2"Macros"
+?
+@
+$
+$@
+<
+*
+%
+()

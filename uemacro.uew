@@ -1,0 +1,80 @@
+/L20"UE/UES Macros" Noquote Line Comment = // Line Comment Valid Columns = [1] Block Comment On = /*! Block Comment Off = !*/ File Extensions = UEM
+/Delimiters = ! "	#$%&'()*+,./:;<=>?@[\]^_{|}~«»
+/Indent Strings = "Loop" "IfCharGt" "IfCharIs" "IfColNum" "IfColNumGt" "IfEof" "IfExtIs" "IfFound" "IfFTP" "IfNameIs" "IfNotFound" "IfSel" "Else"
+/Unindent Strings = "EndLoop" "EndIf" "Else"
+/Ignore Strings SOL = "//"
+/Open Brace Strings = "(" "[" "{"
+/Close Brace Strings = ")" "]" "}"
+/Open Fold Strings = "Loop" "IfCharGt" "IfCharIs" "IfColNum" "IfColNumGt" "IfEof" "IfExtIs" "IfFound" "IfFTP" "IfNameIs" "IfNotFound" "IfSel" "Else"
+/Close Fold Strings = "EndLoop" "EndIf" "Else"
+/C1"Condition commands"
+ColumnModeOff ColumnModeOn
+Else EndIf EndLoop ExitLoop ExitMacro
+HexOff HexOn HideOrShowLines HideShowCollapseAll HideShowExpandAll
+IfCharGt IfCharIs IfColNum IfColNumGt IfEof IfExtIs IfFTP IfFound IfNameIs IfNotFound IfSel InsertMode
+Loop
+OverStrikeMode
+PerlReOn
+UltraEditReOn UnixReOff UnixReOn
+/C2"Moving + selecting"
+Bottom
+CancelSelect ClearClipboard Clipboard CloseFile Copy CopyAppend CopyFilePath
+DecryptFilePrompt
+EncryptFilePrompt EndSelect
+Find FindInFiles
+GotoBookMark GotoBookMarkSelect GotoEndOfNextWord GotoEndOfNextWordSelect GotoEndOfPrevWord
+GotoEndOfPrevWordSelect GotoLine GotoLineSelect GotoPage GotoPageSelect
+Key
+MatchBrace MoveLineDown MoveLineUp
+NewFile NextDocument NextWindow
+Open
+PreviousBookmark PreviousBookmarkSelect PreviousDocument PreviousWindow
+SelectAll SelectLine SelectToBottom SelectToTop SelectWord StartSelect
+ToggleBookmark Top
+/C3"Modifying commands"
+ASCIIToUnicode ASCIIToUTF8 AnsiToOem
+ColumnCenterJustify ColumnCut ColumnDelete ColumnInsert ColumnInsertNum ColumnLeftJustify
+ColumnRightJustify CommentAdd CommentRemove CommentSelectionAdd CommentSelectionRemove Cut CutAppend
+DecodeBase64 DelAllBookmarkLines DelAllHiddenLines Delete DeleteLine DeleteToEndofLine DeleteToStartofLine
+DosToMac DosToUnix DupeLine
+EncodeBase64 EnvTemplate
+FromEBCDIC
+GetString GetValue
+HexDelete HexInsert
+InsertLine InsertPageBreak InvertCase
+LngTemplate
+OemToAnsi
+Paste PlayMacro PrjTemplate
+ReIndentSelection ReplInFiles Replace ReturnToWrap RunTool
+Save SaveAll SaveAs SortAsc SortDes SpacesToTabs SpacesToTabsAll
+TabsToSpaces Template TimeDate ToCaps ToEBCDIC ToLower ToUpper TrimTrailingSpaces
+UTF8ToASCII UnicodeToASCII UnixMacToDos
+WrapToReturn
+XMLConvertToCRLF
+/C4"Command parameters"
+All AllFiles Alternate Ascii
+DisplayLinesDoNotMatch
+FavFiles
+Hex
+IgnoreCase IgnoreHiddenSubDirs
+LeadingZero Locale Log
+MatchCase MatchWord
+NoSave Numeric
+OpenFiles OpenMatchingFiles OutputWin
+PreserveCase ProjFiles
+Recursive RegExp RemDupByAllKeys RemDupByAnyKeys RemKey1 RemKey2 RemKey3 RemKey4 RemoveDup
+SearchInColumn Select SelectText SolFiles
+Unicode Up UseEncoding
+/C5"Key codes"
+ARROW
+BACKSPACE
+Ctrl
+DEL DOWN
+END
+HOME
+LEFT
+PGDN PGUP
+RIGHT
+UP
+/C6"Negative numbers"
+** -1 -2 -3 -4 -5 -6 -7 -8 -9

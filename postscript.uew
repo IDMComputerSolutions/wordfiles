@@ -1,0 +1,124 @@
+/L20"PostScript" String Chars = % Line Comment = %% File Extensions = PS EPS
+/Escape Char = \
+/Delimiters = {} 	[]()/\
+/Function String = "/[a-zA-Z0-9_#]+^{[ 	^p]+{^}^{{^}"
+/Indent Strings = "{" "["
+/Unindent Strings = "}" "]"
+/Marker Characters = ""
+/C1 "control"
+(
+)
+begin bind
+def defineresource defineuserobject
+echo end exec execuserobject executive executeonly exit
+filenameforall for forall
+if ifelse
+loop
+noaccess
+pathforall pdfmark prompt
+quit
+readonly repeat resourceforall restore run
+save setglobal start startjob stop stopped
+undef undefineresource undefineuserobject
+/C2 "graphics,font"
+arc arcn arct arcto
+ashow awidthshow
+charpath clip clippath cliprestore clipsave closepath colorimage concat concatmatrix copypage currentblackgeneration currentcmykcolor
+currentcolor currentcolorrendering currentcolorscreen currentcolorspace currentcolortransfer currentdash currentflat currentgray
+currentgstate currenthalftone currenthsbcolor currentlinecap currentlinejoin currentlinewidth
+currentmiterlimit currentoverprint currentpagedevice currentpoint currentrgbcolor currentscreen currentsmoothness currentstrokeadjust currenttransfer currentundercolorremoval curveto
+composefont cshow currentfont
+defaultmatrix dtransform
+definefont
+eoclip eofill erasepage execform
+fill flattenpath
+findencoding findfont
+FontDirectory
+grestore grestoreall gsave
+glyphshow
+GlobalFontDirectory
+idtransform ineofill infill initclip initgraphics identmatrix initmatrix instroke inueofill inufill inustroke invertmatrix image imagemask
+ISOLatin1Encoding
+kshow
+lineto
+makepattern moveto
+makefont
+newpath nulldevice
+pathbox
+rcurveto rectclip rectfill rectstroke reversepath rlineto rmoveto rotate
+rootfont
+scale setblackgeneration setbox setcmykcolor setcolor setcolorrendering setcolorscreen setcolorspace setcolortransfer setdash setflat setgray setgstate sethalftone sethsbcolor setlinecap
+setlinejoin setlinewidth setmatrix setmiterlimit setoverprint setpagedevice setpattern setrgbcolor setscreen setsmoothness setstrokeadjust settransfer shfill showpage stroke strokepath
+scalefont selectfont setcachedevice setcachedevice2 setcharwidth setfont show StandardEncoding stringwidth
+transform translate
+uappend ucache ueofill ufill upath ustroke ustrokepath
+widthshow
+xshow xyshow
+yshow
+/C3 "operators,construct,stack,math"
+[
+]
+<<
+>>
+$error
+aload anchorsearch astore
+array
+abs add and atan
+bitshift
+copy currentglobal currentobjectformat currentpacking cvi cvlit cvn cvr cvrs cvs cvx
+currentdict currentfile currentmatrix
+clear cleardictstack cleartomark copy count countdictstack countexecstack counttomark
+ceiling cos
+dict
+dictstack dup
+div
+errordict execstack
+exch
+eq exp
+findcolorrendering
+false file filter findresource
+floor
+gcheck get getinterval
+globaldict gstate
+ge gt
+index
+idiv
+known
+languagelevel length load
+le ln log lt
+maxlength
+matrix
+mark
+mod mul
+null
+ne neg not
+product put putinterval
+packedarray
+pop pstack
+rcheck realtime resourcestatus revision
+roll
+rand rrand round
+search serialnumber setobjectformat setpacking store
+statusdict string systemdict
+stack
+sin sqrt srand sub
+token type
+true
+truncate
+usertime
+userdict
+UserObjects
+version
+wcheck where
+xcheck
+xor
+/C4 "file"
+= ==
+bytesavailable
+closefile
+deletefile
+fileposition flush flushfile
+print printobject
+read readhexstring readline readstring renamefile resetfile
+status
+write writehexstring writeobject writestring

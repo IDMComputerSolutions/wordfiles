@@ -1,0 +1,48 @@
+/L20"SpamWeasel" Line Comment = // File Extensions = SFR
+/Delimiters = ~!@%^&*()-+=|\/{}[];"'<> ,	?
+/Function String = "%#rule "^(*^)"$"
+
+/C1
+downto 
+else endif
+for 
+gosub 
+if
+next 
+repeat return
+step
+then to 
+until
+
+/C2
+ascii
+BodyMatchesListItem
+chr
+debug
+fclose feof ferror fopen fread fseek ftell fwrite
+FindWordInBody FindWordInHeader FindWordInString 
+GetFirstAddress GetNextAddress
+HeaderFieldExists HeaderFieldValue HeaderMatchesListItem
+hex
+IsOK IsSpam IsValidDate
+left length logevent
+MatchesListItem MessageSize
+mid
+ParseAddress
+pos
+regquerystr regqueryval regsetstr regsetval right
+str
+value
+WildcardMatch WildcardMatchBody WildcardMatchHeader
+
+/C3
+#endrule
+#external 
+#include
+#rule
+as asyc 
+in integer
+string 
+
+/C4
+** :

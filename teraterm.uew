@@ -1,0 +1,71 @@
+/L20"Tera Term Language" Line Comment = ; String Chars = '" File Extensions = ttl
+/Function String = "%:"
+/Indent Strings = "then" "else" "elseif" "do" "until" "while" "for"
+/Unindent Strings = "endif" "else" "elseif" "loop" "enduntil" "endwhile" "next"
+/Open Brace Strings =  "{" "(" "["
+/Close Brace Strings = "}" ")" "]"
+/C1"Communication"
+bplusrecv bplussend
+ir
+clearscreen closett connect
+disconnect
+enablekeyb
+flushrecv
+gettitle
+kmtfinish kmtget kmtrecv kmtsend
+loadkeymap logclose logopen logpause logstart logwrite
+quickvanrecv quickvansend
+recvln restoresetup
+send sendbreak sendfile sendkcode sendln setecho setsync settitle showtt
+testlink
+unlink
+wait waitevent waitln waitrecv
+xmodemrecv xmodemsend
+zmodemrecv zmodemsend
+/C2"Control"
+** :
+call
+else elseif end endif endwhile execcmnd exit
+for
+goto
+if include
+next
+pause
+return
+then
+while
+/C3"String"
+code2str
+int2str
+str2code str2int strcompare strconcat strcopy strlen strscan
+/C4"File"
+fileclose fileconcat filecopy filecreate filedelete filemarkptr fileopen filereadln filerename
+filesearch fileseek fileseekback filestrseek filestrseek2 filewrite filewriteln findfirst,findnext,findclose
+getdir
+makepath
+setdir
+/C5"Password"
+delpassword
+getpassword
+passwordbox
+/C6"Miscellaneous"
+beep
+closesbox
+exec
+getdate getenv gettime
+inputbox
+messagebox
+setdate setdlgpos setenvremoved setexitcode settime show statusbox
+yesnobox
+/C6"Operator"
+and
+not
+or
+xor
+/C7"System Variables"
+inputstr
+param2 param3
+result
+timeout
+/C8"TTL Numbers"
+** $ #

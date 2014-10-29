@@ -1,0 +1,81 @@
+/L14"Red Lion" C_LANG Nocase Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = CD2
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String = "%^([a-zA-Z_0-9^[^]*]+^)[ ^t]+([^p*&:, ^t^[^]a-zA-Z_0-9.!]++)[~;]"
+/Function String 1 = "%[a-zA-Z_0-9*]*::^([a-zA-Z_0-9^~]+^)[ ^t^p]++([^p*&:, ^t^[^]/*^-'=:&a-zA-Z_0-9./(!]++)[~;]"
+/Function String 2 = "%[a-zA-Z_0-9][a-zA-Z_0-9^[^]]+[ ^t*]+^([a-zA-Z_0-9]+^)[ ^t]++([^p*&:, ^t^[^]a-zA-Z_0-9./(!]++)[~;]"
+/Function String 3 = "%[a-zA-Z_0-9*&$^[^]*]+[ ^t]+[a-zA-Z_0-9*&$^[^]]+[ ^t*]+^([a-zA-Z_0-9]+^)[ ^t]++([^p*&:, ^t^[^]a-zA-Z_0-9./(!]++)[~;]"
+/Function String 4 = "%[a-z_0-9^[^]*]++ [a-z_0-9*^[^]]+[ ^t]++[a-z_0-9*^[^]]+[ ^t]++^([*a-z_0-9]+^)[ ^t]++([^p*&:, ^t^[^]a-z_0-9./(!]++)[~;]"
+/Function String 5 = "%^([a-zA-Z_0-9^[^]*]+^)[ ^t]++([^p*&:, ^t^[^]a-zA-Z_0-9./()!]++)[~;]"
+/Member String = "^([A-Za-z0-9_:.]+^)[ ^t^*&]+$S[ ^t^[^]A-Za-z0-9_]++[(-);,]"
+/Variable String = "%[ ^t]++^([!-ÿ~ ^t<>]+*[~a-z^p]^)$S[ ^t;,()^-]"
+/Indent Strings = "{" "if" "else" ":"
+/Unindent Strings = "}"
+/Open Brace Strings =  "{" "(" "["
+/Close Brace Strings = "}" ")" "]"
+/Open Fold Strings = "{"
+/Close Fold Strings = "}"
+/C1"Keywords" STYLE_KEYWORD
+break
+case char const continue cstring
+default defined do double
+else
+float for
+goto
+if int
+long
+register return
+short signed sizeof static switch
+typedef
+unsigned
+void volatile
+while
+/C2"C Keywords" STYLE_KEYWORD
+activealarms
+commserror catch class const_cast
+dispbrightness dispcontrast dispcount dispupdates
+explicit export
+false
+issirenon
+mutable
+namespace new
+operator
+pi private protected public
+static_cast
+timezone timezonemins template this throw true try typeid typename
+usedst using
+wchar_t
+/C3" C extensions" STYLE_EXTENSION
+abs acos  alarmacceptall asin atan atan2
+beep
+clearevents closefile commitandreset compactflasheject compactflashstatus controldevice copy cos createdirectory createfile
+datatotext date dectotext deg2rad deletedirectory deletefile devctrl disabledevice dispoff dispon drvctrl
+emptywritequeue enabledevice endbatch exp exp10
+fill find findfilefirst findfilenext findtagindex formatcompactflash ftpgetfile ftpputfile
+getalarmtag getbatch getcameradata getdate getdiskfreebytes getdiskfreepercent getdisksizebytes getformattedtag getinterfacestatus getinttag getmonthdays getnetgate getnetid getnetip getnetmask getnow getnowdate getnowtime getportconfig getrealtag getstringtag gettaglabel getupdowndata getupdownstep gotopage gotoprevious
+hasaccess hidepopup
+inttotext isdeviceonline iswritequeueempty
+left len loadcamerasetup log log10 logsave
+makefloat makeint max mean mid min muldiv mutesiren
+newbatch nop
+openfile
+pi playrtttl popdev portclose portgetcts portinput portinput portread portsetrts portwrite postkey power
+rad2deg random readdata readfile readfileline renamefile right
+savecamerasetup scale sendfile sendmail set setinttag setlanguage setnetconfig setnow setportconfig setrealtag sgn showpopup sin sirenon sleep sqrt stddev stopsystem strip sum
+tan testaccess texttoaddr texttofloat texttoint time
+usecamerasetup userlogoff userlogon
+waitdata writefile writefileline
+/C4"Operators" STYLE_OPERATOR
+!
+%
+&
+*
++
+-
+// /
+<
+=
+>
+^
+|
+~
+

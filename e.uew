@@ -1,0 +1,70 @@
+/L20"e" Line Comment = // Line Comment Alt = -- Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = e E
+/Delimiters = ! .~%^&@*-+=|()';\/{}[]	:"<> ,?
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/Marker Characters = ""
+/C1"keywords"
+add also appendf as_a
+change cover
+define dut_error
+extend
+fall
+gen
+init instance is 
+list
+of on
+pack post_generate pre_generate
+rise run
+that true
+unpack
+wait
+/C2
+case
+default do
+event emit each else
+for
+import it if
+me  machine
+out outf
+start state
+when while
+using
+/C3"storage keyword"
+bool bits bytes
+class cross
+export
+item int
+keeping keep
+list
+operator
+register
+soft struct
+type
+unit uint
+var
+/C4"operators"
+!= !== !
+%
+& &&
+(
+)
++
+-
+:
+;
+< <=
+= == === =>
+>
+?
+@
+^
+| ||
+~
+/C5
+hdl_path
+size
+}
+{
+/C6
+[
+]

@@ -1,0 +1,70 @@
+// Wordfile for Quercus Personal Rexx
+/L1"Rexx, Quercus" REXX_LANG Nocase NestBlockComments Block Comment On = /* Block Comment Off = */ File Extensions = REX REXX
+
+/Delimiters = '".,;:( )	+-/*|=\^&%<>
+
+// Language keywords
+// C1 displays blue
+/C1"Keywords"
+address all arg
+by
+call commands
+digits do drop
+else end engineering error exit expose external
+failure for forever form fuzz
+halt
+if interpret iterate
+labels leave
+name nop normal novalue numeric
+options off on otherwise
+parse procedure pull push
+queue
+return
+say scan scientific select signal source syntax
+then to trace
+until upper
+value var version
+when while with
+
+//Built-In Functions
+// C2 displays red
+/C2"Functions, Built-In"
+abbrev abs address arg
+bitand bitor bitxor b2x
+center centre charin charout chars compare condition copies c2d c2x
+datatype date delstr delword digits d2c d2x
+errortext
+form format fuzz
+insert
+lastpos left length linein lineout lines
+max min
+overlay
+pos
+queued
+random reverse right
+sign sourceline space stream strip substr subword symbol
+time trace translate trunc
+verify
+word wordindex wordlength wordpos words
+xrange x2b x2c x2d
+
+// Language Extensions
+// C3 displays orange
+/C3"Functions, Extended"
+cancelbox choicebox copytoclipboard
+dateconv delay
+doscd doschdir doschmod doscopy doscreat dosdel dosdir dosdirpos dosdisk dosdrive
+dosenv dosfdate dosfname dosisdev dosisdir dosmkdir dos pathfind dosrename dosrmdir dosvolume
+execio 
+filespec
+getfromclipboard getprofile getrexxdirectory
+listfile lower
+messagebox
+parsefn pcdisk pctype promptbox prxversion
+questionbox
+rexxconsole rexxsourcewindow
+setlocal setprofile sound spawn
+upper
+validname
+winmem winpostmessage winsendkeys winshellexecute winshellfind winshellprint winsendmessage winsound winversion
+//********************* End of Quercus Rexx ************************

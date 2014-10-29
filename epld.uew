@@ -1,0 +1,29 @@
+/L20"EPLD" Line Comment = "  File Extensions = abl abv
+/Delimiters = !%^&*()+=|\/{}[]:;"'<> ,	?
+/C1
+ASYNC_RESET
+Buffer
+Collapse
+Case Collapse Com
+DECLARATIONS Dc Declarations Device
+EQUATIONS End Equations Else Equations.
+FUNCTIONAL_BLOCK FUSES Functional_block Fuses
+Goto 
+INTERFACE If-Then-Else In Interface Istype
+If In Invert Istype
+Keep
+Library
+MACRO Macro Module
+Node Neg
+Output
+Pin Property PIN Pos
+Reg Reg_D Reg_G Reg_JK Reg_SR Reg_T Retain
+STATE_DIAGRAM STATE_REGISTER STATE_REGISTER SYNC_RESET State State_Diagram State_register Sync_reset Signal State
+TEST_VECTORS TITLE TRUTH_TABLE Test_Vectors Title Trace Truth_Table Title Test_vectors Then
+When-Then-Else With
+XOR XOR_FACTORS XOR_Factors Xor
+/C2
+@Alternate @Carry @Const @Dcset @Dcset @Dcstate @Exit @Expr @If @Ifb @Ifdef @Ifiden @Ifnb @Ifndef @Ifniden @Include @Irp @Irpc 
+@Message @Onset @Onset @Page @Radix @Repeat @Setsize @Standard
+/C3
+.ACLR .ASET .AP .AR .AR .ASET .CE .CLK .CLR .SET .COM .D .FB .FC .J .K .LD .LE .LH .OE .PIN .PR .Q .R .RE .S .R .SET .SP .SR

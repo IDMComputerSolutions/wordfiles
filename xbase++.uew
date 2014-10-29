@@ -1,0 +1,165 @@
+/L15"Xbase++" Line Comment = // Block Comment On = /* Block Comment Off = */ String Chars = "'[] DisableMLS Nocase File Extensions = CH XPJ ARC PRG
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String 1 = "%[CLASS]+CLASS"
+/Function String 2 = "%[METHOD]+METHOD"
+/Function String 3 = "%[PROCEDURE]+PROCEDURE"
+/Function String 4 = "%[FUNCTION]+FUNCTION"
+/Indent Strings = "begin" "case" "do case" "do while" "else" "elseif" "exported:" "for" "if" "otherwise" "protected:" "recover" "while"
+/Unindent Strings = "case" "else" "end" "endcase" "endclass" "enddo" "endif" "next" "otherwise" "recover"
+/Ignore Strings SOL = "*" "/*" "*/" "#"
+/Open Brace Strings =  "{" "(" "["
+/Close Brace Strings = "}" ")" "]"
+/Open Fold Strings = "{" "class" "method" "procedure" "function"
+/Close Fold Strings = "}" "endclass" "return"
+/C1"Functions" STYLE_FUNCTION
+AAdd Abs Abstract AChoice AClone ACopy ADel ADir AEval AFields AFill AIns Alert Alias
+Alltrim AltD AppDesktop AppEvent AppKeyState AppName AppType ARemove Array Asc AScan ASize
+ASort At ATail AutomationRequestLicenseKey AutomationTranslateColor
+BAnd Bin2f Bin2i Bin2l Bin2u Bin2Var Bin2w Bof BOr Break Browse BXOr
+CDow CenterControl Char2Hash Char2Var Chr ClassCreate ClassDestroy ClassObject Clone CMonth
+Coalesce CoalesceEmpty Col ColorSelect ComEvalCollection ComLastError ComLastMessage
+ConfirmBox ConvToAnsiCP ConvToOemCP CreateDir CreateObject CtoD CurDir CurDrive
+DacPagedDataStore DacSession DataRef Date Day DbAppend DbCargo DbClearFilter DbClearIndex
+DbClearRelation DbClearScope DbClientList DbCloseAll DbCloseArea DbCommit DbCommitAll
+DbContinue DbCopyExtStruct DbCopyStruct DbCreate DbCreateExtStruct DbCreateFrom DbCreateIndex
+DbDelete DbDeregisterClient DbDescend DbeBuild DbEdit DbeInfo DbeList DbeLoad DbeSetDefault
+DbeUnload DbEval DbExport Dbf DbFilter DbGoBottom DbGoPosition DbGoto DbGoTop DbImport
+DbInfo DbJob DbJoin DbList DbLocate DbLocked DbPack DbPosition DbRecall DbRefresh
+DbRegisterClient DbReindex DbRelation DbRelease DbRequest DbResetNotifications
+DbResumeNotifications DbRList DbRLock DbRLockList DbROrdName DbRResumeSelect DbRRollback
+DbRSelect DbRSuspendSelect DbRUnlock DbScope DbSeek DbSelectArea DbSession DbSetDescend
+DbSetDriver DbSetFilter DbSetFound DbSetIndex DbSetNullValue DbSetOrder DbSetRelation
+DbSetScope DbSkip DbSkipper DbSort DbStruct DbSuspendNotifications DbTotal DbUnlock
+DbUnlockAll DbUpdate DbUseArea DbZap Deleted Descend DevOut DevOutPict DevPos Directory
+DiskSpace DispBegin DispBox DispCount DispEnd DispOut DispOutAt DllCall DllExecuteCall
+DllInfo DllLoad DllPrepareCall DllUnLoad DosError DosErrorMessage DoW DtoC DtoS
+Empty EnableClipRect Eof Error ErrorBlock ErrorLevel ErrorNew Eval EventLogWriteStr Exp
+F2Bin FAttr FClose FCount FCreate FErase FError FExists FieldBlock FieldGet FieldInfo
+FieldName FieldPos FieldPut FieldWBlock File FLock FOpen Found FRead FReadStr FRename
+FSeek FSize FWrite
+Get GetActive GetApplication GetApplyKey GetDoSetkey GetEnableEvents Getenv GetEventReader
+GetHandleEvent GetKillActive GetList GetListPos GetNew GetObject GetParentForm GetPointerPos
+GetPostValidate GetPreValidate GetReader GetToMousePos GetUniqueFileName GraArc GraBackground
+GraBitBlt GraBox GraCaptionStr GraEdge GraError GraFocusRect GraGetRGBIntensity GraGradient
+GraIsRGBColor GraLine GraMakeRGBColor GraMarker GraPathBegin GraPathClip GraPathEnd
+GraPathFill GraPathOutline GraPos GraQueryTextBox GraRotate GraScale GraSegClose GraSegDestroy
+GraSegDraw GraSegDrawMode GraSegFind GraSegLoad GraSegOpen GraSegPickResolution GraSegPriority
+GraSegSave GraSetAttrArea GraSetAttrLine GraSetAttrMarker GraSetAttrString GraSetColor
+GraSetFont GraSpline GraStringAt GraTranslate
+HardCR Header
+I2bin IIf IndexExt IndexKey IndexOrd Inkey Int IsAlpha IsColor IsDebug IsDigit IsFieldVar
+IsFunction IsLower IsMemberVar IsMemvar IsMethod IsNull IsPrinter IsThemeActive IsUnicode IsUpper
+L2bin LastAppEvent LastKey LastRec LChar2Var Left Len Like LoadResource LocaleConfigure
+Log Lower LTrim LUpdate
+Max MaxCol MaxRow MemoEdit MemoLine MemoRead Memory MemoTran MemoWrit MemvarBlock Min MlCount
+MlCtoPos MlPos Mod Month MPostoLc MsgBox
+NetErr Netname NextAppEvent NextKey NoSnow NullIf NumButtons
+OrdBagExt OrdBagName OrdCondSet OrdCount OrdCreate OrdDestroy OrdFor OrdInfo OrdIsCandidate
+OrdIsCustom OrdIsDescend OrdIsPrimary OrdIsSubIndex OrdIsUnique OrdKey OrdKeyAdd OrdKeyNo
+OrdKeyRemove OrdList OrdListAdd OrdListClear OrdListRebuild OrdName OrdNumber OrdSetCustom
+OrdSetFocus OrdWildSeek Os OutErr OutStd
+PadC PadL PadR PCol PCount PostAppEvent ProcLine ProcName PRow PValue
+QOut QQOut
+RandomInt RandomKey RAt ReadExit ReadInsert ReadKey ReadKill ReadModal ReadUpdated ReadVar
+RecCount RecNo RecSize RemoveDir Replicate RestScreen Right RLock Round Row RTrim RunRexx RunShell
+SaveScreen Scroll Seconds Select ServiceApp ServiceController Set SetAppEvent SetAppFocus
+SetAppWindow SetBlink SetCancel SetClipRect SetCollation SetCollationTable SetColor
+SetCursor Setenv SetKey SetLexRule SetLocale SetMode SetMouse SetPos SetPrc SetTimerEvent
+ShellLinkCreate ShellLinkResolve Signal Sleep Soundex Space Sqrt StoD Str Str2Unicode
+StrTran StrZero Stuff SubStr SymbolInfo
+TBApplyKey TBColumn TBColumnNew TBHandleEvent TBrowse TBrowseDb TBrowseNew TBtoMousePos
+Thread ThreadID ThreadInfo ThreadObject ThreadWait ThreadWaitAll Time Tone Transform
+TranslateSysColor Trim Type
+U2bin UIThreadID Unicode2Str Updated Upper Used UuidCreate UuidFromChar UuidToChar
+Val Valtype Var2Bin Var2Char Var2LChar VCrt Version
+W2bin Word WorkSpaceEval WorkSpaceList
+Xbp3State XbpBitmap XbpBrowse XbpCellGroup XbpCheckBox XbpClipBoard XbpColumn XbpCombobox
+XbpCrt XbpDialog XbpFileDev XbpFileDialog XbpFont XbpFontDialog XbpFromPoint XbpHelp
+XbpHelpLabel XbpIWindow XbpListBox XbpMenu XbpMenuBar XbpMetaFile XbpMLE XbpMultiCellGroup
+XbpPartHandler XbpPresSpace XbpPrinter XbpPushButton XbpQuickBrowse XbpRadioButton
+XbpScrollBar XbpSetting XbpSLE XbpSpinButton XbpStatic XbpSysWindow XbpTabPage XbpTreeView
+XbpTreeViewItem XbpWindow
+Year
+/C2"Methods" STYLE_METHOD
+addChild
+create configure childFromName childList captureMouse currentPos currentSize calcClientRect calcFrameRect close
+destroy delChild disable destroy draw
+enable
+getHWND getModalState getFrameState getTitle goBottom goTop
+handleEvent hasInputFocus hide
+invalidateRect isEnabled isVisible init isDerivedFrom
+lockPS
+menuBar
+new
+paint
+resize
+setModalState setPointer setPos setSize setCaption setColorBG setColorFG setFontCompoundName setPresParam show setFrameState setTitle setName setOwner setParent
+toBack toFront
+unlockPS
+winDevice
+/C3"Commands" STYLE_COMMAND
+accept all appBrowse appDisplay appEdit append appField average
+blank
+call cancel clear close commit continue copy count create
+declare delete dir display dllfunction
+eject erase extended external
+file find form
+gets go
+index input
+join
+key keyboard
+label list locate
+memory menu
+note
+pack
+quit
+read recall reindex release rename replace report restore run
+save screen seek select set skip sort store structure sum
+tag text to total type typeahead
+unique unlock update use
+wait
+zap
+/C4"Keywords" STYLE_KEYWORD
+access announce assign assignment
+begin
+case class
+declare deferred do
+else elseif end endcase endclass enddo endif endsequence exit exported
+field final for freeze from function
+hidden
+if in init inline introduce is
+local loop
+memvar method
+next nil
+otherwise override
+parameters private procedure protected public
+readonly recover return request
+self sequence shared sharing static step sync
+to
+using
+var
+while with
+/C5"Events" STYLE_EVENT
+** xbeK_ xbeM_ xbeP_ xbeU_
+/C6"Statements" STYLE_STATEMENT
+#command #define #else #elseif #endif #error #if #ifdef #ifndef #include #pragma #stdout #translate #undef #xcommand #xtranslate
+/C7"Operators" STYLE_OPERATOR
+=
+<
+>
+!
+:
+-
++
+/
+*
+;
+$
+@
+%
+?
+.and.
+.or.
+.not.
+.t.
+.f.

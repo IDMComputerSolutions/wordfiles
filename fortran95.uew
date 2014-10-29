@@ -1,0 +1,104 @@
+/L20"Fortran" FORTRAN_LANG Nocase Line Comment = ! File Extensions = FOR FTN F F90 F77
+/Delimiters = ~!@#$%^&*()_-+={}[]|\;:'" 	<>,.?/
+/Function String = "% +^([ a-zA-Z]+Function[a-zA-Z0-9 ]+(*^)$"
+/Function String 1 = "% +^(^{Subroutine^}^{Program^}*^)$"
+/Indent Strings = "Then" "Do"
+/Unindent Strings = "End If" "EndIf" "End Do" "EndDo"
+/C1"Structure"
+Block
+Contains
+End
+Function
+Interface
+Module
+Program
+Subroutine
+Use
+/C2"InOut"
+Pause
+Return
+Stop
+/C3"Supplied Functions"
+Abs Achar Acos AcosD AdjustL AdjustR Aimag Aint All Allocated Anint Any ASin ASinD Associated Atan AtanD Atan2 Atan2D
+BTest
+Ceiling Char Cmplx Conjg Cos CosD CosH Cotan CoTanD Count CShift
+Dble Dcmplx DFloat Digits Dim Dprod DReal DImag
+EOF EOShift Epsilon Exp Exponent
+Float Floor Fraction
+Huge
+IAbs IAchar Iand IBclr IBits IBset Ichar Ieor Index Int Ior Ishft Ishftc IsNaN
+Kind
+LBound Len LGE LGT LLE LLT Log Log10
+MatMul Max MaxExponent MaxLoc MaxVal Merge Min MinExponent MinLoc MinVal Mod Modulo MvBits
+Nearest Nint Null
+Pack Present Product
+Qcmplx Qext Qfloat Qreal
+Radix Ran Randu Range Repeat Reshape RRspacing
+Scale Scan Shape Sign Sin SinD SinH Size SizeOf Spacing Spread Sngl Sqrt Sum
+Tan TanD TanH Tiny Transfer Transpose Trim
+UBound Unpack UCase
+Verify
+/C4"Declarations"
+Allocatable
+Character Common Complex
+Data Dimension Double
+Equivalence External
+Implicit Include Integer
+Logical
+Optional
+Parameter Precision Private
+Quadruple
+Real Record Recursive
+Save Sequence
+/C5"Statements"
+Accept Allocate Assign
+Backspace
+Call Case Close Continue Cycle
+Deallocate Default Do
+Else ElseIf ElseWhere EndDo EndFile EndIf Exit
+For ForAll Format
+Go GoTo
+If Inquire
+Nullify
+Open
+Print
+Read Rewind
+Select
+Then To Type
+Where While Write
+/C6"Operators"
+*
++
+-
+.
+// /
+:
+<
+=
+>
+and
+eq eqv
+ge gt
+le lt
+ne neqv not
+or
+/C7"Defined constants"
+false
+true
+/C8"File I/O keywords"
+Access Action AssociateVariable
+Blank BlockSize BufferCount Buffered
+CarriageControl Convert
+DefaultFile Delim Direct Disp Dispose
+Err Exist ExtendSize
+File Fmt Form Formatted From
+InitialSize IOStat
+Key
+Location
+MaxRec
+Name Named NextRec NoSpanBlocks Number
+Opened Organization
+Pad Position
+ReadOnly Rec Recl RecordSize RecordType
+Sequential Shared Status
+Unformatted Unit UserOpen

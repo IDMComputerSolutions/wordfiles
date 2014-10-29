@@ -1,0 +1,153 @@
+/L7"Uniface V8.4" Nocase Line Comment = ; String Chars = " File Extensions = uv84 pro trc
+/Delimiters = ~!@%^&*()+=|\{}[];"'<> ,     .?
+/Function String = "%[*]+[ ]+^(^{operation^}^{entry^}?++^)"
+/Function String 1 = "%[ ]+^{warning: ^}^{error: ^}"
+/Function String 2 = "%^{operation ^}^{entry ^}"
+/Open Fold Strings = "if" "entry" "operation" "selectcase" "while"
+/Close Fold Strings = "endif" "end"  "end" "endselectcase" "endwhile"
+/Indent Strings = "params" "variables" "if" "else" "selectcase" "while"
+"operation" "entry"
+/Unindent Strings = "else" "endif" "endparams" "endselectcase"
+"endwhile" "endvariables"
+/Marker Characters = "<>"
+/C1 COMMANDS
+activate addmonths apexit askmess
+blockdata break
+call case clear close clrmess commit compare creocc curoccvideo
+debug delete deleteinstance delitem discard display displaylength done
+edit eject else elsecase elseif end endif endparams endselectcase
+endvariables endwhile entry erase exit
+fieldsyntax fieldvideo filebox filedump fileload findkey
+getitem getlistitems goto
+help
+if
+ldircreate ldirdelete ldirrename length lfilecopy lfiledelete lfiledump
+lfileload lfilemove lfilerename lock lookup lowercase
+macro message moveocc
+newinstance nodebug numgen numset
+open operation
+params perform postmessage pragma print printbreak proccompile pulldown
+putitem putlistitems putmess
+read refresh release reload remocc repeat reset retrieve retrieve/a
+retrieve/o retrieve/reconnect retrieve/x return returns rollback run
+scan selectcase selectdb set setformfocus setocc show skip sleep sort
+sort/list spawn sql store stripattributes
+until uppercase u_condition u_where
+validate validatefield validatekey validateocc variables
+webgen webget while write
+xmlload xmlsave xmlvalidate
+/C2
+append ask async attached
+boolean
+complete component
+date datim desc dump
+e error
+field
+global
+hint
+id image info init
+keyword
+load local
+menu mod
+net next nobeep noborder nolock noterm nowander numeric
+occ
+query
+raw
+save sync string
+topic truncate
+v5profile v6profile
+warning
+:a :ascending :D :descending
+/C3 FUNCTIONS
+$abs $acos $applname $appltitle $asin $atan 
+$batch
+$char $check $clock $collhandle $componentinfo $componentname
+$componenttype $concat $condition $cos $curhits $curkey $curline $curocc
+$curword
+$dataerrorcontext $date $datim $dberror $dbocc $detachedinstances
+$direction $disable $display
+$e $editmode $empty $entinfo $entityproperties $entname $error $exp $exp10 $expression
+$fact $fieldcheck $fielddbmod $fielddbvalue $fieldendmod $fieldindb
+$fieldinfo $fieldmod $fieldname $fieldprofile $fieldproperties
+$fieldvalidation $fieldvalrep $foreign $format $formdb $formdbmod
+$formfocus $formmod $formmodality $formname $formtitle $frac $framedepth
+$gui
+$hide $hits
+$idpart $instancechildren $instancedb $instancedbmod $instancehandle
+$instancemod $instancename $instanceparent $instancepath $instances
+$instancevalidation $int $interactive $ioprint $item $itemnr
+$keyboard $keycheck $keyfields $keymod $keytype $keyvalidation
+$language $ldir $ldirlist $lfileexists $lfileproperties $lines $log
+$log10 $logical $lowercase $ltrim
+$modelname $msgdata $msgdst $msgid $msginfo $msgsrc
+$next $nls_sort_order $nmforms $number
+$occcheck $occcrc $occdbmod $occdel $occdepth $occhandle $occmod
+$occproperties $occstatus $occvalidation $ocxhandle $oprsys $outer
+$page $paintedocc $password $pi $power $previous $printing $procerror
+$procerrorcontext $prompt $properties $putmess
+$relation $replace $result $rettype $rtrim $runmode
+$scan $selblk $selectlist $sin $split $sqrt $status $storetype
+$stripattributes $subsetreturn $syntax
+$tan $text $textexist $time $totdbocc $totkeys $totlines $totocc $typed
+$uppercase $user $uuid
+$valrep $valuepart $variation
+$web $webinfo $windowproperties
+abs acos asin atan
+condition cos
+e exp expression
+fact frac
+int
+log log10
+pi power
+sin sqrt
+tan
+/C4 PRECOMPILE
+<$cmpStateManagedBy>
+<$componentName>
+<$componentType>
+<$entName>
+<$fieldName>
+<$libraryName>
+<$modelName>
+<$tableName>
+<$triggerAbbr>
+#Comment
+#define
+#error
+#else
+#end
+#endif
+#for
+#if
+#ifdefined
+#ifundefined
+#include
+#info
+#undefine
+#warning
+/C5 OPERATORS
+(
+)
+[
+]
++
+-
+*
+/
+=
+;
+%
+&
+> 
+< 
+<=
+>=
+^
+!
+|
+%\
+.
+,
+$$
+<> 
+** @

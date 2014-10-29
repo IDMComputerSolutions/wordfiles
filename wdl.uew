@@ -1,0 +1,134 @@
+/L20 "Acknex WDL V3.9" Nocase Line Comment = # Block Comment On = /* Block Comment Off = */ String Chars = " File Extensions = wdl WDL
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String = "%[a-zA-Z]*)"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1 KEYWORDS
+albedo ambient angle aspeed attach
+below bmaps bullet button
+ceil_angle ceil_hgt ceil_texclip_dist cycle cycles
+delay default digits dist distance
+each_cycle each_tick
+flags floor_angle floor_hgt floor_offs_x floor_offs_y floor_tex follow font frame
+genius global
+hbar height here hit hold hslider
+if_arise if_arived if_dive if_enter if_far if_hit if_klick if_leave if_near if_touch if_release index
+layer left length local
+map_color max min mirror move msprite my
+node1 node2 null
+offset_x offset_y ovlys
+palfile player pan_map picture pos_x pos_y position
+radiance random range rel_angle rel_dist repel right
+scale_x scale_y scycles sdist sides size_x size_y skill1 skill2 skill3 skill4 skill5 skill6 skill7 skill8 speed stick strings svdist svol
+target target_x target_y there title top touch touch_tex touch_text touch_reg touched type
+val vbar vertex view vslider vspeed
+waypoint window
+x1 x2
+y1 y2
+z1 z2
+.x .y
+/C2 ACTION_KEYWORDS
+abs accel acos add addt add_string and asin
+beep branch break
+call continue cos
+drop
+else end exclusive exit exp explode
+fade_pal find freeze
+getmidi goto
+if if_start if_load if_left if_middle if_right if_mstop if_anykey if_f1 if_f2 if_f3 if_f4 if_f5 if_f6 if_f7 if_f8 if_f9 if_f10 if_f11 if_f12
+if_esc if_tab if_ctrl if_alt if_space if_bksp if_cuu if_cud if_cur if_cul if_pgup if_pgdn if_home if_end if_ins if_del if_pause if_car if_cal 
+if_plus if_minus if_0 if_1 if_2 if_3 if_4 if_5 if_6 if_7 if_8 if_9 if_a if_b if_c if_d if_e if_f if_g if_h if_i if_j if_k if_l if_m if_n if_o if_p
+if_q if_r if_s if_t if_u if_v if_w if_x if_y if_z if_above if_below if_equal if_min if_max inkey inport int
+level lift load load_info locate log log2 log10
+map midicom
+next_my next_there next_my_there
+outport
+play_cd play_demo play_flic play_flicfile play_sound play_song play_song_once play_soundfile print_string print_value printfile push
+rotate rule
+save_demo save_info screenshot set set_all set_info set_skill set_string setmidi shake shift shoot sign sin sqrt stop_demo stop_flic stop_sound
+tan tilt to_string
+wait waitt while
+/C3 FLAGS
+abspos autorange
+base behind berkeley blur
+candelaber carefully ceil_ascend ceil_descend center_x center_y clip cluster condensed curtain
+diaphanous
+far fence flag1 flag2 flag3 flag4 flag5 flag6 flag7 flag8
+floor_ascend floor_descend fragile
+ghost ground
+hard 
+immaterial impassable invisible
+liber lightmap
+master moved
+narrow no_clip
+oneshot
+passable play portcullis
+refresh relpos
+save save_all seen sensitive shadow sky sloop sticky
+transparent
+visible
+wire
+/C4 SKILLS
+acceleration active_nexus active_targets actor_ceil_hgt actor_climb actor_dist actor_floor_hgt actor_impact_vx actor_impact_vy actor_impact_vz actor_width aspect
+blur_mode bounce_vx bounce_vy
+cd_track cdaudio_vol channel channel_0 channel_1 channel_2 channel_3 channel_4 channel_5 channel_6 channel_7 clipping color_actors color_border color_player color_things color_walls
+dark_dist debug_mode delta_angle
+error eye_dist
+flic_frame force_ahead force_rot force_strafe force_tilt force_up friction
+hit_dist hit_mindist hit_x hit_y
+impact_vx impact_vy impact_vz impact_vrot inertia
+joy_4 joy_sense joystick_x joystick_y
+key_any key_sense key_f1 key_f2 key_f3 key_f4 key_f5 key_f6 key_f7 key_f8 key_f9 key_f10 key_f11 key_f12 key_esc key_tab key_shift key_ctrl key_alt key_space key_bksp key_cuu key_cud key_cur key_cul
+key_pgup key_pgdn key_home key_end key_ins key_del key_pause key_car key_cal key_plus key_minus key_enter key_1 key_2 key_3 key_4 key_5 key_6 key_7 key_8 key_9 key_0
+key_a key_b key_c key_d key_e key_f key_g key_h key_i key_j key_k key_l key_m key_n key_o key_p key_q key_r key_s key_t key_u key_v key_w key_x key_y key_z  
+light_dist lines load_mode
+map_centerx map_centery map_edge_x1 map_edge_x2 map_edge_y1 map_edge_y2 map_layer map_maxx map_maxy map_minx map_miny map_mode map_offsx map_offsy map_rot map_scale
+max_dist mickey_x mickey_y motion_blur mouse_angle mouse_calm mouse_left mouse_middle mouse_mode mouse_moving mouse_right mouse_sense mouse_time mouse_x mouse_y
+move_angle move_mode music_vol
+player_angle player_arc player_climb player_cos player_depth player_hgt player_last_x player_last_y player_light player_sin player_size
+player_speed player_tilt player_vrot player_vx player_vy player_vz player_width player_x player_y player_z psound_tone psound_vol 
+remode_0 remode_1 render_mode result
+screen_hgt screen_width screen_x screen_y secs shift_sense shoot_angle shoot_fac shoot_range shoot_sector shoot_x shoot_y
+skip_frames sky_offs_x sky_offs_y slope_ahead slope_side slope_x slope_y sound_vol steps str_len
+ticks time_corr time_fac thing_dist thing_width touch_dist touch_mode touch_state
+walk walk_period walk_time wave wave_period
+/C5 KEYWORD_TYPES
+action actor
+bmap
+flic 
+mapfile model music 
+overlay ovly
+panel
+region
+skill sound string synonym
+text texture thing
+wall way
+/C6 METAKEYWORDS
+define
+endif 
+ifdef ifelse ifndef
+undefine
+/C7 PREDEFINED_KEYWORDS
+bind
+clip_dist
+dither drumbank
+ibank include
+light_angle
+mabfile midi_pitch
+nexus
+path
+savedir
+video
+/C8 OPERATORS
++
+-
+=
+/
+%
+&
+>
+<
+^
+!
+|
+*

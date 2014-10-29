@@ -1,0 +1,87 @@
+/L20"Bourne & Korn Shell" Line Comment = #  Escape Char = \ String Chars = "' File Extensions = sh ksh
+/Delimiters = ~%^&()+=|\/{}[]:;"'<> ,	.
+/Function String = "%[a-zA-Z_]*)"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1"COMMAND"
+bg break
+cd continue
+echo eval exec exit export
+fg function
+getopts
+hash
+jobs
+kill
+newgrp
+pwd
+read readonly return
+select set shift stop stty suspend
+test times trap type
+ulimit umask unset
+wait
+/C2"SPECIAL VARIABLES"
+CDPATH
+EDITOR
+HOME
+IFS
+LANG
+MAIL MAILCHECK MAILPATH
+OLDPWD
+PATH PPID PS1 PS2
+REPLY
+SHACCT SHELL
+TERM
+/C3"CONTROL COMMANDS"
+case 
+do done 
+elif else esac 
+fi for 	
+if 
+then 
+while 	
+/C4 
++
+-
+=
+// /
+%
+&
+^
+!
+|
+/C8"I/O REDIRECTION OPERATORS"
+>>
+>&
+<<
+<&
+<
+>
+/C6"SPECIAL PARAMETERS"
+$# $- $? $! $* $@ $$ 
+$0 $1 $2 $3 $4 $5 $6 $7 $8 $9
+/C7"CONDITIONAL PARAMETER"
+-a 
+-o 
+-eq 
+-ne 
+-le 
+-lt 
+-ge 
+-gt 
+-b 
+-c 
+-d 
+-f 
+-g 
+-k 
+-l 
+-p 
+-r 
+-s 
+-S 
+-t 
+-u 
+-w 
+-x 
+-n 
+-z 

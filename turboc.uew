@@ -1,0 +1,118 @@
+/L20"Turbo C++" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = C CPP H
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	?
+/Function String = "%[a-zA-Z_]*)[~;]"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/Ignore Strings SOL = "#" "//"
+/C1"Directives"
+#define #elif #else #endif #if #ifdef #ifndef #include #line #pragma #undef
+defined
+/C2"Reserved words"
+auto
+break
+case cdecl char const continue
+default do double
+else enum extern
+far float for fortran
+goto
+huge
+if int
+label long
+near
+pascal
+register return
+short signed sizeof static struct switch
+typedef
+union unsigned
+void volatile
+while
+/C3"Functions/library"
+FP_OFF FP_SEG
+MK_FP
+_OvrInitEms _OvrInitExt ___emit___ _chmod _clear87 _close _control87 _creat _exit _fpreset _graphfreemem
+_graphgetmem _lrotl _lrotr _open _read _rtol _rtor _setcursortype _status87 _strerror _tolower _toupper
+_write
+abort abs absread abswrite access acos alloc.h allocmem arc arg asctime asin assert assert.h atan atan2
+atexit atof atoi atol
+bar bar3d bcd bcd.h bdos bdosptr bios.h bioscom biosdisk bioskey biosmemory biosprint biostime bisoequip
+brk bsearch
+cabs calloc ceil cgets chdir chmod chsize circle cleardevice clearerr clearviewport clock close closegraph
+clreol clrscr complex complex.h conio.h conj coreleft cos cosh country cprintf cputs creat creatnew
+creattemp cscanf ctime ctrlbrk ctype.h
+delay delline detectgraph difftime dir.h disable div dos.h dosexterr dostounix drawpoly dup dup2
+ecvt errno.h execl execle execlp execlpe execv execve execvp execvpe exit exp
+fabs farcalloc farcoreleft farfree farheapcheck farheapcheckfree farheapchecknode farheapfillfree
+farheapwalk farmalloc farrealloc fclose fcloseall fcntl.h fcvt fdopen feof ferror fflush fgetc
+fgetchar fgetpos fgets filelength fileno fillellipse fillpoly findfirst findnext float.h floodfill
+floor flushall fnmerge fnsplit fopen fprintf fputc fputchar fputs fread free freemem freopen frexp
+fscanf fseek fsetpos fstat fstream.h ftell ftime fwrite
+gcvt generic.h geninterrupt getarccoords getaspectratio getbkcolor getc getcbrk getch getchar getche
+getcolor getcurdir getcwd getdate getdefaultpalette getdfree getdisk getdrivername getdta getenv
+getfat getfatd getfillpattern getfillsettings getftime getmasy getmaxcolor getmaxmode getmaxx
+getmodename getmoderange getpalette getpalettesize getpass getpid getpixel getpsp gets gettestinfo
+gettext gettextsettings gettime getvect getverify getviewsettings getw getx gety gmtime gotoxy
+graphdefaults grapherrormsg graphics.h graphresult
+harderr hardresume hardretn heapcheck heapcheckfree heapchecknode heapfillfree heapwalk highvideo hypot
+imag imagesize initgraph inp inport inportb insline installuserdriver installuserfont int86 int86x
+intdos intdosx intr io.h ioctl iomanip.h iostream.h isalnum isalpha isascii isatty iscntrl isdigit
+isgraph islower isprint ispunct isspace isupper isxdigit itoa
+kbhit keep
+labs ldexp ldiv lfind limits.h line linerel lineto locale.h localeconv localtime lock log log10 longjmp
+lowvideo lsearch lseek ltoa
+malloc math.h matherr max mem.h memccpy memchr memcmp memcpy memicmp memmove memset min mkdir mktemp
+mktime modf movedata movemem moverel movetext moveto
+norm normvideo nosound
+open outp outport outportb outtext outtextxy
+parsfnm peek peekb perror pieslice poke pokeb polar poly pow pow10 printf process.h putc putch putchar
+putenv putimage putpixel puts puttext putw
+qsort
+raise rand randbrd randbwr random randomsize read real realloc rectangle registerbgidriver registerbgifont
+remove rename restorecrtmode rewind rmdir
+sbrk scanf searchpath sector segread setactivepage setallpalette setaspectratio setbkcolor setblock
+setbuf setcbrk setcolor setdate setdisk setdta setfillpattern setfillstyle setftime setgraphbufsize
+setgraphmode setjmp setjmp.h setlinestyle setlocale setmem setmode setpalette setrgbpalette
+settextjustify settextstyle settime setusercharsize setvbuf setvect setverify setviewport setvisualpage
+setwritemode share.h signal signal.h sin sinh sleep sopen spawn spawnl spawnle spawnlp spawnlpe spawnv
+spawnve spawnvp spawnvpe sprintf sqrt srand sscanf stat stat.h stdarg.h stddef.h stdio.h stdiostr.h
+stdlib.h stime stpcpy strcat strchr strcmp strcmpi strcoll strcpy strcspn strdup stream.h strerror
+strftime stricmp string.h strlen strlwr strncat strncmp strncmpi strncpy strnicmp strnset strpbrk
+strrchr strrev strset strspn strstr strstrea.h strtod strtok strtol strtoul strupr strxfrm swab system
+tan tanh tell textattr textbackground textcolor textheight textmode textwidth time time.h timeb.h tmpfile
+tmpnam toascii tolower toupper types.h tzset
+ultoa umask ungetc ungetch unixtodos unlink unlock
+va_arg va_end va_start values.h vfprintf vfscanf vprintf vscanf vsprintf vsscanf
+wherex wherey window write
+/C4"Defines/Types"
+EOF
+FILE
+NULL
+SEEK_CUR
+SEEK_END
+SEEK_SET
+size_t
+/C5"Delimiters"
+!
+$
+&
+(
+)
+*
++
+,
+-
+.
+// /
+:
+;
+<
+=
+>
+[
+]
+{
+|
+}
+~
+/C6"C6 not used"
+/C7"C7 not used"
+/C8"C8 not used"

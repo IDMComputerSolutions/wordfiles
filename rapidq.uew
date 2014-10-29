@@ -1,0 +1,167 @@
+/L20"Rapid Q" Line Comment = ' File Extensions = RQ BAS
+/Function String = "%[PF]*)$"
+/Delimiters = ~!@%^&*-+=|\/{}[]:;"'<> ,	?
+/Indent Strings = "Then"
+/Unindent Strings = "End" "Next" "End If" "End Select"
+/C1"Functions"
+Abs Acos Asc Asin Atn
+Bin$
+CALLBACK CallBack CALLPTR CallPtr CALLFUNC CallFunc CEIL Ceil CHDIR Chdir CHR$ CINT CInt CLNG CLng CLS Cls COLOR Color CONSOLE.INPUTHANDLE Console.InputHandle 
+CONSOLE.OUTPUTHANDLE Console.OutputHandle CONVBASE$ ConvBase$ COS Cos CSRLIN CsrLin
+chr$ 
+DATA Data DATE$ Date$ DEC Dec DELETE$ Delete$ DIR$ Dir$ DIREXSISTS Direxsists
+EXP Exp ENVIRON Environ ENVIRON$ Environ$ EXTRACTRESOURCE ExtractResource 
+False FIELD$ Field$ FILEEXISTS FileExists FIX Fix FLOOR Floor FORMAT$ Format$ FRAC Frac
+HEX$ Hex$
+INC Inc INITARRAY InitArray INKEY$ Inkey$ INP Inp INPUT Input INPW InpW INSERT$ Insert$ INSTR Instr INT Int
+LBOUND LBound LCASE$ LCase$ LEFT$ Left$ LEN Len LIBRARYINST LibraryInst LOCATE Locate LOG Log LPRINT LPrint LTRIM$ LTrim$ 
+MEMCMP MemCmp MEMCPY MemCpy MEMSET MemSet MESSAGEBOX MessageBox MESSAGEDLG MessageDlg MID$ Mid$
+OUT Out OUTW OutW
+PCOPY Pcopy PEEK Peek PLAYWAV PlayWav POKE PoKe POS(0) Pos(0) POSTMESSAGE PostMessage PRINT Print
+QUICKSORT QuickSort
+READ Read RENAME Rename REPLACE$ Replace$ REPLACESUBSTR$ ReplaceSubstr$ RESOURCE Resource ReVerse$ Reverse$ RGB Rgb RIGHT$ Right$ RINSTR RInstr RND Rnd ROUND Round RTRIM$ 
+RTrim$
+SCREEN Screen SENDMESSAGE SendMessage SETCONSOLETITLE SetConsoleTitle SGN Sgn SIN Sin SPACE$ Space$ SQR Sqr STR$ Str$ STRF$ Strf$ STRING$ String$ SWAP Swap
+TALLY Tally TAN Tan TIME$ Time$ TIMER Timer True
+UBOUND UBound UCASE$ UCase$
+VAL Val VARPTR VarPtr VARPTR$ VarPtr$ VARTYPE VarType
+/C2"Properties"
+Aborted Align Alignment AllowAllUp AllowInPlace AutoPopup AutoScroll AutoShow
+BackColor BaudRate Bevel Beveled BevelInner BevelOuter BevelWidth BorderStyle BMP BMPClosed BmpHandle BMPLeaf BMPMinus BMPOpen BMPPlus BMPHandleClosed BMPHandleLeaf 
+BMPHandleMinus BMPHandleOpen BMPHandlePlus BorderStyle ButtonStyle
+Cancel Capabilities.Copies Capabilities.Orientation Capabilities.Collate Caption Cell Charset CheckBoxes Checked ClientHeight ClientWidth Col ColCount ColumnClick 
+Columns ColumnsCount ColumnList ColumnStyle ColWidths Command Connected Copies CopyMode Count CurrentKey CurrentPath Cursor
+DataBits DB DBCount Default DefaultColWidth DefaultRowHeight Directory Down DropDownCount Duplicates
+EditorMode Empty Enabled ExeName ExtendedSelect 
+Family FastLoad FieldCount Field.Decimals Field.Flags Field.Length Field.MaxLength Field.Name Field.Table Field.Type Filename FixedColor FixedCols FixedRows Flat FlatButtons 
+FlatSeperators FocusButtons Font FontCount Fonts FontsCount ForeColor Format FormatCount Frequency
+GetDataSize GetDataType GridHeight GridLines GridLineWidth GridWidth GroupIndex
+Handle HasSubKeys Height HelpFile HideScrollBars HideSelection Hint HintColor HintHidePause HintPause HintShortPause HorzIncrement HorzMargin HorzPosition HorzRange 
+HorzTracking HorzVisible HotTrack 
+Icon IcoHandle Indent InitialDir InQue Interval Item ItemCount ItemHeight ItemIndex ItemSeparator
+KeyItemCount KeyPreview Kind
+LargeChange LargeImages Layout Left LeftCol Length LineCount LineSize LParam
+Max MaxFontSize MaxLength MenuIndex Min MinFontSize MinSize ModalResult Modified Monochrome MouseX MouseY MySocket
+NumBMPs
+Orientation OutLineStyle OutQue
+PageHeight PageNumber PageSize PageWidth Parent Parity PendingIO Pitch Pixel PixelFormat Plaintext Pointer PopupMenu Port Position PrinterIndex Printers PrintersCount 
+Printing Protocol
+RadioItem ReadBufSize ReadOnly ReadOnStart RootKey Row RowCount RowHeights RowSelect
+ScrollBars ScrollOpposite SelAttributes SelCount SelEnd SelLength SelStart SelText Separator ShortCut ShowButtons ShowColumnHeaders ShowHint ShowIcons ShowLines ShowRoot 
+ShowText Size SizeMode SmallChange SmallImages Sorted SortType Spacing State StateImages StopBits Style SubItem
+TabHeight TabInactiveColor TabInactiveFont TabIndex Table TableCount TabOrder TabPosition TabStops TabWidth Tag Text TickMarks TickStyle Title Top TopIndex TopRow 
+Transferred Transparent TransparentColor TransparentMode Type
+ValueItemCount VertIncrement VerticalTabs VertMargin VertPosition VertRange VertTracking VertVisible ViewStyle Visible VisibleColCount VisibleRowCount 
+WantTabs WhereX WhereY Width WindowHandle WindowState WMessage Wordwrap WriteBufSize 
+/C3"Methods"
+Abort AbortAllIO Accept AddBorderIcons AddChild AddChildItems AddColumns AddList AddFileTypes AddItems AddLines AddOptions AddPanels AddStrings AddSubItem AddDirTypes 
+AddDriveTypes AddOptions AddTabs AddStyles
+BeginDoc Build
+Center Circle Clear ClearColumns Close CloseKey Collapse Connect ConnectionReady Container CopyFrom CopyRect CopyToClipboard CreateDB CreateKey CreateObject CreateRemote 
+CutToClipboard
+DelBorderIcons DelDirTypes DeleteCol DeleteRow DeleteKey DeleteValue DelFileTypes DelIndex DelItems DelLines DelOptions DelStyles DelSubItem DelTabs Draw DropDB
+EndDoc EscapeString Exchange Execute ExtractRes
+FetchField FetchLengths FetchRow FieldSeek FillRect Filter FilterIndex Free FullCollapse FullExpand
+GetAsHandle GetAsText GetFont GetHostIP GetHostName GetIDofName GetItemAt GetObject GetPeerName
+HasFormat HelpCommand HelpContext HelpJump HideTitleBar
+IndexOf Insert InsertItem InsertSubItem InsertTab Invoke InvokeCopy IsClientReady IsServerReady
+KeyExists KeyItem
+Line LoadArray LoadFromFile LoadFromStream
+MemCopyFrom MemCopyTo Minimize MoveKey
+NewPage
+Open OpenKey
+Paint Parse PasteFromClipboard Popup Pset PurgeIn PurgeOut
+Query
+ReadBinary ReadBinStr ReadByte ReadFloat ReadInteger ReadLine ReadNum ReadStr ReadString ReadUDT RealConnect Rectangle Refresh RegistryConnect Reload RenameValue 
+Rotate RoundRect RowBlob RowSeek
+SaveArray SaveToFile SaveToStream Seek SelectAll SelectDB SetAsHandle SetAsText SetFont SetTick ShapeForm ShowModal ShowTitleBar SimplePanel SimpleText SizeGrip Sort 
+StartDrag StretchDraw SwapCols SwapRows SwapItem
+Terminate TextHeight TextOut TextRect TextWidth 
+tag 
+ValueExists ValueItem Visible
+WaitForLastIO Write WriteBinary WriteBinStr WriteByte WriteFloat WriteInteger WriteLine WriteNum WriteStr WriteString WriteUDT
+/C4"Events"
+OnApply OnBreak OnChange OnChanging OnClick OnClose OnCollapse OnCollapsing OnColumnClick OnDblClick OnDeletion OnDrawItem OnDrawCell OnEdited OnEditing OnEllipsisClick 
+OnEnter OnError OnExpand OnExpanding OnGetImageIndex OnGetSelectedIndex OnHint OnKeyDown OnKeyPress OnKeyUp OnListDropDown OnMeasureItem OnMouseDown OnMouseMove OnMouseUp 
+OnMoved OnObjectMove OnOpen OnPaint OnPopup OnResize OnRing OnRxChar OnSelectCell OnSetEditText OnShow OnTimer OnTxEmpty
+WndProc
+/C5"Statements"
+As AS  And AND
+Bind BIND Byte
+CALL Call CASE Case Const CONST Create CREATE 
+DECLARE Declare DEF Def DIM Dim Do Do DOEVENTS DoEvents Double  
+ELSE Else ELSEIF ElseIf END End EVENT
+FILECOPY FileCopy FOR For FUNCTION Function FUNCTIONI Functioni
+GOSUB GoSub GOTO GoTo
+IF If Integer
+KILL Kill KILLMESSAGE KillMessage
+LFLUSH LFlush Long LOOP Loop
+MKDIR MkDir
+NEXT Next
+RANDOMIZE Randomize REDIM ReDim RESTORE Restore RESOURCECOUNT ResourceCount RMDIR RmDir RUN Run
+SELECT Select SHELL Shell Short SHOWMESSAGE ShowMessage Single SLEEP Sleep SOUND Sound STATIC Static String SUB Sub SUBI Subi
+THEN Then TYPE 
+UNLOADLIBRARY UnloadLibrary
+WEND Wend WHILE While WITH With Word
+/C6"Objects"
+APPLICATION
+CLIPBOARD
+QBitmap QButton QCanvas QCheckBox QComboBox QComPort QCoolBtn QDirtree QEdit QFilelistBox QFileStream QFont QFontDialog QForm QGauge QGlassframe QGroupBox QHeader QImage 
+QImageList QLabel QListbox QListView QMainMenu QMemoryStream QMenuItem QMySql QOpenDialog QOleContainer QOleObject QOutline QPanel QPopupMenu QRadioButton QRect QRegistry 
+QRichEdit QSaveDialog QScrollBar QScrollBox QSocket QSplitter QStatusBar QStringGrid QStringList QTabconTrol QTimer QTreeView QTrackBar
+PRINTER
+SENDER
+/C7"Directives"
+$APPTYPE $DEFINE $ESCAPECHARS $IFDEF $IFNDEF $INCLUDE $MACRO $OPTIMIZE $OPTION $RESOURCE $TYPECHECK $UNDEF
+BYREF BYTECODE
+CONSOLE CGI
+DECIMAL
+EXPLICIT
+GUI GTK
+ICON INKEY$
+OFF ON
+WEAKTYPE 
+/C8"Constants"
+
+alBottom alClient alLeft alNone alTop 
+AltDown AF_APPLETALK AF_BAN AF_CCITT AF_CHAOS AF_DATAKIT AF_DECnet AF_DLI AF_ECMA AF_FIREFOX AF_HYLINK AF_IMPLINK AF_INET AF_IPX AF_ISO AF_LAT AF_NETBIOS AF_NS AF_OSI AF_PUP 
+AF_SNA AF_UNIX AF_UNKNOWN1 AF_UNSPEC AF_VOICEVIEW ANSI_CHARSET
+biHelp biMaximize biMinimize biSystemMenu bkAbort bkAll bkCancel bkClose bkCustom bkHelp bkIgnore bkNo bkOK bkRetry bkYes blBMPBottom blBMPLeft blBMPRight blBMPTop bpNone 
+bpSingle br110 br300 br600 br1200 br2400 br4800 br9600 br14400 br19200 br38400 br56000 br57600 br115200 bsNone bsDialog bsSingle bsSizeable bsSizeToolWin bsToolWindow 
+bvLowered bvNone bvRaised
+CtrlDown
+caClose caNone caHide caFree caMinimize cl3DDkShadow cl3DLight clActiveBorder clActiveCaption clAppWorkSpace clBlack clBlue clBtnFace clBtnHighlightclBtnShadow clBtnText 
+clDefault clGrayText clGreen clHilight clHilightText clInActiveBorder clInActiveCaption clInActiveCaptionText clInfoBk clInfoBk3DDkShadow clInfoText clMenuText clNone clPurple 
+clRed clBackGround clCaptionText clMenu clScrollBar clWhite clWindow clWindowFrame clWindowTextcmBlackNess cmBlackness cmDstInvert cmMergeCopy cmMergePaint cmNotSrcCopy 
+cmNotSrcErase cmPatCopy cmPatInvert cmPatPaint cmSrcAnd cmSrcCopy cmSrcErase cmSrcInvert cmSrcPaint cmWhiteness crAppStart crArrow crCross crDefault crDrag crHandPoint crHelp 
+crHourGlass crHSplit crIBeam crMultiDrag crNo crNoDrop crNone crSize crSizeNESW crSizeNS crSizeNWSE crSizeWE crSQLWait crUpArrow crVSplit csDropDown csDropDownList 
+csOwnerDrawFixed csOwnerDrawVariable csSimple 
+DEFAULT_CHARSET
+drtCDRom drtFixed drtRamDisk drtRemote drtRemovable drtUnknown dsFocused dsSelected dsTransparent dtAll dtHidden dtNormal dtSystem dtReadOnly dupAccept dupError dupIgnore
+ecLowerCase ecNormal ecUpperCase
+faAnyFile faArchive faDirectory faHidden faReadOnly faSysFile faVolumeID fdAnsiOnly fdApplyButton fdEffects fdFixedPitchOnly fdForceFontExist fdLimitSize fdNoFaceSel 
+fdNoOEMFonts fdNoSimulations fdNoSizeSel fdNoStyleSel fdNoVectorFonts fdScalableOnly fdShowHelp fdWysiwyg fdTrueTypeOnly ffExponent ffFixed ffGeneral ffNumber fmCreate 
+fmOpenRead fmOpenReadWrite fmOpenWrite fpDefault fpFixed fpVariable fsBold fsItalic fsMDIChild fsMDIForm fsNormal fsStayOnTop fsStrikeOut fsUnderline ftArchive ftDirectory 
+ftHidden ftNormal ftReadOnly ftSystem ftVolumeID
+gcsEllipsis gcsList gcsNone gkHorizontalBar gkNeedle gkPie gkText gkVerticalBar goAlwaysShowEditor goColMoving goColSizing goDrawFocusSelected goEditing goFixedHorzLine 
+goFixedVertLine goHorzLine goRangeSelect goRowMoving goRowSelect goRowSizing goTabs goThumbTracking goVertLine 
+hsOwnerDraw hsText
+itImage itMask
+IPPROTO_ICMP IPPROTO_IDP IPPROTO_IP IPPROTO_PUP IPPROTO_RAW IPPROTO_TCP IPPROTO_UDP
+lbOwnerDrawFixed lbOwnerDrawVariable lbStandard lsNone lsRaised lsRecessed
+Num_BYTE Num_DOUBLE Num_DWORD Num_LONG Num_SHORT Num_SINGLE Num_WORD
+MAC_CHARSET
+mbAbort mbAll mbCancel mbHelp mbIgnore mbNo mbOK mbRetry mbYes mrAll mrAbort mrCancel mrIgnore mrOK mrNo mrNone mrNoToAll mrRetry mrYes mrYesToAll mtConfirmation mtCustom 
+mtError mtInformation mtWarning 
+ooDrawFocusRect ooDrawStretchBitmaps ooDrawTreeRoot osEmpty osInPlaceActive osLoaded osOpen osPictureText osPlusMinusPictureText osPlusMinusText osRunning osText 
+osTreePictureText osTreeText osUIActive
+pf1bit pf4bit pf8bit pf15bit pf16bit pf24bit pf32bit pfDevice poLandscape poPortrait prEven prMark prNone prOdd prSpace
+QBColor(0) QBColor(1) QBColor(2) QBColor(3) QBColor(4) QBColor(5) QBColor(6) QBColor(7) QBColor(8) QBColor(9) QBColor(10) QBColor(11) QBColor(12) QBColor(13) QBColor(14) 
+QBColor(15)
+sbHorizontal sbOne5StopBits sbOneStopBit sbTwoStopBits sbVertical scBottom scEndScroll scLineDown scLineUp scPageDown scPageUp scPosition scTop scTrack smAutoSize smCenter 
+smClip smScale smStretch soFromBeginning soFromCurrent soFromEnd ssAlt ssBoth ssCtrl ssHorizontal ssNone ssShift ssVertical stBoth stData stNone stText
+ShiftDown
+SOCK_DGRAM SOCK_RAW SOCK_RDM SOCK_SEQPACKET SOCK_STREAM SND_ASYNC SND_LOOP SND_SYNC 
+taCenter taLeftJustify taRightJustify tbHorizontal tbVertical tlBottom tlCenter tlTop tmAuto tmBoth tmBottomRight tmFixed tmTopLeft tsAuto tsManual tsNone
+vsIcon vsList vsReport vsSmallIcon
+wsMaximized wsMinimized wsNormal

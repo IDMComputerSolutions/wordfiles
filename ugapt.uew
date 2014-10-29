@@ -1,0 +1,39 @@
+/L20"UG/APT Source" Nocase Line Comment = PPR Line Comment Alt = MSY Block Comment On = $  File Extensions = CLS GRS
+/Delimiters = ~!@%^&*()+=|\/{}[]:;"'<> ,	.?
+/C1"UI_cyan"
+CALL CHOOSE
+GPOS
+IDENT
+LOAD
+MACRO
+PARAM
+TERMAC TEXT
+/C2"CRITICAL_red"
+RAPID
+/C3"YELLOW"
+/C4"LOGIC_elec green"
+AUXFUN
+INSERT IF
+JUMP
+MODE
+PLABEL
+POSTN
+PREFUN
+/C5"magenta"
+COPY
+INDEX
+OPSKIP
+TRACUT TRANS
+/C6"FILE OPS_white"
+APPEND
+CREATE
+DELIM
+FILE FETCH FPRINT FTERM
+READ RESET
+WRITE
+/C7"brown"
+LOADTL
+/C8"dark gray"
+COOLNT
+SPINDL
+

@@ -1,0 +1,105 @@
+/L20"'C' for C167" C_LANG Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = C H
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	?
+/Function String = "%[a-zA-Z_]*)[~;]"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/Ignore Strings SOL = "#" "//"
+/C1"Directives"
+#define #else #endif #if #ifdef #ifndef #include #pragma #undef
+alias align asm asm_noflush automatic
+class clear combine cse
+default_attributes define defined
+endasm eramdata
+fix_byte_write
+global
+include iramdata
+macro
+noalias noclear nofix_byte_write noframe nomacro nosource
+public
+regdef restore_attributes romdata
+save_attributes size source speed static switch_force_table switch_smart
+/C2"Reserved words"
+_at _atbit _inline
+bit bita bitword break
+case char const continue
+default do double
+else esfr esfrbit extern
+far float for
+goto
+huge
+if int iram
+long
+near
+register return
+sfr sfrbit signed sizeof size_t struct switch system
+typedef
+unsigned
+void volatile
+while
+/C3"Functions/library"
+_fstrcat _fstrchr _fstrcmp _fstrcpy _fstrcspn _fstrlen _fstrncat _fstrncmp _fstrncpy _fstrpbrk _fstrrchr
+_fstrspn _fstrstr _fstrtok _hstrcat _hstrchr _hstrcmp _hstrcpy _hstrcspn _hstrlen _hstrncat _hstrncmp
+_hstrncpy _hstrpbrk _hstrrchr _hstrspn _hstrstr _hstrtok _ioread _iowrite _stime _time _tolower _toupper
+_tzset
+abort abs acos asctime asin assert assert.h atan atan2 atexit atof atoi atol
+bsearch
+c166.h calloc ceil clearerr clock cos cosh ctime ctype.h
+difftime div
+errno.h exit exp
+fabs fclose feof ferror fflush fgetc fgets float.h floor fmod fopen fprintf fputc fputs fread free
+freopen frexp fscanf fwrite
+getc getchar gets gmtime
+isalnum isalpha isascii iscntrl isdigit isgraph islower isprint ispunct isspace isupper isxdigit
+labs ldexp ldiv limits.h locale.h localtime log log10 longjmp
+malloc malloc.h math.h memchr memcmp memcpffb memcpffw memcpfhb memcpfhw memcpfnb memcpfnw memcpfsb
+memcpfsw memcphfb memcphfw memcphhb memcphhw memcphnb memcphnw memcphsb memcphsw memcpnfb memcpnfw
+memcpnhb memcpnhw memcpnnb memcpnnw memcpnsb memcpnsw memcpsfb memcpsfw memcpshb memcpshw memcpsnb
+memcpsnw memcpssb memcpssw memcpy memmove memset mktime modf
+offsetof
+pow printf putc putchar puts
+qsort
+rand realloc reg163.h reg165.h reg166.h reg167.h reg167cr.h reg167cs.h reg167cs40.h
+scanf setbuf setjmp setjmp.h setvbuf signal.h sin sinh sprintf sqrt srand sscanf stdarg.h stddef.h
+stdio.h stdlib.h strcat strchr strcmp strcpy strcspn strftime string.h strlen strncat strncmp strncpy
+strpbrk strrchr strspn strstr strtod strtok strtol strtoul
+tan tanh time time.h toascii tolower toupper
+ungetc
+va_arg va_end va_start vfprintf vprintf vsprintf
+/C4"Standard defines"
+ASSERT_INC
+C166_INC CTYPE_INC
+EOF ERRNO_INC
+FLOAT_INC
+LIMITS_INC LOCALE_INC
+MATH_INC
+NDEBUG NULL
+REG163_INC REG163_NOADINT REG163_NOCPU REG163_NOEXTINT REG163_NOPEC REG163_NOPORT REG163_NORS232
+REG163_NOTIMER REG165_INC REG165_NOADINT REG165_NOCPU REG165_NOEXTINT REG165_NOPEC REG165_NOPORT
+REG165_NORS232 REG165_NOTIMER REG166_INC REG166_NOADC REG166_NOCAPCOM REG166_NOCPU REG166_NOPEC
+REG166_NOPORT REG166_NORS232 REG166_NOTIMER REG167_INC REG167_NOADC REG167_NOADINT REG167_NOCAPCOM
+REG167_NOCPU REG167_NOPEC REG167_NOPORT REG167_NOPWM REG167_NORS232 REG167_NOTIMER
+SETJMP_INC SIGNAL_INC STDARG_INC STDDEF_INC STDIO_INC STDLIB_INC STRING_INC
+TIME_INC
+/C5"Delimiter"
+!
+$
+&
+(
+)
+*
++
+,
+-
+.
+// /
+:
+;
+<
+=
+>
+[
+]
+{
+|
+}
+~

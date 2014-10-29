@@ -1,0 +1,88 @@
+/L20"Asm8xx" AASM_LANG File Extensions = S H
+/Line Comment = // Line Comment Alt = ; /Block Comment On = /* Block Comment Off = */
+/String Chars = '"
+/Function String = "%[a-zA-Z]*)"
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Marker Characters "fs"
+/C1"KEYWORDS"
+_ASMLANGUAGE
+__asm__ __cplusplus
+align ascii auto
+break byte
+case continue char const
+data default do double
+EXPORT
+else enum equ extern
+FAST
+float for
+global globl goto
+HI HIADJ
+IMPORT
+if int include
+LO LOADPTR LOADVAR
+local long
+NULL
+register return
+set short signed sizeof struct switch static
+text typedef
+union unsigned
+void volatile
+while
+/C2"SIMPLIFIED MNEMONICS"
+beq bdnz bdnzlr bgt blr blrl blt bltctr bltlr bne bnectr bnelr
+clrlslwi clrlwi clrrwi cmpd cmpdi cmpld cmpldir cmplw cmplwi cmpw cmpwi crb crclr crmove crnot crset
+extlwi extrwi
+inslwi insrwi
+la li lis
+mfctr mflr mfxer mftbu mr mtcr mtctr mtlr mtxer
+nop not
+rotlw rotlwi rotrwi
+slwi srwi sub subc subi subic subis
+trap tweq twgti twlge twllei
+/C3"INSTRUCTION MNEMONICS"
+add addo addc addco adde addeo addi addic addis addme addmeo addze addzeo and andc andis
+b ba bl bla bc bca bcl bcla bcctr bcctrl bclr bclrl
+cmp cmpi cmpl cmpli cntlzw crand crandc creqv crnand crnor cror crorc crxor
+dcbf dcbi dcbst dcbt dcbtst dcbz divw divwo divwu divwuo
+eciwx ecowx eieio eqv extsb extsh
+icbi isync
+lbz lbzu lbzux lbzx lha lhau lhaux lhax lhbrx lhz lhzu lhzux lhzx lmw lswi lswx lwarx lwbrx lwz lwzu lwzux lwzx
+mcrf mcrxr mfcr mfmsr mfspr mfsr mfsrin mftb mtcrf mtmsr mtspr mtsr mtsrin mulhw mulhwu mulli mullw mullwo
+nand neg nego nor
+or orc ori oris
+rfi rlwimi rlwinm rlwnm
+sc slw sraw srawi srw stb stbu stbux stbx sth sthbrx sthu sthux sthx stmw stswi stswx stw stwbrx stwu stwux stwx subf subfo subfc subfco subfe subfeo subfic subfme subfmeo subfze subfzeo sync
+tlbia tlbie tlbsync tw twi
+xor xori xoris
+/C4"DIRECTIVES"
+#define #elif #else #endif #error #if #ifdef #ifndef #include #line #pragma #undef
+/C5"OPERATORS"
+!
+%
+&
++
+-
+<
+=
+>
+^
+|
+/C6"REGISTER NAMES"
+BAR BR0 BR1 BR2 BR3 BR4 BR5 BR6 BR7 BRGC1 BRGC2 BRGC3 BRGC4
+CAM CICR CIMR CIPR CISR CIVR CPCR CMPA CMPB CMPC CMPD CMPE CMPF CMPG CMPH COUNTA COUNTB CR CR0 CR1 CR2 CR3 CR4 CR5 CR6 CR7 CST
+DAR DC_ADR DC_CST DC_DAT DEC DER DPDR DPIR DSISR DSR1 DSR2 DSR3 DSR4
+EID EIE
+GSMR_H1 GSMR_H2 GSMR_H3 GSMR_H4 GSMR_L1 GSMR_L2 GSMR_L3 GSMR_L4
+I2ADD I2BRG I2CER I2CMR I2COM I2MOD ICR ICTRL IC_ADR IC_CST IC_DAT IDMR1 IDMR2 IDSR1 IDSR2 IMMR
+LCTRL1 LCTRL2 LR
+MAMR MAR MBMR MCR M_TW M_TWB MD_AP M_CASID MD_CTR MD_DBCAM MD_DBRAM0 MD_DBRAM1 MD_EPN MD_RAM1 MD_RPN MD_TWC MDR MI_AP MI_CAM MI_CTR MI_DBCAM MI_DBRAM0 MI_DBRAM1 MI_EPN MI_RAM0 MI_RAM1 MI_RPN MI_TWC MPTPR MSR MSTAT
+NRI
+OR0 OR1 OR2 OR3 OR4 OR5 OR6 OR7
+PADAT PADIR PAODR PAPAR PBDAT PBDIR PBODR PBPAR PBR0 PBR1 PBR2 PBR3 PBR4 PBR5 PBR6 PBR7 PCDAT PCDIR PCINT PCPAR PCSO PDDAT PDDIR PDPAR PER PGCRA PGCRB PIPC PIPR PISCR PISCRK PITC PITCK PITR PLPRCR PLPRCRK POR0 POR1 POR2 POR3 POR4 POR5 POR6 POR7 PSCR PSMR1 PSMR2 PSMR3 PSMR4 PTPR PVR
+r0 r1 r2 r3 r4 r5 r6 r7 r8 r9 r10 r11 r12 r13 r14 r15 r16 r17 r18 r19 r20 r21 r22 r23 r24 r25 r26 r27 r28 r29 r30 r31
+RAM0 RCCR RCTR1 RCTR2 RCTR3 RCTR4 RMDR RMDS RSR RSRK RTC RTCAL RTCALK RTCK RTCSC RTCSCK RTER RTMR RTSEC RTSECK
+SCCE1 SCCE2 SCCE3 SCCE4 SCCM1 SCCM2 SCCM3 SCCM4 SCCR SCCRK SCCS1 SCCS2 SCCS3 SCCS4 SDAR SDCR SDMR SDSR
+SICMR SICR SIEL SIGMR SIMASK SIMODE SIPEND SIRAM SIRP SISTR SIUMCR SIVEC
+SMCE1 SMCE2 SMCM1 SMCM2 SMCMR1 SMCMR2 sp SPCOM SPIE SPIM SPMODE SPRG0 SPRG1 SPRG2 SPRG3 SRR0 SRR1 SWSR SWT SYPCR
+TBL TBK TBREFF0 TBREFF0K TBREFF1 TBREFF1K TBREFA TBREFAK TBREFBK TBREFL TBSCR TBSCRK TBU TCN1 TCN2 TCN3 TCN4 TCR1 TCR2 TCR3 TCR4 TER1 TER2 TER3 TER4 TESR TGCR TMR1 TMR2 TMR3 TMR4 TODR1 TODR2 TODR3 TODR4 TRR1 TRR2 TRR3 TRR4
+XER

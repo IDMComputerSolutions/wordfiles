@@ -1,0 +1,74 @@
+/L20"GED2HTML" Line Comment = # Escape Char = \ Nocase File Extensions = g2h
+/Delimiters = &()*+,-./;<=>|[]%~ ^  {}
+/Function String = "%define*"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1
+define do
+else elseif end
+for
+if in include
+local
+print
+set
+then to
+while
+/C2
+do_families do_gendex do_index do_individuals do_initialize do_notes do_sources do_surnames
+/C3
+abbreviation address adoption afn age agency aliases anci associations attributes author
+birth
+caln cause change children conc cont copr
+data date day death description desi
+event events exact
+families family father filename first fullname
+gedcom
+husband
+index isfemale ismale
+last living lower
+marriages month mother
+name names nchildren next note notes number
+objects ordinances
+page parent phone place pred prev publication
+quay
+refns repository rfn rin
+serial sources status string submitters succ surname
+tagcode tagname temple text texts title type
+upper url
+value
+wife
+xref
+year
+/C4
+HEADER
+NUMBER_OF_FAMILIES NUMBER_OF_NOTES NUMBER_OF_SOURCES
+OSTYPE
+PATH_TO_ROOT PERSONS_URL
+SURNAMES_URL
+TODAY
+VERSION
+/C5
+CASE_FOLD_LINKS CHARACTER_SET
+DESTINATION_DIRECTORY DOS_CODE_PAGE
+ERROR_FILE
+FILENAME_TEMPLATE FILES_PER_DIRECTORY
+GENERATE_GENDEX GENERATE_INDEX GENERATE_INDIVIDUALS GENERATE_NOTES GENERATE_SOURCES
+INDEX_WIDTH INDIVIDUALS_PER_FILE
+LANGUAGE LIVING_CUTOFF_YEAR LIVING_IGNORE_DEATH LOCALE
+NOTES_PER_FILE NUMBER_OF_DIRECTORIES
+OUTPUT_PROGRAM
+PEDIGREE_DEPTH
+SOURCES_PER_FILE STABLE_FILENAMESSURNAME_WIDTH
+UPPER_CASE_SURNAMES USE_LOCAL_TIME
+/C6
+BACKGROUND_COLOR BACKGROUND_IMAGE
+CONT_MEANS_BREAK
+FAMILY_GROUPS
+HOMEPAGE
+INLINE_NOTES INLINE_SOURCES
+LINK_COLOR
+MAILTO
+NO_ALPHABET_TABS
+OMIT_META
+TEXT_COLOR
+VISITED_COLOR

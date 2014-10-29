@@ -1,0 +1,44 @@
+/L20"PovRay" Line Comment = // Block Comment On = /* Block Comment Off = */ File Extensions = POV INC
+/Delimiters = <>#~!@%^&*()-+=|\/{}[]:;"' ,	.?
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1
+abs absorption acos acosh adaptive adc_bailout agate agate_turb all alpha ambient ambient_light angle aperture append arc_angle area_light array asc asin asinh 
+assumed_gamma atan atan2 atanh average 
+background bezier_spline bicubic_patch black_hole blob blue blur_samples bounded_by box boxed bozo break brick brick_size brightness brilliance bumps bump_map bump_size 
+camera case caustics ceil checker chr clipped_by clock clock_delta color color_map colour colour_map component composite concat cone confidence conic_sweep control0 
+control1 cos cosh count crackle crand cube cubic cubic_spline cubic_wave cylinder cylindrical 
+debug declare default defined degrees density density_file density_map dents difference diffuse dimensions dimension_size direction disc distance distance_maximum div 
+eccentricity else emission end error error_bound exp extinction 
+fade_distance fade_power falloff falloff_angle false fclose file_exists filter finish fisheye flatness flip floor focal_point fog fog_alt fog_offset fog_type fopen frequency 
+gif global_settings gradient granite gray_threshold green 
+height_field hexagon hf_gray_16 hierarchy hollow hypercomplex 
+if ifdef iff ifndef image_map include int interior interpolate intersection intervals inverse ior irid irid_wavelength 
+jitter julia_fractal 
+lambda lathe leopard light_source linear_spline linear_sweep local location log looks_like look_at low_error_factor 
+macro mandel map_type marble material material_map matrix max max_intersections max_iteration max_trace_level media media_attenuation media_interaction merge mesh 
+metallic min minimum_reuse mod mortar 
+nearest_count no normal normal_map no_shadow number_of_waves 
+object octaves off offset omega omnimax on once onion open orthographic 
+panoramic perspective pgm phase phong phong_size pi pigment pigment_map planar plane png point_at poly polygon poly_wave pot pow ppm precision prism pwr 
+quadratic_spline quadric quartic quaternion quick_color quick_colour quilted 
+radial radians radiosity radius rainbow ramp_wave rand range ratio read reciprocal recursion_limit red reflection reflection_exponent refraction render repeat rgb rgbf 
+rgbft rgbt right ripples rotate roughness 
+samples scale scallop_wave scattering seed shadowless sin sine_wave sinh sky sky_sphere slice slope_map smooth smooth_triangle sor specular sphere spherical spiral1 
+spiral2 spotlight spotted sqr sqrt statistics str strcmp strength strlen strlwr strupr sturm substr superellipsoid switch sys 
+t tan tanh text texture texture_map tga thickness threshold tightness tile2 tiles torus track transform translate transmit triangle triangle_wave true ttf turbulence 
+turb_depth type 
+u ultra_wide_angle undef union up use_color use_colour use_index u_steps 
+v val variance vaxis_rotate vcross vdot version vlength vnormalize vrotate v_steps 
+warning warp water_level waves while width wood wrinkles write 
+x 
+y yes 
+z 
+/C2
+<>
+/C3
+{
+}
+/C4
+<
+>

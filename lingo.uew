@@ -1,0 +1,72 @@
+/L20"Lingo" Nocase Line Comment = -- Block Comment On = -- String Chars = " File Extensions = LGO LINGO
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Indent Strings = "then" "else"
+/Unindent Strings = "end" "end if" "end repeat"
+/C1
+abort after and
+before
+case
+do
+else end
+FALSE
+global
+halt
+if ilk into
+me
+new
+of on or otherwise
+pass property put
+repeat result RETURN
+set
+tell the then to TRUE
+while with
+/C2
+#
+abbr abbrev abbreviated abs activateWindow activeCastLib activeWindow actorList add addAt addProp alert alertHook alignment allowCustomCaching 
+allowGraphicMenu allowSaveLocal allowTransportControl allowVolumeControl allowZooming alphaThreshold ancestor antiAlias append applicationPath atan 
+autoTab
+backColor BACKSPACE beep beepOn beginRecording beginSprite bgColor blend blendLevel border bottom boxDropShadow boxType buttonStyle buttonType
+call callAncestor cancelIdleLoad castLib castLibNum center centerRegPoint centerStage changeArea channelCount char charPosToLoc chars charToNum 
+checkBoxAccess checkBoxType checkMark chunkSize clearFrame clearGlobals clickLoc clickOn close closeWindow closeXlib color  colorDepth commandDown 
+constrainH constraint constrainV continue controlDown controller copyToClipBoard cos count cpuHogTicks crop cuePassed cuePointNames cuePointTimes 
+currentSpriteNum currentTime cursor
+date deactivateWindow delay delete deleteAll deleteAt deleteFrame deleteOne deleteProp depth deskTopRectList digitalVideoTimeScale digitalVideoType 
+directToStage dither done doubleClick drawRect dropShadow duplicate duplicate member duplicateFrame duration
+editable EMPTY emulateMultiButtonMouse enabled endFrame endRecording endSprite ENTER enterFrame environment erase member exit exitFrame exitLock exp 
+externalParamCount externalParamName externalParamValue
+fadeIn fadeOut field fileName filled findEmpty findPos findPosNear finishIdleLoad fixStageSize flipH flipV float floatP floatPrecision font fontSize 
+fontStyle foreColor forget frame frameLabel framePalette frameRate frameReady frameScript frameSound1 frameSound2 framesToHMS frameTempo frameTransition 
+freeBlock freeBytes frontWindow
+getaProp getAt getBehaviorDescription getBehaviorTooltip getLast getNthFileNameInFolder getOne getPos getPref getProp getPropAt 
+getPropertyDescriptionList globals go
+height hilite hitTest HMStoFrames
+idle idleHandlerPeriod idleLoadDone idleLoadMode idleLoadPeriod idleLoadTag idleReadChunkSize importFileInto in inflate ink insertFrame inside 
+installMenu integer integerP interface intersect intersects isPastCuePoint item itemDelimiter
+key keyboardFocusSprite keyCode keyDown keyDownScript keyPressed keyUp keyUpScript
+label labelList last lastChannel lastClick lastEvent lastFrame lastKey lastRoll left length line lineCount lineDirection lineHeight linePosToLocV lines 
+lineSize list listP loaded loc locH locToCharPos locV locVToLinePos locZ log long loop
+map mapMemberToStage mapStageToMember margin marker max maxInteger mci media mediaReady member memberNum members memorySize menu milliseconds min modal 
+modified mostRecentCuePoint mouseChar mouseDown mouseDown mouseDownScript mouseItem mouseLeave mouseLine mouseLoc mouseMember mouseUp mouseUpOutside 
+mouseUpScript mouseV mouseWithin mouseWord move moveableSprite moveToBack moveToFront moveWindow movie movieAboutInfo movieCopyrightInfo 
+movieFileFreeSize movieFileSize movieName moviePath movieRate movieTime movieXtraList multiSound
+name netPresent netThrottleTicks next nothing number numToChar
+objectP offset open openResFile openWindow openXlib optionDown organizationName
+pageHeight palette paletteMapping paletteRef paragraph param paramCount pasteClipBoardInto pathName pattern pause pausedAtStart pauseState PI picture 
+pictureP platform play playFile playing point power preLoad preLoadEventAbort preLoadMember preLoadMode preLoadMovie preLoadRAM prepareFrame 
+prepareMovie previous printFrom puppet puppetPalette puppetSound puppetSprite puppetTempo puppetTransition purgePriority
+quad quit QUOTE
+ramNeeded random randomSeed rect regPoint resizeWindow restart right rightMouseDown rightMouseUp rollOver romanLingo rotation runMode runPropertyDialog
+safePlayer sampleRate sampleSize save saveMovie score scoreColor scoreSelection script scriptInstanceList scriptNum scriptsEnabled scriptText scriptType 
+scrollByLine scrollByPage scrollTop searchCurrentFolder searchPath searchPaths selection selEnd selStart sendAllSprites sendSprite serialNumber setaProp 
+setAt setPref setProp setTrackEnabled shapeType shiftDown short showGlobals showLocals showResFile showXlib shutDown sin size skew sort sound soundBusy 
+soundDevice soundDeviceList soundEnabled soundKeepDevice soundLevel sourceRect SPACE sprite spriteNum sqrt stage stageBottom stageColor stageLeft 
+stageRight stageTop startFrame startMovie startTime startTimer stepFrame stillDown stop stopEvent stopMovie stopTime string stringP switchColorDepth 
+symbol symbolP systemDate
+TAB tan text thumbnail ticks time timeOut timeoutKeyDown timeoutLapsed timeoutLength timeoutMouse timeoutPlay timeoutScript timer timeScale title 
+titleVisible top trace traceLoad traceLogFile trackCount trackEnabled trackNextKeyTime trackNextSampleTime trackPreviousKeyTime trackPreviousSampleTime 
+trackStartTime trackStopTime trackText trails transitionType tweened type
+union unLoad unLoadMember unloadMovie updateFrame updateLock updateMovieEnabled updateStage useAlpha userName
+value version video videoForWindowsPresent visible VOID voidP volume
+width window windowList windowPresent windowType word wordWrap
+xtra xtraList xtras
+zoomBox zoomWindow

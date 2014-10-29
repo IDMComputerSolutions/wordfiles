@@ -1,0 +1,79 @@
+/L20"XHTML 1.0" Noquote HTML_LANG Block Comment On = <!-- Block Comment Off = --> Block Comment On Alt = <% Block Comment Off Alt = %> String Chars = "' File Extensions = html html
+/Delimiters = ~@$%^&*()+=|\{};"'<> ,	.
+/Marker Characters = "&;"
+/Function String = "name=*">"
+/C1"Elements"
+<a> <a </a> <abbr> <abbr </abbr> <acronym> <acronym </acronym> <address> <address </address> <area
+<b> <b </b> <base <bdo> <bdo </bdo> <big> <big </big> <blockquote> <blockquote </blockquote> <body> <body </body> <br <button> <button </button>
+<caption> <caption </caption> <cite> <cite </cite> <code> <code </code> <col <colgroup> <colgroup </colgroup>
+<dd> <dd </dd> <del> <del </del> <dfn> <dfn </dfn> <div> <div </div> <dl> <dl </dl> <dt> <dt </dt>
+<em> <em </em>
+<fieldset> <fieldset </fieldset> <form> <form </form> <frame <frameset> <frameset </frameset>
+<h1> <h1 </h1> <h2> <h2 </h2> <h3> <h3 </h3> <h4> <h4 </h4> <h5> <h5 </h5> <h6> <h6 </h6> <head> <head </head> <hr <html> <html </html>
+<i> <i </i> <iframe> <iframe </iframe> <img <input <ins> <ins </ins>
+<kbd> <kbd </kbd>
+<label> <label </label> <legend> <legend </legend> <li> <li </li> <link 
+<map> <map </map> <meta 
+<noframes> </noframes> <noscript> </noscript>
+<object> <object </object> <ol> <ol </ol> <optgroup> <optgroup </optgroup> <option> <option </option>
+<p> <p </p> <param <pre> <pre </pre>
+<q> <q </q>
+<samp> <samp </samp> <script> <script </script> <select> <select </select> <small> <small </small> <span> <span </span> <strong> <strong </strong> <style> <style </style> <sub> <sub </sub> <sup> <sup </sup>
+<table> <table </table> <tbody> <tbody </tbody> <td> <td </td> <textarea> <textarea </textarea> <tfoot> <tfoot </tfoot> <th> <th </th> <thead> <thead </thead> <title> <title </title> <tr> <tr </tr> <tt> <tt </tt>
+<ul> <ul </ul>
+<var> <var </var>
+// />
+>
+/C2"Attributes"
+abbr= accept-charset= accept= accesskey= action= align= alt= archive= axis=
+border=
+cellpadding= cellspacing= char= charoff= charset= checked= cite= class= classid= codebase= codetype= cols= colspan= content= coords=
+data= datetime= declare= defer= dir= disabled=
+encoding= enctype=
+for= frame= frameborder=
+headers= height= href= hreflang= http-equiv=
+id= ismap=
+label= lang= longdesc= 
+marginheight= marginwidth= maxlength= media= method= multiple= 
+name= nohref= noresize=
+onblur= onchange= onclick= ondblclick= onfocus= onkeydown= onkeypress= onkeyup= onload= onmousedown= onmousemove= onmouseout= onmouseover= onmouseup= onreset= onselect= onsubmit= onunload=
+profile= 
+readonly= rel= rev= rows= rowspan= rules= 
+scheme= scope= scrolling= selected= shape= size= span= src= standby= style= summary=
+tabindex= target= title= type=
+usemap=
+valign= value= valuetype= version=
+width=
+xmlns= xmlns:isbn= xml:lang= 
+=
+/C3"Deprecated Elements"
+<applet </applet>
+<basefont 
+<center> <center </center>
+<dir> <dir </dir>
+<font> <font </font>
+<isindex
+<menu> <menu </menu>
+<s> <s <s> <strike> <strike </strike>
+<u> <u </u>
+&;
+/C4"XML Elements"
+<!DOCTYPE <![CDATA[
+<?xml <?xml-stylesheet
+?>
+DTD
+PUBLIC
+SCHEMA
+]]>
+/C5"Deprecated Attributes"
+alink=
+background= bgcolor=
+clear= code= color= compact=
+face= 
+hspace=
+language= link=
+noshade= nowrap= object=
+prompt=
+start=
+text=
+vlink= vspace=

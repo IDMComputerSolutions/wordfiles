@@ -1,0 +1,47 @@
+/L20"UC" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' Nocase File Extensions = UC INT
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> , .?
+/Function String = "%^([a-zA-Z_0-9*&$]+[ ^t]+[a-zA-Z_0-9*&$]+[ ^t]+[a-zA-Z_0-9]+^)[ ^t]++([^p*, ^t^[^]a-zA-Z_0-9.]++)[~;]"
+/Function String 1 = "%^([a-zA-Z_0-9*&$]+[ ^t]+[a-zA-Z_0-9]+^)[ ^t]++([^p*, ^t^[^]a-zA-Z_0-9.]++)[~;]"
+/Function String 2 = "%^(state [a-zA-Z_0-9*&$]+[ ^t]+^)"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1"UnrealScript Keywords"
+abstract actor auto
+begin bool break byte
+case char class coerce config const continue
+default defaultproperties do double dot
+else enum event exec extends expands
+false final float for foreach function
+globalconfig guid
+if ignores import int iterator
+latent local localized lodmesh log login
+mesh 
+name native nativereplication new noexport none null
+operator optional out
+plane preoperator private protected public
+reliable replication return rot rotator
+self simulated singular sound spawn state static string struct super switch
+texture transient true
+unreliable
+var vect vector
+while
+#exec
+'
+/C2"Operators"
++
+-
+=
+// /
+%
+&
+>
+<
+^
+!
+|
+`
+/C3"Common UT Classes"
+BotReplicationInfo
+CTFReplicationInfo
+GameReplicationInfo
+Pawn PlayerPawn PlayerReplicationInfo

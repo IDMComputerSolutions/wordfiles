@@ -1,0 +1,71 @@
+/L20"mrStudio 4.0 mrScript" Nocase Line Comment = ' Block Comment On = '! Block Comment Off = !' String Chars = " File Extensions = .mdd .mrs .dms
+/Function String = "%*^{Sub^}^{Function^}*("
+/Open Brace Strings =  "{" "(" "["
+/Close Brace Strings = "}" ")" "]"
+/Indent Strings = "Then" "Select Case" "Sub" "Do While" "Else" "Function" "Do" "For"
+/Unindent Strings = "End" "End Select" "End Sub" "Loop" "End If" "End Function" "Loop While" "Next" "Else"    
+/Open Fold Strings = "If" "ElseIf" "Else" "For" "For Each" "Function" "Sub" "Select Case" "With"
+/Close Fold Strings = "ElseIf" "Else" "End If" "Next" "Next" "End Function" "End Sub" "End Select" "End With" 
+/C1"Keywords"
+#define #include
+And
+Block Boolean
+Case Categorical Composite 
+Dim Double Define
+End Each ElseIf Else Exit Error Exclusive Expand
+False For Function Fields Fix
+Goto
+If In 
+Long Loop Level
+Metadata
+Next Null Not
+Option Or On
+Page
+ReDim Resume Routing
+Select Set Step Sub Style
+To True Then Text
+Until
+While
+Xor
+/C2"Functions"
+AnswerCount Abs AscW Atn
+Band BitAnd BitNot BitOr BitXor
+Cell CText CCategorical CLong CDouble CBoolean CDate ChrW ContainsAll ContainsAny ContainsSome Cos CreateObject Codes
+DateAdd DateDiff DateNow DateOnly DatePart Day DBNull DefinedCategories DefinedElements DefinedFactors DefinedListElements Difference DefaultAnswer
+EngineVersion EqualBand Eval Execute Exp 
+Factor Find FindItem Format 
+GetAnswer GetInterface GetRandomSeed GetReversalSeed GetTimeZone GetTimeZoneDaylightSaving GetTimeZoneName GetTimeZoneOffset 
+HasAnswer Hex Hour 
+Iif Intersection IsEmpty Int IsDBNull IsElementInVersions IsEqualObject IsNullObject IsOneOf IsSet InitialAnswer
+LabelStyle LBound LCase Left Len LocalToUTCTime Log LTrim
+MakeMDMName MakeString MaxOf Merge Mid MinOf Minute Month
+Now
+Oct
+Pow
+Ran RanInt RanSequence ReDim Replace Rev RevSequence RGB Right Rnd Rot RotSequence Round RTrim
+Second SelectRange SetRandomSeed SetReversalSeed SetRotationSeed SetTimeZone Sgn ShellExecute Sin Sleep SortAsc SortDesc Split Sqrt
+Tan TimeNow TimeOnly Trim
+UBound UCase Union Unique UTCToLocalTime
+Validate VarType VarTypeName WeekdayName
+XUnion
+Year 
+/C3"Objects"
+debug
+err
+IOM IOMLib
+MDM MRSCRIPTCORELib MRSCRIPTLib mr
+QuotaRuntimeLib QuotaEngine
+TOM
+/C4"Operators"
+,
+.
+#
+/
+*
++
+-
+:
+;
+< <= <>
+=
+> >=

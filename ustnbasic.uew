@@ -1,0 +1,123 @@
+/L20"MicroStation Basic" Nocase Line Comment = ' String Chars = " File Extensions = BAS
+/Delimiters = ~!@^&*()-+=|\/{}[]:;"'<> ,	?
+/C1
+&
+*
++
+-
+/
+<
+<=
+<>
+=
+=
+>
+>=
+Abs AND ArrayDims ArraySort As Asc Atn
+Basic.Capability% Basic.Eoln$ Basic.FreeMemory Basic.OS Basic.PathSeparator$ Beep
+Call Case CDbl Chr$ CInt CLng Close Command$ Const Cos CSng CStr
+Date$ DateAdd DateDiff DatePart DateSerial DateValue Day DDB DDEExecute DDEInitiate DDEPoke DDERequest DDESend DDETerminate DDETerminateAll DDETimeOut Declare DEF Dim Dir$ Do
+ebArchive ebDirectory ebHidden ebNone ebNormal ebReadOnly ebSystem ebVolume Else ElseIf End EndFunction EndSub Environ$ Eof Eqv Eqv Erase Erl Err Error Error$ Exit ExitDo ExitFor ExitFunction ExitSub Exp
+FileAttr FileCopy FileDateTime FileDirs FileExists FileLen FileList FileParse$ Fix For Format$ FreeFile Function Fv
+Get GetAttr Global GoSub Goto
+Hex$ Hour
+If IMP Input Input# Input$ InStr Int IPmt IRR IS Item$ ItemCount
+Kill
+LBound LCase$ Left$ Len Let Like Like Line$ LineCount LineInput# Loc Lock Lof Log Loop LSet LTrim$
+Main Mid$ Minute MIRR MkDir MOD Month
+Name Next New NOT Now NPer Npv Null
+Oct$ OnError Open OptionBase OptionCompare OR
+Pmt PPmt Print Print# Private Public Put Pv
+Random Randomize Rate ReDim REM Reset Resume Return Right$ RmDir Rnd RSet RTrim$
+Second Seek Select Set SetAttr Sgn Sin Sleep Sln Space$ Spc Sqr Stop Str$ StrComp String$ Sub SubSYD
+Tab Tan Then Time$ Timer TimeSerial TimeValue To Trim$ Type
+UBound UCase$ UnLock
+Val
+Weekday Wend While Width# Word$ WordCount Write#
+XOR
+Year
+\
+^
+_
+/C2
+GbeMap GbeMap.mslink GbeMap.nameGbeMap.description GbeMap.directory GbeMap.attach GbeMap.detach GbeMap.isAttached GbeMap.categoryMslink
+GbeMaps GbeMaps.maxMaps GbeMaps.listByMslink GbeMaps.attachByView GbeMaps GbeMaps.indexFromMslink
+GbeProject GbeProject.DBconnect GbeProject.DBload GbeProject.directory GbeProject.exportFile GbeProject.keyMap GbeProject.loginName GbeProject.mapManager GbeProject.workMap GbeProject.open GbeProject.close
+MbeAngleFromString
+MbeCExpressionLong MbeCExpressionDouble MbeCExpressionString
+MbeCurrentTransform.masterUnits MbeCurrentTransform.dgnUnits MbeCurrentTransform.moveOrigin MbeCurrentTransform.moveOriginWorld MbeCurrentTransform.rotate MbeCurrentTransform.fromView MbeCurrentTransform.scale MbeCurrentTransform.scalarToUors MbeCurrentTransform.scalarFromUors MbeCurrentTransform.pointToUors MbeCurrentTransform.pointFromUors 
+MbeDatabase.name MbeDatabase.activeEntity MbeDatabase.mslink MbeDatabase.errorText MbeDatabase.describe MbeDatabase.connect MbeDatabase.disconnect MbeDatabase.defineActiveEntity MbeDatabase.showActiveEntity MbeDatabase.editActiveEntity MbeDatabase.modeCommit MbeDatabase.modeConfirm MbeDatabase.modeDelete MbeDatabase.modeForms MbeDatabase.modeLinkage MbeDatabase.dAType MbeDatabase.reportOpen MbeDatabase.reportClose
+MbeDatabaseLink MbeDatabaseLink.dAType MbeDatabaseLink.entityNumber MbeDatabaseLink.isInformation MbeDatabaseLink.isModified MbeDatabaseLink.isRemote MbeDatabaseLink.isUserLink MbeDatabaseLink.linkClass MbeDatabaseLink.linkSize MbeDatabaseLink.linkType MbeDatabaseLink.mslink MbeDatabaseLink.tableName
+MbeDgnInfo.dgnFileName MbeDgnInfo.dgn3D MbeDgnInfo.dgnFileReadOnly MbeDgnInfo.endOfFile MbeDgnInfo.masterUnitName MbeDgnInfo.subUnitName MbeDgnInfo.uorPerSub MbeDgnInfo.subPerMaster MbeDgnInfo.getGlobalOrigin MbeDgnInfo.graphicGroup MbeDgnInfo.nextGraphicGroup MbeDgnInfo.cellFileName MbeDgnInfo.cell3D MbeDgnInfo.cellFileReadOnly
+MbeDgnLevels.rootGroup MbeDgnLevels.numGroups MbeDgnLevels.numNamedLevels MbeDgnLevels.getGroup MbeDgnLevels.getLevel MbeDgnLevels.freeGroups MbeDgnLevels.freeLevels MbeDgnLevels.freeAll MbeDgnLevels.loadGroupsFromFile MbeDgnLevels.loadLevelsFromFile MbeDgnLevels.loadAllFromFile MbeDgnLevels.saveGroupsToFile MbeDgnLevels.saveLevelsToFile MbeDgnLevels.saveAllToFile
+MbeElement.attachActiveEntity MbeElement.reviewDBAttributes MbeElement.reportDBLinkages MbeElement.loadDAttributes MbeElement.foundDBLinkages MbeElement.extractDBLinkages MbeElement.appendDBLinkage MbeElement.deleteDBLinkage MbeElement.firstElement MbeElement.nextElement MbeElement.nextComponent MbeElement.headerElement MbeElement.thisComponent MbeElement.isHeader MbeElement.isComponent MbeElement.isGraphics MbeElement.type MbeElement.fileSize MbeElement.internalSize MbeElement.fromFile MbeElement.fromLocate MbeElement.filePos MbeElement.componentFilePos MbeElement.fileNum MbeElement.changeAll MbeElement.level MbeElement.color MbeElement.style MbeElement.weight MbeElement.class MbeElement.properties MbeElement.getOrigin MbeElement.getPoints MbeElement.setPoints MbeElement.getEndPoints MbeElement.getRange MbeElement.move MbeElement.rotate MbeElement.scale MbeElement.rewrite MbeElement.addToFile MbeElement.display MbeElement.area MbeElement.perimeter MbeElement.volume MbeElement.getCentroid MbeElement.cellName MbeElement.getCellLevels MbeElement.getCellBox MbeElement.getRotation MbeElement.font MbeElement.fontName MbeElement.charHeight MbeElement.charWidth MbeElement.lineSpacing MbeElement.justification MbeElement.getString MbeElement.setString MbeElement.primaryAxis MbeElement.secondaryAxis MbeElement.startAngle MbeElement.sweepAngle MbeElement.topRadius MbeElement.bottomRadius MbeElement.getTopOrigin MbeElement.publish MbeElement.group MbeElement.isTagged MbeElement.tagId MbeElement.numTags MbeElement.extractTags MbeElement.getMbeTag MbeElement.attachTag MbeElement.getNumLinkages MbeElement.extractLinkage MbeElement.appendLinkage MbeElement.deleteLinkage
+MbeElementSet.fromSelectionSet MbeElementSet.fromFence MbeElementSet.getFirst MbeElementSet.getNext MbeElementSet.clear
+MbeFileCreate MbeFileOpen
+MbeFindFile
+MbeGetConfigVar MbeGetInput MbeGetTagSetNames
+MbeInputBox
+MbeLevelGroup MbeLevelGroup.groupName MbeLevelGroup.getLevels MbeLevelGroup.getDescendentLevels MbeLevelGroup.getDescendentGroups MbeLevelGroup.getParentGroup MbeLevelGroup.getLevelMask MbeLevelGroup.deleteGroup MbeLevelGroup.addGroup MbeLevelGroup.addLevel
+MbeLocateElement
+MbeMacro.suspend
+MbeMessageBox
+MbeNamedLevel MbeNamedLevel.levelNumber MbeNamedLevel.levelName MbeNamedLevel.levelComment MbeNamedLevel.getParentGroup MbeNamedLevel.getLevelMask MbeNamedLevel.deleteLevel
+MbeNumberOfTagSets
+MbeOpenModalDialog
+MbePointFromString
+MbeRefFile.active MbeRefFile.notFound MbeRefFile.display MbeRefFile.locate MbeRefFile.snap MbeRefFile.plot MbeRefFile.scaleLineStyle MbeRefFile.fileName MbeRefFile.attachName MbeRefFile.logical MbeRefFile.description MbeRefFile.scale MbeRefFile.getLevels MbeRefFile.levelsOn MbeRefFile.levelsOff MbeRefFile.saveSettings
+MbeRefFiles.maxRefFiles
+MbeRelocate
+MbeScalarFromString
+MbeSelectBox
+MbeSendAppMessage MbeSendCommand MbeSendDataPoint MbeSendDragPoints MbeSendLastInput MbeSendKeyin MbeSendReset MbeSendTentPoint
+MbeSession.msProduct MbeSession.msPlatform MbeSession.msVersion MbeSession.language MbeSession.numScreens MbeSession.canSwapScreen MbeSession.elapsedTime 
+MbeSetAppVariable MbeSetScaledAppVar
+MbeSettings.angle MbeSettings.areaMode MbeSettings.axisAngle MbeSettings.axisOrigin MbeSettings.capMode MbeSettings.cell MbeSettings.class MbeSettings.color MbeSettings.colorName MbeSettings.currentGraphicGroup MbeSettings.fillColor MbeSettings.fillMode MbeSettings.font MbeSettings.fontName MbeSettings.gridReferences MbeSettings.gridUnits MbeSettings.level MbeSettings.lineStyle MbeSettings.lineStyleName MbeSettings.lineTerminator MbeSettings.nodeJustification MbeSettings.patternAngle1 MbeSettings.patternAngle2 MbeSettings.patternCell MbeSettings.setPatternDelta MbeSettings.getPatternDelta MbeSettings.patternScale MbeSettings.point MbeSettings.setScale MbeSettings.getScale MbeSettings.tagIncrement MbeSettings.terminatorScale MbeSettings.textHeight MbeSettings.textWidth MbeSettings.textLineLength MbeSettings.textLineSpacing MbeSettings.textJustification MbeSettings.weight MbeSettings.associationLock MbeSettings.axisLock MbeSettings.boresiteLock MbeSettings.cellStretchLock MbeSettings.constructionPlaneLock MbeSettings.depthLock MbeSettings.graphGroupLock MbeSettings.gridLock MbeSettings.fenceClip MbeSettings.fenceOverlap MbeSettings.fenceVoid MbeSettings.levelLock MbeSettings.selectionSetLock MbeSettings.snapLock MbeSettings.textNodeLock MbeSettings.settingErr
+MbeSqlda.numColumns MbeSqlda.column MbeSqlda.value MbeSqlda.type MbeSqlda.length MbeSqlda.isNull MbeSqlda.scale MbeSqlda.precision MbeSqlda.getIndex
+MbeStartDefaultCommand
+MbeStartLocate
+MbeState.inputType MbeState.getInputCommand MbeState.getInputDataPoint MbeState.getInputKeyin MbeState.cmdResult MbeState.errorMessages MbeState.messages MbeState.noElementDisplay MbeState.parseAll MbeState.measureResult1 MbeState.measureResult2 MbeState.locateTolerance MbeState.locateFileNum MbeState.locateHeaderFilePos MbeState.locateComponentFilePos MbeState.setLocateFileMask MbeState.getLocateFileMask MbeState.setLocateTypeMask MbeState.getLocateTypeMask MbeState.locatePropMask MbeState.locatePropVal MbeState.locateClassMask 
+MbeStringFromScalar MbeStringFromPoint MbeStringFromAngle
+MbeTable.name MbeTable.criteria MbeTable.largestMslink MbeTable.entityNumber MbeTable.activeReview MbeTable.reportTable MbeTable.fenceFilter MbeTable.describe MbeTable.recordFirst MbeTable.recordLast MbeTable.recordNext MbeTable.recordInsert MbeTable.recordUpdate MbeTable.recordDelete MbeTable.copy MbeTable.create MbeTable.drop 
+MbeTag.setName MbeTag.name MbeTag.fileNum MbeTag.idMbeTag.targetId MbeTag.type MbeTag.value MbeTag.size MbeTag.version MbeTag.isHidden MbeTag.setOffset MbeTag.getOffset MbeTag.getMbeElement MbeTag.getTaggedElement MbeTag.getTextElement
+MbeTagDef.name MbeTagDef.setName MbeTagDef.prompt MbeTagDef.style MbeTagDef.tagType MbeTagDef.defaultValue MbeTagDef.isHidden MbeTagDef.isConstant MbeTagDef.tagId MbeTagDef.add MbeTagDef.update MbeTagDef.delete
+MbeTagSet.name MbeTagSet.reportName MbeTagSet.fileNumMbeTagSet.numTagDefs MbeTagSet.getTagDefNames MbeTagSet.add MbeTagSet.update MbeTagSet.delete MbeTagSet.getTagDef MbeTagSet.generateReport MbeTagSet.deleteInstances
+MbeView.active MbeView.screenNum MbeView.fastCurve MbeView.noText MbeView.slowFont MbeView.lineWeight MbeView.pattern MbeView.textNode MbeView.enterDataField MbeView.grid MbeView.levelSymbology MbeView.construction MbeView.dimension MbeView.areaFill MbeView.refBoundary MbeView.fastRefClip MbeView.deferApply MbeView.update MbeView.getLevels MbeView.levelsOn MbeView.levelsOff
+MbeViews
+MbeWriteCommand MbeWriteError MbeWriteMessage MbeWritePrompt MbeWriteStatus 
+/C3
+Basic
+Double
+False
+GBE_ADD GBE_DIFF GBE_Inside GBE_OR GBE_Outside GBE_Overlap GBE_Point GBE_TextNode GBE_TypeLine GBE_TypeMixed GBE_TypePoint GBE_TypePolygon GBE_XOR
+Integer
+Long
+MbeDatabase MbeEDField MbeElement MbeElementSet MbePoint MbeRange MbeRefFile MbeSetMember MbeTable MbeTag MbeTagDef MbeTagSet MbeView
+MBE_3DLib2DFile MBE_3DOnly
+MBE_AcceptQuery MBE_Arc MBE_AttributesProp
+MBE_BadCellName MBE_BSplineBoundary MBE_BSplineKnot MBE_BSplinePole MBE_BSplineSurface MBE_BSplineWeight
+MBE_BUTTON_APPLY MBE_BUTTON_CANCEL MBE_BUTTON_DEFAULT MBE_BUTTON_NO MBE_BUTTON_OK MBE_BUTTON_RETRY MBE_BUTTON_STOP MBE_BUTTON_YES
+MBE_CellDeleted MBE_CellExists MBE_CellHeader MBE_CellLibNotFound MBE_CellLibraryHdr MBE_CellNestError MBE_CellNotFound MBE_CenterBottom MBE_CenterCenter MBE_CenterTop MBE_Color MBE_CommandInput MBE_ComplexShape MBE_ComplexString MBE_Cone MBE_Conic MBE_ConstructionClass MBE_ConstRuleClass MBE_CriticalIcon MBE_Curve
+MBE_DataPointInput MBE_DBASE_Linkage MBE_DBBinary MBE_DBChar MBE_DBDate MBE_DBInteger MBE_DBNumberMBE_DBRaw MBE_Dimension MBE_DimensionClass MBE_DMRS_Linkage
+MBE_ElementNotFound MBE_ElemIgnore MBE_ElemNormal MBE_ElemPrioritizeMBE_Ellipse MBE_EmptyFence MBE_Erase
+MBE_FileReadOnly
+MBE_Hilite MBE_HoleProp
+MBE_IllegalDefinition MBE_InfoIcon MBE_INFORMIX_Linkage MBE_INGRES_Linkage MBE_InvalidRefOp
+MBE_KeyinInput
+MBE_LeftBottom MBE_LeftCenter MBE_LeftMarginBottom MBE_LeftMarginCenter MBE_LeftMarginTop MBE_LeftTop MBE_Line MBE_LineString MBE_Linestyle MBE_LockedProp
+MBE_MaxViews MBE_MicroStation MBE_ModifiedProp MBE_MSplineCurve MBE_MSPowerDraft MBE_MSReview MBE_MultiLine
+MBE_NeedChars MBE_NewProp MBE_NoActiveCell MBE_NoCellLibrary MBE_NoFenceActive MBE_None MBE_NoOrigin MBE_NormalDraw MBE_NoSnapProp
+MBE_ODBC_Linkage MBE_Off MBE_OffDesignPlane MBE_OKBox MBE_OKCancelBox MBE_On MBE_ORACLE_Linkage
+MBE_PatternClass MBE_PatternedLineClass MBE_PlanarProp MBE_PointString MBE_PrimaryClass MBE_PrimaryRuleClass
+MBE_QueryFinished MBE_QueryNotFinished MBE_QuestionIcon
+MBE_RasterComponent MBE_RasterHeader MBE_RefFileNotFound MBE_ResetInput MBE_RightBottom MBE_RightCenter MBE_RightMarginBottomMBE_RightMarginCenter MBE_RightMarginTopMBE_RightTop MBE_RIS_Linkage
+MBE_SelectView MBE_Shape MBE_SharedCell MBE_SharedCellDefinition MBE_Solid MBE_Success MBE_Success MBE_Surface MBE_SYBASE_Linkage
+MBE_Tag MBE_Text MBE_TextNode
+MBE_UnknownCommand
+MBE_ViewIndProp MBE_ViewNotFound
+MBE_WarningIcon MBE_Width
+MBE_XBASE_Linkage
+MBE_YesNoBox MBE_YesNoCancelBox
+PI
+Single String
+True

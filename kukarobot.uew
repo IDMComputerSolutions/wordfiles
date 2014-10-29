@@ -1,0 +1,109 @@
+/L20"KRL - KUKA Robot Language" Nocase Line Comment = ; String Chars = "' File Extensions = SRC DAT KRL SUB KFD
+/Delimiters = -~*()|{}[]<>="' ,	.?:
+/Indent Strings = "then" "loop" "repeat" "for" "switch" "while" "else"
+/Unindent Strings = "endfor" "endif" "endwhile" "endloop" "end" "endfct" "endswitch" "else" "until"
+/Ignore Strings SOL = ";"
+/Function String 1 = "% ++^t++def +^(*^))++"
+/Function String 2 = "% ++^t++deffct +^(*^))++"
+/Function String 3 = "% ++^t++defdat +^(*^))++"
+/Function String 4 = ";;"
+/Marker Characters = "& " 
+/C1"Program Flow"
+continue case
+decl def do defdat default deffct
+endfor enum endif endwhile else endloop end endfct enddat endswitch ext exit
+for fold
+halt
+if
+loop
+prio
+repeat return resume
+switch step
+then to
+until
+while when
+
+/C2"Setup commands"
+$pro_act $CONF_MESS
+A
+base base_no B
+cp_dat C
+ex_base ERR_TO_PLC
+fdat frames
+group
+interrupt ipo_frame
+ldat
+out_sync out_async odat
+sec
+tool_no tool
+X
+Y
+Z
+
+/C3"Motion commands"
+$POS_ACT
+#fast #normal #slow #veryslow #medium #extraslow #path
+brake
+circ c_ptp c_vel c_dis c_ori
+lin lin_rel
+ptp ptp_rel
+
+/C4"Math and Functions"
+-
+*
+[
+]
+(
+)
+{
+}
+,
+:
+> >=
+< <=
+= ==
+!
+and abs acos atan2
+b_and b_exor b_not b_or
+cos
+exor
+false
+not
+or off on
+sin sqrt
+tan true
+
+/C5"I/O Commands"
+#open_gr #close_gr
+distance delay
+mess
+pulse path
+signal
+trigger
+wait
+
+/C6"Type definitions"
+& 
+axis
+bool
+char
+e6pos e6axis
+frame
+int
+pos
+real
+struc
+
+/C7"System Variables"
+$ipo_mode $out $in $timer_stop $cycflag $timer $flag $mode_op $MSG_T
+
+
+/C8"OpusTech functions"
+appro appros
+depart departs
+errorout
+linspeed
+newtool newbase
+setspeed
+
+

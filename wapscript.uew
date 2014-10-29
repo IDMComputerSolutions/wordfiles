@@ -1,0 +1,59 @@
+/L20"WAPScript" Line Comment = // Nocase Noquote Block Comment On = /* Block Comment Off = */ File Extensions = wmls
+/Delimiters = ~!@$%^&*()+=|\{}[]:;"'<> ,	.?
+/C1"Library"
+;
+access agent
+block break
+case catch class Console const continue
+debugger defaut delete Dialogs div do domain
+else empty enum export extends expression extern
+finally Float for function
+header http
+if import in
+Lang lib
+main meta
+name new null
+path private public
+return
+sizeot String super switch
+throw this try typeof
+URL use
+var varialbe void
+while with WMLBrowser
+/C2"Attributes"
+{
+}
+(
+)
+/C3"Functions"
+'
+"
+\
+abort abs alvert
+cell characterSet charAt compare confirm
+elementAt elements escapeString exit
+find floor format
+getBase getCurrentCard getFragment getHost getParameters getPath getPort getQuery getReferer getScheme getVar go
+insertAt int isEmpty isFloat isInt isValid
+length loadString
+max maxFloat maxInt min minFloat minInt
+newContext
+parseFloat parseInt pow prev print println prompt
+random refresh removeAt replace replaceAt resolve round
+seed setVar sqrt squeeze subString
+toString trim
+unescapeString
+/C4"operatiors"
++
+-
+=
+*
+// /
+%
+&
+<=
+<
+>=
+>
+!
+|

@@ -1,0 +1,132 @@
+# vCard or VCF files
+#  vCard Standard 2.1
+#  vCard Standard 3.0 (RFC2426)
+#  Calendar Attributes for vCard and LDAP (RFC2739)
+#  Sybmian Extension - Nokia (VOIP, POC, SIP, SWIS)
+# written by Dalibor Jelinek  - 13.1.2007
+/L18"vCard - VCF" String Chars = " Nocase File Extensions = VCF
+/Delimiters = []=:., 	;"
+/Open Fold Strings = "BEGIN:VCARD"
+/Close Fold Strings = "END:VCARD"
+/Open Brace Strings =  "<" "BEGIN:VCARD" "("
+/Close Brace Strings = ">" "END:VCARD" ")"
+/C1"Properties" STYLE_KEYWORD
+ADR
+AGENT
+BDAY
+CALADRURI
+CALURI
+CAPURI
+CATEGORIES
+CLASS
+EMAIL
+FBURL
+FN
+GEO
+KEY
+LABEL
+LOGO
+MAILER
+N
+NICKNAME
+NOTE
+ORG
+PHOTO
+PRODID
+REV
+ROLE
+SORT-STRING
+SOUND
+TEL
+TITLE
+TZ
+UID
+URL
+VERSION
+** X-
+/C2"Types" STYLE_ATTRIBUTE
+AIFF
+AVI
+BMP
+CGM
+DIB
+GIF
+JPEG
+MET
+MPEG
+MPEG2
+PCM
+PDF
+PGP
+PICT
+PMB
+PS
+QTIME
+TIFF
+WAVE
+WMF
+X509
+/C3"Keywords" STYLE_ELEMENT
+=
+7BIT
+8BIT
+BASE64
+BEGIN
+CHARSET
+CID
+CONTENT-ID
+CONTEXT
+ENCODING
+END
+INLINE
+LANGUAGE
+NAME
+PROFILE
+QUOTED-PRINTABLE
+SOURCE
+TYPE
+VALUE
+VCARD
+/C4"Property Parameters" STYLE_VARIABLE
+:
+;
+AOL
+AppleLink
+ATTMail
+BBS
+CAR
+CELL
+CIS
+DOM
+eWorld
+FAX
+HOME
+IBMMail
+INTERNET
+INTL
+ISDN
+MCIMail
+MODEM
+MSG
+PAGER
+PARCEL
+PCS
+POC
+POSTAL
+POWERSHARE
+PREF
+PRODIGY
+SIP
+SWIS
+TLX
+VIDEO
+VOICE
+VOIP
+WORK
+X400
+/C5"Charsets and Languages" STYLE_ATTRIBUTE
+cs
+en-us
+en-gb
+UTF-8
+** ISO-

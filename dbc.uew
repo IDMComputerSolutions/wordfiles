@@ -1,0 +1,108 @@
+/L20"DB/C" Nocase Line Comment = .- Line Comment Alt = .* Block Comment On Num =..  Block Comment On Alt = .   Escape Char = \ String Chars = "' File Extensions = ERR I6 I7 I8 R6 R7 R8 S6 S7 S8 TXT
+/Function String = "%[PF]*)$"
+/Indent Strings = "Then"
+/Unindent Strings = "End" "Next" "End If" "End Select"
+/C1"Executable Statements"
+Abs Add Aimdex Append Arccos Arcsin Arctan
+Beep Build Bump
+Change Charrestore Charsave Check10 Check11 Chop Clear Clearadr
+Clearendkey Clearlabel Clock Close Closeall Cmatch Cmove Comclose Comclr Comctl
+Comopen Compare Compareadr Comtst Comwait Console Copy Cos Count Create
+Debug Default Delete Deletek Destroy Disable Display Divide Draw
+Edit Empty Enable Encode Endroutine Endset Erase Execute Exist Exp
+Extend
+Filepi Fill Flagrestore Flagsave Flusheof Format Fposit
+Get Getcolor Getcursor Getendkey Getglobal GetLabel Getmodules Getname Getparm
+Getpostion Getwindow
+Hide
+Index Insert
+Keyin
+Label Lcmove Lenset Link List Listend Load Loadadr Loadlabel Loadmod Loadparm
+Log Log10 Lroutine
+Make Makeglobal Makevar Match Mod Move Moveadr Movefptr Movelength
+Movelptr Movesize Moveevl Mult Multiply
+Nformat Noeject Noreturn
+Open
+Pack Pause Perform Ploadmod Popreturn Power Prep Prepare Print Pushreturn Put
+Putfirst
+Query
+Read Readgplk Readkg Readglk Readkgp Readkp Readkplk Readks Readkslk Readlk
+Recv Recvclr Reformat Release Rename Replace Reposit Reset Resetparm
+Restore Retcount Rollout Routine
+Save Scan Scrnrestore Scrnsave Scrnsize Search Send Sendclr Set Setendkey Setflag
+Setlptr Setnull Sformat Show Shutdown Sin Sort Sound Splclose Splopen Splopt
+Splcode Splexec Sqlmsg Sqrt Squeeze Staterestore Statesave Statesize Store
+Storeadr Storelabel Sub Subtract
+Tabpage Tan Test Testadr Testlabel Trapclr Traprestore Trapsave Trapsize
+Type
+Unlink Unload Unlock Unpack Unpacklist Updatab Update
+Wait Weof Winrest Winrestore Winsave Winsize Write Writeab
+Xor
+@
+/C2"Operators"
+Break Branch
+Call Case CCall Chain Continue
+Else Endif Endswitch External
+For
+Goto
+If IFNDEF Inc
+Loop
+Movelabel Movelv Movevl
+Return Repeat
+Stop Switch
+Trap
+Until
+While
+/C4"Modifiers"
+"
+Binary
+Cobol Colorbits Comp Compressed
+Data
+Dup Duplicates Dynamic
+Entries
+Fix Fixed
+H
+Increment Initial
+KeyLen Keylength
+Native NoDup NoDuplicates
+Overlap
+Parent
+Size Standard Static
+Text Transient
+UnComp UnCompressed
+V Var Variable
+/C6"Additional Modifiers"
+AFile And
+BKSPC BKTAB By
+Char Character Class ComFile Cverb
+Date Definition Device Dim DOWN DEFINE
+END Endcalss EOS Equal Equ Equate ESC
+File Float Form From
+Gchar Giving Gnumber Ginteger Gfloat Gobject GDevice Greater Gresource Gimage
+Gqueue Gpfile GNum GForm GCharacter GDim
+HOME
+IFile Image In Into Init Integer Int
+LEFT Less Like
+Method Module
+Names Nocase Noreset Not Num Number
+Object Over Or
+PFile Prior
+Queue
+Record Recordend Resource RIGHT
+TAB Time To Timestamp
+UP Using
+Varlist Verb
+With
++
+-
+=
+// /
+%
+&
+>
+<
+^
+!
+|
+(
+)

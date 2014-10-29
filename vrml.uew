@@ -1,0 +1,85 @@
+/L20"VRML" Line Comment = # File Extensions = wrl
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String = 
+/Indent Strings = "{" "["
+/Unindent Strings = "}" "]"
+/C1 NODES
+AsciiText
+Box
+box
+Cone Cube Cylinder
+cone cube cylinder
+Group
+IndexedFaceSet IndexedLineSet Info
+LOD 
+PointSet
+Separator Sphere Switch
+sphere
+WWWAnchor
+/C2 PROPERTIES
+Appearance
+Coordinate3
+DirectionalLight
+FontStyle
+Info
+Material MaterialBinding MatrixTransform
+Normal NormalBinding
+OrthographicCamera
+PerspectiveCamera PointLight
+Rotation
+Scale Shape ShapeHints SpotLight
+Texture2 Texture2Transform TextureCoordinate2 Transform Translation
+WWWInline
+/C3 FIELDS
+Approach Arches
+Beauty BitMask Bool
+Cameras Closeup Color
+Enum
+Float
+Guide
+Image Inside
+Long
+Matrix
+SceneInfo String
+Title
+Vec2f Vec3f Viewer ViewerSpeed
+/C4 PARAMETERS
+ALL AUTO
+BINDINGS BOLD BOTTOM
+CENTER CLAMP CLOCKWISE CONVEX COUNTERCLOCKWISE CULLING
+DEF DEFAULT DEFAULTS
+ENUMS
+FACE FAMILY FILE FORMAT
+ITALIC
+JUSTIFICATION
+LEFT
+NONE
+OFF ON OVERALL
+PARTS PER_FACE PER_FACE_INDEXED PER_PART PER_PART_INDEXED PER_VERTEX PER_VERTEX_INDEXED
+REPEAT RIGHT
+SHAPE SIDES SOLID STYLE
+TYPE
+UNKNOWN_FACE_TYPE UNKNOWN_ORDERING UNKNOWN_SHAPE_TYPE USE
+WRAP
+/C5 CHILDREN
+Adirection
+ambientColor appearance
+bboxCenter bboxSize bottomRadius
+center children color coordIndex creaseAngle cutOffAngle
+depth description diffuseColor direction dropOffRate
+emissiveColor
+faceType family fields filename focalDistance
+geometry
+height heightAngle
+image indexOfRefraction intensity isA
+justification
+location
+map material materialIndex matrix
+name normalIndex numPoints
+on orientation
+parts point position
+radius range renderCulling rotation
+scaleFactor scaleOrientation shapeType shininess size spacing specularColor startIndex string style
+textureCoordIndex translation transparency
+value vector vertexOrdering
+whichChild width wrapS wrapT

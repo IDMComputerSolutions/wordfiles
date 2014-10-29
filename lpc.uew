@@ -1,0 +1,112 @@
+/L20"LPC" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = " File Extensions = C H
+/Delimiters = ~!@%^&*()[]{}-+=|\/:;"'<> ,	.?
+/Function String = "[a-zA-Z] ^([*a-zA-Z_]+ ++(*)*{^)*$"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+
+/C1"Types/Methods"
+array
+class
+double
+float function
+int 
+mixed mapping
+nomask
+object
+public private
+static string 
+void varargs
+
+/C2"C commands"
+break
+case continue
+default do
+else
+for foreach
+if in
+return
+switch
+while
+
+/C3"Sefuns"
+abs absolute_path adlog_file adminlist adminp arch assure_save_dir assure_user_save_dir
+base_name
+cat clone_object creator_file
+data_dir data_file debug_info directory_exists
+exclude_array exclude_element exec expand export_uid extract
+file_exists filter find_items find_short first_inventory format_string format_time
+get_logdir get_logdir_logname get_logfile get_object get_objects getoid gettype
+hiddenp
+identify int_string intl_date_stamp
+log_file
+max maxelt min minelt mkdirs mud_name mud_port mudlib_name mudlib_version
+next_inventory
+objective
+possessive ppossessive previous_living process_string process_value
+query_snoop query_snooping
+reduce_to_tilde_path
+seniorlist seniorp set_default_fail_msg set_eval_limit shadowp shutdown snoop sorted_inventory strtype subjective sumofarr
+tail temp_file testcharp transfer trim_spaces trimpath
+uniq_array update_file user_data_dir user_data_file user_path userp
+version
+wizardp wrap write_log_file
+
+/C4"Efuns"
+allocate allocate_buffer acos asin atan add_action allocate_mapping arrayp author_stats all_inventory all_previous_objects
+bind bufferp
+crc32 call_other call_out call_stack catch cp ceil cos copy command commands cache_stats classp children clone_object clonep capitalize clear_bit crypt call_out_info check_memory ctime
+disable_commands disable_wizard debug_info debugmalloc dump_file_descriptors dump_prog dump_socket_status dumpallobj domain_stats deep_inventory destruct deep_inherit_list
+evaluate exp ed ed_cmd ed_start enable_commands enable_wizard export_uid environment explode error eval_cost external_start
+filter_array file_length file_name file_size floor function_owner fetch_variable filter find_player filter_mapping floatp functionp find_living find_object find_call_out flush_messages function_exists function_profile functions
+generate_source get_dir get_char get_config geteuid getuid
+heart_beat_info heart_beats
+in_edit in_input input_to interactive intp implode inherit_list inherits
+keys
+link log living livings load_object lower_case localtime lpc_info
+map_array member_array mkdir map message malloc_status memory_info mud_status map_delete map_mapping match_path mapp master move_object max_eval_cost memory_summary
+new notify_fail named_livings
+origin opcprof objectp objects
+previous_object pow printf pointerp present pluralize program_info
+query_shadowing query_ed_mode query_host_name query_idle query_ip_name query_ip_number query_ip_port query_notify_fail query_verb query_load_average query_privs query_heart_beat
+read_buffer remove_call_out remove_shadow read_bytes read_file rename rm rmdir restore_variable receive remove_action remove_interactive resolve refs rusage random reload_object restore_object reg_assoc regexp repeat_string replace_string reclaim_objects replace_program replaceable reset_eval_cost
+sort_array shadow stat sin sqrt save_variable sizeof store_variable say set_this_player shout set_debug_level set_malloc_mask swap stringp set_author set_light set_living_name set_privs seteuid save_object set_heart_beat set_hide socket_accept socket_acquire socket_address socket_bind socket_close socket_create socket_error socket_listen socket_release socket_write set_bit sprintf sscanf strcmp strlen strsrch set_eval_limit set_reset shallow_inherit_list
+this_object throw tan to_float to_int typeof this_interactive this_player this_user time_expression trace traceprefix tell_object tell_room terminal_colour test_bit time
+unique_array users unique_mapping undefinedp upper_case uptime
+values virtualp variables
+write_buffer write_bytes write_file write
+
+/C5"Preprocess"
+inherit
+#define #include #if #else #ifdef #pragma #endif #ifndef #undef//
+
+/C6"Block delimiters"
+{
+}
+
+/C7"Lfuns"
+attack add_boost add_hp add_sp add_money add_extra_attack add_name
+create
+clear_opponents
+do_command
+evade_attack
+get_weapon
+heart_beat hit_player hold_attack
+init
+load_chat load_a_chat
+move_living move move_or_destruct
+notify_died notify_killed notify_softkilled notify_got_hit
+notify_sold notify_softdied notify_moved
+query_guild_data query_objective query_opponents query_possessive query_name query_pronoun
+query_short query_long query_fightable query_use
+query_ac query_sc query_wc query_hp query_sp query_no_get query_no_drop 
+query_opponent query_npc query_living query_vis query_value query_light
+query_total_boost query_origin query_level query_str query_dex query_con query_int query_wis query_cha
+query_protection query_location
+remove_object receive_object remove_item_boost reset remove_boost remove_extra_short
+register_notify register_prevent release_object
+set_ac set_al set_gender set_guild_data set_female set_male set_name set_neuter set_race set_sc set_stats set_value set_wc set_weight
+set_type set_long set_short set_softkill set_fightable_msg set_weapon set_locations set_location_prob
+spell_player stop_attack start_attack start_attack_allowed
+set_immunity set_humanoid set_aggressive second_life
+set_property set_no_drop set_no_get
+unregister_notify unregister_prevent

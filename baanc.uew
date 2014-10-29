@@ -1,0 +1,320 @@
+/L20"Baan C" Line Comment = | Block Comment On = 	DllUsage Block Comment Off = 	EndDllUsage String Chars = "' File Extensions = bc cln
+/Delimiters = ~!@%^&-+=|\/{}[];"'<> ,	?
+
+/C1
+#define #ident #include #pragma
+ALL_ENUMS_EXCEPT APPL.READ APPL.WRITE APPL.EXCL APPL.WIDE APPL.WAIT
+DAL_NEW DAL_UPDATE DAL_DESTROY DALHOOKERROR
+DAL_GET_FIRST DAL_GET_LAST DAL_GET_NEXT DAL_GET_PREV DAL_GET_FIND DAL_GET_CURR
+EXTEND_APPEND
+abort abort.io abort.program abort.transaction abs acos act.and.sleep activate activate.search
+add.set add.view.field
+alloc.mem appl.delete appl.get.user appl.modify appl.set argc argv$
+array.info asc asin
+ask.enum at.base ask.helpinfo atan
+aud_close_audit aud_get_audit_dd aud_get_col_info aud_get_fld_values
+aud_get_hdr_size aud_get_info_seq_hdr_size aud_open_audit
+aud_read_audit_rec aud_read_info_hdr aud_read_info_seq_hdr
+aud_read_next_audit_rec aud_read_next_tran aud_read_seq_hdr aud_read_tran
+aud_select_host aud_update_infofile aud_write_info_hdr aud_write_seq_hdr
+aux.close aux.open aux.print
+avg
+based bc$ bell$ bg$
+bit.and bit.exor bit.in bit.inv bit.or bit.shiftl bit.shiftr
+blank.all blue.component
+bms bms.add.mask bms.delete.mask bms.receive.buffer bms.receive$ bms.send box
+brp.close brp.open brp.open.language brp.ready bs$
+bse.dir$ bse.release$ bse.tmp.dir$ bshell.pid
+cf$
+calculator calendar
+change.field.label change.mwindow change.object change.progress.indicator
+change.order change.sub.object change.window changed
+check.all.input choose.time.zone.from.list
+chm.axis.in chm.axis.out chm.chartman chm.data2domain.in chm.data.in
+chm.delete.data2domains chm.delete.data chm.delete.footnotes
+chm.delete.projections chm.delete.sets chm.disconnect chm.domain.in
+chm.domain.out chm.draw chm.first.data2domain.out chm.first.data.out
+chm.first.footnote.out chm.first.projection.out chm.first.set.out
+chm.footnote.in chm.get.request chm.next.data2domain.out
+chm.next.data.out chm.next.footnote.out chm.next.projection.out
+chm.next.set.out chm.new chm.open chm.projection.in chm.remove chm.scale.axis
+chm.select chm.set.in chm.set.option chm.set.timer chm.title.in chm.title.out
+choice.again choice.report chr$ cl.screen clean.mess close.message
+cmd.options cmd.whats.this cmp.mem
+commit.transaction compnr.check compress.pixmap concat$ cont.process copy.mem
+cos cosh count cp$ cr$ create.job
+create.extra.toolbar create.mwindow create.node create.object
+create.progress.indicator create.sub.object create.sub.object.by.id
+creat.tmp.file$ create.tree.button create.tree
+cs$ current.display current.mwindow current.window
+d.expr
+dal.count.error.messages dal.get.error.message dal.get.first.error.message
+dal.reset.error.messages dal.set.error.message
+dal.destroy dal.get.property.flag dal.new dal.set.property
+dal.start.business.method dal.update
+data.input date.num date.time.utc date.to.date date.to.inputstr$ date.to.num
+date.to.utc
+db.bind db.change.order db.check.restricted db.check.row.changed
+db.check.row.domains db.clear.table db.columns.to.record db.create.table
+db.curr db.delete db.drop.table db.eq db.error db.error.message db.first
+db.ge db.gt db.indexinfo db.insert db.last db.le db.lock.table db.lt db.next
+db.nr.indices db.nr.rows db.permission db.prev db.record.to.columns
+db.ref.handle.mode db.retry.point db.retry.hit db.row.length db.set.to.default
+db.unbind db.update
+decompress.pixmap def.find del.window delch$ deleteln$
+destroy.mwindow destroy.object destroy.progress.indicator destroy.sub.object
+destroy.tree
+dir.close dir.entry dir.open dir.open.tree dir.rewind
+disable.commands disable.fields
+display display.all display.curr.occ display.fld display.occ display.set
+display.total.fields
+dll do.all.occ do.occ do.occ.without.update double.cmp dte$ dump.window
+dupl.occur
+edit$ el$ end end(4GL) enable.commands enable.fields end.program
+enum.descr$ es$ etol
+exec_dll_function exec_function execute exit exp export expr.compile expr.free
+ff$ fg$
+field.*:
+file.chmod file.chown file.cp file.mv file.mv.across.hosts file.rm file.stat
+find.data first.frm first.set first.view first.window
+form.tab.change form.text$ format.round free.mem fs$ fstat.info
+format.round fstat.info
+get.arg.type get.argc get.col get.company get.compnr get.cp
+get.defaults get.display.data get.double.arg get.field.label
+get.indexed.var get.long.arg get.mwindow.attrs
+get.mwindow.mode get.mwindow.size get.object get.pgrp get.pixmap.info
+get.resource$ get.row get.sub.object get.screen.defaults get.string.arg
+get.time.zone get.tree.default get.tree.node.dpress get.tree.node.press
+get.tree.push.button get.var get.window.attrs
+get_function
+getcwd getenv$ global.copy global.delete
+grab.mwindow green.component group.exists
+help.index hostname$
+import input input.again input.to.utc inputstr.to.date inputstr.to.utc
+inputfield.invisible inputfield.password inputfield.visible
+insch$ insertln$ int interrupt is.field.invisible is.option.on isdigit isspace
+keyin$ kill kill.pgrp kill.timer
+l.expr last.window len len.in.bytes lf$
+last.frm last.set last.view
+load.byte load_dll load.double load.float load.long load.short
+local.to.utc log log10 lower.object lpow ltoe lval
+make.current map.object map.window mark.delete mark.handler mark.occ mark.occur
+max
+mb.cast$ mb.cast.to.str$ mb.char mb.char.info mb.display mb.export$
+mb.ext.clean$ mb.hasbidi
+mb.import$ mb.isbidi mb.isbidi.language mb.kb.lang mb.locale.info mb.localename$
+mb.long.to.str$ mb.nsets mb.rev$ mb.scrpos mb.set.info mb.strpos mb.tss.clean$
+mb.type mb.width
+mess message min mkdir modify.set move.window mtime
+next.frm next.set next.view
+new.window next.event no.scroll not.curr not.fixed
+num.to.date num.to.date$ num.to.week
+off.change.check on.change.check on.main.table on.old.occ open.message ostype
+parse_and_exec_function pathname pc$ pcm.activate.session pcm.change.object
+pcm.change pcm.create.object pcm.create pcm.destroy.object pcm.destroy
+pcm.get.data pcm.lock pcm.refresh pcm.send.event peek.event pending.events pf$
+pipe.clearerr pipe.close pipe.eof pipe.error pipe.flush pipe.gets pipe.open
+pipe.puts pipe.read pipe.write
+pos pow prev.frm prev.set prev.view print.const print.data pstat
+put.double.arg put.indexed.var put.long.arg put.string.arg put.var
+qss.search qss.sort query.object
+raise.object random
+rdi.audit.hosts rdi.column rdi.column.combined rdi.date.input.format$
+rdi.domain.byte rdi.domain.combined rdi.domain.date rdi.domain.double
+rdi.domain.enum rdi.domain.enum.value rdi.domain.float rdi.domain.integer
+rdi.domain.long rdi.domain.mail rdi.domain.set rdi.domain.string
+rdi.domain.set.value rdi.domain.text rdi.domain rdi.first.day.of.week
+rdi.index rdi.reference rdi.table rdi.table.column
+reactivate receive.bucket$ recv.message red.component refresh refresh.curr.occ
+remove.mark resize.window restore.rcd.main rgb rm.dir rnd.d rnd.i rnd.init round
+recover.set resize.frm restart.input rotate.curr run.job
+rpos rprt_close rprt_open rprt_send
+rsc.boolean rsc.double rsc.enum rsc.font.spec rsc.get rsc.long rsc.put
+rsc.reload rsc.setboolean rsc.setdouble rsc.setenum rsc.setlong rsc.setstring
+rsc.string
+run.baan.prog run.prog
+s.expr save.defaults
+scroll select.event.input send.bucket send.event send.message send.wait
+seq.clearerr seq.close seq.eof seq.error seq.flush seq.getc$ seq.gets
+seq.is.locked seq.lock seq.open seq.putc$ seq.puts seq.read seq.rewind seq.seek
+seq.skip seq.tell seq.ungetc$ seq.unlink seq.unlock seq.write
+session
+set.alarm set.bg.color set.bitset.values set.currencies
+set.enum.values set.enum.values.for.field
+set.fg.color set.fields.default set.fmax set.fmin set.focus set.input.error
+set.limits.off set.max set.mem set.min
+set.mwindow.mode set.mwindow.size set.mwindow.title
+set.node.class.color set.node.class set.pgrp set.sensitive
+set.strip.mode set.symbol.strip.mode set.synchronized.dialog
+set.timer set.time.zone
+set.tree.background set.tree.font set.tree.foreground set.tree.linewidth
+set.tree.name set.transaction.readonly
+sf$ shell shiftc$ shiftl$ shiftr$ shell signal sin sinh skip.io sleep
+spool.buf spool.close spool.line spool.open sprintf$
+sql.break sql.close sql.exec sql.fetch sql.parse sql.select.bind sql.where.bind
+sqrt srand start.session stat.info
+start.chart start.query start.set
+start.synchronized.child start.synchronized.child.with
+status.del status.field status.mess status.off status.on
+stop stop(4GL) stop.synchronized.child
+store.byte store.double store.float store.long store.occ.max store.occ.min
+store.short stp.reset.value str$ string.scan string.set$ strip$
+sub.window sum suspend switch.to.company switch.to.process synchronize.with.child
+tab$ table.round tan tanh
+text.copy text.copy.language text.copy.between.companies
+text.defaults text.delete text.edit text.manager text.present.in.language
+text.read text.rewrite text.to.buf text.window text.write
+time.num times.off times.on timezone.exists
+to.field to.form to.group to.key tolower$ toupper$
+tt.align.according.domain tt.bobject.desc tt.chm.appl.desc tt.chm.application
+tt.chm.chart tt.chm.charttype tt.company tt.currency tt.device tt.field.desc
+tt.index.desc tt.language tt.library tt.menu.desc tt.menu.present tt.report.desc
+tt.reportgroup.exists tt.session.desc tt.session.permission tt.session.present
+tt.short.field.desc tt.table.desc tt.user ttyname ttyname$
+unmap.object unmap.window unset.focus update.db update.object update.occ used
+user.0 user.1 user.2 user.3 user.4 user.5 user.6 user.7 user.8 user.9
+utc.num utc.to.date utc.to.input utc.to.input$ utc.to.local utc.to.week
+val view.tree vsprintf$
+wait wait.and.activate wait.for.switch week.to.num week.to.utc
+with.object.set.do with.old.object.values.do
+wrebuild
+zoom zoom.to$
+
+/C2
+actual.occ
+attr.adju
+attr.bitset.mask attr.changed attr.conv attr.currency$ attr.currkey
+attr.dbase attr.dbmaxlen attr.deflt$ attr.descr$ attr.diga attr.digv attr.divf
+attr.domain$ attr.domm$ attr.dorp
+attr.echo attr.element attr.enum.mask$ attr.format.addition$ attr.helpfile$
+attr.ille$ attr.imax attr.inpfld attr.input attr.lega$
+attr.mandatory attr.maxlen attr.message$ attr.minlen attr.multioccur
+attr.nowait$ attr.oformat$ attr.permission attr.previous$
+attr.rang attr.rang$ attr.reallen attr.refpath attr.rndm attr.rotate attr.sttp
+attr.textfield$ attr.textkw1$ attr.textkw2$ attr.textkw3$ attr.textkw4$
+attr.textlang$ attr.textmaxlines attr.textmode attr.textopt$
+attr.textstart attr.textzoomsession$ attr.type
+attr.zoomcode attr.zoomreturn$ attr.zoomsession$
+auto.nextform
+background before.update.check breakview
+chartgrp
+chm.name chm.owner chm.title chm.user choice curr.key curr.pacc$
+date date$
+e error.bypass exit.val$
+fattr.currfld$ fattr.descr$ fattr.ftype
+fattr.helpfile$ fattr.horizontal fattr.init fattr.nextfld$ fattr.nrtabs
+fattr.occurnr fattr.prevfld$ fattr.row
+fattr.scrollbar fattr.seqno fattr.step fattr.toplines fattr.total.line
+fattr.vdate$ fattr.version$ fattr.width
+filename$ filled.occ firstweek$ form.curr form.next form.prev free$
+graphical.mode
+ignore.first.event in.ret initial.resize
+job.device job.device.requested job.process job.report job.skip.date.question
+language$ logname$
+lattr.autobefores lattr.autoreset lattr.break lattr.enddata lattr.header
+lattr.language$ lattr.lineno
+lattr.multicol lattr.multicol.count lattr.multicol.repeat
+lattr.pageno lattr.print lattr.prline lattr.recordtimes
+lattr.textexpand lattr.textlang$ lattr.textline lattr.textlineno
+lattr.textlines.max lattr.textlines.min
+main.table$ mark.status mark.table() marked max.formtabs maxdouble
+modify.prim.key
+number.forms
+parent pid previous.choice procesinfo$ prog.name$
+query.extend.select query.extend.select.in.zoom
+query.extend.from query.extend.from.in.zoom
+query.extend.where query.extend.where.in.zoom
+query.extension
+reportgrp reportno
+sattr.combined stp.abort.error stp.check.input.error stp.skip.error
+term$ time
+update.status user.exists user.type$
+zoomfield$ zoomreturn$
+
+/C3
+and as at
+base break bset by
+call case common const continue
+default: dim domain double
+else empty endcase endfor endif endwhile endselect eq extern
+false fixed for from function
+ge global goto group gt
+if in
+le long lt
+mb multibyte
+ne not
+on or order
+print prompt
+ref reference refers repeat return rows
+select selectbind selectdo selectempty selecteos selecterror set static step
+string
+table then to true
+until
+void
+where wherebind whereused while with
+
+/C4
+after.choice: after.commit.transaction
+after.delete: after.display: after.display.object: after.field:
+after.form: after.input: after.program: after.read: after.rewrite:
+after.skip.delete: after.skip.rewrite: after.skip.write: after.update.db.commit:
+after.write: after.zoom:
+after.get.object after.destroy.object after.save.object
+before.checks: before.choice: before.delete: before.display:
+before.display.object: before.field: before.form: before.input: before.layout:
+before.open.object.set
+before.get.object before.destroy.object before.save.object
+before.program: before.read: before.rewrite: before.write: before.zoom:
+check.input: choice.abort.program: choice.add.set: choice.bms:
+choice.change.frm: choice.change.order: choice.cont.process: choice.create.job:
+choice.def.find: choice.dupl.occur: choice.end.program: choice.find.data:
+choice.first.frm: choice.first.set: choice.first.view: choice.get.defaults:
+choice.global.copy: choice.global.delete: choice.interrupt: choice.last.frm:
+choice.last.set: choice.last.view: choice.make.resident: choice.mark.delete:
+choice.mark.occur: choice.modify.set: choice.next.frm: choice.next.halfset:
+choice.next.set: choice.prev.frm: choice.prev.halfset: choice.prev.set:
+choice.prev.view: choice.print.data: choice.recover.set: choice.resize.frm:
+choice.restart.input: choice.run.job: choice.save.defaults: choice.start.chart:
+choice.start.query: choice.start.set: choice.text.manager: choice.update.db:
+choice.user.0: choice.user.1: choice.user.2: choice.user.3: choice.user.4:
+choice.user.5: choice.user.6: choice.user.7: choice.user.8: choice.user.9:
+choice.zoom:
+declaration:
+domain.error:
+field.all: field.other:
+form.10: form.11: form.12: form.1: form.2: form.3:
+form.4: form.5: form.6: form.7: form.8: form.9: form.all: form.other:
+functions:
+init.field: init.form:
+main.table.io:
+on.choice: on.entry: on.error: on.exit: on.input:
+read.view: ref.display: ref.input:
+when.field.changes:
+zoom.from.all: zoom.from.other:
+
+/C5
+{
+}
+(
+)
+[
+]
++
+-
+*
+// /
+%
+&
+?
+:
+^
+!
+~
+'
+<
+>
+=
+
+/C6
+<>
+

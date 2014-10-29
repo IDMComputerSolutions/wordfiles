@@ -1,0 +1,101 @@
+/L20"Frame-/ElmScript" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = ' File Extensions = FSL
+/Delimiters = ~@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String = "%[a-zA-Z_]*)"
+/Indent Strings = "Else" 
+/Unindent Strings = "EndIf" "EndLoop" "EndEvent" "EndSub"
+/C1 "COMMANDS"
+Add Apply
+Clear Close Copy Cut
+Delete DialogBox Display
+Else EndEvent EndIf EndLoop EndSub Event Execute
+Find
+Generate Get
+If Import Install
+LeaveLoop LeaveSub Loop
+MsgBox
+New
+Open
+Paste Print
+Quit
+Read Remove Replace Return Run
+Save Select Session Straddle Sub
+Uninstall Update
+Write
+/C2 "EXTENDED COMMANDS"
+Book BookFiles
+ChangeBars CommandObject
+Document
+File Formats FrameCommand
+HyperText
+Integer
+Member Menu MenuItemSeparator MenuObject MenuSepObject Metric MetricList
+Object 
+PageLayout Property PropertyList
+QuickKeys
+Real
+Script String StringList
+Table TableCells TableCols TableColumns TableRows Text TextFile TextInsetContents TextList TextLoc TextProperties TextRange
+UIntList
+Var
+/C3 "OPTIONS"
+AddTo
+Backward BodyRows BookObject BottomMargin BottomRow Button Button3Label Button4Label
+Cancel CellObject CharFmt CheckBox1 CheckBox1Label CheckBox2 CheckBox2Label CheckBox3 CheckBox3Label CheckBox4 CheckBox4Label Color ColumnGap Command CutTblCells
+Destpage Direction Directory DocObject DontApplyAllRows DontDeleteHiddenText
+Edit1 Edit2 Edit3 EndPos EventProc
+FooterRows ForEach Format From FromDocObject FromString
+HeaderRows Height
+IgnoreMods In Incr Init InitVal InitValue InObject InRange InsertBelowRight InString Interactive Invisible IOType
+Label Label1 Label2 Label3 Landscape LeftCol LeftInsideMargin List LoopVar LowerCase
+MarkerType MasterPage Mode
+Name NewVar NoCase Number NumCols NumRows
+Offset
+ParentObject Portrait Prefix PrevObject Prompt PropertyName Properties PropertyValue
+RemoveChars RemoveLeading RemoveTrailing ReplaceCells ReturnPos ReturnStatus ReturnString ReturnRange Returns Reverse Rewind RightCol RightOutsideMargin RowObject
+ScrollTo SelectTable ShortCut SidedNess SkipStep Sourcepage Start StartCol StartPos Suffix
+TableObject Template Title Title2 To TopMargin TopRow Type
+UnanchoredFrame Units Until UpperCase
+Value Visible VisibleOnly
+When While WholeWord Width With
+/C4 "TYPES"
+AFrame AlertUserAboutFailure Append Arc AutoBackupOnSave
+BeefyDoc BodyPage BookComponent BookFileMenu BookIsInUse
+CharacterFormat CharPropsChange Cell CellSeparator ClosedDocs CombinedFonts Cond CondFmt ConditionFormat
+DisallowBookDoc DisallowBookMif DisallowDoc DisallowFilterTypes DisallowGraphicTypes DisallowMacEditions DisallowMif DisallowPlainText DisallowSgml Doc DontNotifyApiClients
+EditMenu Ellipse Everything
+FileIsGraphic FileIsInUse FileIsMakerDoc FileIsOldVersion FileIsSgmlDoc FileIsStructured FileIsText FileMenu FilterFormatId FitGraphicInSelectedRect Flow FlowBegin FlowEnd Fn FnAnchor Font FontChangedMetric FontNotFoundInCatalog FontNotFoundInDoc ForceImportAsText ForceOpenAsText ForceUpdate FormatImportedText FormatMenu Formatting FrameAnchor
+GraphicDpi Group
+HowToImport Hyphenating
+ImportFlowPageSpace ImportFlowTag ImportTblTag Inset Internal
+LanguageNotAvailable LeaveHeadingRowsEmpty Line LineBegin LineEnd LockCantBeReset
+MakeIconic MakePageCount MakeVisible ManualUpdate Marker MarkerAnchor Math ModDateChanged
+NameStripe NumCellSeparators NumColumns
+OpenDocs OpenDocViewOnly OpenFileNotWritable OpenId
+Page PageBegin PageEnd ParagraphFormat Pgf PgfBegin PgfEnd PgfFmt Polygon Polyline
+ReadOnly Rectangle ReferencePage RefFileNotFound RefPage RemoveExceptions RemoveManualPageBreaks RemoveOverrides RemovePageBreaks ResetEquationSettings ResetRefFrames RestartPgfNums RetainNameStripe RoundRect Row RulingFmt RulingFormat
+SaveFileNotWritable SaveTextExtraBlankLineAtEOP SaveTextTblSetting ShowBrowser ShowSaveTextDialog SubCol SubColBegin SubColEnd
+TableFormat Tbl TblAnchor TblFmt TblNumHeadingRows TextFrameBegin TextFrameEnd TextInsetBegin TextInsetEnd TextInsetName TextFrame Textline TextInset TiApiClient TreatParaAsRow
+UNIXpermissions UpdateBrowserDirectory UpdateFRVList UpdateXRefs UseAutoSaveFile UseDefaultUNIXpermissions UseMainFlow UseRecoverFile
+VarBegin VarEnd VarFmt Variable Variables VariableFormat
+WriteOnly
+XRef XRefBegin XRefEnd XRefFmt XRefFormat XRefs
+!BookMainMenu !MakerMainMenu !QuickMakerMainMenu !ViewOnlyMenu
+/C5 "OPERATORS"
++
+-
+*
+// /
+=
+>
+<
+and
+not
+or
+/C6 "SPECIAL VARIABLES"
+BackSlash
+CHARCR CHARLF CHARTAB ClientDir
+ErrorCode ErrorMsg
+fslVersionMajor fslVersionMinor
+MainScript
+QUOTE
+ThisScript

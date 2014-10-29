@@ -1,0 +1,59 @@
+/L20"WML Script" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = WMLS
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String = "%[ ^t]++^(function[ ^t][a-z_]+^)[ ^t]{"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1
+access agent
+break
+continue
+div domain
+else equiv extern
+for function
+header http
+if isvalid
+meta
+name
+path
+return
+typeof
+url use user
+var
+while
+/C2
+case catch class const charAt compare
+debugger default delete do
+enum export extends elementAt elements
+finally format
+import in insertAt isEmpty
+lib length
+new null
+private public
+removeAt replace replaceAt
+sizeof subString
+struct super switch
+this throw try toString trim
+void
+with
+/C3
+abort abs alert
+characterSet ceil confirm
+exit escapeString
+float floor
+getBase getFragment getHost getParameters getPath getPort getQuery
+getReferer getScheme getCurrentCard getVar go
+isFloat isInt int isValid
+loadString
+max maxInt min minInt maxFloat minFloat 
+newContext
+parseFloat parseInt pow prev prompt
+random round resolve refresh
+seed sqrt setVar
+unescapeString
+/C4
+Float
+Dialogs
+Lang
+String
+URL
+WMLBrowser

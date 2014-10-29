@@ -1,0 +1,121 @@
+/L20"ISA Dialog Manager" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = DLG MOD
+/TGBegin "Function"
+/TGFindStr = "%function c [a-zA-Z]++^(*^)$"
+/TGEnd
+/TGBegin "Window"
+/TGFindStr = "%[ ]++^(window *^)$"
+/TGFindStr = "%[ ]++model ^(window *^)$"
+/TGEnd
+/TGBegin "Model"
+/TGFindStr = "%[ ]++^(model *^)$"
+/TGEnd
+/TGBegin "Event"
+/TGFindStr = "%[ ]++^(on *^)$"
+/TGFindStr = "%[ ]++^(rule [a-zA-Z]++ *^)$"
+/TGEnd
+/TGBegin "Const"
+/TGEnd
+/TGBegin "Extern"
+/TGEnd
+/Delimiters = .~!%@^&*()-+=|\/{}[]:;"'<> ,	?
+/Indent Strings = "{" "if" "else" "case"
+/Unindent Strings = "endif" "endcase" "end" "}"
+/Open Brace Strings = "{" "(" "["
+/Close Brace Strings = "}" ")" "]"
+/Open Fold Strings = "{"
+/Close Fold Strings = "}"
+/C1"Keywords"
+and
+case child config
+default do
+else end endcase endfor endif endwhile exit export
+for function
+if import in
+model
+null
+object on or otherwise
+return rule
+step
+then this to
+variable
+while
+/C2"Objects"
+Remote
+accelerator application
+canvas checkbox cursor
+dialog
+edittext
+groupbox
+image
+listbox
+menubox menuitem menusep messagebox modul
+notebook notepage
+poptext pushbutton
+radiobutton rectangle
+scrollbar setup statictext
+tablefield timer
+window
+/C3"Attributes"
+active activeitem alignment
+bgc borderwidth button
+canvasfunc childcount closeable colalignment colcount colwidth content
+defbutton dialogbox
+editable
+fgc filled focus focusitem font format
+height
+icon iconifyable imagebfc imagebgc itemcount
+label
+maxchars moveable multiline
+navigable
+options
+parent picture posraster
+rowlinewidth
+selection sensitive sizeable sizeraster style
+text title toolhelp
+userdata
+visible vsb_visible
+width
+xauto xleft xraster xright
+yauto ybottom yraster ytop
+/C3"Methods"
+atoi
+clear create
+delete
+exchange
+insert
+/C4"Functions"
+Errorbox
+Querybox
+destroy
+first
+itoa
+parsepath
+substring
+updatescreen
+/C5"Resourcen"
+color
+fontx formatx
+tile
+/C5"Events"
+activate
+changed charinput close
+key
+modified
+select
+/C6"Const"
+CO_DARKGREY CO_GREY CO_RED CO_WHITE
+SystemBold
+boolean
+false
+integer
+string
+true
+void
+/C7"Operators"
+*
++
+-
+:
+<
+=
+>

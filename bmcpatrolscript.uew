@@ -1,0 +1,116 @@
+/L20"BMC Patrol Script" Nocase Line Comment = # Escape Char = \ String Chars = " File Extensions = PSL
+/Delimiters = !@%^&*()+=|\/{}[]:;"'<> ,	.?
+/Function String = "%^([a-zA-Z_0-9^[^]*]+^)[ ^t]+([^p*&, ^t^[^]a-zA-Z_0-9.]++)[~;]"
+/Function String 1 = "%[a-zA-Z_0-9*]*::^([a-zA-Z_0-9^~]+^)[ ^t^p]++([^p*&, ^t^[^]/*=:&a-zA-Z_0-9./(]++)[~;]"
+/Function String 2 = "%[a-zA-Z_0-9^][a-zA-Z_0-9^[^]]+[ ^t*]+^([a-zA-Z_0-9]+^)[ ^t]++([^p*&, ^t^[^]a-zA-Z_0-9./(]++)[~;]"
+/Function String 3 = "%[a-zA-Z_0-9*&$^[^]*]+[ ^t]+[a-zA-Z_0-9*&$^[^]]+[ ^t*]+^([a-zA-Z_0-9]+^)[ ^t]++([^p*&, ^t^[^]a-zA-Z_0-9./(]++)[~;]"
+/Function String 4 = "%[a-z_0-9^[^]*]++ [a-z_0-9*^[^]]+[ ^t]++[a-z_0-9*^[^]]+[ ^t]++^([*a-z_0-9]+^)[ ^t]++([^p*&, ^t^[^]a-z_0-9./(]++)[~;]"
+/Function String 5 = "%^([a-zA-Z_0-9^[^]*]+^)[ ^t]++([^p*&, ^t^[^]a-zA-Z_0-9./()]++)[~;]"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1"PSL Statements"
+case
+default do
+else elsif exit export
+for foreach function
+if
+last local
+main
+next
+requires return
+switch
+until
+while
+/C2"PSL Functions
+acos add_diary annotate annotate_get asctime asin atan atexit
+batch_set blackout
+cat ceil chan_exists change_state chart close closeMetric closeMetricGroup code_cvt cond_signal cond_wait console_type convert_base convert_date convert_locale_date cos 
+cosh create
+date dcget_text debugger desktop destroy destroy_lock dget_text difference disableMetric dump_hist
+enableMetric enableMetricGroup encrypt event_archive event_catalog_get event_check event_query event_range_manage event_range_query event_report event_schedule 
+event_trigger event_trigger2 execute exists exp
+fabs file findRowNumber floor fmod fopen fseek ftell full_discovery
+get get_chan_info get_ranges get_text get_vars getenv getMetricComputation getMetricValue getpid getpname getRowCount grep
+history history_get_retention
+in_transition index int internal intersection is_var isnumber
+join
+kill
+length lines lock log log10 loge
+matchline msg_check msg_get_format msg_get_severity msg_printf msg_sprintf
+ntharg nthargf nthline nthlinef num_bytes num_consoles
+openMetric openMetricGroup
+pconfig popen poplines popup_report pow print printf proc_exists process ProfDefaultOptions ProfGet ProfGetTotalCpu ProfOptions ProfReset ProfTop PslExecute PslSetOptions
+queryMetricComputations queryMetricGroups queryMetrics
+random read readln refresh_parameters remote_close remote_event_query remote_event_trigger remote_file_send remote_open remove replace response response_get_value rindex
+sec_store_get sec_store_set set set_locale setMetricComputation share sin sinh sleep snmp_agent_config snmp_agent_start snmp_agent_stop snmp_close snmp_config snmp_debug 
+snmp_get snmp_get_next snmp_h_get snmp_h_get_next snmp_h_set snmp_open snmp_set snmp_trap_ignore snmp_trap_listen snmp_trap_raise_std_trap snmp_trap_receive 
+snmp_trap_register_im snmp_trap_send snmp_walk sort splitline sprintf sqrt srandom subset substr system
+tail tan tanh text_domain time tmpnam tolower toupper trace_psl_process trim
+union unique unlock unset updateMetricGroup
+va_arg va_start
+write write_to_report
+/C3"Operators"
+! != !~
+% %=
+& && &=
+* *=
++ ++ +=
+- -- -=
+. 
+// / /=
+:
+< << <<= <=
+= == =~
+> >= >> >>=
+?
+^ ^=
+| |= ||
+(
+)
+[
+]
+;
+/C4"PSL Ext Commands"
+%DUMP %PSL %PSLPS
+ALL APP_INSTS APPS
+CHANNELS CONSOLES
+ERRORS
+GLOBALS
+KM_LIST
+LIBRARIES
+PARAMS psl
+queue
+RTLIST RUNQ
+TASKS
+/C5"Predefined Vars"
+active agentLogPath agentPid alarmMax alarmMin alarmState allocErrors application appType
+environment errno execParams execsPerMin execTime executingProcs exit_status
+forkErrors
+globalParamsSuspended
+home hostname
+instances internalErrors interval ipAddress
+lastDiscoveryTime
+name numInstances
+objectId
+parentInstance patrolHome patrolVersion pipeErrors procCommand procCpuTime procName procParentPid procPercentCpu procPid procResidentSetSize procSize procStatus 
+procUser propagateState PslDebug
+ruleState
+serverLogPath serverPid sid status sub-processes
+tcpPort this timeBtnExecs totalErrors transition
+userErrors username
+value version
+worstParam worstParamState
+/C6"Predef Constants"
+ALARM
+boolean
+CHART_ADD_GRAPH CHART_DELETE_GRAPH CHART_DESTROY CHART_LOAD CHART_PRINT
+EOF
+False
+NO
+OFFLINE OK
+R_CHECK_HORIZ R_CHECK_VERT R_CLICKER R_COLUMN R_FRAME R_ICON R_LABEL R_LABEL_CENTER R_LIST_MULTIPLE R_LIST_MULTIPLE_ND R_LIST_SINGLE R_LIST_SINGLE_ND R_MENU 
+R_POPUP R_POPUP_SCROLLED R_RADIO_HORIZ R_RADIO_VERT R_ROW R_SCALE_HORIZ R_SCALE_VERT R_SEP_HORIZ R_SEP_VERT R_SPINNER R_TEXT_FIELD R_TEXT_FIELD_LABEL R_TOGGLE
+true
+VOID
+WARN
+yes

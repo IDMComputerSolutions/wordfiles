@@ -1,0 +1,161 @@
+/L20"Winrunner" Line Comment = # Escape Char = \ String Chars = "' File Extensions = win
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> , .?
+/Function String = "%^([a-zA-Z_0-9]+^)[ ^t]+([^p*, ^t^[^]a-zA-Z_0-9.]++)[~;]"
+/Function String 1 = "%[a-zA-Z_0-9]*::^([a-zA-Z_0-9^~]+^)[ ^t]++([^p*, ^t^[^]/*=:&a-zA-Z_0-9.]++)[~;]"
+/Function String 2 = "%[a-zA-Z_0-9]+[ ^t]+^([a-zA-Z_0-9]+^)[ ^t]++([^p*, ^t^[^]a-zA-Z_0-9.]++)[~;]"
+/Function String 3 = "%[a-zA-Z_0-9"]* ^([a-zA-Z_0-9"]+^)[ ^t]++([^p*, ^t^[^]a-zA-Z_0-9.]++)[~;]"
+/Function String 4 = "%[a-zA-Z_0-9*&$]+[ ^t]+[a-zA-Z_0-9*&$]+[ ^t]+^([a-zA-Z_0-9]+^)[ ^t]++([^p*, ^t^[^]a-zA-Z_0-9.]++)[~;]"
+/Function String 5 = "%^([a-zA-Z_0-9]+^)[ ^t]++([^p*, ^t^[^]a-zA-Z_0-9.]++)[~;]"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1"Keywords"
+_set_window
+ActiveBar_combo_select_item ActiveBar_dump ActiveBar_select_menu ActiveBar_select_tool
+ActiveX_activate_method ActiveX_get_info ActiveX_set_info 
+add_cust_record_class add_dlph_obj add_record_attr add_record_message ascii atan2 auto 
+break button_check_enabled button_check_info button_check_state button_get_info
+button_get_state button_get_value button_press button_set button_wait_info
+calendar_activate_date calendar_get_selected calendar_get_status 
+calendar_get_valid_range calendar_select_date calendar_select_range calendar_select_time
+calendar_set_status call call_chain_get_attr call_chain_get_depth call_close call_ex
+case char check_file check_wid check_window click click_on_text compare_text const
+continue cos create_browse_file_dialog create_custom_dialog create_input_dialog
+create_list_dialog create_password_dialog 
+datawindow_button_press datawindow_get_info datawindow_text_click 
+datawindow_text_dbl_click date_age_string date_align_day date_calc_days_in_field
+date_calc_days_in_string date_change_field_aging date_change_original_new_formats 
+date_check date_disable_format date_enable_format date_field_to_Julian date_is_field
+date_is_leap_year date_is_string date_leading_zero date_month_language date_set_aging
+date_set_attr date_set_auto_date_verify date_set_capture_mode date_set_run_mode
+date_set_system_date date_set_year_limits date_set_year_threshold date_string_to_Julian
+date_type_mode db_check db_connect db_disconnect db_dj_convert db_execute_query
+db_get_field_value db_get_headers db_get_last_error db_get_row db_record_check
+db_write_records dbl_click ddt_close ddt_close_all_tables ddt_export ddt_get_current_row
+ddt_get_parameters ddt_get_row_count ddt_is_parameter ddt_next_row ddt_open 
+ddt_report_row ddt_save ddt_set_row ddt_set_val ddt_set_val_by_row ddt_show ddt_sort
+ddt_update_from_db ddt_val ddt_val_by_row declare_rendezvous declare_transaction default
+define_object_exception define_popup_exception define_tsl_exception delete 
+delete_record_attr display_date_result display_euro_result dlph_edit_set 
+dlph_list_select_item dlph_obj_get_info dlph_obj_set_info dlph_panel_button_press
+do dos_system double 
+edit_activate edit_check_content edit_check_format edit_check_info edit_check_selection
+edit_check_text edit_delete edit_delete_block edit_get_block edit_get_info
+edit_get_row_length edit_get_rows_count edit_get_selection edit_get_selection_pos 
+edit_get_text edit_insert edit_insert_block edit_replace edit_replace_block edit_set
+edit_set_focus edit_set_insert_pos edit_set_selection edit_type edit_wait_info else
+end_transaction endif error_message eval exception_off exception_off_all exception_on
+exception_on_print exit exp extern 
+file_close file_compare file_getline file_open file_printf find_text float for function
+GUI_add GUI_buf_get_data GUI_buf_get_data_attr GUI_buf_get_desc GUI_buf_get_desc_attr 
+GUI_buf_get_logical_name GUI_buf_new GUI_buf_set_data_attr GUI_buf_set_desc_attr
+GUI_close GUI_close_all GUI_data_get_attr GUI_data_set_attr GUI_delete GUI_desc_compare
+GUI_desc_get_attr GUI_desc_set_attr GUI_get_name GUI_get_window GUI_list_buf_windows
+GUI_list_buffers GUI_list_data_attrs GUI_list_desc_attrs GUI_list_map_buffers 
+GUI_list_win_objects GUI_load GUI_map_get_desc GUI_map_get_logical_name GUI_mark
+GUI_open GUI_point_to GUI_replay_wizard GUI_save GUI_save_as GUI_set_window GUI_unload
+GUI_unload_all 
+gui_ver_add_check gui_ver_add_check_to_class gui_ver_add_class 
+gui_ver_set_default_checks generator_add_category generator_add_function 
+generator_add_function_to_category generator_add_subcategory 
+generator_set_default_function get_aut_var get_class_map get_host_name 
+get_lang get_master_host_name get_obj_record_method get_record_attr get_record_method 
+get_runner_str get_text get_time get_unique_filename get_x get_y getenv getline getvar 
+grab gsub 
+icon_move icon_select if in index inout input_to_description_int int invoke_application
+java_activate_method java_fire_event jco_create jco_free jco_free_all 
+length list_activate_item list_check_info list_check_item list_check_multi_selection 
+list_check_row_num list_check_selected list_check_selection list_collapse_item
+list_deselect_item list_deselect_range list_drag_item list_drop_on_item list_expand_item
+list_extend_item list_extend_multi_items list_extend_range list_get_checked_items 
+list_get_column_header list_get_info list_get_item list_get_item_coord 
+list_get_item_info list_get_item_num list_get_items_count list_get_selected 
+list_get_subitem list_rename_item list_select_item list_select_multi_items
+list_select_range list_set_item_state list_wait_info load load_dll log long lov_get_item
+lov_select_item lr_end_application lr_end_transaction lr_set_application_name 
+lr_set_sub_transactions lr_set_transaction_metrics lr_set_transaction_status 
+lr_set_user_name lr_start_sub_transaction lr_start_transaction lr_update_transaction
+lr_whoami
+match menu_get_desc menu_get_info menu_get_item menu_get_item_num menu_get_items_count
+menu_select_item menu_verify menu_wait_info method_wizard move_locator_abs 
+move_locator_rel move_locator_text move_locator_track move_mouse_abs move_mouse_rel
+move_window mtype
+nargs next
+obj_check_attr obj_check_bitmap obj_check_enabled obj_check_focused obj_check_gui
+obj_check_info obj_check_label obj_check_pos obj_check_size obj_check_style 
+obj_click_on_bitmap obj_click_on_text obj_drag obj_drop obj_exists obj_find_text
+obj_get_desc obj_get_info obj_get_text obj_highlight obj_key_type obj_mouse_click
+obj_mouse_dbl_click obj_mouse_drag obj_mouse_move obj_move_locator_text obj_set_focus
+obj_set_info obj_type obj_verify obj_wait_bitmap obj_wait_info 
+object_find_text ora_obj_get_info out output_message 
+password_edit_set password_encrypt pause phone_append_text phone_edit_set phone_get_name
+phone_GUI_load phone_key_click phone_navigate phone_sync popup_select_item printf
+process_return_value prvars public 
+qt_force_send_key qt_reset_all_force_send_key quad_click 
+rand reload rendezvous report_event report_msg report_param_msg reset_filter
+reset_internals return
+save_report_info scroll_check_info scroll_check_pos scroll_drag scroll_drag_from_min
+scroll_get_info scroll_get_max scroll_get_min scroll_get_pos scroll_get_selected
+scroll_get_value scroll_line scroll_max scroll_min scroll_page scroll_wait_info
+set_aut_var set_class_map set_filter set_obj_record_method set_record_attr 
+set_record_method set_window setvar short siebel_click_history siebel_connect_repository
+siebel_get_active_applet siebel_get_active_buscomp siebel_get_active_busobj 
+siebel_get_active_control siebel_get_active_view siebel_get_chart_data
+siebel_get_control_value siebel_goto_record siebel_navigate_view siebel_obj_get_info
+siebel_obj_get_properties siebel_select_alpha siebel_set_active_applet 
+siebel_set_active_control siebel_set_control_value siebel_terminate signed sin 
+spin_get_info spin_get_pos spin_get_range spin_max spin_min spin_next spin_prev
+spin_set spin_wait_info split sprintf sqrt srand start_transaction static 
+static_check_info static_check_text static_get_info static_get_text static_wait_info
+statusbar_get_field_num statusbar_get_info statusbar_get_text statusbar_wait_info
+str_map_logical_to_visual string sub substr switch system 
+tab_get_info tab_get_item tab_get_page tab_get_selected tab_get_selected_page
+tab_select_item tab_select_page tab_wait_info tbl_activate_cell tbl_activate_col
+tbl_activate_header tbl_activate_row tbl_click_cell tbl_dbl_click_cell tbl_deselect_col
+tbl_deselect_cols_range tbl_deselect_row tbl_deselect_rows_range tbl_drag tbl_extend_col
+tbl_extend_cols_range tbl_extend_row tbl_extend_rows_range tbl_get_cell_coords
+tbl_get_cell_data tbl_get_cols_count tbl_get_column_name tbl_get_column_names
+tbl_get_rows_count tbl_get_selected_cell tbl_get_selected_row tbl_select_cells_range
+tbl_select_col_header tbl_select_cols_range tbl_select_rows_range tbl_set_cell_data
+tbl_set_cell_focus tbl_set_selected_cell tbl_set_selected_col tbl_set_selected_row
+tbl_synchronize tddb_get_step_value tddb_get_test_value tddb_get_testset_value
+tddb_load_attachment tech texit time_str tl_get_status tl_set_status tl_setvar 
+tl_step tl_step_once tolower toolbar_button_press toolbar_get_button 
+toolbar_get_button_info toolbar_get_button_num toolbar_get_buttons_count 
+toolbar_get_info toolbar_select_item toolbar_wait_info toupper treturn trpl_click 
+tsl_set_module_mark tsl_test_is_module type 
+TE_add_screen_name_location TE_bms2gui TE_check_text TE_create_filter TE_date_check
+TE_date_set_attr TE_date_set_capture_mode TE_define_sync_keys TE_delete_filter
+TE_edit_field TE_edit_hidden_field TE_edit_screen TE_find_text TE_force_send_key
+TE_get_active_filter TE_get_auto_reset_filters TE_get_auto_verify TE_get_cursor_position
+TE_get_field_content TE_get_filter TE_get_merge_rule TE_get_refresh_time 
+TE_get_screen_name_location TE_get_screen_size TE_get_sync_time TE_get_text
+TE_get_timeout TE_merge_fields TE_reset_all_filters TE_reset_all_force_send_key
+TE_reset_all_merged_fields TE_reset_filter TE_reset_screen_name_location TE_send_key
+TE_set_auto_date_verify TE_set_auto_reset_filters TE_set_auto_transaction 
+TE_set_auto_verify TE_set_BMS_name_tag TE_set_cursor_position TE_set_field TE_set_filter
+TE_set_filter_mode TE_set_record_method TE_set_refresh_time TE_set_screen_name_location
+TE_set_sync_time TE_set_timeout TE_set_trailing TE_user_attr_comment 
+TE_user_reset_all_attr_comments TE_wait_field TE_wait_string TE_wait_sync 
+ungrab unload unload_dll unset_class_map unsigned user_data_point
+vb_get_label_names vendor vuser_status_message
+wait wait_stable_window wait_window web_browser_invoke web_cursor_to_image 
+web_cursor_to_label web_cursor_to_link web_cursor_to_obj web_event web_file_browse
+web_file_set web_find_text web_frame_get_text web_frame_get_text_count 
+web_frame_text_exists web_get_run_event_mode web_get_timeout web_image_click
+web_label_click web_link_click web_link_valid  web_obj_click web_obj_get_child_item
+web_obj_get_child_item_count web_obj_get_info web_obj_get_text web_obj_get_text_count 
+web_obj_text_exists web_password_encrypt web_refresh web_restore_event_default 
+web_set_event web_set_run_event_mode web_set_timeout web_set_tooltip_color web_sync
+web_tbl_get_cell_data web_url_valid while win_activate win_check_attr win_check_bitmap
+win_check_gui win_check_info win_check_label win_check_pos win_check_size win_click_help
+win_click_on_text win_close win_drag win_drop win_exists win_find_text win_get_desc
+win_get_info win_get_text win_highlight win_max win_min win_mouse_click 
+win_mouse_dbl_click win_mouse_drag win_mouse_move win_move win_move_locator_text
+win_open win_press_cancel win_press_ok win_press_return win_resize win_restore 
+win_set_focus win_type win_verify win_wait_bitmap win_wait_info window_find_text 
+Y2K_age_string Y2K_align_day Y2K_calc_days_in_field Y2K_calc_days_in_string 
+Y2K_change_field_aging Y2K_change_original_new_formats Y2K_check_date Y2K_disable_format
+Y2K_enable_format Y2K_field_to_Julian Y2K_is_date_field Y2K_is_date_string 
+Y2K_is_leap_year Y2K_leading_zero Y2K_month_language Y2K_set_aging Y2K_set_attr
+Y2K_set_auto_date_verify Y2K_set_capture_mode Y2K_set_replay_mode Y2K_set_system_date
+Y2K_set_year_limits Y2K_set_year_threshold Y2K_string_to_Julian Y2K_type_mode

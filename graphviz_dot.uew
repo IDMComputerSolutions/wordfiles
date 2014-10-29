@@ -1,0 +1,60 @@
+/L20"GraphViz Dot/Neato" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = dot neato gviz
+/Delimiters = =[]{},	 ;
+/Marker Characters = "<>"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1"main elements"
+digraph
+edge
+graph
+node
+/C3"graph attributes"
+arrowhead arrowsize arrowtail 
+bb bgcolor 
+center charset clusterrank color colorList colorscheme comment compound concentrate constraint 
+Damping 
+decorate defaultdist dim dir distortion dpi 
+epsilon esep 
+fillcolor fixedsize fontcolor fontname fontpath fontsize 
+group 
+headURL headclip headhref headlabel headport headtarget headtooltip height href 
+K 
+label labelangle labeldistance labelfloat labelfontcolor labelfontname labelfontsize labeljust labelloc landscape layer layers layersep len levelsgap lhead lp ltail 
+margin maxiter mclimit mindist minlen mode model 
+nodesep nojustify normalize nslimit1 nslimit
+ordering orientation outputorder overlap 
+pack packmode page pagedir pencolor peripheries pin pointf pos 
+quantum 
+rank rankdir ranksep ratio rects regular remincross resolution root rotate 
+samehead sametail samplepoints searchsize sep shape shapefile showboxes sides size skew splines start style stylesheet 
+tailURL tailclip tailhref taillabel tailport tailtarget tailtooltip target tooltip truecolor 
+URL 
+vertices viewport voro_margin 
+weight width 
+z 
+/C2"operators"
+-- 
+->
+/C5"shapes, colors & styles"
+aliceblue antiquewhite1 antiquewhite antiquewhite2 antiquewhite3 antiquewhite4 aquamarine aquamarine1 aquamarine2 aquamarine3 aquamarine4 azure1 azure2 azure azure3 azure4
+beige bisque1 bisque2 bisque3 bisque bisque4 black blanchedalmond blue1 blue2 blue3 blue blue4 blueviolet bold box box brown1 brown2 brown3 brown brown4 burlywood1 burlywood2 burlywood burlywood3 burlywood4
+cadetblue2 cadetblue3 cadetblue1 cadetblue4 cadetblue chartreuse1 chartreuse2 chartreuse3 chartreuse chartreuse4 chocolate chocolate1 chocolate2 chocolate3 chocolate4 circle coral1 coral coral2 coral4 coral3 cornflowerblue cornsilk1 cornsilk4 cornsilk3 cornsilk cornsilk2 crimson crow cyan1 cyan2 cyan cyan3 cyan4
+darkgoldenrod3 darkgoldenrod2 darkgoldenrod darkgoldenrod4 darkgoldenrod1 darkgreen darkkhaki darkolivegreen1 darkolivegreen2 darkolivegreen3 darkolivegreen darkolivegreen4 darkorange1 darkorange darkorange4 darkorange2 darkorange3 darkorchid1 darkorchid2 darkorchid darkorchid3 darkorchid4 darksalmon darkseagreen1 darkseagreen darkseagreen2 darkseagreen3 darkseagreen4 darkslateblue darkslategray1 darkslategray2 darkslategray3 darkslategray4 darkslategray darkslategrey darkturquoise darkviolet dashed deeppink1 deeppink deeppink2 deeppink3 deeppink4 deepskyblue1 deepskyblue deepskyblue2 deepskyblue3 deepskyblue4 diagonals diamond dot diamond dimgray dimgrey dodgerblue1 dodgerblue2 dodgerblue3 dodgerblue dodgerblue4 dotted doublecircle doubleoctagon 
+egg ellipse
+filled firebrick1 firebrick firebrick2 firebrick3 firebrick4 floralwhite forestgreen
+gainsboro ghostwhite gold1 gold2 gold3 gold4 goldenrod1 goldenrod2 goldenrod3 goldenrod goldenrod4 gold gray0 gray10 gray100 gray11 gray12 gray13 gray1 gray14 gray15 gray16 gray17 gray18 gray19 gray20 gray21 gray22 gray23 gray24 gray25 gray26 gray27 gray2 gray28 gray29 gray30 gray31 gray32 gray33 gray34 gray35 gray36 gray37 gray38 gray3 gray39 gray40 gray4 gray41 gray42 gray43 gray44 gray45 gray46 gray47 gray48 gray49 gray50 gray51 gray52 gray53 gray54 gray55 gray56 gray5 gray57 gray58 gray59 gray6 gray68 gray69 gray63 gray61 gray60 gray62 gray66 gray65 gray64 gray67 gray70 gray71 gray74 gray7 gray76 gray75 gray72 gray77 gray78 gray73 gray79 gray gray80 gray81 gray82 gray8 gray83 gray84 gray85 gray86 gray87 gray88 gray89 gray90 gray9 gray91 gray92 gray93 gray94 gray95 gray96 gray97 gray98 gray99 green1 green2 green3 green green4 greenyellow grey0 grey100 grey10 grey11 grey12 grey13 grey14 grey15 grey1 grey16 grey17 grey18 grey19 grey20 grey21 grey22 grey23 grey24 grey25 grey2 grey26 grey27 grey28 grey29 grey30 grey31 grey32 grey33 grey34 grey35 grey36 grey37 grey3 grey38 grey39 grey40 grey41 grey42 grey43 grey44 grey45 grey46 grey47 grey48 grey4 grey49 grey50 grey5 grey51 grey grey52 grey53 grey54 grey55 grey56 grey57 grey58 grey59 grey60 grey61 grey62 grey63 grey64 grey65 grey66 grey67 grey68 grey69 grey6 grey70 grey71 grey72 grey7 grey73 grey74 grey75 grey76 grey77 grey78 grey79 grey80 grey81 grey82 grey83 grey84 grey85 grey86 grey87 grey88 grey8 grey89 grey90 grey91 grey92 grey93 grey9 grey94 grey95 grey96 grey97 grey98 grey99
+hexagon honeydew1 honeydew2 honeydew honeydew3 honeydew4 hotpink1 hotpink2 hotpink3 hotpink4 hotpink house
+indianred indianred1 indianred2 indianred3 indianred4 indigo inv invhouse invis invtrapezium invtriangle ivory1 ivory2 ivory ivory3 ivory4
+khaki1 khaki2 khaki3 khaki4 khaki
+lavenderblush4 lavenderblush lavenderblush3 lavenderblush1 lavenderblush2 lavender lawngreen lemonchiffon1 lemonchiffon lemonchiffon2 lemonchiffon3 lemonchiffon4 lightblue1 lightblue2 lightblue lightblue3 lightblue4 lightcoral lightcyan1 lightcyan lightcyan2 lightcyan3 lightcyan4 lightgoldenrod4 lightgoldenrod1 lightgoldenrod3 lightgoldenrod lightgoldenrod2 lightgoldenrodyellow lightgray lightgrey lightpink1 lightpink2 lightpink lightpink3 lightpink4 lightsalmon1 lightsalmon2 lightsalmon3 lightsalmon4 lightsalmon lightseagreen lightskyblue lightskyblue1 lightskyblue2 lightskyblue3 lightskyblue4 lightslateblue lightslategray lightslategrey lightsteelblue2 lightsteelblue1 lightsteelblue3 lightsteelblue lightsteelblue4 lightyellow1 lightyellow lightyellow2 lightyellow3 lightyellow4 limegreen linen
+Mcircle Mdiamond Msquare
+magenta1 magenta magenta2 magenta3 magenta4 maroon1 maroon3 maroon maroon2 maroon4 mediumaquamarine mediumblue mediumorchid mediumorchid1 mediumorchid2 mediumorchid3 mediumorchid4 mediumpurple1 mediumpurple mediumpurple2 mediumpurple3 mediumpurple4 mediumseagreen mediumslateblue mediumspringgreen mediumturquoise mediumvioletred midnightblue mintcream mistyrose1 mistyrose2 mistyrose mistyrose3 mistyrose4 moccasin
+navajowhite navajowhite4 navajowhite1 navajowhite2 navajowhite3 navyblue navy none normal none
+octagon oldlace olivedrab olivedrab1 olivedrab2 olivedrab3 olivedrab4 orange1 orange2 orange3 orange4 orange orangered1 orangered2 orangered3 orangered4 orangered orchid1 orchid2 orchid3 orchid orchid4
+palegoldenrod palegreen1 palegreen2 palegreen3 palegreen palegreen4 paleturquoise1 paleturquoise2 paleturquoise paleturquoise3 paleturquoise4 palevioletred1 palevioletred palevioletred2 palevioletred3 palevioletred4 papayawhip parallelogram peachpuff1 peachpuff2 peachpuff3 peachpuff peachpuff4 pentagon peru pink1 pink pink2 pink3 pink4 plaintext plum1 plum plum2 plum3 plum4 point polygon powderblue purple1 purple4 purple purple3 purple2
+rapezium rectangle rect red1 red2 red3 red red4 riangle ripleoctagon  rosybrown1 rosybrown2 rosybrown rosybrown3 rosybrown4 rounded royalblue1 royalblue royalblue2 royalblue3 royalblue4
+saddlebrown salmon1 salmon salmon2 salmon3 salmon4 sandybrown seagreen2 seagreen4 seagreen3 seagreen1 seagreen seashell1 seashell seashell4 seashell3 seashell2 septagon sienna1 sienna sienna2 sienna3 sienna4 skyblue1 skyblue2 skyblue3 skyblue4 skyblue slateblue slateblue3 slateblue2 slateblue4 slateblue1 slategray1 slategray2 slategray3 slategray slategray4 slategrey snow1 snow2 snow snow3 snow4 solid springgreen1 springgreen springgreen2 springgreen3 springgreen4 steelblue1 steelblue2 steelblue steelblue3 steelblue4
+tan1 tan2 tan3 tan tan4 tee thistle thistle1 thistle2 thistle3 thistle4 tomato1 tomato2 tomato tomato3 tomato4 transparent turquoise1 turquoise2 turquoise turquoise3 turquoise4
+vee violetred1 violetred violet violetred2 violetred3 violetred4
+wheat1 wheat2 wheat3 wheat wheat4 whitesmoke white
+yellow yellow1 yellow2 yellow3 yellow4 yellowgreen

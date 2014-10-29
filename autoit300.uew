@@ -1,0 +1,96 @@
+/L20"AutoIT 3.00.x Beta" String Chars = '" Line Comment = ; File Extensions = AU3
+/Delimiters = ~%&()=|\/[]:;"'<> ,	.?
+/Function String = "%Func ^([a-zA-Z]*[a-zA-Z_0-9]*^)(*)"
+/Indent Strings SOL = "Do" "Else" "For" "Func" "If" "Select" "While"
+/Unindent Strings = "Else" "EndFunc" "EndIf" "EndSelect" "Next" "Until" "Wend"
+/C1"Keywords/Statements"
+If
+Case ContinueLoop
+Do
+Else EndFunc EndIf EndSelect ExitLoop
+For Func
+Next
+Return
+Select Step
+Then To
+Until
+While Wend
+/C2"Internal Functions"
+AdlibDisable AdlibEnable Asc AutoItWinGetText AutoItWinSetTitle AutoItWinShow AutoItWinWrite
+BitAND BitOR BlockInput Break
+CDTray Chr ClipGet ClipPut ControlCommand ControlDisable ControlEnable ControlFocus ControlGetPos ControlGetText
+ControlHide ControlLeftClick ControlMove ControlSetText ControlShow
+DirCreate DirRemove DriveGetDrive DriveGetFileSystem DriveGetLabel DriveGetSerial DriveGetType DriveSetLabel
+DriveSpaceFree DriveSpaceTotal DriveStatus
+EnvGet EnvSet Exit
+FileClose FileCopy FileCreateShortcut FileDelete FileExists FileGetSize FileGetTime FileInstall FileMove FileOpen
+FileOpenDialog FileReadLine FileRecycle FileSaveDialog FileSelectFolder FileWriteLine Float
+Hex
+IniDelete IniRead IniWrite InputBox Int IsAdmin IsArray IsFloat IsInt IsString
+Mod MouseClick MouseClickDrag MouseGetCursor MouseGetPos MouseMove MouseSetMode MsgBox
+PixelGetColor PixelSearch ProcessClose ProcessExists ProcessWait ProcessWaitClose ProgressOff ProgressOn ProgressSet
+Random RegDelete RegRead RegWrite Run RunAsSet RunWait RunWait
+Send SendSetCapslockMode SendSetCapslockState SendSetDelay SetError Shutdown Sleep SoundPlay SplashImageOn SplashOff
+SplashTextOn StatusbarGetText String StringAddCR StringInStr StringIsAlNum StringIsAlpha StringIsASCII StringIsDigit
+StringIsFloat StringIsInt StringIsLower StringIsSpace StringIsUpper StringIsXDigit StringLeft StringLen StringLower
+StringMid StringReplace StringRight StringSplit StringStripCR StringStripWS StringTrimLeft StringTrimRight StringUpper
+UBound URLDownloadToFile
+WinActivate WinActive WinClose WinExists WinGetClassList WinGetPos WinGetText WinGetTitle WinKill WinMinimizeAll
+WinMinimizeAllUndo WinMove WinSetDelay WinSetDetectHiddenText WinSetOnTop WinSetTitle WinSetTitleMatchMode WinShow
+WinWait WinWaitActive WinWaitClose WinWaitNotActive
+/C3"Read-Only Variables"
+@AppDataCommonDir @AppDataDir @AutoItVersion
+@CR @CRLF @CommonFilesDir @Computername
+@DesktopCommonDir @DesktopDir @DesktopHeight @DesktopWidth @DocumentsCommonDir
+@error
+@FavoritesCommonDir @FavoritesDir
+@HOUR
+@IPAddress1 @IPAddress2 @IPAddress3 @IPAddress4
+@LF
+@MDAY @MIN @MON @MyDocumentsDir
+@OSBuild @OSServicePack @OSType @OSVersion
+@ProgramFilesDir @ProgramsCommonDir @ProgramsDir
+@SEC @SW_HIDE @SW_MAXIMIZE @SW_MINIMIZE @SW_RESTORE @SW_SHOW
+@ScriptDir @ScriptFullPath @ScriptName @StartMenuCommonDir @StartMenuDir @StartupCommonDir
+@StartupDir @SystemDir
+@WDAY @WindowsDir @WorkingDir
+@YDAY @YEAR
+/C4"Constants"
+AddString All
+closed
+CDROM Check CurrentTab
+DelString
+FindString Fixed
+GetCurrentLine GetLine GetLineCount
+HideDropDown HKEY_CLASSES_ROOT HKEY_CURRENT_CONFIG HKEY_CURRENT_USER HKEY_LOCAL_MACHINE HKEY_USERS
+Invalid IsChecked
+Network NOT NotReady
+open
+RAMDisk Ready REG_DWORD REG_MULTI_SZ REG_SZ Removable
+SelectString SetCurrentSelection ShowDropDown
+TabLeft TabRight
+UnCheck Unknown
+/C5"Variables"
+** $
+/C6"Special Keys"
+{!} {#} {+} {^} {{} {}}
+{ALTDOWN} {ALT} {APPSKEY} {ASC}
+{BACKSPACE} {BS} {BROWSER_BACK} {BROWSER_FAVORITES} {BROWSER_FORWARD} {BROWSER_HOME} {BROWSER_REFRESH}
+{BROWSER_SEARCH} {BROWSER_STOP}
+{CAPSLOCK} {CTRLBREAK} {CTRLDOWN}
+{DELETE} {DEL} {DOWN}
+{END} {ENTER} {ESCAPE} {ESC}
+{F1} {F2} {F3} {F4} {F5} {F6} {F7} {F8} {F9} {F01} {F11} {F12}
+{HOME}
+{INSERT} {INS}
+{LALT} {LAUNCH_APP1} {LAUNCH_APP2} {LAUNCH_MAIL} {LAUNCH_MEDIA} {LCTRL} {LEFT} {LSHIFT} {LWINDOWN} {LWIN}
+{MEDIA_NEXT} {MEDIA_PLAY_PAUSE} {MEDIA_PREV} {MEDIA_STOP}
+{NUMLOCK}
+{NUMPAD0} {NUMPAD1} {NUMPAD2} {NUMPAD3} {NUMPAD4} {NUMPAD5} {NUMPAD6} {NUMPAD7} {NUMPAD8} {NUMPAD9}
+{NUMPADADD} {NUMPADDIV} {NUMPADDOT} {NUMPADENTER} {NUMPADMULT} {NUMPADSUB}
+{PAUSE} {PGDN} {PGUP} {PRINTSCREEN}
+{RALT} {RCTRL} {RIGHT} {RSHIFT} {RWINDOWN} {RWIN}
+{SHIFTDOWN} {SLEEP} {SPACE}
+{TAB}
+{UP}
+{VOLUME_DOWN} {VOLUME_MUTE} {VOLUME_UP}

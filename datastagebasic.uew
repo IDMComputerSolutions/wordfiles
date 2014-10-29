@@ -1,0 +1,69 @@
+/L20"DataStage BASIC" Line Comment = *  Escape Char = \ String Chars = "' File Extensions = dsb
+/Delimiters = ~%^&()+=|\/{}[]:;"'<> ,	.
+/Function String = "%[a-zA-Z_]*)"
+/Indent Strings SOL = "Loop" "For" "Then" "Begin Case" "Case" "Else"
+/Unindent Strings = "End" "Repeat" "Next" "End Case"
+/C1"Commands"
+$Include
+Abs Alpha Ascii 
+Begin Bits 
+Call Case Cats Change Char Checksum CloseSeq Col1 Col2 Common Compare Convert Convert Count 
+Date DCount Deffun Dimension Div DownCase DQuote DSAttachJob DSCheckRoutine DSDetachJob DSExecute DSGetJobInfo 
+DSGetLinkInfo DSGetLogEntry DSGetLogSummary DSGetNewestLogId DSGetParamInfo DSGetProjectInfo DSGetStageInfo 
+DSLogEvent DSLogFatal DSLogInfo DSLogToController DSLogWarn  DSMakeJobReport DSMakeMsg DSPrepareJob DSRunJob 
+DSSendMail DSSetJobLimit DSSetParam DSSetUserStatus DSStopJob DSTransformError DSTranslateCode Dtx DSWaitForFile
+DSWaitForJob DSWaitForJobList
+Ebcdic Else End Equate Ereplace Error Exchange Exit Exp 
+Field FieldStore Fmt FmtDP Fold FoldDP For From Function 
+GetLocale GoSub GoTo 
+Iconv If Index InMat Int IsNull 
+Left Len LenDP Ln Loop 
+Mat Match MatchField Mod 
+Nap Neg Next Not Null Num 
+Oconv On Or OpenSeq 
+Pwr 
+Quote 
+Randomize ReadSeq Repeat Return Right Rnd 
+Seq SetLocale Sleep Soundex Space Sqrt SQuote Status Str  
+Then Time TimeDate To Trigonometrics Trim TrimB TrimF 
+UniChar UniSeq Until UpCase 
+WEOFSeq 
+While WriteSeq WriteSeqF 
+Xtd 
+/C2"Job InfoTypes"
+DSINCLUDE
+DSJ
+ERRFATAL
+HOSTNAME
+JOBLIST
+JOBSTATUS  
+JOBINVOCATIONS
+JOBINVOCATIONID
+JOBNAME
+JOBCONTROLLER
+JOBSTARTTIMESTAMP
+JOBWAVENO
+LINKROWCOUNT
+ME
+USERSTATUS
+PARAMLIST
+PROJECTNAME
+RUNNORMAL
+STAGELIST
+/C3"Job Statuses"
+CRASHED
+DSJS
+RUNNING
+RUNOK
+RUNWARN
+RUNFAILED
+RESET
+STOPPED
+VALOK
+VALWARN
+VALFAILED
+/C4"System Variables"
+@True
+@False
+@VM
+@FM

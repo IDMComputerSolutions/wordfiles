@@ -1,0 +1,32 @@
+/L20"SMIL" Nocase Noquote HTML_LANG Block Comment On = <!-- Block Comment Off = /--> File Extensions = SMI SMIL RAM
+/Delimiters = ~!@$%^&*()+=|\{}[]:;"'<> ,	.?
+/C1
+<a </a> <anchor  <anchor> </anchor> <animation> </animation> <audio  <audio> </audio>
+<body> </body>
+<head> </head>
+<img> <img>
+<layout <layout> </layout>
+<meta  
+<par> </par>
+<ref> </ref> <region <root-layout 
+<seq> </seq> <smil> </smil> <switch> <switch> </switch>
+<text  <text> </text> <textstream> </textstream>
+<video  <video> </video>
+// />
+/C2
+abstract= alt= anchor= author=
+background-color= base= begin=
+clip-begin= clip-end= clock-val= content= coords= copyright=
+dur=
+end= endsync=
+fill=
+height= href=
+id=
+longdesc=
+name=
+pics-label= PICS-label=
+region= repeat=
+show= skip-content= src= system-bitrate= system-captions= system-language= system-overdub-or-caption= system-required= system-screen-size= system-screen-depth=
+title= type=
+width=
+=

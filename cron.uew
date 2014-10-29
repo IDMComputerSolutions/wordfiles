@@ -1,0 +1,39 @@
+/L20"Cron Scripts" Line Comment = # Nocase File Extensions = tab tg
+/Delimiters = {}-
+/C1"Commands"
+action 
+command 
+name 
+skip start stop 
+
+/C2"Parameters"
+alert 
+constrain 
+date debug delay detach 
+hide 
+inc 
+kill 
+load logfile
+path print 
+quit 
+shell show 
+temp time 
+wait week
+year 
+
+/C3"Macros"
+%a% %A% 
+%b% %B%
+%c% 
+%d% 
+%H%
+%I% 
+%j%
+%m% %M% %MONTH% 
+%p%
+%S% 
+%U% 
+%w% %W% 
+%x% %X% 
+%y% %Y% 
+%z% %Z%

@@ -1,0 +1,55 @@
+/L20"AVR assembler" AASM_LANG Nocase Line Comment = ; File Extensions = ASM
+/Delimiters = ~!@$%^&*()_=|\/{}	[]:"'<> ,?/
+/C1"Arithmetic & Logic"
+add adc adiw and andi
+cbr clr com cp cpc cpi
+dec
+eor
+fmul fmuls fmulsu
+inc
+mul muls mulsu
+neg
+or ori
+sub subi sbc sbci sbiw sbr ser
+tst
+
+/C2"Branches"
+brbs brbc breq brne brcs brcc brsh brlo brmi brpl brge brlt brhs brhc brts brtc brvs brvc brie brid
+call cpse
+eicall eijmp
+ijmp icall
+jmp
+rjmp rcall ret reti
+sbrc sbrs sbic sbis
+
+/C3"Data Transfer"
+elpm espm
+in
+ldi lds ld ldd lpm
+mov movw
+out
+push pop
+st sts std spm
+x x+
+y y+ y+q
+z z+ z+q
+-x -y -z
+
+/C4"Bit & Bit-Test"
+asr
+cbi clc cln clz cli cls clv clt clh
+lsl lsr
+nop
+ror rol
+sbi sec sen sez sei ses sev set seh swap sleep
+bst bld bset bclr
+wdr
+
+/C5"Directives"
+.org .equ .include .macro .endmacro .set .byte .cseg .db .def .device .dseg .dw .eseg .exit .list .nolist .listmac
+
+
+
+
+
+

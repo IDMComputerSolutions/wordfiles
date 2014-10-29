@@ -1,0 +1,48 @@
+/L20"Verilog" Line Comment = // Block Comment On = /* Block Comment Off = */ String Chars = "' File Extensions = V VT
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"<> ,	.?
+/Function String = "%[a-zA-Z_]*)"
+/Indent Strings = "begin"
+/Unindent Strings = "end"
+/C1
+begin
+case
+else end endcase
+for
+if 
+join
+memory
+negedge
+posedge
+pullup pulldown
+while
+/C2
+`define `include `timescale `ifdef `else `endif
+'b 'd 'h
+$display $monitor $fopen $fclose $fdisplay $dumfile $dumpvars $finish $stop $setup $hold $readmemh
+deassign 
+endfunction endmodule endspecify endtask
+fork function
+initial 
+module
+reg repeat
+specify
+task
+wait wire
+/C3
++
+-
+*
+// /
+:
+=
+~
+%
+&
+>
+<
+^
+!
+|
+always assign
+input inout
+or output

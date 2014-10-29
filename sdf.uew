@@ -1,0 +1,32 @@
+/L20"Standard Delay Format" Line Comment = // Block Comment On = /* Block Comment Off = */ String Chars = " File Extensions = SDF SDO
+/Delimiters = ~!@%^&*()-+|\/{}[]:;"<> ,	.?
+/Function String = "INSTANCE"
+/C1"Keywords"
+ABSOLUTE
+CELL CELLTYPE
+DELAY
+INSTANCE
+TIMINGCHECK
+/C2"Timing Checks"
+HOLD
+NOCHANGE
+PERIOD
+RECOVERY
+SETUP
+SETUPHOLD
+SKEW
+WIDTH
+/C3"Ports"
+PORT
+/C4"IOPaths"
+IOPATH
+/C5"Edges"
+negedge
+posedge
+/C6"Conditional"
+COND
+/C7"Punctuation"
+:
+/C8"Braces"
+(
+)

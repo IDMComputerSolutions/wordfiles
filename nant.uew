@@ -1,0 +1,36 @@
+/L20"NAnt" Noquote HTML_LANG Block Comment On = <!-- Block Comment Off = --> File Extensions = build
+/Delimiters = ~@$%^&*()+=|\{};"'<> ,
+/C1"Elements"
+** <
+// />
+>
+<
+?>
+<? <?xml
+]]>
+<![CDATA[
+/C2"Attributes"
+algid= appconfig= append= archive= asis= assembly= assemblyname=
+basedaddress= basedir= buildfile=
+cclist= checked= codepage= commandline= comment= company= configuration= copyright= culture=
+datetime= debug= default= defaultexcludes= define= delaysign= delim= description= destdir= dir= doc= domain= dynamic=
+enablewebdav= encoding= evidence= exename= extension=
+failonempty= failonerror= file= filealign= fileversion= flags= flatten= from= frompath=
+generatesource=
+haltonerror= haltonfailure= hidden= hive= host= hours= httpproxy=
+id= if= ignoreerrors= in= includeemptydirs= includevsfolders= inheritall= inputencoding= item=
+key= keycontainer= keyfile= 
+language= level= licensetarget= line=
+mailhost= main= mainclass= message= millis= milliseconds= minutes=
+name= namespace= namespaceuri= noconfig= nodeindex= normal= nostdlib= nowarn=
+ocx= optimize= options= out= outfile= output= outputdir= outputencoding= overwrite=
+password= path= pattern= port= prefix= product= productversion= program= publickey=
+rcw= readonly= rebuild= refid= resource= resultproperty=
+seconds= solutionfile= src= stampdatetime= subject= supportsassemblyreferences= supportsexternalfilereferences= system=
+target= target-ns= template= testname= timeout= title= todir= tolist= trademark= transformfile= trim= type= typename=
+unless= unsafe= uri= usefile= username= useruntimeengine= usesourcepath= usetimestamp=
+value= verbose= version=
+warnaserror= warninglevel= win32icon= win32res= workingdir=
+xpath=
+zipfile= ziplevel=
+=

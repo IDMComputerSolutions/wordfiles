@@ -1,0 +1,61 @@
+/L20"Roboocyte RSL" Line Comment = # String Chars = " File Extensions = rsl
+/Delimiters = ~!@%^&*()|\/{}[];"'<> ,	?
+/C1"Keywords"
+after
+begin_case begin_for begin_if begin_list begin_loop begin_wait
+case
+end. end_case end_for end_if end_list end_loop end_wait
+for
+if injection_script
+list loop lt_recording
+recording recording_script
+safe_recording step
+then to
+waitfor
+/C2"Variables"
+$AREA $INDEX $LIST $MEAN $REFVAR $RESISTANCE $RESULT $TIME $VALUE $VOLTAGE
+$VAR_
+/C3"Parameters"
+backwards break
+clear coefficient compound constant current cursor
+empty
+forwards
+gilson
+home
+next next_oo notify
+off on oocyte origin overlay
+park_pos
+resistance_pos
+selected_oocytes step_down step_up stop
+tport tube
+up
+voltage
+well with_clear
+xrange
+/C4"Commands"
+clamp 
+display
+electrode
+get_resistance gmove gpump gset_out gset_racks
+holding holding_pressure
+inject injection_pressure integral
+leak_subtraction longterm_frequency ltdisplay
+message
+next_group next_series
+pressure proportional
+recording_frequency reset
+save set set_pi_control show show_dialog show_testmode show_timer speak start_timer
+transmit
+valve
+wait waitfor_timer waterpump
+xymove
+zmove
+/C5"Operators"
+%
++-
+:=
+<
+>
+and
+between
+not_between

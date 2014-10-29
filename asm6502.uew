@@ -1,0 +1,44 @@
+/L20"ASM for 6502" Nocase Line Comment = ; String Chars = "' DisableMLS File Extensions = ASM LST S
+/Delimiters = " #	$%'()+,;
+/Function String = "%^([0-9a-z_]+^)[ ^t]+"
+/C1"Instructions"
+ADC AND ASL
+BCC BCS BEQ BIT BMI BNE BPL BRA BRK BVC BVS
+CLC CLD CLI CLV CMP CPX CPY
+DEC DEX DEY
+EOR
+INC INX INY
+JMP JSR
+LDA LDX LDY LSR
+NOP
+ORA
+PHA PHP PHX PHY PLA PLP PLX PLY
+ROL ROR RTI RTS
+SBC SEC SED SEI STA STX STY STZ
+TAX TAY TSX TXA TXS TYA
+/C2"SFR Registers"
+A
+X
+Y
+/C3"SFR Bits"
+C
+/C4"Controls"
+*=
+.asc .byte .end .entry .goto .if .incbin .include .label .opt .scrl .scru .text .word
+/C5"Delimiter/Operator"
+#
+$
+%
+(
+)
++
+,
+/C6"Directives"
+ABSOLUTE
+BYTE
+DB DRIVES DS DW
+END EQU
+LIST
+MOD32
+OFF ON ORG
+TITLE

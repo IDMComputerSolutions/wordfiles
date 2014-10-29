@@ -1,0 +1,151 @@
+/L20"Navision" Line Comment = // Escape Char = \ String Chars = "' File Extensions = NAV
+//Written by Nikolas Turkowsky ntu@teamlog.com
+//Export objects in text mode as *.nav files; associate *.nav files to UltraEdit.
+/Delimiters = ~!@%^&*()-+|\/{}[];"'<> ,	.?
+/Function String = "[A-Za-z0-9_]*+[@]"
+/Function String 1 = "^{=VAR^}^{=BEGIN^}"
+/Function String 2 = "^{=IF^}"
+/Marker Characters = " @"
+/C1"C/AL Sections"
+//red, bold
+ @
+CONTROLS CODE
+DATAITEMS
+FIELDS
+KEYS
+OBJECT
+PROPERTIES PROCEDURE 
+REQUESTFORM
+SECTIONS
+/C2"C/AL"
+AND ARRAY
+BEGIN
+CASE
+DO
+ELSE END
+FOR
+IN IF
+LOCAL
+MENUITEMS
+NOT
+OF OR
+REPEAT
+TEMPORARY THEN
+UNTIL
+VAR
+WITH WHILE WHERE 
+/C3"Controls/Datatypes"
+Automation
+Binary BLOB Boolean
+Char Code Codeunit CheckBox CodeDate CheckBox CommandButton  Code10 Code20 Code30 Code40
+DateFormula Decimal Dialog  Date Dataport
+File Form Frame
+Integer
+Label
+MatrixBox MenuButton Menu
+OCX Option OptionButton
+PictureBox
+Record Report 
+SubForm
+Text Time Text TextBox TableBox Text10 Text20 Text30 Text40 Text50 Text60 Text70 Text80 Text90 Text100 Table TabControl TextConst
+/C4"Methods"
+ABS ACTIVATE ACTIVE ARRAYLEN ASCENDING
+BEEP BREAK
+CALCDATE CALCFIELDS CALCSUMS CAPTION CHANGECOMPANY CHECKLICENSEFILE CLEAR CLEARALL CLEARMARKS CLOSE CLOSINGDATE CODECOVERAGELOG 
+COMMANDLINE COMMIT COMPANYNAME COMPRESSARRAY CONFIRM CONSISTENT CONVERTSTR COPY COPYARRAY COPYFILTER COPYFILTERS COPYSTR COUNT
+COUNTAPPROX CREATECREATETOTALS CURRENTKEY CURRENTTTRANSACTIONTYPE CREATE CONST
+DATE2DMY DATE2DWY DECIMALPLACESMAX DECIMALPLACESMIN DELCHR DELETE DELETEALL DELSTR DMY2DATE
+EDITABLE ENABLED ENVIRON ERASE ERROR EVALUATE EXISTS EXPORT
+FIELDACTIVE FIELDCAPTION FIELDERROR FIELDNAME FIELDNO FILENAME FILTERGROUP FIND FORM FORMAT 
+GET GETFILTER GETFILTERS GETRANGEMAX GETRANGEMIN GETRECORD GETSTAMP GLOBALLANGUAGE
+HASFILTER HASVALUE HEIGHT HYPERLINK
+IMPORT INCSTR INIT INLINEEDITING INPUT INSERT INSSTR ISEMPTY
+LANGUAGE LEN LOCKTABLE LOGHEIGHT LOGWIDTH LOOKUPMODE LOWERCASE
+MARK MARKEDONLY MAXIMIZEDONOPEN MAXSTRLEN MESSAGE MINIMIZEDONOPEN MODIFY MODIFYALL
+NAME NEWPAGE NEWPAGEPERRECORD NEXT NORMALDATE
+OPEN OSVERSION ORDER
+PADSTR PAGENO PAPERSOURCE POS POWER PREVIEW PRINTONLYIFDETAIL
+QUERYREPLACE QUIT
+RANDOM RANDOMIZE READ READCONSISTENCY READPERMISSION RECORDLEVELLOCKING RELATION RENAME RESET ROUND RUN RUNMODAL
+SAVEASHTML SAVERECORD SEEK SELECTLATESTVERSION SELECTSTR SERIALNUMBER SETCURRENTKEY SETFILTER SETRANGE SETRECFILTER SETRECORD SETSELECTIONFILTER SETSTAMP SETTABLEVIEW SHELL SHOWOUTPUT SKIP SLEEP SORTING STRCHECKSUM STRLEN STRMENU STRPOS STRSUBSTNO SYSTEMLANGUAGE
+TABLECAPTION TABLENAME TESTFIELD TEXTMODE TIME TODAY TOTALSCAUSEDBY TRANSFERFIELDS TRUNC
+UPDATE UPDATEEDITABLE UPDATEFONTBOLD UPDATEFORECOLOR UPDATEINDENT UPDATESELECTED UPPERCASE USEREQUESTFORM USERID
+VALIDATE VARIABLEACTIVE VISIBLE
+WIDTH WINDOWSLANGUAGE WORKDATE WRITE WRITEMODE WRITEPERMISSION
+XPOS
+YIELD YPOS
+/C5"Variable système/Constants"
+0D
+Ascending
+Both Bottom
+CurrForm CurrReport Center CurrDataport CODEUNIT
+Descending
+Header
+EXIT
+FIELD FALSE FRA FILTER FlowField FlowFilter FormHelp
+Gras
+Left List
+Modified MatrixRec
+Non Normal None
+Oui
+RunObject Right Rec REPORT
+Separator 
+TRUE TAB
+Version 
+xRec
+/C6"Trigger"
+OnActivate OnActivateForm OnAfterExportRecord OnAfterFormatField OnAfterGetCurrRecord OnAfterGetRecord OnAfterImportRecord
+OnAfterInput OnAfterValidate OnAssistEdit OnBeforeEvaluateField OnBeforeExportRecord OnBeforeImportRecord OnBeforeInput
+OnBeforePutRecord OnCloseForm OnDeactivate OnDeactivateForm OnDelete OnDeleteRecord OnDrillDown OnFindRecord OnFormat
+OnInit OnInitDataPort OnInitReport OnInputChange OnInsert OnInsertRecord OnLookup OnModify OnModifyRecord OnNewRecord
+OnNextRecord OnOpenForm OnPostDataItem OnPostDataPort OnPostReport OnPostSection OnPreDataItem OnPreDataPort OnPreReport
+OnPreSection OnPush OnQueryCloseForm OnRename OnTimer OnValidate OnRun
+/C7"Properties"
+ActiveControlOnOpen AltSearchField AssistEdit AutoCalcField AutoEnter AutoFormatExpr AutoFormatType AutoPosition
+AutoRepeat AutoReplace AutoSave AutoSplitKey AutoUpdate
+BackColor BackTransparent BackupKey Bitmap BitmapList BitmapPos BlankNumbers BlankZero Border BorderColor BorderStyle
+BorderWidth BottomMargin 
+CalcFields CalcFormula CallFieldValidate Cancel Caption CaptionML CaptionBar CharAllowed ClearOnLookup ClosingDates
+Data DataCaptionExpr DataCaptionFields DataItemIndent DataItemLink DataItemLinkReference DataItemSeparator
+DataItemTable DataItemTableView DataItemVarName DataLength DataPerCompany DecimalPlaces Default
+DeviceFontName DelayedInsert DeleteAllowed Description Dimensions Divisor DrillDown DrillDownFormID DropDown
+Editable Ellipsis Enabled 
+Field FieldClass FieldEndDelimiter FieldSeparator FieldStartDelimiter FileFormat FileName Focusable FocusOnClick
+FontBold FontItalic FontName FontSize FontStrikethru FontUnderline ForeColor Format
+GroupTotalFields
+HeadingHeight Height HorzAlign HorzGlue HorzGrid
+ID Import IncludeDataInDesc InColumn InColumnHeading Indent InFrame InitValue InlineEditing InMatrix InMatrixHeading InPage InsertAllowed InvalidActionAppearance
+KeepWithNext Key KeyGroups
+LeaderDots LeftMargin LogHeight LogWidth Lookup LookupFormID LookupMode
+MaintainSIFTIndex MaintainSQLIndex MatrixColumnWidth MatrixSourceTable Maximizable MaximizedOnOpen MaxIteration
+MaxLength MaxValue MenuItemType MenuLevel Minimizable MinimizedOnOpen MinValue ModifyAllowed MultiLine MultipleNewLines
+Name NewPagePerGroup NewPagePerRecord NextControl NotBlank Numeric No
+OptionCaptionML OptionString OptionValue OrientationPadChar
+PageNames PageNamesML PaperSize PaperSourceFirstPage PaperSourceOtherPages ParentControl PasswordText PasteIsValid
+Percentage PermanentAssist Permissions PlaceInBottom PopulateAllFields PrintOnEveryPage PrintOnlyIfDetail
+ProcessingOnly PushAction
+RecordSeparator RemoteServerNo ReqFilterFields ReqFilterHeading ReqFilterHeadingML RightMargin RowHeight RunCommand
+RunFormLink RunFormLinkType RunFormOnRec RunFormView 
+SaveColumnWidths SaveControlInfo SavePosAndSize SaveTableView SaveValues SectionHeight SectionWidth SectionType
+ShapeStyle ShortCutKey ShowCaption ShowPrintStatus ShowStatus SignDisplacement Sizeable SourceExpr SourceTable
+SourceTablePlacement SourceTableRecord SourceTableView StartPos SubFormID SubFormLink SubFormView SubType SumIndexFields
+TableBoxID TableNo TableRelation Temporary TestTableRelation TimerInterval Title ToolTip ToolTipML TopLineOnly
+TopMargin TotalFields TransactionType Type 
+UpdateOnActivate UpdateOnAction UseReqForm UseSystemPrinter
+ValidateTableRelation ValuesAllowed VertAlign VertGlue VertGrid Visible
+WidthXPos Width
+YPos
+/C8"Operators"
++
+-
+:=
+=
+// /
+%
+&
+>
+<
+^
+!
+|
+::

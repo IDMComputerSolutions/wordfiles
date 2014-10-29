@@ -1,0 +1,62 @@
+﻿/L10"MQCommand" Line Comment = * Nocase String Chars = "' File Extensions = MQC
+/Delimiters = () '	
+/Indent Strings = "+"
+/Function String = "%^([a-zA-Z_0-9^[^]*]+^)[ ^t]+([^p*&, ^t^[^]a-zA-Z_0-9.!]++)[~;]"
+
+/C1"Keywords"
+auto
+disabled def
+clusrcvr clussdr clntconn
+enabled excl
+first fifo fast
+no normal none
+open
+priority permdyn
+qmgr
+required rcvr rqstr
+sdr shared svrconn svr
+tempdyn tcp thread
+unix
+yes
+
+/C2"Objects"
+channel chl
+dqm
+namelist
+process
+ql qlocal qa qalias qr qremote qm qmodel
+
+/C3"Methods and Properties"
+appltype applicid
+boqname bothresh batchint batchhb batchsz
+chltype conname cluster clusnl convert
+defpsist descr defprty defbind defsopt deftype distl discint
+envrdata
+force
+get
+hardenbo hbint
+initq
+like locladdr longrty longtmr
+kaint
+maxdepth maxmsgl msgdlvsq mcauser mrdata mrexit mrrty mrtmr msgdata msgexit mcatype
+notrigger noshare nohardenbo netprty npmspeed names
+putaut put
+qdepthhi qdepthlo qdpmaxev qdphiev qdploev qsvcint qsvciev qmname
+rqmname rname replace retintvl rcvdata rcvexit
+scope share scydata scyexit senddata sendexit sslcauth sslciph sslpeer shortrty shorttmr seqwrap
+trigger targq trptype trigtype trigdpth trigmpri trigdata
+usage userid userdata
+xmitq
+
+/C4"Operators"
+alter archive
+clear
+delete del display dis define
+ping
+recover refresh resolve resume
+start stop suspend
+
+/C5"Separs"
+(
+)
+

@@ -1,0 +1,91 @@
+/L20"Ghost Installer" Noquote HTML_LANG Block Comment On = <!-- Block Comment Off = --> File Extensions = gi2
+/Delimiters = ~!@$%^&*()+=|\{}[]:;"'<> ,	.?
+/C1"Base Tags"
+<components> </components>
+<files> </files>
+<gi2project> </gi2project>
+<inifiles> </inifiles>
+<packages> </packages>
+<plugins> </plugins>
+<presetup> </presetup>
+<registry> </registry>
+<runapps> </runapps>
+<shortcuts> </shortcuts>
+<variables> </variables>
+/C2"Depend Tags"
+<component </component>
+<config> </config>
+<file
+<ini
+<package </package>
+<paramgroup </paramgroup>
+<param </plugin>
+<plugin
+<reg
+<runapp
+<shortcut
+<var
+/C3"Attributes"
+arg
+cmdline condition
+defvalue description dst
+file filename flags
+id
+key
+main msg
+name
+param
+regkey regparam
+section showcmd src
+type
+value
+whenstart workdir
+/C4"Values"
+2K
+95 98 9X
+add_path after_install
+before_dialogs before_uninstall bin
+check_exitcode
+dont_ask dont_log dont_overwrite dont_wait
+external
+ini
+no_version normal
+reg reg_font reg_server
+shared str
+GI
+ME MSI
+NT NT4
+XP
+/C5"Variables defined by installer"
+ApplicationData
+BootDrive
+CommonDesktop CommonFiles CommonProgramsMenu CommonStartMenu CommonStartupMenu
+Date Desktop
+Fonts
+GAC
+LangID
+OSPlatform OSVersion
+ParamStr Personal Presetup ProgramFiles ProgramsMenu
+QuickLaunch
+SendTo SourcePath StartMenu StartupMenu System SystemLangID
+Templates
+UserLangID
+Windows
+/C6"User defined variables"
+AdminRights AppComments AppHomeURL AppID AppIcon AppName AppReadme AppSupportContact 
+AppSupportPhone AppSupportURL AppUpdateURL AppVersion AutoSelectLanguage 
+CompanyName CompressionLevel
+DisableRepair DisableRollback DontAddCVSFolders DontAddEmptyFolders DontHidePackageContent
+DontPackEngine DontPackFiles DontUseWindowsLanguageNames 
+HidePresetupWindow
+InstallIcon InstallPath InstallPlatform 
+Languages LogFile
+MinOSVersion
+OldStylePresetupWindow OutputPath
+Password ProgramGroup
+Reboot RemoveOldReferences
+SilentMode SplashBitmap SplashDelay SplashOpacity SplashTransColor SupportedOS
+Uninstall UninstallBanner UninstallDialogFont UninstallDisplayName UninstallForceRemoveDataFiles
+UninstallIcon UninstallItemNotUninstalled UninstallItemUninstalled UninstallItemUninstalling
+UninstallProgressColor UninstallShowSubtitle UninstallShowTitle UninstallSubtitleFont
+UninstallTitleFont UninstallWatermark

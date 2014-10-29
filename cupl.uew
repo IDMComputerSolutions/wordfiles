@@ -1,0 +1,64 @@
+/L20"CUPL" Nocase Block Comment On = /* Block Comment Off = */ String Chars = "' File Extensions = PLD
+/Delimiters = :;@^!%&()-+=/{}[]"' ,.	?
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1"Keywords"
+APPEND
+CONDITION
+DEFAULT
+ELSE
+FIELD FLD FORMAT FUNCTION
+GROUP
+IF
+JUMP
+MACRO MIN
+NODE NEXT
+OUT
+PIN PINNODE PRESENT
+SEQUENCE SEQUENCED SEQUENCEJK SEQUENCERS SEQUENCET
+TABLE
+/C2"Radix Prefixes"
+'b'
+'o'
+'h'
+'d'
+/C3"Extensions"
+AP AR APMUX
+BYP
+CA CE CK CKMUX
+D DFB DQ 
+IMUX INT IO IOAR IOAP IOCK IOD IOL IOSP IOSR
+J
+K
+L LE LEMUX LFB LQ
+OBS OE OEMUX
+PR
+R
+S SP SR
+T TEC TFB T1 T2
+/C4"Operators"
+!
+#
+$
+%
+&
+(
+)
+* **
++
+-
+// /
+=
+[
+]
+
+/C5"Directives"
+$DEFINE $IFDEF $UNDEF $ELSE $IFNDEF $REPEAT $ENDIF $INCLUDE $REPEND $MACRO $MEND 
+ASSEMBLY ASSY
+COMPANY
+DATE DESIGNER DEVICE
+FUSE
+LOC LOCATION
+NAME
+PARTNO PROPERTY
+REV REVISION

@@ -1,0 +1,90 @@
+/L20"OPL" Line Comment = rem File Extensions = opl o32
+/Delimiters = ~!@^*()-+=|\/{}[]:;"'<> , .?
+/C1
+abs acos addr adjustalloc alert alloc and app append asc asin at atan
+back beep begintrans bookmark break busy
+cancel caption chr$ clearflags cls close cmd$ committrans compact compress
+const continue copy count cos create cursor
+daystodate datetosecs datim$ day dayname$ days dButtons dCheckbox dChoice
+dDate declare dEdit dEditmulti defaultwin deg delete dFile dFloat dialog
+dInit dir$ dLong do dow dPosition dText dTime dXinput
+else elseif enda endif endv endp endwh eof erase err err$ errx$ escape eval
+exist exp ext external
+find findfield first fix$ flags flt font freealloc
+gAt gBorder gBox gButton gCircle gClock gClose gCls gColor gCopy gCreate
+gCreatebit gEllipse gen$ get get$ getcmd$ getdoc$ getevent getevent32
+geteventa32 geteventc gFill gFont gGmode gGrey gHeight gIdentity gInfo32
+gInvert giprint gLoadbit gLoadfont gLineby gLineto global gMove gOrder
+gOriginx gOriginY goto gotomark gPatt gPeekline gPoly gPrint gPrintb
+gPrintclip gRank gSavebit gScroll gSetpenwidth gSetwin gStyle gTmode
+gTwidth gUnloadfont gUpdate gUse gVisible gWidth gX gXborder gXprint gY
+hex$ hour
+iabs icon if include input insert int intf intrans ioa ioc iocancel ioopen
+ioclose ioread ioseek iosignal iow iowait iowaitstat iowaitstat32 iowrite
+ioyield
+key keya keyc key$ killmark kmod
+last lclose left$ len lenalloc ln loadm loc local lock log lopen lower$ lprint
+max mCard mCasc mean menu mid$ min mInit minute mkdir modify month month$
+mPopup
+next not num$
+off on onerr onerr open openr or
+parse$ path pause peek pi pointerfilter poke pos position print proc put
+raise rad randomize realloc recsize rename rept$ return right$ rmdir
+rnd rollback
+sci$ screen screeninfo second secstodate setdoc setflags setpath sin space
+sqr std stop style sum
+tan testevent trap type
+uadd unloadm until update upper$ use usub
+val var vector
+week while
+year
+/C2
+backlighton& backupbatterystatus& bitmapdisplaymode& bitmapload& bitmapunload
+cancelcapturekey capturekey& checkuid$ claimpointergrab createfiledialog$
+DBaddfield DBaddfieldtrunc DBcreateindex DBdeletekey DBdropindex
+DBgetfieldcount& DBgetfieldname$ DBgetfieldtype& DBisdamaged& DBisunique&
+DBmakeunique DBnewkey& DBrecover DBsetcomparison
+DTdatetimediff DTday& DTdaynoinweek& DTdaysdiff&
+DTdaysinmonth& DTdeletedatetime DThour& DThoursdiff& DTmicro& DTmicrosdiff&
+DTminute& DTminutesdiff& DTmonth& DTmonthsdiff& DTnewdatetime& DTnow&
+DTsecond& DTsecondsdiff& DTsetday& DTsethometime DTsethour& DTsetmicro&
+DTsetminute& DTsetmonth& DTsetsecond& DTsetyear& DTweeknoinyear& DTyear&
+DTyearsdiff&
+displaytasklist 
+endtask&
+false%
+getfiletime getnextwindowgroupname$ getnextwindowid& getthreadidfromappuid&
+getthreadidfromopendoc&
+initialiseparaformat insertbitmap insertnewpara insertscaledbitmap
+insertspecialchar insertstring irdaconnecttoreceive irdaconnecttosend&
+irdadisconnect irdaread$ irdareada irdawaitfordisconnect irdawrite
+isbacklightpresent& insystem& ishidden& isreadonly&
+killcurrentprocess killprocess killtask&
+LCclockformat& LCcountrycode& LCdecimalseparator$ LCsetclockformat
+LCstartofweek& LCthousandsseparator$ 
+loadrsc& logontothread
+machinename$ machineuniqueid mainbatterystatus& maxdisplaycontrast&
+mediatype& mod&
+openfiledialog$
+pagesetupdialog playsound playsounda printdialog printerdoclength&
+printpreviewdialog printrangedialog
+readrsc$ readrsclong& removespecificcharformat removespecificparaformat
+resetautoswitchofftimer resetprinting runapp& runexe&
+saveasfiledialog$ sendbitmaptoprinter sendbuffertoprinter
+sendscaledbitmaptoprinter sendnewparatoprinter sendrichtexttoprinter
+sendspecialchartoprinter sendstringtoprinter setactive
+setautoswitchoffbehavior setautoswitchofftime setalignment setbackground
+setbackgroundbythread& setbacklighton setbacklightbehavior
+setbacklightontime setcomputemode setdisplaycontrast setfiletime
+setfontheight setfontname setfontposition setfontposture
+setfontstrikethrough setfontunderline setfontweight setforeground
+setforegroundbythread& setglobalcharformat setglobalparaformat
+sethiddenfile setkeyclickenabled setlocalparaformat setpointercapture
+setpointerclickenabled setpointergrabon setreadonly setsounddriverenabled
+setsoundenabled setsystemfile spriteappend spritechange spritedelete
+spritecreate& spritedraw spritepos spriteuse stopsound& switchoff
+tbarbutt tbarhide tbarinit tbarlatch tbarlink tbaroffer% tbarsettitle
+tbarshow terminatecurrentprocess terminateprocess true%
+unloadrsc
+volumesize& volumespacefree& volumeuniqueid&
+xo

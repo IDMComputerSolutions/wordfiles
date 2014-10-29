@@ -1,0 +1,163 @@
+/L14"R" R_LANG Nocase Line Comment = # String Chars = '" File Extensions = R
+/Delimiters = , .	{}[]()
+/Open Fold Strings = "{"
+/Close Fold Strings = "}"
+/C1"Keywords" STYLE_KEYWORD
+abb abbreviate abs access acf acf2AR acos acosh action add add1 addmargins
+addTaskCallback adjust aggregate agrep AIC alarm alias alist all anova anovalist
+ansari any aov aovlist aperm append apply approx approxfun apropos ar arg args
+argsAnywhere arima arima0 ARMAacf ARMAtoMA array as asin asinh AsIs asNamespace
+asOneSidedFormula asS4 assign assignInNamespace atan atan2 atanh atomic attach
+attachNamespace attr attributes autoload autoloader available ave
+backsolve bandwidth bartlett baseenv basename bcv besselI besselJ besselK
+besselY beta bindingIsActive bindingIsLocked bindtextdomain binom binomial
+biplot body Box bquote break browseEnv browser browseURL bug builtins burg bw by
+bzfile
+c call callCC calls cancor capabilities capture case casefold cases cat category
+cbind ccf ceiling char character charmatch charToRaw chartr checkCRAN
+checkMFClasses check_tzones chisq chol chol2inv choose chooseCRANmirror citation
+citEntry citFooter citHeader class clearNames close closeAllConnections cmdscale
+codes coef coefficients coefmat coherency col colMeans colnames colSums combn
+commandArgs comment compareVersion complete complex computeRestarts condition
+conditionCall conditionMessage confint conflicts Conj connection console
+constrOptim contents contiguous contr contrast contrasts contrib contributors
+control convert convolve cooks cophenetic copy cor cos cosh count cov cov2cor
+covratio cpgram CRAN create crossprod Cstack_info csv csv2 cummax cummin cumprod
+cumsum cut cutree cycle
+data dataentry date dates dbeta dbinom dcauchy dcf dchisq de debug debugger
+decompose default delay delayedAssign delete delim delim2 deltat demo dendrapply
+dendrogram density deparse deriv deriv3 description det detach determinant
+deviance dexp df dfbeta dfbetas dffits dgamma dgeom dget dhyper diag DIF diff
+diffinv difftime digamma dim dimnames dir dirname dist distance DLL DLLInfo
+DLLInfoList DLLRegisteredRoutines dlnorm dlogis dmultinom dnbinom dnorm do
+double download dpois dput dQuote drop drop1 dsignrank dt dummy dump dunif
+duplicated dweibull dwilcox dyn dynam
+eapply ecdf edit eff effects eigen element emacs embed empty emptyenv
+encodeString Encoding end entry env environment environmentIsLocked
+environmentName equal error estVar eval evalq example exclude exec exists exit
+exp expand expm1 expression extract extractAIC
+factanal factor factorial fail family fft fields fifo file files file_test
+Filter Filters finalizer find findInterval findPackageEnv findRestart finite
+fisher fit fitted fivenum fix fixInNamespace fixup fligner floor flush for force
+formals format formatC formatDL formatOL formatUL formula fortran forwardsolve
+frame frames frequency friedman ftable fun function fwf
+Gamma gammaCody gaussian gc gcinfo gctorture get getAllConnections getAnywhere
+getCallingDLL getCallingDLLe getCConverterDescriptions getCConverterStatus
+getClipboardFormats getConnection getCRANmirrors getDLLRegisteredRoutines getenv
+geterrmessage getExportedValue getFromNamespace getHook getIdentification
+getInitial getLoadedDLLs getlocale getNamespace getNamespaceExports
+getNamespaceImports getNamespaceInfo getNamespaceName getNamespaceUsers
+getNamespaceVersion getNativeSymbolInfo getNumCConverters getOption getpid
+getRversion getS3method getSrcLines getTaskCallbackNames gettext gettextf getwd
+getWindowsHandle getWindowTitle getXlevels get_all_vars gl glm glmlist glob
+glob2rx globalenv gregexpr grep grid gsub gzcon gzfile
+hasTsp hat hatvalues hclust head heatmap helmert help hexmode history
+HoltWinters home html httpclient
+iconv iconvlist identical if ifelse Im image importIntoEnv index infinite infl
+influence info inherits install installed int integer integrate interaction
+interactive intersect intToBits intToUtf8 inverse invisible invokeRestart
+invokeRestartInteractively IQR is isBaseNamespace isIncomplete isNamespace
+ISOdate ISOdatetime isOpen isoreg isRestart isS4 isSeekable isSymmetric isTRUE
+jitter julian
+KalmanForecast KalmanLike KalmanRun KalmanSmooth kappa kernapply kernel kmeans
+knots kronecker kruskal ks ksmooth
+l10n_info La labels lag language lapply last lazyLoad lazyLoadDBfetch lbeta
+lchoose leaf legend length letters levels lfactorial lgamma libraries library
+libraryIQR licence license limit limitedLabels limits line lines link list
+listof lm lmlist load loaded loadedNamespaces loadhistory loadingNamespaceInfo
+loadings loadNamespace loadRconsole loadURL local localeconv localeToCharset
+lockBinding lockEnvironment loess log log10 log1p log2 logb logical logLik
+loglin lower lowess ls lsf lsfit
+Machine mad mahalanobis make makeActiveBinding makeARIMA makepredictcall
+makeRweaveLatexCodeRunner manglePackageName manova mantelhaen Map mapply margin
+mat match Math matplot matrix mauchley mauchly max mcnemar mean measures median
+medpolish mem memory menu merge message methods MFclass mget min mirror2html
+missing mle mlm Mod mode model modifyList month monthplot months mood mts mvfft
+na name names namespaceExport namespaceImport namespaceImportClasses
+namespaceImportFrom namespaceImportMethods nan napredict naprint naresid nargs
+NativeRoutineList nchar NCOL ncols new next NextMethod nextn nframe ngettext
+nlevels nlm nlminb nls NLSstAsymptotic NLSstClosestX NLSstLfAsymptote
+NLSstRtAsymptote noquote normalizePath nrd nrd0 nrow null number numeric
+numericDeriv numeric_version nzchar
+object objects octmode offset old oldClass ols omit on oneway open Ops optim
+optimise optimize options or order ordered outer output
+pacf package packageDescription packageEvent packageHasNamespace packageInfo
+packages packageStartupMessage packageStatus package_version packBits page
+pairlist pairwise par parent parents parse parseNamespaceFile pass paste path
+pbeta pbinom pbirthday pcauchy pchisq pentagamma person personList pexp pf
+pgamma pgeom pgram phase phyper pi pico pipe Platform plclust plnorm plogis plot
+pmatch pmax pmin pnbinom pnorm poisson poly polym polyroot pos POSIXct POSIXlt
+POSIXt power PP ppoints ppois ppr prcomp predict preplot pretty prettyNum
+primitive princomp print printCoefmat printNoClass prmatrix proc proc_time prod
+profile proj promax prompt promptData promptPackage prop provide psigamma
+psignrank pt ptukey punif pushBack pushBackLength putenv pval pweibull pwilcox
+qbeta qbinom qbirthday qcauchy qchisq qexp qf qgamma qgeom qhyper qlnorm qlogis
+qnbinom qnorm qpois qqline qqnorm qqplot qr qsignrank qt qtukey qty quade
+quantile quarters quasi quasibinomial quasipoisson quit qunif quote qweibull
+qwilcox qy
+r2dtable range rank rapply raw rawShift rawToBits rawToChar rbeta rbind rbinom
+rcauchy rchisq Re read readBin readChar readCitationFile readClipboard readline
+readLines readNEWS real Recall recover rect recursive Reduce reformulate reg
+regexpr registerS3method registerS3methods relevel relist relistable remove
+removeCConverter removeTaskCallback rename reorder rep repeat replace replicate
+replications report require reshape reshapeLong reshapeWide resid residual
+residuals response restart restartDescription restartFormals restore retracemem
+return rev rexp rf rgamma rgeom rhyper rle rlnorm rlogis rm rmultinom rnbinom
+RNGkind RNGversion rnorm roman round row rowMeans rownames rowsum rowSums rpois
+Rprof Rprofmem RShowDoc rsignrank RSiteSearch rstandard rstudent rt Rtangle
+RtangleSetup RtangleWritedoc runif runmed RweaveChunkPrefix RweaveEvalWithOpt
+RweaveLatex RweaveLatexFinish RweaveLatexOptions RweaveLatexSetup
+RweaveLatexWritedoc RweaveTryStop rweibull rwilcox R_system_version
+sample sapply SAS save savehistory saveNamespaceImage scale scan scatter scope
+screeplot sd se search searchpaths seed seek select selfStart seq sequence
+seq_along seq_len serialize sessionInfo set setCConverterStatus setdiff setenv
+setequal setHook setlocale setNames setNamespaceInfo setRepositories
+setStatusBar setup setwd setWindowTitle shapiro shell shortPathName show
+showConnections shQuote sign signalCondition signif sim simple simpleCondition
+simpleError simpleMessage simpleWarning simulate sin single sinh sink size SJ
+skeleton sleep slice smooth smoothEnds socket socketConnection socketSelect
+solve sort sortedXyData source spec spectrum spline splinefun split sprintf sqrt
+sQuote srcfile srcfilecopy srcref SSasymp SSasympOff SSasympOrig SSbiexp SSD
+SSfol SSfpl SSgompertz SSlogis SSmicmen SSweibull stack standardGeneric Stangle
+start stat status stderr stdin stdout step stepfun stl stop stopifnot storage
+str strftime string stringsAsFactors strOptions strptime strsplit strtrim
+StructTS structure strwrap sub subset substitute substr substring sum Summary
+summaryRprof suppressMessages suppressPackageStartupMessages suppressWarnings
+supsmu svd Sweave SweaveHooks SweaveSyntaxLatex SweaveSyntaxNoweb SweaveSyntConv
+sweep switch symbol symlink symnum sys system
+table table0 tables tabulate tail tan tanh taper tapply taskCallbackManager
+tcrossprod tempdir tempfile termplot terms test testPlatformEquivalence
+tetragamma textConnection textConnectionValue time timestamp timezone to
+toBibtex toeplitz toLatex tolower topenv toString toupper trace traceback
+tracemem tracingState transform treatment trend tri trigamma trunc truncate try
+tryCatch ts tsdiag tskernel tsp tsSmooth TukeyHSD type typeof
+ucv unclass undebug union unique uniroot units unix unlink unlist unload
+unloadNamespace unlockBinding unname unpack unserialize unsetenv unsorted
+unsplit unstack untrace untracemem unz update upgrade upper url URLdecode
+URLencode URLs UseMethod utf8ToInt
+values var variable varimax vars vcov vec vector Vectorize Version vi View
+vignette
+warning warnings weekdays weighted weights wfit which while wilcox win winDialog
+winDialogString window winMenuAdd winMenuAddItem winMenuDel winMenuDelItem
+winMenuItems winMenuNames with withCallingHandlers within withRestarts
+withVisible write writeBin writeChar writeClipboard writeLines wsbrowser wt
+xedit xemacs xor xpdrows xtabs
+yw
+zapsmall zip
+/C4"Operators" STYLE_OPERATOR
+!
+$
+%% %*% %/% %in% %o% %x%
+& &&
+*
++
+- ->
+// /
+:
+< <- <=
+==
+> >=
+?
+^
+| ||
+~

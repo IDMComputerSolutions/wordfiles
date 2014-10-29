@@ -1,0 +1,66 @@
+/L20 Line Comment = ' Nocase File Extensions = RLZ RFD
+/Delimiters = : 
+/C1
+Abs ACos AddSys AddToDate AddToTime And AnimateCells AnimateControl
+AnimateFrame AnimateSelect AnimateSpecialFrame AppSetProc AS Asc ASin ATan2
+ATn 
+BASE BEEP Bin$ BinToNum BitAnd BitClear BitLShift BitNot BitOr BitRShift
+BitSet BitTest BitXor BoardControl BoardNew BoardQ BoardQUnique BoardSelect
+BoardSetProc BoardUpdate Bool 
+CARET Case CDBL Ceil CHAIN ChartBar ChartControl ChartControlGrid
+ChartControlKey ChartControlLabels ChartControlPane ChartHBar ChartLine
+ChartMark ChartNew ChartPie ChartQ ChartQPtInfo ChartQUnique ChartQXAxis
+ChartQYAxis ChartRemove ChartSelect ChartSelectPane ChartSetColor
+ChartSetFont ChartSetKey ChartSetLineStyle ChartSetMark ChartSetProc
+ChartSetTitle ChartSetXAxis ChartSetXAxis2 ChartSetXGrid ChartSetXLabels
+ChartSetXView ChartSetYAxis ChartSetYGrid ChartSetYLabels ChartText
+ChartUpdate ChartXYLine ChartXYMark CHDIR Chr$ CINT CLEAR ClipGet ClipSet
+CLNG ColorNames CommClose CommOpen CommQ CommRead CommWrite Cos CSNG CVD
+CVDMBF CVI CVL CVS CVSMBF CUSTOMCONTROLS
+DATE$ DateInfo DateToNum DayOfWeek DDEControl DDENew DDEQ DDEQUnique
+DDESelect DDESetProc DDEWait DIM DWord
+EndValid END EOF Eqv ERASE ERF ERL ERR ERROR EXECUTE EXIT Exp Exp10 EXPORT
+EXTERNAL Else
+FileClose FileDB FileDelete FileEOF FileExport FileImport FileMakeName
+FileOpen FilePos FileQ FileQUnique FileRead FILES FileSeek FileWrite
+FirstMatch Fix Floor FontControl FontNew FontQ FontQUnique FontSelect FOR
+FormControl FormModifyObject FormNew FormQ FormQNum FormQObject FormQStr
+FormQUnique FormSelect FormSetColor FormSetGrid FormSetObject FormSetProc
+FormWait FREEFILE FUNC 
+GOTO 
+Help HelpSetProc Hex$ HexToNum 
+IDLE IF Imp Index INPUT InStr INT INTEGER
+KILL 
+LBound LCase$ Left$ Len LFLUSH LOCAL LOF Log Log10 LogControl LogNew LogQ
+LogQData LogQSize LogQStr LogQUnique LogSelect LogSetData LogSetProc Long
+LOOP LPRINT LROWPRINT LTrim$ 
+Mask MatInvert MatMult MatTranspose Max MenuControl MenuDoCmd MenuNew
+MenuQ MenuQUnique MenuSelect MenuSetCmd MenuSetProc MessageBox Mid$ Min
+MKD$ MKDIR MKDMBF$ MKI$ MKL$ MKS$ MKSMBF$ Mod 
+Not NumToDate NumToStr
+Oct$ OctToNum ON OPTION Or
+PictureClipGet PictureClipSet PictureControl PictureNew PictureQ
+PictureQUnique PictureSelect Pointer PRINT PrinterControl PROC Product 
+QDate QDir QFormat QNOptMods QNOptParams QOptMod QOptParam QSys QVar 
+RANDOMIZE RENAME RESET ResetHourglass RESUME RETURN Reverse$ Right$ RMDIR
+Rnd Round ROWPRINT RTrim$ RUN RunTot 
+SchedControl SchedNew SchedQ SchedQData SchedRemove SchedSet ScreenEGA
+SEEK SELECT SetAppName SetDir SetFormat SetHourglass SetSys SetSystemDate
+SetSystemTime Sgn SheetControl SheetControlLabels SheetNew SheetQ
+SheetQInfo SheetQUnique SheetSelect SheetSetColLabels SheetSetProc
+SheetSetRowLabels SheetUpdate SHELL Sin SLEEP Space$ Spc$ Sprint Sqr Sqrt
+StartValid StatMovAvg StatMovMax StatMovMin StatMovTot StatNorm StatPack
+StatPercent StatRank StatRegress StatSort StatSwitch StatUnPack StdColor
+StdFont StdOpen StdPrintConfig StdSaveAs STOP StrDelete$ String$ StrInsert$
+StrKeyword StrToDate StrTok StrToNum SUB SubStr$ Sum SWAP 
+TabletArc TabletBitmap TabletBrush TabletChord TabletControl TabletEllipse
+TabletGetPixel TabletLine TabletLineTo TabletMouseX TabletMouseY
+TabletMoveTo TabletPen TabletPie TabletPolygon TabletPolyLine
+TabletPolyPolygon TabletRectangle TabletRoundRect TabletSelect
+TabletSetColor TabletSetPixel TabletText TabletTextColor TabletUndo Tan
+TIME$ TIMER TYPE Then
+UBound UCase$ 
+Val VectSet 
+WHILE WRITE Word
+Xor 
+ZeroFill

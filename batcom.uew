@@ -1,0 +1,49 @@
+/L16"Batch/cmd" Nocase Line Comment = :: Line Comment Valid Columns = [1] Line Comment Alt = ; String Chars = " Escape Char = ^ File Extensions = BAT CMD
+/Delimiters = #$()+,./:;@< =	>\
+/C1"Keywords" STYLE_KEYWORD
+call 
+do
+echo echo. else eof errorlevel exist exit
+for
+goto 
+if in
+not 
+pause
+rem
+set start
+/C2"Commands" STYLE_KEYWORD
+cd chdir cls cmd copy cscript
+date del dir
+erase
+label
+md mkdir move
+path
+rd ren rename rmdir
+robocopy
+set start
+time type
+ver
+wscript
+xcopy xcopy32
+/C3"Separators"
+&
+;
+|
+/C4"Delimiters"
+#
+$
+(
+)
++
+,
+.
+:
+@
+<
+=
+>
+\
+/C5"Variables" STYLLE_VARIABLE
+** %
+/C6"Switches"
+** /

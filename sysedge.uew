@@ -1,0 +1,45 @@
+/L20"Empire SystemEdge" Line Comment = # Nocase String Chars = '" File Extensions = CF
+/Delimiters = 	
+/C1"Keywords"
+community
+extension emphistory
+monitor
+no_authen_traps no_usergroup_table no_who_table no_remoteshell_group no_serial_status no_stat_nfs_filesystems no_process_sets no_actions no_stat_floppy no_process_group no_probe_disks ntregperf
+syscontact sysdescr sysedge_plugin syslocation sysedge_debug syslog_facility syslog_logfile 
+watch
+/C2"Empire Keywords"
+application
+counter
+filesystem
+gauge
+integer ipaddress
+key
+logfile
+ntevent
+octetstring objectid oid object
+process perfinstance performance
+read-write read-only readwrite readonly registry
+security system
+traps timeticks
+value
+/C3"Specifiers"
+absolute all
+error
+failure
+information
+delta devdevice devmntpt devbsize devtblks devfblks devtfiles devffiles devmaxnamelen devtype devfsid devunmount devcapacity devinodecapacity
+success
+warning
+** 0x
+/C4"Operators"
+nop ne
+gt ge
+le lt
+eq
+=
+> >=
+< <=
+! !=
+/C5"NTRegPerf Values"
+reg_dword reg_sz reg_expand_sz reg_mult_sz
+perf_counter_counter perf_counter_rawcount perf_counter_rawcount_hex perf_sample_counter perf_counter_timer perf_counter_bulk_count perf_counter_large_rawcount perf_counter_large_rawcount_hex perf_counter_timer_inv perf_average_bulk perf_100nsec_timer perf_100nsec_timer_inv perf_counter_multi_timer perf_counter_multi_timer_inv perf_100nsec_multi_timer perf_100nsec_multi_timer_inv perf_elapsed_time

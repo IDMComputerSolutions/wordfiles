@@ -1,0 +1,108 @@
+/L20"ClearBasic" Nocase Line Comment = ' Block Comment On = /* Block Comment Off = */ String Chars = " File Extensions = CBS
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	?
+/Function String = "%[a-zA-Z]*)"
+/Indent Strings = "Then" "Do"
+/Unindent Strings = "End" "Next" "End If" "End Select" "Loop"
+/C1  Datatypes
+AppMenu
+Boolean BulkRetrieve BulkSave
+Form
+Integer
+List Long
+Record
+SQLDB String
+/C2 Keywords
+AND As
+ByRef ByVal
+Case
+Declare Dim
+Else ElseIf End
+For Function
+Global
+If
+Next New NOT
+OR
+Sub Select Set Step
+To Type Then
+While
+/C3  Constants
+cbAbortRetryIgnore cbAscending cbByRef cbByValue cbCloseChildren cbCloseMessage cbDescending cbDefClosedWindow cbEqual cbFirstMessage cbFrontIfUp cbGreater cbGreaterorEqual 
+cbIdAbort cbIdCancel cbIdCancel cbIdDiscard cbIdIgnore cbIdNo cbIdOK cbIdRetry cbIdSave cbIdYes cbIn cbLess cbLessOrEqual cbLike cbNoDefault cbNotEqual cbNotLike cbOK 
+cbOKCancel cbRefreshMessage cbRetryCancel cbSaveDiscardCancel cbSoundsLike cbYesNo cbYesNoCancel
+ebCritical ebExclamation ebInformation ebQuestion ebApplicationModal ebSystemModal
+False
+True
+/C4  Operators
+*
++
+-
+.
+/
+:
+<
+<=
+=
+>
+>=
+&
+/C5 CB_Methods
+AddItem AllSpaces AllowDuplicates AppendFilter AppendItem AppendSeparator AppendSort
+Caption CancelRecord ChangeRecord ChangeToNew Clear Close CLTransition ColorCells Concat Connect Contains Contents Copy CopyFields Count CountByType CreateColorScheme
+DeleteRecord DeleteRecordById DisableControls DisableControlsDeep Disconnect DoDefault Down
+EmployeeObjid Empty Enable EnableControlDeep EnableControls EndDoc EntryCount Execute ExecuteCB ExecuteMenu ExecuteProc ExitApp ExtractList
+Fill FindFirstIndex ForceRedraw Format
+GetByIndex GetContents GetContext GetControlByName GetCurrentDB GetField GetFormat GetFormInstance GetItemByIndex GetList GetRecordByIndex GetRecordList GetRelatedRecordList 
+GetSelected GetString GetText
+InputBox InsertRecord IsDirty IsEnabled IsExactly IsNew ItemType ItemByIndex
+Line ListByIndex Login Logout LogSQL
+Move MsgBox
+NewPage Notify NotifyById NotifyByKey NotifyChild NotifyParent NotifyTab NotifyTabParent
+Print
+RecordType Refresh RelateRecords RelateRecordsFromID RelateRecordsFromToID RelateRecordsToID RemoveByIndex RemoveByItem RemoveItem RemoveSelected RenameItem ReplaceByIndex 
+ReplaceItem RetrieveRecords
+Save SelectedIndexes SelectedList SetCellColoring SetColorScheme SetField SetFocus SetFunction SetParent SetRoot SetRootById SetSelected SetText SetValue Show 
+ShowAttachments ShowCase ShowContact ShowContract ShowControls ShowControlsDeep ShowCR ShowDebugWindow ShowDefaultMenu ShowEmployee ShowFTS ShowSelect ShowSite ShowSubcase 
+SimpleQuery Sort
+TextHeight TextWidth TransferPart TraverseFromParent TraverseFromRoot
+UnrelateRecords Unselect Up UpdateRecord UserName UserObjid
+Value
+/C6 Objects
+App
+Basic
+Debug
+Err
+Me Msg
+Net
+Printer
+System
+/C7  VB_Methods
+Abs ActivateControl AddCon AnswerBox AppActivate AppClose AppFileName AppFind AppGetActive AppGetPosition AppGetState AppHide AppList AppMaximize AppMinimize AppMove 
+AppRestore AppSetState AppShow AppSize AppType Architecture ArrangeIcons ArrayDims Arrays ArraySort Asc AscB AscW AskBox AskPasssword Atn
+Base BasicScript Beep Begin Dialog Browse ButtonEnabled ButtonExists
+Call CancelCon Capability Cascade CBool CCur CDate CDbl ChDir ChDrive CheckBox CheckBoxEnabled CheckBoxExists Choose Chr ChrB ChrW CInt CLng CodePage ComboBox 
+ComboBoxEnabled ComboBoxExists Command Comments Compare Const Conversion Cos CreateObject CSng CStr CStrings CurDir Currency CVar CVDate CVErr
+Date DateAdd DateDiff DatePart DateSerial DateValue Day DDB DDEExecute DDEInitate DDEPoke DDERequest DDERequest DDESend DDETermiateAll DDETerminate DDETimeOut Default 
+DefBool DefCur DefDate DefDbl DefInt DefLng DefObj DefSng DefStr DefVar DeleteSettings Description Dialog Dir DiskDrives DiskFree DlgBaseUnitsX DlgBaseUnitsY DlgCaption DlgControlID DlgEnable DlgFocus DlgListBoxArray DlgSetPicture DlgText DlgValue DlgVisible Do DoEvents DoKeys Double DropListBox
+EditEnabled EditExists Environ Eof Eoln$ Eqv Erase Erl Error Exit Exp Explicit
+FileAttr FileCopy FileDateTime FileDirs FileExists FileLen FileList FileParse FileType Financial Fix FreeFile FreeMemory FreeResources FV
+Get GetAllSettings GetAttr GetCaps GetCheckBox GetComboBoxItem GetComboBoxItemCount GetCon GetEditText GetListBoxItem GetListBoxItemCount GetObject GetOption 
+GetSetting GoSub Goto GroupBox
+Height HelpContext HelpFIle Hex HLine HomeDir Hour HPage HScroll HWND
+IIf IMEStatus Imp Inline Input InputB InStr InStrB Int Integer IPmt IRR Is IsDate IsEmpty IsError IsMissing IsNull IsNumeric IsObject Item ItemCount
+Kill
+LastDLLError LBound LCase Left LeftB Len LenB Let Like LineCount ListBox ListBoxEnabled ListBoxExists Loc Locale Lock Lof Log Long Loop LSet LTrim
+MacID MacScript Main Mci Menu MenuItemChecked MenuItemEnabled MenuItemExists Mid MidB Minute MIRR Miscellaneous MkDir Mod Month MouseTrails Msg.Close Msg.Open Msg.SetText Msg.SetThermometer 
+Name Networks Nothing Now NPer NPV Number
+Oct On Open OpenFilename OperatingSystem OperatingSystemVendor OperatingSystemVersion Option OptionButton OptionEnabled OptionExists OptionGroup OS
+PathSeparator Picture PictureButton Pmt PopupMenu PPmt Predefined PrinterGetOrientation PrinterSetOrientation PrintFile Printing Private Processor ProcessorCount Public PushButton Put PV
+QueEmpty QueFlush QueKeyDn QueKeys QueKeyUp QueMouseClick QueMouseDblClick QueMouseDblDn QueMouseDn QueMouseMove QueMouseMoveBatch QueMouseUp QueSetRelativeWindow
+Raise Random Randomize Rate ReadIni ReadIniSection ReDim Reset Restart Resume Return Right RightB RmDir Rnd RSet RTrim
+SaveFilename SaveSetting Second Seek Seek statement SelectBox SelectButton SelectComboBoxItem SelectListBoxItem SendKeys SetAttr SetCheckBox SetColors SetEditText SetOption 
+SetWallpaper Sgn Shell Sin Single Sleep SLN Snapshot Source Space Spc SQLBind SQLClose SQLError SQLExecQuery SQLGetSchema SQLOpen SQLRequest SQLRetrieve 
+SQLRetrieveToFile Sqr Stop Str StrComp StrConv String Switch SYD
+Tab Tan Text TextBox Tile Time Timer TimeSerial TimeValue TotalMemory Trim TwipsPerPixelX TwipsPerPixelY 
+UBound UCase Unlock User
+Val Variants Varient VarType Version Viewport ViewportClear ViewportClose ViewportOpen VLine VPage VScroll
+Weekday Wend Width Width# WinActivate WinClose WindowsDirectory WindowsVersion WinFind WinList WinMaximize WinMinimize WinMove WinRestore WinSize Word WordCount Write WriteIni
+Xor
+Year

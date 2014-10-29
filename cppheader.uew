@@ -1,0 +1,67 @@
+/L20"C++ Header" C_LANG Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = HPP
+/Delimiters = ~!@%^&*()-+=|\{}[]<>:;"' ,	.?
+/Function String = "%[a-zA-Z_]*)[~;]"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+
+/C1"Blue Keywords"
+bool
+char class const
+double
+enum explicit export extern
+false float friend
+inline int
+long
+mutable
+namespace
+operator
+protected private public
+short signed sizeof static struct
+template throw true typedef typename
+union unsigned using
+virtual void volatile
+wchar_t
+
+/C2"Red Keywords"
+asm auto
+break
+case catch const_cast continue
+default do delete dynamic_cast
+else
+for
+goto
+if
+new
+register reinterpret_cast return
+static_cast switch
+this try typeid
+while
+
+/C3"Blue Hash directives"
+#define #error #elif #if #line #else #ifdef #pragma #endif #ifndef #undef
+
+/C4"Red Hash directives"
+#include
+
+/C5"Operators"
++
+-
+=
+// /
+%
+&
+>
+<
+^
+!
+|
+*
+^
+
+/C6"Punctuators"
+{
+}
+;
+(
+)
+,

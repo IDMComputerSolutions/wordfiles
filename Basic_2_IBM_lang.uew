@@ -1,0 +1,86 @@
+/L20"Basic 2 IBM" VB_LANG Line Comment = ' Line Comment Alt = Rem Nocase File Extensions = BAS INC
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	?_
+/Function String = "%[a-z ^t]++^{Sub^}^{Function^}*("
+/Open Brace Strings = "("
+/Close Brace Strings = ")"
+/Indent Strings = "Then" "Else" "For" "Def Fn"
+/Unindent Strings = "End" "Next" "Else" "End Def"
+/Open Fold Strings = "If" "Else" "Sub" "Def Fn"
+/Close Fold Strings = "Else" "End Sub" "End Fn"
+/C1"Functions" STYLE_FUNCTION
+Abs Asc Atn
+Cbdl Chr$ Cint Cos Csng Cvd Cvi Cvs
+Environ$ Eof Exp
+Fix Fre
+Hex$
+Inp Input$ Instr Int Ioctl$
+Lbound Left$ Len Loc Lof Log Lpos
+Mid$ Mkd$ Mki$ Mks$
+Oct$
+Pmap Point Pos
+Right$ Rnd
+Screen Sgn Sin Space$ Spc Sqr Str$ String$
+Tab Tan Timer
+Ubound Usr
+Val Varptr Varptr$
+/C2"Variables" STYLE_VARIABLE
+Csrlin
+Date$
+Erdev Erdev$ Erl Err
+Inkey$ 
+Time$
+/C3"Command" STYLE_COMMAND
+Bload Bsave
+Chdir Clear Command$
+Files
+Kill
+Mkdir
+Name
+Reset Rmdir Run
+System
+Troff Tron
+/C4"Statements" STYLE_STATEMENT
+Absolute
+As
+Base Beep
+Call Calls Chain Circle Close Cls Color Com Common
+Data Def Defdbl Defint Defsng Defstr Dim Draw
+Else End Environ Erase Error Exit
+Field Fn For
+Get Gosub Goto
+If Input Ioctl
+Key
+Let
+Line Locate Lock Lprint Lset
+Motor
+Next Noise
+On Open Option Out
+Paint Palette Pcopy Peek Pen Pen Play Poke Preset Print Pset Put
+Randomize Read Redim Rem 
+Resume Return Rset
+Seg Shared Shell Sound Static Stick Stop Strig Sub Swap
+Then
+Unlock Using
+View
+Wait Wend While Width Window Write
+/C5"Operators" STYLE_OPERATOR
++
+-
+=
+// /
+\
+*
+<
+>
+^
+And
+Eqv
+Imp
+Mod
+Not
+Or
+Xor
+/C6"Attributes" STYLE_ATTRIBUTE
+Access Append
+Output
+Random

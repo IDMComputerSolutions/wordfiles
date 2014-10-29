@@ -1,0 +1,85 @@
+/L20"Lua" Line Comment = -- Escape Char = \ Block Comment On = [[ Block Comment Off = ]] String Chars = "' File Extensions = LUA BIN
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String = "%[a-zA-Z]*)"
+/C1 "key words"
+and
+do
+else elseif end
+function
+if
+local
+nil not
+or
+repeat return
+then
+until
+while
+/C2
+abs acos appendto ascii asin assert atan atan2
+call ceil clock collectgarbage copytagmethods cos
+date deg dofile dostring
+error execute exit
+floor foreach foreachvar format frexp
+getbinmethod getenv getglobal gettagmethod gsub
+ldexp log log10
+max min mod
+newtag next nextvar
+print
+rad random randomseed rawgetglobal rawgettable rawsetglobal rawsettable read
+readfrom remove rename
+seterrormethod setglobal setlocale settag settagmethod sin sqrt strbyte
+strchar strfind strlen strlower strrep strsub strupper
+tag tan tmpname tonumber tostring type
+write writeto
+/C3
+$debug
+$else
+$end
+$endinput
+$if
+$ifnot
+$nodebug
+/C4
+PI
+_INPUT _OUTPUT _STDERR _STDIN _STDOUT
+/C5
++
+-
+*
+// /
+^
+<
+>
+=
+~
+%
+.
+:
+/C6
+;
+,
+(
+)
+{
+}
+[
+]
+/C7
+cgi cgilua cgilua_url char2hexa chdir
+dbluaerrorfb dblua_escape decode default_script
+encodecgi encodetable escape
+filetype
+getvalue
+hexa hexa2char html_mask
+includehtml insertfield
+lua_mask
+maketable map mkurl
+nopipe
+preprocess
+redirect relativeurl relative_url
+saveluavar savestate script_path script_pdir script_vdir stateerrormethod
+statefile stdin strsplit
+unescape
+/C8
+DBClose DBExec DBOpen DBRow
+

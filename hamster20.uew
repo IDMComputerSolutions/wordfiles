@@ -1,0 +1,149 @@
+/L20"Hamster Scripts hs2" Nocase Line Comment = # Line Comment Alt = #! StringChars = " File Extensions = HSC HSM
+
+/C1"key words"
+assert
+beep
+dump debug
+error
+print
+runscript
+sleep
+trace
+
+/C2"hamster function"
+ArtAlloc
+ArtFree
+ArtGetText
+ArtSetText
+ArtGetHeaders
+ArtSetHeaders
+ArtGetBody
+ArtSetBody
+ArtGetHeader
+ArtAddHeader
+ArtSetHeader
+ArtDelHeader
+ArtHeaderExists
+ArtLoad
+ArtSave
+abs
+ControlGetStatus
+closessltunnel
+chr copy ClipRead ClipWrite ClearXCounter
+DiskFreeKB
+delete DecodeMIMEHeaderString dec decodetime DeleteHostsEntry digest DecXCounter DLLLoad DLLFree DLLLastError DLLCall DirExists DirMake DirRemove DirChange DirCurrent DirWindows DirSystem
+encodetime
+entercontext
+ErrCatch eval ErrNum ErrMsg ErrModule ErrLineNo ErrLine ErrSender execute
+EventMultipleWait
+eventcreate
+eventclose
+eventset
+eventreset
+eventpulse
+eventwait
+false FileExists FileSize FileTime FileDelete FileRename FileCopy
+GetEnvironment
+getprocessidentifier
+GetTasksActive GetTasksWait GetTasksRun
+HamRasDial HamRasHangup
+hex
+isint int isstr inc IncXCounter IniRead IniWrite IniEraseSection IniDelete
+leavecontext
+len lowercase ListAlloc ListFree ListExists ListClear ListCount ListGet ListSet ListGetTag ListSetTag ListGetKey ListSetKey ListAdd ListDelete ListInsert ListSort ListSetText ListGetText ListIndexOf ListLoad ListSave ListAppend ListFiles ListDirs ListRasEntries
+Localhostname localhostaddr lookuphostaddr lookuphostname
+MsgSetHeader
+MsgIndexOfHeader
+MsgHeadernameOfIndex
+MemAlloc MemSize MemFree MemForget MemSetInt MemGetInt MemSetStr MemGetStr MemVarPtr
+MsgGetHeader MsgDelHeader MsgAddHeader
+openssltunnel
+ord
+plit paramcount paramstr pos
+RasGetConnection RasLastError RasErrText RasIsConnected RasDial RasHangup RasGetIP
+replace RE_Match re_split RE_Extract RE_Parse RE_S RFCTimeZone random
+SysErrorMessage SysErrMessage SetTaskLimiter SetHostsEntry_ByName SetHostsEntry_ByAddr StopThread ScriptPriority SetXCounter set sgn str
+TimeToHeaderDate
+ticks time timegmt true trim
+uppercase
+XCounter
+
+
+/C3"interaction and log"
+warning
+Addlog
+MsgBox
+PopupBox
+InputBox InputPW
+ListBox
+
+/C4"Scheduler"
+AtClear
+AtCount
+AtSubfunction
+AtFrom
+AtUntil
+AtOnDays
+AtEveryMins
+AtAdd
+AtExecute
+
+/C5"Highlight variable"
+** $
+
+/C6"Hamster Server Function"
+HamVersion
+HamPath HamHscPath HamHsmPath HamLogsPath HamServerPath HamGroupsPath HamMailPath HamNewsOutPath HamRCPath HamMailsOutPath
+HamMessage
+HamGetStatus
+HamMainFQDN HamMIDFQDN
+HamEnvelopeFrom
+HamPostmaster HamUsenetAcc
+HamThreadCount
+HamIsIdle HamWaitIdle
+HamFlush HamPurge HamCheckPurge
+HamRebuildGlobalLists HamRebuildHistory
+HamSetLogin
+HamNewsPull HamNewsPost
+HamNewsJobsClear HamNewsJobsCheckActive HamNewsJobsPullDef HamNewsJobsPostDef HamNewsJobsPull HamNewsJobsPost HamNewsJobsFeed HamNewsJobsStart HamNewsJobsGetCounter HamNewsJobsGetServer HamNewsJobsGetParam HamNewsJobsGetType HamNewsJobsGetPriority HamNewsJobsSetPriority HamNewsJobsAdd HamNewsJobsDelete
+HamMailExchange HamFetchMail HamSendMail HamSendMailAuth HamNewMail
+HamGroupCount HamGroupName HamGroupNameByHandle HamGroupIndex HamGroupOpen HamGroupClose
+HamArtCount HamArtNoMin HamArtNoMax HamArtText HamArtTextExport HamArtImport HamArtDeleteMid HamArtDeleteNrInGroup HamArtLocateMid HamArtDeleteMid HamArtLocateMidnGroup HamScoreList HamScoreTest
+HamNNTPServer HamSMTPServer HamPOP3Server HamIMAPServer
+HamReCoServer HamShutdown HamStopAllTasks HamStopThread
+HamResetCounters HamMainWindow HamTrayIcon HamReloadConfig
+HamReloadIPAccess HamChangePassword HamRotateLog hamaddlog
+HamDialogEditDirs HamDialogScripts HamDialogNewsKillfileLog
+HamDialogAddPull HamArtDeleteMidInGroup
+HamAddGroup HamDelGroup HamAddPull HamDelPull HamArtLocateMidInGroup
+
+/C7"iteration and condiction"
+break
+continue
+do
+else
+elseif
+endif
+endwhile
+endfor
+for
+gosub
+goto
+if
+iif
+icase
+label
+loop
+return
+repeat
+until
+while
+
+/C8"Sub and declaration"
+Const
+ConstEnum
+endsub
+sub
+var
+varset
+quit

@@ -1,0 +1,73 @@
+/L8"SAS" Nocase Line Comment = ** Block Comment On = /* Block Comment Off = */ String Chars = "' File Extensions = sas  
+/Delimiters = ~!@^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String = "%[a-zA-Z_]*)"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1"SAS Keywords"
+abort access after append and anova array as attrib
+between break by 
+call cancel catalog catmod cimport class columns compare connect connection contents convert copy cport create
+data datasets dbload define delete desc display distinct do drop
+else end endsas eof eq export
+file filename first footnote format freq from full
+gantt gchart gmap goptions gplot gprint group gt
+having headline headskip html
+id idlabel if in infile input insert
+join
+keep
+label last length libname library list lrecl ls lt
+n ne nodupkey nolist nomissingcheck noprint not nowindows null nway 
+macrogen means merge migrate missing mixed modify
+obs ods olap on options or oracle order other otherwise out output
+panels password path prefix preserve_col_names print printto proc ps 
+qlim quit
+rank read recfm reg remove rename replace report reread_exposure reset retain return right run
+schema select set skip sort spacing split sql style summary
+table tables tabulate template then timeplot timeseries title title1 title2 title3 title4 to transpose trantab
+union univariate until update updatemode update_lock_type user username
+value var view
+when where while width
+@
+$
+; 
+(
+)
+=
+>=
+<=
+>
+<
+-
++
+|
+&
+_null_
+%
+/C2"Functions & Subroutines" STYLE_FUNCTION
+abs atan atan2 attrc attrn
+blshift bnot bor branks brshift btran bxor byte
+cat cats catt catx cdf ceil ceilz cexist change char choose choosec choosen cinv close cnonct coalesce coalescec collate colpctn colpctsum comb compbl compress concat constant convexit convx convxp cos cosh count countc covlag cshape css curobs cv
+datdif date datejul datetime datepart day deviance dhms diag digamma dim dinfo dnum dopen doptname doptnum dread dropnote dsname dur duration durp
+eigen eigval
+fclose fcol fdelete fdif fexist fft fget find findc finfo finv fipname fipnamel fipstate floor floorz fnonct fnote fopen foptname foptnum forward fpoint fpos fput fread frewind frlen fsep fuzz fwrite
+gamma getoption getvarc getvarn 
+hour htmldecode htmlencode
+index indexc indexw inputc inputn int intck intnx intrr intz invupdt iorcmsg 
+juldate juldate7
+left left lengthc lengthm lengthn lowcase ltrim
+max mdy min minute mod month mopen
+pctl pctn pctsum peek peekc peekclong peeklong poke pokelong put putc putn
+quote
+rand randgen randseed reverse round rounde roundz rowcat rowcatc rowpctn rowpctsum
+scanq second sin sinh sleep sound soundex stfips stname stnamel strip subpad substr substrn sum symexist symget symglobl symlocal symput symputx symsqr sysget sysmsg sysparm sysprocessid sysprocessname sysprod sysrc system
+tan tanh time timepart today translate translate tranwrd trigamma trim trimn trisolv trunc trim 
+upcase urldecode
+week weekday
+year yield yieldp yrdif yyq
+zipcity zipfips zipname zipnamel zipstate
+/C3"Macro Language" STYLE_STATEMENT
+%abort %bquote %cmpres %compstor %copy %datatyp %display %do %else %end %eval %global %goto %if %index %input %left %length %let %local %lowcase %macro %mend %nrbquote %nrquote %nrstr %put %qcmpres %qleft %qlowcase %qscan %qsubstr %qsysfunc %qtrim %quote %qupcase %return %scan %str %substr %superq %symdel %symexist %symglobl %symlocal %syscall %sysevalf %sysexec %sysfunc %sysget %syslput %sysprod %sysrc %sysrput %then %trim %unquote %until %upcase %verify %while %window
+cmdmac
+implmac into
+mautolocdisplay mautosource mcompilenote merror mfile mindelimiter mlogic mlogicnest mprint mprintnest mrecall mstored msymtabmax mvarsize
+sasautos sasmstore serror symbolgen symdel symgetn symputn sysbuffr syscc syscharwidth syscmd sysdate9 sysday sysdevic sysdmg sysdsn sysenv syserr sysfilrc sysindex sysinfo sysjobid syslast syslckrc syslibrc sysmacroname sysmenv sysncpu syspbuff sysprocname sysscp sysscpl syssite sysstartid sysstartname systime sysuserid sysver sysvlong

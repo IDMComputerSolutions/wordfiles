@@ -1,0 +1,57 @@
+/L20"Inger Source" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = " File Extensions = I i
+/Delimiters = ~!@%^&*()+=|\{}[]<:;"' ,	.?
+/Function String = "%[a-zA-Z_]*)[~;]"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+
+/C1"Blue Keywords"
+bool
+char const case
+default do
+else extern
+for false float
+if int
+module
+return
+start string switch
+true
+untyped
+void
+while
+
+/C2"Red Keywords"
+break
+continue
+goto_considered_harmful
+label
+
+/C3"Hash directives"
+#import
+
+/C4"Operators"
+!
+%
+&
+*
++
+-
+// /
+<
+=
+>
+?
+^
+^
+|
+
+/C5"Punctuators"
+(
+)
+,
+->
+:
+;
+[
+]
+{
+}

@@ -1,0 +1,314 @@
+/L20"C-OS2 API" C_LANG Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = C CPP CC CXX H HPP AWK SQC
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String = "%^([a-zA-Z_0-9^[^]*]+^)[ ^t]+([^p*&:, ^t^[^]a-zA-Z_0-9.!]++)[~;]"
+/Function String 1 = "%[a-zA-Z_0-9*]*::^([a-zA-Z_0-9^~]+^)[ ^t^p]++([^p*&:, ^t^[^]/*^-'=:&a-zA-Z_0-9./(!]++)[~;]"
+/Function String 2 = "%[a-zA-Z_0-9^][a-zA-Z_0-9^[^]]+[ ^t*]+^([a-zA-Z_0-9]+^)[ ^t]++([^p*&:, ^t^[^]a-zA-Z_0-9./(!]++)[~;]"
+/Function String 3 = "%[a-zA-Z_0-9*&$^[^]*]+[ ^t]+[a-zA-Z_0-9*&$^[^]]+[ ^t*]+^([a-zA-Z_0-9]+^)[ ^t]++([^p*&:, ^t^[^]a-zA-Z_0-9./(!]++)[~;]"
+/Function String 4 = "%[a-z_0-9^[^]*]++ [a-z_0-9*^[^]]+[ ^t]++[a-z_0-9*^[^]]+[ ^t]++^([*a-z_0-9]+^)[ ^t]++([^p*&:, ^t^[^]a-z_0-9./(!]++)[~;]"
+/Function String 5 = "%^([a-zA-Z_0-9^[^]*]+^)[ ^t]++([^p*&:, ^t^[^]a-zA-Z_0-9./()!]++)[~;]"
+/Member String = "^([A-Za-z0-9_:.]+^)[ ^t^*&]+$S[ ^t]++[(-);,]"
+/Variable String = "%[ ^t]++^([!-ÿ~ ^t<>]+^)*[~a-z]$S[ ^t;,()^-]"
+/Indent Strings = "{" "if" "else" ":"
+/Unindent Strings = "}"
+/Open Brace Strings =  "{" "(" "["
+/Close Brace Strings = "}" ")" "]"
+/Open Fold Strings = "{"
+/Close Fold Strings = "}"
+/C1 KEYWORDS
+__asm __based1 __cdecl __declspec __except __fastcall __finally __inline __int16 __int32 __int64 __int8
+__leave __stdcall __try
+auto
+break
+case char const continue
+default dllexport2 dllimport2 do double
+else enum extern
+float for
+goto
+if int
+long
+register return
+short signed sizeof static struct switch
+thread2 typedef
+union unsigned
+void volatile
+while
+/C2 CLASSES & DECLARATIONS
+__multiple_inheritance __single_inheritance __virtual_inheritance
+class
+delete dllexport dllimport
+friend
+inline
+namespace new
+operator
+private protected public
+template this thread try
+using
+virtual
+/C3 C-lib-FUNCTIONS
+FP_OFF FP_SEG
+MK_FP
+_OvrInitEms _OvrInitExt __emit__ _atold _bios_disk _bios_equiplist _bios_keybrd _bios_memsize
+_bios_printer _bios_serialcom _bios_timeofday _c_exit _cexit _chain_intr _chdrive _chmod _clear87 _close
+_control87 _creat _disable _dos_allocmem _dos_close _dos_creat _dos_creatnew _dos_findfirst _dos_findnext
+_dos_freemem _dos_getdate _dos_getdiskfree _dos_getdrive _dos_getfileattr _dos_getftime _dos_gettime
+_dos_getvect _dos_keep _dos_open _dos_read _dos_setblock _dos_setdate _dos_setdrive _dos_setfileattr
+_dos_setftime _dos_settime _dos_setvect _dos_write _enable _exit _fmemccpy _fmemchr _fmemcmp _fmemcpy
+_fmemicmp _fmemset _fpreset _fsopen _fstrcat _fstrchr _fstrcmp _fstrcpy _fstrcspn _fstrdup _fstricmp
+_fstrlen _fstrlwr _fstrncat _fstrncmp _fstrncpy _fstrnicmp _fstrnset _fstrpbrk _fstrrchr _fstrrev _fstrset
+_fstrspn _fstrstr _fstrtok _fstrupr _fullpath _getdcwd _getdrive _graphfreemem _graphgetmem _harderr
+_hardresume _hardretn _lrotl _lrotr _makepath _matherrl _open _read _rotl _rotr _searchenv _setcursortype
+_splitpath _status87 _strdate _strerror _strtime _strtold _tolower _toupper _write
+abort abs absread abswrite access acos acosl allocmem arc arg asctime asin asinl assert atan atan2 atan2l
+atanl atexit atof atoi atol
+bar bar3d bcd bdos bdosptr bioscom biosdisk biosequip bioskey biosmemory biosprint biostime brk bsearch
+cabs cabsl calloc ceil ceill cerr cgets chdir chmod chsize cin circle cleardevice clearerr clearviewport
+clock close closedir closegraph clreol clrscr complex conj coreleft cos cosh coshl cosl country cout
+cprintf cputs creat creatnew creattemp cscanf ctime ctrlbrk
+delay delline detectgraph difftime disable div dosexterr dostounix drawpoly dup dup2
+ecvt ellipse enable eof execl execle execlp execlpe execv execve execvp execvpe exit exp expl
+fabs fabsl farcalloc farcoreleft farfree farheapcheck farheapcheckfree farheapchecknode farheapfillfree
+farheapwalk farmalloc farrealloc fclose fcloseall fcvt fdopen feof ferror fflush fgetc fgetchar fgetpos
+fgets filelength fileno fillellipse fillpoly findfirst findnext floodfill floor floorl flushall fmod fmodl
+fnmerge fnsplit fopen fprintf fputc fputchar fputs fread free freemem freopen frexp frexpl fscanf fseek
+fsetpos fstat ftell ftime fwrite
+gcvt geninterrupt getarccoords getaspectratio getbkcolor getc getcbrk getch getchar getche getcolor
+getcurdir getcwd getdate getdefaultpalette getdfree getdisk getdrivername getdta getenv getfat getfatd
+getfillpattern getfillsettings getftime getgraphmode getimage getlinesettings getmaxcolor getmaxmode
+getmaxx getmaxy getmodename getmoderange getpalette getpalettesize getpass getpid getpixel getpsp gets
+gettext gettextinfo gettextsettings gettime getvect getverify getviewsettings getw getx gety gmtime gotoxy
+graphdefaults grapherrormsg graphresult
+harderr hardresume hardretn heapcheck heapcheckfree heapchecknode heapfillfree heapwalk highvideo hypot
+hypotl
+imag imagesize initgraph inp inport inportb inpw insline installuserdriver installuserfont int86 int86x
+intdos intdosx intr ioctl isalnum isalpha isascii isatty iscntrl isdigit isgraph islower isprint ispunct
+isspace isupper isxdigit itoa
+kbhit keep
+labs ldexp ldexpl ldiv lfind line linerel lineto localeconv localtime lock locking log log10 log10l logl
+longjmp lowvideo lsearch lseek ltoa
+malloc matherr max mblen mbstowcs mbtowc memccpy memchr memcmp memcpy memicmp memmove memset min mkdir
+mktemp mktime modf modfl movedata moverel movetext moveto movmem
+norm normvideo nosound
+open opendir outp outport outportb outpw outtext outtextxy
+parsfnm peek peekb perror pieslice poke pokeb polar poly polyl pow pow10 pow10l powl printf putc putch
+putchar putenv putimage putpixel puts puttext putw
+qsort
+raise rand randbrd randbwr random randomize read readdir real realloc rectangle registerbgidriver
+registerbgifont registerfarbgidriver registerfarbgifont remove rename restorecrtmode rewind rewinddir
+rmdir rmtmp
+sbrk scanf searchpath sector segread set_new_handler setactivepage setallpalette setaspectratio setbkcolor
+setblock setbuf setcbrk setcolor setdate setdisk setdta setfillpattern setfillstyle setftime
+setgraphbufsize setgraphmode setjmp setlinestyle setlocale setmem setmode setpalette setrgbpalette
+settextjustify settextstyle settime setusercharsize setvbuf setvect setverify setviewport setvisualpage
+setwritemode signal sin sinh sinhl sinl sleep sopen sound spawnl spawnle spawnlp spawnlpe spawnv spawnve
+spawnvp spawnvpe sprintf sqrt sqrtl srand sscanf stackavail stat stime stpcpy strcat strchr strcmp strcmpi
+strcoll strcpy strcspn strdup strerror strftime stricmp strlen strlwr strncat strncmp strncmpi strncpy
+strnicmp strnset strpbrk strrchr strrev strset strspn strstr strtod strtok strtol strtoul strupr strxfrm
+swab system
+tan tanh tanhl tanl tell tempnam textattr textbackground textcolor textheight textmode textwidth time
+tmpfile tmpnam toascii tolower toupper tzset
+ultoa umask ungetc ungetch unixtodos unlink unlock utime
+va_arg va_end va_list va_start vfprintf vfscanf vprintf vscanf vsprintf vsscanf
+wcstombs wctomb wherex wherey window write
+/C4 DIRECTIVES
+#define #elif #else #endif #error #if #ifdef #ifndef #include #line #pragma #undef
+NULL
+/C5 OPERATORS
+!
+%
+&
++
+-
+// /
+<
+=
+>
+^
+|
+/C6 API-Functions
+DdfBeginList DdfBitmap DdfEndList DdfHyperText DdfInform DdfInitialize DdfListItem DdfMetafile DdfPara
+DdfSetColor DdfSetFont DdfSetFontStyle DdfSetFormat DdfSetTextAlign DdfText DevCloseDC DevEscape DevOpenDC
+DevPostDeviceModes DevQueryCaps DevQueryDeviceNames DevQueryHardcopyCaps DosAcknowledgeSignalException
+DosAddMuxWaitSem DosAllocMem DosAllocSharedMem DosAsyncTimer DosBeep DosCallNPipe DosCancelLockRequest
+DosClose DosCloseEventSem DosCloseMutexSem DosCloseMuxWaitSem DosCloseQueue DosCloseVDD DosConnectNPipe
+DosCopy DosCreateDir DosCreateEventSem DosCreateMutexSem DosCreateMuxWaitSem DosCreateNPipe DosCreatePipe
+DosCreateQueue DosCreateThread DosDebug DosDelete DosDeleteDir DosDeleteMuxWaitSem DosDevConfig
+DosDevIOCtl DosDisConnectNPipe DosDupHandle DosEditName DosEnterCritSec DosEnterMustComplete DosFSAttach
+DosFSCtl DosFindClose DosFindFirst DosFindNext DosForceDelete DosFreeMem DosFreeModule DosFreeResource
+DosGetDateTime DosGetInfoBlocks DosGetMessage DosGetNamedSharedMem DosGetResource DosGetSharedMem
+DosGiveSharedMem DosInsertMessage DosKillProcess DosKillThread DosLoadModule DosMapCase DosMove DosOpen
+DosOpenEventSem DosOpenMutexSem DosOpenMuxWaitSem DosOpenQueue DosOpenVDD DosPeekNPipe DosPhysicalDisk
+DosPostEventSem DosPurgeQueue DosPutMessage DosQueryAppType DosQueryCollate DosQueryCp DosQueryCtryInfo
+DosQueryCurrentDir DosQueryCurrentDisk DosQueryDBCSEnv DosQueryEventSem DosQueryFHState DosQueryFSAttach
+DosQueryFSInfo DosQueryFileInfo DosQueryHType DosQueryMem DosQueryMessageCp DosQueryModuleName
+DosQueryMutexSem DosQueryNPHState DosQueryNPipeInfo DosQueryNPipeSemState DosQueryPathInfo
+DosQueryProcAddr DosQueryProcType DosQueryQueue DosQueryResourceSize DosQuerySysInfo DosQueryVerify
+DosRaiseException DosRead DosReadQueue DosReleaseMutexSem DosRequestMutexSem DosRequestVDD DosResetBuffer
+DosResetEventSem DosResumeThread DosScanEnv DosSearchPath DosSelectSession DosSendSignalException
+DosSetCurrentDir DosSetDateTime DosSetDefaultDisk DosSetExceptionHandle DosSetFHState DosSetFSInfo
+DosSetFileInfo DosSetFileLocks DosSetFilePtr DosSetFileSize DosSetMaxFH DosSetMem DosSetNPHState
+DosSetNPipeSem DosSetPathInfo DosSetPriority DosSetProcessCp DosSetRelMaxFH DosSetSession
+DosSetSignalExceptionFocus DosSetVerify DosShutdown DosSleep DosStartSession DosStartTimer DosStopSession
+DosStopTimer DosSubAllocMem DosSubFreeMem DosSubSetMem DosSubUnsetMem DosSuspendThread DosTransactNPipe
+DosUnsetExceptionHandler DosUnwindException DosWaitChild DosWaitEventSem DosWaitMuxWaiatSem DosWaitNPipe
+DosWaitThread DosWrite DosWriteQueue DrgAcceptDroppedFiles DrgAccessDraginfo DrgAddStrHandle
+DrgAllocDrginfo DrgAllocDrgtransfer DrgDeleteDraginfoStrHandles DrgDeleteStrHandle DrgDrag DrgDragFiles
+DrgFreeDraginfo DrgFreeDragtransfer DrgGetPS DrgPostTransferMsg DrgPushDrginfo DrgQueryDragitemPtr
+DrgQueryDrgitem DrgQueryDrgitemCount DrgQueryNativeRMF DrgQueryNativeRMFLen DrgQueryStrName
+DrgQueryStrNameLen DrgQueryTrueType DrgQueryTrueTypeLen DrgReleasePS DrgSendTransferMsg DrgSetDragImage
+DrgSetDragPointer DrgSetDragitem DrgVerifyNativeRMF DrgVerifyRMF DrgVerifyTrueType DrgVerifyType
+DrgVerifyTypeSet
+GPiQueryPaletteInfo GpiAnimatePalette GpiAssociate GpiBeginArea GpiBeginElement GpiBeginPath GpiBitBlt
+GpiBox GpiCallSegmentMatrix GpiCharString GpiCharStringAt GpiCharStringPos GpiCharStringPosAt
+GpiCloseFigure GpiCloseSegment GpiCombineRegion GpiComment GpiConvert GpiConvertWithMatrix GpiCopyMetaFile
+GpiCorrelateChain GpiCorrelateFrom GpiCorrelateSegment GpiCreateBitmap GpiCreateLogFont GpiCreatePS
+GpiCreatePalette GpiCreateRegion GpiDeleteBitmap GpiDeleteElement GpiDeleteElementRange
+GpiDeleteElementsBetweenLabels GpiDeleteMetaFile GpiDeletePalette GpiDeleteSegment GpiDeleteSegments
+GpiDeleteSetId GpiDestroyPS GpiDestroyRegion GpiDrawBits GpiDrawChain GpiDrawDynamics GpiDrawForm
+GpiDrawSegment GpiElements GpiEndArea GpiEndElement GpiEndPath GpiEqualRegion GpiErase GpiErrorSegmentData
+GpiExcludeClipRectangle GpiFillPath GpiFloodFill GpiFrameRegion GpiFullArc GpiGetData GpiImage
+GpiIntersectClipRectangle GpiLabel GpiLine GpiLoadBitmap GpiLoadFonts GpiLoadMetaFile GpiLoadPublicFonts
+GpiMarker GpiModityPath GpiMove GpiOffsetClipRegion GpiOffsetElementPointer GpiOffsetRegion GpiOpenSegment
+GpiOutlinePath GpiPaintRegion GpiPartialArc GpiPathToRegion GpiPlayMetaFile GpiPltnRegion GpiPointArc
+GpiPolyFillet GpiPolyFilletSharp GpiPolyLine GpiPolyLineDisjoint GpiPolyMarker GpiPolySpline GpiPolygons
+GpiPop GpiPtVisible GpiQueryArcParms GpiQueryAttrMode GpiQueryAttrs GpiQueryBackColor GpiQueryBackMix
+GpiQueryBitmapBits GpiQueryBitmapDimension GpiQueryBitmapHandle GpiQueryBitmapInfoHeader
+GpiQueryBitmapParameters GpiQueryBoundryData GpiQueryCharAngle GpiQueryCharBox GpiQueryCharBreakExtra
+GpiQueryCharDirection GpiQueryCharExtra GpiQueryCharMode GpiQueryCharSet GpiQueryCharShear
+GpiQueryCharStringPos GpiQueryCharStringPosAt GpiQueryClipBox GpiQueryClipRegion GpiQueryColor
+GpiQueryColorData GpiQueryColorIndex GpiQueryCp GpiQueryCurrentPosition GpiQueryDefArcParms
+GpiQueryDefAttrs GpiQueryDefCharBox GpiQueryDefTag GpiQueryDefViewingLimits GpiQueryDefaultViewMatrix
+GpiQueryDevice GpiQueryDeviceBitmapFormats GpiQueryDrawControl GpiQueryDrawingMode GpiQueryEditMode
+GpiQueryElement GpiQueryElementPointer GpiQueryElementType GpiQueryFaceString GpiQueryFontAction
+GpiQueryFontMetrics GpiQueryFonts GpiQueryFullFontFileDescriptions GpiQueryGraphicsField
+GpiQueryInitialSegmentAttrs GpiQueryKerningPairs GpiQueryLineEnd GpiQueryLineJoin GpiQueryLineType
+GpiQueryLineWidth GpiQueryLineWidthGeom GpiQueryLogColorTable GpiQueryLogicalFont GpiQueryMarker
+GpiQueryMarkerBox GpiQueryMarkerSet GpiQueryMetaFileBits GpiQueryMetaFileLength GpiQueryMix
+GpiQueryModelTransformMatrix GpiQueryNearestColor GpiQueryNumberSetIds GpiQueryPS GpiQueryPageViewport
+GpiQueryPalette GpiQueryPattern GpiQueryPatternRefPoint GpiQueryPatternSet GpiQueryPel
+GpiQueryPickAperturePosition GpiQueryPickApertureSize GpiQueryRGBColor GpiQueryRealColors
+GpiQueryRegionBox GpiQueryRegionRects GpiQuerySegmentAttrs GpiQuerySegmentNames GpiQuerySegmentPriority
+GpiQuerySegmentTranformMatrix GpiQueryStopDraw GpiQueryTag GpiQueryTextAlignment GpiQueryTextBox
+GpiQueryViewingLimits GpiQueryViewingTransformMatrix GpiQueryWidthTable GpiRectInRegion GpiRectVisible
+GpiRemoveDynamics GpiResetBoundryData GpiResetPS GpiRestorePS GpiRotate GpiSaveMetaFile GpiSavePS GpiScale
+GpiSelectPalette GpiSetArcParms GpiSetAttrMode GpiSetAttrs GpiSetBackColor GpiSetBackMix GpiSetBitmap
+GpiSetBitmapBits GpiSetBitmapDimension GpiSetBitmapId GpiSetCharAngle GpiSetCharBox GpiSetCharBreakExtra
+GpiSetCharDirection GpiSetCharExtra GpiSetCharMode GpiSetCharSet GpiSetCharShear GpiSetClipPath
+GpiSetClipRegion GpiSetColor GpiSetCp GpiSetCurrentPosition GpiSetDefArcParms GpiSetDefAttrs GpiSetDefTag
+GpiSetDefViewingLimits GpiSetDrawControl GpiSetDrawingMode GpiSetEditMode GpiSetElementPointer
+GpiSetElementPointerAtLabel GpiSetGraphicsField GpiSetInitialSegmentAttrs GpiSetLindWidthGeom
+GpiSetLineEnd GpiSetLineJoin GpiSetLineType GpiSetLineWidth GpiSetMarker GpiSetMarkerBox GpiSetMarkerSert
+GpiSetMetaFileBits GpiSetMixGpiCreateLogColorTable GpiSetModelTransformMatrix GpiSetPS
+GpiSetPaletteEntries GpiSetPattern GpiSetPatternRefPoint GpiSetPatternSet GpiSetPel
+GpiSetPickAperturePosition GpiSetPickApertureSize GpiSetRegion GpiSetSegmentAttrs GpiSetSegmentPriority
+GpiSetSegmentTransformMatrix GpiSetStopDraw GpiSetTag GpiSetTextAlignment GpiSetViewingLimits
+GpiSetViewingTransformMatrix GpiStrokePath GpiTranslate GpiUnloadFonts GpiUnloadPublicFonts GpiWCBitBlt
+PrfCloseProfile PrfOpenProfile PrfQueryProfile PrfQueryProfileData PrfQueryProfileInt PrfQueryProfileSize
+PrfQueryProfileString PrfReset PrfWriteProfileData PrfWriteProfileString
+SplControlDevice SplCopyJob SplCreateDevice SplCreateQueue SplDeleteDevice SplDeleteJob SplDeleteQueue
+SplEnumDevice SplEnumDriver SplEnumJob SplEnumPort SplEnumPrinter SplEnumQueue SplEnumQueueProcessor
+SplHoldJob SplHoldQueue SplPurgeQueue SplQmAbortDoc SplQmClose SplQmEndDoc SplQmOpen SplQmStartDoc
+SplQmWrite SplQueryDevice SplQueryJob SplQueryQueue SplReleaseJob SplReleaseQueue SplSetDevice SplSetJob
+SplSetQueue SqlQmAbort
+WinAddAtom WinAddSwitchEntry WinAlarm WinAssociateHelpInstance WinBeginEnumWindows WinBeginPaint
+WinBroadcastMsg WinCalcFrameRect WinCallMsgFilter WinCancelShutdown WinChangeSwitchEntry WinCheckButton
+WinCheckMenuItem WinCloseClpbrd WinCompareStrings WinCopyAccelTable WinCopyRect WinCpTranslateChar
+WinCpTranslateString WinCreateAccelTable WinCreateAtomTable WinCreateCursor WinCreateDlg
+WinCreateFrameControls WinCreateHelpInstance WinCreateHelpTable WinCreateMenu WinCreateMsgQueue
+WinCreateObject WinCreatePointer WinCreatePointerIndirect WinCreateStdWindow WinCreateWindow
+WinDdeInitiate WinDdePostMsg WinDdeRespond WinDefDlgProc WinDefFileDlgProc WinDefFontDlgProc
+WinDefWindowProc WinDeleteAtom WinDeleteLboxItem WinDeleteLibrary WinDeleteProcedure
+WinDeregisterObjectClass WinDestoryPointer WinDestroyAccelTable WinDestroyAtomTable WinDestroyCursor
+WinDestroyHelpInstance WinDestroyMsgQueue WinDestroyObject WinDestroyWindow WinDimissDlg WinDispatchMsg
+WinDlgBox WinDrawBitmap WinDrawBorder WinDrawPointer WinDrawText WinEmptyClipbrd WinEnableControl
+WinEnableMenuItem WinEnablePhysInput WinEnableWindow WinEnableWindowUpdate WinEndEnumWindows WinEndPaint
+WinEnumClipbrdFmts WinEnumDlgItem WinEnumObjectClasses WinEqualRect WinExludeUpdateRegion WinFileDlg
+WinFillRect WinFindAtom WinFlashWindow WinFocusChange WinFontDlg WinFreeErrorInfo WinFreeFileDlgList
+WinFreeFileIcon WinGetClipPS WinGetCurrentTime WinGetDlgMsg WinGetErrorInfo WinGetKeyState WinGetLastError
+WinGetMaxPosition WinGetMinPosition WinGetMsg WinGetNextWindow WinGetPS WinGetPhysKeyStatus WinGetScreenPS
+WinGetSysBitmap WinInSendMsg WinInflateRect WinInitialize WinInsertLboxItem WinIntersectRect
+WinInvalidateRect WinInvalidateRegion WinInvertRect WinIsChild WinIsControlEnabled WinIsMenuItemChecked
+WinIsMenuItemEnabled WinIsMenuItemValid WinIsPhysInputEnabled WinIsRectEmpty WinIsThreadActive WinIsWindow
+WinIsWindowEnabled WinIsWindowShowing WinIsWindowVisible WinLoadAccelTable WinLoadDlg WinLoadFileIcon
+WinLoadHelpTable WinLoadLibrary WinLoadMenu WinLoadMessage WinLoadPointer WinLoadProcedure WinLoadString
+WinLockVisRegions WinLockWindowUpdate WinMakePoints WinMakeRect WinMapDlgPoints WinMapWindowPoints
+WinMessageBox WinMultWindowFromIDs WinNextChar WinOffsetRect WinOpenClipbrd WinOpenWindowDC WinPeekMsg
+WinPopupMenu WinPostMsg WinPostQueueMsg WinPrevChar WinProcessDlg WinPtInRect WinQueryAccelTable
+WinQueryActiveWindow WinQueryAnchorBlock WinQueryAtomLength WinQueryAtomName WinQueryAtomUsage
+WinQueryButtonCheckstate WinQueryCapture WinQueryClassInfo WinQueryClassName WinQueryClassThunkProc
+WinQueryClipbrdData WinQueryClipbrdFmtInfo WinQueryClipbrdOwner WinQueryClipbrdViewer WinQueryCp
+WinQueryCpList WinQueryCursorInfo WinQueryDesktopBkgnd WinQueryDesktopWindow WinQueryDlgItemShort
+WinQueryDlgItemText WinQueryDlgItemTextLength WinQueryFocus WinQueryHelpInstance WinQueryLboxCount
+WinQueryLboxItemText WinQueryLboxItemTextLength WinQueryLboxSelectedItem WinQueryMsgPos WinQueryMsgTime
+WinQueryObjectWindow WinQueryPointer WinQueryPointerInfo WinQueryPointerPos WinQueryPreParam
+WinQueryQueueInfo WinQueryQueueStatus WinQuerySessionTime WinQuerySwitchEntry WinQuerySwitchHandle
+WinQuerySwitchList WinQuerySysColor WinQuerySysModalWindow WinQuerySysPointer WinQuerySysValue
+WinQuerySystemAtomTable WinQueryTaskSizePos WinQueryTaskTitle WinQueryUpdateRect WinQueryUpdateRegion
+WinQueryVersion WinQueryWindow WinQueryWindowDC WinQueryWindowModel WinQueryWindowPos
+/C7 API-types, Defines and Messages
+BM_GETCHECK BM_GETSTATE BM_SETCHECK BM_SETSTATE BM_SETSTYLE
+CB_ADDSTRING CB_DELETESTRING CB_DIR CB_FINDSTRING CB_FINDSTRINGEXACT CB_GETCOUNT CB_GETCURSEL
+CB_GETDROPPEDCONTROLRECT CB_GETDROPPEDSTATE CB_GETEDITSEL CB_GETEXTENDEDUI CB_GETITEMDATA CB_GETITEMHEIGHT
+CB_GETLBTEXT CB_GETLBTEXTLEN CB_INSERTSTRING CB_LIMITTEXT CB_RESETCONTENT CB_SELECTSTRING CB_SETCURSEL
+CB_SETEDITSEL CB_SETEXTENDEDUI CB_SETITEMDATA CB_SETITEMHEIGHT CB_SHOWDROPDOWN
+DM_GETDEFID DM_SETDEFID
+EM_CANUNDO EM_EMPTYUNDOBUFFER EM_FMTLINES EM_GETFIRSTVISIBLELINE EM_GETHANDLE EM_GETLINE EM_GETLINECOUNT
+EM_GETMODIFY EM_GETPASSWORDCHAR EM_GETRECT EM_GETSEL EM_GETWORDBREAKPROC EM_LIMITTEXT EM_LINEFROMCHAR
+EM_LINEINDEX EM_LINELENGTH EM_LINESCROLL EM_REPLACESEL EM_SETHANDLE EM_SETMODIFY EM_SETPASSWORDCHAR
+EM_SETREADONLY EM_SETRECT EM_SETRECTNP EM_SETSEL EM_SETTABSTOPS EM_SETWORDBREAKPROC EM_UNDO
+LB_ADDSTRING LB_DELETESTRING LB_DIR LB_FINDSTRING LB_FINDSTRINGEXACT LB_GETCARETINDEX LB_GETCOUNT
+LB_GETCURSEL LB_GETHORIZONTALEXTENT LB_GETITEMDATA LB_GETITEMHEIGHT LB_GETITEMRECT LB_GETSEL
+LB_GETSELCOUNT LB_GETSELITEMS LB_GETTEXT LB_GETTEXTLEN LB_GETTOPINDEX LB_INSERTSTRING LB_RESETCONTENT
+LB_SELECTSTRING LB_SELITEMRANGE LB_SETCARETINDEX LB_SETCOLUMNWIDTH LB_SETCURSEL LB_SETHORIZONTALEXTENT
+LB_SETITEMDATA LB_SETITEMHEIGHT LB_SETSEL LB_SETTABSTOPS LB_SETTOPINDEX
+STM_GETICON STM_SETICON
+WM_ACTIVATE WM_ACTIVATEAPP WM_ASKCBFORMATNAME WM_CANCELMODE WM_CHANGECBCHAIN WM_CHAR WM_CHARTOITEM
+WM_CHILDACTIVATE WM_CHOOSEFONT_GETLOGFONT WM_CLEAR WM_CLOSE WM_COMMAND WM_COMPACTING WM_COMPAREITEM
+WM_COPY WM_CREATE WM_CTLCOLOR WM_CUT WM_DELETEITEM WM_DESTROY WM_DESTROYCLIPBOARD WM_DEVMODECHANGE
+WM_DRAWCLIPBOARD WM_DRAWITEM WM_DROPFILES WM_ENABLE WM_ENDSESSION WM_ENTERIDLE WM_ERASEBKGND WM_FONTCHANGE
+WM_GETDLGCODE WM_GETFONT WM_GETMINMAXINFO WM_GETTEXT WM_GETTEXTLENGTH WM_HSCROLL WM_HSCROLLCLIPBOARD
+WM_ICONERASEBKGND WM_INITDIALOG WM_INITMENU WM_INITMENUPOPUP WM_KEYDOWN WM_KEYUP WM_KILLFOCUS
+WM_LBUTTONDBLCLK WM_LBUTTONDOWN WM_LBUTTONUP WM_MBUTTONDBLCLK WM_MBUTTONDOWN WM_MBUTTONUP WM_MDIACTIVATE
+WM_MDICASCADE WM_MDICREATE WM_MDIDESTROY WM_MDIGETACTIVE WM_MDIICONARRANGE WM_MDIMAXIMIZE WM_MDINEXT
+WM_MDIRESTORE WM_MDISETMENU WM_MDITILE WM_MEASUREITEM WM_MENUCHAR WM_MENUSELECT WM_MOUSEACTIVATE
+WM_MOUSEMOVE WM_MOVE WM_NCACTIVATE WM_NCCALCSIZE WM_NCCREATE WM_NCDESTROY WM_NCHITTEST WM_NCLBUTTONDBLCLK
+WM_NCLBUTTONDOWN WM_NCLBUTTONUP WM_NCMBUTTONDBLCLK WM_NCMBUTTONDOWN WM_NCMBUTTONUP WM_NCMOUSEMOVE
+WM_NCPAINT WM_NCRBUTTONDBLCLK WM_NCRBUTTONDOWN WM_NCRBUTTONUP WM_NEXTDLGCTL WM_NOTIFY WM_PAINT
+WM_PAINTCLIPBOARD WM_PALETTECHANGED WM_PALETTEISCHANGING WM_PARENTNOTIFY WM_PASTE WM_POWER
+WM_QUERYDRAGICON WM_QUERYENDSESSION WM_QUERYNEWPALETTE WM_QUERYOPEN WM_QUEUESYNC WM_QUIT WM_RBUTTONDBLCLK
+WM_RBUTTONDOWN WM_RBUTTONUP WM_RENDERALLFORMATS WM_RENDERFORMAT WM_SETCURSOR WM_SETFOCUS WM_SETFONT
+WM_SETREDRAW WM_SETTEXT WM_SHOWWINDOW WM_SIZE WM_SIZECLIPBOARD WM_SPOOLERSTATUS WM_SYSCHAR
+WM_SYSCOLORCHANGE WM_SYSCOMMAND WM_SYSDEADCHAR WM_SYSKEYDOWN WM_SYSKEYUP WM_SYSTEMERROR WM_TIMECHANGE
+WM_TIMER WM_UNDO WM_USER WM_VKEYTOITEM WM_VSCROLL WM_VSCROLLCLIPBOARD WM_WINDOWPOSCHANGED
+WM_WINDOWPOSCHANGING WM_WININICHANGE
+/C8 API-types
+ABC APIRET
+BITMAP BITMAPCOREHEADER BITMAPCOREINFO BITMAPFILEHEADER BITMAPINFO BITMAPINFOHEADER BOOL BOOL32 BYTE
+CALLBACK CBTACTIVATESTRUCT CBT_CREATEWND CHAR CHOOSECOLOR CHOOSEFONT CLASSENTRY CLIENTCREATESTRUCT COLOR
+COMPAREITEMSTRUCT COMSTAT CONVCONTEXT CONVINFO COUNTRYCODE COUNTRYINFO CPLINFO CREATESTRUCT CTLINFO
+CTLSTYLE CTLTYPE
+DATETIME DCB DEBUGHOOKINFO DELETEITEMSTRUCT DEVMODE DEVNAMES DOCINFO DRAWITEMSTRUCT DRIVERINFOSTRUCT
+DRVCONFIGINFO
+EAOP2 ERRORID EVENTMSG EXCEPTIONREGISTRATIONRECORD EXCEPTIONREPORTRECORD
+FDATE FEA2 FEA2LIST FILEFINDBUF3 FILEFINDBUF4 FILELOCK FILESTATUS3 FILESTATUS4 FINDREPLACE FIXED
+FMS_GETDRIVEINFO FMS_GETFILESEL FMS_LOAD FSQBUFFER2 FTIME
+GEA2 GEA2LIST GLOBALENTRY GLOBALINFO GLYPHMETRICS
+HANDLE HANDLETABLE HARDWAREHOOKSTRUCT HBITMAP HDC HDIR HELPWININFO HEV HFILE HINSTANCE HMF HMODULE
+HMONITOR HMTX HMUX HPIPE HPS HQUEUE HRGN HSEM HSYSSEM HSZPAIR HTIMER HVDD HWND
+KERNINGPAIR
+LOCALENTRY LOCALINFO LOGBRUSH LOGFONT LOGPALETTE LOGPEN LONG LPARAM LPSTR LRESULT
+MAT2 MDICREATESTRUCT MEASUREITEMSTRUCT MEMMANINFO MENUITEMTEMPLATE MENUITEMTEMPLATEHEADER METAFILEPICT
+METAHEADER METARECORD MINMAXINFO MODULEENTRY MONCBSTRUCT MONCONVSTRUCT MONERRSTRUCT MONHSZSTRUCT
+MONLINKSTRUCT MONMSGSTRUCT MOUSEHOOKSTRUCT MSG MULTIKEYHELP
+NCCALCSIZE_PARAMS NEWCPLINFO NEWTEXTMETRIC NFYLOADSEG NFYLOGERROR NFYLOGPARAMERROR NFYRIP NFYSTARTDLL NID
+NPCH NPFN NPSZ
+OFSTRUCT OPENFILENAME OUTLINETEXTMETRIC
+PAINTSTRUCT PALETTEENTRY PANOSE PAVAILDATA PBOOL PBOOL32 PBYTE PCHAR PCOLOR PCOUNTRYCODE PCOUNTRYINFO
+PDATETIME PEAOP2 PERRORID PEXCEPTIONREPORTRECORD PEXCEPTIONRESGISTRATIONRECORD PFEA2LIST PFILEFINDBUF3
+PFILEFINDBUF4 PFILELOCK PFN PFNEXITLIST PFNTHREAD PFSQBUFFER2 PGEA2LIST PHDC PHDIR PHEV PHFILE PHMF
+PHMODULE PHMONITOR PHMTX PHMUX PHPIPE PHPS PHQUEUE PHRGN PHSEM PHTIMER PHVDD PIB PID PIPESEMSTATE PLONG
+POINT POINTFX PPIB PPID PPIPESEMSTATE PPPIB PPTIB PPVOID PREQUESTDATA PRESULTCODES PRINTDLG PSEMRECORD
+PSTARTDATA PSTATUSDATA PSZ PTIB PTIB2 PTID PULONG PVOID
+RASTERIZER_STATUS RECT REQUESTDATA RESULTCODES RGBQUAD RGBTRIPLE
+SEGINFO SEMRECORD SGID SHORT SIZE STACKTRACEENTRY STARTDATA STATUSDATA STRUCT SYSHEAPINFO
+TIB TIB2 TID
+UCHAR UINT ULONG USHORT

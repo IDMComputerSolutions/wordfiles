@@ -1,0 +1,98 @@
+/L20 "Inform" Line Comment = !  String Chars = "' File Extensions = H INF
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/C1 "Inform Statements"
+box break bold
+continue
+do
+else
+font for fixed
+give
+if inversion
+jump
+move
+new_line
+objectloop
+print print_ret
+quit
+read remove restore return rfalse rtrue roman reverse
+save spaces string style switch
+until underline
+while
+/C2 "Inform Directives"
+Abbreviate Array Attribute
+Class Constant
+Default Dictionary
+End Endif Extend
+Fake_action
+Global
+Ifdef Ifndef Ifnot Iftrue Iffalse Import Include Ifv3 Ifv5
+Link Lowstring
+Message
+Nearby
+Object
+Property
+Release Replace
+Serial Switches Statusline System_file Stub
+score
+time
+Trace
+Verb Version
+/C3 "Inform Grammar Tokens"
+creature
+first
+held
+last
+meta multi multiheld multiexcept multiinside
+noun number
+only
+replace
+scope special
+topic
+/C4 "Inform Attributes and Properties"
+absent animate add_to_scope after article articles
+before
+clothing conealed container cant_go capacity
+door daemon describe description door_dir door_to d_to
+edible enterable each_turn e_to
+female found_in
+initial inside_description invent in_to
+general grammar
+light lockable locked life list_together
+male moved
+neuter name n_to nw_to ne_to
+on open openable orders out_to
+pluralname proper parse_name plural
+react_after react_before
+scenery scored static supporter switchable short_name short_name_indef s_to
+se_to sw_to
+talkable transparent time_left time_out
+visited
+u_to
+workflag worn when_closed when_open when_off when_on with_key w_to
+/C5 "Inform Verbs (also debug verbs and fake actions)"
+ActionsOn ActionsOff Attack Answer Ask AskFor
+Burn Blow Buy
+CommandsOn CommandsOff CommandsRead Close Consult Cut Climb
+Drop Disrobe Dig Drink
+Empty Enter Exit Examine Eat
+Fullscore Fill
+Goto Gonear GetOff Go GoIn Give
+Inv InvTall InvWide Insert
+Jump JumpOver
+Kiss
+LMode1 LMode2 LMode3 Look Lock Listen LookUnder LetGo
+Mild Miscellany
+NotifyOn NotifyOff No
+Objects Open Order
+Pronouns Places Predictable PutOn Pray Pull Push PushDir PluralFound Prompt
+Quit
+Restart Restore RoutinesOn RoutinesOff Remove Rub Receive
+Save SciptOn ScriptOff Score Scope Search Show SwitchOn SwitchOff Smell
+Sorry Strong Swim Swing Set SetTo Squeeze Sing Sleep
+TraceOn TraceOff TraceLevel TimersOn TimersOff Transfer Think Taste Touch
+Tie Turn ThrowAt ThrownAt TheSame
+Unlock
+Verify
+Xpurloin  Xabstract Xtree
+Yes
+Wear Wake WakeOther Wave WaveHands Wait

@@ -1,0 +1,90 @@
+/L20"MDX" Nocase Line Comment = -- Block Comment On = /* Block Comment Off = */ String Chars = " File Extensions = MDX
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String = "%^([a-zA-Z_0-9^[^]*]+^)[ ^t]+([^p*&, ^t^[^]a-zA-Z_0-9.!]++)[~;]"
+/Function String 1 = "%[a-zA-Z_0-9*]*::^([a-zA-Z_0-9^~]+^)[ ^t^p]++([^p*&, ^t^[^]/*=:&a-zA-Z_0-9./(!]++)[~;]"
+/Function String 2 = "%[a-zA-Z_0-9^][a-zA-Z_0-9^[^]]+[ ^t*]+^([a-zA-Z_0-9]+^)[ ^t]++([^p*&, ^t^[^]a-zA-Z_0-9./(!]++)[~;]"
+/Function String 3 = "%[a-zA-Z_0-9*&$^[^]*]+[ ^t]+[a-zA-Z_0-9*&$^[^]]+[ ^t*]+^([a-zA-Z_0-9]+^)[ ^t]++([^p*&, ^t^[^]a-zA-Z_0-9./(!]++)[~;]"
+/Function String 4 = "%[a-z_0-9^[^]*]++ [a-z_0-9*^[^]]+[ ^t]++[a-z_0-9*^[^]]+[ ^t]++^([*a-z_0-9]+^)[ ^t]++([^p*&, ^t^[^]a-z_0-9./(!]++)[~;]"
+/Function String 5 = "%^([a-zA-Z_0-9^[^]*]+^)[ ^t]++([^p*&, ^t^[^]a-zA-Z_0-9./()!]++)[~;]"
+/C1"MDX Keywords"
+AddCalculatedMember Aggregate AllMembers Ancestor Ancestors Ascendants Avg Axis
+BottomCount BottomPercent BottomSum
+CalculationCurrentPass CalculationPassValue Call Children ClosingPeriod CoalesceEmpty Correlation Count Cousin Covariance CovarianceN Crossjoin Current CurrentMember
+DataMember DefaultMember Descendants Dimension Dimensions Distinct DistinctCount DrilldownLevel DrilldownLevelBottom DrilldownTop DrilldownMember DrilldownMemberBottom DrilldownMemberTop DrillupLevel DrillupMember
+Except Extract
+Filter FirstChild FirstSibling
+Generate
+Head Hierarchize Hierarchy
+Ignore IIF Intersect Is IsAncestor IsEmpty IsGeneration IsLeaf IsSibling Item
+Lag LastChild LastPeriods LastSibling Lead Level Levels LinkMember LinRegIntercept LinRegPoint LinRegR2 LinRegSlope LinRegVariance LookupCube
+Max Median Members MemberToStr Min Mtd
+Name NameToSet NextMember NonEmptyCrossJoin
+OpeningPeriod Order Ordinal
+ParallelPeriod Parent PeriodsToDate Predict PrevMember Properties
+Qtd
+Rank RollupChildren
+SetToArray SetToStr Siblings Stddev StddevP Stdev StdevP StripCalculatedMembers StrToMember StrToSet StrToTuple StrToValue Subset Sum 
+Tail ToggleDrillState TopCount TopPercent TopSum TupleToStr
+Union UniqueName UserName
+ValideMeasure Value Var Variance VarianceP VarP VisualTotals
+Wtd
+Ytd
+/C2"VBA Keywords"
+Abs Array Asc AscB AscW Atn 
+CBool CByte Ccur CDate CDbl Choose Chr ChrW CInt CLng Cos CSng CStr Cvar CVDate 
+Date DateAdd DateDiff DatePart DateSerial DateValue Day DDB 
+Exp 
+FileLen Fix Format FV 
+Hex Hour 
+InStr InStrB Int IPmt IsDate IsError IsNull IsNumeric IsObject 
+LCase Left LeftB Len LenB Log LTrim 
+Mid MidB Minute Month 
+Now NPer 
+Oct 
+Partition Pmt PPmt PV 
+QBColor 
+Rate RGB Right RightB Rnd Round RTrim 
+Second Sgn Sin SLN Space Sqr Str StrComp String Switch SYD 
+Tan Time Timer TimeSerial TimeValue Trim TypeName 
+UCase 
+Val 
+Weekday 
+Year     
+/C3"Excel Functions"
+Acos Acosh And Asin Asinh Atan2 Atanh AveDev Average 
+BetaDist BetaInv BinomDist 
+Ceiling ChiDist ChiInv ChiTest Clean Combin Confidence Correl Cosh CountA Covar CritBinom 
+Days360 Db Dbcs Degrees DevSq Dollar 
+Even ExponDist 
+Fact FDist Find FindB FInv Fisher FisherInv Fixed Floor Forecast FTest 
+GammaDist GammaInv GammaLn GeoMean 
+HarMean HypGeomDist 
+Intercept Irr IsErr IsLogical IsNA IsNonText IsNumber Ispmt IsText 
+Kurt 
+Large Ln Log10 LogInv LogNormDist 
+Match MIrr Mode 
+NegBinomDist NormDist NormInv NormSDist NormSInv Npv 
+Odd Or 
+Pearson Percentile PercentRank Permut Pi Poisson Power Prob Product Proper 
+Quartile 
+Radians Replace ReplaceB Rept Roman RoundDown RoundUp RSq 
+Search SearchB Sinh Skew Slope Small Standardize StEyx Substitute SumProduct SumSq SumX2MY2 SumX2PY2 SumXMY2 
+Tanh TDist Text TInv Transpose TrimMean TTest 
+USDollar 
+Vdb 
+Weibull 
+ZTest       
+/C4"Operators"
++
+-
+=
+// /
+%
+&
+>
+<
+^
+!
+|
+NULL
+

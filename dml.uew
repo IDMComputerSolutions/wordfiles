@@ -1,0 +1,63 @@
+/L9"Simics" DML Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Literal Prefix = r File Extensions = DML
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,       .?
+/Function String = "%[a-zA-Z_]* ^([a-zA-Z_]+^)(*)[~;]"
+/Function String 1 = "%[a-zA-Z_]*::^([a-zA-Z_]+^)(*)[~;]"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1"Keywords"
+import
+constant
+device
+auto
+break
+case char const continue
+default do double defined
+else enum extern
+float for
+goto
+if int
+long
+register return
+short signed sizeof static struct switch
+typedef
+union unsigned
+void volatile
+while
+__asm __fastcall __self __segment __based __segname __fortran __cdecl __huge __far __saveregs __export __pascal __near __loadds __interrupt __inline
+#define #error #include #elif #if #line #else #ifdef #pragma #endif #ifndef #undef
+/C2"C++ Keywords"
+class
+delete
+explicit
+friend
+inline
+new namespace
+operator
+private protected public
+this try template
+virtual
+__multiple_inheritance __single_inheritance __virtual_inheritance
+/C3"DML Specific"
+bank
+implement
+parameter
+dml
+connect
+attribute
+interface
+method
+import
+constant
+device
+/C4"Operators"
++
+-
+=
+// /
+%
+&
+>
+<
+^
+!
+|

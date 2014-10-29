@@ -1,0 +1,176 @@
+/L20"DCAL" Nocase Line Comment = ! Block Comment On = { Block Comment Off = } File Extensions = DCS INC
+/Function String = "%[PF]*;"
+/Indent Strings = "DO""REPEAT""THEN"
+/Unindent Strings = "ELSE" "END"
+/C1 KEYWORDS
+and array
+begin by
+case const
+do
+else elsif end external
+false for function
+if in include
+message mod
+not
+of off on or out
+procedure program public
+record repeat return
+string
+then to true type
+until
+var
+while
+/C2 VARIABLES
+anglestyle aperture arrowsize arrowstyl arrowratio atrdraw autopath
+bigcurs boxsym
+cimticcolor circlefact chamfera chamferb clockwise constref copyflag curvecenters crcdiv1 crcdiv2 curssz
+centwall clockwise curvecenters cut_srch cut_lyr
+dimminustol dimmon distdelay domplustolang dimimustolang dimlimits dimtolerance dimplustol dynamicxt
+dimcontrolpts dimtxtcolor dimorient dimticcolor dimlimits dimtolerance dimplustol dimminustol
+domplustolang dimimustolang distancesync docut dojamb doorang doorhgt doorthk doortype drawlines
+drawmarks dynamic dynamicxt dimcontrolpts dimtxtcolor
+enlcopy
+filcut filrad findhatch
+glassthk gridang gridorgx gridorgy gridshow grifshowx gridshowy gridshw1 gridshw1x gridshw1y
+gridclr gridclr1 grid1sz gridsnap gridsnapx gridsnapy
+hatchon headhgt hidepierce hidespcg hidecolor hideltype hidewidth hither
+inputstyl
+jambwth
+lastdist lastenlpt lastrotpt layoutextents layerswitch lyrsearch lineattr linecolor linespcg lineosht linetype linewidth
+maxdrag mircopy mirfixtext missdis movcopy mrkdraw multipen
+nofloat noisy nounits numdivs
+orthmode osnap_mode osnap_num ovrdraw
+plyrect polycntr polydia polyinsd polysides polyvert pltcentx pltcenty pltcolor pltpsize pltpcustx
+pltpcusty pltpensort pltpenspeed pltpenwidth pltrot pltrotang pltrotcentx pltrotcenty plotscalenum
+regenorder rotcopy rubbx ratiobox ratioratio rubln
+savedelay scaletype scrolldis selecttype showwgt showinspt showneg showz sidedoor sigdigits sillhgt sillin sillout smallgrid
+srfgrid srfpnts srchquick snaplyrsearch snapsymfast symang symenlx symenly symenlz symexplode symzoffset
+txtaline txtang txtcurs txtsize txtuseplt txtweight txtslant txtaspect txton txtboxclr txtboxmin
+wallend wallson wallwidth wallhilite wallhiliteout wallhilitecolor wallhilitewidth
+zbase zeroangle zhite zuser1 zuser2
+/C3 PROCEDURES
+absi absr acos addpnt addr2ints angle answer arc_to_bulge asin angnormalize
+assignProc atan atan2 atr_2str atr_add2ent atr_add2lyr
+atr_add2sym atr_add2sys atr_delent atr_dellyr atr_delsym
+atr_delsys atr_entfind atr_entfirst atr_get atr_init atr_lyrFind
+atr_lyrfirst atr_next atr_symfind atr_symfirst atr_sysfind
+atr_sysfirst atr_update
+beep between betweenang bitclear bitset bittest brkpress bulge_to_arc
+cart_cylind cart_sphere catenlrel catmat catrotate catrotrel
+catscale cattran chdir chr circ3pt clip clrGetName clrGetPen
+clrSetName clrSetPen configTab cos crossProd crossZ currwndw
+cutout cvangst cvdisst cvintst cvlntst cvrllst cvstint
+cvstlnt cvstrll cylind_cart calctext calcdim
+degrees dgetang dgetdis dgetint dgetrl dgetstr dis_from_arc
+dis_from_line disfrompolyvert dis_from_seg distance dotprod
+drag2pt dragBar dragBoxMove dragCrc3 dragDia dragPly dragPlyRot
+dragModeMove dragModeRot dragRad drawcursor dwgname
+ent_add ent_copy ent_del ent_draw ent_draw_2d ent_draw_dl
+ent_drawmode ent_enlarge ent_explode ent_extent ent_first ent_get
+ent_init ent_move ent_near ent_next ent_relink ent_rotate ent_setunused
+ent_tran ent_tranok ent_update ent2polyvert envget exp expt extents ent_incirc
+f_close f_create f_eof file_copy file_del file_exist file_find
+file_pattern file_ren float fnKeyConv f_open f_rdchar f_rdint f_rdln
+f_rdreal f_rdstr f_seek f_setrec f_wrchar f_wrint f_wrln f_wrreal f_wrstr fgetlyr fixangs
+getang getarc getchar getclr getcurrfont getCurrInMat getdis getesc getflname
+getint getlyr getlyrcurr getlyrname getmode getpath getpoint getpointp
+getpoly getpolyline getrefpnt getrll getrubpnt getstr grafmode gridCalc getcurrlbl
+gridSnapTo
+hatch_mode hide high
+inputAt inputWhere intand intor intr_arcarc intr_crcarc intr_crccrc
+intr_linarc intr_lincrc intr_linlin ints2addr intxor invert
+islower isnil isupper
+keyForceExit keypress
+lblmsg lblset lblsett lblsinit lblson light linelen3 log low lyr_clear lyr_create
+lyr_del lyr_find lyr_first lyr_init lyr_ison lyr_next lyr_nil lyr_read lyr_set
+lyr_seton lyr_term lyr_viewfile lyr_write
+matmmat max menu1lntrim menu2lntrim menu3dLine menuArc2pt menuArc3pt menuArccentang
+menuArccentarc menuArccentchrd menuArctan menuArraycirc menuArrayrect menuBlocks
+menuChamfer menuChange menuChange3d menuCleanup menuClipCube menuCone menuControls
+menuCopy menuCopy3d menuCrc3pt menuCrcdia menuCrcrad menuCurves menuCutwall menuCylnHori
+menuCylnVert menuDataCAD3 menuDirectry menuDisplay menuDivide menuDmension menuDome
+menuDoorswng menuEdit3d menuEditPlane menuElevation menuEllipse menuEnlarge menuEnlarge3d
+menuEntity3d menuErase menuErase3d menuExplode3d menuFileio menuFillets menuFreehand
+menuGoodies menuGotoview menuGotoView3d menuGrids menuHatch menuHide menuIdentify
+menuIntrsect menuLayers menuLinetype menuLinkline menuLintsct menuMarker menuMeasures
+menuMeshSurf menuMirror menuMove menuMove3d menuMovedrag menuObjsnap menuPartial
+menuPlaneSnap menuPlotter menuPolygon menuPolygons menuPolyHori menuPolyIncl menuPolyRect
+menuPolyVert menuRevSurf menuRotate menuRotate3d menuSaveImage menuSetObliq menuSetPersp
+menuSettings menuSettings3d menuSlab menuSlabHori menuSlabIncl menuSlabRect menuSlabVert
+menuSS menuStretch menuStretch3d menuTangents menuTemplate menuText menuTintsct menuTorus
+menuToscale menuTruncCone menuViewer menuVoids menuWalkThru menuWeldline menuWindowin
+menuWindows min mkdir mode_1lyr mode_box mode_enttype mode_fence mode_group mode_ignore
+mode_init mode_init1 mode_lyr mode_ss mode_sym mulpnt mode_atr menugeom meanpnt
+numlayer
+odd ord order
+pause pixsize pline_area pline_centroid pline_perim plot_close plot_mode plot_open
+pnt_in_poly polar poly_fix polyvert2ent polyvert_add polyvert_copy polyvert_count
+polyvert_del polyvert_get polyvert_init polyvert_ins polyvert_update popview printstr
+project pushview pntscolinear
+radians redraw redrawall regen rmdir round round4 readclock
+sappnt scale_curr scale_get serCheck setcurrfont setenlrel setident setlyrname setnil setpath
+setpoint setrefpnt setrotate setrotrel setrubpnt setscale settran sin sizeof sphere_cart
+ssdelall sqr sqrt ssAdd ssClear ssDel ssGetName ssLength ssMember ssSetName stopgroup strassign
+strcat strcomp strdel strinc strins strlen strpad strpos strsub strupcase subpnt sym_clearref
+sym_count sym_create sym_find sym_first sym_get sym_get_atr sym_next sym_read sym_ref sym_write
+tan textmode tolower toupper toview transpose trunc trunc4 txtbox
+view_add view_calcoblq view_calcorth view_calcpara view_calcpers view_checkmode view_currmode
+view_del view_first view_get view_getcurr view_init view_last view_setcurr view_setmode
+view_update void_add void_del void_del_all void_get void_get_di void_init void_update vwptclear
+windowin wrterr wrtLtype wrtlvl wrtlyr wrtmsg wrtscl wrtSS wrtstat
+xformpt
+/C4 CONSTANTS
+abszero atr_name_len atr_int atr_rl atr_str atr_dis atr_ang atr_pnt atr_addr
+clrblue clrbrown clrcyan clrdkgray clrgrn clrltblue clrltcyan clrltgray clrltgrn clrltmgta
+clrltred clrmgta clrred clrwhite clryellow
+drmode_black drmode_flip drmode_white
+entar3 entarc entbez entblk entbsp entcnt entcon entcrc entcyl entdim entdom entell entln3
+entlin entmrk entpln entply entrev entslb entsrf entsym enttor enttrn enttxt
+fl_access_denice fl_invalid_access_code fl_invalid_function fl_invalid_handle fl_no_handles_left
+fl_not_found fl_ok fl_path_not_found
+fmode_read fmode_read_write fmode_write f1 f2 f3 f4 f5 f6 f7 f8 f9 f0
+halfpi htype_normal htype_outer htype_ignore
+lyr_all lyr_curr lyr_on ltype_solid ltype_dotted ltype_dashed ltype_dotdash
+maxdash maxpnts
+osnap_center osnap_endpoint osnap_intsect osnap_midpoint osnap_nearest osnap_npoint
+osnap_perp osnap_quad osnap_quick osnap_tan oblqplan oblqeleve
+pathdwg pathtpl pathsym pathfrm pathmcr pathchr pathsup pathdrv pathlyr pathout pathtmp
+pathswp pathdef pathdxf pi pv_vert pv_bulge
+res_normal res_escape
+s1 s2 s3 s4 s5 s6 s7 s8 s9 s0 sqrzero
+twopi
+vmode_orth vmode_para vmode_pers vmode_oblq vmode_edit vmode_all
+wall_cap wall_clip wall_none wall_off wall_on
+x
+y
+z
+/C5 TYPES
+ang ar3mod ar3div ar3rad ar3bang ar3eang ar3close atrname attr addr arccent arcrad arcbang arceang
+arcbase archite addr attrib atrtype
+bezarr boolarr boolean block beznpnt bezpnt bezbase bspnpnt bsppnt bspbase blkpnt bulge
+cntpnt cnttanpnt1 cnttanpnt2 cntnpnt cnttype cntdics cntstiff char color crccent crcrad crcbase crchite
+conmod condiv concent conbang coneang conclose cylmod cyldic cylrad cyllen cylcent cylbang cyleang cylclose
+currlyr clipmat clipon clipmin clipmax
+dimpt1 dimpt2 dimpt3 dimtxtpt dimexo1 dimexo2 dimexe dimdli dimang dimovr dimtxtsize
+dimarrsize dimarration dimtxtaspect dimtxtang dimbase dimtxtslant dimdis diminc dimnlpts
+dimtxtweight dimtictype dimtype dimleader dimtih dimtoh dimse1 dimse2 dimman dimtad
+dimnolftmrk dimnorhtmrk dimticweight dimdinstd dimtxtofs dimfont dimldrpnts dbase
+dommod domdiv1 domdim2 domrad dombang1 dombang2 domeang1 domeang2 domclose delta dash dashdrw dashpart dashtotal
+entity enttype ellcent ellradx ellrady ellbang elleang ellang ellbase ellhite entaddr editmat
+file frstatr frstent frstatr frstlyr flag1 flag2
+integer index inptmat
+lastatr lastent lyr longint lgl_addr ltype lastatr linpt1 linpt2 ln3pt1 ln3pt2 last lastlyr
+mrkpnt mkrvec mrktyp mrksiz modmat mode_type
+name next nextpnt next numdash
+ovrshut origin
+plnfrst plnlast plnclose plnbase plnhite point pntarr pntmat pnt4arr plynpnt plypnt
+plyisln plyfrstvoid plylastvoid pvtaddr prev pnt positn projtype plot_type perseye persdis
+real revbang revenag revmod revdiv1 revdiv2 revfrst revlast revtype refflag
+spacing str8 str80 str255 symstr sttyp symname symaddr symmod slbnpnt slbpnt
+slbthick slbisln slbfrstvoid slblastvoid srfpnt srfsdiv srftdiv symaddr shape scale scalenum scanlinetype
+txtpnt txtstr txtbase txthite txtfont
+trnmod trndic trncent trnrad1 trnrad2 trnbang trneang trnclose
+tormod trodiv1 tordiv2 torrad1 torrad2 torbang1 torbang2 toreang1 toreang2 torclose
+txtcolor togglelyr
+visible viewaddr view_type viewmat viewcent
+width windlft windbot

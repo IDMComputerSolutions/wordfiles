@@ -1,0 +1,52 @@
+/L5"DVTk" PERL_LANG EnableMLS Line Comment = # Block Comment On = =pod Block Comment Off = =cut Line Comment Preceding Chars = [~[^]^^$/\(] Escape Char = \ File Extensions = DS DSS SES PDVT DEF
+/Delimiters = ~!@$%^&*()+=|\/{}[]:;"'<> 	,.?\`/
+/Regexp Type = Perl
+/TGBegin "Use Declarations"
+/TGFindStr = "^[ \t]*use[ \t]+([a-z:0-9_]+)"
+/TGEnd
+/TGBegin "Subs"
+/TGFindStr = "^[ \t]*sub[ \t]+([a-z0-9_]+)[ \t\r\n]*\{"
+/TGEnd
+/Indent Strings = "{" ">"
+/Unindent Strings = "}"
+/Open Brace Strings =  "{" "(" "["
+/Close Brace Strings = "}" ")" "]"
+/Open Fold Strings = "("
+/Close Fold Strings = ")"
+/C1"Keywords" STYLE_KEYWORD
+-A -B -C -M -O -R -S -T -W -X -b -c -d -e -f -g -k -l -o -p -r -s -t -u -w -x -z
+SEND
+READ
+IMPORT
+EXPORT
+SYSTEM
+DISPLAY
+CREATE
+SET
+COPY
+COMPARE
+VALIDATE
+WEAK
+PRESENT
+NOT
+VALUE
+CONFIRM
+ECHO
+DELAY
+/C2"Functions" STYLE_FUNCTION
+C-ECHO-RQ C-ECHO-RSP
+C-FIND-RQ C-FIND-RSP
+C-GET-RQ C-GET-RSP
+C-MOVE-RQ C-MOVE-RSP
+C-STORE-RQ C-STORE-RSP
+C-CANCEL-RQ
+N-ACTION-RQ N-ACTION-RSP
+N-CREATE-RQ N-CREATE-RSP
+N-DELETE-RQ N-DELETE-RSP
+N-GET-RQ N-GET-RSP
+N-SET-RQ N-SET-RSP
+N-EVENT-REPORT-RQ N-EVENT-REPORT-RSP
+/C4"Operators" STYLE_OPERATOR
+>
+/C8"Variables"
+** $ % @

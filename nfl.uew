@@ -1,0 +1,56 @@
+/L20"Notes Formula Language" Line Comment = REM Nocase Escape Char = \ File Extensions = NFL
+/Delimiters = ~!%^&*=()-+|\/{}[]:;"'<> ,	.?
+/Function String = "%[a-zA-Z_]*)"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/C1
+DEFAULT
+ENVIRONMENT
+FIELD
+SELECT
+@Abs @Abstract @Accessed @Acos @Adjust @All @AllChildren @AllDescendants @Ascii
+@Asin @Atan @Atan2 @AttachmentLengths @AttachmentNames @Attachments @Author
+@Begins
+@Certificate @Char @CheckAlarms @ClientType @Command @Contains @Cos
+@Created
+@Date @Day @DbColumn @DbCommand @DbExists @DbLookup @DbManager @DbName
+@DbTitle @DDEExecute @DDEInitiate @DDEPoke @DDETerminate @DeleteDocument
+@DeleteField @DialogBox @Do @DocChildren @DocDescendants @DocFields @DocLength
+@DocLevel @DocMark @DocNumber @DocParentNumber @DocSiblings @DocumentUniqueID
+@Domain
+@EditECL @EditUserECL @Elements @EnableAlarms @Ends
+@Environment @Error @Exp @Explode
+@Failure @False
+@GetDocField @GetPortsList @GetProfileField
+@Hour
+@If @Implode @InheritedDocumentUniqueID
+@Integer @IsAgentEnabled @IsAvailable @IsCategory @IsDocBeingEdited
+@IsDocBeingLoaded @IsDocBeingMailed @IsDocBeingRecalculated @IsDocBeingSaved
+@IsDocTruncated @IsError @IsExpandable @IsMember @IsModalHelp @IsNewDoc
+@IsNotMember @IsNumber @IsResponseDoc @IsText @IsTime @IsUnavailable @IsValid
+@Keywords
+@Left @LeftBack @Length @Like @Ln @Log @LowerCase
+@MailDbName @MailEncryptSavedPreference @MailEncryptSentPreference @MailSavePreference
+@MailSend @MailSignPreference @Matches @Max @Member @Middle @MiddleBack @Min
+@Minute @Modified @Modulo @Month
+@Name @NewLine @No @NoteID @Now
+@OptimizeMailAddress
+@Password @Pi @PickList @Platform @PostedCommand @Power
+@Prompt @ProperCase
+@Random @RefreshECL @Repeat @Replace @ReplaceSubstring
+@Responses @Return @Right @RightBack @Round
+@Second @Select @Set
+@SetDocField @SetEnvironment @SetField @SetProfileField @Sign @Sin @Soundex
+@Sqrt @Subset @Success @Sum
+@Tan @Text @TextToNumber @TextToTime @Time @Today
+@Tomorrow @Trim @True @Unavailable @Unique @UpperCase @URLGetHeader @URLHistory
+@URLOpen @UserAccess @UserName @UserPrivileges @UserRoles
+@V2If @V3UserName
+@Version @ViewTitle
+@Weekday @Word
+@Year @Yes @Yesterday
+@Zone
+/C2
+:
+=
+&

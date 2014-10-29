@@ -1,0 +1,50 @@
+/L20"Assembler CALM" AASM_LANG Nocase Line Comment = ; String Chars = " File Extensions = ASM CALM
+/Delimiters = ~!%^&*()+-=|\/{}[];"'<># ,	?
+/C1"Instructions"
+ADD ADDC AND ASL ASR
+BIC BIS
+CALL CLR CLRC CLRV COMP
+DAA DEC DIV
+EX
+FRACDIV
+INC IOFF ION
+JUMP
+MOVE MUL
+NEG NOP NOT
+OR
+POP PUSH
+RET RETI RLC RRC
+SETC SETV SL SR
+SUB SUBC
+TEST TESTJUMP TRAP
+WAIT
+XOR
+/C2"Flags"
+CS
+EQ
+GE GT
+HI HS
+NE
+ZS ZC
+LE LO LS LT
+MI
+PL
+VS VC
+/C3"Registres"
+A AB
+B BAUD
+CCR
+IX IY
+MUBUS
+PC PORTA PORTB PORTC PORTD PORTE
+SCCR1 SCCR2 SCDR SCSR SP
+/C4"Directives"
+.16 .8 .apc .base .blk .blk.16 .blk.8 .ascii .end .loc .proc .ref .start
+/C5"Operators"
+#
+'
+(
+)
+*
++
+-

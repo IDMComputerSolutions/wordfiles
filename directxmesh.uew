@@ -1,0 +1,38 @@
+/L20"Direct X mesh" Line Comment = // Line Comment Alt = # Block Comment On = // String Chars = " File Extensions = X
+/Delimiters = -\/{}[];"'	<> ,
+/Function String = "template"
+/Marker Characters = "<>"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+
+/C1"Keywords"
+array
+template
+xof
+
+/C2"Data Types"
+BYTE
+CHAR CSTRING
+DOUBLE DWORD
+FLOAT
+STRING
+UCHAR UNICODE
+WORD
+
+/C3"Templates"
+Animation AnimationKey AnimationOptions AnimationSet
+Boolean Boolean2d
+ColorRGB ColorRGBA Coords2d
+FloatKeys Frame FrameTransformMatrix FVFData
+Header
+IndexedColor
+Material Matrix4x4 Mesh MeshFace MeshFaceWraps MeshTextureCoords MeshMaterialList MeshNormals MeshVertexColors
+Patch PatchMesh
+Quaternion
+SkinWeights
+TextureFilename TimedFloatKeys
+Vector VertexDuplicationIndices
+XSkinMeshHeader
+
+/C8"Operators"
+-

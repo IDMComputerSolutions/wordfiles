@@ -1,0 +1,66 @@
+/L1"AMPLE" Line Comment = // Block Comment On = /* Block Comment Off = */ String Chars = "' File Extensions = AMPLE DO DOFILE STARTUP
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;<> ,	.?
+/Function String 1 = "%function "
+/Function String 2 = "%static function "
+/Function String 3 = "%builtin "
+/Indent Strings = "{"
+/Unindent Strings = "}"
+
+/C1"Key Words"
+break 
+case continue command
+default  do double
+else extern
+for
+if
+local literal
+quick_help
+ref_help return
+switch string
+vector
+while
+
+/C2"Functions"
+** $
+builtin
+function
+static
+
+/C3"Transcript Modifiers"
+indirect invisible
+sealed
+
+/C4"Reserved Variables"
+$abort_enable
+$dofile_argN $dofile_arg_count $dofile_result
+$stderr $stdin $stdout
+false
+off on
+pi
+true two_pi
+undefined
+void
+
+/C5"Operators"
+(
+)
+[
+]
+-
+! !=
+~
+^
+*
+/
+%
++
+-
+< <=
+> >=
+= == 
+& &&
+| ||
+?:
+@
+:
+;

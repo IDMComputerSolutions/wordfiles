@@ -1,0 +1,15 @@
+/L20"Lumonics Gcode" Nocase Line Comment = ; Block Comment On = ( Block Comment Off = ) Block Comment On Alt = G58 File Extensions = LUM PU1 SEF
+/Delimiters = BEIJKLPQRUVW( )=-+*
+/Function String = "%[%+O+:]*"
+/C1
+** N
+/C2
+**  % : O H F S T
+/C3
+** G M
+/C4
+** A C D
+/C5
+** X Z
+/C6
+** Y

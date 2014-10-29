@@ -1,0 +1,97 @@
+/L15"Nmap Scripting Engine" Line Comment = -- Block Comment On = _=[[ Block Comment Off = ]] Escape Char = \ String Chars = "' File Extensions = nse
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;<> ,	.?
+/Function String = "%[ ^t]++function^(*(*)^)"
+/Function String 1 = "%[ ^t]++^(*^)=[ ^t]++function*(*)"
+/Function String 2 = "%[ ^t]++local[ ^t]++function^(*(*)^)"
+/Function String 3 = "%[ ^t]++local[ ^t]++^(*^)=[ ^t]++function*(*)"
+/Indent Strings = "then" "do" "else"
+/Unindent Strings = "end" "else"
+/C1"Keywords"
+action and author
+break
+description do
+else elseif end err error
+false for function
+global
+host
+id if in
+license local localip localport
+nil not
+or
+port
+registry remoteip remoteport repeat result return runlevel
+status
+then true
+until
+value
+while
+
+/C2"Functions"
+abs acos appento arshift ascii assert atan atan2
+band bnot bor bxor byte
+call ceil char clock close collectgarbage concat connect copytagmethods coroutine cos
+date deg devicetype dofile dostring
+exec execute exit extrainfo
+flags floor foreach foreachvar format frexp
+gcinfo get_info get_port_state getbinmethod getefenv getglobal getmetaable getPortState
+gettagmethod gmatch gsub
+hostname
+insert io ip ipairs
+ldexp len load loadfild loadlib loadstring log log10 lshift
+match max min mod module
+name name_confidence new newtag new_socket new_try next nexvar number
+os ostype
+pairs pcall print product protocol
+rad random randomseed rawequal rawget rawgetglobal rawgettable rawsetglobal rawset
+rawsettable read receive readfrom receive_bytes receive_lines remove rename rep
+require rpc_status rpc_program rpc_lowver rpc_higver rshift
+select send service service_fp service_ftp service_tunnel seterrormethod setfenv
+setglobal setlocale setmetatable settag settagmethod set_port_state state
+set_port_version set_timeout sin sqrt strbyte strchar strfind strlen strlower strrep
+strsub strupper sub
+tag tan tmpname tonumber tostring type
+unpack
+version
+write writeto
+xpcall
+
+/C3"Libraries"
+bit
+debug
+math
+nmap
+pcre 
+socket string
+table
+
+/C4"Operators"
++
+-
+*
+// /
+^
+<
+>
+=
+~
+%
+.
+:
+
+/C5"Methods"
+_G _INPUT _OUTPUT _STDERR _STDIN _STDOUT _VERSION
+cgi cgilua cgilua_url char2hexa chdir
+dbluaerrorfb dblua_escape decode default_script
+encodecgi encodetable escape
+filetype
+getvalue
+hexa hexa2char html_mask
+includehtml insertfield
+lua_mask
+maketable map mkurl
+nopipe
+preprocess
+redirect relativeurl relative_url
+saveluavar savestate script_path script_pdir script_vdir stateerrormethod
+statefile stdin strsplit
+unescape

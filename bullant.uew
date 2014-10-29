@@ -1,0 +1,161 @@
+/L20"Bullant" Line Comment = # Block Comment On = @off Block Comment Off = @on Escape Char = \ String Chars = "' File Extensions = ANT
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String = "%[^t ]++method[^t ]+^([a-zA-Z$_0-9]+[~$]^)"
+/Indent Strings = "author" "attributes" "begin" "constants" "debug" "depends" "description" "elif" "else" "ensures" "exposure" "extension" "generics" "inherits" "library" "locals" "lock" "options" "parameters" "returns" "security" "transaction"
+/Unindent Strings = "else" "end debug" "end case" "end class" "end for" "end if" "end lock" "end transaction" "end trap" "end while" "exposure" "extension" "locals" "options"
+/C1"Bullant Keywords"
+ancestor and assert attributes author autoassign
+begin
+callback case character$ class constants construct continue
+date$ datetime$ debug depends description downcast
+elif else end ensures evolution evolve exception exposure extension
+for foreach from function
+generics
+help hex$
+identifier$ if in inherits interval$ is
+label leave library locals lock
+method money$
+not
+options or
+parameters
+raise raw$ reason refer retry return returns rollback route
+security serial settings severity snapshot step
+test tick$ time$ transaction trap
+until
+version$
+when while
+/C2"Bullant Reserved"
+config
+host
+kernel
+peer
+self
+task
+/C3"Bullant Literals"
+__internal
+abstract all
+concrete
+error
+false fatal final
+glyph
+hidden
+immutable
+mutable
+none null
+obsolete other
+public private
+restricted
+transient true
+unknown
+warning
+/C4"Delimiters"
+!
+%
+&
+*
+(
+)
++
+,
+-
+.
+/
+{
+}
+[
+]
+:
+<
+=
+>
+^
+|
+~
+/C5"Bullant Apriori Library"
+$Analyzer $BreakPoint $Callback $CharacterEncoding $Class $command $Config $Constant 
+$Debugger $Depend $Error $Exception $Host $Inherit $Iterator $Kernel $Knowledge 
+$Library $List $ListItem $Methint $Method $NameValue $Profile $Seed $Settings $Source 
+$Statistics $StrNote $Super $Task $Traverse $Type $Ute $Variable $Vector 
+$WatchAttribute $WatchLocal $WatchParameter $WatchPoint
+AprioriComparable
+Boolean Buffer
+Character Comparable
+Date Datetime Directory
+EqualAndLess
+File FileSystem Float
+Identifier Integer Interval
+LicenseManagerTest
+MD5Digest Money MTRandomGenerator
+Object
+RandomGenerator Raw RawBuffer
+Socket SSLContext String StringBuffer
+TCPAcceptor TCPSocket Tick Time
+UDPSocket Url UTF16Encoder UTF8Encoder
+Version
+datatype 
+/C6"Bullant Application/Security Library"
+$Application 
+CallbackCustomEventWatcher Credentials CustomEventWatcher 
+EventDispatcher 
+GUIApplication GUIAppObject GUICreatable GUICustomEventRequest GUIEventHandler 
+GUIForgettable GUIGroup GUIObject GUIPendingEvent
+LibraryVersion LoginData
+Properties PropertiesKeyIterator 
+RAPConnection RAPDecoder RAPEncoder RAPObject RAPPlugin RAPRawDecoder RAPServer RootHandler
+SecurityDomain SecurityInterface SecurityManager SessionID SessionState SocketImp 
+SSLHandshake SSLSocketImp StdSocketImp SynchronousCustomEventWatcher 
+User
+X509Certificate X509CertificateRequest
+/C7"Bullant ANT_GCL"
+$ListContainer $ListContainerIterator
+Adaptor AdaptorBase AVLTree AVLTreeIterator AVLTreeMap AVLTreeSet AVLTreeSetIterator
+BinaryTree BinaryTreeIterator BinaryTreeMap BinaryTreeSet BinaryTreeSetIterator
+ComparableComparator ComparableEqualityTester Comparator ComparatorBase Container 
+ContainerBase ContainerHelper
+DefaultComparator DefaultEqualityTester DefaultHasher
+EqualityTester EqualityTesterBase
+HashableHasher Hasher HasherBase HashIterator HashMap HashMapIterator HashSet 
+HashSetIterator HashTable HashTableIterator HashTableMap HashTableObsolete HashTableSet 
+HashTableSetIterator
+ImmutableIterator IterableContainer Iterator IteratorBase
+LinkedList LinkedListIterator LinkedListMap LinkedListSet LinkedListSetIterator List 
+ListIterator ListSet ListSetIterator
+Map MapBase MapBaseIterator MapEntry MapEntryBase MapEntryComparator MapEntryHasher 
+MapEntryTester MapHelper MapIterator MapWrapper MapWrapperIterator
+ObjectIdentityHasher OrderedContainer OrderedMap
+PriorityQueue
+Queue QueueAdaptor
+RedBlackTree RedBlackTreeIterator RedBlackTreeMap RedBlackTreeSet RedBlackTreeSetIterator 
+ReverseComparator Ring
+Sequence SequenceHelper SequenceIterator Set SplayTree SplayTreeIterator SplayTreeMap 
+SplayTreeSet SplayTreeSetIterator Stack StackAdaptor
+Tree TreeComparable TreeIterator TreeMap TreeMapComparable TreeMapIterator TreeSet 
+TreeSetComparable TreeSetIterator
+Vector VectorIterator VectorMap VectorSet VectorSetIterator
+/C8"Bullant ANT_DesktopGUI"
+Alignment
+BorderPanel Button ButtonWatcher
+Canvas CanvasPosDropTarget CanvasPosSpec CanvasWatcher CheckBox CheckBoxWatcher 
+ClientSystemSettings ClientSystemSettingsConstants  Color ColumnPanel ComboBox 
+ComboBoxContent ComboBoxContentInterface ComboBoxItem ComboBoxItemInterface 
+ComboBoxWatcher 
+DesktopGUIApplication DesktopGUIAppObject DesktopGUIFeatureIdentifiers DesktopLibraryVersion 
+Dialog Dimension DirDialog DragDropSpec DragDropType Draggable DraggableCanvasPos 
+DraggableGUIElement DraggableListBoxItem DraggableTreeControlItem DropOperationType 
+DropTarget DropTargetSpec DropTargetSpecWatcher DropType
+FileDialog FileDownloader FileDownloaderBase FileDownloaderURL FileDownloaderWatcher 
+FileUploader FileUploaderBase FileUploaderHTTP FileUploaderWatcher FlowPanel 
+FocusWatcher Font FontAttributes Frame
+GridPanel GUIElement GUIElementDropTarget GUIElementItemSpec
+Image ImageButton ImageFile ImageJPEG ImagePanel ImagePNG ImageURL ImageWatcher ItemSpec
+ListBox ListBoxColumn ListBoxContent ListBoxContentInterface ListBoxDropTarget ListBoxItem 
+ListBoxItemInterface ListBoxItemSpec ListBoxWatcher
+Menu MenuBar MenuBase MenuContainer MenuElement MenuItem MenuWatcher
+Panel Point PointList PopupMenu PopupMenuWatcher ProgressBar
+RadioButton RadioGroup RadioGroupWatcher RemoteDirAlias RemoteFileAlias
+ScrollPanel Slider SliderWatcher SplitterPanel SplitterPanelWatcher StaticImage StaticText 
+SubChannel SubChannelWatcher SubFrame SubFrameWatcher
+TabPanel TabPanelWatcher TextArea TextAreaWatcher TextButton TextField TextFieldWatcher
+TreeControl TreeControlContent TreeControlContentInterface TreeControlDropTarget 
+TreeControlItem TreeControlItemInterface TreeControlItemSpec TreeControlWatcher
+WebViewer WebViewerWatcher Window WindowWatcher

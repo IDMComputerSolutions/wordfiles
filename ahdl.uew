@@ -1,0 +1,51 @@
+/L20"AHDL" 1Line Comment = -- Nocase File Extensions = TDF TDO INC
+/Delimiters = {}[]:;"'<> ,.?()	~!@$^&*+=|\/
+/Indent Strings = "BEGIN"
+/Unindent Strings = "END"
+/C1
+and assert
+begin bidir bits buried
+case ceil clique connected_pins constant
+defaults define design device div
+else elsif end
+for function
+generate gnd
+help_id
+if include input is
+log2
+machine mod
+nand node nor not
+of options or others output
+parameters
+report returns
+segments severity states subdesign
+table then title to tri_state_node
+variable vcc
+when with
+xnor xor
+/C2
+carry cascade
+dff dffe
+exp
+floor
+global
+jkff jkffe
+latch lcell
+mcell memory
+opendrn
+soft srff srffe
+tff tffe tri
+used
+wire
+/C3
+altdpram
+busmux
+csdpram csfifo
+dcfifo divide
+lpm_abs lpm_add_sub lpm_and lpm_bustri lpm_clshift lpm_compare
+lpm_constant lpm_counter lpm_decode lpm_dff lpm_divide lpm_ff
+lpm_fifo lpm_fifo_dc lpm_inv lpm_latch lpm_mult lpm_mux lpm_or
+lpm_ram_dp lpm_ram_dq lpm_ram_io lpm_rom lpm_shiftreg lpm_tff lpm_xor
+mux
+ntsc
+scfifo

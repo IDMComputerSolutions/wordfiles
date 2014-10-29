@@ -1,0 +1,72 @@
+/L20"People Code" PCODE Line Comment = REM  Block Comment On = /* Block Comment Off = */ String Chars = "' File Extensions = PCD PCDE PCODE
+/Function String = "%*^{Function^}*("
+/Open Brace Strings =  "{" "(" "[" "<"
+/Close Brace Strings = "}" ")" "]" ">"
+/Indent Strings = "If" 
+/Unindent Strings = "End-If" 
+/Open Fold Strings = "Function" "If" "Evaluate"
+/Close Fold Strings = "End-Function" "End-If" "End-Evaluate"
+/C1"Functions"
+Abs AccruableDays AccrualFactor Acos  ActiveRowCount AddAttachment AddEmailAddress AddKeyListItem AddSystemPauseTimes AddToDate AddToDateTime AddToTime All AllOrNone AllowEmplIdChg Amortize Asin Atan
+BlackScholesCall BlackScholesPut BootstrapYTMs Break BulkDeleteField BulkInsertField BulkModifyPageFieldOrder BulkUpdateIndexes
+CallAppEngine CancelPubHeaderXmlDoc CancelPubXmlDoc CancelSubXmlDoc ChangeEmailAddress Char CharType CheckMenuItem Clean ClearKeyList ClearSearchDefault ClearSearchEdit Code CollectGarbage CommitWork CompareLikeFields Component ComponentChanged ConnectorRequest ConnectorRequestURL ContainsCharType ContainsOnlyCharType Continue ConvertChar ConvertCurrency ConvertDatetimeToBase ConvertRate ConvertTimeToBase CopyAttachments CopyFields CopyFromJavaArray CopyRow CopyToJavaArray Cos Cot CreateArray CreateArrayAny CreateArrayRept CreateDirectory CreateException CreateJavaArray CreateJavaObject CreateMCFIMInfo CreateMessage CreateObject CreateObjectArray CreateProcessRequest CreateRecord CreateRowsetCreateRowsetCache CreateSOAPDoc CreateSQL CreateWSDLMessage CreateXmlDoc CubicSpline CurrEffDt CurrEffRowNum CurrEffSeq CurrentLevelNumber CurrentRowNumber 
+DBCSTrim DBPatternMatch Date Date3 DatePart DateTime6 DateTimeToHTTP DateTimeToLocalizedString DateTimeToTimeZone
+DateTimeValue DateValue Day Days Days360 Days365 DeQueue Declare Decrypt Degrees DeleteAttachment DeleteEmailAddress DeleteImage DeleteRecord DeleteRow DeleteSQL DeleteSystemPauseTimes DetachAttachment DisableMenuItem DiscardRow DoCancel DoModal DoModalComponent DoSave DoSaveNow
+EnQueue EnableMenuItem EncodeURL EncodeURLForQueryString Encrypt EncryptNodePswd EndMessage EndModal EndModalComponent Error EscapeHTML EscapeJavascriptString EscapeWML Evaluate Exact Exec ExecuteRolePeopleCode ExecuteRoleQuery ExecuteRoleWorkflowQuery Exit Exp ExpandBindVar ExpandEnvVar ExpandSqlBinds
+Fact FetchSQL FetchValue FieldChanged FileExists Find FindCodeSetValues FindFiles FlushBulkInserts For FormatDateTime Forward Function
+GenerateActGuideContentUrl GenerateActGuidePortalUrl GenerateActGuideRelativeUrl GenerateComponentContentRelURL GenerateComponentContentURL GenerateComponentPortalRelURL GenerateComponentPortalURL GenerateComponentRelativeURL GenerateExternalPortalURL GenerateExternalRelativeURL GenerateHomepagePortalURL GenerateHomepageRelativeURL GenerateMobileTree GenerateQueryContentURL GenerateQueryPortalURL GenerateQueryRelativeURL GenerateScriptContentRelURL GenerateScriptContentURL GenerateScriptPortalRelURL GenerateScriptPortalURL GenerateScriptRelativeURL GenerateTree GenerateWorklistPortalURL GenerateWorklistRelativeURL GetAESection GetArchPubHeaderXmlDoc GetArchPubXmlDoc GetArchSubXmlDoc GetAttachment GetCalendarDate GetChart GetChartURL GetCwd GetEnv GetField GetFile GetGrid GetHTMLText GetImageExtents GetInterlink GetJavaClass GetLevel0 GetMessage GetMessageInstance GetMessageXmlDoc GetMethodNames GetNRXmlDoc GetNextNumber GetNextNumberWithGaps GetNextNumberWithGapsCommit GetNextProcessInstance GetPage GetPubContractInstance GetPubHeaderXmlDoc GetPubXmlDoc GetRecord GetRelField GetRow GetRowset GetRowsetCache GetSQL GetSession GetSetId GetStoredFormat GetSubContractInstance GetSubXmlDoc GetSyncLogData GetURL GetUserOption GetWLFieldValue Global GrayHashHermiteCubic
+Hide HideMenuItem HideRow HideScroll HistVolatility Hour
+Idiv InboundPublishXmlDoc InitChat InsertImage InsertRow Int Integer IsAlpha IsAlphaNumeric
+IsDate IsDateTime IsDaylightSavings IsDigits IsHidden IsMenuItemAuthorized IsMessageActive IsModal
+IsModalComponent IsNumber IsSearchDialog IsTime IsUserInPermissionList IsUserInRoleLTrim
+Left Len LinearInterp Ln Local Log10 LogObjectUse Lower
+MarkPrimaryEmailAddress MarkWLItemWorked Max MessageBox Min Minute Mod Month MsgGet MsgGetExplainText MsgGetText
+NextEffDt NextRelEffDt NodeDelete NodeRename NodeSaveAs NodeTranDelete None NotifyQ NumberToDisplayString NumberToString
+ObjectDoMethod ObjectDoMethodArray ObjectGetProperty ObjectSetProperty OnlyOne OnlyOneOrNone
+PingNode PriorEffDt PriorRelEffDt PriorValue Product Proper PublishXmlDoc PutAttachment
+Quote
+RTrim Radians Rand ReSubmitPubHeaderXmlDoc ReSubmitPubXmlDoc ReSubmitSubXmlDoc ReValidateNRXmlDoc RecordChanged RecordDeleted RecordNew RelNodeTranDelete RemoteCall RemoveDirectory RenameDBField RenamePage RenameRecord Repeat Replace Rept Return ReturnToServer RevalidatePassword Right Round RoundCurrency RowFlush RowScrollSelect RowScrollSelectNew
+SQLExec ScrollFlush ScrollSelect ScrollSelectNew Second SendMail SetAuthenticationResult SetChannelStatus SetComponentChanged SetCursorPos SetDBFieldAuxFlag SetDBFieldCharDefn SetDBFieldFormat SetDBFieldFormatLength SetDBFieldLabel SetDBFieldLength SetDBFieldNotUsed SetDefault SetDefaultAll SetDefaultNext SetDefaultNextRel SetDefaultPrior SetDefaultPriorRel SetDisplayFormat SetLabel SetLanguage SetMessageStatus SetNextPage SetPageFieldPageFieldName SetPasswordExpired SetPostReport SetReEdit SetRecFieldEditTable SetRecFieldKey SetSearchDefault SetSearchDialogBehavior SetSearchEdit SetTempTableInstance SetTracePC SetTraceSQL SetUserOption SetupScheduleDefnItem Sign Sin SinglePaymentPV SortScroll Split Sqrt StartWork StopFetching StoreSQL String Substitute Substring SwitchUser SyncRequestXmlDoc
+Tan Throw Time Time3 TimePart TimeToTimeZone TimeValue TimeZoneOffset TotalRowCount Transfer TransferExact TransferMobilePage TransferNode TransferPage TransferPortal Transform TransformEx TransformExCache TreeDetailInNode TriggerBusinessEvent Truncate Try
+UnCheckMenuItem Unencode Ungray Unhide UnhideRow UnhideScroll UniformSeriesPV UpdateSysVersion UpdateValue UpdateXmlDoc Upper
+Value ViewAttachment ViewContentURL ViewURL
+Warning Weekday While WinEscape WinExec WinMessage WriteToLog
+Year
+/C2"Methods"
+%ApplicationLogFence %AsOfDate %AuthenticationToken
+%BPName 
+%ClientDate %ClientTimeZone %CompIntfcName
+%Currency %CurrentDateIn %CurrentDateOut %CurrentDateTimeIn %CurrentDateTimeOut %CurrentTimeIn %CurrentTimeOut
+%DTTM %DateAdd %DateDiff %DateIn %DateOut %DateTimeDiff %DateTimeIn %DateTimeOut %DbName %DbServerName %DbType %DecDiv %DecMult %Delete %DeviceType
+%EffDtCheck %EmailAddress %EmployeeId %ExternalAuthInfo
+%FirstRows
+%Insert %InsertSelect %InsertValues %IsMultiLanguageEnabled
+%Join
+%KeyEqual %KeyEqualNoEffDt
+%Language %Language_Base %Language_Data %Language_User %LikeExact
+%Market %MaxMessageSize %Menu %MobilePage %Mode
+%NavigatorHomePermissionList %NoUppercase 
+%OldKeyEqual %OperatorClass
+%PID %PSAuthResult %PasswordExpired %PerfTime %PermissionLists %PrimaryPermissionList %ProcessProfilePermissionList
+%Request %Response %ResultDocument %Roles %RowSecurityPermissionList %RunningInPortal
+%SQL %SUBREC  %SelectAll %SelectByKey %SelectByKeyEffDt %SelectDistinct %ServerTimeZone %Session %SignOnUserPswd %SignonUserId
+%Table %TextIn %ThisMobileObject %TimeAdd %TimeIn %TimeOut %TrimSubstr %TruncateTable 
+%Update %UpdatePairs %UserDescription %UserId
+%WLInstanceID %WLName
+/C3"Events"
+/C4"Statements"
+/C5"Operators"
++
+-
+=
+// /
+\
+*
+&
+<
+^
+.
+And
+Like
+Not
+Or

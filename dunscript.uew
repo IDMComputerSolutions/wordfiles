@@ -1,0 +1,38 @@
+/L20"Dial-Up Scripting" Nocase Line Comment = ; Escape Char = \ String Chars = "' File Extensions = scp
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String = "%[a-zA-Z_]*)"
+/C1"Keywords"
+and
+boolean
+databits delay do
+endif endproc endwhile even
+false
+getip goto
+halt
+if integer ipaddr
+keyboard
+mark matchcase
+none
+odd off on or
+parity port proc
+raw
+screen set space stopbits string
+then transmit true
+until
+waitfor while
+/C2"Reserved variables"
+$FAILURE $PASSWORD $SUCCESS $USERID
+/C4"Operators"
+!
+$
+%
+&
+*
++
+-
+// /
+<
+=
+>
+^
+|

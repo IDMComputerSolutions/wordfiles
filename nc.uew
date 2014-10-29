@@ -1,0 +1,14 @@
+/L20"NC Files" Nocase Line Comment = $ Block Comment On = ( Block Comment Off = ) File Extensions = ISO NC CNC
+/Delimiters = ABCIJKPQRUVWXYZ( )=-+*
+/Function String = "%[%+O+:]*"
+/C1 
+** % : O H N 
+/C2
+** M 
+/C3
+** G 
+/C5
+** D F S T
+/C6 
+** E L
+-

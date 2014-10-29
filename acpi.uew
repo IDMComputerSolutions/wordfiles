@@ -1,0 +1,70 @@
+/L20"ASL" Line Comment = // String Chars = "' File Extensions = ASL ACPI 
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+
+/C1"OpCodes"
+Break BreakPoint
+Continue
+Else ElseIf
+Fatal
+If
+Load
+Noop Notify
+Release Reset Return
+Signal Sleep Stall Switch
+Unload
+While
+
+/C2"Statements"
+BankField
+CreateBitField CreateByteField CreateDWordField CreateField 
+CreateQWordField CreateWordField
+DataTableRegion Device
+Event
+Field
+IndexField
+Method Mutex
+OperationRegion
+PowerResource Processor
+ThermalZone
+
+/C3"Region Types"
+CMOS
+EmbeddedControl
+PCI_Config PciBarTarget
+SMBus SystemIO SystemMemory
+
+/C4"Access Types"
+AnyAcc
+BufferAcc ByteAcc
+DWordAcc
+QWordAcc
+WordAcc
+
+/C5"Namespace Modifiers"
+Alias
+Name
+Scope
+
+/C6"Type 2 Opcodes"
+Acquire Add And
+Buff
+Concatenate ConcatenateResTemplate CondRefOf
+Decrement DecStr DerefOf Divide
+FindSetLeftBit FindSetRightBit FromBCD
+HexStr
+Increment Index Int
+LAnd LEqual LGreater LGreaterEqual LLess LLessEqual LNot LNotEqual
+LoadTable LOr
+Match Mid Mod Multiply
+NAnd NOr Not
+ObjectType Or
+RefOf
+ShiftLeft ShiftRight SizeOf Store String Subtract
+ToBCD
+Wait
+Xor
+
+/C7"Data Types"
+Integer
+Sting
+Buffer

@@ -1,0 +1,81 @@
+/L20"Tcl/Tk" Line Comment = # String Chars = "' Escape Char = \ DisableMLS File Extensions = TCL TK
+/Delimiters = ~!@%^&*()+=|\/{}[]:;"'	<> ,?#
+/Function String = "proc ^([a-zA-Z_0-9]++ {[ a-zA-Z_0-9{}]++^)"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/Open Brace Strings = "{" "(" "["
+/Close Brace Strings = "}" ")" "]"
+/Open Fold Strings = "{"
+/Close Fold Strings = "}"
+/C1"Tcl Commands" STYLE_COMMAND
+after append apply array auto_execok auto_import auto_load auto_load_index auto_mkindex auto_mkindex_old auto_qualify auto_reset
+bgerror binary break
+case catch cd chan clock close concat continue coroutine
+dde dict
+else elseif encoding eof error eval exec exit expr
+fblocked fconfigure fcopy file fileevent flush for foreach format
+gets glob global
+history
+if incr info interp
+join
+lappend lassign lindex linsert list llength load lrange lrepeat lreplace lreverse lsearch lset lsort
+memory msgcat my
+namespace next
+oo::class oo::copy oo::define oo::objdefine oo::object open
+package parray pid pkg::create pkg_mkIndex platform::generic platform::identify platform::patterns platform::shell::generic platform::shell::identify platform::shell::platform proc puts pwd
+read regexp registry regsub rename resource return
+scan seek self set socket source split string subst switch
+tailcall tclLog tcl_endOfWord tcl_findLibrary tcl_startOfNextWord tcl_startOfPreviousWord tcl_wordBreakAfter tcl_wordBreakBefore tell throw time trace try
+unknown unload unset update uplevel upvar
+variable vwait
+while
+yield
+zlib
+/C2"Tcl Variables" STYLE_VARIABLE
+argc argv argv0 auto_execs auto_index auto_noexec auto_noload auto_path
+env errorCode errorInfo
+geometry
+oo::patchlevel oo::version
+tcl_interactive tcl_library tcl_nonwordchars tcl_patchLevel tcl_pkgPath tcl_platform tcl_precision tcl_rcFileName tcl_rcRsrcName tcl_version tcl_wordchars
+unknown_active
+/C3"Tk Commands" STYLE_COMMAND
+bell bind bindtags bitmap busy button
+canvas checkbutton clipboard console
+destroy
+entry event
+focus font fontchooser frame
+grab grid
+image
+label labelframe listbox loadTk lower
+menu menubutton message
+option
+pack panedwindow photo place
+radiobutton raise
+scale scrollbar selection send spinbox
+text tk tk_bindForTraversal tk_bisque tk_chooseColor tk_chooseDirectory tk_dialog tk_focusFollowsMouse
+tk_focusNext tk_focusPrev tk_getOpenFile tk_getSaveFile tk_menuBar tk_menuSetFocus tk_messageBox
+tk_optionMenu tk_popup tk_setPalette tk_textCopy tk_textCut tk_textPaste tkerror tkwait toplevel ttk::button ttk::checkbutton ttk::combobox ttk::entry ttk::frame ttk::intro ttk::label ttk::labelframe ttk::menubutton ttk::notebook ttk::panedwindow ttk::progressbar ttk::radiobutton ttk::scale ttk::scrollbar ttk::separator ttk::sizegrip ttk::spinbox ttk::style ttk::treeview ttk::widget
+winfo wm
+/C4"Tk Variables" STYLE_VARIABLE
+tk::Priv tk_library tk_patchLevel tk_strictMotif tk_textRedraw tk_textRelayout tk_version
+/C5"Variables" STYLE_VARIABLE
+** $
+/C6"Expression Operators" STYLE_OPERATOR
+!
+%
+&
+*
++
+-
+/
+:
+<
+=
+>
+?
+^
+|
+~
+eq
+in
+ne ni

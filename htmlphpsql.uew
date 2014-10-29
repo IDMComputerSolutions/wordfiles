@@ -1,0 +1,202 @@
+/L20"HTML+PHP+MySQL" Nocase Noquote HTML_LANG Line Comment = // Line Comment Alt = # Block Comment On = /* Block Comment Off = */ Block Comment On Alt = <!-- Block Comment Off Alt = --> Escape Char = \ File Extensions = php3 php4 php inc phtml
+/Delimiters = ~!@%^&*()+|\{}[]:;"'<> ,	.=
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/Function String = "%function *(*)"
+/C1"HTML tags"
+<A </A> <ABBR> <ABBR </ABBR> <ABOVE> <ACRONYM> <ACRONYM </ACRONYM> <ADDRESS> <ADDRESS </ADDRESS> <APPLET </APPLET> <ARRAY> <AREA </AREA
+<B> <B </B> <BASE <BASEFONT <BDO> <BDO </BDO> <BGSOUND <BIG> <BIG </BIG> <BLINK> </BLINK> <BLOCKQUOTE> <BLOCKQUOTE </BLOCKQUOTE> <BODY <BODY> </BODY> <BOX> <BR <BR> <BIG 
+<BLINK <BUTTON> </BUTTON>
+<CAPTION> <CAPTION </CAPTION> <CENTER> <CENTER </CENTER> <CITE> <CITE </CITE> <CODE> <CODE </CODE> <COL> </COL> <COLGROUP> </COLGROUP> <COMMENT> </COMMENT> 
+<DD> <DD </DD> <DEL> <DEL </DEL> <DFN> <DFN </DFN> <DIR> <DIR </DIR> <DIV> <DIV </DIV> <DL> <DL </DL> <DT> <DT  </DT> 
+<EM> <EM </EM> <EMBED
+<FIELDSET> <FIELDSET </FIELDSET> <FIG> <FONT </FONT> <FORM> <FORM </FORM> <FRAME <FRAMESET </FRAMESET>
+<H1> <H1 </H1> <H2> <H2 </H2> <H3> <H3 </H3> <H4> <H4 </H4> <H5> <H5 </H5> <H6> <H6 </H6> <HEAD> <HEAD </HEAD> <HR> <HR <HTML> <HTML </HTML>
+<I> <I </I> <IFRAME> </IFRAME> <ILAYER> </ILAYER> <IMG <INPUT> <INPUT <INS> <INS </INS> <ISINDEX> <ISINDEX 
+<KBD> <KBD </KBD>
+<LABEL> <LABEL </LABEL> <LAYER> <LEGEND> <LEGEND </LEGEND> <LI> <LI </LI> <LINK <LISTING> </LISTING>
+<MAP </MAP> <MARQUEE </MARQUEE> <MENU> <MENU </MENU> <META <MULTICOL> </MULTICOL>
+<NEXTID <NOBR> </NOBR> <NOFRAMES> </NOFRAMES> <NOLAYER> </NOLAYER> <NOTE> </NOTE> <NOSCRIPT> </NOSCRIPT>
+<OBJECT> <OBJECT <OL> <OL </OL> <OPTION> <OPTION <OPTGROUP> <OPTGROUP </OPTGROUP>
+<P <P> </P> <PARAM <PRE> <PRE </PRE>
+<Q> <Q </Q> <QUOTE>
+<RANGE> <ROOT>
+<S> <S </S> <SAMP> <SAMP </SAMP> <SCRIPT <SCRIPT> </SCRIPT> <SELECT </SELECT> <SMALL> <SMALL </SMALL> <SOUND <SPACER> <SPAN> <SPAN </SPAN> <SQRT> <STRIKE> <STRIKE </STRIKE> 
+<STRONG> <STRONG </STRONG> <STYLE> <STYLE </STYLE> <SUB> <SUB </SUB> <SUP> <SUP </SUP>
+<TABLE> <TABLE </TABLE> <TBODY> <TBODY </TBODY> <TD <TD> </TD> <TEXT> <TEXTAREA <TEXTAREA> </TEXTAREA> <TFOOT> <TFOOT </TFOOT> <TH <TH> </TH> <THEAD> <THEAD </THEAD> <TITLE> 
+</TITLE> <TR <TR> </TR> <TT> </TT> <TT
+<U> <U </U> <UL> <UL </UL> 
+<VAR> </VAR> <VAR
+<WBR>
+<XMP> </XMP>
+/C2"HTML attributes"
+ABBR= ACCEPT-CHARSET= ACCEPT= ACCESSKEY= ACTION= ALIGN= ALINK= ALT= ARCHIVE= AXIS=
+BACKGROUND= BEHAVIOR BELOW BGCOLOR= BORDER= BORDERCOLOR=
+CELLPADDING= CELLSPACING= CHAR= CHAROFF= CHARSET= CHECKED CITE= CLASS= CLASSID= CLEAR= CODE= CODEBASE= CODETYPE= COLOR= COLS= COLSPAN= COMPACT CONTENT= COORDS=
+DATA= DATETIME= DECLARE DEFER DIR= DISABLED
+ENCTYPE=
+FACE= FOR= FRAME= FRAMEBORDER= FRAMESPACING=
+HEADERS= HEIGHT= HIDDEN= HREF= HREFLANG= HSPACE= HTTP-EQUIV=
+ID= ISMAP=
+LABEL= LANG= LANGUAGE= LINK= LOOP= LONGDESC= LEFTMARGIN=
+MAILTO= MARGINHEIGHT= MARGINWIDTH= MAXLENGTH= MEDIA= METHOD= MULTIPLE
+NAME= NOHREF NORESIZE NOSHADE
+OBJECT= ONBLUR= ONCHANGE= ONFOCUS= ONKEYDOWN= ONKEYPRESS= ONKEYUP= ONLOAD= ONRESET= ONSELECT= ONSUBMIT= ONUNLOAD= ONCLICK= ONDBLCLICK= ONMOUSEDOWN= ONMOUSEMOVE= ONMOUSEOUT= 
+ONMOUSEOVER= ONMOUSEUP=
+PROFILE= PROMPT=
+READONLY REL= REV= ROWS= ROWSPAN= RULES= RIGHTMARGIN=
+SCHEME= SCOPE= SCROLLING= SELECTED SHAPE= SIZE= SPAN= SRC= STANDBY= START= STYLE= SUMMARY=
+TABINDEX= TARGET= TEXT= TITLE= TOPMARGIN= TYPE=
+URL= USEMAP=
+VALIGN= VALUE= VALUETYPE= VERSION= VLINK= VSPACE=
+WIDTH=
+=
+/C3"PHP Delimiters"
+<?
+<?php
+?>
+/C4"PHP Constructs"
+AND ARRAY
+BREAK
+CASE CLASS CONST CONTINUE
+DEFAULT DIE DO
+ECHO ELSE ELSEIF EMPTY ENDFOR ENDIF ENDSWITCH ENDWHILE EVAL EXIT EXTENDS
+FALSE FOR FUNCTION
+GLOBAL
+HIGHLIGHT_FILE HIGHLIGHT_STRING
+IF INCLUDE ISSET
+LIST
+NEW
+OLD_FUNCTION OR
+PRINT
+REQUIRE RETURN
+SHM_ATTACH SHM_DETACH SHM_GET_VAR SHM_PUT_VAR SHM_REMOVE SHM_REMOVE_VAR STATIC SWITCH
+TRUE
+UNSET
+VAR
+WHILE
+XOR
+__FILE__
+__LINE__
+/C5"PHP Functions"
+Abs Acos Ada_Afetch Ada_Autocommit Ada_Close Ada_Closeall Ada_Commit Ada_Connect Ada_Exec Ada_Fetchrow Ada_Fieldlen Ada_Fieldname Ada_Fieldtype Ada_Freeresult Ada_Numfields 
+Ada_Numrows Ada_Result Ada_Resultall Ada_Rollback Addslashes Apache_Lookup_Uri Apache_Note Array_Walk Arsort Asin Asort Atan Atan2
+Base64_Decode Base64_Encode Basename Base_Convert Bcadd Bccomp Bcdiv Bcmod Bcmul Bcpow Bcscale Bcsqrt Bcsub Bindec
+Call_User_Func Call_User_Method Ceil Chdir Checkdate Checkdnsrr Chgrp Chmod Chop Chown Chr Chunk_Split Clearstatcache Closedir Closelog Com_Get Com_Invoke Com_Load Com_Propget 
+Com_Propput Com_Propset Com_Set Convert_Cyr_String Copy Cos Count Crypt Current
+Date Dav_Set_Mkcol_Handlers Dbase_Add_Record Dbase_Close Dbase_Create Dbase_Delete_Record Dbase_Get_Record Dbase_Get_Record_With_Names Dbase_Numfields Dbase_Numrecords 
+Dbase_Open Dbase_Pack Dblist Dbmclose Dbmdelete Dbmexists Dbmfetch Dbmfirstkey Dbminsert Dbmnextkey Dbmopen Dbmreplace Debugger_Off Debugger_On Decbin Dechex Decoct Decrypt 
+Define Defined Define_Syslog_Variables Deg2Rad Dir Dirname Dl Doubleval
+Each Encrypt End Ereg Eregi Eregi_Replace Ereg_Replace Error_Log Error_Reporting Escapeshellcmd Exec Exp Explode 
+Fclose Fdf_Close Fdf_Create Fdf_Get_File Fdf_Get_Status Fdf_Get_Value Fdf_Next_Field_Name Fdf_Open Fdf_Save Fdf_Set_Ap Fdf_Set_File Fdf_Set_Status Fdf_Set_Value Feof Fgetc 
+Fgets Fgetss File Fileatime Filectime Filegroup Fileinode Filemtime Fileowner Fileperms Filepro Filepro_Fieldcount Filepro_Fieldname Filepro_Fieldtype Filepro_Fieldwidth 
+Filepro_Retrieve Filepro_Rowcount Filesize Filetype File_Exists Floor Flush Fopen Fpassthru Fputs Fread Frenchtojd Fseek Fsockopen Ftell Fwrite
+Getallheaders Getdate Getenv Gethostbyaddr Gethostbyname Gethostbynamel Getimagesize Getlastaccess Getlastbrowser Getlastemail Getlasthost Getlastmod Getlastref Getlogdir 
+Getloghost Getmxrr Getmyiid Getmyinode Getmypid Getmyuid Getrandmax Getrusage Getstartlogging Gettimeofday Gettoday Gettotal Gettype Get_Browser Get_Cfg_Var Get_Current_User 
+Get_Magic_Quotes_Gpc Get_Magic_Quotes_Runtime Get_Meta_Tags Gmdate Gmmktime Gregoriantojd Gzclose Gzeof Gzfile Gzgetc Gzgets Gzgetss Gzopen Gzpassthru Gzputs Gzread Gzrewind 
+Gzseek Gztell Gzwrite
+Header Hebrev Hebrevc Hexdec Htmlentities Htmlspecialchars Hw_Array2Objrec Hw_Changeobject Hw_Children Hw_Childrenobj Hw_Close Hw_Connect Hw_Connection_Info Hw_Cp 
+Hw_Deleteobject Hw_Docbyanchor Hw_Docbyanchorobj Hw_Documentattributes Hw_Documentbodytag Hw_Documentsize Hw_Document_Attributes Hw_Document_Bodytag Hw_Document_Content 
+Hw_Document_Size Hw_Dummy Hw_Edittext Hw_Error Hw_Errormsg Hw_Free_Document Hw_Getanchors Hw_Getanchorsobj Hw_Getandlock Hw_Getcgi Hw_Getchildcoll Hw_Getchildcollobj 
+Hw_Getchilddoccoll Hw_Getchilddoccollobj Hw_Getobject Hw_Getobjectbyquery Hw_Getobjectbyquerycoll Hw_Getobjectbyquerycollobj Hw_Getobjectbyqueryobj Hw_Getparents 
+Hw_Getparentsobj Hw_Getrellink Hw_Getremote Hw_Getremotechildren Hw_Getsrcbydestobj Hw_Gettext Hw_Getusername Hw_Identify Hw_Incollections Hw_Info Hw_Inscoll Hw_Insdoc 
+Hw_Insertdocument Hw_Insertobject Hw_Mv Hw_New_Document Hw_Objrec2Array Hw_Outputdocument Hw_Output_Document Hw_Pconnect Hw_Pipecgi Hw_Pipedocument Hw_Root Hw_Setlinkroot 
+Hw_Stat Hw_Unlock Hw_Who
+Ibase_Bind Ibase_Close Ibase_Connect Ibase_Execute Ibase_Fetch_Row Ibase_Free_Query Ibase_Free_Result Ibase_Pconnect Ibase_Prepare Ibase_Query Ibase_Timefmt Ifxus_Close_Slob 
+Ifxus_Create_Slob Ifxus_Free_Slob Ifxus_Open_Slob Ifxus_Read_Slob Ifxus_Seek_Slob Ifxus_Tell_Slob Ifxus_Write_Slob Ifx_Affected_Rows Ifx_Blobinfile_Mode Ifx_Byteasvarchar 
+Ifx_Close Ifx_Connect Ifx_Copy_Blob Ifx_Create_Blob Ifx_Create_Char Ifx_Do Ifx_Error Ifx_Errormsg Ifx_Fetch_Row Ifx_Fieldproperties Ifx_Fieldtypes Ifx_Free_Blob Ifx_Free_Char 
+Ifx_Free_Result Ifx_Get_Blob Ifx_Get_Char Ifx_Htmltbl_Result Ifx_Nullformat Ifx_Num_Fields Ifx_Num_Rows Ifx_Pconnect Ifx_Prepare Ifx_Query Ifx_Textasvarchar Ifx_Update_Blob 
+Ifx_Update_Char Imagearc Imagechar Imagecharup Imagecolorallocate Imagecolorat Imagecolorclosest Imagecolordeallocate Imagecolorexact Imagecolorresolve Imagecolorset 
+Imagecolorsforindex Imagecolorstotal Imagecolortransparent Imagecopy Imagecopyresized Imagecreate Imagecreatefromgif Imagedashedline Imagedestroy Imagefill Imagefilledpolygon 
+Imagefilledrectangle Imagefilltoborder Imagefontheight Imagefontwidth Imagegif Imageinterlace Imageline Imageloadfont Imagepolygon Imagerectangle Imagesetpixel Imagestring 
+Imagestringup Imagesx Imagesy Imagettfbbox Imagettftext Imap_8Bit Imap_Append Imap_Base64 Imap_Binary Imap_Body Imap_Bodystruct Imap_Check Imap_Clearflag_Full Imap_Close 
+Imap_Create Imap_Createmailbox Imap_Delete Imap_Deletemailbox Imap_Expunge Imap_Fetchbody Imap_Fetchheader Imap_Fetchstructure Imap_Fetchtext Imap_Fetch_Overview Imap_Header 
+Imap_Headerinfo Imap_Headers Imap_List Imap_Listmailbox Imap_Listsubscribed Imap_Lsub Imap_Mailboxmsginfo Imap_Mail_Compose Imap_Mail_Copy Imap_Mail_Move Imap_Msgno 
+Imap_Num_Msg Imap_Num_Recent Imap_Open Imap_Ping Imap_Qprint Imap_Rename Imap_Renamemailbox Imap_Reopen Imap_Rfc822_Parse_Adrlist Imap_Rfc822_Write_Address Imap_Scan 
+Imap_Scanmailbox Imap_Setflag_Full Imap_Sort Imap_Status Imap_Subscribe Imap_Uid Imap_Undelete Imap_Unsubscribe Implode Intval Iptcparse Is_Array Is_Dir Is_Double 
+Is_Executable Is_File Is_Float Is_Int Is_Integer Is_Link Is_Long Is_Object Is_Readable Is_Real Is_String Is_Writeable
+Jddayofweek Jdmonthname Jdtofrench Jdtogregorian Jdtojewish Jdtojulian Jewishtojd Join Juliantojd
+Key Ksort
+Ldap_Add Ldap_Bind Ldap_Close Ldap_Connect Ldap_Count_Entries Ldap_Delete Ldap_Dn2Ufn Ldap_Explode_Dn Ldap_First_Attribute Ldap_First_Entry Ldap_Free_Result 
+Ldap_Get_Attributes Ldap_Get_Dn Ldap_Get_Entries Ldap_Get_Values Ldap_List Ldap_Modify Ldap_Next_Attribute Ldap_Next_Entry Ldap_Read Ldap_Search Ldap_Unbind Leak Link 
+Linkinfo Log Log10 Logas Lstat Ltrim
+Magic_Quotes_Runtime Mail Max Md5 Microtime Min Mkdir Mktime Msql Msql_Affected_Rows Msql_Close Msql_Connect Msql_Createdb Msql_Create_Db Msql_Data_Seek Msql_Dbname 
+Msql_Db_Query Msql_Dropdb Msql_Drop_Db Msql_Error Msql_Fetch_Array Msql_Fetch_Field Msql_Fetch_Object Msql_Fetch_Row Msql_Fieldflags Msql_Fieldlen Msql_Fieldname 
+Msql_Fieldtable Msql_Fieldtype Msql_Field_Seek Msql_Freeresult Msql_Free_Result Msql_Listdbs Msql_Listfields Msql_Listtables Msql_List_Dbs Msql_List_Fields Msql_List_Tables 
+Msql_Numfields Msql_Numrows Msql_Num_Fields Msql_Num_Rows Msql_Pconnect Msql_Query Msql_Regcase Msql_Result Msql_Selectdb Msql_Select_Db Msql_Tablename Mssql_Affected_Rows 
+Mssql_Close Mssql_Connect Mssql_Data_Seek Mssql_Fetch_Array Mssql_Fetch_Field Mssql_Fetch_Object Mssql_Fetch_Row Mssql_Field_Length Mssql_Field_Name Mssql_Field_Seek 
+Mssql_Field_Type Mssql_Free_Result Mssql_Get_Last_Message Mssql_Min_Client_Severity Mssql_Min_Error_Severity Mssql_Min_Message_Severity Mssql_Min_Server_Severity 
+Mssql_Num_Fields Mssql_Num_Rows Mssql_Pconnect Mssql_Query Mssql_Result Mssql_Select_Db Mt_Getrandmax Mt_Rand Mt_Srand Mysql Mysql_Affected_Rows Mysql_Close Mysql_Connect 
+Mysql_Createdb Mysql_Create_Db Mysql_Data_Seek Mysql_Dbname Mysql_Db_Name Mysql_Db_Query Mysql_Dropdb Mysql_Drop_Db Mysql_Errno Mysql_Error Mysql_Fetch_Array Mysql_Fetch_Field 
+Mysql_Fetch_Lengths Mysql_Fetch_Object Mysql_Fetch_Row Mysql_Fieldflags Mysql_Fieldlen Mysql_Fieldname Mysql_Fieldtable Mysql_Fieldtype Mysql_Field_Flags Mysql_Field_Len 
+Mysql_Field_Name Mysql_Field_Seek Mysql_Field_Table Mysql_Field_Type Mysql_Freeresult Mysql_Free_Result Mysql_Insert_Id Mysql_Listdbs Mysql_Listfields Mysql_Listtables 
+Mysql_List_Dbs Mysql_List_Fields Mysql_List_Tables Mysql_Numfields Mysql_Numrows Mysql_Num_Fields Mysql_Num_Rows Mysql_Pconnect Mysql_Query Mysql_Result Mysql_Selectdb 
+Mysql_Select_Db Mysql_Tablename
+Next Nl2Br Number_Format
+Ocibindbyname Ocicolumnisnull Ocicolumnname Ocicolumnsize Ocicolumntype Ociexecute Ocifetch Ocifetchinto Ocifreestatement Ociinternaldebug Ocilogoff Ocilogon Ocinumcols 
+Ociparse Ociresult Ociserverversion Ocistatementtype Octdec Odbc_Autocommit Odbc_Binmode Odbc_Close Odbc_Close_All Odbc_Commit Odbc_Connect Odbc_Cursor Odbc_Do Odbc_Exec 
+Odbc_Execute Odbc_Fetch_Into Odbc_Fetch_Row Odbc_Field_Len Odbc_Field_Name Odbc_Field_Num Odbc_Field_Type Odbc_Free_Result Odbc_Longreadlen Odbc_Num_Fields Odbc_Num_Rows 
+Odbc_Pconnect Odbc_Prepare Odbc_Result Odbc_Result_All Odbc_Rollback Odbc_Setoption Opendir Openlog Ora_Bind Ora_Close Ora_Columnname Ora_Columnsize Ora_Columntype Ora_Commit 
+Ora_Commitoff Ora_Commiton Ora_Do Ora_Error Ora_Errorcode Ora_Exec Ora_Fetch Ora_Fetch_Into Ora_Getcolumn Ora_Logoff Ora_Logon Ora_Numcols Ora_Numrows Ora_Open Ora_Parse 
+Ora_Plogon Ora_Rollback Ord
+Pack Parse_Str Parse_Url Passthru Pclose Pdf_Add_Outline Pdf_Arc Pdf_Begin_Page Pdf_Circle Pdf_Clip Pdf_Close Pdf_Closepath Pdf_Closepath_Fill_Stroke Pdf_Closepath_Stroke 
+Pdf_Continue_Text Pdf_Curveto Pdf_Endpath Pdf_End_Page Pdf_Fill Pdf_Fill_Stroke Pdf_Get_Info Pdf_Lineto Pdf_Moveto Pdf_Open Pdf_Rect Pdf_Restore Pdf_Rotate Pdf_Save Pdf_Scale 
+Pdf_Setdash Pdf_Setflat Pdf_Setgray Pdf_Setgray_Fill Pdf_Setgray_Stroke Pdf_Setlinecap Pdf_Setlinejoin Pdf_Setlinewidth Pdf_Setmiterlimit Pdf_Setrgbcolor Pdf_Setrgbcolor_Fill 
+Pdf_Setrgbcolor_Stroke Pdf_Set_Char_Spacing Pdf_Set_Duration Pdf_Set_Font Pdf_Set_Horiz_Scaling Pdf_Set_Info_Author Pdf_Set_Info_Creator Pdf_Set_Info_Keywords 
+Pdf_Set_Info_Subject Pdf_Set_Info_Title Pdf_Set_Leading Pdf_Set_Text_Matrix Pdf_Set_Text_Pos Pdf_Set_Text_Rendering Pdf_Set_Text_Rise Pdf_Set_Transition Pdf_Set_Word_Spacing 
+Pdf_Show Pdf_Show_Xy Pdf_Stringwidth Pdf_Stroke Pdf_Translate Pg_Close Pg_Cmdtuples Pg_Connect Pg_Dbname Pg_Errormessage Pg_Exec Pg_Fetch_Array Pg_Fetch_Object Pg_Fetch_Row 
+Pg_Fieldisnull Pg_Fieldname Pg_Fieldnum Pg_Fieldprtlen Pg_Fieldsize Pg_Fieldtype Pg_Freeresult Pg_Getlastoid Pg_Host Pg_Loclose Pg_Locreate Pg_Loopen Pg_Loread Pg_Loreadall 
+Pg_Lounlink Pg_Lowrite Pg_Numfields Pg_Numrows Pg_Options Pg_Pconnect Pg_Port Pg_Result Pg_Tty Phpinfo Phpversion Pi Popen Pos Pow Prev Printf Putenv
+Quoted_Printable_Decode Quotemeta
+Rad2Deg Rand Rawurldecode Rawurlencode Readdir Readfile Readgzfile Readlink Register_Shutdown_Function Rename Reset Rewind Rewinddir Rmdir Round Rsort Rtrim
+Sem_Acquire Sem_Get Sem_Release Serialize Setcookie Setlocale Settype Set_Magic_Quotes_Runtime Set_Socket_Blocking Set_Socket_Timeout Set_Time_Limit Short_Tags Sin Sizeof 
+Sleep Snmpget Snmpwalk Solid_Close Solid_Connect Solid_Exec Solid_Fetchrow Solid_Fetch_Prev Solid_Fieldname Solid_Fieldnum Solid_Freeresult Solid_Numfields Solid_Numrows 
+Solid_Result Sort Soundex Split Sprintf Sqlconnect Sqldisconnect Sqlexecdirect Sqlfetch Sqlfree Sqlgetdata Sqlrowcount Sql_Regcase Sqrt Srand Stat Strcasecmp Strchr Strcmp 
+Strcspn Strftime Stripslashes Stristr Strlen Strpos Strrchr Strrev Strrpos Strspn Strstr Strtok Strtolower Strtoupper Strtr Strval Str_Replace Substr Sybase_Affected_Rows 
+Sybase_Close Sybase_Connect Sybase_Data_Seek Sybase_Fetch_Array Sybase_Fetch_Field Sybase_Fetch_Object Sybase_Fetch_Row Sybase_Field_Seek Sybase_Free_Result 
+Sybase_Get_Last_Message Sybase_Min_Client_Severity Sybase_Min_Error_Severity Sybase_Min_Message_Severity Sybase_Min_Server_Severity Sybase_Num_Fields Sybase_Num_Rows 
+Sybase_Pconnect Sybase_Query Sybase_Result Sybase_Select_Db Symlink Syslog System
+Tan Tempnam Time Touch Trim
+Uasort Ucfirst Ucwords Uksort Umask Uniqid Unlink Unpack Unserialize Urldecode Urlencode Usleep Usort Utf8_Decode Utf8_Encode
+Var_Dump Velocis_Autocommit Velocis_Close Velocis_Commit Velocis_Connect Velocis_Exec Velocis_Fetch Velocis_Fieldname Velocis_Fieldnum Velocis_Freeresult 
+Velocis_Off_Autocommit Velocis_Result Velocis_Rollback Virtual Vm_Addalias Vm_Adduser Vm_Delalias Vm_Deluser Vm_Passwd
+Xml_Error_String Xml_Get_Current_Byte_Index Xml_Get_Current_Column_Number Xml_Get_Current_Line_Number Xml_Get_Error_Code Xml_Parse Xml_Parser_Create Xml_Parser_Free 
+Xml_Parser_Get_Option Xml_Parser_Set_Option Xml_Set_Character_Data_Handler Xml_Set_Default_Handler Xml_Set_Element_Handler Xml_Set_External_Entity_Ref_Handler 
+Xml_Set_Notation_Decl_Handler Xml_Set_Processing_Instruction_Handler Xml_Set_Unparsed_Entity_Decl_Handler
+/C6"PHP3 Signs"
++
+-
+%
+&
+>
+<
+^
+!
+|
+$
+?
+/C7"PHP3 Variables"
+** $
+/C8"MySQL Addition"
+add all alter as asc auto_increment
+between binary both by
+change check column columns create cross
+data database databases delayed delete desc describe distinct drop
+enclosed escaped exists explain
+field fields foreign from 
+grant group
+having
+identified ignore index insert infile into
+keys kill
+leading left like limit lines load local lock low_priority
+modify
+natural not NOW null
+on optimize option optionally order outer outfile
+primary proceedure
+read references regexp replace returns revoke rlike
+select set show soname status straight_join
+table tables teminated to TO_DAYS trailing
+unique unlock unsigned update use using
+values variables
+where with write
+zerofill

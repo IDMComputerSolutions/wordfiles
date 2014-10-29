@@ -1,0 +1,138 @@
+/L20"ADEPT Command Language" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = ACL
+/Delimiters = ~!@%^&*()-+=|\{}[]:;"'<> ,	.?
+/Function String = "%[a-zA-Z_]*)"
+/Indent Strings = ""
+/Unindent Strings = ""
+/C1 ARRAY, VARIABLE, PACKAGE AND BUFFER FUNCTIONS
+append_catalog_path append_graphics_path append_load_path append_path
+buffer_create buffer_doc
+caller catch cmd_exists count
+defined delete
+eval execute
+high_bound
+insert_buffer
+low_bound
+option
+package_file package_name packages
+require
+throw
+/C2 CONTEXT-RELATED AND CHANNEL FUNCTIONS
+channel_set_callback content_model context_paths context_string
+in_context in_context_list
+open_accept open_connect open_listen
+pack
+read
+tag_content
+unpack
+write
+/C3 DIALOG AND DOCUMENT IDENTIFIER FUNCTIONS
+current_doc
+doc_close doc_list doc_name doc_open doc_parent doc_path doc_set_path doc_show doc_valid doc_window
+file_selector
+list_response 
+panel_popup path_doc
+response
+save_some_docs
+/C4 DOCUMENT TYPE AND DYNAMIC LOADING FUNCTIONS
+base_tag_name
+char_entity_names content_model
+division_tag dl_call dl_error dl_find dl_load dl_unload doc_type doc_type_dir dtd_decl_path dtd_tag
+entity_tag
+file_entity_tag fosi_public_id
+graphic_entity_attr_name graphic_entity_tag graphic_tag_name graphic_file_attr_name
+marked_section_tag
+notation_tag
+pack path_public_ids procins_tag public_id public_id_path
+sgml_feature
+tag_attr_choices tag_attr_default tag_attr_required tag_attr_type tag_attr_value tag_attrs tag_content tag_display tag_exists  tag_has_attr tag_names text_entity_tag
+unpack user_tag_names
+/C5 EDITOR COMMANDS
+addrequiredtags alias aliases attribute autoload
+beep bitmapdisplay break buffers
+caret case change_entity change_tag characters check_completeness clear_mark comments context continue copy_file copy_keymap copy_mark create_file_entity
+declare_entity declare_graphic_entity declare_ms_parameter declare_notation declare_text_entity define_keymap define_tag delete_buffer delete_character delete_entity
+delete_mark delete_tag detail dirdot directory dirfontpercent dirheading dironly dirorder dirtext dirupdate doctypespath
+edit editfontpercent editor eval execute expressions
+fileentityfontcolor fileentitymarkers find fontpercent for fosi fosiwarnings fulljust fullkeymap
+gentext gentextfontcolor gentexttagdisplay graphicdisplay
+help helpfontpercent hookname
+ids if/else indent inputmode insert_accent insert_entity insert_graphic insert_graphic_entity insert_marked_section insert_pi insert_string insert_table insert_tag invoke_processor
+join
+keymap 
+language link load_buffers loadmessages loadpath lookup
+map mark menu menu_add menu_change menu_copy menu_delete menu_load menu_move menu_reset menu_save message modified modify_entity modify_file_entities modify_graphic_entities
+modify_marked_section modify_ms_parameters modify_notation modify_tag modify_text_entities more move_file
+new newline
+options outline
+package paste pendingdelete print printer
+quit
+read readvar redisplay remove_file rename_entity rename_notation rename_tag repeat replace require requireattrs rochange
+save save_as save_buffers search selectionsvc selectscan set sgmlselection sh show showattrs showentities shownewlines source spell split substitute
+tabledisplay tablefit tag_display tagfontpercent tagidisplay tagnames tagscan textentityfontcolor time translate
+unalias undeclare_entity undeclare_notation undefine_keymap undefine_tag undo units unmap unsetvar usertags
+variables version
+wait while window windows wrapscan write write8bit writecheck
+/C6 EDITOR AND ENTITY FUNCTIONS
+caret_at current_tag_attr_value current_tag_name
+edit_id edit_new_window entity entity_doc entity_exists entity_first entity_last entity_name
+forward_char
+goto_oid
+insert insert_tag inside_tag
+looking_at
+modified mouse_in_selection
+oid_delete_attr oid_modify_attr oid_top_pos
+scroll_to_oid selected selection_balanced selection_end selection_start
+/C7 FILE, SYSTEM FILE IDENTIFIER, MENU, KEYMAP, MISCELLANEOUS AND NUMERIC FUNCTIONS
+absolute_file_name access
+basename
+chr close
+dirname
+eof exit_editor expand_file_name
+file_directory file_mtime file_newer file_size file_system flush
+getline getpid glob
+hex
+init_done
+key_cmd  keymap_exists
+max menu_checked menu_cmd menu_exists menu_item_count menu_popup min 
+oct open ord
+put pwd
+read
+seek
+tell truncate
+umask
+write
+/C8 OBJECT IDENTIFIER (OID) AND STRING FUNCTIONS
+chop chr
+dupl
+goto_oid gsub
+hex
+index
+length
+match match_length match_result match_start
+oct oid_attr oid_attr_list oid_attr_required oid_attr_type oid_backward oid_caret oid_caret_offset oid_caret_pos oid_check_attr oid_child oid_children oid_content oid_current_tag oid_delete_attr oid_detailed oid_doc oid_emptyoid_entity_first oid_entity_last oid_first oid_forward oid_has_attr oid_in_doc oid_last oid_level oid_modify_attr
+oid_mouse_pos oid_name oid_next oid_null oid_parent oid_prev oid_protected oid_same_doc oid_select oid_top_pos oid_type oid_valid ord
+pack
+reverse rindex
+scroll_to_oid selection_end selection_start span split sub substr
+tolower toupper trim
+unpack
+/C9 TABLE EDITOR, TIME, WINDOW FUNCTIONS, CALLBACKS AND HOOKS
+context_error create ctime cut
+destroy
+editbeforehook editfilehook elapsed_time entity_path exclude_tag
+file_mtime
+goto_cell
+insert_tag
+modify_graphic modify_tag
+newfilehook
+paste print_panel
+quit
+save
+tbl_caret_col tbl_caret_row tbl_col_count tbl_quit tbl_resize tbl_row_count time time_date timer_add_callback timer_remove_callback times
+window_class window_close window_create window_destroy window_doc window_get window_id window_list window_lower window_mask window_name window_open window_raise window_set
+window_show window_state window_sync window_xid
+/C10 PRE-DEFINED AND ENVIRONMENT VARIABLES
+$ENV $ERROR $OFS $ORS $SYMTAB
+$adept_path $currentcolumn $currentline $dirname $dirselect $docname $doctype $filename $progname $selection $sh_status $status $system $tagname $topline $version
+$version_date $winsys
+APTACCEPTC APTCATPATH APTDICTPATH APTGRPATH APTLANGAPTMENUFILE APTLOADPATH APTMOUSE APTPATH APTRCFILE APTSTARTUP APTTBLWIDTH APTUNDOLIM

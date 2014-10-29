@@ -1,0 +1,66 @@
+/L20"HLA" AASM_LANG Nocase Line Comment = // Block Comment On = /* Block Comment Off = */ String Chars = "' File Extensions = HLA
+/Delimiters = */+-()[]'";,.=&|^! ?
+/C1"Keywords"
+#asm #endasm #emit #error #print #if #elseif #else #endif #while #endwhile #endtext #include #text
+abstract align
+begin boolean break breakif byte
+char class const context cseg cset
+data do dseg dup dword
+else elseif end endclass endcontext endfor endif endmacro endreadonly endrecord endstatic endtry endunion endwhile enum exception exitexitif external
+foreach forever forward
+if in inherits int16 int32 int8 iterator
+keyword
+lazy
+macro method mod
+name namespace noalignstk nodisplay noframe nostorage
+override
+pointer procedure program
+qword
+raise readonly real32 real64 real80 record repeat result returns
+setthunk static storage string
+tbyte terminator text then this thunk to try type
+union unit uns16 uns32 uns8 until
+val valres var
+while word
+
+/C2"Machine Instructions"
+aaa aad aam aas adc add and
+bound bsf bsr bswap bt btc btr bts
+call cbw cdq clc cld cli cmc cmp cmpsb cmpsd cmpsw cmpxchg cwd cwde
+daa das dec div
+enter
+f2xm1 fabs fadd faddp fbld fbstp fchs fclex fcom fcomp fcompp fcos fdecstp fdiv fdivp fdivr fdivrp ffree fiadd ficom ficomp fidiv fidivr fild fimul fincstp finit fist fistp
+fisub fisubr fld fld1 fldcw fldenv fldl2e fldl2t fldlg2 fldln2 fldpi fldz fmul fmulp fnop fpatan fprem fprem1 fptan frndint frstor fsave fscale fsin fsincos fsqrt fst fstcw
+fstenv fstp fstsw fsub fsubp fsubr fsubrp ftst fucom fucomp fucompp fwait fxam fxch fxtract fyl2x fyl2xp1
+idiv imod imul inc insb insd insw int intmul into iret iretd
+ja jae jb jbe jc jcxz je jecxz jg jge jl jle jmp jna jnae jnb jnbe jnc jne jng jnge jnl jnle jno jnp jns jnz jo jp jpe jpo js jz
+lahf lds lea leave les lfs lgs lodsb lodsd lodsw loop loope loopne loopnz loopz lss
+mov movsb movsd movsw movsx movzx mul
+neg nop not
+or out outsb outsd outsw
+pea pop popa popad popf popfd push pusha pushad pushd pushf pushfd pushw
+rcl rcr rdtsc rep repe repne repnz repz ret rol ror
+sahf sal sar sbb scasb scasd scasw set seta setae setb setbe setc sete setg setge setl setle setna setnae setnb setnbe setnc setne setng setnge setnl setnle setno setnp setns
+setnz seto setp setpe setpo sets setz shl shld shr shrd stc std sti stosb stosd stosw sub
+test
+wait
+xadd xchg xlat xor
+
+/C3"Registers"
+ah al ax
+bh bl bp bx
+ch cl cx
+dh di dl dx dx:ax
+eax ebp ebx ecx edi edx edx:eax esi esp
+si sp st0 st1 st2 st3 st4 st5 st6 st7
+@a @ae @b @be @c @e @g @ge @l @le @na @nae @nb @nbe @nc @ne @ne @nge @nl @nle @no @ns @nz @o @s @z
+
+/C4"Built-in Functions"
+@IsExternal @abs @addofs1st @arity @bound @byte @ceil @class @cos @curdir @curlex @curobject @curoffset @date @defined @delete @dim @elements @elementsize @enumsize @eos @eval
+@exactlynchar @exactlyncset @exactlynichar @exactlyntomchar @exactlyntomcset @exactlyntomichar @exp @extract @firstnchar @firstncset @firstnichar @floor @index @insert @into
+@isalpha @isalphanum @isclass @isconst @isdigit @isfreg @islower @ismem @isreg @isreg16 @isreg32 @isreg8 @isspace @istype @isupper @isxdigit @lastobject @length @lex
+@linenumber @localoffset @log @log10 @lowercase @matchintconst @matchistr @matchrealconst @matchstr @matchstrconst @matchtoistr@matchid @matchtostr @max @min @minparmsize
+@name @norlesschar @norlesscset @norlessichar @normorechar @normorecset @normoreichar @ntomchar @ntomcset @ntomichar @odd @offset @onechar @onecset @oneichar @oneormorechar
+@oneormorecset @oneormoreichar @oneormorews @parmoffset @pclass @peekchar @peekcset @peekichar @peekws @ptype @random @randomize @rindex @section @sin @size @sqrt @staticname
+@strbrk @string:identifier @strset @strspan @substr @tan @text @time @tokenize @tostring:identifier @trim @type @typename @uppercase @uptochar @uptocset @uptoichar @uptoistr
+@uptostr @wsoreos @wstheneos @zeroormorechar @zeroormorecset @zeroormoreichar @zeroormorews @zerooronechar @zerooronecset @zerooroneichar

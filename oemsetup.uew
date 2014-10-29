@@ -1,0 +1,43 @@
+/L20"Oemsetup Script" Nocase Line Comment = ; String Chars = "' File Extensions = INF
+/Delimiters = ~!@%^&*+=|\/{}:;"'<> ,	.?
+/Indent Strings = "ifstr" "ifstr(i)" "ifint" "ifcontains"
+"ifcontains(i)"
+/Unindent Strings = "endif"
+/Marker Characters = "[]$)"
+/C1
+addfiletodeletelist
+closeregkey createregkey
+debug-output debug_output deleteregkey deleteregtree deleteregvalue
+else-ifcontains else-ifcontains(i) else-ifint else-ifstr else-ifstr(i) endforlistdo endif endwait enumregkey enumregvalue
+flushinf flushregkey forlistdo freelibrary
+getdriveinpath getregvalue getsystemdate goto
+ifcontains ifcontaints(i) ifint ifstr ifstr(i)
+libraryprocedure loadlibrary
+openregkey
+querylistsize
+set set-add set-and set-dectohex set-div set-hextodec set-mul set-or set-sub set-subst setregvalue sleep split-string startwait
+/C2
+addsectionfilestocopylist addsectionkeyfiletocopylist addnthsectionfiletocopylist
+copyfilesincopylist clearcopylist createdir
+detect
+exit
+install
+read-syms removedir return
+shell
+/C3
+[]
+$)
+/C4
++
+=
+// /
+%
+&
+>
+<
+^
+!
+|
+/C5
+NO_ERROR
+STATUS_SUCCESSFUL STATUS_FAILED STATUS_USERCANCEL STATUS_REBIND STATUS_REBOOT STATUS_NO_EFFECT
