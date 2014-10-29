@@ -1,45 +1,13 @@
 /L12"FEL" Line Comment Num = 1  Line Comment Valid Columns = [1] Line Comment Alt = // File Extensions = FCV IPA APF TMPL
-/Colors = 0,8421376,8421376,8421504,255,
-/Colors Back = 16777215,16777215,16777215,16777215,16777215,
-/Colors Auto Back = 1,1,1,1,1,
-/Font Style = 0,0,0,0,0,
-/Regexp Type = Perl
-/C1"Cat,Jump" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
-** # + 
-/C2"subroutine" Colors = 255 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
-** / A a = d
-/C3"List" Colors = 33023 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
-** *
-/C4"concordance" Colors = 32768 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
-** @ $ f F
-/C5"commands" Colors = 4210816 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
-** B b E e c i I l r s t T p P x
 /Open Fold Strings = "#("
 /Close Fold Strings = "#)"
-
-/L13"JSON" String Chars = " Escape Char = \ File Extensions = JSON
-/Colors = 0,8421376,8421376,8421504,255,
-/Colors Back = 16777215,16777215,16777215,16777215,16777215,
-/Colors Auto Back = 1,1,1,1,1,
-/Font Style = 0,0,0,0,0,
-/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
-/Indent Strings = "{"
-/Unindent Strings = "}"
-/Open Brace Strings = "{" "["
-/Close Brace Strings = "}" "]"
-/Open Fold Strings = "{" "["
-/Close Fold Strings = "}" "]"
-/C1"Keywords" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
-false
-null
-true
-/C2"Operators" Colors = 255 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
-:
-/C3"Array Brackets" Colors = 33023 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
-[
-]
-/C4"Object Brackets" Colors = 32768 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
-{
-}
-/C5"Separators" Colors = 4210816 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
-,
+/C1"Cat,Jump"
+** # + 
+/C2"subroutine"
+** / A a = d
+/C3"List"
+** *
+/C4"concordance"
+** @ $ f F
+/C5"commands"
+** B b E e c i I l r s t T p P x
