@@ -1,0 +1,112 @@
+/L20"Lua" Line Comment Num = 3--  Escape Char = \ Block Comment On = --[[ Block Comment Off = ]] String Chars = "' File Extensions = LUA
+/Colors = 0,8421376,8421376,8421504,255,
+/Colors Back = 16777215,16777215,16777215,16777215,16777215,
+/Colors Auto Back = 1,1,1,1,1,
+/Font Style = 0,0,0,0,0,
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	?#
+/Function String = "%[ ^t]++function^(*(*)^)"
+/Function String 1 = "%[ ^t]++^(*^)=[ ^t]++function*(*)"
+/Function String 2 = "%[ ^t]++local[ ^t]++function^(*(*)^)"
+/Function String 3 = "%[ ^t]++local[ ^t]++^(*^)=[ ^t]++function*(*)"
+/Indent Strings = "then" "do" "else" "elseif"
+/Unindent Strings = "end" "else"
+/C1"reserved"
+and
+break
+do
+else elseif end
+false for function
+global
+if in
+local
+nil not
+or
+repeat return
+then true
+until
+while
+_G
+_VERSION
+_PROMPT
+...
+/C2"operators"
++
+-
+*
+// /
+^
+<
+>
+=
+~
+%
+.
+:
+#
+..
+/C3"metatables"
+getmetatable
+rawequal rawget rawset
+setmetatable
+__add
+__call __concat
+__div
+__eq
+__gc
+__index
+__le __lt
+__metatable __mode __mul
+__newindex
+__pow
+__sub
+__tostring
+__unm
+/C4"basic library"
+assert
+collectgarbage
+dofile
+error
+ipairs
+load loadfile loadlib loadstring
+module
+next
+pairs pcall print
+require
+select
+tonumber tostring type
+unpack
+xpcall
+/C5"core libraries"
+coroutine.create coroutine.resume coroutine.running coroutine.status coroutine.wrap coroutine.yield
+debug.debug debug.getfenv debug.getinfo debug.getlocal debug.gethook debug.getmetatable debug.getregistry debug.getupvalue 
+debug.setfenv debug.sethook debug.setlocal debug.setmetatable debug.setupvalue debug.traceback
+io.close io.flush io.input io.lines io.output io.read io.stderr io.stdin io.stdout io.tmpfile io.type io.write
+math.abs math.acos math.asin math.atan math.atan2 math.ceil math.cos math.deg math.exp math.floor math.fmod math.frexp
+math.huge math.ldexp math.log math.log10 math.max math.min math.modf math.pi math.pow math.rad math.random math.randomseed
+math.sin math.sqrt math.tan
+os.clock os.date os.difftime os.execute os.exit os.getenv os.remove os.rename os.setlocale os.tempname os.time
+package.cpath package.loaded package.loadlib package.path package.preload package.seeall
+string.byte string.char string.dump string.find string.format string.gmatch string.gsub string.len string.lower string.match
+string.rep string.reverse string.sub string.upper
+table.concat table.insert table.maxn table.remove table.sort
+/C6"enclosures" 
+;
+,
+(
+)
+{
+}
+[
+]
+/C7"methods"
+close
+flush
+lines
+read
+seek
+write
+/C8"extensions"
+bit.arshift bit.band bit.bnot bit.bor bit.bswap bit.bxor bit.lshift bit.rol bit.ror bit.rshift bit.tobit bit.tohex
+ffi.C ffi.abi ffi.alignof ffi.arch ffi.cast ffi.cdef ffi.copy ffi.errno ffi.fill ffi.gc ffi.istype ffi.load ffi.metatype
+ffi.new ffi.offsetof ffi.os ffi.sizeof ffi.string ffi.typeof
+jit.arch jit.flush jit.off jit.on jit.opt jit.os jit.util jit.version jit.version_num
