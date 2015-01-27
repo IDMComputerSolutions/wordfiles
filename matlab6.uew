@@ -39,9 +39,9 @@ find_system findpackage findstr findtype finite fix floor fopen format fprintf f
 fschange fseek ftell full func2str functions functionscalled fwrite
 ge getenv getframe gs_get_buttonmotion gt
 handle handle2struct hardcopy hcreate help hess hittest home horzcat hregister
-i ieee ifft ifftn im2frame imag import inf inferiorto inmem input inputname int16 int32 int8 inv isa
-iscell ischar isempty isequal isfinite isglobal ishandle isieee isinf isjava isletter islogical isnan
-isreal isruntime isspace issparse isstr isstudent
+i ieee ifft ifftn im2frame imag import inf inferiorto inmem input inputname int16 int32 int64 int8 intmax
+intmin inv isa iscell ischar isempty isequal isfinite isglobal ishandle isieee isinf isjava isletter
+islogical isnan isreal isruntime isspace issparse isstr isstudent
 j java java_array java_method java_object javaArray javaMethod javaObject
 keyboard
 lasterr lastwarn ldivide le length license load log log2 logical loglog lookfor lower lt ltitr lu luinc
@@ -57,8 +57,8 @@ single sinh size sldebug sort sparse sparsfun sprintf sqrt sscanf str2func strcm
 strncmp strncmpi strrep struct struct2cell struct2handle subsasgn subsindex subsref sum superiorto svd
 system system_dependent
 tan tanh tic times toc transpose tril triu trmginput type
-u_convert_to_gobject uigetfile uimenufcn uint16 uint32 uint8 uipushtool uiputfile uisetcolor uisetfont
-uitoggletool uitoolbar uminus unix uplus upper
+u_convert_to_gobject uigetfile uimenufcn uint16 uint32 uint64 uint8 uipushtool uiputfile uisetcolor
+uisetfont uitoggletool uitoolbar uminus unix uplus upper
 version vertcat vms
 waitfor waitforbuttonpress warning what which who whos
 xlate
