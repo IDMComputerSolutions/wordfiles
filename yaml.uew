@@ -1,4 +1,4 @@
-/L20"YAML" String Chars = " Line Comment = # Escape Char = \ File Extensions = YAML
+/L20"YAML" String Chars = " Line Comment = # Escape Char = \ File Extensions = YAML YML
 /Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
 /Indent Strings = "{" "-"
 /Unindent Strings = "}"
