@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Templates encode="utf8escenc"><Template Name="if" Comments="0" Strings="0">if ([+expression+]):&#xD;
+	^</Template><Template Name="elif" Comments="0" Strings="0">elif ([+expression+]):&#xD;
+	^</Template><Template Name="else" Comments="0" Strings="0">else: &#xD;
+	^</Template><Template Name="while" Comments="0" Strings="0">while ([+evaluation+]): {&#xD;
+	^</Template><Template Name="for" Comments="0" Strings="0">for [+var+] in [+sequence+]:&#xD;
+	^ # code to be executed</Template><Template Name="list" Comments="0" Strings="0">[+listname+] = ['[+item1+]', '[+item2+]', '[+item3+]'];</Template><Template Name="dict" Comments="0" Strings="0">dict = {'[+key1+]':'[+val1+]', [+key2+]':'[+val2+]'} </Template><Template Name="def" Comments="0" Strings="0">def [+functionName+]( [+parameters+] ):&#xD;
+	^&#xD;
+	return</Template></Templates>

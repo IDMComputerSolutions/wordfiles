@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Templates encode="utf8escenc"><Template Name="a.hover, a.active">a.hover, a.active {&#xD;
+	color: #[+color+];&#xD;
+	font-weight: [+strong+];&#xD;
+	text-decoration: [+underline+];&#xD;
+}</Template><Template Name="a.link, a.visited">a.link, a.visited {&#xD;
+	color: #[+color+];&#xD;
+	font-weight: [+strong+];&#xD;
+	text-decoration: [+none+];&#xD;
+}</Template><Template Name="background">background: #[+fff+] url('[+file+]') [+no-repeat+] [+left+] [+top+];</Template><Template Name="border">border: [+1+]px [+solid+] [+#fff+];</Template><Template Name="class">.[+class name+] {&#xD;
+	^&#xD;
+}</Template><Template Name="font">font: normal [+12px+] [+Georgia,serif+];</Template><Template Name="id">#[+ID name+] {&#xD;
+	^&#xD;
+}</Template><Template Name="import">import ("[+URL+]");</Template><Template Name="list-style">list-style: [+disc+] [+outside+] [+none+];</Template><Template Name="margin">margin: [+0+] [+0+] [+0+] [+0+];</Template><Template Name="padding">padding: [+0+] [+0+] [+0+] [+0+];</Template></Templates>

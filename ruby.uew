@@ -1,0 +1,218 @@
+/L12"Ruby" RUBY_LANG Line Comment = # Block Comment On = =begin Block Comment Off = =end String Chars='" Escape Char = \ File Extensions = rb rbw
+/Delimiters = ~^[]{}()<>.,+ *|/'	"`
+/Regexp Type = Perl
+/TGBegin "Modules"
+/TGFindStr = "^[ \t]*module[ \t]+([a-z0-9_\.]+)[ \n]*"
+/TGEnd
+/TGBegin "Classes"
+/TGFindStr = "^[ \t]*class[ \t]+([a-z0-9_\.]+)[ \n]*"
+/TGEnd
+/TGBegin "Functions"
+/TGFindStr = "^[ \t]*def[ \t]+([a-z0-9_\.]+)[ \n\(]*"
+/TGFindBStart = "\("
+/TGFindBEnd = "\)"
+/TGBegin "Parameters"
+/TGFindStr = "[ \t\n]*([^,]+)"
+/TGFindBStart = "\("
+/TGFindBEnd = "\)"
+/TGEnd
+/TGEnd
+/Indent Strings = "do" "begin" "{" "|"
+/Unindent Strings = "}" "end"
+/C1"Ruby Keywords"
+#
+(
+)
+BEGIN
+END
+__FILE__ __LINE__
+alias and
+begin break
+case class
+def defined? do
+else elsif end ensure
+false for
+if in
+module
+next nil not
+or
+quit
+redo rescue retry return
+self super
+then true
+undef unless until
+when while
+yield
+{
+}
+/C2"Ruby Classes/Exceptions"
+ArgumentError Array
+Bignum Binding
+Class Complex ConditionVariable Continuation
+DelegateClass Dir
+EOFError English Errno::ENOENT Errno::EPERM Exception
+FalseClass Fatal File File::Stat Fixnum Float FloatDomainError
+GetoptLong
+Hash
+IO IOError IndexError Integer Interrupt
+LoadError LocalJumpError
+MatchData Method Module Mutex
+NameError NilClass NoMemoryError NotImplementedError Numeric
+Object
+Proc Pstore
+Range RangeError Regexp RegexpError RuntimeError
+ScriptError SecurityError SimpleDelegator Singleton StandardError String Struct Struct::Tms Symbol
+SyntaxError SystemCallError SystemExit SystemStackError
+Tempfile Thread ThreadGroup Time TrueClass TypeError
+WeakRef
+ZeroDivisionError
+`
+/C3"Ruby Libraries/Modules"
+BasicSocket Benchmark
+CGI CONFIG Comparable Config
+DATA Date
+Enumerable Errno
+FALSE FTP FileTest Find
+GC
+HTTP HTTPResponse
+IPSocket
+Kernel
+Marshal Math
+NET NIL Net::APOP Net::FTP Net::HTTP Net::HTTPResponse Net::POP Net::POPMail Net::SMTP Net::Telnet
+ObjectSpace Observable
+POP POPMail ParseDate Process
+SMTP SOCKSSocket STDERR STDIN STDOUT Session Socket Stat
+TCPServer TCPSocket TOPLEVEL_BINDING TRUE Telnet Tms
+UDPSocket UNIXServer UNIXSocket
+WIN32OLE WIN32OLE_EVENT Win32API
+mkmf
+win32api win32ole
+/C4"Ruby Constants/Strings"
+"
+AF_APPLETALK AF_AX25 AF_INET AF_INET6 AF_IPX AF_UNIX AF_UNSPEC AI_ALL AI_CANONNAME AI_MASK AI_NUMERICHOST
+AI_PASSIVE AI_V4MAPPED_CFG ARGF ARGV
+Complex::I
+Default
+E EAI_ADDRFAMILY EAI_AGAIN EAI_BADFLAGS EAI_BADHINTS EAI_FAIL EAI_FAMILY EAI_MAX EAI_MEMORY EAI_NODATA
+EAI_NONAME EAI_PROTOCOL EAI_SERVICE EAI_SOCKTYPE EAI_SYSTEM EXTENDED
+FTP_PORT
+IGNORECASE IP_ADD_MEMBERSHIP IP_DEFAULT_MULTICAST_LOOP IP_DEFAULT_MULTICAST_TTL IP_MAX_MEMBERSHIPS
+IP_MULTICAST_IF IP_MULTICAST_LOOP IP_MULTICAST_TTL
+LOOKUP_INET LOOKUP_INET6 LOOKUP_UNSPEC
+MSG_DONTROUTE MSG_OOB MSG_PEEK MULTILINE
+PF_APPLETALK PF_AX25 PF_INET PF_INET6 PF_IPX PF_UNIX PF_UNSPEC PI PLATFORM PRIO_PGRP PRIO_PROCESS
+PRIO_USER
+RUBY_PLATFORM RUBY_RELEASE_DATE RUBY_VERSION
+SOCK_DGRAM SOCK_PACKET SOCK_RAW SOCK_RDM SOCK_SEQPACKET SOCK_STREAM SOL_ATALK SOL_AX25 SOL_IP SOL_IPX
+SOL_SOCKET SOL_TCP SOL_UDP SOPRI_BACKGROUND SOPRI_INTERACTIVE SOPRI_NORMAL SO_BROADCAST SO_DEBUG
+SO_DONTROUTE SO_ERROR SO_KEEPALIVE SO_LINGER SO_NO_CHECK SO_OOBINLINE SO_PRIORITY SO_RCVBUF SO_REUSEADDR
+SO_SNDBUF SO_TYPE
+TCP_MAXSEG TCP_NODELAY
+WIN32OLE::VERSION WNOHANG WUNTRACED
+cstime cutime
+domain
+expires
+secure stime
+/C5"Ruby Methods"
+! !=
+% %= %Q %W %q %w
+& && &=
+* *=
++ += +@
+- -= -@
+.
+// / /=
+::
+< <=
+= == ===
+> >=
+@
+Comparisons
+[
+] ]=
+^ ^=
+__id__ __send__ _id2ref
+abort abort_on_exception abort_on_exception! abs abs2 add alias_method alive? ancestors append_features
+arg arity asctime assoc at at_exit atan2 atime attr attr_accessor attr_reader attr_writer autoload
+backtrace basename between? binding binmode blksize block_given? blockdev? blocks broadcast
+call callcc caller capitalize capitalize! casefold? catch ceil center chardev? chdir chmod chomp chomp!
+chop chop! chown chr chroot class_eval class_variables clear clone close close_read close_write closed?
+cmp coerce collect collect! compact compact! compare compile concat conjugate const_defined? const_get
+const_set constants copy cos count cp create_makefile critical critical= crypt ctime current
+day default default= define_finalizer delete delete! delete_at delete_if detect dev dir_config directory?
+dirname disable display divmod downcase downcase! downto dump dup
+each each_byte each_index each_key each_line each_object each_pair each_with_index egid egid= empty?
+enable england entries eof eof? eql? equal? error? error_message escape euid euid= eval exception
+exclude_end? exec executable? executable_real? exist2? exist? existw? exit exit! exp expand_path extend
+extend_object
+fail fcntl fetch file? fileno fill find find_all find_library finite? first flatten flatten! flock flush
+foreach fork format freeze frexp frozen? ftype
+garbage_collect get get_option getc getogrp getpriority gets getwd gid gid= glob global_variables gm gmt?
+gmtime gregorian gregorian_leap? grep grpowned? gsub gsub!
+has_key? has_value? hash have_func have_header have_library hex hour
+id id2name image include include? included_modules index indexes indices inherited initialize ino inspect
+install instance_eval instance_methods instance_of? instance_variables integer? intern ioctl is_a? isatty
+isdst italy iterator?
+jd join julian julian_leap?
+kcode key? keys kill kind_of?
+lambda last last_match ldexp leap? length lineno lineno= link list ljust load local local_variables
+localtime lock locked? log log10 loop lstat
+main makedirs makepath map map! match max mday member? members message method method_added method_defined?
+method_missing methods min mjd mkdir mktime mode module_eval module_function modulo mon month move mtime
+mv
+name nan? nesting new new1 new2 new3 newsg neww next! nil? nitems nlink nonzero? now ns?
+oct open ordering ordering= os? owned?
+p pack parsedate pass path pid pipe pipe? polar pop popen pos pos= ppid print printf priority priority=
+private private_class_method private_instance_methods private_methods proc protected
+protected_instance_methods protected_methods prune public public_class_method public_instance_methods
+public_methods push putc puts pwd
+quiet quiet= quiet? quote
+raise rand rassoc rdev read readable? readable_real? readchar readline readlines readlink real rehash
+reject reject! remainder remove_const remove_method rename reopen replace require respond_to? restore
+reverse reverse! reverse_each rewind rindex rjust rm_f rmdir round run
+safe_level safe_unlink scan sec seek select send set_backtrace set_options set_trace_func setgid? setpgid
+setpgrp setpriority setsid setuid? sg shift signal sin singleton_method_added singleton_methods size size?
+sleep slice slice! socket? sort sort! source split sprintf sqrt squeeze squeeze! srand start stat status
+step sticky? stop stop? store strftime strip strip! sub sub! succ succ! superclass swapcase swapcase!
+symlink symlink? sync sync= synchronize syscall syscopy sysread system syswrite
+taint tainted? tell terminate test throw timeout times to_a to_ary to_f to_i to_io to_proc to_r to_s
+to_str today tr tr! tr_s tr_s! trace_var trap truncate try_lock tty? tv_sec tv_usec type
+uid uid= umask undef_method ungetc uniq uniq! unlink unlock unpack unshift untaint untrace_var upcase
+upcase! update upto usec utc utc? utime
+value? values var
+wait wait2 waitpid waitpid2 wakeup wday weakref_alive? writable? writable_real? write
+yday year
+zero? zone
+| |=
+~
+/C6"Ruby Library Methods"
+Call
+a accept add_observer addr all
+base bind binmode= blockquote
+caption changed changed? checkbox checkbox_group cmd code connect const_load content_type cookies
+count_observers
+debug_mode debug_mode= delete_observer delete_observers dir do_not_reverse_lookup do_not_reverse_lookup=
+escapeElement escapeHTML
+file_field for_fd form
+getaddress getaddrinfo getbinaryfile gethostbyaddr gethostbyname gethostname getnameinfo getpeername
+getservbyname getsockname getsockopt gettextfile
+head header hidden html
+img img_button invoke
+lastresp listen local_path login lookup_order lookup_order= ls
+mails message_loop multipart_form
+notify_observers
+on_event original_filename out
+pair params parse passive passive= password_field peeraddr popup_menu port post pretty putbinaryfile
+puttextfile
+radio_button radio_groupready recv recvfrom reset resume resume= retrbinary retrlinew return_code
+rfc1123_date
+scrolling_list sendmail setsockopt shutdown socketpair storbinary storlines submit
+telnetmode telnetmode= text_field textarea top
+uidl unescape unescapeElement unescapeHTML
+waitfor welcome
+/C7"Variables"
+** &a &b &c &d &e &f &g &h &i &j &k &l &m &n &o &p &q &r &s &t &u &v &w &x &y &z
+** @a @b @c @d @e @f @g @h @i @j @k @l @m @n @o @p @q @r @s @t @u @v @w @x @y @z
+@@a @@b @@c @@d @@e @@f @@g @@h @@i @@j @@k @@l @@m @@n @@o @@p @@q @@r @@s @@t @@u @@v @@w @@x @@y @@z
+/C8"Constant/Global/Symbol"
+** $ : A B C D E F G H I J K L M N O P Q R S T U V W X Y Z

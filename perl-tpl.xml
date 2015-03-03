@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Templates encode="utf8escenc"><Template Name="if" Comments="0" Strings="0">if ([+evaluation+]) {&#xD;
+	^&#xD;
+}</Template><Template Name="elsif" Comments="0" Strings="0">elsif ([+evaluation+]) &#xD;
+	^&#xD;
+}</Template><Template Name="else" Comments="0" Strings="0">else {&#xD;
+	^&#xD;
+}</Template><Template Name="while" Comments="0" Strings="0">while ([+evaluation+]) {&#xD;
+	^ // code to be executed&#xD;
+}</Template><Template Name="for" Comments="0" Strings="0">for ($[+i+] = [+X+]; $[+i+] &lt; [+Y+]; $[+i+]++) {&#xD;
+	^ // code to be executed&#xD;
+}</Template><Template Name="sysopen" Comments="0" Strings="0">sysopen([+handle+], [+file+], [+O_RDONLY+]);</Template><Template Name="print" Comments="0" Strings="0">print "[+text+]";</Template><Template Name="array" Comments="0" Strings="0">@[+arrayName+] = ("[+val+]", "[+val2+]");</Template></Templates>

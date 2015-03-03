@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Templates encode="utf8escenc"><Template Name="byte" Comments="0" Strings="0">byte [+b+] = [+0+];</Template><Template Name="char" Comments="0" Strings="0">char [+c+] = '[+string+]';</Template><Template Name="class" Comments="0" Strings="0">[+public+] class [+className+] {&#xD;
+ 	^&#xD;
+}</Template><Template Name="do" Comments="0" Strings="0">do {&#xD;
+ 	^ // code to execute&#xD;
+} while ([+evaluation+])  </Template><Template Name="double" Comments="0" Strings="0">double [+d+] = [+0.0d+];</Template><Template Name="else" Comments="0" Strings="0">else {&#xD;
+ 	^&#xD;
+}</Template><Template Name="else if" Comments="0" Strings="0">else if ([+evaluation+]) {&#xD;
+ 	^&#xD;
+}</Template><Template Name="enum" Comments="0" Strings="0">enum [+Name+] { [+CONSTANTS+] }</Template><Template Name="finally" Comments="0" Strings="0">finally {&#xD;
+ 	^&#xD;
+}</Template><Template Name="float" Comments="0" Strings="0">float [+b+] = [+0+]f;</Template><Template Name="for" Comments="0" Strings="0">for (int [+n+]=[+X+]; [+n+]&lt;[+Y+]; [+n+]++) {&#xD;
+ 	^&#xD;
+}</Template><Template Name="for-each" Comments="0" Strings="0">for ([+type var+]: [+array+]) {&#xD;
+	^&#xD;
+}</Template><Template Name="if" Comments="0" Strings="0">if ([+evaluation+]) {&#xD;
+ 	^&#xD;
+}</Template><Template Name="import" Comments="0" Strings="0">import [+className+];</Template><Template Name="int" Comments="0" Strings="0">byte [+i+] = [+0+];</Template><Template Name="interface" Comments="0" Strings="0">interface [+intName+] {&#xD;
+	^&#xD;
+}</Template><Template Name="long" Comments="0" Strings="0">long [+l+] = [+0+];</Template><Template Name="method" Comments="0" Strings="0">[+public+] [+void+] [+functionName+]([+parameters+]) {&#xD;
+	^&#xD;
+}</Template><Template Name="package" Comments="0" Strings="0">package [+pkgName+];</Template><Template Name="short" Comments="0" Strings="0">short [+s+] = [+0+];</Template><Template Name="String" Comments="0" Strings="0">String [+str+] = "[+string+]";</Template><Template Name="super" Comments="0" Strings="0">super.[+methodName+]();</Template><Template Name="switch" Comments="0" Strings="0">switch ([+expression+]) {&#xD;
+	case [+value+]: ^&#xD;
+		break;&#xD;
+	default:&#xD;
+}</Template><Template Name="try" Comments="0" Strings="0">try {&#xD;
+	^&#xD;
+} catch ([+exception+]) {&#xD;
+	 &#xD;
+}</Template><Template Name="while" Comments="0" Strings="0">while ([+evaluation+]) {&#xD;
+	^&#xD;
+}</Template></Templates>

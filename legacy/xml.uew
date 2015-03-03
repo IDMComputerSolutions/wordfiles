@@ -1,0 +1,220 @@
+/L6"XML" XML_LANG Noquote Block Comment On = <!-- Block Comment Off = --> File Extensions = XML XUL XSD XSL XSLT WSDL CONFIG SSS
+/Delimiters = ~@$^&*( )+=|\{};"'<>	,
+/Function String = "name=*">"
+/Open Brace Strings =  "{" "(" "[" "<"
+/Close Brace Strings = "}" ")" "]" ">"
+/C1"Elements" STYLE_ELEMENT
+** <
+<a </a> <abbr> <abbr </abbr> <above> <abstract> </abstract> <acronym> </acronym> <activity> </activity>
+<actor> <actor </actor> <add> <add </add> <addName </addName> <addSpan <addrLine> <address> <address
+</address> <addressList> </addressList> <admin </admin> <affiliation> </affiliation> <alt <altGrp
+</altGrp> <analytic> </analytic> <anchor <any> </any> <app> <app </app> <applet </applet> <apply <arc
+<area </area <arg <argument> </argument> <array> <att> <att </att> <attDef> <attDef </attDef> <attList>
+<attList </attList> <attName> </attName> <attlDecl> <attlDecl </attlDecl> <author> </author> <authority>
+</authority> <availability> <availability </availability>
+<b> <b </b> <back> <back </back> <base <baseWsd <basefont <bdo> </bdo> <bgsound <bibl> <bibl </bibl>
+<biblFull> </biblFull> <biblScope> <biblStruct> <biblStruct </biblStruct> <bicond> </bicond> <big> <big
+</big> <birth> <birth </birth> <birthDate> <birthPlace> <blink> <blink </blink> <bloc </bloc> <blockquote>
+<blockquote </blockquote> <body> <body </body> <box> </box> <br/> <br> <br <broadcast> </broadcast>
+<button> </button> <byline> </byline>
+<c> <c </c> <caesura> <calEvent> </calEvent> <camera> </camera> <caption> <caption </caption> <case>
+<castGroup> <castGroup </castGroup> <castItem> <castItem </castItem> <castList> </castList> <catDesc>
+</catDesc> <catRef <category </category> <cb> <cb <cell> <cell </cell> <center> <center </center>
+<certainty <cf> </cf> <change> <change </change> <channel </channel> <character> <character </character>
+<characters> </characters> <children/> <children> <children <cit> </cit> <cite> <cite </cite> <city>
+</city> <cl> <cl </cl> <class> <class </class> <classCode <classDecl> </classDecl> <classDoc> <classDoc
+</classDoc> <classes> <classes </classes> <closer> </closer> <code> <code </code> <codedCharSet>
+<codedCharSet <col> </col> <colgroup> </colgroup> <colloc> <colloc </colloc> <comment> </comment>
+<commentary </commentary> <cond> </cond> <constitution </constitution> <contents/> <corr> <corr
+</corr> <correction> </correction> <country> <country </country> <creation> </creation> <creationDate>
+</creationDate>
+<damage> <damage </damage> <dataDesc> </dataDesc> <dataType> <date> <date </date> <dateRange </dateRange>
+<dateStruct> <dateStruct </dateStruct> <dateline> </dateline> <day> <day </day> <dd> <dd </dd> <def>
+</def> <default> <define-macro </define-macro> <define-script> </define-script> <define-style <del>
+<del </del> <delSpan <derivation </derivation> <desc> <desc </desc> <descrip> <descrip </descrip> <dfn>
+<dfn </dfn> <dft> <dir> <dir </dir> <direction <display-group> <display-group </display-group> <distance>
+<distance </distance> <distinct </distinct> <distributor> </distributor> <div0> <div0 </div0> <div1>
+<div1 </div1> <div2> <div2 </div2> <div3> <div3 </div3> <div4> <div4 </div4> <div5> <div5 </div5> <div6>
+<div6 </div6> <div7> <div7 </div7> <div> <div </div> <divGen <dl> <dl </dl> <doc> </doc> <docAuthor>
+</docAuthor> <docDate> <docEdition> </docEdition> <docImprint> </docImprint> <docTitle> </docTitle>
+<domain </domain> <dt> <dt </dt>
+<eLeaf <eTree </eTree> <earliesttime <edition> <edition </edition> <editionStmt> </editionStmt> <editor>
+<editor </editor> <editorialDecl> <editorialDecl </editorialDecl> <education> </education> <eg> </eg>
+<egwd> </egwd> <elemDecl> <elemDecl </elemDecl> <em> <em </em> <embed <emph> <emph </emph> <encodingDesc>
+</encodingDesc> <ent </ent> <entDoc> <entDoc </entDoc> <entName> <entName </entName> <entitySet>
+<entitySet <entry> <entry </entry> <entryFree> </entryFree> <epigraph> <epigraph </epigraph> <epilogue>
+</epilogue> <equipment> </equipment> <equiv <etym> </etym> <eval> </eval> <event <exceptions> <exceptions
+</exceptions> <exemplum> <exemplum </exemplum> <expan </expan> <extFigure <extent> </extent>
+<external-graphic
+<f </f> <fAlt> <fAlt </fAlt> <fDecl> <fDecl </fDecl> <fDescr> </fDescr> <fLib </fLib> <factuality
+</factuality> <fieldset> </fieldset> <fig> <figDesc> </figDesc> <figure </figure> <fileDesc> </fileDesc>
+<files> <files </files> <firstLang> </firstLang> <font </font> <foreName> <foreName </foreName> <foreign>
+<foreign </foreign> <forest> <forest </forest> <forestGrp> </forestGrp> <form> <form </form> <formula>
+<formula </formula> <frame <frameset </frameset> <front> </front> <fs> <fs </fs> <fsConstraints>
+<fsConstraints </fsConstraints> <fsDecl </fsDecl> <fsDescr> <fsLib </fsLib> <fsdDecl <funder> </funder>
+<fvLib </fvLib> <fw </fw>
+<gap> <gap <gen> </gen> <genName> </genName> <geog> </geog> <geogName> <geogName </geogName> </gfn> <gi>
+<gi </gi> <gloss> <gloss </gloss> <gram </gram> <gramGrp> <gramGrp </gramGrp> <graph </graph> <group>
+</group>
+<h1> <h1 </h1> <h2> <h2 </h2> <h3> <h3 </h3> <h4> <h4 </h4> <h5> <h5 </h5> <h6> <h6 </h6> <h> </h> <hand>
+<hand <handList> </handList> <handShift> <handShift <head> <head </head> <headItem> <headItem </headItem>
+<headLabel> <headLabel </headLabel> <hi> <hi </hi> <hom> <hom </hom> <home> </home> <horizontal-rule/>
+<hour> <hour </hour> <hps </hps> <hr/> <hr> <hr <hsn> </hsn> <html> </html> <hwd> </hwd> <hyph> </hyph>
+<hyphenation </hyphenation>
+<i> <i </i> <iNode <id <idno> <idno </idno> <if> <iff> <iframe> </iframe> <ihs> </ihs> <ilayer> </ilayer>
+<img <imprimatur> <imprint> </imprint> <index <input> <input <ins> <interaction <interp <interpGrp>
+<interpGrp </interpGrp> <interpretation> <intervaltime <invoke </invoke> <isindex> <item> <item </item>
+<itype> <itype </itype>
+<join <joinGrp </joinGrp>
+<kbd> <kbd </kbd> <keywords> <keywords </keywords> <kinesic
+<l> <l </l> <label> <label </label> <lacunaEnd> <lacunaStart> <lang> </lang> <langKnown> </langKnown>
+<langUsage> </langUsage> <language> <language </language> <latesttime <layer> <lb> <lb <lbl> <lbl </lbl>
+<leaf <legend> </legend> <lem> <lem <lg1> <lg1 </lg1> <lg2> <lg2 </lg2> <lg3> <lg3 </lg3> <lg4> <lg4
+</lg4> <lg5> <lg5 </lg5> <lg> <lg </lg> <li> <li </li> <line-field </line-field> <line> <link> <link
+</link> <linkGrp </linkGrp> <list-item </list-item> <list> <list </list> <listBibl> </listBibl>
+<listing> </listing> <locale> <locator <log <logtarget </logtarget>
+<m> <m </m> <map </map> <marquee </marquee> <measure </measure> <meeting> </meeting> <mentioned>
+<mentioned </mentioned> <menu> <menu </menu> <metDecl> <metDecl </metDecl> <meta <milestone <minus>
+<minus <minute> <minute </minute> <monogr> </monogr> <month> <month </month> <mood> <move <msr <multicol>
+</multicol> <mylink </mylink>
+<name> <name </name> <nameLink> </nameLink> <nbr <nextid <nobr> </nobr> <node <noframes> </noframes>
+<nolayer> </nolayer> <none> <normalization> <normalization </normalization> <noscript> </noscript>
+<note> <note </note> <notesStmt> </notesStmt> <null> <num> <num </num> <number> </number>
+<oRef> <oRef <oVar> <oVar </oVar> <object> </object> <occasion> <occasion </occasion> <occupation>
+<occupation </occupation> <offset> </offset> <ofig> <ol> <ol </ol> <omit> <omit </omit> <opener> </opener>
+<optgroup> </optgroup> <option> <option </option> <org> </org> <orgDivn </orgDivn> <orgName </orgName>
+<orgTitle </orgTitle> <orgType </orgType> <orig> <orig </orig> <ornament </ornament> <orth> <orth </orth>
+<otherForm>
+<p> <p </p> <pReg> <pVar <page> <para <paragraph> <paragraph </paragraph> <param <parents> <part> <part
+</part> <particDesc> </particDesc> <particLinks> <particLinks </particLinks> <participant> <participant
+</participant> <participantGrp> <pause> <pb> <pb <per> <performance> </performance> <persName> <persName
+</persName> <person </person> <personGrp> </personGrp> <ph> </ph> <phr> <phr </phr> <place> </place>
+<placeName> <placeName </placeName> <plus> <plus <pos> </pos> <PostBox> </postBox> <postCode> </postCode>
+<pr> </pr> <pre> <pre </pre> <preparedness <principal> </principal> <profileDesc> </profileDesc>
+<projectDesc> </projectDesc> <prologue> </prologue> <pron> <pron </pron> <ptr <pubPlace> </pubPlace>
+<publicationStmt> </publicationStmt> <publisher> </publisher> <purgetime <purpose <purposes> </purposes>
+<q> <q </q> <quotation </quotation> <quote> </quote>
+<range> <rate <rdg> <rdg </rdg> <rdgGrp </rdgGrp> <re> <re </re> <recording </recording> <recordingStmt>
+</recordingStmt> <ref> <ref </ref> <refsDecl> <refsDecl </refsDecl> <reg> <reg </reg> <region> <region
+</region> <relPlace> </relPlace> <relation <relationship </relationship> <remarks> <rendition </rendition>
+<residence> </residence> <resp> </resp> <respStmt> </respStmt> <respons <restore </restore> <revisionDesc>
+</revisionDesc> <role> <role </role> <roleDesc> </roleDesc> <roleName> <roleName </roleName> <root/>
+<root> <root <row> <row </row> <rs> <rs </rs> <rule> <rule </rule>
+<s> <s </s> <salute> </salute> <samp> <samp </samp> <samplingDecl> </samplingDecl> <schedule </schedule>
+<script> <script </script> <scriptStmt </scriptStmt> <scroll </scroll> <second> <second </second> <seg1>
+<seg1 </seg1> <seg> <seg </seg> <segmentation> </segmentation> <select-elements> </select-elements>
+<select> <select </select> <sense> <sense </sense> <sequence> </sequence> <series> </series> <seriesStmt>
+</seriesStmt> <seriesTitle> </seriesTitle> <set> </set> <setting> <setting </setting> <settingDesc>
+</settingDesc> <settle> <settle </settle> <settlement </settlement> <shift> <shift <sic> <sic </sic>
+<signed> <signed </signed> <small> <small </small> <soCalled> <soCalled </soCalled> <socecStatus>
+<socecStatus <sound> <sound </sound> <sourceDesc> </sourceDesc> <sp> <sp </sp> <space <spacer> <span>
+<span </span> <spanGrp </spanGrp> <speaker> </speaker> <sponsor> </sponsor> <sqrt> <stage> <stage </stage>
+<state> <state </state> <stdVals> </stdVals> <step <str> <str </str> <street> </street> <stress> <strike>
+<strike </strike> <string> </string> <strong> <strong </strong> <style-rule> </style-rule> <style>
+<style </style> <sub> <sub </sub> <subc> </subc> <sup> <sup </sup> <superEntry> </superEntry> <supplied>
+<supplied </supplied> <surName> <surName </surName> <syll> </syll> <sym <symbol <table> <table </table>
+<tag> </tag> <tagDoc> </tagDoc> <tagUsage </tagUsage> <tagsDecl> </tagsDecl> <target-element/>
+<target-element </target-element> <taxonomy </taxonomy> <tbody> <tbody </tbody> <td> <td </td> <tech>
+<tech </tech> <tei.2> </tei.2> <teiCorpus.2> </teiCorpus.2> <teiFsd2> </teiFsd2> <teiHeader> <teiHeader
+</teiHeader> <term> <term </term> <termEntry> <termEntry </termEntry> <text> <text </text> <textClass>
+</textClass> <textDesc> <textDesc </textDesc> <textarea> <textarea </textarea> <tfoot> <tfoot </tfoot>
+<th> <th </th> <thead> <thead </thead> <then> <tig </tig> <time> <time </time> <timeLine> <timeLine
+</timeLine> <timeRange </timeRange> <timeStruct> <timeStruct </timeStruct> <title-style <title> <title
+</title> <titlePage> <titlePage </titlePage> <titlePart> <titlePart </titlePart> <titleStmt> <titleStmt
+</titleStmt> <tns </tns> <tr> <tr </tr> <trailer> </trailer> <trans> <trans </trans> <tree </tree>
+<triangle </triangle> <tsd> </tsd> <tt> <tt </tt>
+<u> <u </u> <ul> <ul </ul> <uncertain> <unclear> <unclear </unclear> <usg> <usg </usg>
+<vAlt> <vAlt </vAlt> <vDefault> </vDefault> <vRange> </vRange> <val> </val> <valDesc> </valDesc>
+<valList> <valList </valList> <valRange> </valRange> <var> <var </var> <variantEncoding>
+<variantEncoding </variantEncoding> <view> </view> <vocal <vol>
+<w> <w </w> <warning-para </warning-para> <wbr> <week> <week </week> <what> <when <who> </who> <wit>
+<witDetail </witDetail> <witEnd> <witList> </witList> <witStart> <witness </witness> <work> </work>
+<writing </writing> <writingSystemDeclaration> <writingSystemDeclaration </writingSystemDeclaration>
+<xml> </xml> <xmp> </xmp> <xptr <xr> <xr </xr> <xref <xsl> </xsl>
+<year> <year </year>
+// />
+>
+<
+<%
+%>
+?>
+<? <?xml
+]]>
+<![CDATA[
+/C2"Attributes" STYLE_ATTRIBUTE
+-
+24hour=
+=
+NSDef=
+SrcDef=
+TEI= TEIForm=
+abbr= absolute= action= active= adj= adjFrom= adjTo= afiicode= age= agent= align= alink= all= allusion=
+alt= am= ana= ancestor= anchored= arity= assertedValue= attribute= authority=
+background-color= background= baseForm= baseType= behavior below bgcolor= border=
+calendar= cap= cause= cellpadding= cellspacing= cert= certainty= character= chars= children= class=
+classid= clear= code= codebase= codedCharSet= color= cols= colspan= complete= composite= content-role=
+content= coords= copyOf= corr= corresp= crdate= creator=
+data= date= dateCreated= dateUpdated= day= decls= default= definition= degree= delim= depPtr= depend=
+desc= descendant= descriptive= dim= dir= direct= direction discrete= doc= doctype= domains= dt:type=
+dt:values= dur=
+ed= encoding= end-indent= end= enjamb= entity= entityLoc= entitySet= entityStd= eol= evaluate= event=
+exact= excl= exclude= expan= expand= extendTarg= extent=
+fVal= face= feats= feature= field-width= first-line-start-indent= first= follow= following=
+font-family-name= font-family= font-posture= font-size= font-style= font-weight= for= form= frameborder=
+framespacing= from= fsd= full= function=
+gi= given= gradual= group= grpPtr=
+h= hand= has-value= height= hidden= hour= href= hspace= http-equiv=
+id= ident= image= inDegree= included= index= ink= inline= inst= interval= ismap= iso639= iterated=
+key=
+label2= label= lang= language= left-margin= lemma= length= level1= level2= level3= level4= level= lexpunc=
+line-spacing= lines= link= loc= location= locus= loop=
+macro= mailto= margin-bottom= margin-left= margin-top= marginheight= marginwidth= marker= marks=
+maxOccurs= mergedin= met= method= minOccurs= mlang= mode= multiple mutExcl= mutual=
+n= name= names= new= next= nohref none= noresize norm= noshade notation=
+occurs= old= onblur onchange= onclick onfocus onload only= onmouseout onmouseover onsubmit= opt= ord=
+order= org= orig= origin= outDegree=
+padding= parent= part= passive= pattern= per= perf= place= pm= position= prefix= prev= previous= prompt=
+quadding=
+real= reason= refunit= reg= rel= rend= render= required= resp= result= rev= rhyme= right-margin= role=
+rows= rowspan=
+sameAs= sample= scheme= scope= scribe= script= scrolling= select= selected sex= shape= show= sic= sigil=
+since= size= social= some= sort= source= space-after= space-before= space= span= split= src= standalone=
+start start-indent= start= status= string= style= subtype= synch=
+targFunc= targOrder= targType= target= targetEnd= targets= terminal= text-align= text= theme= time=
+timezone= title= to= token= topmargin= trans= type=
+ucs-4= uniform= unit= url= usage= use=
+valign= value= valueTo= varSeq= version= vlink= vspace=
+weights= where= who= width= wit= wscale= wsd=
+xl-role= xl-title= xml:link= xmlns xmlns:cmi xmlns:dt
+zone=
+/C3"Commands" STYLE_COMMAND
+edit else enjamb
+for function
+global globincl
+if interpret
+return
+then
+var
+while
+/C4"MSXMS schema nodes"
+<AttributeType </AttributeType>
+<ElementType </ElementType>
+<Schema </Schema>
+/C5"MSXMS schema attributes"
+<attribute> <attribute </attribute>
+/C6"MSXMS schema element list"
+<element> <element </element> /element>
+/C7"WSDL Schema attributes"
+attributeFormDefault
+default
+element
+elementFormDefault
+message
+name
+namespace
+targetNamespace
+type
+use
+value
+variable
+xmlns

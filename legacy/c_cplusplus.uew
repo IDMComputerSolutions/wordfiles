@@ -1,0 +1,104 @@
+/L1"C/C++" C_LANG Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = C CPP CC CXX H HPP AWK
+/TGBegin "Function"
+/TGFindStr = "%^([a-z_][a-z_0-9^[^]*]++^)[ ^t^p^r^n]++([~)]++)[~;{()]+[^p^r^n ^t]++[~/]++{[~}]"
+/TGFindStr = "%[ ^t]++^([a-z_][a-z_0-9]++::[a-z_^~][:a-z_0-9]++^)[ ^t^p]++([^p*&:, ^t^[^]/*^-'=:&a-z_0-9./(!]++)[~;{]++{"
+/TGFindStr = "%[ ^t]++[a-z_][:a-z_0-9^[^]*&]++[ ^t]+^([a-z_][a-z_0-9]++::[a-z_^~][:a-z_0-9]++^)[ ^t^p]++([^p*&:, ^t^[^]/*^-'=:&a-z_0-9./(!]++)[~;]"
+/TGFindStr = "%[a-z_][a-z_0-9^[^]:&]++[ ^t*]+[*&]++^([a-z_][a-z_0-9]++^)[ ^t]++([^p*&:, ^t^[^]a-z_0-9\+-./(!]++)[~;]++$"
+/TGFindStr = "%[a-z_][:a-z_0-9*&$^[^]*]++[ ^t]+[a-z_][:a-z_0-9*&$^[^]]++[ ^t*]+[*&]++^([a-z_][a-z_0-9]++^)[ ^t]++([^p*&:, ^t^[^]a-z_0-9./(!]++)+[~;]"
+/TGFindStr = "%[a-z_][:a-z_0-9^[^]*&]++[ ^t]+[a-z_][:a-z_0-9*&^[^]]++[ ^t]+[a-z_][:a-z_0-9*&^[^]]++[ ^t]+[*&]++^([a-z_][a-z_0-9]++^)[ ^t]++([^p*&:, ^t^[^]a-z_0-9./(!]++)[~;]"
+/TGFindStr = "%[a-z_][:a-z_0-9^[^]*&]++[ ^t]+[a-z_][:a-z_0-9*&^[^]]++[ ^t]+[a-z_][:a-z_0-9*&^[^]]++[ ^t]+[a-z_][:a-z_0-9*&^[^]]++[ ^t]+[*&]++^([a-z_][a-z_0-9]++^)[ ^t]++([^p*&:, ^t^[^]a-z_0-9./(!]++)[~;]"
+/TGBegin "Parameter"
+/TGFindStr = "[ ^t^p]++^([~,]+^)"
+/TGFindBStart = "("
+/TGFindBEnd = ")"
+/TGEnd
+/TGBegin "Variable"
+//type name;
+/TGFindStr = "%[ ^t]++^([a-z0-9_]+[ ^t^*]+[a-z0-9^[^]_]+^);"
+/TGFindBStart = "{"
+/TGFindBEnd = "}"
+//type name = init;
+/TGFindStr = "%[ ^t]++^([a-z0-9_]+[ ^t^*]+[a-z0-9^[^]_]+^)[ ^t]++=*;"
+/TGFindBStart = "{"
+/TGFindBEnd = "}"
+/TGEnd
+/TGEnd
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Member String = "^([a-z0-9_:.]+^)[ ^t^*&]+$S[ ^t^[^]a-z0-9_]++[(-);,]"
+//Variable String = "%[ ^t]++^([!-ÿ~ ^t<>]+*[~a-z^p]^)$S[ ^t;,()^-]"
+/Variable String = "^([!-ÿ~ ^t<>]+[~a-z^p]^)$S[ ^t;,()^-]"
+/Indent Strings = "{" "if" "else" ":"
+/Unindent Strings = "}"
+/Open Brace Strings =  "{" "(" "["
+/Close Brace Strings = "}" ")" "]"
+/Open Fold Strings = "{"
+/Close Fold Strings = "}"
+/C1"Keywords" STYLE_KEYWORD
+#define #elif #else #endif #error #if #ifdef #ifndef #include #include_next #line #pragma #undef
+__asm __based __cdecl __declspec __except __far __fastcall __finally __fortran __huge __inline __int16
+__int32 __int64 __int8 __interrupt __leave __loadds __near __pascal __saveregs __segment __segname __self
+__stdcall __try __uuidof
+auto
+bool break
+case char const continue
+default defined do double
+else enum extern
+float for
+goto
+if int
+long
+register return
+short signed sizeof static struct switch
+typedef
+union unsigned
+void volatile
+while
+/C2"C++ Keywords" STYLE_KEYWORD
+__multiple_inheritance __single_inheritance __virtual_inheritance
+catch class const_cast
+delete dynamic_cast
+explicit export
+false friend
+inline
+mutable
+namespace new
+operator
+private protected public
+reinterpret_cast
+static_cast
+template this throw true try typeid typename
+using
+virtual
+wchar_t
+/C3"Microsoft C extensions" STYLE_EXTENSION
+dllexport dllimport
+naked
+thread
+uuid
+/C4"Operators" STYLE_OPERATOR
+!
+$
+%
+&
+*
++
+-
+.
+// /
+:
+<
+=
+>
+?
+^
+|
+~
+/C5"Braces, comma, semicolon"
+(
+)
+,
+;
+[
+]
+{
+}
