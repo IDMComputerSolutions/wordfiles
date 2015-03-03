@@ -1,0 +1,141 @@
+/L14"AutoHotkey" Nocase Line Comment = ; Line Comment Preceding Chars = [~`] Escape Char = ` String Chars = " Block Comment On = /* Block Comment Off = */ File Extensions = ahk
+/DeLimiters = *~%+-!^&(){}=|\/:"';<>	, .
+/Indent Strings = "{" ":" "("
+/Unindent Strings = "}" "Return" "Else" ")"
+/Open Fold Strings = "{"
+/Close Fold Strings = "}"
+/Function String = "%[^t ]++^(:[^*^?BbCcKkOoPpRrZz0-9- ]++:*::^)"
+/Function String 1 = "%[^t ]++^([a-zA-Z0-9 #!^^&<>^*^~^$]+::^)"
+/Function String 2 = "%[^t ]++^([a-zA-Z0-9äöüß#_@^$^?^[^]]+:^)"
+/Function String 3 = "%[^t ]++^([a-zA-Z0-9äöüß#_@^$^?^[^]]+(*)^)"
+/Function String 4 = "%[^t ]++^(#[a-zA-Z]+ ^)"
+/C1"CommandNames"
+#AllowSameLineComments #ClipboardTimeout #CommentFlag #ErrorStdOut #EscapeChar #HotkeyInterval #HotkeyModifierTimeout #Hotstring #IfWinActive #IfWinExist #IfWinNotActive #IfWinNotExist #Include #IncludeAgain #InstallKeybdHook #InstallMouseHook #KeyHistory #LTrim #MaxHotkeysPerInterval #MaxMem #MaxThreads #MaxThreadsBuffer #MaxThreadsPerHotkey #NoEnv #NoTrayIcon #Persistent #SingleInstance #UseHook #WinActivateForce
+AutoTrim
+BlockInput Break
+Click ClipWait Continue Control ControlClick ControlFocus ControlGet ControlGetFocus ControlGetPos ControlGetText ControlMove ControlSend ControlSendRaw ControlSetText CoordMode Critical
+DetectHiddenText DetectHiddenWindows Drive DriveGet DriveSpaceFree
+Edit Else EnvAdd EnvDiv EnvGet EnvMult EnvSet EnvSub EnvUpdate Exit ExitApp
+FileAppend FileCopy FileCopyDir FileCreateDir FileCreateShortcut FileDelete FileGetAttrib FileGetShortcut FileGetSize FileGetTime FileGetVersion FileInstall FileMove FileMoveDir FileRead FileReadLine FileRecycle FileRecycleEmpty FileRemoveDir FileSelectFile FileSelectFolder FileSetAttrib FileSetTime FormatTime
+GetKeyState Gosub Goto GroupActivate GroupAdd GroupClose GroupDeactivate Gui GuiControl GuiControlGet
+Hotkey
+If IfEqual IfExist IfGreater IfGreaterOrEqual IfInString IfLess IfLessOrEqual IfMsgBox IfNotEqual IfNotExist IfNotInString IfWinActive IfWinExist IfWinNotActive IfWinNotExist ImageSearch IniDelete IniRead IniWrite Input InputBox
+KeyHistory KeyWait
+ListHotkeys ListLines ListVars Loop
+Menu MouseClick MouseClickDrag MouseGetPos MouseMove MsgBox
+OnExit OutputDebug
+Pause PixelGetColor PixelSearch PostMessage Process Progress
+Random RegDelete RegRead RegWrite Reload Repeat Return Run RunAs RunWait
+Send SendEvent SendInput SendMessage SendMode SendPlay SendRaw SetBatchLines SetCapslockState SetControlDelay SetDefaultMouseSpeed SetEnv SetFormat SetKeyDelay SetMouseDelay SetNumlockState SetScrollLockState SetStoreCapslockMode SetTimer SetTitleMatchMode SetWinDelay SetWorkingDir Shutdown Sleep Sort SoundBeep SoundGet SoundGetWaveVolume SoundPlay SoundSet SoundSetWaveVolume SplashImage SplashTextOff SplashTextOn SplitPath StatusBarGetText StatusBarWait StringCaseSense StringGetPos StringLeft StringLen StringLower StringMid StringReplace StringRight StringSplit StringTrimLeft StringTrimRight StringUpper Suspend SysGet
+Thread ToolTip Transform TrayTip
+URLDownloadToFile
+While WinActivate WinActivateBottom WinClose WinGet WinGetActiveStats WinGetActiveTitle WinGetClass WinGetPos WinGetText WinGetTitle WinHide WinKill WinMaximize WinMenuSelectItem WinMinimize WinMinimizeAll WinMinimizeAllUndo WinMove WinRestore WinSet WinSetTitle WinShow WinWait WinWaitActive WinWaitClose WinWaitNotActive
+/C2"Keywords"
+Abort AboveNormal Abs ACos Add ahk_class ahk_group ahk_id ahk_pid All Alnum Alpha AltSubmit AltTab AltTabAndMenu AltTabMenu AltTabMenuDismiss AlwaysOnTop And Asc ASin ATan AutoSize
+Background BackgroundTrans BelowNormal Between BitAnd BitNot BitOr BitShiftLeft BitShiftRight BitXOr bold Border Bottom Button Buttons ByRef
+Cancel Capacity Caption Ceil Center Check Check3 Checkbox Checked CheckedGray Choose ChooseString Chr Click Close Color ComboBox Contains ControlList Cos Count
+Date DateTime Days DDL Default Delete DeleteAll Delimiter Deref Destroy Digit Disable Disabled DropDownList
+Eject Enable Enabled Error Exist Exp Expand ExStyle
+FileSystem First Flash Float FloatFast Floor Focus Font
+global Grid Group GroupBox GuiClose GuiContextMenu GuiDropFiles GuiEscape GuiSize
+Hdr Hidden Hide High HKCC HKCR HKCU HKEY_CLASSES_ROOT HKEY_CURRENT_CONFIG HKEY_CURRENT_USER HKEY_LOCAL_MACHINE HKEY_USERS HKLM HKU Hours HScroll
+Icon IconSmall ID IDLast Ignore ImageList In Integer IntegerFast Interrupt Is italic
+Join
+Label LastFound LastFoundExist Left Limit Lines List ListBox ListView Ln local Lock Log Logoff Low Lower Lowercase LTrim
+MainWindow Margin Maximize MaximizeBox MaxSize Minimize MinimizeBox MinMax MinSize Minutes Mod MonthCal Mouse Move Multi
+NA No NoActivate NoDefault NoHide NoIcon NoMainWindow norm Normal NoSort NoSortHdr NoStandard Not NoTab NoTimers Number
+Off Ok On Or OwnDialogs Owner
+Parse Password Pic Picture Pixel Pos Pow Priority ProcessName
+Radio Range Read ReadOnly Realtime Redraw REG_BINARY REG_DWORD REG_EXPAND_SZ REG_MULTI_SZ REG_SZ Region Relative Rename Report Resize Restore Retry RGB Right Round RTrim
+Screen Seconds Section Serial SetLabel ShiftAltTab Show Sin Single Slider SortDesc Sqrt Standard static Status StatusBar StatusCD strike Style Submit SysMenu
+Tab Tab2 TabStop Tan Text Theme Tile Time Tip ToggleCheck ToggleEnable ToolWindow Top Topmost TransColor Transparent Tray TreeView TryAgain Type
+UnCheck underline Unicode Unlock UpDown Upper Uppercase UseErrorLevel
+Vis VisFirst Visible VScroll
+Wait WaitClose WantCtrlA WantF2 WantReturn Wrap
+Xdigit xm xp xs
+Yes ym yp ys
+{AltDown} {AltUp} {Blind} {Click} {CtrlDown} {CtrlUp} {LWinDown} {LWinUp} {Raw} {RWinDown} {RWinUp} {ShiftDown} {ShiftUp}
+/C3"Variables"
+A_AhkPath A_AhkVersion A_AppData A_AppDataCommon A_AutoTrim A_BatchLines A_CaretX A_CaretY A_ComputerName A_ControlDelay A_Cursor A_DD A_DDD A_DDDD A_DefaultMouseSpeed A_Desktop A_DesktopCommon A_DetectHiddenText A_DetectHiddenWindows A_EndChar A_EventInfo A_ExitReason A_FormatFloat A_FormatInteger A_Gui A_GuiControl A_GuiControlEvent A_GuiEvent A_GuiHeight A_GuiWidth A_GuiX A_GuiY A_Hour A_IconFile A_IconHidden A_IconNumber A_IconTip A_Index A_IPAddress1 A_IPAddress2 A_IPAddress3 A_IPAddress4 A_ISAdmin A_IsCompiled A_IsCritical A_IsPaused A_IsSuspended A_KeyDelay A_Language A_LastError A_LineFile A_LineNumber A_LoopField A_LoopFileAttrib A_LoopFileDir A_LoopFileExt A_LoopFileFullPath A_LoopFileLongPath A_LoopFileName A_LoopFileShortName A_LoopFileShortPath A_LoopFileSize A_LoopFileSizeKB A_LoopFileSizeMB A_LoopFileTimeAccessed A_LoopFileTimeCreated A_LoopFileTimeModified A_LoopReadLine A_LoopRegKey A_LoopRegName A_LoopRegSubkey A_LoopRegTimeModified A_LoopRegType A_MDAY A_Min A_MM A_MMM A_MMMM A_Mon A_MouseDelay A_MSec A_MyDocuments A_Now A_NowUTC A_NumBatchLines A_OSType A_OSVersion A_PriorHotkey A_ProgramFiles A_Programs A_ProgramsCommon A_ScreenHeight A_ScreenWidth A_ScriptDir A_ScriptFullPath A_ScriptName A_Sec A_Space A_StartMenu A_StartMenuCommon A_Startup A_StartupCommon A_StringCaseSense A_Tab A_Temp A_ThisFunc A_ThisHotkey A_ThisLabel A_ThisMenu A_ThisMenuItem A_ThisMenuItemPos A_TickCount A_TimeIdle A_TimeIdlePhysical A_TimeSincePriorHotkey A_TimeSinceThisHotkey A_TitleMatchMode A_TitleMatchModeSpeed A_UserName A_WDay A_WinDelay A_WinDir A_WorkingDir A_YDay A_YEAR A_YWeek A_YYYY
+Clipboard ClipboardAll ComSpec
+ErrorLevel
+False
+ProgramFiles
+True
+/C4"Functions"
+Abs ACos Asc ASin ATan
+Ceil Chr Cos
+DllCall
+Exp
+FileExist Floor
+GetKeyState
+IL_Add IL_Create IL_Destroy InStr IsFunc IsLabel
+Ln Log LV_Add LV_Delete LV_DeleteCol LV_GetCount LV_GetNext LV_GetText LV_Insert LV_InsertCol LV_Modify LV_ModifyCol LV_SetImageList
+Mod
+NumGet NumPut
+OnMessage
+RegExMatch RegExReplace RegisterCallback Round
+SB_SetIcon SB_SetParts SB_SetText Sin Sqrt StrLen SubStr
+Tan TV_Add TV_Delete TV_Get TV_GetChild TV_GetCount TV_GetNext TV_GetParent TV_GetPrev TV_GetSelection TV_GetText TV_Modify
+VarSetCapacity
+WinActive WinExist
+/C5"Keys"
+!
+#
+$
++
+^
+`
+Alt AltDown AltUp AppsKey
+BackSpace Browser_Back Browser_Favorites Browser_Forward Browser_Home Browser_Refresh Browser_Search Browser_Stop BS
+CapsLock Control Ctrl CtrlBreak CtrlDown CtrlUp
+Del Delete Down
+End Enter Esc Escape
+F1 F10 F11 F12 F13 F14 F15 F16 F17 F18 F19 F2 F20 F21 F22 F23 F24 F3 F4 F5 F6 F7 F8 F9
+Home
+Ins Insert
+Joy1 Joy10 Joy11 Joy12 Joy13 Joy14 Joy15 Joy16 Joy17 Joy18 Joy19 Joy2 Joy20 Joy21 Joy22 Joy23 Joy24 Joy25 Joy26 Joy27 Joy28 Joy29 Joy3 Joy30 Joy31 Joy32 Joy4 Joy5 Joy6 Joy7 Joy8 Joy9 JoyAxes JoyButtons JoyInfo JoyName JoyPOV JoyR JoyU JoyV JoyX JoyY JoyZ
+LAlt Launch_App1 Launch_App2 Launch_Mail Launch_Media LButton LControl LCtrl Left LShift LWin LWinDown LWinUp
+MButton Media_Next Media_Play_Pause Media_Prev Media_Stop
+NumLock Numpad0 Numpad1 Numpad2 Numpad3 Numpad4 Numpad5 Numpad6 Numpad7 Numpad8 Numpad9 NumpadAdd NumpadClear NumpadDel NumpadDiv NumpadDot NumpadDown NumpadEnd NumpadEnter NumpadHome NumpadIns NumpadLeft NumpadMult NumpadPgdn NumpadPgup NumpadRight NumpadSub NumpadUp
+Pause PGDN PGUP PrintScreen
+RAlt RButton RControl RCtrl Right RShift RWin RWinDown RWinUp
+ScrollLock Shift ShiftDown ShiftUp Space
+Tab
+Up
+Volume_Down Volume_Mute Volume_Up
+WheelDown WheelLeft WheelRight WheelUp
+XButton1 XButton2
+~
+/C6"Operators"
+%
+=
+<
+>
+*
+/
++
+-
+/C7"Separators"
+,
+** `n `r
+|
+(
+)
+{
+}
+/C8"Special"
+All
+AutoSize
+bold
+BackgroundTrans
+cBlue
+cDefault
+cGreen
+cRed
+cWhite
+is
+norm
+not
+Off
+On
