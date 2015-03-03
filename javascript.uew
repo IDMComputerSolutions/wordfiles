@@ -1,6 +1,9 @@
 /L9"JavaScript" JSCRIPT_LANG Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = '" File Extensions = JS jsm
 /Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
 /Regexp Type = Perl
+/TGBegin "Const"
+/TGFindStr = "^[ \t]*const[ \t]+(\w+[ \t]*)"
+/TGEnd
 /TGBegin "Functions"
 /TGFindStr = "^[ \t]*function[ \t]*(\w+[ \t]*)\(.*\)"
 /TGFindStr = "^[ \t]*(?:([\w \t\.\[\]]+)[ \t]*[=:][ \t]*){1,5}function[ \t]*\([^\)]*\)"
@@ -12,10 +15,6 @@
 /TGEnd
 /TGBegin "Object Declarations"
 /TGFindStr = "^[ \t]*(get|set)[ \t]+(\w+[ \t]*)\(.*\)"
-/TGEnd
-const __TEST__ =
-/TGBegin "Const"
-/TGFindStr = "^[ \t]*const[ \t]+(\w+[ \t]*)"
 /TGEnd
 /Indent Strings = "{" "else"
 /Unindent Strings = "}"
