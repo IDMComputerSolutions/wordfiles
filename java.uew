@@ -1,0 +1,146 @@
+/L4"Java" JAVA_LANG Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ File Extensions = JAV JAVA
+/Regexp Type = Perl
+/TGBegin "Imports"
+/TGFindStr = "^import([ \t]+[a-z0-9\.\*]+);"
+/TGEnd
+/TGBegin "Methods"
+/TGFindStr = "^[ \t]*[ps][a-z]+ [a-z0-9]+ (.*)\(.*\)[\n \ta-z0-9]+\{"
+/TGFindStr = "^[ \t]*[ps][a-z]+ (.*)\(.*\).*\{$"
+/TGBegin "Parameters"
+/TGFindStr = "[ \t\n]*([^,]+)"
+/TGFindBStart = "\("
+/TGFindBEnd = "\)"
+/TGEnd
+/TGBegin "Variables"
+//type name;
+/TGFindStr = "^[ \t]*([a-z0-9_]+[ \t\*]+[a-z0-9\[\]_]+);"
+/TGFindBStart = "\{"
+/TGFindBEnd = "\}"
+//type name = init;
+/TGFindStr = "^[ \t]*([a-z0-9_]+[ \t\*]+[a-z0-9\[\]_]+)[ \t]*=.*;"
+/TGFindBStart = "\{"
+/TGFindBEnd = "\}"
+/TGEnd
+/TGEnd
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Member String = "([A-Za-z0-9_:\.]+)[ \t\*&]+\$S[ \t]*[\(=\);,]"
+/Variable String = "([A-Za-z0-9_:\.]+)[ \t\*&]+\$S[ \t]*[\(=\);,]"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/Open Brace Strings =  "{" "(" "[" "<"
+/Close Brace Strings = "}" ")" "]" ">"
+/Open Fold Strings = "{"
+/Close Fold Strings = "}"
+/C1"Keywords" STYLE_KEYWORD
+abstract
+boolean break byte
+case catch char class continue
+default do double
+else extends
+false final finally float for
+if implements import instanceof int interface
+length long
+native new null
+package private protected public
+return
+short static super switch synchronized
+this threadsafe throw throws transient true try
+void
+while
+/C2"Classes" STYLE_FUNCTION
+AWTError AWTEvent AWTEventMulticaster AWTException AbstractMethodError AccessException Acl AclEntry
+AclNotFoundException ActionEvent ActionListener Adjustable AdjustmentEvent AdjustmentListener Adler32
+AlreadyBoundException Applet AppletContext AppletStub AreaAveragingScaleFilter ArithmeticException Array
+ArrayIndexOutOfBoundsException ArrayStoreException AudioClip
+BeanDescriptor BeanInfo Beans BigDecimal BigInteger BindException BitSet Boolean BorderLayout
+BreakIterator BufferedInputStream BufferedOutputStream BufferedReader BufferedWriter Button ButtonPeer
+Byte ByteArrayInputStream ByteArrayOutputStream
+CRC32 Calendar CallableStatement Canvas CanvasPeer CardLayout Certificate CharArrayReader CharArrayWriter
+CharConversionException Character CharacterIterator Checkbox CheckboxGroup CheckboxMenuItem
+CheckboxMenuItemPeer CheckboxPeer CheckedInputStream CheckedOutputStream Checksum Choice ChoiceFormat
+ChoicePeer Class ClassCastException ClassCircularityError ClassFormatError ClassLoader
+ClassNotFoundException Clipboard ClipboardOwner CloneNotSupportedException Cloneable
+CollationElementIterator CollationKey Collator Color ColorModel Compiler Component ComponentAdapter
+ComponentEvent ComponentListener ComponentPeer ConnectException ConnectIOException Connection Constructor
+Container ContainerAdapter ContainerEvent ContainerListener ContainerPeer ContentHandler
+ContentHandlerFactory CropImageFilter Cursor Customizer
+DGC DSAKey DSAKeyPairGenerator DSAParams DSAPrivateKey DSAPublicKey DataFlavor DataFormatException
+DataInput DataInputStream DataOutput DataOutputStream DataTruncation DatabaseMetaData DatagramPacket
+DatagramSocket DatagramSocketImpl Date DateFormat DateFormatSymbols DecimalFormat DecimalFormatSymbols
+Deflater DeflaterOutputStream Dialog DialogPeer Dictionary DigestException DigestInputStream
+DigestOutputStream Dimension DirectColorModel Double Driver DriverManager DriverPropertyInfo
+EOFException EmptyStackException Enumeration Error Event EventListener EventObject EventQueue
+EventSetDescriptor Exception ExceptionInInitializerError ExportException
+FeatureDescriptor Field FieldPosition File FileDescriptor FileDialog FileDialogPeer FileInputStream
+FileNameMap FileNotFoundException FileOutputStream FileReader FileWriter FilenameFilter FilterInputStream
+FilterOutputStream FilterReader FilterWriter FilteredImageSource Float FlowLayout FocusAdapter FocusEvent
+FocusListener Font FontMetrics FontPeer Format Frame FramePeer
+GZIPInputStream GZIPOutputStream Graphics GregorianCalendar GridBagConstraints GridBagLayout GridLayout
+Group
+Hashtable HttpURLConnection
+IOException Identity IdentityScope IllegalAccessError IllegalAccessException IllegalArgumentException
+IllegalComponentStateException IllegalMonitorStateException IllegalStateException
+IllegalThreadStateException Image ImageConsumer ImageFilter ImageObserver ImageProducer
+IncompatibleClassChangeError IndexColorModel IndexOutOfBoundsException IndexedPropertyDescriptor
+InetAddress Inflater InflaterInputStream InputEvent InputStream InputStreamReader Insets
+InstantiationError InstantiationException Integer InternalError InterruptedException
+InterruptedIOException IntrospectionException Introspector InvalidClassException InvalidKeyException
+InvalidObjectException InvalidParameterException InvocationTargetException ItemEvent ItemListener
+ItemSelectable
+Key KeyAdapter KeyEvent KeyException KeyListener KeyManagementException KeyPair KeyPairGenerator
+Label LabelPeer LastOwnerException LayoutManager LayoutManager2 Lease LightweightPeer
+LineNumberInputStream LineNumberReader LinkageError List ListPeer ListResourceBundle LoaderHandler Locale
+LocateRegistry LogStream Long
+MalformedURLException MarshalException Math MediaTracker Member MemoryImageSource Menu MenuBar MenuBarPeer
+MenuComponent MenuComponentPeer MenuContainer MenuItem MenuItemPeer MenuPeer MenuShortcut MessageDigest
+MessageFormat Method MethodDescriptor MissingResourceException Modifier MouseAdapter MouseEvent
+MouseListener MouseMotionAdapter MouseMotionListener MulticastSocket
+Naming NegativeArraySizeException NoClassDefFoundError NoRouteToHostException NoSuchAlgorithmException
+NoSuchElementException NoSuchFieldError NoSuchFieldException NoSuchMethodError NoSuchMethodException
+NoSuchObjectException NoSuchProviderException NotActiveException NotBoundException NotOwnerException
+NotSerializableException NullPointerException Number NumberFormat NumberFormatException
+ObjID Object ObjectInput ObjectInputStream ObjectInputValidation ObjectOutput ObjectOutputStream
+ObjectStreamClass ObjectStreamException Observable Observer Operation OptionalDataException
+OutOfMemoryError OutputStream OutputStreamWriter Owner
+PaintEvent Panel PanelPeer ParameterDescriptor ParseException ParsePosition Permission PipedInputStream
+PipedOutputStream PipedReader PipedWriter PixelGrabber Point Polygon PopupMenu PopupMenuPeer
+PreparedStatement Principal PrintGraphics PrintJob PrintStream PrintWriter PrivateKey Process Properties
+PropertyChangeEvent PropertyChangeListener PropertyChangeSupport PropertyDescriptor PropertyEditor
+PropertyEditorManager PropertyEditorSupport PropertyResourceBundle PropertyVetoException ProtocolException
+Provider ProviderException PublicKey PushbackInputStream PushbackReader
+RGBImageFilter RMIClassLoader RMIFailureHandler RMISecurityException RMISecurityManager RMISocketFactory
+Random RandomAccessFile Reader Rectangle Registry RegistryHandler Remote RemoteCall RemoteException
+RemoteObject RemoteRef RemoteServer RemoteStub ReplicateScaleFilter ResourceBundle ResultSet
+ResultSetMetaData RuleBasedCollator Runnable Runtime RuntimeException
+SQLException SQLWarning ScrollPane ScrollPanePeer Scrollbar ScrollbarPeer SecureRandom Security
+SecurityException SecurityManager SequenceInputStream Serializable ServerCloneException ServerError
+ServerException ServerNotActiveException ServerRef ServerRuntimeException ServerSocket Shape Short
+Signature SignatureException Signer SimpleBeanInfo SimpleDateFormat SimpleTimeZone Skeleton
+SkeletonMismatchException SkeletonNotFoundException Socket SocketException SocketImpl SocketImplFactory
+SocketSecurityException Stack StackOverflowError Statement StreamCorruptedException StreamTokenizer String
+StringBuffer StringBufferInputStream StringCharacterIterator StringIndexOutOfBoundsException StringReader
+StringSelection StringTokenizer StringWriter StubNotFoundException SyncFailedException System SystemColor
+TextArea TextAreaPeer TextComponent TextComponentPeer TextEvent TextField TextFieldPeer TextListener
+Thread ThreadDeath ThreadGroup Throwable Time TimeZone Timestamp TooManyListenersException Toolkit
+Transferable Types
+UID URL URLConnection URLEncoder URLStreamHandler URLStreamHandlerFactory UTFDataFormatException
+UnexpectedException UnicastRemoteObject UnknownError UnknownHostException UnknownServiceException
+UnmarshalException Unreferenced UnsatisfiedLinkError UnsupportedEncodingException
+UnsupportedFlavorException
+VMID Vector VerifyError VetoableChangeListener VetoableChangeSupport VirtualMachineError Visibility Void
+Window WindowAdapter WindowEvent WindowListener WindowPeer WriteAbortedException Writer
+ZipEntry ZipException ZipFile ZipInputStream ZipOutputStream
+/C3"Operators" STYLE_OPERATOR
+!
+%
+&
+*
++
+-
+// /
+<
+=
+>
+^
+|
+~
