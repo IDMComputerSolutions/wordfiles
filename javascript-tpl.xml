@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Templates encode="utf8escenc"><Template Name="alert" Comments="0" Strings="0">alert("[+Alert text+]");</Template><Template Name="else">else {&#xD;
+	^&#xD;
+}</Template><Template Name="elseif">else if ([+evaluation+]) &#xD;
+	^&#xD;
+}</Template><Template Name="finally">finally {&#xD;
+	^&#xD;
+}</Template><Template Name="for" Comments="0" Strings="0">for ([+i+] = [+X+]; [+i+] &lt; [+Y+]; [+i+]++) {&#xD;
+	^ // code to be executed&#xD;
+}</Template><Template Name="function">function [+funcName+] ([+params+]) {&#xD;
+	^&#xD;
+}</Template><Template Name="if" Comments="0" Strings="0">if ([+evaluation+]) {&#xD;
+	^&#xD;
+}</Template><Template Name="switch">switch ([+expression+]) {&#xD;
+	case [+value+]:&#xD;
+		^ // statements&#xD;
+	break;&#xD;
+	default:&#xD;
+		// default statements&#xD;
+}</Template><Template Name="try">try {&#xD;
+	^ // code to try&#xD;
+} catch (e) {&#xD;
+	// handle errors here&#xD;
+}</Template><Template Name="while">while ([+evaluation+]) {&#xD;
+	^ // code to be executed&#xD;
+}</Template></Templates>
