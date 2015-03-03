@@ -1,0 +1,187 @@
+/L20"Python" PYTHON_LANG Line Comment = # Escape Char = \ String Literal Prefix = r File Extensions = PY PYW
+/Regexp Type = Perl
+/TGBegin "Classes"
+/TGFindStr = "^[ \t]*class[ \t]+([^:\r\n]*)\("
+/TGBegin "Parameters"
+/TGFindStr = "[ \t\n]*([^,]+)"
+/TGFindBStart = "\("
+/TGFindBEnd = "\)"
+/TGEnd
+/TGFindStr = "^[ \t]*class[ \t]+([^:\r\n]*):"
+/TGEnd
+/TGBegin "Functions"
+/TGFindStr = "^[ \t]*def[ \t]+([^:\r\n]*)\("
+/TGBegin "Parameters"
+/TGFindStr = "[ \t\n]*([^,]+)"
+/TGFindBStart = "\("
+/TGFindBEnd = "\)"
+/TGEnd
+/TGEnd
+/Indent Strings = ":"
+/Delimiters = !@%^&*()-+=|\/{}[]:;"'`<> ,	.
+/Open Brace Strings = "(" "[" "{"
+/Close Brace Strings = ")" "]" "}"
+/C1"Keywords" STYLE_KEYWORD
+and as assert
+break
+class continue
+def del
+elif else except exec
+finally for from
+global
+if import in is
+lambda
+not
+object or
+pass print
+raise return
+try
+while with
+yield
+/C2"Built-in Functions" STYLE_FUNCTION
+Ellipsis
+False
+None NotImplemented
+True
+__import__
+abs all any
+basestring bin bool buffer
+callable chr classmethod cmp coerce compile complex
+delattr dict dir divmod
+enumerate eval execfile
+file filter float format frozenset
+getattr globals
+hasattr hash help hex
+id input int intern isinstance issubclass iter
+len list locals long
+map max min
+next
+oct open ord
+pow property
+range raw_input reduce reload repr reversed round
+set setattr slice sorted staticmethod str sum super
+tuple type
+unichr unicode
+vars
+xrange
+zip
+/C3"Methods" STYLE_METHOD
+Decimal
+__abs__ __add__ __and__ __call__ __cmp__ __coerce__ __contains__ __del__ __delattr__ __delitem__
+__delslice__ __div__ __divmod__ __eq__ __float__ __floordiv__ __ge__ __getattribute__ __getitem__
+__getnewargs__ __getslice__ __gt__ __hash__ __hex__ __iadd__ __iand__ __idiv__ __ilshift__ __imod__
+__imul__ __index__ __init__ __int__ __invert__ __ior__ __ipow__ __irshift__ __isub__ __iter__ __ixor__
+__le__ __len__ __long__ __lshift__ __lt__ __mod__ __mul__ __ne__ __neg__ __nonzero__ __oct__ __or__
+__pos__ __pow__ __radd__ __rand__ __rdiv__ __rdivmod__ __reduce__ __reduce_ex__ __repr__ __reserved__
+__rfloordiv__ __rlshift__ __rmod__ __rmul__ __ror__ __rpow__ __rrshift__ __rshift__ __rsub__ __rtruediv__
+__rxor__ __setattr__ __setitem__ __setslice__ __str__ __sub__ __xor__
+add append
+capitalize center clear close conjugate copy count
+decode difference discard
+encode endswith expandtabs extend
+fileno find flush fromkeys
+get getcontext
+has_key
+index insert intersection intersection_update isalnum isalpha isatty isdigit islower isspace issubset
+issuperset istitle isupper items iteritems iterkeys itervalues
+join
+keys
+ljust lower lstrip
+pop popitem
+read readline readlines remove replace reverse rfind rindex rjust rsplit rstrip
+seek setdefault sort split splitlines startswith strip swapcase symmetric_difference
+symmetric_difference_update
+tell title translate truncate
+union update upper
+values
+write writelines
+zfill
+/C4"Attributes" STYLE_ATTRIBUTE
+__author__ __bases__ __class__ __dict__ __doc__ __email__ __members__ __methods__ __name__ __slots__
+__version__
+/C5"Exceptions"
+ArithmeticError AssertionError AttributeError
+BaseException
+DeprecationWarning
+EOFError EnvironmentError Exception
+FloatingPointError FutureWarning
+GeneratorExit
+IOError ImportError ImportWarning IndentationError IndexError
+KeyError KeyboardInterrupt
+LookupError
+MemoryError
+NameError NotImplementedError
+OSError OverflowError OverflowWarning
+PendingDeprecationWarning
+ReferenceError RuntimeError RuntimeWarning
+StandardError StopIteration SyntaxError SyntaxWarning SystemError SystemExit
+TabError TypeError
+UnboundLocalError UnicodeDecodeError UnicodeEncodeError UnicodeError UnicodeTranslateError UnicodeWarning
+UserWarning
+ValueError
+Warning WindowsError
+ZeroDivisionError
+/C6"Operators" STYLE_OPERATOR
+!
+%
+&
+*
++
+-
+// /
+<
+=
+>
+^
+|
+~
+/C7"Common Libs"
+.ElementTree .ascii .ast .audio .base .charset .dom .encoders .errors .etree .expat .generator .handler
+.handlers .header .headers .idna .image .iterators .message .mime .minidom .multipart .nonmultipart .panel
+.parser .parsers .path .pulldom .sax .saxutils .simple_server .stats .test_support .text .textpad .util
+.utils .validate .visitor .wrapper .xmlreader
+AL
+BaseHTTPServer Bastion
+CGIHTTPServer Carbon ConfigParser Cookie
+DEVICE DocXMLRPCServer
+FL
+GL
+HTMLParser
+MimeWriter
+NNTPError
+Queue
+SUNAUDIODEV ScrolledText SimpleHTTPServer SimpleXMLRPCServer SocketServer StringIO
+Tix Tkinter
+UserDict UserList UserString
+__builtin__ __future__ __main__ _locale _winreg
+aifc al anydbm array asynchat asyncore atexit audioop
+base64 bdb binascii binhex bisect bsddb bz2
+cPickle cProfile cStringIO calendar cd cgi cgitb chunk cmath cmd code codecs codeop collections colorsys
+commands compileall compiler contextlib cookielib copy_reg crypt csv ctypes curses
+datetime dbhash dbm decimal difflib dircache dis distutils dl doctest dumbdbm dummy_thread dummy_threading
+email encodings errno exceptions
+fcntl filecmp fileinput fl flp fm fnmatch formatter fpectl fpformat ftplib functools
+gc gdbm getopt getpass gettext gl glob gopherlib grp gzip
+hashlib heapq hmac hotshot htmlentitydefs htmllib httplib
+ihooks imageop imaplib imgfile imghdr imp inspect itertools
+jpeg
+keyword knee
+linecache locale logging
+mailbox mailcap marshal math md5 mhlib mimetools mimetypes mimify mmap modulefinder msilib msvcrt
+multifile mutex
+netrc new nis nntplib
+operator optparse os ossaudiodev
+parser pdb pickle pickletools pipes pkgutil platform popen2 poplib posix posixfile pprint profile pstats
+pty pwd py_compile pyclbr pydoc pyexpat
+quopri
+random re resource rexec rfc822 rgbimg rlcompleter robotparser runpy
+sched select sets sgmllib sha shelve shlex shutil signal site sitecustomize smtpd smtplib sndhdr socket
+spwd sqlite3 stat statvfs string stringprep struct subprocess sunau sunaudiodev symbol sys syslog
+tabnanny tarfile telnetlib tempfile termios test textwrap thread threading time timeit token tokenize
+trace traceback tty turtle types
+unicodedata unittest urllib urllib2 urlparse user uu uuid
+warnings wave weakref webbrowser whichdb winsound wsgiref
+xdrlib xml xmlrpclib
+zipimport zlib
+/C8"Others"
+self
