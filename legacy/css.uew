@@ -1,0 +1,246 @@
+/L11"CSS 1.0-2.1" CSS_LANG Nocase Block Comment On = /* Block Comment Off = */ String Chars = "' Escape Char = \ DisableMLS File Extensions = CSS
+/TGBegin "Function"
+/TGFindStr = "%[ ^t]++^([ "#*+,^-./0-9:=>@^[^]_a-z|~]+^)[ ^t]++{"
+/TGBegin "Property"
+/TGFindStr = "[ ^t]++^(*:*^)"
+/TGFindBStart = "{"
+/TGFindBEnd = "}"
+/TGEnd
+/TGEnd
+/Delimiters = ( )	*+,.:;=>[\]{|}~
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/Open Brace Strings = "{" "(" "["
+/Close Brace Strings = "}" ")" "]"
+/Open Fold Strings = "{"
+/Close Fold Strings = "}"
+/C1"HTML 4.01 Elements"
+a abbr acronym address applet area
+b base basefont bdo big blockquote body br button
+caption cite code col colgroup
+dd del dfn dir div dl dt
+em
+fieldset form frame frameset
+h1 h2 h3 h4 h5 h6 head hr html
+i iframe img input ins isindex
+kbd
+label legend li
+map meta
+noframes noscript
+object ol optgroup option
+p param pre
+q
+s samp script select small span strike strong sub sup
+table tbody td textarea tfoot th thead title tr tt
+u ul
+var
+/C2"CSS Properties"
+azimuth
+background background-attachment background-color background-image background-position background-repeat
+border border-bottom border-bottom-color border-bottom-style border-bottom-width border-collapse
+border-color border-left border-left-color border-left-style border-left-width border-right
+border-right-color border-right-style border-right-width border-spacing border-style border-top
+border-top-color border-top-style border-top-width border-width
+caption-side clear clip color content counter-increment counter-reset cue cue-after cue-before cursor
+direction display
+elevation empty-cells
+float font font-family font-size font-stretch font-style font-variant font-weight
+height
+letter-spacing line-height list-style list-style-image list-style-position list-style-type
+margin margin-bottom margin-left margin-right margin-top max-height max-width min-height min-width
+orphans outline outline-color outline-style outline-width overflow
+padding padding-bottom padding-left padding-right padding-top page-break-after page-break-before
+page-break-inside pause pause-after pause-before pitch pitch-range play-during position
+quotes
+richness
+speak speak-header speak-numeral speak-punctuation speech-rate stress
+table-layout text-align text-decoration text-indent text-transform
+unicode-bidi
+vertical-align visibility voice-family volume
+white-space widows width word-spacing
+z-index
+/C3"CSS Values"
+above absolute always armenian ascent attr auto avoid
+baseline behind below bidi-override blink block bold bolder both bottom
+cap-height capitalize center center-left center-right centerline child circle cjk-ideographic
+close-quote collapse compact condensed continuous counter crosshair cursive
+dashed decimal decimal-leading-zero default definition-src descent digits disc dotted double
+e-resize embed expanded extra-condensed extra-expanded
+fantasy far-left far-right fast faster female fixed
+georgian groove
+hebrew help hidden hide high higher hiragana hiragana-iroha
+icon inherit inline inline-block inline-table inset inside invert italic
+justify
+katakana katakana-iroha
+landscape large larger left left-side leftwards level lighter line-through list-item
+loud low lower lower-alpha lower-greek lower-latin lower-roman lowercase ltr
+male marker marker-offset marks mathline medium menu message-box middle mix monospace move
+n-resize narrower ne-resize no-close-quote no-open-quote no-repeat none normal nowrap nw-resize
+oblique old once open-quote outset outside overline
+panose-1 pointer portrait pre-line pre-wrap progress
+rect relative repeat repeat-x repeat-y rgb ridge right right-side rightwards rtl run-in
+s-resize sans-serif scroll se-resize semi-condensed semi-expanded separate serif show silent
+size slope slow slower small-caps small-caption smaller soft solid spell-out square src static
+status-bar stemh stemv super sw-resize
+table-caption table-cell table-column table-column-group table-footer-group table-header-group
+table-row table-row-group text text-bottom text-shadow text-top thick thin top topline transparent
+ultra-condensed ultra-expanded underline unicode-range units-per-em upper-alpha upper-latin
+upper-roman uppercase url
+visible
+w-resize wait wider
+x-fast x-height x-high x-large x-loud x-low x-slow x-small x-soft xx-large xx-small
+young
+/C4"Pseudo Classes"
+active after
+before
+first-child first-letter first-line focus
+hover
+lang link
+visited
+/C5"Miscellaneous"
+!important
+(
+)
+*
++
+,
+.
+:
+;
+=
+>
+@charset @font-face @import @page
+[
+\
+]
+{
+|
+}
+~
+/C6"Colors"
+** #0 #1 #2 #3 #4 #5 #6 #7 #8 #9
+** #A0 #A1 #A2 #A3 #A4 #A5 #A6 #A7 #A8 #A9 #AA #AB #AC #AD #AE #AF
+** #B0 #B1 #B2 #B3 #B4 #B5 #B6 #B7 #B8 #B9 #BA #BB #BC #BD #BE #BF
+** #C0 #C1 #C2 #C3 #C4 #C5 #C6 #C7 #C8 #C9 #CA #CB #CC #CD #CE #CF
+** #D0 #D1 #D2 #D3 #D4 #D5 #D6 #D7 #D8 #D9 #DA #DB #DC #DD #DE #DF
+** #E0 #E1 #E2 #E3 #E4 #E5 #E6 #E7 #E8 #E9 #EA #EB #EC #ED #EE #EF
+** #F0 #F1 #F2 #F3 #F4 #F5 #F6 #F7 #F8 #F9 #FA #FB #FC #FD #FE #FF
+ActiveBorder ActiveCaption AppWorkspace aqua
+black blue ButtonFace ButtonHighlight ButtonShadow ButtonText
+CaptionText
+fuchsia
+gray GrayText green
+Highlight HighlightText
+InactiveBorder InactiveCaption InactiveCaptionText InfoBackground InfoText
+lime
+maroon MenuText
+navy
+olive orange
+purple
+red
+Scrollbar silver
+teal ThreeDDarkShadow ThreeDFace ThreeDHighlight ThreeDLightShadow ThreeDShadow
+white Window WindowFrame WindowText
+yellow
+/C7"Browser Proprietary"
+-link-set -link-use -moz-alias -moz-appearance -moz-background-clip -moz-background-inline-policy
+-moz-background-origin -moz-binding -moz-border-bottom-colors -moz-border-left-colors -moz-border-radius
+-moz-border-radius-bottomleft -moz-border-radius-bottomright -moz-border-radius-topleft
+-moz-border-radius-topright -moz-border-right-colors -moz-border-top-colors -moz-box-align
+-moz-box-direction -moz-box-flex -moz-box-ordinal-group -moz-box-orient -moz-box-pack -moz-box-sizing
+-moz-cell -moz-column-count -moz-column-gap -moz-column-width -moz-context-menu -moz-copy -moz-first-node
+-moz-float-edge -moz-force-broken-image-icon -moz-grab -moz-grabbing -moz-image-region -moz-key-equivalent
+-moz-last-node -moz-margin-end -moz-margin-start -moz-opacity -moz-outline -moz-outline-color
+-moz-outline-offset -moz-outline-radius -moz-outline-radius-bottomleft -moz-outline-radius-bottomright
+-moz-outline-radius-topleft -moz-outline-radius-topright -moz-outline-style -moz-outline-width
+-moz-padding-end -moz-padding-start -moz-pre-wrap -moz-scrollbars-horizontal -moz-scrollbars-none
+-moz-scrollbars-vertical -moz-spinning -moz-tree-cell -moz-tree-cell-text -moz-tree-column
+-moz-tree-drop-feedback -moz-tree-image -moz-tree-indentation -moz-tree-line -moz-tree-progressmeter
+-moz-tree-row -moz-tree-separator -moz-tree-twisty -moz-user-focus -moz-user-input -moz-user-modify
+-moz-user-select -moz-zoom-in -moz-zoom-out -o-link -o-link-source -o-pre-wrap -o-replace
+-o-set-link-source -o-use-link-source -pre-wrap -replace -set-link-source -use-link-source
+-xv-digits -xv-voice-pitch -xv-voice-pitch-range -xv-voice-rate -xv-voice-volume
+@-moz-document
+absolute-colorimetric accent add adjacent afar after-edge ahead alias alignment-adjust alignment-baseline
+all-scroll Alpha alphabetic alternate amharic amharic-abegede appearance arabic-indic asterisks auto-pos
+back background-break background-clip background-origin background-position-x background-position-y
+background-size backwards baseline-shift before-edge behavior bengali binary binding block-axis
+block-inside block-line-height block-within-page Blur bookmark-label bookmark-level bookmark-target
+border-bottom-left-radius border-bottom-right-radius border-box border-break border-edge border-image
+border-length border-radius border-top-left-radius border-top-right-radius bounding-box box box-align
+box-direction box-flex box-flex-group box-height box-lines box-orient box-pack box-shadow box-sizing
+box-width break-all break-strict break-word bt-rl button-small
+cambodian caps-height cell central change-bar change-bar-class change-bar-offset change-bar-side
+char check checkbox checkbox-container checkbox-small Chroma circled-decimal circled-lower-latin
+circled-upper-latin cjk-earthly-branch cjk-heavenly-stem clear-after col-resize color-profile
+column-break-after column-break-before column-count column-gap column-rule column-rule-color
+column-rule-style column-rule-width column-width columns consider-shifts content-box content-edge
+context-menu copy crop cross current
+devanagari dialog diamond disabled discard display-model display-role disregard-shifts distribute
+distribute-all-lines distribute-center-last distribute-letter distribute-space dominant-baseline
+dot dot-dash dot-dot-dash dotted-decimal double-circled-decimal down drop-initial-after-adjust
+drop-initial-after-align drop-initial-before-adjust drop-initial-before-align drop-initial-size
+drop-initial-value DropShadow DXImageTransform
+each-box ellipsis emboss enabled end end-edge engrave ethiopic ethiopic-abegede ethiopic-abegede-am-et
+ethiopic-abegede-gez ethiopic-abegede-ti-er ethiopic-abegede-ti-et ethiopic-halehame-aa-er
+ethiopic-halehame-aa-et ethiopic-halehame-am-et ethiopic-halehame-gez ethiopic-halehame-om-et
+ethiopic-halehame-sid-et ethiopic-halehame-so-et ethiopic-halehame-ti-er ethiopic-halehame-ti-et
+ethiopic-halehame-tig ethiopic-numeric ew-resize exclude-ruby
+fill filled-circled-decimal filter finishopacity finishx finishy fit fit-position FlipH FlipV
+float-displace float-offset font-effect font-emphasize font-emphasize-position font-emphasize-style
+font-size-adjust font-smooth footnotes format forwards freq front
+Glow grid-height gujarati gurmukhi
+hand hanging hanging-punctuation hangul hangul-consonant here horizontal hyphen hyphenate hyphenate-after
+hyphenate-before hyphenate-character hyphenate-dictionary hyphenate-lines hyphenate-resource hyphens
+ideograph-alpha ideograph-numeric ideograph-parenthesis ideograph-space ideographic image-orientation
+image-resolution images ime-mode inactive include-ruby increment indent indent-edge-reset initial ink
+inline-axis inline-box-align inline-inside inline-line-height inset-rect inter-cluster inter-ideograph
+inter-word
+japanese-formal japanese-informal
+kannada kashida keep-all khmer
+lao last layout-flow layout-grid layout-grid-char layout-grid-line layout-grid-mode layout-grid-type
+lightstrength line line-break line-edge line-stacking line-stacking-ruby line-stacking-shift
+line-stacking-strategy listbox literal-punctuation local loose lower-armenian lower-hexadecimal
+lower-norwegian lr-tb
+malayalam manual margin-box margin-edge mark mark-after mark-before marquee marquee-direction
+marquee-repetition marquee-speed marquee-style Mask mathematical max-size meet menuitem menulist
+menulist-button menulist-textfield menupopup Microsoft modal moderate mongolian move-to multiple myanmar
+nav-down nav-index nav-left nav-right nav-up nesw-resize never new newspaper no-change no-drop
+no-limit no-punctuation not-allowed ns-resize nwse-resize
+octal offx offy opacity oriya oromo outline-offset overflow-clip overflow-x overflow-y
+padding-box padding-edge page page-policy parent parenthesised-decimal parenthesised-lower-latin
+perceptual persian phase phonemes positive presentation-level preserve preserve-breaks progid
+progressbar punctuation-trim
+radio radio-container radio-small reduced relative-colorimetric rendering-intent reset-size
+resize resizer rest rest-after rest-before reverse rl-tb round row-resize ruby ruby-align
+ruby-base ruby-base-group ruby-overhang ruby-position ruby-span ruby-text ruby-text-group
+same saturation scrollbar-3dlight-color scrollbar-arrow-color scrollbar-base-color
+scrollbar-darkshadow-color scrollbar-face-color scrollbar-highlight-color scrollbar-shadow-color
+scrollbar-track-color scrollbar-x-color scrollbarbutton-down scrollbarbutton-left scrollbarbutton-right
+scrollbarbutton-up scrollbartrack-horizontal scrollbartrack-vertical self separator set-link-source
+Shadow sidama simp-chinese-formal simp-chinese-informal single slice slide somali spaces speek-numeral
+sRGB start startx starty statusbar strength stretch strict string-set style suppress syriac
+tab tab-left-edge tab-side tabpanels tamil target-name target-new target-position tb-rl telugu
+text-after-edge text-align-last text-autospace text-before-edge text-emphasis text-height text-justify
+text-kashida-space text-line-color text-line-decoration text-line-skip text-line-style text-outline
+text-overflow text-replace text-size text-underline-position text-wrap textfield thai tibetan tigre
+tigrinya-er tigrinya-er-abegede tigrinya-et tigrinya-et-abegede toolbar toolbarbutton toolbox tooltip
+trad-chinese-formal trad-chinese-informal treeheadercell treeheadersortarrow treeitem treetwisty
+treetwistyopen treeview
+unrestricted up upper-armenian upper-greek upper-hexadecimal upper-norwegian urdu use-link-source
+use-script
+vertical vertical-ideographic vertical-text voice-balance voice-duration
+voice-pitch voice-pitch-range voice-rate voice-stress voice-volume
+Wave weak white-space-collapse word-break word-wrap writing-mode
+x-strong x-weak XRay
+zoom
+/C8"Media Types/Neg. Numbers"
+** -0 -1 -2 -3 -4 -5 -6 -7 -8 -9
+@media
+all aural
+braille
+embossed
+handheld
+print projection
+screen speech
+tty tv
