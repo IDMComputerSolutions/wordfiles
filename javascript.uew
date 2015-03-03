@@ -11,7 +11,11 @@
 /TGEnd
 /TGEnd
 /TGBegin "Object Declarations"
-/TGFindStr = "^[ \t]*use[ \t]+([a-z0-9_:]+)"
+/TGFindStr = "^[ \t]*(get|set)[ \t]+(\w+[ \t]*)\(.*\)"
+/TGEnd
+const __TEST__ =
+/TGBegin "Const"
+/TGFindStr = "^[ \t]*const[ \t]+(\w+[ \t]*)"
 /TGEnd
 /Indent Strings = "{" "else"
 /Unindent Strings = "}"
@@ -70,6 +74,11 @@ window
 Components
 console
 Services
+XMLHttpRequest
+ReferenceError
+localStorage
+Blob
+unsafeWindow
 
 /C3"Methods and Properties" STYLE_METHOD
 ActiveXObject
@@ -143,6 +152,24 @@ Observer
 obs
 addObserver
 createInstance
+Constructor
+
+set
+body
+appendChild
+createElement
+getResponseHeader
+
+scriptloader
+loadSubScript
+stack
+__defineGetter__
+hasOwnProperty
+__proto__
+defineProperties
+writable
+enumerable
+configurable
 
 currentTarget
 data
@@ -245,6 +272,10 @@ startup shutdown install uninstall
 module
 require
 
+TextDecoder
+TextEncoder
+
+isPlainObject
 jQuery
 add
 addBack
@@ -281,6 +312,7 @@ empty
 end
 eq
 error
+extend
 fadeIn
 fadeOut
 fadeTo
@@ -383,6 +415,8 @@ width
 wrap
 wrapAll
 wrapInner
+isArray
+
 /C9"Selector" STYLE_KEYWORD
 :animated
 :button
