@@ -114,12 +114,21 @@ w-resize wait wider
 x-fast x-height x-high x-large x-loud x-low x-slow x-small x-soft xx-large xx-small
 young
 /C4"Pseudo-classes"
-active after
-before
-first-child first-letter first-line focus
+active after after-break
+before before-break bound-element
+checked choices
+disabled
+empty enabled
+first first-child first-letter first-line first-of-type focus footnote-call footnote-marker
 hover
-lang link
-visited
+in-range invalid
+lang last-child last-of-type link
+not nth-child nth-last-child nth-last-of-type nth-of-type
+only-child only-of-type optional out-of-range
+read-only read-write repeat-index repeat-item required root
+selection
+target
+valid value visited
 /C5"Braces, Special Chars, @ Rules"
 (
 )
@@ -131,7 +140,7 @@ visited
 ;
 =
 >
-@charset @import @page
+@charset @color-profile @counter-style @font-face @import @page
 [
 \
 ]
@@ -295,12 +304,19 @@ zoom
 /C8"Media Types, Neg. Numbers"
 ** -0 -1 -2 -3 -4 -5 -6 -7 -8 -9
 @media
-aural
+all aural
 braille
+color-index
+device-aspect-ratio device-height device-width
 embossed
+grid
 handheld
+max-color max-color-index max-device-aspect-ratio max-device-height max-device-width max-monochrome
+max-resolution min-color min-color-index min-device-aspect-ratio min-device-height min-device-width
+min-monochrome min-resolution monochrome
 print projection
-screen speech
+resolution
+scan screen speech
 tty tv
 /C9"Transitions"
 matrix matrix3d
