@@ -1,0 +1,156 @@
+/L15"NSIS Script v2.43" String Chars = '" Line Comment = ; Line Comment Alt = # Block Comment On = /* Block Comment Off = */ File Extensions = NSI NSH
+/Delimiters = ~@%^&*()-+=|\[]:;"'<> ,	?
+/Function String 1 = "%[ ^t]++^(Function[ ^t]+*^)^p"
+/Function String 2 = "%[ ^t]++^(PageEx[ ^t]+*^)^p"
+/Function String 3 = "%[ ^t]++^(Section[ ^t]+*^)^p"
+/Function String 4 = "%[ ^t]++^(SectionGroup[ ^t]+*^)^p"
+/Open Brace Strings = "{" "(" "["
+/Close Brace Strings = "}" ")" "]"
+/Open Comment Fold Strings = "/*"
+/Close Comment Fold Strings = "*/"
+/Indent Strings = "Function" "PageEx" "Section" "SectionGroup"
+/Unindent Strings = "FunctionEnd" "PageExEnd" "SectionEnd" "SectionGroupEnd"
+/Open Fold Strings = "Function" "PageEx" "Section" "SectionGroup"
+/Close Fold Strings = "FunctionEnd" "PageExEnd" "SectionEnd" "SectionGroupEnd"
+/C1"Keywords"
+AddSize
+Function FunctionEnd
+Page PageCallbacks PageEx PageExEnd
+Section SectionEnd SectionGroup SectionGroupEnd SectionIn
+UninstPage
+Var
+/C2"Instructions & Callbacks"
+.onGUIEnd .onGUIInit .onInit .onInstFailed .onInstSuccess .onMouseOverSection .onRebootFailed .onSelChange .onUserAbort .onVerifyInstDir
+Abort
+BringToFront
+Call CallInstDLL ClearErrors CopyFiles CreateDirectory CreateFont CreateShortCut
+Delete DeleteINISec DeleteINIStr DeleteRegKey DeleteRegValue DetailPrint
+EnableWindow EnumRegKey EnumRegValue Exch Exec ExecShell ExecWait ExpandEnvStrings
+File FileClose FileOpen FileRead FileReadByte FileSeek FileWrite FileWriteByte FindClose FindFirst FindNext FindWindow FlushINI
+GetCurInstType GetCurrentAddress GetDLLVersion GetDLLVersionLocal GetDlgItem GetErrorLevel GetFileTime GetFileTimeLocal
+GetFullPathName GetFunctionAddress GetInstDirError GetLabelAddress GetTempFileName Goto
+HideWindow
+IfAbort IfErrors IfFileExists IfRebootFlag IfSilent InitPluginsDir InstTypeGetText InstTypeSetText IntCmp IntCmpU IntFmt IntOp IsWindow
+LangString LicenseLangString LoadLanguageFile LockWindow LogSet LogText
+MessageBox
+Nop
+Pop Push
+Quit
+RMDir ReadEnvStr ReadINIStr ReadRegDWORD ReadRegStr Reboot RegDLL Rename ReserveFile Return
+SearchPath SectionGetFlags SectionGetInstTypes SectionGetSize SectionGetText SectionSetFlags SectionSetInstTypes SectionSetSize
+SectionSetText SendMessage SetAutoClose SetBrandingImage SetCtlColors SetCurInstType SetDetailsPrint SetDetailsView SetErrorLevel
+SetErrors SetFileAttributes SetOutPath SetRebootFlag SetRegView SetShellVarContext SetSilent ShowWindow Sleep StrCmp StrCmpS StrCpy StrLen
+un.onGUIEnd un.onGUIInit un.onInit un.onRebootFailed un.onSelChange un.onUninstFailed un.onUninstSuccess un.onUserAbort
+UnRegDLL
+WriteINIStr WriteRegBin WriteRegDWORD WriteRegExpandStr WriteRegStr WriteUninstaller
+/C3"Constants & Variables"
+** $
+${__Date__} ${__File__} ${__Function__} ${__Global__} ${__Line__} ${__Pageex__} ${__Section__} ${__TimeStamp__} ${__Time__} ${__Uninstall__} ${NSISDir}
+$0 $1 $2 $3 $4 $5 $6 $7 $8 $9 
+$AdminTools $AppData
+$CDBurn_Area $CMDLine $CommonFiles $CommonFiles32 $CommonFiles64 $Cookies
+$Desktop $Documents
+$ExeDir $ExeFile $ExePath
+$Favorites $Fonts
+$History $HwndParent
+$InstDir $Internet_Cache
+$Language $LocalAppData
+$Music
+$Nethood
+$OutDir
+$Pictures $PluginsDir $PrintHood $Profile $ProgramFiles $ProgramFiles32 $ProgramFiles64
+$QuickLaunch
+$R0 $R1 $R2 $R3 $R4 $R5 $R6 $R7 $R8 $R9 $Recent $Resources $Resources_Localized
+$SendTo $SMPrograms $SMStartup $StartMenu $SYSDir
+$Temp $Templates
+$Videos
+$WinDir
+/C4"Operators"
+! !=
+%
+& &&
+*
++
+-
+// /
+< <<
+<= <>
+= ==
+> >= >>
+^
+| ||
+~
+/C5"Elements"
+Admin All Archive Auto
+Both Bottom Bzip2
+Checkbox Components Cur Current
+Directory
+End
+False File_Attribute_Archive File_Attribute_Hidden File_Attribute_Normal File_Attribute_OffLine File_Attribute_ReadOnly File_Attribute_System File_Attribute_Temporary Force
+Hidden Hide Highest HKCC HKCR HKCU HKDD HKey_Classes_Root HKey_Current_Config HKey_Current_User HKey_DYN_Data HKey_Local_Machine HKey_Performance_Data HKey_Users HKLM HKPD HKU
+IdAbort IdCancel IdIgnore IdNo IdOk IdRetry IdYes IfDiff IfNewer InstFiles
+LastUsed Leave Left License ListOnly LZMA
+MB_AbortRetryIgnore MB_DefButton1 MB_DefButton2 MB_DefButton3 MB_DefButton4 MB_IconExclamation MB_IconInformation MB_IconQuestion MB_IconStop MB_Ok MB_OkCancel
+MB_RetryCancel MB_Right MB_RtlReading MB_SetForeground MB_TopMost MB_UserIcon MB_YesNo MB_YesNoCancel
+NeverShow None Normal
+Off OffLine On
+RadioButtons ReadOnly Right
+Set ShCtx Shell_Context Show Silent SilentLog SW_Hide SW_ShowMaximized SW_ShowMinimized SW_ShowNormal System
+Temporary TextOnly Top True
+UninstConfirm User
+Zlib
+/C6"Preprocessor & Switches"
+// /A
+// /Branding
+// /ComponentsOnlyOnCustom /CustomString
+// /Date
+// /E /EnableCancel
+// /File /FilesOnly /Final
+// /Global
+// /IfEmpty /IgnoreCase /ImgId /Italic
+// /Lang
+// /Math
+// /NoCustom /NoErrors /NonFatal
+// /O /oName
+// /R /RebootOK /ResizeToFit
+// /SD /Short /Silent /Solid /Strike
+// /TimeOut /TrimCenter /TrimLeft /TrimRight
+// /Underline /UTCDate
+// /Windows
+// /X
+!AddIncludeDir !AddPluginDir !AppendFile
+!CD
+!Define !DelFile
+!Echo !Else !EndIf !Error !Execute
+!If !IfDef !IfMacroDef !IfMacroNDef !IfNDef !Include !InsertMacro
+!Macro !MacroEnd
+!PackHdr
+!SearchParse !SearchReplace !System
+!Tempfile
+!Undef
+!Verbose
+!Warning
+/C7"Installer Attributes"
+AddBrandingImage AllowSkipFiles AllowRootDirInstall AutoCloseWindow
+BGFont BGGradient BrandingText
+CRCCheck Caption ChangeUI CheckBitmap CompletedText ComponentText
+DetailsButtonText DirText DirVar DirVerify
+FileBufSize FileErrorText
+Icon InstProgressFlags InstType InstallButtonText InstallColors InstallDir InstallDirRegKey
+LicenseBkColor LicenseData LicenseForceSelection LicenseText
+MiscButtonText
+Name
+OutFile
+RequestExecutionLevel
+SetCompress SetCompressor SetCompressorDictSize SetDatablockOptimize SetDateSave SetFont SetOverWrite
+ShowInstDetails ShowUninstDetails SilentInstall SilentUnInstall SpaceTexts SubCaption
+UninstallButtonText UninstallCaption UninstallIcon UninstallSubCaption UninstallText
+VIAddVersionKey VIProductVersion
+WindowIcon
+XPStyle
+/C8"Separator"
+(
+)
+,
+[
+]

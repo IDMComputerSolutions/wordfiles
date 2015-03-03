@@ -1,4 +1,4 @@
-/L9"JavaScript" JSCRIPT_LANG Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = '" File Extensions = JS
+/L9"JavaScript" JSCRIPT_LANG Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = '" File Extensions = JS jsm
 /Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
 /Regexp Type = Perl
 /TGBegin "Functions"
@@ -33,6 +33,10 @@ short static super switch synchronized
 this throw transient true try
 var void
 while with
+
+let
+of
+
 /C2"Objects" STYLE_OPERATOR
 Anchor Applet Area Array
 Boolean Button
@@ -59,6 +63,10 @@ activeDocument
 document
 screen
 window
+
+Components
+console
+
 /C3"Methods and Properties" STYLE_METHOD
 ActiveXObject
 E Echo
@@ -120,6 +128,13 @@ watch which width write writeln
 x
 y
 zIndex
+
+utils
+interfaces
+results
+EXPORTED_SYMBOLS
+exports
+
 /C4"Operators" STYLE_OPERATOR
 !
 $

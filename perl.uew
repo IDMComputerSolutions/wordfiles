@@ -1,4 +1,4 @@
-/L5"Perl" PERL_LANG EnableMLS Line Comment = # Line Comment Preceding Chars = [~[^]^^$/\(] Block Comment On = =pod Block Comment Off = =cut Block Comment On Alt = =item Block Comment Off Alt = =cut Escape Char = \ File Extensions = CGI PL PM PLX
+/L5"Perl" PERL_LANG EnableMLS Line Comment = # Line Comment Preceding Chars = [~[^]^^$/\(] Block Comment On = =pod Block Comment Off = =cut Block Comment On Alt = =item Block Comment Off Alt = =cut String Chars = "'` Escape Char = \ File Extensions = CGI PL PM PLX
 /Delimiters = ~!@$%^&*()+=|\/{}[]:;"'<> 	,.?\`/
 /Regexp Type = Perl
 /TGBegin "Use Declarations"
@@ -59,6 +59,11 @@ tell telldir tie tied time times truncate
 uc ucfirst umask undef unlink unpack unshift untie utime
 values vec
 wait waitpid wantarray warn write
+
+usleep
+gettimeofday
+mktime
+ctime
 /C3"Methods" STYLE_METHOD
 AUTOLOAD
 BEGIN
@@ -90,6 +95,9 @@ sigtrap strict subs
 utf8
 vars
 warnings
+
+STDERR
+FILE
 /C4"Operators" STYLE_OPERATOR
 !
 &
@@ -116,6 +124,7 @@ x xor
 y
 |
 ~
+:
 /C5"CGI Funcs"
 Accept
 CGI Carp
@@ -159,3 +168,10 @@ fetch finish
 prepare
 /C8"Variables"
 ** $ % @
+/C9"execute" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+\`\`
+`
+/C10"Object"
+Time
+HiRes
+POSIX
