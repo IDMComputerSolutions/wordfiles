@@ -60,11 +60,17 @@ STYLE_KEYWORD STYLE_METHOD STYLE_OPERATOR STYLE_STATEMENT STYLE_TAG STYLE_VARIAB
 /Colors Back = 16777215,16777215,16777215,16777215,16777215,
 /Colors Auto Back = 1,1,1,1,1,
 /Font Style = 0,0,0,0,0,
+/TGBegin "Language"
+/TGFindStr = "%/L[0-9]+"^(*^)""
+/TGEnd
 /TGBegin "Sections"
-/TGFindStr = "%/^(C[0-9]+"*"^)"
+/TGFindStr = "%/^(C[0-9]+^("*"^)?^)"
+/TGEnd
+/TGBegin "Function"
+/TGFindStr = "%/TGBegin "^(*^)""
+/TGFindStr = "%/^(Function^) String"
 /TGEnd
 /Delimiters = " ,/=
-/Function String = "%/L[0-9]+"^(*^)""
 /Open Fold Strings = "/C1" "/C2" "/C3" "/C4" "/C5" "/C6" "/C7" "/C8" "/C9" "/C10" "/C11" "/C12" "/C13" "/C14" "/C15" "/L1" "/L2" "/L3" "/L4" "/L5" "/L6" "/L7" "/L8" "/L9" "/L10" "/L11" "/L12" "/L13" "/L14" "/L15" "/L16" "/L17" "/L18" "/L19" "/L20" "/TGBegin"
 /Close Fold Strings = "/C2" "/C3" "/C4" "/C5" "/C6" "/C7" "/C8" "/C9" "/C10" "/C11" "/C12" "/C13" "/C14" "/C15" "/L2" "/L3" "/L4" "/L5" "/L6" "/L7" "/L8" "/L9" "/L10" "/L11" "/L12" "/L13" "/L14" "/L15" "/L16" "/L17" "/L18" "/L19" "/L20" "/TGEnd"
 /Ignore Fold Strings = "// /"
