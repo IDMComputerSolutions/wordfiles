@@ -27,7 +27,7 @@
 /TGEnd
 /TGEnd
 /TGBegin "Object Variables/Properties"
-/TGFindStr = "^[ \t]*(\w+[ \t]*):[ \t]*(?!function)[\w\'\"\d\(\{]+"
+/TGFindStr = "^[ \t]*(\w+[ \t]*):[ \t]*(?!function)[^\s\t]+"
 /TGEnd
 /Indent Strings = "{" "else"
 /Unindent Strings = "}"
