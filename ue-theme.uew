@@ -57,7 +57,7 @@ Finish=
 </Font>
 <Color
 </Color>
-/C5"Variables" STYLE_KEYWORD
+/C6"Variables" STYLE_KEYWORD
 Normal
 Comments
 Text
@@ -72,7 +72,7 @@ false
 Bold
 Italic
 Custom
-/C6"Operators" STYLE_OPERATOR
+/C7"Operators" STYLE_OPERATOR
 !
 $
 %
@@ -94,10 +94,10 @@ $
 .
 "
 '
-/C7"Languages" STYLE_ELEMENT
+/C8"Languages" STYLE_ELEMENT
 <Language
 </Language>
-/C8"Keywords" STYLE_KEYWORD
+/C9"Keywords" STYLE_KEYWORD
 to-do list
 UE Themes
 Default
@@ -105,7 +105,7 @@ Dockable Windows
 Hex/Column
 
 ** ID_
-/C9"Elements Other" STYLE_ELEMENT
+/C10"Elements Other" STYLE_ELEMENT
 ** <
-/C9"Color Variables" STYLE_KEYWORD
+/C11"Color Variables" STYLE_KEYWORD
 ** #
