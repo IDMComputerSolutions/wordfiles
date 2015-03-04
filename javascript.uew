@@ -6,7 +6,7 @@
 /TGEnd
 /TGBegin "Functions"
 /TGFindStr = "^[ \t]*function[ \t]*(\w+[ \t]*)\(.*\)"
-/TGFindStr = "^[ \t]*(?:([\w \t\.\[\]]+)[ \t]*[=:][ \t]*){1,5}function[ \t]*\([^\)]*\)"
+/TGFindStr = "^[ \t]*(?:var[ \t]+)?(?:([\w \t\.\[\]]+)[ \t]*[=][ \t]*){1,5}function[ \t]*\([^\)]*\)"
 /TGBegin "Parameters"
 /TGFindStr = "[ \t\n]*([^,]+)"
 /TGFindBStart = "\("
@@ -15,6 +15,19 @@
 /TGEnd
 /TGBegin "Object Declarations"
 /TGFindStr = "^[ \t]*(get|set)[ \t]+(\w+[ \t]*)\(.*\)"
+/TGEnd
+/TGBegin "Object Method"
+/TGFindStr = "^[ \t]*(\w+[ \t]*):[ \t]*function[ \t]*\([^\)]*\)"
+/TGFindStr = "^[ \t]*(?:([\w \t\.\[\]]+)[ \t]*[:][ \t]*){1,5}function[ \t]*\([^\)]*\)"
+/TGFindStr = "^[ \t]*(\w+[ \t]*)\([^\)]*\):[ \t]*(?!function).*"
+/TGBegin "Parameters"
+/TGFindStr = "[ \t\n]*([^,]+)"
+/TGFindBStart = "\("
+/TGFindBEnd = "\)"
+/TGEnd
+/TGEnd
+/TGBegin "Object Variables/Properties"
+/TGFindStr = "^[ \t]*(\w+[ \t]*):[ \t]*(?!function)[\w\'\"\d\(\{]+"
 /TGEnd
 /Indent Strings = "{" "else"
 /Unindent Strings = "}"
@@ -78,6 +91,7 @@ ReferenceError
 localStorage
 Blob
 unsafeWindow
+XPCOMUtils
 
 /C3"Methods and Properties" STYLE_METHOD
 ActiveXObject
@@ -152,6 +166,9 @@ obs
 addObserver
 createInstance
 Constructor
+QueryInterface
+observe
+generateQI
 
 set
 body
