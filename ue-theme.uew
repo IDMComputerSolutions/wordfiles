@@ -1,4 +1,4 @@
-/L20"UE Themes" XML_LANG Noquote Block Comment On = <!-- Block Comment Off = --> Escape Char = \ String Chars = '" File Extensions = ue-theme
+/L20"UE Themes" XML_LANG Noquote Block Comment On = <!-- Block Comment Off = --> Escape Char = \ String Chars = '" File Extensions = UE-THEME
 /Delimiters = ~@$^&*( )+=|\{};"'<>	,
 /Regexp Type = Perl
 /TGBegin "Window"
