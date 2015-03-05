@@ -1,15 +1,18 @@
-/L20"INI Files" Nocase Line Comment = ; Line Comment Preceding Chars = [~0-9A-Za-z_] String Chars = "% DisableMLS File Extensions = INF INI PRJ PUI
-/Delimiters = ! "	%&'()*+,-./:;<=>?@[\]^{|}~
-/Function String = "%^[^(*^)^]"
+/L20"INI Files" Nocase Line Comment = ; String Chars = "' File Extensions = INI DAT INF PRJ PUI
+/Colors = 0,8421376,8421376,8421504,255,
+/Colors Back = 16777215,16777215,16777215,16777215,16777215,
+/Colors Auto Back = 1,1,1,1,1,
+/Font Style = 0,0,0,0,0,
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Function String = "%^[*^]$"
 /Open Fold Strings = "["
 /Close Fold Strings = "["
 /Ignore Fold Strings = "="
 /Marker Characters = "[]"
-/C1"Section name"
+/C1"Section name" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 []
-/C2"Separators"
+/C2"Separators" Colors = 255 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 ,
 -
-=
-/C3"Variables"
+=/C3"Variables"
 %

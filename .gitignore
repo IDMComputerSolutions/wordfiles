@@ -1,2 +1,6 @@
 .htaccess
 *.bak
+
+~ci.list.txt
+~ci.log.txt
+~ci.errors.txt

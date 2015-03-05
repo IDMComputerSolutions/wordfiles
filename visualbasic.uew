@@ -1,0 +1,166 @@
+/L2"Visual Basic" VB_LANG Line Comment = ' File Extensions = BAS FRM CLS VB VBA CTL DSR
+/Regexp Type = Perl
+/TGBegin "Functions"
+/TGFindStr = "^[\t ]*(?:public[\t ]+|private[\t ]+)*function[\t ]+([a-z][0-9a-z_]*)[\t ]*\("
+/TGBegin "Parameters"
+/TGFindStr = "\s*([^,]+)"
+/TGFindBStart = "\("
+/TGFindBEnd = "\)"
+/TGEnd
+/TGEnd
+/TGBegin "Subs"
+/TGFindStr = "^[\t ]*(?:public[\t ]+|private[\t ]+)*sub[\t ]+([a-z][0-9a-z_]*)[\t ]*\("
+/TGBegin "Parameters"
+/TGFindStr = "\s*([^,]+)"
+/TGFindBStart = "\("
+/TGFindBEnd = "\)"
+/TGEnd
+/TGEnd
+/Delimiters = ! "	%&'()*+,-./:;<=>?@[\]^{|}~
+/Open Brace Strings =  "{" "(" "[" "<"
+/Close Brace Strings = "}" ")" "]" ">"
+/Indent Strings = "Then" "Select Case" "Do While" "Do Until" "Else" "Do" "<td>" "<tr>"
+/Unindent Strings = "End" "Next" "End If" "End Select" "Loop" "End Select" "Loop While" "Else" "</td>" "</tr>"
+/Open Fold Strings = "Do While" "If" "ElseIf" "Function" "Sub" "With" "For" "Select Case" "Case Else" "Case" "Else"
+/Close Fold Strings = "ElseIf" "End If" "End Function" "End Sub" "End With" "Loop" "Next" "Wend" "End Select" "Case Else" "Case" "Else"
+/Ignore Fold Strings = "Exit Function" "Exit Sub" "Exit For" "Declare Function" "Continue For" "On Error Resume Next"
+/C1"Functions" STYLE_FUNCTION
+Abs Array Asc AscB AscW Atn Avg
+CBool CByte CCur CDate CDbl CInt CLng CSng CStr CVDate CVErr CVar Cdec Choose Chr ChrB ChrW Command Cos
+Count CreateObject CurDir
+DDB Date DateAdd DateDiff DatePart DateSerial DateValue Day Dir DoEvents
+EOF Environ Error Exp
+FV FileAttr FileDateTime FileLen Fix Format FreeFile
+GetAllStrings GetAttr GetAutoServerSettings GetObject GetSetting
+Hex Hour
+IIf IMEStatus IPmt InStr Input InputB InputBox InstB Int IsArray IsDate IsEmpty IsError IsMissing IsNull
+IsNumeric IsObject
+LBound LCase LOF LTrim Left LeftB Len LenB LoadPicture Loc
+MIRR Max Mid MidB Min Minute Month MsgBox
+NPV NPer Now
+Oct
+PPmt PV Partition Pmt
+QBColor
+RGB RTrim Rate Right RightB Rnd
+SLN SYD Second Seek Sgn Shell Sin Space Spc Sqr StDev StDevP Str StrComp StrConv String Sum Switch
+Tab Tan Time TimeSerial TimeValue Timer Trim TypeName
+UBound UCase
+Val Var VarP VarType
+Weekday
+Year
+/C2"Methods" STYLE_METHOD
+Accept Activate Add AddCustom AddFile AddFromFile AddFromTemplate AddItem AddNew AddToAddInToolbar
+AddToolboxProgID Append AppendChunk Arrange Assert AsyncRead
+BatchUpdate BeginTrans Bind
+CanPropertyChange Cancel CancelAsyncRead CancelBatch CancelUpdate CaptureImage CellText CellValue Circle
+Clear ClearFields ClearSel ClearSelCols Clone Close Cls ColContaining ColumnSize CommitTrans
+CompactDatabase Compose Connect Copy CopyQueryDef CreateDatabase CreateDragImage CreateEmbed CreateField
+CreateGroup CreateIndex CreateLink CreatePreparedStatement CreatePropery CreateQuery CreateQueryDef
+CreateRelation CreateTableDef CreateUser CreateWorkspace Customize
+Delete DeleteColumnLabels DeleteColumns DeleteRowLabels DeleteRows DoVerb Drag Draw
+Edit EditCopy EditPaste EndDoc EnsureVisible EstablishConnection Execute ExtractIcon
+Fetch FetchVerbs Files FillCache Find FindFirst FindItem FindLast FindNext FindPrevious Forward
+GetBookmark GetChunk GetClipString GetData GetFirstVisible GetFormat GetHeader GetLineFromChar GetNumTicks
+GetRows GetSelectedPart GetText GetVisibleCount GoBack GoForward
+Hide HitTest HoldFields
+Idle InitializeLabels InsertColumnLabels InsertColumns InsertObjDlg InsertRowLabels InsertRows Item
+KillDoc
+Layout Line LinkExecute LinkPoke LinkRequest LinkSend Listen LoadFile LoadResData LoadResPicture
+LoadResString LogEvent
+MakeCompileFile MakeReplica MoreResults Move MoveData MoveFirst MoveLast MoveNext MovePrevious
+NavigateTo NewPage NewPassword NextRecordset
+OLEDrag OnAddinsUpdate OnConnection OnDisconnection OnStartupComplete Open OpenConnection OpenDatabase
+OpenQueryDef OpenRecordset OpenResultset OpenURL Overlay
+PSet PaintPicture PastSpecialDlg Paste PeekData Play Point PopulatePartial PopupMenu Print PrintForm
+PropertyChanged
+Quit
+Raise RandomDataFill RandomFillColumns RandomFillRows ReFill ReadFromFile ReadProperty Rebind Refresh
+RefreshLink RegisterDatabase Reload Remove RemoveAddInFromToolbar RemoveItem Render RepairDatabase Reply
+ReplyAll Requery ResetCustom ResetCustomLabel ResolveName RestoreToolbar Resync Rollback RollbackTrans
+RowBookmark RowContaining RowTop
+Save SaveAs SaveFile SaveToFile SaveToOle1File SaveToolbar Scale ScaleX ScaleY Scroll SelPrint Select
+SelectAll SelectPart Send SendData Set SetAutoServerSettings SetData SetFocus SetOption SetSize SetText
+SetViewport Show ShowColor ShowFont ShowHelp ShowOpen ShowPrinter ShowSave ShowWhatsThis SignOff SignOn
+Size Span SplitContaining StartLabelEdit StartLogging Stop Synchronize
+TextHeight TextWidth ToDefaults TwipsToChartPart TypeByChartType
+Update UpdateControls UpdateRecord UpdateRow Upto
+WhatsThisMode WriteProperty
+ZOrder
+rdoCreateEnvironment rdoRegisterDataSource
+/C3"Events" STYLE_EVENT
+AccessKeyPress AfterAddFile AfterChangeFileName AfterCloseFile AfterColEdit AfterColUpdate AfterDelete
+AfterInsert AfterLabelEdit AfterRemoveFile AfterUpdate AfterWriteFile AmbienChanged ApplyChanges Associate
+AsyncReadComplete AxisActivated AxisLabelActivated AxisLabelSelected AxisLabelUpdated AxisSelected
+AxisTitleActivated AxisTitleSelected AxisTitleUpdated AxisUpdated
+BeforeClick BeforeColEdit BeforeColUpdate BeforeConnect BeforeDelete BeforeInsert BeforeLabelEdit
+BeforeLoadFile BeforeUpdate ButtonClick ButtonCompleted ButtonGotFocus ButtonLostFocus
+Change ChartActivated ChartSelected ChartUpdated Click ColEdit ColResize Collapse ColumnClick Compare
+ConfigChageCancelled ConfigChanged ConnectionRequest
+DataArrival DataChanged DataUpdated DblClick Deactivate DevModeChange DeviceArrival DeviceOtherEvent
+DeviceQueryRemove DeviceQueryRemoveFailed DeviceRemoveComplete DeviceRemovePending Disconnect
+DisplayChanged Dissociate DoGetNewFileName Done DonePainting DownClick DragDrop DragOver DropDown
+EditProperty EnterCell EnterFocus Event ExitFocus Expand
+FootnoteActivated FootnoteSelected FootnoteUpdated
+GotFocus
+HeadClick
+InfoMessage IniProperties Initialize ItemActivated ItemAdded ItemCheck ItemClick ItemReloaded ItemRemoved
+ItemRenamed ItemSeletected
+KeyDown KeyPress KeyUp
+LeaveCell LegendActivated LegendSelected LegendUpdated LinkClose LinkError LinkNotify LinkOpen Load
+LostFocus
+MouseDown MouseMove MouseUp
+NodeClick
+OLECompleteDrag OLEDragDrop OLEDragOver OLEGiveFeedback OLESetData OLEStartDrag ObjectMove OnAddNew OnComm
+Paint PanelClick PanelDblClick PathChange PatternChange PlotActivated PlotSelected PlotUpdated
+PointActivated PointLabelActivated PointLabelSelected PointLabelUpdated PointSelected PointUpdated
+PowerQuerySuspend PowerResume PowerStatusChanged PowerSuspend
+QueryChangeConfig QueryComplete QueryCompleted QueryTimeout QueryUnload
+ReadProperties Reposition RequestChangeFileName RequestWriteFile Resize ResultsChanged RowColChange
+RowCurrencyChange RowResize RowStatusChanged
+SelChange SelectionChanged SendComplete SendProgress SeriesActivated SeriesSelected SeriesUpdated
+SettingChanged SplitChange StateChanged StatusUpdate SysColorsChanged
+Terminate TimeChanged TitleActivated TitleSelected
+UnboundAddData UnboundDeleteRow UnboundGetRelativeBookmark UnboundReadData UnboundWriteData Unload UpClick
+Updated
+Validate ValidationError
+WillAssociate WillChangeData WillDissociate WillExecute WillUpdateRows WithEvents WriteProperties
+/C4"Statements" STYLE_STATEMENT
+AppActivate
+Base Beep Boolean ByRef ByVal
+Call Case ChDir ChDrive Const
+Declare DefBool DefByte DefCur DefDate DefDbl DefDec DefInt DefLng DefObj DefSng DefStr DefVar Deftype
+DeleteSetting Dim Do Double
+Else ElseIf End Enum Erase Exit Explicit
+False FileCopy Finalize For ForEach Friend Function
+Get GoSub GoTo
+If Implements Imports Integer
+Kill
+LSet Let LineInput Lock
+Me MkDir MyBase
+Name Namespace New Next Nothing
+On OnError Option Overrides
+Private Property Protected Public Put
+RSet RaiseEvent Randomize ReDim ReadOnly Rem Reset Resume Return RmDir
+SavePicture SaveSetting SendKeys SetAttr Static Structure Sub
+Then To True Type
+Unlock
+Wend While Width With Write
+/C5"Operators" STYLE_OPERATOR
+&
+*
++
+-
+.
+// /
+<
+=
+And AndAlso As
+Eqv
+Imp Is
+Like
+Mod
+Not
+Or OrElse
+Xor
+\
+^

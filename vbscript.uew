@@ -1,113 +1,181 @@
-/L20"VBScript" VBSCRIPT_LANG Line Comment = ' File Extensions = VBS WSF
-/Function String = "^{Sub^}^{Function^} [a-z,A-Z,0-9,_, ,(,)]+$"
-/Delimiters =  	.(),-+=|\/{}[]:;"'<	>
-/Indent Strings = "Then" "Else"
-/Unindent Strings = "End" "Next" "End If" "End Select" "End Sub" "Wend"
-/C1"Statement/Operator"
-And As
-Call Case Class Const
-Dim Do
-Each Else ElseIf Empty End Eqv Erase Error Execute Exit Explicit
-For Function
-Get Goto
-If Imp Is
-Let Loop
-Mod
-Next New Not Nothing Null
-On Option Or
-Private Property Public
-Randomize ReDim Rem Resume
-Select Set Stop Sub
-Then To
-Until
-Wend While With
-
-/C2"Functions"
-Abs Array Asc Atn
-CBool CByte CCur CDate CDbl Chr CInt CLng Cos CSng CStr
-Date DateAddFunction DateDiff DatePart DateSerial DateValue Day
-Eval Exp
-Filter Fix FormatCurrency FormatDateTime FormatNumber FormatPercent
-GetObject GetRef
+/L10"VBScript ASP" ASP_LANG Nocase Line Comment = ' Line Comment Alt = REM Block Comment On = /* Block Comment Off = */ Block Comment On Alt = <!-- Block Comment Off Alt = --> String Chars = " File Extensions = VBS WSF
+/TGBegin "Functions"
+/TGFindStr = "^[\t ]*(?:public[\t ]+|private[\t ]+)*function[\t ]+([a-z][0-9a-z_]*)[\t ]*\(?"
+/TGBegin "Parameters"
+/TGFindStr = "\s*([^,]+)"
+/TGFindBStart = "\("
+/TGFindBEnd = "\)"
+/TGEnd
+/TGEnd
+/TGBegin "Subs"
+/TGFindStr = "^[\t ]*(?:public[\t ]+|private[\t ]+)*sub[\t ]+([a-z][0-9a-z_]*)[\t ]*\(?"
+/TGBegin "Parameters"
+/TGFindStr = "\s*([^,]+)"
+/TGFindBStart = "\("
+/TGFindBEnd = "\)"
+/TGEnd
+/TGEnd
+/TGBegin "Properties"
+/TGFindStr = "^[[\t ],]*(?:public[\t ]+|private[\t ]+)*property[\t ]+((?:let|get)[\t ]+[a-z][0-9a-z_]*)[\t ]*\("
+/TGBegin "Parameters"
+/TGFindStr = "\s*([^,]+)"
+/TGFindBStart = "\("
+/TGFindBEnd = "\)"
+/TGEnd
+/TGEnd
+/Regexp Type = Perl
+/Delimiters = ! "	&'()*+,-.:;<=>?@[\]^{|}~
+/Open Brace Strings = "{" "(" "[" "<"
+/Close Brace Strings = "}" ")" "]" ">"
+/Indent Strings = "Then" "Select Case" "Do While" "Do Until" "Do" "Else" "ElseIf" "<td>" "<tr>"
+/Unindent Strings = "End If" "Loop" "End" "Next" "Loop While" "Else" "ElseIf" "</td>" "</tr>"
+/Open Fold Strings = "Do While" "If" "ElseIf" "Function" "Sub" "With" "For" "Select Case" "Case Else" "Case" "Else"
+/Close Fold Strings = "ElseIf" "End If" "End Function" "End Sub" "End With" "Loop" "Next" "Wend" "End Select" "Case Else" "Case" "Else"
+/Ignore Fold Strings = "Exit Function" "Exit Sub" "Exit For" "Declare Function" "Continue For"
+/C1"Tags" STYLE_TAG
+%>
+<%
+/C2"VBFunctions" STYLE_FUNCTION
+&
+Abs Array Asc AscB AscW Atn Avg
+CBool CByte CCur CDate CDbl Cdec Choose Chr ChrB ChrW CInt CLng Command Cos Count CreateObject CSng CStr
+CurDir CVar CVDate CVErr
+Date DateAdd DateDiff DatePart DateSerial DateValue Day DDB Dir DoEvents
+Environ EOF Error Exp
+FileAttr FileDateTime FileLen Fix Format FreeFile FV
+GetAllStrings GetAttr GetAutoServerSettings GetObject GetSetting
 Hex Hour
-InputBox InStr InStrRev Int IsArray IsDate IsEmpty IsNull IsNumeric IsObject
-Join
-LBound LCase Left Len LoadPicture Log LTrim
-Mid Minute Month MonthName MsgBox
-Now
+IIf IMEStatus Input InputB InputBox InstB InStr Int IPmt IsArray IsDate IsEmpty IsError IsMissing IsNull
+IsNumeric IsObject
+LBound LCase Left LeftB Len LenB LoadPicture Loc LOF Log LTrim
+Max Mid MidB Min Minute MIRR Month MsgBox
+Now NPer NPV
 Oct
-Replace RGB Right Rnd Round RTrim
-ScriptEngine ScriptEngineBuildVersion ScriptEngineMajorVersion ScriptEngineMinorVersion Second Sgn Sin Space
-Split Sqr StrComp String StrReverse
-Tan Time Timer TimeSerial TimeValue Trim TypeName
+Partition Pmt PPmt PV
+QBColor
+Rate RGB Right RightB Rnd RTrim
+Second Seek Sgn Shell Sin SLN Space Spc Sqr StDev StDevP Str StrComp StrConv String Sum Switch SYD
+Tab Tan Time Timer TimeSerial TimeValue Trim TypeName
 UBound UCase
-VarType
-Weekday WeekdayName
+Val Var VarP VarType
+Weekday
 Year
-
-/C3"Properties"
-AccountDisabled AccountExpirationDate Application Arguments AtEndOfLine AtEndOfStream
-Attributes AutoUnlockInterval AvailableSpace
-BadPasswordAttempts
-Column CompareMode ComputerName Count
-DateCreated DateLastAccessed DateLastModified Description Drive DriveLetter DriveType Drives
-Environment
-FileSystem Files FirstIndex FreeSpace FullName
-Global
-HelpContext HelpFile HomeDirDrive HomeDirectory HotKey
-IconLocation IgnoreCase Interactive IsAccountLocked IsReady IsRootFolder Item
-Key
-LastLogin LastLogoff Length Line LockoutObservationInterval LoginHours LoginScript LoginWorkstations
-MaxBadPasswordsAllowed MaxLogins MaxPasswordAge MaxStorage MinPasswordAge MinPasswordLength
-Name Number
-ObjectSid
-Parameters ParentFolder PasswordAge PasswordExpirationDate PasswordExpired PasswordHistoryLength
-Path Pattern PrimaryGroupID Profile
-Remove RootFolder
-ScriptFullName ScriptName SerialNumber ShareName ShortName ShortPath Size Source SpecialFolders Subfolders
-TargetPath TotalSize Type
-UserDomain UserFlags UserName
-Value Version VolumeName
-WindowStyle WorkingDirectory
-
-/C4"Methods"
-Add AddPrinterConnection AddWindowsPrinterConnection AppActivate
-BuildPath
-Clear Close ConnectObject Copy CopyFile CopyFolder CreateFolder CreateObject CreateShortcut CreateTextFile
-Delete DeleteFile DeleteFolder DisconnectObject DriveExists
-Echo EnumNetworkDrives EnumPrinterConnections Exists ExpandEnvironmentStrings
-FileExists FolderExists
-GetAbsolutePathName GetBaseName GetDrive GetDriveName GetExtensionName GetFile GetFileName GetFolder
-GetParentFolderName GetResource GetSpecialFolder GetTempName
-Items
-Keys
-LogEvent
-MapNetworkDrive Move MoveFile MoveFolder
-OpenAsTextStream OpenTextFile
-Popup Put
+/C3"VBMethods" STYLE_METHOD
+Accept Activate Add AddCustom AddFile AddFromFile AddFromTemplate AddItem AddNew AddToAddInToolbar
+AddToolboxProgID Append AppendChunk Arrange Assert AsyncRead
+BatchUpdate BeginTrans Bind Buffer
+CacheControl Cancel CancelAsyncRead CancelBatch CancelUpdate CanPropertyChange CaptureImage CellText
+CellValue Charset Circle Clear ClearFields ClearSel ClearSelCols Clone Close Cls ColContaining ColumnSize
+CommitTrans CompactDatabase Compose Connect ContentType Copy CopyQueryDef CreateDatabase CreateDragImage
+CreateEmbed CreateField CreateGroup CreateIndex CreateLink CreatePreparedStatement CreatePropery
+CreateQuery CreateQueryDef CreateRelation CreateTableDef CreateUser CreateWorkspace Customize
+Delete DeleteColumnLabels DeleteColumns DeleteRowLabels DeleteRows DoVerb Drag Draw
+Edit EditCopy EditPaste EndDoc EnsureVisible EstablishConnection Execute Expires ExpiresAbsolute
+ExtractIcon
+Fetch FetchVerbs Files FillCache Find FindFirst FindItem FindLast FindNext FindPrevious Forward
+GetBookmark GetChunk GetClipString GetData GetFirstVisible GetFormat GetHeader GetLineFromChar GetNumTicks
+GetRows GetSelectedPart GetText GetVisibleCount GoBack GoForward
+Hide HitTest HoldFields HTMLEncode
+Idle InitializeLabels InsertColumnLabels InsertColumns InsertObjDlg InsertRowLabels InsertRows
+IsClientConnected Item
+KillDoc
+Layout Line LinkExecute LinkPoke LinkRequest LinkSend Listen LoadFile LoadResData LoadResPicture
+LoadResString LogEvent
+MakeCompileFile MakeReplica MapPath MoreResults Move MoveData MoveFirst MoveLast MoveNext MovePrevious
+NavigateTo NewPage NewPassword NextRecordset
+OLEDrag OnAddinsUpdate OnConnection OnDisconnection OnStartupComplete Open OpenConnection OpenDatabase
+OpenQueryDef OpenRecordset OpenResultset OpenURL Overlay
+PaintPicture Paste PastSpecialDlg PeekData Play Point PopulatePartial PopupMenu Print PrintForm
+PropertyChanged PSet
 Quit
-Raise Read ReadAll ReadLine RegDelete RegRead RegWrite RemoveAll RemoveNetworkDrive RemovePrinterConnection Replace Run
-Save SendKeys SetDefaultPrinter Skip SkipLine Sleep SetInfo
-Test
-Write WriteBlankLines WriteLine
-
-/C5"Objects"
-Dictionary
-Err
-File FileSystemObject Folder
-Match
-RegExp
-TextStream
-Wscript WshNetwork WshShell
-
-/C6"Constants"
-False FALSE
-True TRUE
-vbAbort vbAbortRetryIgnore vbApplicationModal vbArray vbBinaryCompare vbBlack vbBlue vbBoolean vbByte vbCancel
-vbCr vbCritical vbCrLf vbCurrency vbCyan vbDataObject vbDate vbDecimal vbDefaultButton1 vbDefaultButton2
-vbDefaultButton3 vbDefaultButton4 vbDouble vbEmpty vbError vbExclamation vbFirstFourDays vbFirstFullWeek
-vbFirstJan1 vbFormFeed vbFriday vbGeneralDate vbGreen vbIgnore vbInformation vbInteger vbLf vbLong vbLongDate
-vbLongTime vbMagenta vbMonday vbNewLine vbNo vbNull vbNullChar vbNullString vbObject vbObjectError vbOK vbOKCancel
-vbOKOnly vbQuestion vbRed vbRetry vbRetryCancel vbSaturday vbShortDate vbShortTime vbSingle vbString vbSunday
-vbSystemModal vbTab vbTextCompare vbThursday vbTuesday vbUseSystem vbUseSystemDayOfWeek vbVariant vbVerticalTab
-vbWednesday vbWhite vbYellow vbYes vbYesNo vbYesNoCancel
+Raise RandomDataFill RandomFillColumns RandomFillRows rdoCreateEnvironment rdoRegisterDataSource
+ReadFromFile ReadProperty Rebind ReFill Refresh RefreshLink RegisterDatabase Reload Remove
+RemoveAddInFromToolbar RemoveItem Render RepairDatabase Reply ReplyAll Requery ResetCustom
+ResetCustomLabel ResolveName RestoreToolbar Resync Rollback RollbackTrans RowBookmark RowContaining RowTop
+Save SaveAs SaveFile SaveToFile SaveToolbar SaveToOle1File Scale ScaleX ScaleY ScriptTimeout Scroll Select
+SelectAll SelectPart SelPrint Send SendData SessionID Set SetAutoServerSettings SetData SetFocus SetOption
+SetSize SetText SetViewport Show ShowColor ShowFont ShowHelp ShowOpen ShowPrinter ShowSave ShowWhatsThis
+SignOff SignOn Size Span SplitContaining StartLabelEdit StartLogging Status Stop Synchronize
+TextHeight TextWidth Timeout ToDefaults TwipsToChartPart TypeByChartType
+Update UpdateControls UpdateRecord UpdateRow Upto URLEncode
+WhatsThisMode Write WriteProperty
+ZOrder
+/C4"VBEvents" STYLE_EVENT
+AccessKeyPress AddHeader AfterAddFile AfterChangeFileName AfterCloseFile AfterColEdit AfterColUpdate
+AfterDelete AfterInsert AfterLabelEdit AfterRemoveFile AfterUpdate AfterWriteFile AmbienChanged
+AppendToLog ApplyChanges Associate AsyncReadComplete AxisActivated AxisLabelActivated AxisLabelSelected
+AxisLabelUpdated AxisSelected AxisTitleActivated AxisTitleSelected AxisTitleUpdated AxisUpdated
+BeforeClick BeforeColEdit BeforeColUpdate BeforeConnect BeforeDelete BeforeInsert BeforeLabelEdit
+BeforeLoadFile BeforeUpdate BinaryWrite ButtonClick ButtonCompleted ButtonGotFocus ButtonLostFocus
+Change ChartActivated ChartSelected ChartUpdated Click ColEdit Collapse ColResize ColumnClick Compare
+ConfigChageCancelled ConfigChanged ConnectionRequest
+DataArrival DataChanged DataUpdated DblClick Deactivate DeviceArrival DeviceOtherEvent DeviceQueryRemove
+DeviceQueryRemoveFailed DeviceRemoveComplete DeviceRemovePending DevModeChange Disconnect DisplayChanged
+Dissociate DoGetNewFileName Done DonePainting DownClick DragDrop DragOver DropDown
+EditProperty EnterCell EnterFocus ExitFocus Expand
+Flush FootnoteActivated FootnoteSelected FootnoteUpdated
+GotFocus
+HeadClick
+InfoMessage IniProperties Initialize ItemActivated ItemAdded ItemCheck ItemClick ItemReloaded ItemRemoved
+ItemRenamed ItemSeletected
+KeyDown KeyPress KeyUp
+LeaveCell LegendActivated LegendSelected LegendUpdated LinkClose LinkError LinkNotify LinkOpen Load
+LostFocus
+MouseDown MouseMove MouseUp
+NodeClick
+ObjectMove OLECompleteDrag OLEDragDrop OLEDragOver OLEGiveFeedback OLESetData OLEStartDrag OnAddNew OnComm
+OnEnd OnStart
+Paint PanelClick PanelDblClick PathChange PatternChange PlotActivated PlotSelected PlotUpdated
+PointActivated PointLabelActivated PointLabelSelected PointLabelUpdated PointSelected PointUpdated
+PowerQuerySuspend PowerResume PowerStatusChanged PowerSuspend
+QueryChangeConfig QueryComplete QueryCompleted QueryTimeout QueryUnload
+ReadProperties Redirect Reposition RequestChangeFileName RequestWriteFile Resize ResultsChanged
+RowColChange RowCurrencyChange RowResize RowStatusChanged
+SelChange SelectionChanged SendComplete SendProgress SeriesActivated SeriesSelected SeriesUpdated
+SettingChanged SplitChange StateChanged StatusUpdate SysColorsChanged
+Terminate TimeChanged TitleActivated TitleSelected
+UnboundAddData UnboundDeleteRow UnboundGetRelativeBookmark UnboundReadData UnboundWriteData Unload UpClick
+Updated
+Validate ValidationError
+WillAssociate WillChangeData WillDissociate WillExecute WillUpdateRows WriteProperties
+/C5"VBStatements" STYLE_STATEMENT
+AppActivate
+Base Beep
+Call Case ChDir ChDrive Const
+DefBool DefByte DefCur DefDate DefDbl DefDec DefInt DefLng DefObj DefSng DefStr Deftype DefVar
+DeleteSetting Dim Do
+Else ElseIf End Enum Erase Event Exit Explicit
+FileCopy For ForEach Function
+Get GoSub GoTo
+If Implements
+Kill
+Let LineInput Lock LSet
+MkDir
+Name Next
+On OnError Option
+Private Property Public Put
+RaiseEvent Randomize ReDim Reset Resume Return RmDir RSet
+SavePicture SaveSetting SendKeys SetAttr Static Step Sub
+Then To Type
+Unlock
+Wend While Width With
+/C6"Objects"
+Application
+ClientCertificate Cookies
+Form
+ObjectContext
+QueryString
+Request Response
+Server ServerVariables Session
+/C7"Constants"
+CDROM
+False Fixed ForAppending ForReading ForWriting
+RAMDisk Remote Removable
+True
+Unknown
+vbArray vbBinaryCompare vbBlack vbBlue vbBoolean vbByte vbCr vbCrLf vbCurrency vbCyan vbDataObject vbDate
+vbDecimal vbDouble vbEmpty vbError vbFalse vbFirstFourDays vbFirstFullWeek vbFirstJan1 vbFormFeed vbFriday
+vbGeneralDate vbGreen vbInteger vbLf vbLong vbLongDate vbLongTime vbMagenta vbMonday vbNewLine vbNull
+vbNullChar vbNullString vbObject vbObjectError vbRed vbSaturday vbShortDate vbShortTime vbSingle vbString
+vbSunday vbTab vbTextCompare vbThursday vbTrue vbTuesday vbUseSystem vbUseSystemDayOfWeek vbVariant
+vbVerticalTab vbWednesday vbWhite vbYellow

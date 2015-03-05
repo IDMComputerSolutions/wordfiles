@@ -1,6 +1,8 @@
 /L20"MS-DOS" Nocase Line Comment Num = 4rem  Line Comment Alt = :: Line Comment Valid Columns Alt = [1] String Chars = " DisableMLS File Extensions = BAT CMD
+/TGBegin "Function"
+/TGFindStr = "%:^([~:^p]?++^)$"
+/TGEnd
 /Delimiters = ! $	'()*+,./:;<=>@[\]^`{|}~
-/Function String = "%:^([~:^p]?++^)$"
 /Indent Strings = "("
 /Unindent Strings = ")"
 /Ignore Strings SOL = "rem " "::"

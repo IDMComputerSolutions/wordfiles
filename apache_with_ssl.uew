@@ -1,7 +1,7 @@
 /L15"Apache Web Server" HTML_LANG Line Comment = # Nocase String Chars = '" File Extensions = HTACCESS CONF TYPES
 /Delimiters = ~!@$%^&*()+=|\{}[]:;"'<> ,	.?
 /Function String = "name=*">"
-/C1"Runtime"
+/C1"Runtime" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 AccessConfig AccessFileName Action AddAlt AddAltByEncoding AddAltByType AddCharset 
 AddDefaultCharset AddDescription AddEncoding AddHandler AddIcon AddIconByEncoding 
 AddIconByType AddLanguage AddModule AddModuleInfo AddType AgentLog Alias AliasMatch 
@@ -44,7 +44,7 @@ ThreadsPerChild TimeOut TransferLog TypesConfig
 UnsetEnv UseCanonicalName User UserDir 
 VirtualDocumentRoot VirtualDocumentRootIP VirtualScriptAlias VirtualScriptAliasIP 
 XBitHack 
-/C2"Tags"
+/C2"Tags" Colors = 255 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 <Directory </Directory>
 <DirectoryMatch </DirectoryMatch>
 <Files </Files> 
@@ -56,10 +56,10 @@ XBitHack
 <Location </Location> 
 <LocationMatch </LocationMatch> 
 <VirtualHost </VirtualHost> 
-/C3"Modules"
+/C3"Modules" Colors = 33023 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 **
 mod_
-/C4"Special"
+/C4"Special" Colors = 32768 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 alert All any Ascending AuthConfig
 Basic block
 cgi-script CONNECT COPY crit
@@ -82,7 +82,7 @@ TRACE type-map
 unformatted UNLOCK
 valid-user
 warn
-/C5"SSL"
+/C5"SSL" Colors = 4210816 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 SSLCACertificateFile SSLCARevocationFile SSLCARevocationPath SSLCertificateChainFile SSLCertificateFile SSLCertificateKeyFile SSLCipherSuite 
 SSLEngine 
 SSLLog SSLLogLevel 
@@ -92,7 +92,12 @@ SSLPassPhraseDialog
 SSLRandomSeed SSLRequire
 SSLSessionCache SSLSessionCacheTimeout
 SSLVerifyClient SSLVerifyDepth
-/C6"WebLogic"
+/C6"WebLogic" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 ConnectRetrySecs ConnectTimeoutSecs
 PathTrim
 weblogic WebLogicHost WebLogicPort
+
+/Colors = 0,8421376,8421376,8421504,255,
+/Colors Back = 16777215,16777215,16777215,16777215,16777215,
+/Colors Auto Back = 1,1,1,1,1,
+/Font Style = 0,0,0,0,0,

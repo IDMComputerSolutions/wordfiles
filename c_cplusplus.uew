@@ -1,0 +1,165 @@
+/L1"C/C++" C_LANG Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = C CPP CC CXX H HPP AWK
+/TGBegin "Typedefs"
+/TGFindStr = "^[ \t]*typedef[ \t]+(?:struct|union|enum)[ \t]+(?:\w+[ \t]+)?\{(?s:.+?)\}[ \t]*(\w+);"
+/TGFindStr = "^[ \t]*typedef[ \t]+(?:[\w*[\]]+[ \t]+)+(\w+);"
+/TGEnd
+/TGBegin "Macros"
+/TGFindStr = "^[ \t]*#define[ \t]+(\w+)\("
+/TGEnd
+/TGBegin "Prototypes"
+/TGFindStr = "^(?:\w+[ \t]+)+[ *]*(\w+)[ \t]*\([^)]*\);"
+/TGEnd
+/TGBegin "Functions"
+/TGFindStr = "^(?!if\b|else\b|while\b|[\s*])(?:[\w*~_&]+?\s+){1,6}([\w:*~_&]+\s*)\([^);]*\)[^{;]*?(?:^[^\r\n{]*;?[\s]+){0,10}\{"
+/TGBegin "Parameters"
+/TGFindStr = "\s*([^,]+)"
+/TGFindBStart = "\("
+/TGFindBEnd = "\)"
+/TGEnd
+/TGBegin "Variables"
+/TGFindStr = "^[ \t]*((?:static[ \t*]+)?(?:const[ \t*]+)?(?:(?:un)?signed[ \t*]+)?(?:long[ \t*]+)?[a-z0-9_]+[ \t*&]+[a-z0-9[\]_]+);"
+/TGFindBStart = "\{"
+/TGFindBEnd = "\}"
+/TGFindStr = "^[ \t]*((?:static[ \t*]+)?(?:const[ \t*]+)?(?:(?:un)?signed[ \t*]+)?(?:long[ \t*]+)?[a-z0-9_]+[ \t*&]+[a-z0-9[\]_]+)[ \t]*=.+;"
+/TGFindBStart = "\{"
+/TGFindBEnd = "\}"
+/TGEnd
+/TGEnd
+/Regexp Type = Perl
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Member String = "([A-Za-z0-9_:.]+)[ \t*&]+\$S[ \t[\]A-Za-z0-9_]*[();,]"
+/Variable String = "^[ \t]*([!-ÿ~ \t<>]+[^A-Za-z\r\n])$S[ \t;,()\-]"
+/Indent Strings = "{" "if" "else" ":"
+/Unindent Strings = "}"
+/Open Brace Strings =  "{" "(" "["
+/Close Brace Strings = "}" ")" "]"
+/Open Fold Strings = "{"
+/Close Fold Strings = "}"
+/C1"Keywords" STYLE_KEYWORD
+#define #elif #else #endif #error #if #ifdef #ifndef #include #include_next #line #pragma #undef
+__asm __based __cdecl __declspec __except __far __fastcall __finally __fortran __huge __inline __int16
+__int32 __int64 __int8 __interrupt __leave __loadds __near __pascal __saveregs __segment __segname __self
+__stdcall __try __uuidof
+auto
+bool break
+case char const continue
+default defined do double
+else enum extern
+float for
+goto
+if int
+long
+register return
+short signed sizeof static struct switch
+typedef
+union unsigned
+void volatile
+while
+/C2"C++ Keywords" STYLE_KEYWORD
+__multiple_inheritance __single_inheritance __virtual_inheritance
+catch class const_cast
+delete dynamic_cast
+explicit export
+false friend
+inline
+mutable
+namespace new
+operator
+private protected public
+reinterpret_cast
+static_cast
+template this throw true try typeid typename
+using
+virtual
+wchar_t
+/C3"Microsoft C extensions" STYLE_EXTENSION
+dllexport dllimport
+naked
+thread
+uuid
+/C4"Operators" STYLE_OPERATOR
+!
+$
+%
+&
+*
++
+-
+.
+// /
+:
+<
+=
+>
+?
+^
+|
+~
+/C5"Braces, comma, semicolon"
+(
+)
+,
+;
+[
+]
+{
+}
+/C6"Predefined Macros and Constants" STYLE_KEYWORD
+__LINE__ __FILE__ __DATE__ __TIME__ __STDC__
+_IOFBF _IOLBF _IONBF
+BUFSIZ
+CHAR_BIT CHAR_MIN CHAR_MAX CLOCKS_PER_SEC
+EDOM ERANGE EOF EXIT_FAILURE EXIT_SUCCESS
+FOPEN_MAX FILENAME_MAX
+HUGE_VAL
+INT_MIN INT_MAX
+LC_ALL LC_COLLATE LC_CTYPE LC_MONETARY LC_NUMERIC LC_TIME
+LONG_MIN LONG_MAX L_tmpnam
+MB_CUR_MAX MB_LEN_MAX
+NDEBUG NULL
+RAND_MAX
+SCHAR_MIN SCHAR_MAX SHRT_MIN SHRT_MAX
+SEEK_CUR SEEK_END SEEK_SET
+SIG_DFL SIG_ERR SIG_IGN SIGABRT SIGFPE SIGILL SIGINT SIGSEGV SIGTERM
+TMP_MAX
+UCHAR_MAX USHRT_MAX UINT_MAX ULONG_MAX
+assert
+offsetof
+setjmp stderr stdin stdout
+va_start va_arg va_end
+/C7"Predefined Types" STYLE_KEYWORD
+FILE
+clock_t
+div_t
+fpos_t
+jmp_buf
+lconv ldiv_t
+ptrdiff_t
+sig_atomic_t size_t
+time_t tm
+va_list
+wchar_t
+/C8"Predefined Variables" STYLE_KEYWORD
+errno
+/C9"Standard Library" STYLE_FUNCTION
+abort abs atexit atof atoi atol asctime acos asin atan atan2
+bsearch
+calloc ceil cos cosh clearerr clock ctime
+div difftime
+exit exp
+fabs floor fmod frexp free
+fclose feof ferror fflush fgetpos fopen fread freopen fseek fsetpos ftell fwrite fprintf fscanf fgetc fgets fputc fputs
+getc getchar gets getenv gmtime
+isalnum isalpha iscntrl isdigit isgraph islower isprint ispunct isspace isupper isxdigit
+labs ldiv ldexp log log10 localeconv longjmp localtime
+malloc mblen mbstowcs mbtowc modf memchr memcmp memcpy memmove memset mktime
+perror pow printf putc putchar puts
+qsort
+rand realloc raise remove rename rewind
+setlocale setbuf setvbuf signal sin sinh sqrt scanf sprintf sscanf
+strcat strncat strchr strcmp strncmp strcoll strcpy strncpy strcspn strerror strftime
+strlen strpbrk strrchr strspn strstr strtok strxfrm srand strtod strtol strtoul system
+tan tanh tolower toupper tmpfile tmpnam time
+ungetc
+vfprintf vprintf vsprintf
+wcstombs wctomb 
