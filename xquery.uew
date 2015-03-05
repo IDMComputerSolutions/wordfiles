@@ -1,0 +1,90 @@
+/L1"XQuery" Block Comment On = (: Block Comment Off = :) Block Comment On Alt = (# Block Comment Off Alt = #) Noquote File Extensions = xq xqm xquery
+/Indent Strings = "then" "(" "{"
+/Unindent Strings = "else" ")" "}"
+/Delimiters =  []{}()<>,+ *|/'	"
+/Function String = "%[ ^t]++declare[ ^t]+function[ ^t]+^([a-zA-Z0-9_.:]+^)"
+/C1"XQuery Keywords"
+as ascending at attribute
+base-uri boundary-space by
+case cast castable collation comment construction copy-namespaces
+declare default descending document document document-node
+element else empty encoding every external
+for function
+greatest
+if import in inherit instance item
+last lax
+module
+namespace node no-inherit no-preserve
+of option order ordered ordering
+preserve processing-instruction
+return
+satisifies schema schema-attribute schema-element some stable strict strip
+text then treat typeswitch
+unordered
+validate version
+where
+xquery
+/C2"XQuery Builtin Functions"
+abs adjust-dateTime-to-timezone adjust-date-to-timezone adjust-time-to-timezone avg
+boolean
+ceiling codepoint-equal codepoints-to-string collection compare concat contains count current-date current-dateTime current-time
+data dateTime day-from-date day-from-dateTime days-from-duration deep-equal default-collation distinct-values doc doc-available document-uri
+encode-for-uri ends-with error escape-html-uri escape-uri exactly-one exists
+false floor
+hours-from-dateTime hours-from-duration hours-from-time
+id implicit-timezone index-of in-scope-prefixes insert-before iri-to-uri item-at
+lang local-name local-name-from-QName lower-case
+matches max min minutes-from-dateTime minutes-from-duration minutes-from-time month-from-date month-from-dateTime months-from-duration
+name namespace-uri namespace-uri-for-prefix namespace-uri-from-QName nilled node-name normalize-space normalize-unicode not number
+one-or-more
+position prefix-from-QName
+QName
+remove replace resolve-QName resolve-uri reverse root round round-half-to-even
+seconds-from-dateTime seconds-from-duration seconds-from-time starts-with static-base-uri string string-join string-length string-pad string-to-codepoints subsequence substring substring-after substring-before sum
+timezone-from-date timezone-from-dateTime timezone-from-time tokenize trace translate true
+upper-case
+year-from-date year-from-dateTime years-from-duration
+zero-or-one
+/C3"XQuery Operators"
+- != * / | + < << <= = => > >>
+and div eq except ge gt idiv intersect
+is le lt mod ne or to
+/C4"XQuery Axis"
+.
+@
+ancestor
+ancestor-or-self
+child
+descendant-or-self
+descendent
+following
+following-sibling
+parent
+preceding
+preceding-sibling
+self
+/C5"XQuery Datatypes"
+xs:anyAtomicType
+xs:anyURI
+xs:base64Binary
+xs:boolean
+xs:date
+xs:datetime
+xs:dayTimeDuration
+xs:decimal
+xs:double
+xs:duration
+xs:float
+xs:gDay
+xs:gMonth
+xs:gMonthDay
+xs:gYear
+xs:gYearMonth
+xs:hexBinary
+xs:NOTATION
+xs:QName
+xs:string
+xs:time
+xs:untyped
+xs:untypedAtomic
+xs:yearMonthDuration

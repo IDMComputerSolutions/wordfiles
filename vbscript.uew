@@ -1,4 +1,4 @@
-/L10"VBScript ASP" ASP_LANG Nocase Line Comment = ' Line Comment Alt = REM Block Comment On = /* Block Comment Off = */ Block Comment On Alt = <!-- Block Comment Off Alt = --> String Chars = " File Extensions = VBS
+/L10"VBScript ASP" ASP_LANG Nocase Line Comment = ' Line Comment Alt = REM Block Comment On = /* Block Comment Off = */ Block Comment On Alt = <!-- Block Comment Off Alt = --> String Chars = " File Extensions = VBS WSF
 /TGBegin "Functions"
 /TGFindStr = "^[\t ]*(?:public[\t ]+|private[\t ]+)*function[\t ]+([a-z][0-9a-z_]*)[\t ]*\(?"
 /TGBegin "Parameters"

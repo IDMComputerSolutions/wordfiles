@@ -1,4 +1,4 @@
-/L20"Python" PYTHON_LANG Line Comment = # Escape Char = \ String Literal Prefix = r File Extensions = PY PYW
+/L20"Python" PYTHON_LANG Line Comment = # Escape Char = \ String Literal Prefix = r File Extensions = PY PYW PYC
 /Regexp Type = Perl
 /TGBegin "Classes"
 /TGFindStr = "^[ \t]*class[ \t]+([^:\r\n]*)\("
@@ -31,10 +31,12 @@ finally for from
 global
 if import in is
 lambda
+map
 not
+None
 object or
 pass print
-raise return
+raise range return
 try
 while with
 yield
@@ -184,4 +186,6 @@ warnings wave weakref webbrowser whichdb winsound wsgiref
 xdrlib xml xmlrpclib
 zipimport zlib
 /C8"Others"
-self
+array
+fnmatch
+struct self

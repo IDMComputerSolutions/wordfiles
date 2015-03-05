@@ -1,4 +1,4 @@
-/L3"HTML" HTML_LANG Nocase Noquote Block Comment On = <!-- Block Comment Off = --> File Extensions = HTM HTML SHTML HTT HTA HTX CFM JSP PHP PHTML ASP TMPL ASAX ASHX ASMX ASPX ASCX
+/L3"HTML" HTML_LANG Nocase Noquote Block Comment On = <!-- Block Comment Off = --> Block Comment On Alt = <% Block Comment Off Alt = %> String Chars = "' File Extensions = HTM HTML SHTML HTT HTA HTX CFM JSP PHP PHTML ASP TMPL ASAX ASHX ASMX ASPX ASCX
 /TGBegin "External Links"
 /TGFindStr = "<a\s[^>]*\<href=["']([^"'#].*?)["']"
 /TGEnd
