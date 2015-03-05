@@ -1,0 +1,132 @@
+/L16"SVG" XML_LANG Noquote Block Comment On =  File Extensions = SVG
+/Delimiters = ~@$%^&*()+=|\{};"'<> ,
+/Function String = "name=*">"
+/Open Brace Strings =  "{" "(" "[" "<"
+/Close Brace Strings = "}" ")" "]" ">"
+/C1"Elements" STYLE_ELEMENT
+** <
+<a> <a </a> <altGlyph> <altGlyph </altGlyph> <altGlyphDef> <altGlyphDef 
+</altGlyphDef> 
+<altGlyphItem> <altGlyphItem </altGlyphItem> <animate> <animate </animate> 
+<animateColor> <animateColor </animateColor><animateMotion> <animateMotion 
+</animateMotion> 
+<animateTransform> <animateTransform </animateTransform> <circle> <circle 
+</circle> 
+<clipPath> <clipPath </clipPath> <color-Profile> <color-Profile 
+</color-Profile> 
+<cursor> <cursor </cursor> <definition-src> <definition-src </definition-src> 
+<defs> <defs </defs> <desc> <desc </desc> <ellipse> <ellipse </ellipse> 
+<feBlend> <feBlend </feBlend> <feColorMatrix> <feColorMatrix </feColorMatrix> 
+<feComponentTransfer> <feComponentTransfer </feComponentTransfer> 
+<feComposite> <feComposite </feComposite> <feConvolveMatrix> <feConvolveMatrix 
+</feConvolveMatrix> 
+<feDiffuseLighting> <feDiffuseLighting </feDiffuseLighting> 
+<feDisplacementMap> <feDisplacementMap </feDisplacementMap> 
+<feDistantLight> <feDistantLight </feDistantLight> <feFlood> <feFlood 
+</feFlood> 
+<feFuncA> <feFuncA </feFuncA> <feFuncB> <feFuncB </feFuncB> 
+<feFuncG> <feFuncG </feFuncG> <feFuncR> <feFuncR </feFuncR> 
+<feGaussianBlur> <feGaussianBlur </feGaussianBlur> <feImage> <feImage 
+</feImage> 
+<feMerge> <feMerge </feMerge> <feMergeNode> <feMergeNode </feMergeNode> 
+<feMorphology> <feMorphology </feMorphology> <feOffset> <feOffset </feOffset> 
+<fePointLight> <fePointLight </fePointLight> <feSpecularLighting> 
+<feSpecularLighting </feSpecularLighting> 
+<feSpotlight> <feSpotlight </feSpotlight> <feTile> <feTile </feTile> 
+<feTurbulence> <feTurbulence </feTurbulence> <filter> <filter </filter>
+<font> <font </font> <font-face> <font-face </font-face> <font-face-format> 
+<font-face-format </font-face-format>
+<font-face-name> <font-face-name </font-face-name> <font-face-src> 
+<font-face-src </font-face-src> 
+<font-face-uri> <font-face-uri </font-face-uri> <foreignObject> <foreignObject 
+</foreignObject> 
+<g> </g> <glyph> <glyph </glyph> <glyphRef> <glyphRef </glyphRef> <hkern> 
+<hkern </hkern> 
+<image> <image </image> <line> <line </line> <linearGradient> <linearGradient 
+</linearGradient> 
+<marker> <marker </marker> <mask> <mask </mask> <metadata> <metadata 
+</metadata> 
+<missing-glyph> <missing-glyph </missing-glyph> <mpath> <mpath </mpath> <path> 
+<path </path> 
+<pattern> <pattern </pattern> <polygon> <polygon </polygon> <polyline> 
+<polyline </polyline> 
+<radialGradient> <radialGradient </radialGradient> <rect> <rect </rect> 
+<script> <script </script> <set> <set </set> <stop> <stop </stop> <style> 
+<style </style> 
+<svg> <svg </svg> <switch> <switch </switch> <symbol> <symbol </symbol> 
+<text> <text </text> <textPath> <textPath </textPath> <title> <title </title> 
+<tref> <tref </tref> <tspan> <tspan </tspan> <use> <use </use> <view> <view 
+</view> 
+<vkern> <vkern </vkern>
+// />
+>
+<
+<%
+%>
+?>
+<? <?xml
+]]>
+<![CDATA[
+/C2"Attributes" STYLE_ATTRIBUTE
+-
+accent-height accumulate alignment-baseline alphabetic amplitude animate
+arabic-form ascent attributeType azimuth baseFrequency baseProfile 
+baseline-shift
+bbox bias by calcMode cap-height class clip clip-path clip-rule clipPathUnits
+color color-interpolation color-interpolation-filters color-profile 
+color-rendering
+contentScriptType contentStyleType cursor cx cy d descent diffuseConstant
+direction display divisor dominant-baseline dur dx dy edgeMode elevation
+enable-background end exponent externalResourcesRequired feColorMatrix 
+feComposite
+feGaussianBlur feMorphology feTile fill fill-opacity fill-rule filter filterRes
+filterUnits flood-color flood-opacity font-family font-size font-size-adjust
+font-stretch font-style font-variant font-weight format from fx fy g1 g2 
+glyph-name
+glyph-orientation-horizontal glyph-orientation-vertical glyphRef 
+gradientTransform
+gradientUnits 
+hanging height horiz-adv-x horiz-origin-x horiz-origin-y 
+ideographic
+image-rendering in in2 intercept 
+k k1 k2 k3 k4 kernelMatrix kernelUnitLength
+kerning keyPoints keySplines keyTimes 
+lang lengthAdjust letter-spacing 
+lighting-color
+limitingConeAngle local 
+marker-end marker-mid marker-star markerHeight 
+markerUnits
+markerWidth mask maskContentUnits maskUnits mathematical max media method min 
+mode
+name numOctaves 
+offset onabort onactivate onbegin onclick onend onerror 
+onfocusin
+onfocusout onload onmousedown onmousemove onmouseout onmouseover onmouseup 
+onrepeat
+onresize onscroll onunload onzoom opacity operator order orient orientation
+origin overflow overline-position overline-thickness panose-1 path pathLength
+patternContentUnits patternTransform patternUnits pointer-events points 
+pointsAtX
+pointsAtY pointsAtZ preserveAlpha preserveAspectRatio primitiveUnits r radius
+refX refY rendering-intent repeatCount repeatDur requiredExtensions restart
+result rotate rx ry 
+scale seed shape-rendering slope spacing specularConstant
+specularExponent spreadMethod startOffset stdDeviation stemh stemv stitchTiles
+stop-color stop-opacity strikethrough-position strikethrough-thickness stroke
+stroke-dasharray stroke-dashoffset stroke-linecap stroke-linejoin 
+stroke-miterlimit
+stroke-opacity stroke-width style surfaceScale systemLanguage tableValues target
+targetX targetY text-anchor text-decoration text-rendering textLength title to
+transform type
+u1 u2 underline-position underline-thickness unicode unicode-bidi
+unicode-range units-per-em 
+v-alphabetic v-hanging v-ideographic v-mathematical
+values version vert-adv-y vert-origin-x vert-origin-y viewBox viewTarget 
+visibility
+width widths word-spacing writing-mode 
+x x-height x1 x2 xChannelSelector
+xlink:actuate xlink:arcrole xlink:href xlink:role xlink:show xlink:title 
+xlink:type
+xml:base xml:space xmlns xmlns:xlink 
+y y1 y2 yChannelSelector 
+z zoomAndPan
