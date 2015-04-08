@@ -1,0 +1,139 @@
+/L20"Assembler x64" AASM_LANG Nocase Line Comment = ; File Extensions = ASM INC MAC
+/Delimiters = ~$^&*()+=|\{};"'<> ,[]
+/Function String = "%BeginProc?[ ]++^([a-zA-Z_]+^)"
+/C1
+aaa aad aam aas adc add addpd addps addsd addss addsubpd addsubps aesdec aesdeclast aesenc aesenclast
+aesimc aeskeygenassist and andn andnpd andnps andpd andps arpl
+bextr blcfill blci blcic blcmsk blcs blendpd blendps blendvpd blendvps blsfill blsi blsic blsmsk blsr
+bound bsf bsr bswap bt btc btr bts bzhi
+call cbw cdq cdqe clc cld clflush clgi cli clts cmc cmov cmova cmovae cmovb cmovbe cmovc cmove cmovg
+cmovge cmovl cmovle cmovna cmovnae cmovnb cmovnbe cmovnccmovnc cmovne cmovng cmovnge cmovnl cmovnle cmovno
+cmovnp cmovns cmovnz cmovo cmovp cmovpe cmovpo cmovs cmovz cmp cmppd cmpps cmps cmpsb cmpsd cmpsq cmpss
+cmpsw cmpxchg cmpxchg16b cmpxchg8b comisd comiss cpuid cqo crc32 cvtdq2pd cvtdq2ps cvtpd2dq cvtpd2pi
+cvtpd2ps cvtpi2pd cvtpi2ps cvtps2dq cvtps2pd cvtps2pi cvtsd2si cvtsd2ss cvtsi2sd cvtsi2ss cvtss2sd
+cvtss2si cvttpd2dq cvttpd2pi cvttps2dq cvttps2pi cvttsd2si cvttss2si cwd cwde
+daa das dec div divpd divps divsd divss dppd dpps
+emms enter esc extractps extrq
+f2xm1 fabs fadd faddp fbld fbstp fchs fclex fcmov fcmova fcmovae fcmovb fcmovbe fcmovc fcmove fcmovg
+fcmovge fcmovl fcmovle fcmovna fcmovnae fcmovnb fcmovnbe fcmovncfcmovnc fcmovne fcmovng fcmovnge fcmovnl
+fcmovnle fcmovno fcmovnp fcmovns fcmovnz fcmovo fcmovp fcmovpe fcmovpo fcmovs fcmovz fcom fcomi fcomip
+fcomp fcompp fcos fdecstp fdiv fdivp fdivr fdivrp femms ffree fiadd ficom ficomp fidiv fidivr fild fimul
+fincstp finit fist fistp fisttp fisub fisubr fld fld1 fldcw fldenv fldl2e fldl2t fldlg2 fldln2 fldpi fldz
+fmul fmulp fnclex fninit fnop fnsave fnstcw fnstenv fnstsw fpatan fprem fprem1 fptan frndint frstor fsave
+fscale fsin fsincos fsqrt fst fstcw fstenv fstp fstsw fsub fsubp fsubr fsubrp ftst fucom fucomi fucomip
+fucomp fucompp fwait fxam fxch fxrstor fxsave fxtract fyl2x fyl2xp1
+haddpd haddps hlt hsubpd hsubps
+idiv imul in inc ins insb insd insertps insertq insw int into invd invlpg invlpga iret iretd iretq
+ja jae jb jbe jc jcxz je jecxz jg jge jl jle jmp jmpf jmpn jna jnae jnb jnbe jnc jne jng jnge jnl jnle jno
+jnp jns jnz jo jp jpe jpo jrcxz js jz
+lahf lar lddqu ldmxcsr lds lea leave les lfence lfs lgdt lgs lidt lldt llwpcb lmsw lock lods lodsb lodsd
+lodsq lodsw loop loope loopne loopnz loopz lsl lss ltr lwpins lwpval lzcnt
+maskmovdqu maskmovq maxpd maxps maxsd maxss mfence minpd minps minsd minss monitor mov movapd movaps movbe
+movd movddup movdq2q movdqa movdqu movhlps movhpd movhps movlhps movlpd movlps movmskpd movmskps movntdq
+movntdqa movnti movntpd movntps movntq movntsd movntss movq movq2dq movs movsb movsd movshdup movsldup
+movsq movss movsw movsx movsxd movupd movups movzx mpsadbw msw mul mulpd mulps mulsd mulss mulx mwait
+neg nop not
+or orpd orps out outs outsb outsd outsw
+pabsb pabsd pabsw packssdw packsswb packusdw packuswb paddb paddd paddq paddsb paddsw paddusb paddusw
+paddw palignr pand pandn pause pavgb pavgusb pavgw pblendvb pblendw pclmulqdq pcmpeqb pcmpeqd pcmpeqq
+pcmpeqw pcmpestri pcmpestrm pcmpgtb pcmpgtd pcmpgtq pcmpgtw pcmpistri pcmpistrm pdep pext pextrb pextrd
+pextrq pextrw pf2id pf2iw pfacc pfadd pfcmpeq pfcmpge pfcmpgt pfmax pfmin pfmul pfnacc pfpnacc pfrcp
+pfrcpit1 pfrcpit2 pfrsqit1 pfrsqrt pfsub pfsubr phaddd phaddsw phaddw phminposuw phsubd phsubsw phsubw
+pi2fd pi2fw pinsrb pinsrd pinsrq pinsrw pmaddubsw pmaddwd pmaxsb pmaxsd pmaxsw pmaxub pmaxud pmaxuw pminsb
+pminsd pminsw pminub pminud pminuw pmovmskb pmovsxbd pmovsxbq pmovsxbw pmovsxdq pmovsxwd pmovsxwq pmovzxbd
+pmovzxbq pmovzxbw pmovzxdq pmovzxwd pmovzxwq pmuldq pmulhrsw pmulhrw pmulhuw pmulhw pmulld pmullw pmuludq
+pop popa popad popcnt popf popfd popfq por prefetch prefetchlevel prefetchw psadbw pshufb pshufd pshufhw
+pshuflw pshufw psignb psignd psignw pslld pslldq psllq psllw psrad psraw psrld psrldq psrlq psrlw psubb
+psubd psubq psubsb psubsw psubusb psubusw psubw pswapd ptest punpckhbw punpckhdq punpckhqdq punpckhwd
+punpcklbw punpckldq punpcklqdq punpcklwd push pusha pushad pushf pushfd pushfq pxor
+rcl rcpps rcpss rcr rdfsbase rdgsbase rdmsr rdpmc rdrand rdtsc rdtscp rep repe repne repnz repz ret retf
+retn rol ror rorx roundpd roundps roundsd roundss rsm rsqrtps rsqrtss
+sahf sal sar sarx sbb scas scasb scasd scasq scasw seta setae setb setbe setc sete setg setge setl setle
+setna setnae setnb setnbe setnc setne setng setnge setnl setnle setno setnp setns setnz seto setp setpe
+setpo sets setz sfence sgdt shl shld shlx shr shrd shrx shufpd shufps sidt skinit sldt slwpcb smsw sqrtpd
+sqrtps sqrtsd sqrtss stc std stgi sti stmxcsr stos stosb stosd stosq stosw str sub subpd subps subsd subss
+swapgs syscall sysenter sysexit sysret
+t1mskc test tzcnt tzmsk
+ucomisd ucomiss ud2 unpckhpd unpckhps unpcklpd unpcklps
+vaddpd vaddps vaddsd vaddss vaddsubpd vaddsubps vaesdec vaesdeclast vaesenc vaesenclast vaesimc
+vaeskeygenassist vandnpd vandnps vandpd vandps vblendpd vblendps vblendvpd vblendvps vbroadcastf128
+vbroadcasti128 vbroadcastsd vbroadcastss vcmppd vcmpps vcmpsd vcmpss vcomisd vcomiss vcvtdq2pd vcvtdq2ps
+vcvtpd2dq vcvtpd2ps vcvtph2ps vcvtps2dq vcvtps2pd vcvtps2ph vcvtsd2si vcvtsd2ss vcvtsi2sd vcvtsi2ss
+vcvtss2sd vcvtss2si vcvttpd2dq vcvttps2dq vcvttsd2si vcvttss2si vdivpd vdivps vdivsd vdivss vdppd vdpps
+verr verw vextractf128 vextracti128 vextractps vfmadd132pd vfmadd132ps vfmadd132sd vfmadd132ss vfmadd213pd
+vfmadd213ps vfmadd213sd vfmadd213ss vfmadd231pd vfmadd231ps vfmadd231sd vfmadd231ss vfmaddpd vfmaddps
+vfmaddsd vfmaddss vfmaddsub132pd vfmaddsub132ps vfmaddsub213pd vfmaddsub213ps vfmaddsub231pd
+vfmaddsub231ps vfmaddsubpd vfmaddsubps vfmsub132pd vfmsub132ps vfmsub132sd vfmsub132ss vfmsub213pd
+vfmsub213ps vfmsub213sd vfmsub213ss vfmsub231pd vfmsub231ps vfmsub231sd vfmsub231ss vfmsubadd132pd
+vfmsubadd132ps vfmsubadd213pd vfmsubadd213ps vfmsubadd231pd vfmsubadd231ps vfmsubaddpd vfmsubaddps
+vfmsubpd vfmsubps vfmsubsd vfmsubss vfnmadd132pd vfnmadd132ps vfnmadd132sd vfnmadd132ss vfnmadd213pd
+vfnmadd213ps vfnmadd213sd vfnmadd213ss vfnmadd231pd vfnmadd231ps vfnmadd231sd vfnmadd231ss vfnmaddpd
+vfnmaddps vfnmaddsd vfnmaddss vfnmsub132pd vfnmsub132ps vfnmsub132sd vfnmsub132ss vfnmsub213pd
+vfnmsub213ps vfnmsub213sd vfnmsub213ss vfnmsub231pd vfnmsub231ps vfnmsub231sd vfnmsub231ss vfnmsubpd
+vfnmsubps vfnmsubsd vfnmsubss vfrczpd vfrczps vfrczsd vfrczss vgatherdpd vgatherdps vgatherqpd vgatherqps
+vhaddpd vhaddps vhsubpd vhsubps vinsertf128 vinserti128 vinsertps vlddqu vldmxcsr vmaskmovdqu vmaskmovpd
+vmaskmovps vmaxpd vmaxps vmaxsd vmaxss vminpd vminps vminsd vminss vmload vmmcall vmovapd vmovaps vmovd
+vmovddup vmovdqa vmovdqu vmovhlps vmovhpd vmovhps vmovlhps vmovlpd vmovlps vmovmskpd vmovmskps vmovntdq
+vmovntdqa vmovntpd vmovntps vmovq vmovsd vmovshdup vmovsldup vmovss vmovupd vmovups vmpsadbw vmrun vmsave
+vmulpd vmulps vmulsd vmulss vorpd vorps vpabsb vpabsd vpabsw vpackssdw vpacksswb vpackusdw vpackuswb
+vpaddb vpaddd vpaddq vpaddsb vpaddsw vpaddusb vpaddusw vpaddw vpalignr vpand vpandn vpavgb vpavgw vpblendd
+vpblendvb vpblendw vpbroadcastb vpbroadcastd vpbroadcastq vpbroadcastw vpclmulqdq vpcmov vpcmpeqb vpcmpeqd
+vpcmpeqq vpcmpeqw vpcmpestri vpcmpestrm vpcmpgtb vpcmpgtd vpcmpgtq vpcmpgtw vpcmpistri vpcmpistrm vpcomb
+vpcomd vpcomq vpcomub vpcomud vpcomuq vpcomuw vpcomw vperm2f128 vperm2i128 vpermd vpermil2pd vpermil2ps
+vpermilpd vpermilps vpermpd vpermps vpermq vpextrb vpextrd vpextrq vpextrw vpgatherdd vpgatherdq
+vpgatherqd vpgatherqq vphaddbd vphaddbq vphaddbw vphaddd vphadddq vphaddsw vphaddubd vphaddubq vphaddubw
+vphaddudq vphadduwd vphadduwq vphaddw vphaddwd vphaddwq vphminposuw vphsubbw vphsubd vphsubdq vphsubsw
+vphsubw vphsubwd vpinsrb vpinsrd vpinsrq vpinsrw vpmacsdd vpmacsdqh vpmacsdql vpmacssdd vpmacssdqh
+vpmacssdql vpmacsswd vpmacssww vpmacswd vpmacsww vpmadcsswd vpmadcswd vpmaddubsw vpmaddwd vpmaskmovd
+vpmaskmovq vpmaxsb vpmaxsd vpmaxsw vpmaxub vpmaxud vpmaxuw vpminsb vpminsd vpminsw vpminub vpminud vpminuw
+vpmovmskb vpmovsxbd vpmovsxbq vpmovsxbw vpmovsxdq vpmovsxwd vpmovsxwq vpmovzxbd vpmovzxbq vpmovzxbw
+vpmovzxdq vpmovzxwd vpmovzxwq vpmuldq vpmulhrsw vpmulhuw vpmulhw vpmulld vpmullw vpmuludq vpor vpperm
+vprotb vprotd vprotq vprotw vpsadbw vpshab vpshad vpshaq vpshaw vpshlb vpshld vpshlq vpshlw vpshufb
+vpshufd vpshufhw vpshuflw vpsignb vpsignd vpsignw vpslld vpslldq vpsllq vpsllvd vpsllvq vpsllw vpsrad
+vpsravd vpsraw vpsrld vpsrldq vpsrlq vpsrlvd vpsrlvq vpsrlw vpsubb vpsubd vpsubq vpsubsb vpsubsw vpsubusb
+vpsubusw vpsubw vptest vpunpckhbw vpunpckhdq vpunpckhqdq vpunpckhwd vpunpcklbw vpunpckldq vpunpcklqdq
+vpunpcklwd vpxor vrcpps vrcpss vroundpd vroundps vroundsd vroundss vrsqrtps vrsqrtss vshufpd vshufps
+vsqrtpd vsqrtps vsqrtsd vsqrtss vstmxcsr vsubpd vsubps vsubsd vsubss vtestpd vtestps vucomisd vucomiss
+vunpckhpd vunpckhps vunpcklpd vunpcklps vxorpd vxorps vzeroall vzeroupper
+wait wbinvd wrfsbase wrgsbase wrmsr
+xadd xchg xgetbv xlat xlatb xor xorpd xorps xrstor xsave xsaveopt xsetbv
+/C2
+%out
+.186 .286 .286c .286p .287 .386 .386p .387 .486 .487 .586 .686 .8086 .8087 .alpha .code .const .cref .data
+.data? .err .err1 .err2 .errb .errdef .errdif .erre .fardata .fardata? .lall .lfcond .list .model .msfloat
+.radix .sall .seq .sfcond .stack .type .xall .xcref .xlist
+@code @codesize @const @curseg @data @data? @datasize @fardata @fardata? @filename @stack
+align assume at
+b byte
+comm comment common compact
+d db dd df dosseg dt dup dw dword
+else end endif endm endp ends eq equ even exitm extrn
+far fq
+ge group
+h high huge
+ifb ifdef ifnb ifndef include includelib irp irpc
+label large le length local low lt
+macro mask medium memory
+name near
+o offset org
+page para proc ptr public purge
+q qword
+record rept
+seg segment short size small stack struc subttl
+this tiny title type
+use16 use32 use64
+width word
+/C3
+ah al ax
+bh bl bp bpl bx
+ch cl cr0 cr1 cr2 cr3 cr4 cr8 cs cx
+dh di dil dl dr0 dr1 dr2 dr3 dr4 dr5 dr6 dr7 ds dx
+eax ebp ebx ecx edi edx es esi esp
+fs
+gs
+ip
+mm0 mm1 mm2 mm3 mm4 mm5 mm6 mm7
+r10 r10b r10w r11 r11b r11w r12 r12b r12w r13 r13b r13w r14 r14b r14w r15 r15b r15w r8 r8b r8w r9 r9b r9w
+rax rbp rbx rcx rdi rdx rsi rsp
+si sil sp spl ss st0 st1 st2 st3 st4 st5 st6 st7
+xmm0 xmm1 xmm2 xmm3 xmm4 xmm5 xmm6 xmm7
