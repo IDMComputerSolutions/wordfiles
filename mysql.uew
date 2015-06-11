@@ -1,58 +1,47 @@
-/L20"MySQL" Nocase Line Comment = # Block Comment On = /* Block Comment Off = */ File Extensions = SQL
-/Delimiters = !&*()+=|/;"'<> 	,./
-/Function String = "%[ ^t]++create table[ ^t]+`++^([a-z_0-9]+^)`++"
-/C1
-add all alter and as asc auto_increment
-between binary both by
-change check column columns create cross
-data database databases default delayed delete desc describe distinct drop
-enclosed escaped exists explain
-field fields flush for foreign from function
-grant group
-having
-identified if ignore index insert infile into
-join
-key keys kill
-leading left like limit lines load local lock low_priority
-modify
-natural not null
-on optimize option optionally or order outer outfile
-primary proceedure
-read references regexp rename replace returns revoke rlike
-select set show soname status straight_join
-table tables teminated to trailing
-unique unlock unsigned update use using
-values variables
-where with write
-zerofill
-xor
-/C2
-abs acos adddate ascii asin atan atan2 avg
-bin bit_and bit_count bit_or
-ceiling char_lengh character_length concat conv cos cot count curdate curtime current_time current_timestamp
-date_add date_format date_sub dayname dayofmonth dayofweek dayofyear degrees
-elt encrypt exp
-find_in_set floor format from_days from_unixtime
-get_lock greatest
+/L13"MySQL 5.1" SQL_LANG Nocase Line Comment = # Line Comment Alt = -- Block Comment On = /* Block Comment Off = */ Escape Char = \ File Extensions = SQL
+/Regexp Type = Perl
+/TGBegin "Tables"
+/TGFindStr = "^[ \t]*create table if not exists[ \t]+`*([a-z_0-9]+)`*"
+/TGBegin "Members"
+/TGFindStr = "^[ \t]*(`.*`)"
+/TGFindBStart = "\("
+/TGFindBEnd = "\)"
+/TGEnd
+/TGEnd
+/Delimiters = !&*()+=|/;"'<>:@ 	,./#-
+/Indent Strings = "BEGIN"
+/Unindent Strings = "END"
+/Open Brace Strings =  "{" "(" "["
+/Close Brace Strings = "}" ")" "]"
+/Open Fold Strings = "{"
+/Close Fold Strings = "}"
+/C1"Functions"
+abs acos adddate addtime aes_decrypt aes_encrypt against ascii asin atan atan2 avg
+begin benchmark bin bit_and bit_count bit_length bit_or bit_xor by
+case cast ceil ceiling char char_length character_length charset coercibility collation compress concat concat_ws connection_id conv convert convert_tz cos cot count crc32 curdate current_date current_time current_timestamp current_user curtime
+date date_add date_format date_sub datediff day dayname dayofmonth dayofweek dayofyear decode degrees des_decrypt des_encrypt
+else elt encode end exp export_set extract extractvalue
+field find_in_set floor format found_rows from_days from_unixtime
+get_format get_lock group_concat
 hex hour
-ifnull instr isnull interval
-last_insert_id lcase lower least length locate log log10 lpad ltrim
-max mid min minute mod month monthname
-now
-oct octet_length
-password period_add period_diff pi position pow
-quarter
-radians rand release_lock repeat reverse right round rpad rtrim
-second sec_to_time session_user sign sin soundex space sqrt strcmp substring substring_index sysdate system_user std sum
-tan time_format time_to_sec to_days trim truncate
-ucase unix_timestamp user
-version
-week weekday
-year
-/C3
+inet_aton inet_ntoa insert instr is_free_lock is_used_lock
+last_day last_insert_id lcase left length like load_file localtime localtimestamp locate log log10 log2 lower lpad ltrim
+make_set makedate maketime master_pos_wait match max md5 microsecond mid min minute mod month monthname
+name_const not now
+oct octet_length old_password ord order
+password period_add period_diff pi position pow power
+quarter quote
+radians rand regexp release_lock repeat replace reverse right rlike round row_count rpad rtrim
+schema schemas sec_to_time second session_user sha sha1 sign sin sleep soundex space sqrt std stddev stddev_pop stddev_samp str_to_date strcmp subdate substr substring substring_index subtime sum sysdate system_user
+tan then time time_format time_to_sec timediff timestamp timestampadd timestampdiff to_days trim truncate
+ucase uncompress uncompressed_length unhex unix_timestamp updatexml upper user utc_date utc_time utc_timestamp uuid
+values var_pop var_samp variance version
+week
+weekday weekofyear when where
+year yearweek
+/C2"Variable Types"
 bigint blob
-char
-date datetime decimal double doubleprecision
+datetime decimal double doubleprecision
 enum
 float float4 float8
 int int1 int2 int3 int4 int8 integer
@@ -61,5 +50,52 @@ mediumblob mediumint mediumtext middleint
 numeric
 real
 smallint
-text time timestamp tinyint tinytext tinyblob
+text tinyblob tinyint tinytext
 varbinary varchar varying
+/C3"Reserved Words"
+accessible add all alter analyze and as asc asensitive
+before between both
+call cascade change character check column condition constraint continue create cross cursor
+database databases day_hour day_microsecond day_minute day_second dec declare default delayed delete desc describe deterministic distinct distinctrow drop dual
+each elseif enclosed escaped exists exit explain
+false fetch for force foreign from fulltext function
+grant group
+having high_priority hour_microsecond hour_minute hour_second
+if ignore index infile inner inout insensitive interval into iterate
+join
+key keys kill
+leading leave limit linear lines load lock loop low_priority
+minute_microsecond minute_second modifies
+natural no_write_to_binlog null
+on optimize option optionally out outer outfile
+precision primary procedure purge
+range read read_only read_write reads references release rename require restrict return revoke
+second_microsecond select sensitive separator set show spatial specific sql sql_big_result sql_calc_found_rows sql_small_result sqlexception sqlstate sqlwarning ssl starting straight_join
+table terminated to trailing trigger true
+undo union unique unlock unsigned update usage use using
+varcharacter
+while with write
+x509
+year_month
+zerofill
+/C4"Operators"
+!
+%
+&
+*
++
+-
+// /
+:
+<
+=
+>
+^
+binary
+collate
+div
+in is
+or
+xor
+|
+~

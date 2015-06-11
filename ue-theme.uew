@@ -1,0 +1,111 @@
+/L6"UE Themes" XML_LANG Noquote Block Comment On = <!-- Block Comment Off = --> Escape Char = \ String Chars = '" File Extensions = UE-THEME
+/Delimiters = ~@$^&*( )+=|\{};"'<>	,
+/Regexp Type = Perl
+/TGBegin "Window"
+/TGFindStr = "<(Window|Editor|Languages)[ \t\/]?>"
+/TGEnd
+/TGBegin "Font"
+/TGFindStr = "[ \t\n]*\<Font[ \t\n]+Category=\"([^\"]+)\""
+/TGEnd
+/TGBegin "Languages"
+/TGFindStr = "[ \t\n]*\<Language[ \t\n]+Name=\"([^\"]+)\""
+/TGEnd
+/TGBegin "Color"
+/TGFindStr = "[ \t\n]*\<Color[ \t\n]+ID=\"([^\"]+)\"(?:[ \t\n]+Category=\"([^\"]+)\")?"
+/TGEnd
+/TGBegin "Gradient"
+/TGFindStr = "[ \t\n]*\<Gradient[ \t\n]+ID=\"([^\"]+)\"(?:[ \t\n]+Category=\"([^\"]+)\")?"
+/TGEnd
+/Open Brace Strings =  "{" "(" "[" "<"
+/Close Brace Strings = "}" ")" "]" ">"
+/Variable String = "\$S[ \t]*=[ \t]+\"([^\"]*)\""
+/C1"Elements" STYLE_ELEMENT
+<ColorPair
+</ColorPair>
+<FontStyle
+</FontStyle>
+<Boolean
+</Boolean>
+<UETheme
+</UETheme>
+<Look>
+</Look>
+<Gradient
+</Gradient>
+/C2"Attributes" STYLE_ATTRIBUTE
+Category=
+Name=
+Value=
+Description=
+ID=
+/C3"Window" STYLE_ELEMENT
+<Window>
+</Window>
+<Editor>
+</Editor>
+<Languages>
+</Languages>
+/C4"Style Attributes" STYLE_ATTRIBUTE
+Foreground=
+Background=
+Auto=
+Face=
+Start=
+Finish=
+/C5"Font" STYLE_ELEMENT
+<Font
+</Font>
+<Color
+</Color>
+/C6"Variables" STYLE_KEYWORD
+Normal
+Comments
+Text
+Strings
+Numbers
+Alternate Block Comments
+Block
+Color Group
+Group
+true
+false
+Bold
+Italic
+Custom
+/C7"Operators" STYLE_OPERATOR
+!
+$
+%
+&
+*
++
+-
+// /
+:
+<
+=
+>
+?
+[
+]
+^
+|
+~
+.
+"
+'
+/C8"Languages" STYLE_ELEMENT
+<Language
+</Language>
+/C9"Keywords" STYLE_KEYWORD
+to-do list
+UE Themes
+Default
+Dockable Windows
+Hex/Column
+
+** ID_
+/C10"Elements Other" STYLE_ELEMENT
+** <
+/C11"Color Variables" STYLE_KEYWORD
+** #

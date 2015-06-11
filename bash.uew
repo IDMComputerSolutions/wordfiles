@@ -31,7 +31,7 @@ reboot rmmod route
 shutdown
 traceroute
 /C3
-]  
+]
 [
 awk
 basename
@@ -49,11 +49,12 @@ sed sleep
 test touch
 ulimit uname usleep
 zcat zless
+git
 /C4
 `
 -a -b -c -d -e -f -g -h -i -j -k -l -m -n -o -p -q -r -s -t -u -v -w -x -z
 /C5
--eq -ge -gt -le -lt 
-= 
+-eq -ge -gt -le -lt
+=
 !=
 
