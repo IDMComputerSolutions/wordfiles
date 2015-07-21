@@ -1,0 +1,27 @@
+/L20"devicetree_cb" Line Comment = # String Chars = "' File Extensions = cb
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+
+/Open Fold Strings = "chip" "device"
+/Close Fold Strings = "end"
+
+/C1"Primary Terms"
+chip
+device drq
+end
+INTA INTB INTC INTD ioapic irq io ioapic_irq inherit
+register
+subsystemid
+
+/C2"off"
+off
+
+/C3"Device Types"
+cpu cpu_cluster
+domain
+i2c
+lapic
+pci pnp
+
+/C4"on"
+on
+

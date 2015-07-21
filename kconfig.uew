@@ -1,0 +1,42 @@
+/L20"Kconfig" DisableMLS Noquote String Chars = " Line Comment = # File Names = Kconfig
+
+/Delimiters = ~!@$%^&*()+=|\/{}[]:;"'<> 	,.?\`/
+
+/Open Fold Strings = "choice" "menu"
+/Close Fold Strings = "endchoice" "endmenu"
+
+/C1"Keywords"
+---help---
+allnoconfig_y
+choice comment config
+default depends defconfig_list
+endchoice endif endmenu env
+if
+help
+mainmenu menu menuconfig modules
+optional option on
+prompt
+range
+select source
+visible
+
+/C2"Type Definitions"
+bool
+def_bool def_tristate
+hex
+int
+string
+tristate
+
+/C3"Symbols"
+=
+||
+(
+)
+&&
+! !=
+
+/C4"defaults"
+m
+n
+y
