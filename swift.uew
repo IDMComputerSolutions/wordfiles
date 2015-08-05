@@ -1,0 +1,164 @@
+/L20"Swift" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = SWIFT
+/TGBegin "Functions"
+/TGFindStr = "func[ ^t]+^([A-Za-z0-9_:.]+^)"
+/TGFindBStart = "{"
+/TGFindBEnd = "}"
+/TGBegin "Parameters"
+/TGFindStr = ",++[ ^t]++^([#A-Za-z0-9_. ]+:[ ^tA-Za-z0-9_<>^[^].]+^)"
+/TGFindBStart = "("
+/TGFindBEnd = ")"
+/TGEnd
+/TGBegin "Return"
+/TGFindStr = "^->[ ^t]+^([():^->, A-Za-z0-9_.]+^)[ ^t]++"
+/TGFindBStart = ")"
+/TGFindBEnd = "{"
+/TGEnd
+/TGEnd
+/Indent Strings = "{" "if" "else" ":"
+/Unindent Strings = "}"
+/Open Brace Strings =  "{" "(" "["
+/Close Brace Strings = "}" ")" "]"
+/Open Fold Strings = "{"
+/Close Fold Strings = "}"
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/C1"Keywords"
+** @
+Protocol
+Type
+as associativity atIndex
+bool break
+case class continue convenience
+default deinit didSet do dynamic dynamicType
+else endIndex enum extension
+fallthrough final for forKey func
+get
+if import in infix init inout internal
+left let
+mutating
+none nonmutating
+operator optional override
+precedence private protocol public
+required return right
+self set startIndex static struct subscript super switch
+typealias
+unowned
+var
+weak where while willSet
+/C2"Functions, methods, types, etc."
+AncestorRepresentation Any AnyBidirectionalCollection AnyBidirectionalIndex AnyForwardCollection
+AnyForwardIndex AnyGenerator AnyRandomAccessCollection AnyRandomAccessIndex AnySequence Array ArraySlice
+AutoreleasingUnsafeMutablePointer
+Bit Bool
+CChar COpaquePointer CVaListPointer Character CharacterView ClosedInterval CollectionOfOne ContiguousArray
+Dictionary DictionaryGenerator DictionaryIndex DictionaryLiteral DisplayStyle Double
+EmptyCollection EmptyGenerator EnumerateGenerator EnumerateSequence
+FilterCollection FilterCollectionIndex FilterGenerator FilterSequence Float Float80
+FloatingPointClassification
+GeneratorOfOne GeneratorSequence
+HalfOpenInterval
+ImplicitlyUnwrappedOptional IndexingGenerator Int Int16 Int32 Int64 Int8
+LazyBidirectionalCollection LazyForwardCollection LazyRandomAccessCollection LazySequence
+ManagedBuffer ManagedBufferPointer ManagedProtoBuffer MapCollection MapGenerator MapSequence Mirror
+NonObjectiveCBase
+ObjectIdentifier Optional
+PermutationGenerator PlaygroundQuickLook Process
+Range RangeGenerator RawByte Repeat ReverseCollection ReverseIndex ReverseRandomAccessCollection
+ReverseRandomAccessIndex
+Set SetGenerator SetIndex Slice StaticString StrideThrough StrideThroughGenerator StrideTo
+StrideToGenerator String
+UInt UInt16 UInt32 UInt64 UInt8 UTF16 UTF16View UTF32 UTF8 UTF8View UnicodeDecodingResult UnicodeScalar
+UnicodeScalarView Unmanaged UnsafeBufferPointer UnsafeBufferPointerGenerator UnsafeMutableBufferPointer
+UnsafeMutablePointer UnsafePointer
+VaListBuilder
+Zip2Generator Zip2Sequence
+_SwiftNSOperatingSystemVersion
+abs advance alignof alignofValue anyGenerator append assert assertionFailure
+bridgeFromObjectiveC bridgeFromObjectiveCUnconditional bridgeToObjectiveC bridgeToObjectiveCUnconditional
+c_malloc_size c_memcpy c_putchar contains count countElements countLeadingZeros
+debugPrint debugPrintln distance dropFirst dropLast dump
+encodeBitsAsWords enumerate equal exclusiveOr
+fatalError filter find
+getBridgedObjectiveCType getVaList
+hasPrefix hasSuffix
+indices insert insertionSort intersect isBridgedToObjectiveC isBridgedVerbatimToObjectiveC isDisjointWith
+isStrictSubsetOf isStrictSupersetOf isSubsetOf isSupersetOf isUniquelyReferenced
+isUniquelyReferencedNonObjC
+join
+lazy lexicographicalCompare
+map max maxElement min minElement
+numericCast
+overlaps
+partition posix_read posix_write postfix precondition preconditionFailure predecessor prefix print println
+quickSort
+readLine reduce reflect reinterpretCast remove removeAtIndex removeLast removeRange repeatedValue reverse
+roundUpToAlignment
+sizeof sizeofValue sort sorted splice split startsWith stride strideof strideofValue subtract successor
+suffix swap swift_MagicMirrorData_summaryImpl swift_bufferAllocate swift_keepAlive
+toString transcode
+underestimateCount unicodeScalar union unsafeAddressOf unsafeBitCast unsafeDowncast unsafeReflect
+unsafeUnwrap updateValue utf16 utf8
+value
+withExtendedLifetime withObjectAtPlusZero withUnsafeMutablePointer withUnsafeMutablePointers
+withUnsafePointer withUnsafePointerToObject withUnsafePointers withVaList
+zip
+/C3"Boolean, etc."
+false
+isEmpty
+keys
+nil
+rawValue
+true
+values
+/C4"Protocols"
+AbsoluteValuable AnyCollectionType AnyObject ArrayLiteralConvertible
+BidirectionalIndexType BitwiseOperationsType BooleanLiteralConvertible BooleanType
+CVarArgType CollectionType Comparable CustomDebugStringConvertible CustomLeafReflectable
+CustomPlaygroundQuickLookable CustomReflectable CustomStringConvertible
+DictionaryLiteralConvertible
+Equatable ErrorType ExtendedGraphemeClusterLiteralConvertible
+FloatLiteralConvertible FloatingPointType ForwardIndexType
+GeneratorType
+Hashable
+Indexable IntegerArithmeticType IntegerLiteralConvertible IntegerType IntervalType
+LogicValue
+MirrorPathType MutableCollectionType MutableSliceable
+NilLiteralConvertible
+OptionSetType OutputStreamType
+Printable
+RandomAccessIndexType RangeReplaceableCollectionType RawRepresentable
+Sequence SequenceType SetAlgebraType SignedIntegerType SignedNumberType Streamable Strideable
+StringInterpolationConvertible StringLiteralConvertible
+UnicodeCodecType UnicodeScalarLiteralConvertible UnsignedIntegerType
+_ArrayBufferType _ArrayType _CVarArgAlignedType _CVarArgPassedAsDouble _CocoaStringType
+_CollectionWrapperType _ColorLiteralConvertible _DestructorSafeContainer _DisallowMixedSignArithmetic
+_ImageLiteralConvertible _Incrementable _IntegerArithmeticType _IntegerType _MirrorType _NSArrayCoreType
+_NSCopyingType _NSDictionaryCoreType _NSDictionaryType _NSEnumeratorType _NSFastEnumerationType
+_NSSetCoreType _NSSetType _NSStringCoreType _ObjectiveCBridgeable _PointerType _Reflectable
+_SequenceWrapperType _ShadowProtocol _SignedIntegerType _SinkType _Strideable _StringElementType
+/C6"Macros"
+__COLUMN__ __FILE__ __FUNCTION__ __LINE__
+/C5"Operators"
+!
+$
+%
+&
+*
++
+-
+// /
+<
+=
+>
+?
+^
+|
+~
+/C6"Braces, comma, semicolon"
+(
+)
+,
+;
+[
+]
+{
+}
