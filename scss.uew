@@ -5,6 +5,9 @@
 /TGBegin "Extends"
 /TGFindStr = "@extend(?:\s+url)?[\s\("']+([a-z/\.\-]*?)[\)"']+"
 /TGEnd
+/TGBegin "Includes"
+/TGFindStr = "@include(?:\s+url)?[\s\("']+([a-z/\.\-]*?)[\)"']+"
+/TGEnd
 /TGBegin "Selectors"
 /TGFindStr = "((?:[\.#]-?[_a-zA-Z]+[_a-zA-Z0-9\- :]*[\s,]*)+)\{"
 /TGBegin "Properties"
@@ -137,7 +140,11 @@ visited
 ;
 =
 >
+<<<<<<< HEAD
 @charset @import @page @extend
+=======
+@charset @import @page @extend @include
+>>>>>>> 4791b967f6323eca1f93cfed911796d4de838ab8
 [
 \
 ]
