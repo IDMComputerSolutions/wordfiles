@@ -1,0 +1,132 @@
+/L20"Python" PYTHON_LANG EnableMLS Line Comment = # Escape Char = \ String Literal Prefix = r File Extensions = PY PYW
+/Regexp Type = Perl
+/TGBegin "Classes"
+/TGFindStr = "^[ \t]*class[ \t]+([^:\r\n]*)\("
+/TGBegin "Parameters"
+/TGFindStr = "[ \t\n]*([^,]+)"
+/TGFindBStart = "\("
+/TGFindBEnd = "\)"
+/TGEnd
+/TGFindStr = "^[ \t]*class[ \t]+([^:\r\n]*):"
+/TGEnd
+/TGBegin "Functions/Methods"
+/TGFindStr = "^[ \t]*def[ \t]+([^:\r\n]*)\("
+/TGBegin "Parameters"
+/TGFindStr = "[ \t\n]*([^,]+)"
+/TGFindBStart = "\("
+/TGFindBEnd = "\)"
+/TGEnd
+/TGEnd
+/Indent Strings = ":"
+/Delimiters = !@%^&*()-+=|\/{}[]:;"'`<> ,	.
+/Open Brace Strings = "(" "[" "{"
+/Close Brace Strings = ")" "]" "}"
+/C1"Keywords" STYLE_KEYWORD
+False
+None
+True
+and as assert
+break
+class continue
+def del
+elif else except
+finally for from
+global
+if import in is
+lambda
+nonlocal not
+or
+pass
+raise return
+try
+while with
+yield
+/C2"Built-in Functions" STYLE_FUNCTION
+__import__
+abs all any ascii
+bin bool bytearray bytes
+callable chr classmethod compile complex
+delattr dict dir divmod
+enumerate eval exec
+filter float format frozenset
+getattr globals
+hasattr hash help hex
+id input int isinstance issubclass iter
+len list locals
+map max memoryview min
+next
+object oct open ord
+pow print property
+range repr reversed roundf
+set setattr slice sorted staticmethod str sum super
+tuple type
+vars
+zip
+/C3"Special Methods" STYLE_METHOD
+__abs__ __add__ __aenter__ __aexit__ __aiter__ __and__ __anext__ __await__ __bool__ __bytes__ __call__
+__ceil__ __complex__ __concat__ __contains__ __copy__ __deepcopy__ __del__ __delattr__ __delete__
+__delitem__ __dir__ __divmod__ __enter__ __eq__ __exit__ __float__ __floor__ __floordiv__ __format__
+__ge__ __get__ __getattr__ __getattribute__ __getitem__ __getnewargs__ __getnewargs_ex__ __getstate__
+__gt__ __hash__ __iadd__ __iand__ __iconcat__ __ifloordiv__ __ilshift__ __imatmul__ __imod__ __imul__
+__index__ __init__ __instancecheck__ __int__ __inv__ __invert__ __ior__ __ipow__ __irshift__ __isub__
+__iter__ __itruediv__ __ixor__ __le__ __len__ __length_hint__ __lshift__ __lt__ __matmul__ __missing__
+__mod__ __mul__ __ne__ __neg__ __new__ __next__ __not__ __or__ __pos__ __pow__ __radd__ __rand__
+__rdivmod__ __reduce__ __reduce_ex__ __repr__ __reversed__ __rfloordiv__ __rlshift__ __rmatmul__ __rmod__
+__rmul__ __ror__ __round__ __rpow__ __rrshift__ __rshift__ __rsub__ __rtruediv__ __rxor__ __set__
+__setattr__ __setitem__ __setstate__ __str__ __sub__ __subclasscheck__ __subclasses__ __subclasshook__
+__truediv__ __xor__
+/C4"Sepcial Attributes" STYLE_ATTRIBUTE
+__all__ __annotations__ __bases__ __cached__ __callback__ __cause__ __class__ __closure__ __code__
+__context__ __defaults__ __dict__ __displayhook__ __doc__ __excepthook__ __file__ __func__ __globals__
+__interactivehook__ __kwdefaults__ __loader__ __module__ __mro__ __name__ __package__ __path__
+__qualname__ __self__ __slots__ __spec__ __stderr__ __stdin__ __stdout__ __suppress_context__
+__traceback__
+/C5"Exceptions"
+ArithmeticError AssertionError AttributeError
+BaseException BlockingIOError BrokenPipeError BufferError BytesWarning
+ChildProcessError ConnectionAbortedError ConnectionError ConnectionRefusedError ConnectionResetError
+DeprecationWarning
+EOFError Exception
+FileExistsError FileNotFoundError FloatingPointError FutureWarning
+GeneratorExit
+ImportError ImportWarning IndentationError IndexError InterruptedError IsADirectoryError
+KeyError KeyboardInterrupt
+LookupError
+MemoryError
+NameError NotADirectoryError NotImplementedError
+OSError OverflowError
+PendingDeprecationWarning PermissionError ProcessLookupError
+ReferenceError ResourceWarning RuntimeError RuntimeWarning
+StopIteration SyntaxError SyntaxWarning SystemError SystemExit
+TabError TimeoutError TypeError
+UnboundLocalError UnicodeDecodeError UnicodeEncodeError UnicodeError UnicodeTranslateError UnicodeWarning
+UserWarning
+ValueError
+Warning
+ZeroDivisionError
+/C6"Operators" STYLE_OPERATOR
+!=
+%
+&
+* **
++
+-
+// / //
+< << <=
+==
+> >= >>
+@
+^
+|
+~
+/C7"Built-in Constants"
+Ellipsis
+NotImplemented
+__debug__
+copyright credits
+exit
+license
+quit
+/C8"Others"
+cls
+self
