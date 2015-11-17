@@ -1,0 +1,331 @@
+/L8"Sputnik" SPK_LANG Nocase EnableMLS Line Comment = // Line Comment Alt = # Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = SPK
+/Regexp Type = Perl
+/TGBegin "Requires"
+/TGFindStr = "^[\t ]*require*[\t "']+([0-9a-z$&*\-./:=?\\^_]+)["']*;"
+/TGEnd
+/TGBegin "Includes"
+/TGFindStr = "^[\t ]*include*[\t "']+([0-9a-z$&*\-./:=?\\^_]+)["']*;"
+/TGEnd
+/TGBegin "Functions"
+/TGFindStr = "^[\t ]*(?:(?:abstract|private|override|static)[\t ]+)*function[\t ]+([a-z_\x7f-\xff][0-9a-z_\x7f-\xff]*)"
+/TGBegin "Parameters"
+/TGFindStr = "[\t ]*(\$[a-z_\x7f-\xff][0-9a-z_\x7f-\xff]*[\t ]*=[\t ]*(?:array[\t ]*\((?:[^()]*|(?:[\t ]*array[\t ]*\(.*?\))+[\t ]*)\)|".*?"(?<!\\")|'.*?'(?<!\\'))|[^,]+)"
+/TGFindBStart = "\("
+/TGFindBEnd = "\)\s*(?:\{|#|//|/\*)"
+/TGEnd
+/TGBegin "Variables"
+/TGFindStr = "^[\t ]*(my|global|)[\t ]*\$([a-z_\x7f-\xff][0-9a-z_\x7f-\xff]*)[\t ]*="
+/TGFindBStart = "\{"
+/TGFindBEnd = "\}"
+/TGEnd
+/TGEnd
+/Delimiters = ~!%^&*()-+=|\/{}[]:;"'` ,	.>
+/Variable String = "^[ \t]*\$$S[ \t]*=[ \t]*new[ \t]+([a-z_0-9]+)\(\);"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/Open Brace Strings =  "{" "(" "["
+/Close Brace Strings = "}" ")" "]"
+/Open Fold Strings = "{"
+/Close Fold Strings = "}"
+/C1"Control Structures" STYLE_KEYWORD
+;
+assert
+break
+case caseId continue
+default die do
+else exit
+for foreach Function
+if include
+Operator
+redo require return
+select switch
+unless until
+warn while
+{
+}
+/C2"Tags" STYLE_TAG
+<? <?SPK
+?>
+/C3"Variables" STYLE_VARIABLE
+** $ & @
+/C4"Operators" STYLE_OPERATOR
+!
+%
+&
+(
+)
+*
++
+,
+-
+.
+// /
+:
+< << <<< <>
+=
+> >> >>>
+?
+@
+[
+]
+^
+and
+cmp cmpi
+eq eqi eqv
+ge gei gt gti
+le lei lg lgi lt lti
+neq neqi neqv not
+or
+xor
+|
+~
+/C5"Built-in Functions" STYLE_FUNCTION
+Abs Acos Addbr Addcslashes Addpath All Alloc Angle2d Any Arrayscope Asc Ascarray Ascii Ascw Ascwarray Asin
+Assign Atan Atan2 Atof Atoi Atol
+Barycentric BaseConv Bcrypt BcryptVerify Between Bin Binary BinaryAppend BinaryClone BinaryCompare
+BinaryCompress BinaryConcat BinaryContains BinaryCrc32 BinaryCreate BinaryDelete BinaryEndSwith
+BinaryExpand BinaryFill BinaryFromStr BinaryGet BinaryHash BinaryHex BinaryIndexOf BinaryIndexOfAny
+BinaryInsert BinaryJoin BinaryLastIndexOf BinaryLastIndexOfAny BinaryLen BinaryLoad BinaryMd5 BinaryMid
+BinaryMidReplace BinaryPadLeft BinaryPadRight BinaryPop BinaryPush BinaryRandom BinaryRemove BinaryReplace
+BinaryResize BinaryReverse BinarySave BinarySet BinarySha1 BinaryShift BinaryStartsWith BinaryStr
+BinaryStripNull BinaryToLower BinaryToStr BinaryToUpper BinaryTrim BinaryTrimLeft BinaryTrimRight
+BinaryUncompress BinaryUnshift BinaryUUDecode BinaryUUEncode BinaryWipe BinDec BinHexDecode BinHexEncode
+BitAnd BitmapCreate BitmapGetPixel BitmapSetPixel BitNot BitOr BitRotate BitShift BitSwap BitTripleShift
+BitXor Bool Bt Byte BytebufferCapacity BytebufferClear BytebufferClone BytebufferCompare BytebufferFlip
+BytebufferGet BytebufferGetbinary BytebufferHasRemaining BytebufferLimit BytebufferMark BytebufferNew
+BytebufferPeek BytebufferPosition BytebufferPut BytebufferRemaining BytebufferReset BytebufferRewind
+BytebufferToBinary
+Call CallArray CallFunc Catmullrom Ceiling CGIConsole Char CharCopy ChoiceBox Chomp Chop Chr ChrArray ChrW
+ChrWArray ChunkSplit Clamp ClassExists ClassInfo ClassList ClassName ClassStack Clear ClearBit ClipGet
+ClipSet Cls Colour ColourDialog Combine CombinePath Compare Concat ConsoleBackColour ConsoleBeep
+ConsoleBufferHeight ConsoleBufferWidth ConsoleCapsLock ConsoleClear ConsoleCursorLeft ConsoleCursorSize
+ConsoleCursorTop ConsoleCursorVisible ConsoleForeColour ConsoleHeight ConsoleHide ConsoleKeyAvailable
+ConsoleSeek ConsoleSetBuffer ConsoleSetCursor ConsoleSetSize ConsoleShow ConsoleState ConsoleTitle
+ConsoleWidth Contains ContainsAny ControlClick ControlDisable ControlEnable ControlFocus ControlGetFocus
+ControlGetHandle ControlGetPos ControlGetText ControlHide ControlMove ControlSend ControlSetText
+ControlShow ConvertClass CoreFunctionExists CoreFunctionList Cos Cosh Count CountChars CountFields
+CountValues CountWords Crc32 Crypt CSetDel CSetMatch CSV Cur CurDir
+Date DDec Debug Dec DecBin DecOct Decode64 DecPad DecryptString DegreesToRadians DegreesToRevolutions
+Delete DelPath DHex DiffCalc DirCopy DirExists DirMove DirSize Distance Distance2D Distance3D DLLCall
+DLLclose DLLimport DLLimportexists DLLimportlist DLLopen DLLStructCreate DLLStructCreateDef
+DLLStructCreateUnion DLLStructExists DLLStructGetData DLLStructGetDef DLLStructGetPtr DLLStructGetSize
+DLLStructGetVars DLLStructList DLLStructSetData DoEvents Double
+Echo Encode64 Encoding EncryptString EndsWith Enum EnumAdd EnumDel Enumerate EnumExists EnumIsDefined
+EnumKey EnumList EnumValue EnvExpand EnvGet EnvSet EnvUpdate Escape EscapeMeta EscapeShellArg
+EscapeShellCmd Eval EvalCreate EvalGet EvalSet EvalSyntax Exec ExecShell ExecSystem Exp
+FDec FHex FileAccessTime FileAppend FileAppendBinary FileAppendLines FileClose FileCopy FileCreationTime
+FileDecrypt FileDelete FileEncrypt FileExists FileIsText FileLoad FileMatch FileMd5 FileMove FileOpen
+FileOpenDialog FileOpenText FilePos FileRead FileReadBinary FileReadLine FileReadLines FileReadText
+FileRecycle FileRecyclEempty FileSave FileSaveDialog FileSeek FileSha1 FileSize FileTemp FileWrite
+FileWriteBinary FileWriteLines FileWriteTime Fill FillBit FillKeys Find First FirstOrDefault Flip Float
+Floor Fmt FmtNumber FolderSelectDialog FontDialog Free Frexp FunctionExists FunctionInfo FunctionList
+Gauss GetBit GetBValue GetDirectoryName GetDosPath GetExtension GetFilename GetFilenameWithoutExtension
+GetFiles GetFolders GetFullPath GetGValue GetPathRoot GetRelativePath GetRValue GetVarGuiObjType
+GetVarObjType GetVarObjTypeName GetVarType GetVarTypeName Glob GMatch GradiansToDegrees GradiansToRadians
+GradiansToRevolutions Grep GrepKeys GSub GUIBringToFront GUICheckBox GUIComboBox GUICreate GUIDatagrid
+GUIFont GUIGetProp GUIGetPropList GUIHideCaret GUIHotkeyBox GUILink GUILinkValid GUIListBox GUILoad
+GUIMdiParent GUIMsgFilter GUIPictureBox GUIProgressBar GUIPropInvoke GUIRadioButton GUIRedraw
+GUIRichTextBox GUISendToBack GUISetProp GUIShowCaret GUIStatus GUITabsheet GUITimer GUITimerStart
+GUITimerStop GUIUnload GUIWindow GUIWndProc
+Hasextension HasFlag HasFlagAny Hash HebRev HebRevc Hermite Hex Hex2Str HostResolve HotkeySet
+HTMLAttributeEncode HTMLDecode HTMLEncode HtmlEntities HtmlEntityDecode HtmlSpecialChars
+HtmlSpecialCharsDecode HtmlTranslationTable HttpDownload HttpFileExists HttpGetString HttpMakeQuery
+HttpParseQuery HWND
+InArray IndexNotOf IndexNotOfAny IndexNotOfValue IndexNotOfValueAny IndexOf IndexOfAny IndexOfValue
+IndexOfValueAny Input InputBox InputBoxEx InputC Insert InsertArray Instr InstrRev Int Int16 Int32 Int64
+IntDiv Integer IntPtr IntToRom InvertBit IsAdmin IsAlpha IsAlphanumeric IsArray IsAscii IsBinary IsBlank
+IsControl IsDeclared IsDigit IsDivisible IsEmpty IsEmptyOrNull IsEven IsFloat IsFpu IsGraph IsHash
+IsHashAny IsIndexSet IsInf IsInt IsIpper IsKeySet IsKeysSet IsList IsLower IsNan IsNegInf IsNormal
+IsNumber IsNumeric IsOdd IsOverloaded IsPathRooted IsPosInf IsPrime IsPunctuation IsSeparator IsSet
+IsSpace IsString IsSymbol IsVar IsVarArray IsVarBinary IsVarBool IsVarByte IsVarChar IsVarClass
+IsVarClient IsVarClientSocket IsVarDLLStruct IsVarDouble IsVarFloat IsVarFp IsVarFunction IsVarGUIObject
+IsVarInt IsVarInt16 IsVarInt32 IsVarInt64 IsVarIntPtr IsVarLong IsVarNbt IsVarNull IsVarNumber IsVarObj
+IsVarPtr IsVarRef IsVarSByte IsVarServer IsVarShort IsVarSigned IsVarSocket IsVarString IsVarUInt
+IsVarUInt16 IsVarUInt32 IsVarUInt64 IsVarUIntPtr IsVarULong IsVarUnsigned IsVarUptr IsVarUShort IsXDigit
+Join JoinKV JsonDecode JsonEncode
+KeyHook KeyHookKill Keys
+Last LastIndexNotOf LastIndexNotOfAny LastIndexNotOfValue LastIndexOf LastIndexOfAny LastIndexOfValue
+LastIndexOfValueAny LastOrDefault LBound Lc LcFirst LcLast LcWords Ldexp Left Lerp Levenshtein LineInfo
+Lines Log Log10 Long
+Match Math MatLabMod Max Md5 Metaphone Microtime Min MkDir MkFunc Mod Mod2pi Modf MouseClick
+MouseClickDrag MouseDown MouseGetCursor MouseGetPos MouseHook MouseHookKill MouseMove MouseUp MouseWheel
+MsgBox MySQLClose MySQLConnect MySQLFetch MySQLFetchReset MySQLFields MySQLFill MySQLQuery MySQLRows
+MySQLSelectDb
+Nbt NbtCompare NbtCompoundClear NbtCompoundCompress NbtCompoundCount NbtCompoundDecompress NbtCompoundGet
+NbtCompoundGetKeys NbtCompoundGetMap NbtCompoundGetTags NbtCompoundHasKey NbtCompoundIsEmpty
+NbtCompoundRead NbtCompoundReadCompressed NbtCompoundReadFile NbtCompoundRemove NbtCompoundSet
+NbtCompoundWrite NbtCompoundWriteCompressed NbtCompoundWriteFile NbtCopy NbtGetId NbtGetName NbtHash
+NbtListAppend NbtListCount NbtListGet NbtListHasId NbtListRemove NbtNew NbtToString NbtToVar NewClass
+NewClassFromArray NthField
+ObjToVar Obtain OctDec OffsetCalc Op Opt Ord Order OrdW
+Pack PackSingle Pad PadLeft PadRight PadSep Parse ParsePath Parser Passthru Pause PHandle Ping
+PixelChecksum PixelGetColour PixelGetMouse PixelSearch PixelSearchHWND PluginLoad PluginUnload Pop Pow
+Print PrintableDecode PrintableEncode Printf Printfc PrintLn Printr ProcessClose ProcessExists ProcessId
+ProcessList ProcessSetPriority ProcessWait ProcessWaitClose PSet Ptr PtrRead PtrToDLLStruct PtrToString
+PtrWrite Push PushArray
+RadiansToDegrees RadiansToGradians RadiansToRevolutions Random RandomSeed RandomSeedSet RandomVar RandStr
+Range RealGetKeyState Realloc Ref RegDelete RegexEscape RegexMatch Regexp RegexReplace RegexUnescape
+RegKeyExists RegKeyList RegRead RegValueExists RegValueList RegWrite Remove RemoveKey RemoveKeys
+RemoveValue RemoveValues Repeat Replace ResolveStr Rev Reverse RevHex RevolutionsToDegrees
+RevolutionsToGradians RevolutionsToRadians Rgb Right RMdir RomToInt Rot13 Round Run RunAsSet RunCapture
+RunShell RunShellWait RunWait
+SameValues Say SByte SCanf ScopeFromString ScopeToString Search SendKeys Serialize SetBit SetFlag Sha1
+Shift Short Shutdown SignBit SimilarText Sin Sinh Sleep SmoothStep SocketAccept SocketAvailable SocketBind
+SocketClose SocketConnect SocketConnected SocketCreate SocketHandle SocketIp SocketIsBound SocketListen
+SocketOpt SocketPoll SocketReadChar SocketReadLine SocketReceive SocketSend SocketSendFile SocketSendTo
+SocketShutdown Sort Soundex Splice Split Sprintf Sqrt SSApprove SSBufferNew SSBufferPut SSClientIp
+SSClientStatus SSConnect SSDisapprove SSDrop SSListen SSRead SSRecv SSSend StartsWith Str2Hex StrChr
+StrCmp StrCompress StrCSpn StrIncrement StrIndex String StringToPtr StrInsert StripCSlashes StripTags
+StripWS StrLen StrNatCmp StrNew Strng Strpbrk StrPos StrrChr StrShuffle StrSplit StrSpn StrStr StrTok
+StrTol StrToul StrTr StrUncompress StrVersCmp Sub Substr SubstrCmp SubstrCount SubstrReplace Sum SumDouble
+SumInt SumKeys SumUInt SumValues System
+Tan Tanh Tb TheradResume ThreadCreate ThreadExists ThreadKill ThreadLock ThreadName ThreadResume Threads
+ThreadSleep ThreadState TickCount Time TimerDiff TimerInit ToolTip ToolTipKill Trim TrimLeft TrimRight
+TrimToNull Truncate
+UBound Uc UcFirst UcLast UcWords UInt UInt16 UInt32 UInt64 UInteger UIntPtr ULong Unescape Unpack
+UnpackSingle Unserialize Unset UnsetClass UnsetCoreFunction UnsetDLLImport UnsetDLLStruct UnsetEnum
+UnsetFunction Unshift UnshiftArray UPtr UrlDecode UrlDecodeBytes UrlEncode UrlEncodeBytes UrlEncodeUnicode
+UShort USleep UUDecode UUEncode
+Values VarDump VarList VarObjtypeFromString VarObjtypeToString VarScopeFromString VarScopeToString
+VarToObj VarTypeFromString VarTypeToString Vec VPrintf VSPrintf
+Walk Where WhereNot WinActivate WinActive WinClose WinExists WinFlash WinGetCaretPos WinGetClassList
+WinGetClientSize WinGetHandle WinGetPos WinGetProcess WinGetState WinGetText WinGetTitle WinKill WinList
+WinMenuSelectItem WinMinimizeAll WinMinimizeAllUndo WinMove WinSetState WinSetTitle WinSetTrans WinWait
+WinWaitActive WinWaitClose WinWaitNotActive WithinEpsilson WordCount Wordwrap Wrap WrapAngle
+/C6"Built-in Constants" STYLE_EXTENSION
+Args array
+Countable
+Exception
+Flags from
+get goto
+IncompleteClass
+JsonSerializable
+new
+q qq qqx qw qww qx
+Replace ReturnCast Returns Rule
+set SpkProc StdClass Strict
+Terminal to
+using
+with
+yield
+/C7"Built-in Variables" STYLE_VARIABLE
+argc argv
+/C8"Keywords" STYLE_KEYWORD
+$_ $this
+@1pi @1sqrt2 @2pi @2sqrtpi @AcSize @AllValid @AlphaNumeric @AltDirectorySeparatorChar @AnchorBottom
+@AnchorLeft @AnchorNone @AnchorRight @AnchorTop @AnsiMapped @AnsiPrintable @Arabic @ArgC @Args @ArgV
+@Armenian @Begin @Bengali @BoolSize @Bopomofo @BopomofoExt @br @Buhid @ByteMax @ByteMin @ByteSize
+@CaseState @cBlack @cBlue @CBoxChecked @CBoxIndeterminate @CBoxUnchecked @ccBlack @ccBlue @ccCyan
+@ccDarkBlue @ccDarkCyan @ccDarkGray @ccDarkGreen @ccDarkMagenta @ccDarkRed @ccDarkYellow @ccGray @ccGreen
+@ccMagenta @ccRed @ccWhite @cCyan @ccYellow @cDarkBlue @cDarkCyan @cDarkGray @cDarkGreen @cDarkMagenta
+@cDarkRed @cDarkYellow @CellSelect @cGray @cGreen @CharMax @CharMin @CharSize @Cherokee @cMagenta
+@ColumnHeaderSelect @CommonFilesDir @Compiled @ConsoleVisible @Controls @cr @cRed @crlf @Crypt_BlowFish
+@Crypt_EXT_DES @Crypt_MD5 @Crypt_Salt_Length @Crypt_STD_DES @CurDir @Currency @cWhite @cYellow @Cyrillic
+@CyrillicSup @DesktopHeight @DesktopWidth @Devanagari @Digit @DirectorySeparatorChar @Domain
+@DoubleEpsilon @DoubleMax @DoubleMin @DoubleNan @DoubleNegInf @DoublePosInf @DoubleSize @e @End
+@Ent_Compat @Ent_Disallowed @Ent_HTML401 @Ent_HTML5 @Ent_Ignore @Ent_NoQuotes @Ent_Quotes @Ent_Substitute
+@Ent_XHTML @Ent_XML1 @Epoch @Ethiopic @euler @Euro @ExeDir @ExeName @ExePath @ff @FileCase @FloatEpsilon
+@FloatMax @FloatMin @FloatNan @FloatNegInf @FloatPosInf @FloatSize @Fnm_Casefold @Fnm_NoEscape
+@Fnm_PathName @Fnm_Period @FontBold @FontItalic @FontRegular @FontStrikeout @FontUnderline
+@FullColumnSelect @FullRowSelect @Georgian @Glob_Brace @Glob_Err @Glob_Mark @Glob_NoCheck @Glob_NoEscape
+@Glob_NoSort @Glob_OnlyDir @Greek @GreekExt @Groups @GSubCount @Gui @Guid @GuidBin @GuidZero @GuidZeroBin
+@Gujarati @Gurmukhi @Hanguljamo @Hanunoo @Hebrew @Hiragana @Hour @HrtAllTextRange @HrtChangedRange
+@HrtVisibleRange @HTML_Entities @HTML_Specialchars @Int16Max @Int16Min @Int16Size @Int32Max @Int32Min
+@Int32Size @Int64Max @Int64Min @Int64Size @IntMax @IntMin @IntPtrSize @IntPtrZero @InvalidFileNameChars
+@InvalidPathChars @IsBigEndian @IsLink @IsLittleEndian @JapPunct @JapRomKat @Json_Base64_Binary
+@Json_Bigint_As_String @Json_Check_String_Boolean @Json_Constructor_Class @Json_Error_Ctrl_Char
+@Json_Error_Depth @Json_Error_None @Json_Error_Syntax @Json_Error_UTF8 @Json_Force_Object @Json_Hex_Amp
+@Json_Hex_Apos @Json_Hex_Quot @Json_Hex_Tag @Json_Numeric_Check @Json_Object_As_Array @Json_Pretty_Print
+@Json_String_Boolean @Json_Unescaped_Slashes @Json_Unescaped_Unicode @Kanbun @Kanji @Kannada @Katakana
+@KeyA @KeyAdd @KeyAlt @KeyApps @KeyAttn @KeyB @KeyBack @KeyBrowserBack @KeyBrowserFavorites
+@KeyBrowserForward @KeyBrowserHome @KeyBrowserRefresh @KeyBrowserSearch @KeyBrowserStop @KeyC @KeyCancel
+@KeyCapital @KeyCapsLock @KeyClear @KeyConsoleA @KeyConsoleAdd @KeyConsoleApplications
+@KeyConsoleAttention @KeyConsoleB @KeyConsoleBackspace @KeyConsoleBrowserBack @KeyConsoleBrowserFavorites
+@KeyConsoleBrowserForward @KeyConsoleBrowserHome @KeyConsoleBrowserRefresh @KeyConsoleBrowserSearch
+@KeyConsoleBrowserStop @KeyConsoleC @KeyConsoleClear @KeyConsoleCrSel @KeyConsoleD @KeyConsoleD0
+@KeyConsoleD1 @KeyConsoleD2 @KeyConsoleD3 @KeyConsoleD4 @KeyConsoleD5 @KeyConsoleD6 @KeyConsoleD7
+@KeyConsoleD8 @KeyConsoleD9 @KeyConsoleDecimal @KeyConsoleDelete @KeyConsoleDivide @KeyConsoleDownArrow
+@KeyConsoleE @KeyConsoleEnd @KeyConsoleEnter @KeyConsoleEraseEndOfFile @KeyConsoleEscape
+@KeyConsoleExecute @KeyConsoleExSel @KeyConsoleF @KeyConsoleF1 @KeyConsoleF10 @KeyConsoleF11
+@KeyConsoleF12 @KeyConsoleF13 @KeyConsoleF14 @KeyConsoleF15 @KeyConsoleF16 @KeyConsoleF17 @KeyConsoleF18
+@KeyConsoleF19 @KeyConsoleF2 @KeyConsoleF20 @KeyConsoleF21 @KeyConsoleF22 @KeyConsoleF23 @KeyConsoleF24
+@KeyConsoleF3 @KeyConsoleF4 @KeyConsoleF5 @KeyConsoleF6 @KeyConsoleF7 @KeyConsoleF8 @KeyConsoleF9
+@KeyConsoleG @KeyConsoleH @KeyConsoleHelp @KeyConsoleHome @KeyConsoleI @KeyConsoleInsert @KeyConsoleJ
+@KeyConsoleK @KeyConsoleL @KeyConsoleLaunchApp1 @KeyConsoleLaunchApp2 @KeyConsoleLaunchMail
+@KeyConsoleLaunchMediaSelect @KeyConsoleLeftArrow @KeyConsoleLeftWindows @KeyConsoleM @KeyConsoleMediaNext
+@KeyConsoleMediaPlay @KeyConsoleMediaPrevious @KeyConsoleMediaStop @KeyConsoleMultiply @KeyConsoleN
+@KeyConsoleNoName @KeyConsoleNumPad0 @KeyConsoleNumPad1 @KeyConsoleNumPad2 @KeyConsoleNumPad3
+@KeyConsoleNumPad4 @KeyConsoleNumPad5 @KeyConsoleNumPad6 @KeyConsoleNumPad7 @KeyConsoleNumPad8
+@KeyConsoleNumPad9 @KeyConsoleO @KeyConsoleOem1 @KeyConsoleOem102 @KeyConsoleOem2 @KeyConsoleOem3
+@KeyConsoleOem4 @KeyConsoleOem5 @KeyConsoleOem6 @KeyConsoleOem7 @KeyConsoleOem8 @KeyConsoleOemClear
+@KeyConsoleOemComma @KeyConsoleOemMinus @KeyConsoleOemPeriod @KeyConsoleOemPlus @KeyConsoleP
+@KeyConsolePa1 @KeyConsolePacket @KeyConsolePageDown @KeyConsolePageUp @KeyConsolePause @KeyConsolePlay
+@KeyConsolePrint @KeyConsolePrintScreen @KeyConsoleProcess @KeyConsoleQ @KeyConsoleR @KeyConsoleRightArrow
+@KeyConsoleRightWindows @KeyConsoleS @KeyConsoleSelect @KeyConsoleSeparator @KeyConsoleSleep
+@KeyConsoleSpacebar @KeyConsoleSubtract @KeyConsoleT @KeyConsoleTab @KeyConsoleU @KeyConsoleUpArrow
+@KeyConsoleV @KeyConsoleVolumeDown @KeyConsoleVolumeMute @KeyConsoleVolumeUp @KeyConsoleW @KeyConsoleX
+@KeyConsoleY @KeyConsoleZ @KeyConsoleZoom @KeyControl @KeyControlKey @KeyCrsel @KeyD @KeyD0 @KeyD1 @KeyD2
+@KeyD3 @KeyD4 @KeyD5 @KeyD6 @KeyD7 @KeyD8 @KeyD9 @KeyDecimal @KeyDelete @KeyDivide @KeyDown @KeyE @KeyEnd
+@KeyEnter @KeyEraseEof @KeyEscape @KeyExecute @KeyExsel @KeyF @KeyF1 @KeyF10 @KeyF11 @KeyF12 @KeyF13
+@KeyF14 @KeyF15 @KeyF16 @KeyF17 @KeyF18 @KeyF19 @KeyF2 @KeyF20 @KeyF21 @KeyF22 @KeyF23 @KeyF24 @KeyF3
+@KeyF4 @KeyF5 @KeyF6 @KeyF7 @KeyF8 @KeyF9 @KeyFinalMode @KeyG @KeyH @KeyHanguelMode @KeyHangulMode
+@KeyHanjaMode @KeyHelp @KeyHome @KeyI @KeyIMEAccept @KeyIMEAceept @KeyIMEConvert @KeyIMEModeChange
+@KeyIMENonconvert @KeyInsert @KeyJ @KeyJunjaMode @KeyK @KeyKanaMode @KeyKanjiMode @KeyKeyCode @KeyL
+@KeyLaunchApplication1 @KeyLaunchApplication2 @KeyLaunchMail @KeyLButton @KeyLControlKey @KeyLeft
+@KeyLineFeed @KeyLMenu @KeyLShiftKey @KeyLWin @KeyM @KeyMButton @KeyMediaNextTrack @KeyMediaPlayPause
+@KeyMediaPreviousTrack @KeyMediaStop @KeyMenu @KeyModifiers @KeyMultiply @KeyN @KeyNext @KeyNoName
+@KeyNone @KeyNumLock @KeyNumPad0 @KeyNumPad1 @KeyNumPad2 @KeyNumPad3 @KeyNumPad4 @KeyNumPad5 @KeyNumPad6
+@KeyNumPad7 @KeyNumPad8 @KeyNumPad9 @KeyO @KeyOem1 @KeyOem102 @KeyOem2 @KeyOem3 @KeyOem4 @KeyOem5 @KeyOem6
+@KeyOem7 @KeyOem8 @KeyOemBackslash @KeyOemClear @KeyOemCloseBrackets @KeyOemcomma @KeyOemMinus
+@KeyOemOpenBrackets @KeyOemPeriod @KeyOemPipe @KeyOemplus @KeyOemQuestion @KeyOemQuotes @KeyOemSemicolon
+@KeyOemtilde @KeyP @KeyPa1 @KeyPacket @KeyPageDown @KeyPageUp @KeyPause @KeyPlay @KeyPrint @KeyPrintScreen
+@KeyPrior @KeyProcessKey @KeyQ @KeyR @KeyRButton @KeyRControlKey @KeyReturn @KeyRight @KeyRMenu
+@KeyRShiftKey @KeyRWin @KeyS @KeyScroll @KeySelect @KeySelectMedia @KeySeparator @KeyShift @KeyShiftKey
+@KeySleep @KeySnapshot @KeySpace @KeySubtract @KeyT @KeyTab @KeyU @KeyUp @KeyV @KeyVolumeDown
+@KeyVolumeMute @KeyVolumeUp @KeyW @KeyX @KeyXButton1 @KeyXButton2 @KeyY @KeyZ @KeyZoom @Khmer @Lang
+@LangCSharp @LangCustom @LangHtml @LangJs @LangPhp @LangSpk @LangSql @LangVb @Lao @LatinExt @LatinExtAdd
+@Letter @LetterExt @lf @lfcr @ln10 @ln2 @lnpi @log10e @log2e @LongMax @LongMin @MachineName @Malayalam
+@MDay @mExecute @mExecuteRead @mExecuteReadWrite @mExecuteWriteCopy @mGuard @Min @mNoAccess @mNoCache @Mon
+@Mongolian @MouseLeft @MouseMiddle @MouseNone @MouseRight @MouseXButton1 @MouseXButton2 @mReadOnly
+@mReadWrite @MSec @mWriteCombine @mWriteCopy @Myanmar @mZeroAccess @n @nbsp @nbtByte @nbtByteArray
+@nbtCompound @nbtDatabase @nbtDouble @nbtDoubleArray @nbtEnd @nbtError @nbtFinal @nbtFloat @nbtFloatArray
+@nbtInt @nbtIntArray @nbtList @nbtListEx @nbtLong @nbtLongArray @nbtShort @nbtShortArray @nbtString
+@nbtStringArray @nbtUInt @nbtUIntArray @nbtULong @nbtULongArray @nbtUShort @nbtUShortArray @nbtVec3
+@nbtVec3Array @nl @Number @Ogham @Oriya @Os @OSLinux @OSMacOSX @OSWindows @PathSeparator @pi @pi2 @pi4
+@Post @Printable @PrintableExt @PtrSize @PtrZero @rAscii @rBinary @rBool @rByte @rDouble @rFloat @rInt
+@rInt16 @rInt32 @rInt64 @rLong @RowHeaderSelect @rSByte @rShort @RtbScroll_Both @RtbScroll_ForcedBoth
+@RtbScroll_ForcedHorizontal @RtbScroll_ForcedVertical @RtbScroll_Horizontal @RtbScroll_None
+@RtbScroll_Vertical @rUInt @rUInt16 @rUInt32 @rUInt64 @rULong @Runic @rUShort @rUtf16 @rUtf16Big @rUtf32
+@rUtf7 @rUtf8 @s @SByteMax @SByteMin @SByteSize @ScopeAny @ScopeGlobal @ScopeLocal @ScopeTypeBlock
+@ScopeTypeFunction @ScopeTypeInterpInit @ScopeTypeMax @ScopeTypeNone @ScopeTypeStackInit @ScriptDir @Sec
+@SelModeMultiExtended @SelModeMultiSimple @SelModeNone @SelModeOne @Sep @Shortmax @ShortMin @Sinhala
+@Space @SputnikReflection @sqrt2 @sqrt3 @sqrtpi @SSBadMessageReceived @SSConnected @SSConnecting
+@SSConnectionApproval @SSConnectionRejected @SSData @SSDebugMessage @SSDisconnected @SSDisconnecting
+@SSNatIntroduction @SSNone @SSOutOfBandData @SSReceipt @SSReconnecting @SSServerDiscovered
+@SSStatusChanged @SSVerboseDebugMessage @Syriac @SysDir @tab @Tagalog @Tagbanwa @Tamil @Telugu @TempDir
+@Thaana @Thai @Tibetan @TickCount @Ticks @Time @twopi @TypeArray @TypeBinary @TypeBool @TypeButton
+@TypeByte @TypeChar @TypeCheckBox @TypeClass @TypeClient @TypeCodeBox @TypeComboBox @TypeContextMenu
+@TypeDatagrid @TypeDLLStruct @TypeDouble @TypeErr @TypeError @TypeFile @TypeFloat @TypeFont @TypeFunc
+@TypeGroupBox @TypeHotkeyBox @TypeInt16 @TypeInt32 @TypeInt64 @TypeIntPtr @TypeLabel @TypeListBox
+@TypeMenu @TypeMenuItem @TypeMySQL @TypeMySQLData @TypeNull @TypeObj @TypeObject @TypePictureBox
+@TypeProgressBar @TypeRadioButton @TypeReference @TypeRichtextBox @TypeSByte @TypeServer @TypeSocket
+@TypeStatusBar @TypeString @TypeTabPage @TypeTabSheet @TypeTextBox @TypeTimer @TypeTreeview @TypeUInt16
+@TypeUInt32 @TypeUInt64 @TypeUIntPtr @TypeWindow @UcSize @UInt16Max @UInt16Min @UInt16Size @UInt32Max
+@UInt32Min @UInt32Size @UInt64Max @UInt64Min @UInt64Size @UIntMax @UIntMin @UIntPtrSize @UIntPtrZero
+@ULongMax @ULongMin @UPtrSize @UPtrZero @User @UShortMax @UShortMin @Value @VolumeSeparatorChar @vt @WDay
+@Whitespace @WinDir @x64 @x86 @YDay @Year @zerotolerance
+__call __callStatic __construct __destruct __get __invoke __isset __set __sleep __unset __wakeup
+abstract as
+by
+catch class clone const core
+embedded extends
+false finally
+gc global
+Is IsNot
+List
+my
+null
+override
+parent private
+self static
+throw true try
