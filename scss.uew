@@ -1,4 +1,4 @@
-/L11"SCSS" Line Comment = // Line Nocase Block Comment On = /* Block Comment Off = */ String Chars = "' Escape Char = \ DisableMLS File Extensions = SCSS
+/L20"SCSS" Nocase Line Comment = // Block Comment On = /* Block Comment Off = */ String Chars = "' Escape Char = \ DisableMLS File Extensions = SCSS
 /TGBegin "Imports"
 /TGFindStr = "@import(?:\s+url)?[\s\("']+([a-z/\.\-]*?)[\)"']+"
 /TGEnd
@@ -19,7 +19,6 @@
 /TGBegin "Variables"
 /TGFindStr = "^[\t ]*\$([a-z_\x7f-\xff][0-9a-z_\x7f-\xff]*)[\t ]"
 /TGEnd
-/Font Style = 0,0,0,0,0,
 /Regexp Type = Perl
 /Delimiters = ( )	*+,.:;=>[\]{|}~
 /Indent Strings = "{"
@@ -136,19 +135,18 @@ visited
 +
 ,
 .
+4791b967f6323eca1f93cfed911796d4de838ab8
 :
 ;
+<<<<<<<
 =
 >
-<<<<<<< HEAD
-@charset @import @page @extend
-=======
-@charset @import @page @extend @include
->>>>>>> 4791b967f6323eca1f93cfed911796d4de838ab8
+@charset @extend @import @include @page
 [
 \
 ]
 from
+HEAD
 to
 {
 |
@@ -162,21 +160,22 @@ to
 ActiveBorder ActiveCaption AliceBlue AntiqueWhite AppWorkspace aqua Aquamarine Azure
 Beige Bisque black BlanchedAlmond blue BlueViolet Brown BurlyWood ButtonFace ButtonHighlight ButtonShadow ButtonText
 CadetBlue CaptionText Chartreuse Chocolate Coral CornflowerBlue Cornsilk Crimson Cyan
-DarkBlue DarkCyan DarkGoldenrod DarkGray DarkGreen DarkKhaki DarkMagenta DarkOliveGreen DarkOrange DarkOrchid DarkRed 
+DarkBlue DarkCyan DarkGoldenrod DarkGray DarkGreen DarkKhaki DarkMagenta DarkOliveGreen DarkOrange DarkOrchid DarkRed
 DarkSalmon DarkSeaGreen DarkSlateBlue DarkSlateGray DarkTurquoise DarkViolet DeepPink DeepSkyBlue DimGray DodgerBlue
 Firebrick FloralWhite ForestGreen fuchsia
 Gainsboro GhostWhite Gold Goldenrod gray GrayText green GreenYellow
 Highlight HighlightText Honeydew HotPink
 InactiveBorder InactiveCaption InactiveCaptionText IndianRed Indigo InfoBackground InfoText Ivory
 Khaki
-Lavender LavenderBlush LawnGreen LemonChiffon LightBlue LightCoral LightCyan LightGoldenrodYellow LightGray LightGreen 
+Lavender LavenderBlush LawnGreen LemonChiffon LightBlue LightCoral LightCyan LightGoldenrodYellow LightGray LightGreen
 LightPink LightSalmon LightSeaGreen LightSkyBlue LightSlateGray LightSteelBlue LightYellow Lime LimeGreen Linen
-Magenta Maroon MediumAquamarine MediumBlue MediumOrchid MediumPurple MediumSeaGreen MediumSlateBlue MediumSpringGreen MediumTurquoise MediumVioletRed MenuText MidnightBlue MintCream MistyRose Moccasin
+Magenta Maroon MediumAquamarine MediumBlue MediumOrchid MediumPurple MediumSeaGreen MediumSlateBlue
+MediumSpringGreen MediumTurquoise MediumVioletRed MenuText MidnightBlue MintCream MistyRose Moccasin
 NavajoWhite Navy
 OldLace Olive OliveDrab Orange OrangeRed Orchid
 PaleGoldenrod PaleGreen PaleTurquoise PaleVioletRed PapayaWhip PeachPuff Peru Pink Plum PowderBlue Purple
 Red RosyBrown RoyalBlue
-SaddleBrown Salmon SandyBrown Scrollbar SeaGreen SeaShell Sienna Silver SkyBlue SlateBlue SlateGray Snow SpringGreen SteelBlue 
+SaddleBrown Salmon SandyBrown Scrollbar SeaGreen SeaShell Sienna Silver SkyBlue SlateBlue SlateGray Snow SpringGreen SteelBlue
 Tan Teal Thistle ThreeDDarkShadow ThreeDFace ThreeDHighlight ThreeDLightShadow ThreeDShadow Tomato Turquoise
 Violet
 Wheat White WhiteSmoke Window WindowFrame WindowText
