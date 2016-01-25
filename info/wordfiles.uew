@@ -1,0 +1,51 @@
+/L10"IDM Wordfiles" Noquote File Extensions = UEW
+/Delimiters = " =
+/Function String = "%/C[1-9][0-9]++"^(*^)""
+/Open Fold Strings = "/C1" "/C2" "/C3" "/C4" "/C5" "/C6" "/C7" "/C8" "/C9"
+/Close Fold Strings = "/C1" "/C2" "/C3" "/C4" "/C5" "/C6" "/C7" "/C8" "/C9" "/L2" "/L3" "/L4" "/L5" "/L6" "/L7" "/L8" "/L9" "/L10" "/L11" "/L12" "/L13" "/L14" "/L15" "/L16" "/L17" "/L18" "/L19" "/L20"
+/Ignore Fold Strings =  "// /"
+/C1"Language Markers"
+AASM_LANG ASP_LANG
+COBOL_LANG CSHARP_LANG CSS_LANG C_LANG
+ECMA_LANG
+FORTRAN_LANG
+HTML_LANG
+JAVA_LANG JSCRIPT_LANG
+LATEX_LANG
+MASM_LANG MATLAB_LANG
+NASM_LANG
+PASCAL_LANG PERL_LANG PHP_LANG PLB_LANG PUREBASIC_LANG PYTHON_LANG
+SQL_LANG
+VBSCRIPT_LANG VB_LANG
+XML_LANG XSL_LANG
+/C2"Languages"
+// /L1 /L10 /L11 /L12 /L13 /L14 /L15 /L16 /L17 /L18 /L19 /L2 /L20 /L3 /L4 /L5 /L6 /L7 /L8 /L9
+/C3"Color Groups"
+// /C1 /C10 /C11 /C12 /C13 /C14 /C15 /C16 /C17 /C18 /C19 /C2 /C20 /C3 /C4 /C5 /C6 /C7 /C8 /C9
+/C4"Keywords 1"
+Alt
+Block
+Char Chars Columns Comment
+DisableMLS
+EnableCFByIndent EnableMLS EnableSpellasYouType Escape Extensions
+File
+Line Literal
+Names NestBlockComments Nocase Noquote Num
+Off On
+Perl Preceding Prefix
+Valid
+/C5"Delimiters"
+"
+=
+/C6"Keywords 2"
+// /Close /Colors /Delimiters /Font /Function /Ignore /Indent /Marker /Member /Open /Regexp /TGBegin
+// /TGEnd /TGFindBEnd /TGFindBStart /TGFindStr /Unindent /Variable
+Auto
+Back Brace
+Characters Colors
+Fold Font
+SOL String Strings Style
+Type
+/C7"Styles"
+STYLE_ATTRIBUTE STYLE_COMMAND STYLE_ELEMENT STYLE_EVENT STYLE_EXTENSION STYLE_FUNCTION STYLE_IDENTIFIER
+STYLE_KEYWORD STYLE_METHOD STYLE_OPERATOR STYLE_STATEMENT STYLE_TAG STYLE_VARIABLE

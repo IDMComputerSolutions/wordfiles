@@ -1,0 +1,44 @@
+/L12"Hyperion EPMA Batch Scripts" Line Comment = // Nocase File Extensions = EPMA
+/Delimiters = ~!%^&*()-+=|\/{}[]:;"'` ,	.
+/Open Brace Strings =  "("
+/Close Brace Strings = ")"
+/C1"Responses"
+bpmaserverurl
+False
+Parameters Properties
+True
+Values
+workspaceurl
+/C2"Parameter Items"
+ActivateAllForApplication AggregationWeight ApplicationDescription ApplicationName ApplicationServer
+ApplicationType AssociatedDimensionName
+CheckIntegrity ClearAll CopyApplicationToName CreateOutline CreateSecurityFilters
+datasourceName DataSynchronizationName DataTransformationOperator DataTransformationValue deployOption
+destApplicationName DimensionDescription DimensionName DimensionType
+escapeValidateRules
+FileName Force FromParentName
+HubProject
+ImportType IncludeAsShared InsertAfterMember InsertMemberName InstanceName
+MemberDescription MemberName MemberToInsertName MergeAsShared
+NewMemberName NumDecimalPlaces
+ParentName ProfileName PropertyDescription PropertyName PurgeTransactions
+RefreshOutline RemoveChildren ReplaceMode RetainFilteredStructure RetainPropertyOverrides
+ShareAsNew SharedDimensionName SharedMembersSecurityFilters SyncToApp
+TargetDimensionDescription TargetDimensionName ToParentName
+UploadFile
+ValidateOnly ValidateSecurityFilterLimit ValidateType ValidationAccount ValidOnly
+WaitForCompletion
+/C3"Commands and Command Classes"
+APPLICATION ASSOCIATION
+COPY CREATE
+DATASYNCHRONIZATION DEBUG DELETE DEPLOY DETACH DIMENSION DIMENSIONASSOCIATION DIMSYNCHRONIZATION
+EXCLUDE EXECUTE EXIT
+IMPORT INCLUDE INSERT
+LOGIN LOGOUT
+MEMBER MOVE
+OPTION
+QUIT
+REDEPLOY REMOVE RENAME
+SET SHARE
+UPDATE
+VALIDATE var VARIABLE
