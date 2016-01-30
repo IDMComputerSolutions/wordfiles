@@ -1,5 +1,5 @@
 /L20"Cobol" COBOL_LANG Line Comment Num = 2*  Nocase File Extensions = CBL COB CPY
-/Delimiters = ~!@$%^&*()_+=|\/{}[]:;"'<> ,	.?/
+/Delimiters = ~!@$%^&*()+=|\/{}[]:;"'<> ,	.?/
 /Function String = "%[ ^t]+^([a-z0-9^-]+^) ^{SECTION^}^{DIVISION^}"
 /C1
 accept access acquire actual add address advancing after all allowing alphabet alphabetic alphabetic-lower alphabetic-upper alphanumeric
