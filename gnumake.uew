@@ -1,5 +1,5 @@
 /L10"Makefiles" Line Comment = # String Chars = "' File Extensions = MAK MK
-/Delimiters = ~!&+=|\/{}[];"'()> ,
+/Delimiters = ~!&+=|\/{}[];"'()>	 ,
 /Marker Characters = "()"
 /C1"Variables"
 $% $* $< $? $@ $^
