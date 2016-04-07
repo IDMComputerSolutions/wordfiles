@@ -1,0 +1,78 @@
+/L9"Asterisk" Line Comment = ; Block Comment On = ; Block Comment Off =  Escape Char = \ Nocase String Chars = "' File Extensions = CONF
+/Delimiters = ~!@%^&*()-+=|\/{}:"'<> ,	.?
+/Function String = "^[[a-zA-Z0-9-_]^]"
+/Marker Characters = "[]"
+/C1"Keywords"
+AbsoluteTimeout AddQueueMember ADSIProg AgentCallbackLogin AgentLogin AgentMonitorOutgoing AGI
+AlarmReceiver ALSAMonitor Answer AppendCDRUserField Authenticate
+BackGround BackgroundDetect Busy
+CallingPres ChangeMonitor ChanIsAvail ChanSpy CheckGroup Congestion ControlPlayback Curl Cut
+DateTime DBdel DBdeltree DBget DBput DeadAGI Dial DigitTimeout Directory DISA DTMFToText DUNDiLookup
+EAGI Echo EnumLookup Eval
+Festival Flash ForkCDRForkCDR
+GetCPEID GetGroupCount GetGroupMatchCount Goto GotoIf GotoIfTime
+Hangup HasNewVoicemail HasVoicemail
+ICES ImportVar
+LookupBlacklist LookupCIDName
+Macro MailboxExists Math MeetMe MeetMeAdmin MeetMeCount Milliwatt Monitor MP3Player MusicOnHold MYSQL
+NBScat NoCDR NoOp
+ParkAndAnnounce ParkedCall Perl Playback Playtones PPPD Prefix PrivacyManager
+Queue
+Random Read Record RemoveQueueMember ResetCDR ResponseTimeout Ringing Rpt
+SayAlpha SayDigits SayNumber SayPhonetic SayUnixTime SendDTMF SendImage SendText SendURL SetAccount
+SetAMAflags SetCallerID SetCallerPres SetCDRUserField SetCIDName SetCIDNum SetGlobalVar SetGroup
+SetLanguage SetMusicOnHold SetVar SIPdtmfMode SIPGetHeader SMS SoftHangup SrxDeflect SrxEchoCan SrxMWI
+StopMonitor StopPlaytones StripLSD StripMSD SubString Suffix System
+TestClient TestServer Transfer TrySystem TXTCIDName
+UserEvent
+VoiceMail VoiceMail2 VoiceMailMain VoiceMailMain2
+Wait WaitExten WaitForRing WaitMusicOnHold
+Zapateller ZapBarge ZapRAS ZapScan
+/C2"Config"
+[]
+accountcode allow amaflags attach
+bindaddr
+callerid callgroup canreinvite context
+defaultexpirey defaultip deny disallow dtmfmode
+exten externip
+fromdomain fromuser
+host
+ignorepat include incominglimit insecure
+language localnet
+mailbox mask maxexpirey maxgreet maxlogins maxmessage maxsilence md5secret minmessage musicclass
+nat notifymimetype
+pedantic permit pickupgroup port progressinband promiscredir
+qualify
+realm recordhistory regcontext regexten register relaxdtmf restrictcid rtpholdtimeout rtptimeout
+secret serveremail silencethreshold skipms srvlookup static switch
+template tos trustrpid type
+useragent username
+videosupport
+writeprotect
+/C3"NumberAnalysis"
+>
+a
+i
+s
+t
+/C4"Channels"
+Agent
+Console
+H323
+IAX IAX2
+OH323
+Sip
+Zap
+/C5"DefaultValues"
+alaw all
+dynamic
+friend
+g723 g729 gsm
+ilbc inband info
+no
+peer
+RFC2833
+ulaw user
+very
+wav wav49
+yes
