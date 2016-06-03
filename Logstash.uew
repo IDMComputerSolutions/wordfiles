@@ -1,0 +1,139 @@
+/L20"Logstash" Line Comment = # Nocase File Extensions = ls logstash
+/Indent Strings = "{" "if" "else"
+/Unindent Strings = "}" "else if"
+/Open Brace Strings =  "{" "(" "["
+/Close Brace Strings = "}" ")" "]"
+/Open Fold Strings = "{"
+/Close Fold Strings = "}"
+/C1"Input Plugins"
+beats
+couchdb_changes
+drupal_dblog
+elasticsearch eventlog exec
+file
+ganglia gelf generator github graphite
+heartbeat heroku http http_poller
+imap input irc
+jdbc jmx
+kafka
+log4j lumberjack
+meetup
+pipe puppet_facter
+rabbitmq rackspace redis relp rss
+s3 salesforce snmptrap sqlite sqs stdin stomp syslog
+tcp twitter
+udp unix
+varnishlog
+websocket wmi
+xmpp
+zenoss zeromq
+/C2"Filter Plugins"
+aggregate alter anonymize
+checksum cidr clone collate csv
+date dns drop
+elapsed elasticsearch environment extractnumbers
+filter fingerprint
+geoip grok
+i18n
+json json_encode
+kv
+metaevent metrics multiline mutate
+prune punct
+range ruby
+sleep split syslog_pri
+throttle translate
+urldecode useragent uuid
+xml
+zeromq
+/C3"Output Plugins"
+boundary
+circonus cloudwatch csv
+datadog datadog_metrics
+elasticsearch elasticsearch_java email exec
+file
+ganglia gelf google_bigquery google_cloud_storage graphite graphtastic
+hipchat http
+influxdb irc
+jira juggernaut
+kafka
+librato loggly lumberjack
+metriccatcher mongodb
+nagios nagios_nsca null
+opentsdb output
+pagerduty pipe
+rabbitmq rackspace redis redmine riak riemann
+s3 sns solr_http sqs statsd stdout stomp syslog
+tcp
+udp
+webhdfs websocket
+xmpp
+zabbix zeromq
+/C4"Settings" STYLE_KEYWORD
+action add_field add_metadata_from_env add_tag address after_count algorithm all_fields
+allow_duplicate_values allow_duplicates array
+base64 base64_encode before_count blacklist_names blacklist_values break_on_match buffer_size
+ca_cert ca_file charset cipher cipher_padding clear_interval clones coalesce code codec colums
+concatenate_sources condrewrite condrewriteother convert count
+database default_keys delimiter destination dictionary dictionary_path discover_interval doc_as_upsert
+document_id
+end_of_task end_tag every exact exclude_keys
+facility_labels fallback field field_split fields filename_failure flush_interval flush_size
+followed_by_tags
+gsub gzip
+host hosts
+idle_flush_time ignore_older_than include_brackets include_keys index init interpolate interval iv
+join
+keep_empty_captures key key_pad key_size keys keystore keystore_password
+locale logfile lowercase lru_cache_size
+mac_counters manage_template map_action match max_age max_retries merge message_format meter method mode
+named_captures_only nameserver negate network new_event_on_match
+order override overwrite
+password path patterns patterns_dir percentiles period periodic_flush port prefix proxy
+query queue_size quote_char
+ranges rates recursive regex regexes remove_field remove_tag rename replace replay resolve retries
+retry_max_interval retry_max_items reverse routing
+separator severity_labels sincedb_path sincedb_rewrite_interval sniffing sniffing_delay sockopt sort
+source split ssl ssl_cacert ssl_cert ssl_certificate_verification ssl_enable ssl_key ssl_key_passphrase
+ssl_verify start_position stat_interval store_xml stream_identity strip syslog_pri_field_name
+tag tag_on_failure tags target task_id template template_name template_overwrite terminator time timeout
+timer timezone transliterate trim trimkey truststore truststore_password type
+unique_id_field update uppercase upsert use_labels user
+value_split
+what whitelist_names whitelist_values workers
+xpath
+/C5"Codec Plugins"
+avro
+cloudfront cloudtrail collectd compress_spooler
+dots
+edn edn_lines es_bulk
+fluent
+graphite gzip_lines
+json json_lines
+line
+msgpack multiline
+netflow
+oldlogstashjson
+plain
+rubydebug
+s3_plain spool
+/C6"Grok Patterns"
+BASE10NUM BASE16FLOAT BASE16NUM
+CISCOMAC COMBINEDAPACHELOG COMMONAPACHELOG COMMONMAC
+DATA DATE DATE_EU DATE_US DATESTAMP DATESTAMP_EVENTLOG DATESTAMP_OTHER DATESTAMP_RFC2822 DATESTAMP_RFC822
+DAY
+EMAILADDRESS EMAILLOCALPART
+GREEDYDATA
+HOSTNAME HOSTPORT HOUR HTTPD20_ERRORLOG HTTPD24_ERRORLOG HTTPD_ERRORLOG HTTPDATE HTTPDERROR_DATE HTTPDUSER
+INT IP IPORHOST IPV4 IPV6 ISO8601_SECOND ISO8601_TIMEZONE
+LOGLEVEL
+MAC MINUTE MONTH MONTHDAY MONTHNUM MONTHNUM2
+NONNEGINT NOTSPACE NUMBER
+PATH POSINT PROG
+QS QUOTEDSTRING
+SECOND SPACE SYSLOGBASE SYSLOGFACILITY SYSLOGHOST SYSLOGPROG SYSLOGTIMESTAMP
+TIME TIMESTAMP_ISO8601 TTY TZ
+UNIXPATH URI URIHOST URIPARAM URIPATH URIPATHPARAM URIPROTO USER USERNAME UUID
+WINDOWSMAC WINPATH WORD
+YEAR
+/C7"Operators" STYLE_OPERATOR
+=>

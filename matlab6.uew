@@ -1,15 +1,15 @@
-/L6"Matlab" Nocase MATLAB_LANG Line Comment = % Block Comment On = %{ Block Comment Off = %} String Chars = ' DisableMLS File Extensions = m asv
-/Indent Strings = "if" "else" "elseif" "switch" "while" "try" "catch" "case" "otherwise"
-/Unindent Strings = "end" "else" "elseif" "catch" "case"
+/L20"Matlab" Nocase MATLAB_LANG Line Comment Num = 2%  Block Comment On = %{ Block Comment Off = %} String Chars = ' DisableMLS File Extensions = m asv
+/Delimiters = ! "	$&'()*+,-./:;<=>?@[\]^{|}~
 /Function String = "%[ ^t]++function*=[ ^t]++^([a-z0-9_]+^)"
 /Function String 1 = "%[ ^t]++function[ ^t]+^([a-z0-9_]+^)[ ^t]++[~=]"
+/Open Brace Strings = "{" "(" "["
+/Close Brace Strings = "}" ")" "]"
+/Indent Strings = "if" "else" "elseif" "switch" "while" "try" "catch" "case" "otherwise"
+/Unindent Strings = "end" "else" "elseif" "catch" "case"
 /Open Fold Strings = "function" "if" "for" "while" "switch"
 /Close Fold Strings = "function" "end"
 /Open Comment Fold Strings = "#Region" "**********"
 /Close Comment Fold Strings = "#End Region" "**********"
-/Delimiters = ~!@$^&*()-+=|\/{}[]:;"'<> ,	.?
-/Open Brace Strings = "{" "(" "["
-/Close Brace Strings = "}" ")" "]"
 /C1"Keywords"
 break
 case catch
