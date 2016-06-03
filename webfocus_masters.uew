@@ -1,14 +1,43 @@
-/L19"WebFOCUS Masters" Line Comment = $ String Chars = "' File Extensions = MAS
-/Delimiters = .!^*+()=|;"'/ ,
+//--------------------------------------------------------------------------------------------------
+// WebFocus Syntax Highlighting
+//
+// Developed By : Edan Saltz
+// Profile      : https://www.linkedin.com/in/EdanSaltz
+// 
+// This profile was developed to help in the process of mainting WebFocus Masters.
+//--------------------------------------------------------------------------------------------------
+
+/L19"WebFOCUS Masters" Line Comment = $ String Chars = "' File Extensions = mas
+/Delimiters = .!^*+()=|;"'/	 ,
 /Open Brace Strings =  "{" "(" "["
 /Close Brace Strings = "}" ")" "]"
 /Function String = "%[a-zA-Z_]*)[~;]"
 /C1"Reserved Words"
 ALIAS
+ACTUAL
 DEFINE
-FIELD FIELDNAME FIELDTYPE FILE FILENAME FIX FOC FORMAT
+CRFILE CRINCLUDE CRJOINTYPE 
+JOIN_WHERE
+FIELD FIELDNAME FIELDTYPE FILE FILENAME FIX FOC 
+FORMAT 
+USAGE
 GROUP
 MISSING
 PARENT
 SEGNAME SEGTYPE SUFFIX SYB SEGMENT
 TITLE
+FILTER
+DECODE
+XFOCUS
+PROMPT
+DEFAULT
+VARIABLE 
+NAME
+DATASET
+IOTYPE
+STREAM
+ELSE
+WITH
+DESC
+ACCEPT
+REMARKS
