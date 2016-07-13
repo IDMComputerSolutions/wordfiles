@@ -9,9 +9,9 @@
 /TGEnd
 /Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
 /Regexp Type = Perl
-/Indent Strings = "{" "function" "if" "else" "while" "for"
+/Indent Strings = "{" "function" "then" "while" "for" "else"
 /Unindent Strings = "}" "end" "else"
-/Open Fold Strings = "for"  "while" "function" "if" "repeat" "{"
+/Open Fold Strings = "for" "while" "function" "if" "repeat" "{"
 /Close Fold Strings = "end" "until" "}"
 /C1"Keywords"
 and
