@@ -1,7 +1,8 @@
 /L20"RAPID" Line Comment = ! String Chars = " File Extensions = PRG MOD SYS
+
 /TGBegin "Module name"
   /TGFindStr = "%[ ^t]++MODULE^([ ^t]+[a-z0-9_]+^)$"
-  /TGFindStr = "%[ ^t]++MODULE^([ ^t]+[a-z0-9_]+([a-Ã¶0-9_,]+)^)$"
+  /TGFindStr = "%[ ^t]++MODULE^([ ^t]+[a-z0-9_]+([a-ö0-9_,]+)^)$"
 /TGEnd
 /TGBegin "Traps (Local)"
   /TGFindStr = "%[ ^t]++LOCAL++[ ^t]++TRAP[ ^t]+^([~,()]+$^)"
