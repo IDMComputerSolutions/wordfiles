@@ -1,78 +1,81 @@
 /L20"Lua" Line Comment = -- Escape Char = \ Block Comment On = [[ Block Comment Off = ]] String Chars = "' File Extensions = LUA BIN
+/TGBegin "Functions"
+/TGFindStr = "^[ \t]*function[ \t]+(\w+)[ \t]*\([^\)]*\)"
+/TGBegin "Parameters"
+/TGFindStr = "[\t ]*(\$[a-z_\x7f-\xff][0-9a-z_\x7f-\xff]*[\t ]*=[\t ]*(?:array[\t ]*\((?:[^()]*|(?:[\t ]*array[\t ]*\(.*?\))+[\t ]*)\)|".*?"(?<!\\")|'.*?'(?<!\\'))|[^,]+)"
+/TGFindBStart = "\("
+/TGFindBEnd = "\)"
+/TGEnd
+/TGEnd
 /Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
-/Function String = "%[a-zA-Z]*)"
-/Open Fold Strings = "for"  "while" "function" "if" "repeat"
-/Close Fold Strings = "end" "until"
-/C1 "key words"
+/Regexp Type = Perl
+/Indent Strings = "{" "function" "then" "while" "for" "else"
+/Unindent Strings = "}" "end" "else"
+/Open Fold Strings = "for" "while" "function" "if" "repeat" "{"
+/Close Fold Strings = "end" "until" "}"
+/C1"Keywords"
 and
+break
 do
 else elseif end
-function
-if
+false for function
+if in
 local
 nil not
 or
 repeat return
-then
+then true
 until
 while
-/C2
+/C2"Built-in functions"
 abs acos appendto ascii asin assert atan atan2
-call ceil clock collectgarbage copytagmethods cos
-date deg dofile dostring
-error execute exit
-floor foreach foreachvar format frexp
-getbinmethod getenv getglobal gettagmethod gsub
-ldexp log log10
-max min mod
+byte
+call ceil char clock close collectgarbage concat copytagmethods coroutine cos cosh cpath create
+date debug deg difftime dofile dostring dump
+error execute exit exp
+file find floor flush fmod foreach foreachvar format frexp
+getbinmethod getenv getfenv getglobal gethook getinfo getlocal getmetatable getregistry gettagmethod
+getupvalue gmatch gsub
+huge
+input insert io ipairs
+ldexp len lines load loaded loaders loadfile loadlib loadstring log log10 lower
+match math max maxinteger maxn min mininteger mod modf module
 newtag next nextvar
-print
-rad random randomseed rawgetglobal rawgettable rawsetglobal rawsettable read readfrom remove rename
-seterrormethod setglobal setlocale settag settagmethod sin sqrt strbyte strchar strfind strlen strlower
-strrep strsub strupper
-tag tan tmpname tonumber tostring type
-write writeto
-/C3
-$debug $else $end $endinput $if $ifnot $nodebug
-/C4
+open os output
+package pairs path pcall pi popen pow preload print
+rad random randomseed rawequal rawget rawgetglobal rawgettable rawset rawsetglobal rawsettable read
+readfrom remove rename rep require resume reverse running
+seeall seek select seterrormethod setfenv setglobal sethook setlocal setlocale setmetatable settag
+settagmethod setupvalue setvbuf sin sinh sort sqrt status strbyte strchar strfind string strlen strlower
+strrep strsub strupper sub
+table tag tan tanh time tmpfile tmpname tointeger tonumber tostring traceback type
+ult unpack upper
+wrap write writeto
+xpcall
+yield
+/C3"Built-in variables"
 PI
-_INPUT _OUTPUT _STDERR _STDIN _STDOUT
-/C5
+_G _INPUT _OUTPUT _STDERR _STDIN _STDOUT _VERSION
+/C4"Operators"
 %
+(
+)
 *
 +
+,
 -
 .
 // /
 :
+;
 <
 =
 >
-^
-~
-/C6
-(
-)
-,
-;
 [
 ]
+^
 {
 }
-/C7
-cgi cgilua cgilua_url char2hexa chdir
-dblua_escape dbluaerrorfb decode default_script
-encodecgi encodetable escape
-filetype
-getvalue
-hexa hexa2char html_mask
-includehtml insertfield
-lua_mask
-maketable map mkurl
-nopipe
-preprocess
-redirect relative_url relativeurl
-saveluavar savestate script_path script_pdir script_vdir stateerrormethod statefile stdin strsplit
-unescape
-/C8
-DBClose DBExec DBOpen DBRow
+~
+/C5 "Compilation pragmas"
+$debug $else $end $endinput $if $ifnot $nodebug
