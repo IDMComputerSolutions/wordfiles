@@ -5,8 +5,8 @@
 /Unindent Strings = "ELSE" "END IF" "END DO" "ENDIF" "ENDDO" "END SELECT"
 /Open Brace Strings = "(" "["
 /Close Brace Strings = ")" "]"
-/Open Fold Strings = "FUNCTION" "MODULE" "PROGRAM" "SUBROUTINE" "THEN" "ELSE" "DO" "SELECT"
-/Close Fold Strings = "END FUNCTION" "END MODULE" "END PROGRAM" "END SUBROUTINE" "ELSE" "END IF" "END DO" "END SELECT"
+/Open Fold Strings = "THEN" "ELSE" "DO" 
+/Close Fold Strings = "ENDIF" "ELSE" "ELSEIF" "ENDDO"
 /C1"Statements"
 ALLOCATABLE ALLOCATE ASSIGNMENT
 BLOCK
