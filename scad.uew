@@ -1,0 +1,119 @@
+/L20"scad" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = scad
+/TGBegin "Function"
+/TGFindStr = "%^([a-z_][a-z_0-9^[^]*]++^)[ ^t^p^r^n]++([~)]++)[~;{()]+[^p^r^n ^t]++[~/]++{[~}]"
+/TGFindStr = "%[ ^t]++^([a-z_][a-z_0-9]++::[a-z_^~][a-z_0-9]++^)[ ^t^p]++([^p*&:, ^t^[^]/*^-'=:&a-z_0-9./(!]++)[~;{]++{"
+/TGFindStr = "%[ ^t]++[a-z_][:a-z_0-9^[^]*&]++[ ^t]+^([a-z_][a-z_0-9]++::[a-z_^~][a-z_0-9]++^)[ ^t^p]++([^p*&:, ^t^[^]/*^-'=:&a-z_0-9./(!]++)[~;]"
+/TGFindStr = "%[a-z_][a-z_0-9^[^]:&]++[ ^t*]+[*&]++^([a-z_][a-z_0-9]++^)[ ^t]++([^p*&:, ^t^[^]a-z_0-9\+-./(!]++)[~;]++$"
+/TGFindStr = "%[a-z_][:a-z_0-9*&$^[^]*]++[ ^t]+[a-z_][:a-z_0-9*&$^[^]]++[ ^t*]+[*&]++^([a-z_][a-z_0-9]++^)[ ^t]++([^p*&:, ^t^[^]a-z_0-9./(!]++)+[~;]"
+/TGFindStr = "%[a-z_][:a-z_0-9^[^]*&]++[ ^t]+[a-z_][:a-z_0-9*&^[^]]++[ ^t]+[a-z_][:a-z_0-9*&^[^]]++[ ^t]+[*&]++^([a-z_][a-z_0-9]++^)[ ^t]++([^p*&:, ^t^[^]a-z_0-9./(!]++)[~;]"
+/TGFindStr = "%[a-z_][:a-z_0-9^[^]*&]++[ ^t]+[a-z_][:a-z_0-9*&^[^]]++[ ^t]+[a-z_][:a-z_0-9*&^[^]]++[ ^t]+[a-z_][:a-z_0-9*&^[^]]++[ ^t]+[*&]++^([a-z_][a-z_0-9]++^)[ ^t]++([^p*&:, ^t^[^]a-z_0-9./(!]++)[~;]"
+/TGBegin "Parameter"
+/TGFindStr = "[ ^t^p]++^([~,]+^)"
+/TGFindBStart = "("
+/TGFindBEnd = ")"
+/TGEnd
+/TGBegin "Variable"
+//type name;
+/TGFindStr = "%[ ^t]++^([a-z0-9_]+[ ^t^*]+[a-z0-9^[^]_]+^);"
+/TGFindBStart = "{"
+/TGFindBEnd = "}"
+//type name = init;
+/TGFindStr = "%[ ^t]++^([a-z0-9_]+[ ^t^*]+[a-z0-9^[^]_]+^)[ ^t]++=*;"
+/TGFindBStart = "{"
+/TGFindBEnd = "}"
+/TGEnd
+/TGEnd
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Member String = "^([a-z0-9_:.]+^)[ ^t^*&]+$S[ ^t^[^]a-z0-9_]++[(-);,]"
+/Variable String = "%[ ^t]++^([!-ÿ~ ^t<>]+*[~a-z^p]^)$S[ ^t;,()^-]"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/Open Brace Strings =  "{" "(" "["
+/Close Brace Strings = "}" ")" "]"
+/Open Fold Strings = "{" "#"
+/Close Fold Strings = "}" "#"
+/C1"2D" STYLE_KEYWORD
+circle
+polygon
+square
+text
+/C2"3D"STYLE_KEYWORD
+cube cylinder
+polyhedron
+sphere
+/C3"Other"STYLE_KEYWORD
+children
+echo
+for
+if import intersection_for
+linear_extrude
+projection
+render rotate_extrude
+surface
+/C4"Special Variables"STYLE_KEYWORD
+$children $fa $fn $fs $t $vpd $vpr $vpt
+/C5"functions" STYLE_KEYWORD
+chr concat cross
+lookup
+norm
+parent_module
+search str
+version version_num
+/C6"Math" STYLE_KEYWORD
+abs acos asin atan atan2
+ceil cos
+exp
+floor
+len let ln log
+max min
+pow
+rands round
+sign sin sqrt
+tan
+/C7"Transformations"STYLE_KEYWORD
+color
+hull
+minkowski mirror multmatrix
+offset
+resize rotate
+scale
+translate
+/C8"Boolean Operations"STYLE_KEYWORD
+difference
+intersection
+union
+/C8"List Comprehensions"STYLE_KEYWORD
+Assignments
+Conditions
+Generate
+/C9"directives" STYLE_EXTENSION
+include
+module
+use
+/C10"Operators" STYLE_OPERATOR
+!
+$
+%
+&
+*
++
+-
+.
+// /
+:
+<
+=
+>
+?
+^
+|
+~
+/C11"Braces, comma, semicolon"
+(
+)
+,
+;
+[
+]
+{
+}
