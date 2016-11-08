@@ -1,70 +1,95 @@
-/L20"ASL" Line Comment = // String Chars = "' File Extensions = ASL ACPI 
+/L20"ASL" Line Comment = // Block Comment On = /* Block Comment Off = */ String Chars = "' File Extensions = ASL ACPI DSL
 /Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
 
-/C1"OpCodes"
-Break BreakPoint
-Continue
-Else ElseIf
-Fatal
-If
-Load
-Noop Notify
-Release Reset Return
-Signal Sleep Stall Switch
-Unload
-While
+/Open Brace Strings =  "{" "(" "["
+/Close Brace Strings = "}" ")" "]"
+/Open Fold Strings = "{"
+/Close Fold Strings = "}"
 
-/C2"Statements"
-BankField
-CreateBitField CreateByteField CreateDWordField CreateField 
-CreateQWordField CreateWordField
-DataTableRegion Device
-Event
-Field
-IndexField
-Method Mutex
-OperationRegion
-PowerResource Processor
-ThermalZone
+/C1"Primary Terms"
+AccessAs Acquire Add Alias And Arg0 Arg1 Arg2 Arg3 Arg4 Arg6 Arg6
+BankField BreakPoint Break Buffer
+Case ConcatenateResTemplate Concatenate Connection CondRefOf Continue CopyObject CreateBitField CreateByteField CreateDWordField CreateField CreateQWordField CreateWordField
+DataTableRegion Debug Decrement Default DefinitionBlock DerefOf Device Divide
+EISAID EisaId ElseIf Else Event External
+Fatal Field FindSetLeftBit FindSetRightBit FromBCD Function
+If Include Increment IndexField Index
+LAnd LEqual LGreaterEqual LGreater LLessEqual LLess LNotEqual LNot LoadTable Load Local0 Local1 Local2 Local3 Local4 Local5 Local6 Local7 LOr
+Match Method Mid Mod Multiply Mutex
+Name NAnd NoOp NOr Notify Not
+ObjectType Offset OperationRegion Or
+Package PowerResource Processor
+RawDataBuffer RefOf Release Reset ResourceTemplate Return
+Scope ShiftLeft ShiftRight Signal SizeOf Sleep Stall Store Subtract Switch
+ThermalZone Timer ToBCD ToBuffer ToDecimalString ToHexString ToInteger ToString ToUUID
+Unicode Unload
+Wait While
+XOr
 
-/C3"Region Types"
-CMOS
-EmbeddedControl
-PCI_Config PciBarTarget
-SMBus SystemIO SystemMemory
+/C2"Zero & One"
+One
+Zero
 
-/C4"Access Types"
-AnyAcc
-BufferAcc ByteAcc
-DWordAcc
+/C3"Parameter Terms"
+ActiveBoth ActiveHigh ActiveHigh ActiveLow ActiveLow AddressingMode10Bit AddressingMode7Bit AddressRangeACPI AddressRangeMemory AddressRangeNVS AddressRangeReserved AnyAcc AttribBlock AttribBlockProcessCall AttribByte AttribBytes AttribBytes AttribProcessCall AttribQuick AttribRawBytes AttribRawBytes AttribRawProcessBytes AttribRawProcessBytes AttribSendReceive AttribWord
+BigEndianing BufferAcc BuffFieldObj BuffObj BusMaster ByteAcc
+Cacheable ClockPhaseFirst ClockPhaseSecond ClockPolarityHigh ClockPolarityLow ControllerInitiated
+DataBitsEight DataBitsFive DataBitsNine DataBitsSeven DataBitsSix DDBHandleObj Decode10 Decode16 DenseTranslation DeviceInitiated DeviceObj DWordAcc
+Edge EmbeddedControl EntireRange EventObj Exclusive ExclusiveAndWake
+FFixedHW FieldUnitObj FlowControlHardware FlowControlNone FlowControlXon FourWireMode
+GeneralPurposeIO GenericSerialBus
+IntObj IoRestrictionInputOnly IoRestrictionNone IoRestrictionNoneAndPreserve IoRestrictionOutputOnly IPMI ISAOnlyRanges
+Level LittleEndian Lock
+MaxFixed MaxNotFixed MEQ MethodObj MGE MGT MinFixed MinNotFixed MLE MLT MTR MutexObj
+NoLock NonCacheable NonISAOnlyRanges NotBusMaster NotSerialized
+OpRegionObj
+ParityTypeEven ParityTypeMark ParityTypeNone ParityTypeOdd ParityTypeSpace PCC PciBarTarget PCI_Config PkgObj PolarityHigh PolarityLow PosDecode PowerResObj Prefetchable Preserve ProcessorObj PullDefault PullDown PullNone PullUp
 QWordAcc
-WordAcc
+ReadOnly ReadWrite RegionSpaceKeyword ResourceConsumer ResourceProducer
+Serialized Shared SharedAndWake SMBus SparseTranslation StopBitsOne StopBitsOnePlusHalf StopBitsTwo StopBitsZero StrObj SubDecode SystemCMOS SystemIO SystemMemory
+ThermalZoneObj ThreeWireMode Transfer16 Transfer8 Transfer8_16 TypeStatic TypeTranslation
+UnknownObj UserDefRegionSpace
+Width128Bit Width16Bit Width256Bit Width32Bit Width64Bit Width8Bit WordAcc WriteAsOnes WriteAsZeros WriteCombining
 
-/C5"Namespace Modifiers"
-Alias
-Name
-Scope
+/C4"Resource Template Terms"
+DMA DWordIO DWordMemory DWordSpace
+EndDependentFn ExtendedIO ExtendedMemory ExtendedSpace
+FixedDMA FixedIO
+GpioInt GpioIO
+I2CSerialBus Interrupt IO IRQNoFlags IRQ
+Memory24 Memory32Fixed Memory32
+QWordIO QWordMemory QWordSpace
+RawDataBuffer Register
+SPISerialBus StartDependentFnNoPri StartDependentFn
+UARTSerialBus
+VendorLong VendorShort
+WordBusNumber WordIO WordSpace
 
-/C6"Type 2 Opcodes"
-Acquire Add And
-Buff
-Concatenate ConcatenateResTemplate CondRefOf
-Decrement DecStr DerefOf Divide
-FindSetLeftBit FindSetRightBit FromBCD
-HexStr
-Increment Index Int
-LAnd LEqual LGreater LGreaterEqual LLess LLessEqual LNot LNotEqual
-LoadTable LOr
-Match Mid Mod Multiply
-NAnd NOr Not
-ObjectType Or
-RefOf
-ShiftLeft ShiftRight SizeOf Store String Subtract
-ToBCD
-Wait
-Xor
+/C5"Objects"
+_AC0 _AC1 _AC2 _AC3 _AC4 _AC5 _AC6 _AC7 _AC8 _AC9 _ADR _ALC _ALI _ALN _APL _ALR _ALT _AL0 _AL1 _AL2 _AL3 _AL4 _AL5 _AL6 _AL7 _AL8 _AL9 _ART _ASI _ASZ _ATT _BAS _BBN _BCL _BCM _BCT _BDN _BFS _BIF _BIX _BLT _BM _BMA _BMC _BMD _MBS _BQC _BST _BTM _BTP _CBA _CDM _CID _CRS _CRT _CSD _CST _CWS _DBT _DCK _DCS _DDC _DDN _DEC _DGS _DIS _DLM _DMA _DOD _DOS _DPL _DRS _DSM _DSS _DSW _DTI _EC _EDL _EJD _END _EVT _FDE _FDI _FDM _FIF _FIX _FLC _FPS _FSL _FST _GAI _GCP _GHL _GL _GLK _GPD _GPE _GRA _GRT _GSB _GTF _GTM _GTS _GWS _HE _HID _HOT _HPP _HPX _HRV _IFT _INI _INT _IOR _IRC _LCK _LEN _LID _LIN _LL _MAF _MAT _MAX _MBM _MEM _MIF _MIN _MLS _MOD _MSG _MSM _MTP _NTT _OFF _ON _OS _OSC _OSI _OST _PAI _PAR _PCL _PCT _PDC _PDL _PHA _PIC _PIF _PIN _PLD _PMC _PMD _PMM _POL _PPC _PPE _PPI _PR _PR0 _PR1 _PR2 _PR3 _PRE _PRL _PRS _PRT _PRW _PS0 _PS1 _PS2 _PS3 _PSC _PSD _PSE _PSL _PSR _PSS _PSV _PSW _PTC _PTP _PTS _PUR _PXM _RBO _RBW _REG _REV _RMV _RNG _ROM _RT _RTV _RW _RXL _S0 _S1 _S2 _S3 _S4 _S4 _S1D _S2D _S3D _S4D _S0W _S1W _S2W _S3W _S4W _SB _SBS _SCP _SDD _SEG _SHL _SHR _SI _SIZ _SLI _SLV _SPD _SPE _SRS _SRT _SRV _SST _STA _STB _STM _STP _STR _STV _SUN _SWS _TC2 _TC2 _TDL _TIP _TIV _TMP _TPC _TPT _TRA _TRS _TRT _TSD _TSF _TSP _TSS _TST _TTP _TXL _TTS _TYP _TZ _TZD _TZM _TZP _UID _UPC _UPD _UPP _VPO _VEN _WAK
 
-/C7"Data Types"
-Integer
-Sting
-Buffer
+/C6"Operators"
+! !=
+~
+*
+/
+%
++
+-
+<< < <=
+>> > >=
+== =
+& &&
+| ||
+
+/C7"Braces, comma"
+(
+)
+,
+[
+]
+{
+}
+
+/C8"IASL preprocessor"
+#define #elif #else #endif #error #if #ifdef #ifndef #include #includebuffer #line #pragma #undef #warning
