@@ -1,4 +1,4 @@
-﻿ml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <wordfiles>
   <root>http://www.ultraedit.com/files/wf/</root>
   <wordfile name="2106x Assembler" file="asm2106.uew" types="ASM" />
@@ -114,7 +114,7 @@
   <wordfile name="DB/C" file="dbc.uew" types="ERR I6 I7 I8 R6 R7 R8 S6 S7 S8 TXT" />
   <wordfile name="DCAL" file="dcal.uew" types="DCS INC" />
   <wordfile name="DCPL" file="DCPL.uew" types="D DEF" />
-  <wordfile name="DSP56K ASM" file="dsp5600.uew" types="ASM INC LST" />
+  <wordfile name="Motorola DSP56000 Assembler" file="dsp5600.uew" types="ASM INC LST" />
   <wordfile name="DSSSL" file="dsssl.uew" types="DSL DSSSL" />
   <wordfile name="DTD" file="dtd.uew" types="DTD" />
   <wordfile name="DTML (Zope)" file="zope.uew" types="DTML" />
@@ -136,7 +136,7 @@
   <wordfile name="EMC Networker Daemon Log" file="emclog.uew" types="" />
   <wordfile name="EPLD" file="epld.uew" types="abl abv" />
   <wordfile name="ESRI ArcView Avenue" file="esriave.uew" types="AVE APR AVX" />
-  <wordfile name="EScript" file="escript092.uew" types="SRC INC EM" />
+  <wordfile name="EScript" file="escript.uew" types="SRC INC EM" />
   <wordfile name="EViews" file="eviews.uew" types="PRG" />
   <wordfile name="EXAPTplus" file="exaptplus.uew" types="EXA EXL PPL" />
   <wordfile name="Eclipse" file="eclipse.uew" types="LOG DBG ERR FEGRID FGRID FINSPEC FINIT FFLUX FSMSPEC FUNSMRY RSM FRTF FSAVE FRSSPEC FUNRST INC DATA SCH GRDECL" />
@@ -274,7 +274,7 @@
   <wordfile name="BotReplicationInfo" file="uc.uew" types="UC INT" />
   <wordfile name="Comau Robotics PDL2 C4G" file="pdl2-c4g.uew" types="PDL PDS PDI" />
   <wordfile name="E" file="e.uew" types="e E" />
-  <wordfile name="EPA SWMM" file="EPA SWMM" types="INP RPT OUT" />
+  <wordfile name="EPA SWMM" file="SWMM.uew" types="INP RPT OUT" />
   <wordfile name="Haxe" file="haxe.uew" types="HX" />
   <wordfile name="High Level Assembler" file="asmhighlevel.uew" types="H" />
   <wordfile name="HP WinRunner" file="winrunner.uew" types="win" />
@@ -401,7 +401,6 @@
   <wordfile name="SVG" file="svg.uew" types="SVG" />
   <wordfile name="Swift" file="swift.uew" types="SWIFT" />
   <wordfile name="Sybase SQL" file="sybase11x.uew" types="SQL SP" />
-  <wordfile name="Systempolicies" file="systempolicies.uew" types="ADM" />
   <wordfile name="TACL" file="TACL.uew" types="*" />
   <wordfile name="Takahashi" file="takahashi.uew" types="XUL" />
   <wordfile name="TakeCommand/TCC 18.x Batch" file="tcmdtccbatch18+batcmd.uew" types="BTM BAT CMD" />
@@ -451,7 +450,7 @@
   <wordfile name="Visual PRO5 Basic" file="visualpro5basic.uew" types="BBT" />
   <wordfile name="VoiceXML" file="voicexml.uew" types="VXML" />
   <wordfile name="VOS PL/1" file="vospl1.uew" types="PL1 pl1" />
-  <wordfile name="VRML" file="vrml97.uew" types="wrl" />
+  <wordfile name="VRML" file="vrml.uew" types="wrl" />
   <wordfile name="VTALK" file="VTALK.uew" types="VTS" />
   <wordfile name="VTML" file="vtml.uew" types="VTML" />
   <wordfile name="WebFOCUS Masters" file="webfocus_masters.uew" types="mas" />
