@@ -1,7 +1,6 @@
-/L20"Oemsetup Script" Nocase Line Comment = ; String Chars = "' File Extensions = INF
+/L20"OEM Setup Script" Nocase Line Comment = ; String Chars = "' File Extensions = INF File Names = oemsetup.inf
 /Delimiters = ~!@%^&*+=|\/{}:;"'<> ,	.?
-/Indent Strings = "ifstr" "ifstr(i)" "ifint" "ifcontains"
-"ifcontains(i)"
+/Indent Strings = "ifstr" "ifstr(i)" "ifint" "ifcontains" "ifcontains(i)"
 /Unindent Strings = "endif"
 /Marker Characters = "[]$)"
 /C1

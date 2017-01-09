@@ -1,9 +1,9 @@
-/L20"Sybase 11.x SQL" Nocase Line Comment = -- Block Comment On = /* Block Comment Off = */ File Extensions = SQL SP
+/L20"Sybase SQL" Nocase Line Comment = -- Block Comment On = /* Block Comment Off = */ File Extensions = SQL SP
 /Delimiters = ~!%^&*()-+=|\/{}[]:;"'<> ,	.?
 /Indent Strings = "begin"
 /Unindent Strings = "end"
 
-/C1 Transact SQL Reserved Words
+/C1"Transact SQL Reserved Words"
 activation add all alter and any arith_overflow as asc at authorization avg
 begin between break browse bulk by
 cascade char_convert check checkpoint close clustered commit compute confirm connect constraint
@@ -29,7 +29,7 @@ union unique unpartition update use user user_option using
 values varying view
 waitfor where while with work writetext
 
-/C2 SQL-92 Reserved word
+/C2"SQL-92 Reserved word"
 absolute action allocate are assertion
 bit bit_length both
 cascaded case cast catalog char char_length character character_length coalesce collate collation
@@ -55,7 +55,7 @@ when whenever write
 year
 zone
 
-/C3 SQL-92 Potential Reserved word
+/C3"SQL-92 Potential Reserved word"
 after alias async
 before boolean breadth
 call completion cycle
@@ -76,7 +76,7 @@ variable virtual visible
 wait
 without
 
-/C4 Built in stored procedures
+/C4"Built in stored procedures"
 sp_activeroles sp_addalias sp_addauditrecord sp_addaudittable sp_addextendedproc sp_addexternlogin sp_addgroup sp_addlanguage
 sp_addlogin sp_addmessage sp_addobjectdef sp_addremotelogin sp_add_resource_limit sp_addsegment sp_addserver sp_addthreshold 
 sp_add_time_range sp_addtype sp_addumpdevice sp_adduser sp_altermessage sp_autoconnect
@@ -113,7 +113,7 @@ sp_server_info sp_special_columns sp_sproc_columns sp_statistics sp_stored_proce
 sp_table_privileges sp_tables
 xp_cmdshell xp_deletemail xp_enumgroups xp_findnextmsg xp_logevent xp_readmail xp_sendmail xp_startmail xp_stopmail
 
-/C5 System Objects, Default Owner
+/C5"System Objects, Default Owner"
 dbo
 master model
 tempdb
@@ -125,12 +125,12 @@ sysservers syssrvroles sysstatistics systabstats systestlog systhresholds systim
 sysusermessages sysusers
 sybsystemprocs
 
-/C6 Global variables
+/C6"Global variables"
 @@char @@connections @@cpu @@error @@global @@identity @@idle @@io @@isolation @@langid @@max @@ncharsize @@nestlevel
 @@options @@pack @@packet @@pagesize @@parallel @@rowcount @@scan @@servername @@sqlstatus @@textcolid @@textdbid @@textobjid
 @@textp @@textptr @@textsize @@textts @@thresh @@total @@tranchained @@version
 
-/C7 Built in functions
+/C7"Built in functions"
 abs acos ascii asin atan atn2 avg
 ceiling char charindex char_length coalesce col_length col_name convert cos cot count curunreservedpgs
 data_pgs datalength dateadd datediff datename datepart db_id db_name degrees difference

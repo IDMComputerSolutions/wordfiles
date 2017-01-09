@@ -1,4 +1,4 @@
-/L20"SMIL" Nocase Noquote HTML_LANG Block Comment On = <!-- Block Comment Off = /--> File Extensions = SMI SMIL RAM
+/L20"SMIL" Nocase Noquote Block Comment On = <!-- Block Comment Off = /--> File Extensions = SMI SMIL RAM
 /Delimiters = ~!@$%^&*()+=|\{}[]:;"'<> ,	.?
 /C1
 <a </a> <anchor  <anchor> </anchor> <animation> </animation> <audio  <audio> </audio>

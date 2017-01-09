@@ -1,4 +1,4 @@
-/L20 Line Comment = ; Nocase File Extensions = SC
+/L20"Paradox" Line Comment = ; Nocase File Extensions = SC
 /C1
 #record 
 1-2-3

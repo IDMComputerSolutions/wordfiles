@@ -1,4 +1,4 @@
-/L20"NAnt" Noquote HTML_LANG Block Comment On = <!-- Block Comment Off = --> File Extensions = build
+/L20"NAnt" Noquote Block Comment On = <!-- Block Comment Off = --> File Extensions = build
 /Delimiters = ~@$%^&*()+=|\{};"'<> ,
 /C1"Elements"
 ** <

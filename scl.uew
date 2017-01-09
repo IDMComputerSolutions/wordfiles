@@ -1,4 +1,4 @@
-/L12"SCL" Nocase Line Comment = -- File Extensions = SCL PER RLS
+/L12"SCL (Structured Control Language)" Nocase Line Comment = -- File Extensions = SCL PER RLS
 /Delimiters = !<>&*()-+=\/"' ,	.
 /Function String = "%[ ^t]++Script "
 /Function String 1 = "%[ ^t]++Function "

@@ -1,4 +1,4 @@
-/L10"Macro ToolsWorks" Line Comment Num = 4<#>  Line Comment Alt = <#> Noquote File Extensions = MTW
+/L10"Macro Toolworks" Line Comment Num = 4<#>  Line Comment Alt = <#> Noquote File Extensions = MTW
 /Delimiters = %()=|\{}"' 	,?<>
 /Marker Characters = "%%"
 /Indent Strings SOL = "<if_" "<else>" "<begloop>"
@@ -143,5 +143,3 @@ WINDIR
 >
 <
 |
-
-/- - - - - - - - - - - - - - - - - - - - - - - - - -

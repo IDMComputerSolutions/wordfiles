@@ -1,4 +1,4 @@
-/L20"Inger Source" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = " File Extensions = I i
+/L20"Inger" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = " File Extensions = I i
 /Delimiters = ~!@%^&*()+=|\{}[]<:;"' ,	.?
 /Function String = "%[a-zA-Z_]*)[~;]"
 /Indent Strings = "{"

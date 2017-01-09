@@ -1,5 +1,3 @@
-used in programming embedded Neuron (MC3150,3120) chips for distributed control applications
-
 /L20"Neuron C" Line Comment = // Block Comment On = /* Block Comment Off = */ String Chars = "' File Extensions = NC H
 /Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
 /Function String = "%[a-zA-Z_]*)"

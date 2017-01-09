@@ -1,4 +1,4 @@
-/L20"PowerTerm Scripts" Line Comment = # Escape Char = \ String Chars = "' DisableMLS File Extensions = PSL
+/L20"PowerTerm Script" Line Comment = # Escape Char = \ String Chars = "' DisableMLS File Extensions = PSL
 /Delimiters = ! "	$%&'()*+,./:;<=>?@[\]^{|}~
 /Function String = "proc +^([0-9a-z_^-]+^)"
 /Indent Strings = "{"

@@ -1,4 +1,4 @@
-/L20"PowerBasic" Nocase Line Comment = ' File Extensions = BAS INC
+/L20"PowerBASIC" Nocase Line Comment = ' File Extensions = BAS INC
 /Delimiters = ~!@^*()+=|\{}[]:;"' 	,.<>
 /Function String = "%*^{Sub^}^{Function^}*("
 /C1"PRECOMPILER NEW"

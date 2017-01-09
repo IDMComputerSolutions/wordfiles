@@ -11,10 +11,10 @@
 /Close Brace Strings = "}" ")" "]" ">"
 /Open Fold Strings = "{" "(" "["
 /Close Fold Strings = "}" ")" "]"
-/C1"states" STYLE_METHOD
+/C1"states"
 default
 state
-/C2"events" STYLE_EVENT
+/C2"events"
 at_rot_target
 at_target
 attach
@@ -53,7 +53,7 @@ touch
 touch_end
 touch_start
 transaction_result
-/C3"builtin functions" STYLE_FUNCTION
+/C3"builtin functions
 llAbs
 llAcos
 llAddToLandBanList
@@ -464,7 +464,7 @@ llWater
 llWhisper
 llWind
 llXorBase64
-/C4"keywords" STYLE_KEYWORD
+/C4"keywords" 
 do
 else
 for
@@ -472,7 +472,7 @@ if
 jump
 return
 while
-/C5"storage types" STYLE_ATTRIBUTE
+/C5"storage types" 
 float
 integer
 key
@@ -481,14 +481,14 @@ quaternion
 rotation
 string
 vector
-/C6"float constants" STYLE_EXTENSION
+/C6"float constants" 
 DEG_TO_RAD
 PI
 PI_BY_TWO
 RAD_TO_DEG
 SQRT2
 TWO_PI
-/C7"integer constants" STYLE_EXTENSION
+/C7"integer constants" 
 ACTIVE
 AGENT
 AGENT_ALWAYS_RUN
@@ -1134,9 +1134,9 @@ XP_ERROR_STORAGE_EXCEPTION
 XP_ERROR_STORE_DISABLED
 XP_ERROR_THROTTLED
 XP_ERROR_UNKNOWN_ERROR
-/C8"rotation constants" STYLE_EXTENSION
+/C8"rotation constants" 
 ZERO_ROTATION
-/C9"string constants" STYLE_EXTENSION
+/C9"string constants" 
 EOF
 JSON_ARRAY
 JSON_DELETE
@@ -1155,15 +1155,15 @@ TEXTURE_PLYWOOD
 TEXTURE_TRANSPARENT
 URL_REQUEST_DENIED
 URL_REQUEST_GRANTED
-/C10"vector constants" STYLE_EXTENSION
+/C10"vector constants" 
 TOUCH_INVALID_TEXCOORD
 TOUCH_INVALID_VECTOR
 ZERO_VECTOR
-/C11"broken" STYLE_EXTENSION
+/C11"broken" 
 LAND_LARGE_BRUSH
 LAND_MEDIUM_BRUSH
 LAND_SMALL_BRUSH
-/C12"deprecated" STYLE_EXTENSION
+/C12"deprecated" 
 ATTACH_LPEC
 ATTACH_RPEC
 DATA_RATING
@@ -1187,13 +1187,13 @@ llSound
 llSoundPreload
 llXorBase64Strings
 llXorBase64StringsCorrect
-/C13"godmode" STYLE_EXTENSION
+/C13"godmode" 
 llGodLikeRezObject
 llSetInventoryPermMask
 llSetObjectPermMask
-/C14"log" STYLE_EXTENSION
+/C14"log" 
 print
-/C15"unimplemented" STYLE_EXTENSION
+/C15"unimplemented" 
 CHARACTER_MAX_ANGULAR_ACCEL
 CHARACTER_MAX_ANGULAR_SPEED
 CHARACTER_TURN_SPEED_MULTIPLIER
@@ -1214,7 +1214,7 @@ llRemoteLoadScript
 llSetPrimURL
 llStopPointAt
 llTakeCamera
-/C16"operators" STYLE_OPERATOR
+/C16"operators" 
 !
 !=
 %

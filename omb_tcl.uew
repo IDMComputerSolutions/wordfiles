@@ -9,9 +9,9 @@
 /Function String 2 = "% ++^(CURSOR [A-Z _ 0-9 a-z]+ ^)+IS"
 /Indent Strings = "THEN" "LOOP" "ELSE" "BEGIN" "IS" "EXCEPTION" "ELSIF" "{"
 /Unindent Strings = "END IF;" "END LOOP;" "END;" "ELSE" "ELSIF" "}"
-/C1"OMB Commands" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+/C1"OMB Commands"
 ** OMB OMU
-/C2"TCL Commands" Colors = 255 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+/C2"TCL Commands"
 after
 append
 appendarray
@@ -128,7 +128,7 @@ vwait
 while
 wordend
 wordstart
-/C3"TCL Keywords" Colors = 33023 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+/C3"TCL Keywords"
 auto_execs
 auto_index
 auto_noexec
@@ -148,7 +148,7 @@ tcl_version
 tcl_nonwordchars
 tcl_wordchars
 unknown_active
-/C4"OMB Keywords" Colors = 32768 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+/C4"OMB Keywords"
 ACTION
 ADD
 ADD ACTION
@@ -307,7 +307,7 @@ VALUES
 VIEW
 VIEWS
 WRITE
-/C5"Objects" Colors = 4210816 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+/C5"Objects"
 ADVANCED_MATCH_BY_CONSTRAINT
 BOUND
 BOUND_NAME
@@ -367,7 +367,7 @@ TRAILING_NULLCOLS
 TRUNCATE_ERROR_TABLE
 UOID
 USE_LCR_API
-/C6"Properties" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+/C6"Properties"
 bell
 bind
 bindtags
@@ -422,5 +422,5 @@ tkwait
 toplevel
 winfo
 wm
-/C7"Other" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+/C7"Other"
 

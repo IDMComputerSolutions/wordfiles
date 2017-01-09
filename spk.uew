@@ -1,4 +1,4 @@
-/L8"Sputnik" SPK_LANG Nocase EnableMLS Line Comment = // Line Comment Alt = # Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = SPK
+/L8"Sputnik" Nocase EnableMLS Line Comment = // Line Comment Alt = # Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = SPK
 /Regexp Type = Perl
 /TGBegin "Requires"
 /TGFindStr = "^[\t ]*require*[\t "']+([0-9a-z$&*\-./:=?\\^_]+)["']*;"
@@ -27,7 +27,7 @@
 /Close Brace Strings = "}" ")" "]"
 /Open Fold Strings = "{"
 /Close Fold Strings = "}"
-/C1"Control Structures" STYLE_KEYWORD
+/C1"Control Structures"
 ;
 assert
 break
@@ -43,12 +43,12 @@ unless until
 warn while
 {
 }
-/C2"Tags" STYLE_TAG
+/C2"Tags"
 <? <?SPK
 ?>
-/C3"Variables" STYLE_VARIABLE
+/C3"Variables"
 ** $ & @
-/C4"Operators" STYLE_OPERATOR
+/C4"Operators"
 !
 %
 &
@@ -79,7 +79,7 @@ or
 xor
 |
 ~
-/C5"Built-in Functions" STYLE_FUNCTION
+/C5"Built-in Functions"
 Abs Acos Addbr Addcslashes Addpath All Alloc Angle2d Any Arrayscope Asc Ascarray Ascii Ascw Ascwarray Asin
 Assign Atan Atan2 Atof Atoi Atol
 Barycentric BaseConv Bcrypt BcryptVerify Between Bin Binary BinaryAppend BinaryClone BinaryCompare
@@ -192,7 +192,7 @@ Walk Where WhereNot WinActivate WinActive WinClose WinExists WinFlash WinGetCare
 WinGetClientSize WinGetHandle WinGetPos WinGetProcess WinGetState WinGetText WinGetTitle WinKill WinList
 WinMenuSelectItem WinMinimizeAll WinMinimizeAllUndo WinMove WinSetState WinSetTitle WinSetTrans WinWait
 WinWaitActive WinWaitClose WinWaitNotActive WithinEpsilson WordCount Wordwrap Wrap WrapAngle
-/C6"Built-in Constants" STYLE_EXTENSION
+/C6"Built-in Constants"
 Args array
 Countable
 Exception
@@ -208,9 +208,9 @@ Terminal to
 using
 with
 yield
-/C7"Built-in Variables" STYLE_VARIABLE
+/C7"Built-in Variables"
 argc argv
-/C8"Keywords" STYLE_KEYWORD
+/C8"Keywords"
 $_ $this
 @1pi @1sqrt2 @2pi @2sqrtpi @AcSize @AllValid @AlphaNumeric @AltDirectorySeparatorChar @AnchorBottom
 @AnchorLeft @AnchorNone @AnchorRight @AnchorTop @AnsiMapped @AnsiPrintable @Arabic @ArgC @Args @ArgV

@@ -1,8 +1,8 @@
-/L20"HLSL SHADER" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = FX FXH CGFX
+/L20"HLSL Shader" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = FX FXH CGFX
 /Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
 /Open Brace Strings =  "{" "(" "["
 /Close Brace Strings = "}" ")" "]"
-/C1"Keywords" STYLE_KEYWORD
+/C1"Keywords"
 .a .b .g .r .w .x .y .z
 asm auto
 bool break
@@ -24,7 +24,7 @@ technique template texture this throw true try typedef typename
 uniform union unsigned using
 vector vertexshader virtual volatile
 while
-/C2"Functions" STYLE_FUNCTION
+/C2"Functions"
 abs
 ceil clamp cos cross
 degrees determinant distance dot
@@ -62,7 +62,7 @@ TESSFACTOR11 TESSFACTOR110 TESSFACTOR111 TESSFACTOR15 TESSFACTOR19 TESSFACTOR2 T
 TESSFACTOR5 TESSFACTOR6 TESSFACTOR7 TESSFACTOR8 TESSFACTOR9 TEXCOORD TEXCOORD0 TEXCOORD1 TEXCOORD10
 TEXCOORD11 TEXCOORD110 TEXCOORD111 TEXCOORD119 TEXCOORD12 TEXCOORD13 TEXCOORD14 TEXCOORD15 TEXCOORD19
 TEXCOORD2 TEXCOORD3 TEXCOORD4 TEXCOORD5 TEXCOORD6 TEXCOORD7 TEXCOORD8 TEXCOORD9
-/C4"Operators" STYLE_OPERATOR
+/C4"Operators"
 !
 $
 %

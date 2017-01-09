@@ -1,4 +1,4 @@
-/L20"Tivoli TLL" Line Comment = // String Chars = "' File Extensions = TL TLL
+/L20"TLL (Task Library Language)" Line Comment = // String Chars = "' File Extensions = TL TLL
 /Delimiters = ~!@$%^&*()+=|\{}:;"'<> ,   .?
 /Indent Strings = "{"
 /Unindent Strings = "}"

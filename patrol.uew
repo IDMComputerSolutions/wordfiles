@@ -1,4 +1,4 @@
-/L20"Patrol Scripting" Line Comment = # File Extensions = psl PSL
+/L20"Patrol Script" Line Comment = # File Extensions = psl PSL
 /Delimiters = ~!@$%^&*()-+=|\/[]:;"'<> ,	.?
 /Function String = "%[a-zA-Z]*("*)"
 /Indent Strings = "{"

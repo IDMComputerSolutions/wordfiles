@@ -1,4 +1,4 @@
-/L20"Winrunner" Line Comment = # Escape Char = \ String Chars = "' File Extensions = win
+/L20"HP WinRunner" Line Comment = # Escape Char = \ String Chars = "' File Extensions = win
 /Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> , .?
 /Function String = "%^([a-zA-Z_0-9]+^)[ ^t]+([^p*, ^t^[^]a-zA-Z_0-9.]++)[~;]"
 /Function String 1 = "%[a-zA-Z_0-9]*::^([a-zA-Z_0-9^~]+^)[ ^t]++([^p*, ^t^[^]/*=:&a-zA-Z_0-9.]++)[~;]"

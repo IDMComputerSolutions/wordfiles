@@ -1,5 +1,5 @@
-/L20"Lingo" Nocase Line Comment = -- Block Comment On = -- String Chars = " File Extensions = LGO LINGO
-/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/L10"Lingo 8.51" Nocase Line Comment = -- Block Comment On = -- String Chars = " File Extensions = LS LGO LINGO
+/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?#
 /Indent Strings = "then" "else"
 /Unindent Strings = "end" "end if" "end repeat"
 /C1
@@ -8,7 +8,7 @@ before
 case
 do
 else end
-FALSE
+false
 global
 halt
 if ilk into
@@ -16,57 +16,91 @@ me
 new
 of on or otherwise
 pass property put
-repeat result RETURN
+repeat result return
 set
-tell the then to TRUE
+tell the then to true
 while with
 /C2
 #
-abbr abbrev abbreviated abs activateWindow activeCastLib activeWindow actorList add addAt addProp alert alertHook alignment allowCustomCaching 
-allowGraphicMenu allowSaveLocal allowTransportControl allowVolumeControl allowZooming alphaThreshold ancestor antiAlias append applicationPath atan 
-autoTab
-backColor BACKSPACE beep beepOn beginRecording beginSprite bgColor blend blendLevel border bottom boxDropShadow boxType buttonStyle buttonType
-call callAncestor cancelIdleLoad castLib castLibNum center centerRegPoint centerStage changeArea channelCount char charPosToLoc chars charToNum 
-checkBoxAccess checkBoxType checkMark chunkSize clearFrame clearGlobals clickLoc clickOn close closeWindow closeXlib color  colorDepth commandDown 
-constrainH constraint constrainV continue controlDown controller copyToClipBoard cos count cpuHogTicks crop cuePassed cuePointNames cuePointTimes 
-currentSpriteNum currentTime cursor
-date deactivateWindow delay delete deleteAll deleteAt deleteFrame deleteOne deleteProp depth deskTopRectList digitalVideoTimeScale digitalVideoType 
-directToStage dither done doubleClick drawRect dropShadow duplicate duplicate member duplicateFrame duration
-editable EMPTY emulateMultiButtonMouse enabled endFrame endRecording endSprite ENTER enterFrame environment erase member exit exitFrame exitLock exp 
-externalParamCount externalParamName externalParamValue
-fadeIn fadeOut field fileName filled findEmpty findPos findPosNear finishIdleLoad fixStageSize flipH flipV float floatP floatPrecision font fontSize 
-fontStyle foreColor forget frame frameLabel framePalette frameRate frameReady frameScript frameSound1 frameSound2 framesToHMS frameTempo frameTransition 
-freeBlock freeBytes frontWindow
-getaProp getAt getBehaviorDescription getBehaviorTooltip getLast getNthFileNameInFolder getOne getPos getPref getProp getPropAt 
-getPropertyDescriptionList globals go
-height hilite hitTest HMStoFrames
-idle idleHandlerPeriod idleLoadDone idleLoadMode idleLoadPeriod idleLoadTag idleReadChunkSize importFileInto in inflate ink insertFrame inside 
-installMenu integer integerP interface intersect intersects isPastCuePoint item itemDelimiter
-key keyboardFocusSprite keyCode keyDown keyDownScript keyPressed keyUp keyUpScript
-label labelList last lastChannel lastClick lastEvent lastFrame lastKey lastRoll left length line lineCount lineDirection lineHeight linePosToLocV lines 
-lineSize list listP loaded loc locH locToCharPos locV locVToLinePos locZ log long loop
-map mapMemberToStage mapStageToMember margin marker max maxInteger mci media mediaReady member memberNum members memorySize menu milliseconds min modal 
-modified mostRecentCuePoint mouseChar mouseDown mouseDown mouseDownScript mouseItem mouseLeave mouseLine mouseLoc mouseMember mouseUp mouseUpOutside 
-mouseUpScript mouseV mouseWithin mouseWord move moveableSprite moveToBack moveToFront moveWindow movie movieAboutInfo movieCopyrightInfo 
-movieFileFreeSize movieFileSize movieName moviePath movieRate movieTime movieXtraList multiSound
-name netPresent netThrottleTicks next nothing number numToChar
-objectP offset open openResFile openWindow openXlib optionDown organizationName
-pageHeight palette paletteMapping paletteRef paragraph param paramCount pasteClipBoardInto pathName pattern pause pausedAtStart pauseState PI picture 
-pictureP platform play playFile playing point power preLoad preLoadEventAbort preLoadMember preLoadMode preLoadMovie preLoadRAM prepareFrame 
-prepareMovie previous printFrom puppet puppetPalette puppetSound puppetSprite puppetTempo puppetTransition purgePriority
-quad quit QUOTE
-ramNeeded random randomSeed rect regPoint resizeWindow restart right rightMouseDown rightMouseUp rollOver romanLingo rotation runMode runPropertyDialog
-safePlayer sampleRate sampleSize save saveMovie score scoreColor scoreSelection script scriptInstanceList scriptNum scriptsEnabled scriptText scriptType 
-scrollByLine scrollByPage scrollTop searchCurrentFolder searchPath searchPaths selection selEnd selStart sendAllSprites sendSprite serialNumber setaProp 
-setAt setPref setProp setTrackEnabled shapeType shiftDown short showGlobals showLocals showResFile showXlib shutDown sin size skew sort sound soundBusy 
-soundDevice soundDeviceList soundEnabled soundKeepDevice soundLevel sourceRect SPACE sprite spriteNum sqrt stage stageBottom stageColor stageLeft 
-stageRight stageTop startFrame startMovie startTime startTimer stepFrame stillDown stop stopEvent stopMovie stopTime string stringP switchColorDepth 
-symbol symbolP systemDate
-TAB tan text thumbnail ticks time timeOut timeoutKeyDown timeoutLapsed timeoutLength timeoutMouse timeoutPlay timeoutScript timer timeScale title 
-titleVisible top trace traceLoad traceLogFile trackCount trackEnabled trackNextKeyTime trackNextSampleTime trackPreviousKeyTime trackPreviousSampleTime 
-trackStartTime trackStopTime trackText trails transitionType tweened type
-union unLoad unLoadMember unloadMovie updateFrame updateLock updateMovieEnabled updateStage useAlpha userName
-value version video videoForWindowsPresent visible VOID voidP volume
-width window windowList windowPresent windowType word wordWrap
-xtra xtraList xtras
-zoomBox zoomWindow
+abbr abbrev abbreviated abs actionsenabled activateapplication activatewindow active3drenderer activecastlib activewindow actorlist add addat addbackdrop addcamera addchild 
+addmodifier addoverlay addprop addtoworld addvertex alert alerthook alignment allowcustomcaching allowgraphicmenu allowsavelocal allowtransportcontrol allowvolumecontrol 
+allowzooming alphathreshold ambient ambientcolor ancestor angle anglebetween animationenabled antialias antialiasthreshold append applicationname applicationpath appminimize 
+atan attenuation attributevalue auto autoblend automask autotab axisangle
+back backcolor backdrop backgroundcolor backspace beep beepon beginrecording beginsprite beveldepth beveltype bgcolor bias bitand bitmapsizes bitnot bitor bitrate 
+bitspersample bitxor blend blendconstant blendconstantlist blendfactor blendfunction blendfunctionlist blendlevel blendrange blendsource blendsourcelist blendtime bone 
+bonesplayer border both bottom bottomcap bottomradius bottomspacing boundary boundingsphere box boxdropshadow boxtype breakconnection breakloop brightness broadcastprops 
+browsername buffersize build buttonsenabled buttonstyle buttontype bytesstreamed
+cachedocverify cachesize call callancestor camera cameracount cameraposition camerarotation cancelidleload castlib castlibnum castmemberlist center centerregpoint centerstage 
+changearea channelcount char characterset charpostoloc chars charspacing chartonum checkboxaccess checkboxtype checkmark checknetmessages child chunksize clearatrender 
+clearcache clearerror clearframe clearglobals clearvalue clickloc clickmode clickon clone clonedeep clonemodelfromcastmember clonemotionfromcastmember close closed closewindow 
+closexlib collision collisiondata collisionnormal color colorbufferdepth colordepth colorlist colorrange colors colorsteps commanddown comments compressed connecttonetserver 
+constrainh constraint constrainv contains continue controldown controller copypixels copyrightinfo copyto copytoclipboard cos count cpuhogticks creaseangle creases 
+createfolder createmask creatematte creationdate creator crop cross crossproduct cuepassed cuepointnames cuepointtimes currentloopstate currentspritenum currenttime 
+cursor cursorsize curve cylinder
+date deactivateapplication deactivatewindow debug debugplaybackenabled decaymode defaultrect defaultrectmode delay delete deleteall deleteat deletecamera deletefolder 
+deleteframe deletegroup deletelight deletemodel deletemodelresource deletemotion deleteone deleteprop deleteshader deletetexture deletevertex density depth depthbufferdepth 
+desktoprectlist diffuse diffusecolor diffuselightmap digitalvideotimescale digitalvideotype direction directionalcolor directionalpreset directtostage 
+disableimagingtransformation displayface displaymode distanceto distribution dither done doneparsing dot dotproduct doubleclick downloadnetthing drag draw drawrect dropshadow 
+duplicate duplicateframe duration
+editable editshortcutsenabled elapsedtime emissive emitter empty emulatemultibuttonmouse enabled enablehotspot endangle endcolor endframe endrecording endsprite endtime enter 
+enterframe environment erase error eventpassmode exchange exists exit exitframe exitlock exp externalevent externalparamcount externalparamname externalparamvalue extractalpha 
+extrude3d
+face fadein fadeout fadeto far field fieldofview filename fill fillcolor fillcycles filldirection filled fillmode filloffset fillscale findempty findlabel findpos findposnear 
+finishidleload firstindent fixedlinespace fixedrate fixstagesize flashrect flashtostage flat fliph flipv float floatp floatprecision flush flushinputevents fog folderchar font 
+fontsize fontstyle forecolor forget frame framecount framelabel framepalette framerate frameready framescript framesound1 framesound2 framestohms frametempo frametransition 
+freeblock freebytes fromcastmember fromimageobject front frontwindow
+generatenormals getaprop getat getbehaviordescription getbehaviortooltip getboneid geterror geterrorstring gethardwareinfo gethotspotrect getlast getlatestnetid 
+getnetaddresscookie getneterrorstring getnetmessage getnetoutgoingbytes getnettext getnormalized getnthfilenameinfolder getnumberwaitingnetmessages getone 
+getpeerconnectionlist getpixel getplaylist getpos getpref getprop getpropat getpropertydescriptionlist getrendererservices getstreamstatus gettemppath getworldtransform 
+globals glossmap go gotoframe gotonetmovie gotonetpage gradienttype gravity group
+handler handlers height heightvertices high highlightpercentage highlightstrength hilite hither hittest hmstoframes hold hotspot html hyperlink hyperlinkclicked hyperlinkrange 
+hyperlinks hyperlinkstate
+id3tags identity idle idlehandlerperiod idleloaddone idleloadmode idleloadperiod idleloadtag idlereadchunksize ilk image imagecompression imageenabled imagequality immovable 
+importfileinto in inflate ink inker inlineimeenabled insertbackdrop insertframe insertoverlay inside installmenu integer integerp interface interpolate interpolateto intersect 
+interval inverse invert invertmask isbusy isinworld isoktoattach ispastcuepoint item itemdelimiter
+kerning kerningthreshold key keyboardfocussprite keycode keydown keydownscript keyframeplayer keypressed keyup keyupscript
+label labellist last lastchannel lastclick lastevent lastframe lastkey lastroll left leftindent length lengthvertices level lifetime light line linecolor linecount 
+linedirection lineheight lineoffset linepostolocv linesize linkas linked list listp loaded loadfile loc loch locked locktranslation loctocharpos locv locvtolinepos locz lod 
+log long loop loopcount loopendtime loopsremaining loopstarttime
+machinetype magnitude map mapmembertostage mapstagetomember margin marker markerlist mask max maxinteger maxspeed mci media mediaready member membernum members memorysize menu 
+mesh meshdeform milliseconds min minspeed modal mode model modela modelb modelresource modelsunderloc modelsunderray modelunderloc modified modifiedby modifieddate modifier 
+modifiers mostrecentcuepoint motion mousechar mousedown mousedownscript mouseenter mouseh mouseitem mouseleave mouselevel mouseline mouseloc mousemember mouseoverbutton 
+mouseup mouseupoutside mouseupscript mousev mousewithin mouseword move moveablesprite movetoback movetofront movevertex movevertexhandle movewindow movie movieaboutinfo 
+moviecopyrightinfo moviefilefreesize moviefilesize moviefileversion movieimagecompression movieimagequality moviename moviepath movierate movietime moviextralist mpeglayer 
+multiply multisound
+name near nearfiltering neighbor netabort netdone neterror netlastmoddate netmime netpresent netstatus nettextresult netthrottleticks newcamera newcurve newgroup newlight 
+newmesh newmodel newmodelresource newmotion newshader newtexture next normalize normallist normals nothing notify nudge number numchannels numparticles numsegments numtochar
+objectp offset open openresfile openwindow openxlib optiondown organizationname originalfont originh originmode originpoint originv orthoheight overlay
+pageheight palette palettemapping paletteref pan paragraph param paramcount parent parsestring particle pasteclipboardinto path pathname pathstrength pattern pause 
+pausedatstart pausestate percentplayed percentstreamed period perpendicularto persistent pi picture picturep plane platform play playbackmode playfile playing playlist 
+playnext playrate point pointat pointatorientation pointinhyperlink pointofcontact pointtochar pointtoitem pointtoline pointtoparagraph pointtoword position positionreset 
+posterframe postnettext power preferred3drenderer preload preloadbuffer preloadeventabort preloadmember preloadmode preloadmovie preloadnetthing preloadram preloadtime 
+premultiply prepareframe preparemovie prerotate prescale pretranslate previous primitives printfrom productversion projection projectionangle proxyserver pttohotspotid puppet 
+puppetpalette puppetsound puppetsprite puppettempo puppettransition purgepriority
+qtregisteraccesskey qtunregisteraccesskey quad quality queue quit quote
+radius ramneeded random randomseed randomvector rateshift rawnew read readvalue recordfont rect ref reflectionmap reflectivity region registerforevent registerscript regpoint 
+regpointvertex removebackdrop removefromworld removelast removemodifier removeoverlay rename renderer rendererdevicelist renderformat renderstyle resetworld resizewindow 
+resolution resolve resolvea resolveb resource restart resume reverttoworlddefaults rewind rgb rgba4444 rgba5550 rgba5551 rgba5650 rgba8880 rgba8888 right rightindent 
+rightmousedown rightmouseup rollover romanlingo rootlock rootnode rotate rotation rotationreset rtf runmode runpropertydialog
+safeplayer samplecount samplerate samplesize save savedlocal savemovie scale scalemode score scorecolor scoreselection script scriptinstancelist scriptlist scriptnum 
+scriptsenabled scripttext scripttype scrollbyline scrollbypage scrolltop sds searchcurrentfolder searchpath searchpaths seconds selectedtext selection selend selstart 
+sendallsprites sendevent sendnetmessage sendsprite serialnumber setalpha setaprop setat setcollisioncallback setflashproperty setnetbufferlimits setnetmessagehandler setpixel 
+setplaylist setpref setprop setscriptlist settrackenabled setvariable shader shaderlist shadowpercentage shadowstrength shapetype shiftdown shininess shockwave3d short 
+showglobals showlocals showprops showresfile showxlib shutdown silhouettes sin size sizerange skew sleep smoothness sort sound soundbusy soundchannel sounddevice 
+sounddevicelist soundenabled soundkeepdevice soundlevel soundmixmedia source sourcerect space specular specularcolor specularlightmap sphere spotangle spotdecay sprite 
+spritenum spritespacetoworldspace sqrt stage stagebottom stagecolor stageleft stageright stagetoflash stagetop standard startangle startframe startmovie starttime starttimer 
+state static status stepframe stilldown stop stopevent stopmovie stoptime stream streammode streamname streamsize streamstatus string stringp strokecolor strokewidth style 
+subdivision sweep swing switchcolordepth symbol symbolp systemdate
+tab tabcount tabs tan target tellstreamstatus tension text texture texturecoordinatelist texturecoordinates texturelayer texturelist texturemember texturemode texturemodelist 
+texturerenderformat texturerepeat texturerepeatlist texturetransform texturetransformlist texturetype thumbnail ticks tilt time timeout timeouthandler timeoutkeydown 
+timeoutlapsed timeoutlength timeoutlist timeoutmouse timeoutplay timeoutscript timer timescale title titlevisible toon top topcap topradius topspacing trace traceload 
+tracelogfile trackcount trackenabled tracknextkeytime tracknextsampletime trackpreviouskeytime trackprevioussampletime trackstarttime trackstoptime tracktext tracktype trails 
+transform transitiontype translate transparent triggercallback trimwhitespace tunneldepth tweened tweenmode type
+union unload unloadmember unloadmovie unregisterallevents update updateframe updatelock updatemovieenabled updatestage url usealpha usediffusewithtexture usefastquads 
+usehypertextstyles uselineoffset userdata username
+value vector version vertex vertexlist vertices video videoforwindowspresent viewh viewpoint viewscale viewv visibility visible void voidp volume volumeinfo
+wait waitfornetconnection warpmode width widthvertices wind window windowlist windowpresent windowtype word wordwrap worldposition worldspacetospritespace worldtransform 
+wraptransform wraptransformlist write writevalue
+x xaxis xtra xtralist xtras
+y yaxis yon
+z zaxis zoombox zoomwindow

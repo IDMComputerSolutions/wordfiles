@@ -1,8 +1,4 @@
-/L1"stzUESage" Line Comment Num = 4REM  Line Comment Alt = ! String Chars = " File Extensions = DBG M4P PVC PVT *
-/Colors = 0,8421376,8421376,0,0,
-/Colors Back = 16777215,16121845,16121845,15790320,15790335,
-/Colors Auto Back = 1,0,0,0,0,
-/Font Style = 0,2,2,0,0,
+/L1"ProvideX/PxPlus for Sage" Line Comment Num = 4REM  Line Comment Alt = ! String Chars = " File Extensions = DBG M4P PVC PVT *
 /Delimiters = ()[]{}+-=;	' ,
 /Function String = "%^([^t0-9A-Z_ ]++:^)"
 /Indent Strings = "{" "FOR" "WHILE" "REPEAT" "SELECT" "SWITCH" "CASE" "DEFAULT" "DEF FN"
@@ -12,7 +8,7 @@
 /Ignore Fold Strings = "*NEXT" "*BREAK"
 /Open Brace Strings = "(" "{" "["
 /Close Brace Strings = ")" "}" "]"
-/C1"Directives" Colors = 10485760 Colors Back = 16774645 Colors Auto Back = 0 Font Style = 0
+/C1"Directives"
 ACCEPT
 ADD
 ADDR
@@ -200,7 +196,7 @@ WINPRT_SETUP
 WITH
 WRITE
 
-/C2"Functions and Options" Colors = 160 Colors Back = 16119295 Colors Auto Back = 0 Font Style = 0
+/C2"Functions and Options"
 @
 @X
 @Y
@@ -344,7 +340,7 @@ XFA
 XML
 XOR
 
-/C3"System Variables" Colors = 32768 Colors Back = 16777215 Colors Auto Back = 0 Font Style = 0
+/C3"System Variables"
 BKG
 CHN
 DAY
@@ -381,7 +377,7 @@ UID
 UNT
 WHO
 
-/C4"OOPs" Colors = 10485840 Colors Back = 16772085 Colors Auto Back = 0 Font Style = 0
+/C4"OOPs"
 CREATE
 CLASS
 LIKE
@@ -395,7 +391,7 @@ STATIC
 UNIQUE
 _OBJ
 
-/C5"Mnemonics" Colors = 25800 Colors Back = 15463935 Colors Auto Back = 0 Font Style = 0
+/C5"Mnemonics"
 ARC
 BACKGR
 BEEP
@@ -454,7 +450,7 @@ _RED
 _WHITE
 _YELLOW
 
-/C6"Nomads" Colors = 8404992 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+/C6"Nomads"
 ARG_1$
 ARG_2$
 ARG_3$
@@ -489,14 +485,14 @@ SCREEN_ID$
 SCREEN_LIB$
 _EOM$
 
-/C7"Line Continuation" Colors = 255 Colors Back = 14148095 Colors Auto Back = 0 Font Style = 0
+/C7"Line Continuation"
 \
 \ERR\
 
-/C8"User-Defined" Colors = 0 Colors Back = 14150655 Colors Auto Back = 0 Font Style = 1
+/C8"User-Defined"
 steezware
 
-/C9"Sage" Colors = 8421376 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+/C9"Sage"
 %SYS_SS
 coBusiness
 coSession

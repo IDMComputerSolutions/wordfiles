@@ -1,4 +1,4 @@
-/L1"Mill G Code" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = C CPP CC H HPP AWK
+/L1"Mills G-Codes" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = C CPP CC H HPP AWK
 /Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
 /Function String = "%[a-zA-Z_]*)"
 /Indent Strings = "{"

@@ -1,4 +1,4 @@
-/L20"mikroBASIC" Line Comment = ' Nocase String Chars = " File Extensions = pbas
+/L20"mikroBasic" Line Comment = ' Nocase String Chars = " File Extensions = pbas
 /Delimiters = ~!@%^&*()-+=|\/{}[]:;"' ,	.?
 /C1"Keywords"
 Reset

@@ -1,4 +1,4 @@
-/L20"UniBasic 5.2" Line Comment = * String Chars = "' File Extensions = TXT
+/L20"UniBasic" Line Comment = * String Chars = "' File Extensions = TXT
 /Delimiters = ~!%^&*()-+=|\/{}[]:;"'<> ,	?
 /C1"General"
 ABORT ABS ABSOLUTE ACOS ALPHA AND APPEND AS ASCII ASIN ASSIGN ASYNCH AT ATAN

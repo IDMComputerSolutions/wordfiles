@@ -1,4 +1,4 @@
-/L20"68K" AASM_LANG Line Comment = * File Extensions = 68K H68 X68 SA
+/L20"68K Assembler" AASM_LANG Line Comment = * File Extensions = 68K H68 X68 SA
 /Delimiters = +-/$()#,.
 /C1
 ABCD ADD ADDA ADDI ADDQ ADDX AND ANDI ASL ASR

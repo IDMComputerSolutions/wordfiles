@@ -1,4 +1,4 @@
-/L20"FoxPro 2.6" Line Comment = *  Block Comment On = && Block Comment Off =   Nocase File Extensions = PRG
+/L20"FoxPro" Line Comment = *  Block Comment On = && Block Comment Off =   Nocase File Extensions = PRG
 /Delimiters = ~!@%^&*-+=|{}[];"'<> ,	?
 /Function String = "%[PF][RU][ON][CC]*"
 /Indent Strings = "IF" "DO CASE" "SCAN" "DO WHIL" "FOR"

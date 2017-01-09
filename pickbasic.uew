@@ -1,4 +1,4 @@
-/L20"PICK BASIC" Line Comment = * Line Comment Alt = REM String Chars = \'" File Extensions = PIK
+/L20"Pick/BASIC" Line Comment = * Line Comment Alt = REM String Chars = \'" File Extensions = PIK
 /Delimiters = ~!@^&*()-+=|\/{}[]:;"'<> ,	?
 /Indent Strings = "THEN"
 /Unindent Strings = "END" "NEXT" "END ELSE"

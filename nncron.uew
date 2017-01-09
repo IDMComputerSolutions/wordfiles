@@ -1,4 +1,4 @@
-/L20"nnCron" HTML_LANG Line Comment = \ File Extensions = tab
+/L20"nnCron" Line Comment = \ File Extensions = tab
 /Delimiters = ~!^&*()+=|\{}[];"'<> ,	.?
 /Function String = "%#(*"
 /C1"Reserved words"

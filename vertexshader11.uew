@@ -1,4 +1,4 @@
-/L20"Vertex Shader 1.1" Line Comment = ; Line Comment Alt = // File Extensions = VSH
+/L20"Vertex Shader" Line Comment = ; Line Comment Alt = // File Extensions = VSH
 /Delimiters = [] +	.,;-
 
 /C1"Version Instructions"

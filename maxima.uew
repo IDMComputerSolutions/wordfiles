@@ -1,4 +1,4 @@
-/L20"Maxima 5.9.0" Nocase Line Comment = // String Chars = " Block Comment On = /* Block Comment Off = */ File Extensions = mac
+/L20"Maxima" Nocase Line Comment = // String Chars = " Block Comment On = /* Block Comment Off = */ File Extensions = mac
 /Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
 /C1"Keywords"
 allbut 

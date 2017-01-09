@@ -1,4 +1,4 @@
-/L20"ADM" Line Comment = ; File Extensions = ADM
+/L20"ADM Templates" Line Comment = ; File Extensions = ADM
 /Open Brace Strings =  "{" "(" "[" "<"
 /Close Brace Strings = "}" ")" "]" ">"
 /Indent Strings =
@@ -6,22 +6,18 @@
 /Open Fold Strings = 	"#IF"		"CATEGORY" 			"POLICY"
 /Close Fold Strings = 	"#endif"	"END CATEGORY" 	"END POLICY"
 /Ignore Fold Strings =
-
-/C1"Functions" STYLE_FUNCTION
+/C1"Functions" 
 CATEGORY
 EXPLAIN
 POLICY
-
-/C2"Functions" STYLE_FUNCTION
+/C2"Functions" 
 END
 PART
-
-/C3"Functions" STYLE_FUNCTION
+/C3"Functions" 
 KEY
 KEYNAME
 NAME
-
-/C4"Functions" STYLE_FUNCTION
+/C4"Functions" 
 DATA
 ITEMLIST
 TYPE
@@ -29,8 +25,7 @@ VALUE
 VALUENAME
 VALUEOFF
 VALUEON
-
-/C5"Functions" STYLE_FUNCTION
+/C5"Functions" 
 CHECKBOX
 DELETE
 DROPDOWNLIST
@@ -42,11 +37,9 @@ NUMERIC
 REQUIRED
 TEXT
 VALUENAME
-
-/C6"Functions" STYLE_FUNCTION
+/C6"Functions" 
 ** \\ \
-
-/C7"Custom" STYLE_CUSTOM
+/C7"Custom"
 DEFAULT
 MAX
 MIN

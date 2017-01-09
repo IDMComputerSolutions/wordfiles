@@ -1,4 +1,4 @@
-/L20"Rman Interface" Line Comment = # Noquote File Extensions = RIB 
+/L20"RenderMan Interface" Line Comment = # Noquote File Extensions = RIB 
 /Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> , .?
 /Indent Strings = "{" "Begin" "AttributeBegin" "FrameBegin" "MotionBegin" "ObjectBegin" "SolidBegin" "TransformBegin" "WorldBegin"
 /Unindent Strings = "}" "End" "AttributeEnd" "FrameEnd" "MotionEnd" "ObjectEnd" "SolidEnd" "TransformEnd" "WorldEnd"

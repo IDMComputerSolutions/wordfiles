@@ -1,4 +1,4 @@
-/L14"REDWOOD"  Line Comment = -- Block Comment On = /* Block Comment Off = */ File Extensions = SQL
+/L14"Redwood Cronacle"  Line Comment = -- Block Comment On = /* Block Comment Off = */ File Extensions = SQL
 /Delimiters = .~!%@^&*()-+=|\/{}[]:;"'<> ,	?
 /Function String = "%*function ^(*^) "
 /Function String 1 = "%*procedure ^(*^) "

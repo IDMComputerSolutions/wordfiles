@@ -1,4 +1,4 @@
-/L14"TakeCommand/TCC 18.x Batch" Nocase Line Comment = REM Line Comment Alt = :: Escape Char = ^ String Chars = "'` File Extensions = BTM BAT CMD
+/L14"TakeCommand/TCC Batch" Nocase Line Comment = REM Line Comment Alt = :: Escape Char = ^ String Chars = "'` File Extensions = BTM BAT CMD
 /Delimiters = %!$^*()+=|{}[]"' 	,
 /Function String = "%:+[a-zA-Z_]"
 /Indent Strings = "CASE" "CASEALL" "DEFAULT" "DO" "FOR" "IF" "IFF" "ITERATE" "LEAVE" "LEAVEFOR" "SWITCH" "THEN"

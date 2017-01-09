@@ -1,4 +1,4 @@
-/L20"DivX Player 2.0 Skin" HTML_LANG Line Comment = # File Extensions = DIVL
+/L20"DivX Player 2.0 Skin" Line Comment = # File Extensions = DIVL
 /Delimiters = ~!@$%^&*()+=|\{}[];"'< ,	.?
 /Function String = "name=*">"
 /C1"Tags"

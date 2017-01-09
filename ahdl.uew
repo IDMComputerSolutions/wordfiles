@@ -1,4 +1,4 @@
-/L20"AHDL" 1Line Comment = -- Nocase File Extensions = TDF TDO INC
+/L20"AHDL (Altera Hardware Description Language)" 1Line Comment = -- Nocase File Extensions = TDF TDO INC
 /Delimiters = {}[]:;"'<> ,.?()	~!@$^&*+=|\/
 /Indent Strings = "BEGIN"
 /Unindent Strings = "END"

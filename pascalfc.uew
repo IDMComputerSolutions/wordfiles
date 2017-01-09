@@ -1,4 +1,4 @@
-/L20"PASCALFC" PASCAL_LANG Line Comment = // Block Comment On = { Block Comment Off = } File Extensions = PFC
+/L20"Pascal-FC" PASCAL_LANG Line Comment = // Block Comment On = { Block Comment Off = } File Extensions = PFC
 /Delimiters = ~!@$%^&*()+=|\/{}[]:;"'<> 	,.?/
 /Indent Strings = "BEGIN"
 /Unindent Strings = "END"

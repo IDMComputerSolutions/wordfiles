@@ -1,4 +1,4 @@
-/L20"WML" Nocase Noquote HTML_LANG Block Comment On = <!-- Block Comment Off = --> File Extensions = WML wml
+/L20"WML" Nocase Noquote XML_LANG Block Comment On = <!-- Block Comment Off = --> File Extensions = WML wml
 /Delimiters = ~@$%^*()+=|\{}"'<> ,
 /Function String = "name=*">"
 /C1"Elements"

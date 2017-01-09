@@ -1,4 +1,4 @@
-/L20"QNAP" Line Comment = && NOCASE String Chars = "' File Extensions = QNP
+/L20"QNAP" Line Comment = && Nocase String Chars = "' File Extensions = QNP
 /Delimiters = *()-+\/;"'<> ,	.?
 /Function String = "%/STATION/[ ^t^n]++NAME="
 /Function String 1 = "%/[A-Z]*/"

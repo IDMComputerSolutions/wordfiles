@@ -1,12 +1,9 @@
-/L20"Visual FoxPro 6.0" Line Comment Alt = && Line Comment = * Nocase File Extensions = PRG H
-
+/L20"Visual FoxPro" Line Comment Alt = && Line Comment = * Nocase File Extensions = PRG H
 /Delimiters = !@$%()-+=/{}[]:;,	.*&
 /Indent Strings = "Case" "Else" "#Else" "Then"
 /Unindent Strings = "Else" "#Else" "Endcase" "Enddefine" "Enddo" "Endfor" "Endfunc" "Endif" "Endprintjob" "Endproc" "Endscan" "Endtext" "Endwith" "#Endif"
-
 /C1"Compiler control"
 #Elif #Else #Endif #Define #If #Include #Itsexpression #Readclauses #Region #Section #Undef #Wname
-
 /C2"Program control"
 Case
 Define Do
@@ -21,7 +18,6 @@ Parameters Printjob Procedure Protected Public
 Scan
 Text Then
 While With
-
 /C3"Functions"
 ? ?? ???
 Abs Accept Access Aclass Acopy Acos Adatabases Adbobjects Addbs Addrelationtoenv Addtabletoenv Adel Adir Aelement Aerror Afields Afont Agetclass Agetfileversion Ains Ainstance Alen Align Alines Alltrim Alter Amembers Amouseobj Anetresources Ansitooem Append Aprinters Ascan Aselobj Asin Asort Assert Asserts Assist Asubscript Asynchronous At_c Atan Atc Atcc Atcline Atline Atn2 Aused Autoform Autoreport Avcxclasses Average
@@ -51,8 +47,6 @@ Year
 Zap
 _Alignment _Asciicols _Asciirows _Assist _Beautify _Box _Browser _Builder _Calcmem _Calcvalue _Cliptext _Converter _Coverage _Coverage _Curobj _Dblclick _Diarydate _Dos _Foxdoc _Foxgraph _Gallery _Gengraph _Genhtml _Genmenu _Genpd _Genscrn _Genxtab _Getexpr _Include _Indent _Lmargin _Mac _Mbr_appnd _Mbr_cpart _Mbr_delet _Mbr_font _Mbr_goto _Mbr_grid _Mbr_link _Mbr_mode _Mbr_mvfld _Mbr_mvprt _Mbr_seek _Mbr_sp100 _Mbr_sp200 _Mbr_szfld _Mbrowse _Mda_appnd _Mda_avg _Mda_brow _Mda_calc _Mda_copy _Mda_count _Mda_label _Mda_pack _Mda_reprt _Mda_rindx _Mda_setup _Mda_sort _Mda_sp100 _Mda_sp200 _Mda_sp300 _Mda_sum _Mda_total _Mdata _Mdiary _Med_clear _Med_copy _Med_cut _Med_cvtst _Med_find _Med_finda _Med_goto _Med_insob _Med_link _Med_obj _Med_paste _Med_pref _Med_pstlk _Med_redo _Med_repl _Med_repla _Med_slcta _Med_sp100 _Med_sp200 _Med_sp300 _Med_sp400 _Med_sp500 _Med_undo _Medit _Mfi_clall _Mfi_close _Mfi_export _Mfi_import _Mfi_new _Mfi_open _Mfi_pgset _Mfi_prevu _Mfi_print _Mfi_quit _Mfi_revrt _Mfi_savas _Mfi_save _Mfi_send _Mfi_setup _Mfi_sp100 _Mfi_sp200 _Mfi_sp300 _Mfi_sp400 _Mfile _Mfiler _Mfirst _Mlabel _Mlast _Mline _Mmacro _Mmbldr _Mpr_beaut _Mpr_cancl _Mpr_compl _Mpr_do _Mpr_docum _Mpr_formwz _Mpr_gener _Mpr_graph _Mpr_resum _Mpr_sp100 _Mpr_sp200 _Mpr_sp300 _Mpr_suspend _Mprog _Mproj _Mrc_appnd _Mrc_chnge _Mrc_cont _Mrc_delet _Mrc_goto _Mrc_locat _Mrc_recal _Mrc_repl _Mrc_seek _Mrc_sp100 _Mrc_sp200 _Mrecord _Mreport _Mrqbe _Mscreen _Msm_data _Msm_edit _Msm_file _Msm_format _Msm_prog _Msm_recrd _Msm_systm _Msm_text _Msm_tools _Msm_view _Msm_windo _Mst_about _Mst_ascii _Mst_calcu _Mst_captr _Mst_dbase _Mst_diary _Mst_filer _Mst_help _Mst_hphow _Mst_hpsch _Mst_macro _Mst_office _Mst_puzzl _Mst_sp100 _Mst_sp200 _Mst_sp300 _Mst_specl _Msysmenu _Msystem _Mtable _Mtb_appnd _Mtb_cpart _Mtb_delet _Mtb_delrc _Mtb_goto _Mtb_link _Mtb_mvfld _Mtb_mvprt _Mtb_props _Mtb_recal _Mtb_sp100 _Mtb_sp200 _Mtb_sp300 _Mtb_sp400 _Mtb_szfld _Mwi_arran _Mwi_clear _Mwi_cmd _Mwi_color _Mwi_debug _Mwi_hide _Mwi_hidea _Mwi_min _Mwi_move _Mwi_rotat _Mwi_showa _Mwi_size _Mwi_sp100 _Mwi_sp200 _Mwi_toolb _Mwi_trace _Mwi_view _Mwi_zoom _Mwindow _Mwizards _Mwz_all _Mwz_form _Mwz_foxdoc _Mwz_import _Mwz_label _Mwz_mail _Mwz_pivot _Mwz_query _Mwz_reprt _Mwz_setup _Mwz_table _Mwz_upsizing _Netware _Oracle _Padvance _Pageno _Pbpage _Pcolno _Pcopies _Pdparms _Pdriver _Pdsetup _Pecode _Peject _Pepage _Pform _Plength _Plineno _Ploffset _Ppitch _Pquality _Pretext _Pscode _Pspacing _Pwait _Rmargin _Runactivedoc _Samples _Screen _Shell _Spellchk _Sqlserver _Startup _Tabs _Tally _Text _Throttle _Transport _Triggerlevel _Unix _WebDevOnly _WebMenu _WebMsftHomePage _WebVFPHomePage _WebVfpOnlineSupport _Windows _Wizard _Wrap _scctext _vfp
 
-
-
 /C4"KeyWords"
 Additive After Again Aindent Alignright All Alt Alternate And Ansi Any Aplabout App Array As Asc Ascending Ascii At Attributes Automatic Autosave Avg
 Bar Before Bell Between Bitmap Blank Blink Blocksize Border Bottom Brstatus Bucket Buffers By
@@ -79,7 +73,6 @@ Where Windows Wk1 Wk3 Wks Workarea Wp Wr1 Wrap Wrk
 Xcmdfile Xl5 Xl8 Xls
 Y Yresolution
 Zoom
-
 /C5"Methods & Events"
 Activate ActivateCell Add AddColumn AddItem AddListItem AddObject AddProperty AddToSCC AfterBuild AfterCloseTables AfterDock AfterRowColChange
 BeforeBuild BeforeDock BeforeOpenTables BeforeRowColChange Box Build
@@ -104,7 +97,6 @@ UIEnable UnDock UndoCheckOut Unload UpClick
 Valid
 WhatsThisMode When WriteExpression WriteMethod
 ZOrder
-
 /C6"Properties"
 ATGetColors ATListColors Accelerate ActiveColumn ActiveControl ActiveForm ActiveObjectId ActivePage ActiveProject ActiveRow AddLineFeeds Alias Alignment AllowAddNew AllowHeaderSizing AllowResize AllowRowSizing AllowTabs AlwaysOnTop Application AutoActivate AutoCenter AutoCloseTables AutoIncrement AutoOpenTables AutoRelease AutoSize AutoVerbMenu AutoYield AvailNum
 BackColor BackStyle BaseClass BorderColor BorderStyle BorderWidth Bound BoundColumn BoundTo BrowseAlignment BrowseCellMarg BrowseDestWidth BufferMode BufferModeOverride BuildDateTime ButtonCount ButtonIndex Buttons
@@ -129,7 +121,6 @@ UnlockDataSource
 Value ValueDirty VersionComments VersionCompany VersionCopyright VersionDescription VersionNumber VersionProduct VersionTrademarks View ViewPortHeight ViewPortLeft ViewPortTop ViewPortWidth Visible VscrollSmallChange
 WasActive WasOpen WhatsThisButton WhatsThisHelp WhatsThisHelpID Width WindowList WindowNTIList WindowState WindowType WordWrap
 ZOrderSet
-
 /C7"Classes"
 ActiveDoc
 Checkbox Column ComboBox CommandButton CommandGroup Container Control Cursor Custom
@@ -146,5 +137,4 @@ Page PageFrame ProjectHook
 RectClass Relation
 Session Shape Spinner
 TextBox Toolbar
-
 /C8"Free"

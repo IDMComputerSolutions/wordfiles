@@ -1,4 +1,4 @@
-/L20"GPX" XML_LANG Noquote Block Comment On = <!-- Block Comment Off = --> File Extensions = GPX
+/L20"GPX" Noquote Block Comment On = <!-- Block Comment Off = --> File Extensions = GPX
 /Delimiters = " '	,<=>
 /Function String = "%[ ^t]++<trkpt ^(*^)>"
 /Open Brace Strings =  "{" "(" "[" "<"

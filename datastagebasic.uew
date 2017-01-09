@@ -5,65 +5,46 @@
 /Unindent Strings = "End" "Repeat" "Next" "End Case"
 /C1"Commands"
 $Include
-Abs Alpha Ascii 
-Begin Bits 
-Call Case Cats Change Char Checksum CloseSeq Col1 Col2 Common Compare Convert Convert Count 
-Date DCount Deffun Dimension Div DownCase DQuote DSAttachJob DSCheckRoutine DSDetachJob DSExecute DSGetJobInfo 
-DSGetLinkInfo DSGetLogEntry DSGetLogSummary DSGetNewestLogId DSGetParamInfo DSGetProjectInfo DSGetStageInfo 
-DSLogEvent DSLogFatal DSLogInfo DSLogToController DSLogWarn  DSMakeJobReport DSMakeMsg DSPrepareJob DSRunJob 
-DSSendMail DSSetJobLimit DSSetParam DSSetUserStatus DSStopJob DSTransformError DSTranslateCode Dtx DSWaitForFile
-DSWaitForJob DSWaitForJobList
-Ebcdic Else End Equate Ereplace Error Exchange Exit Exp 
-Field FieldStore Fmt FmtDP Fold FoldDP For From Function 
-GetLocale GoSub GoTo 
-Iconv If Index InMat Int IsNull 
-Left Len LenDP Ln Loop 
-Mat Match MatchField Mod 
-Nap Neg Next Not Null Num 
-Oconv On Or OpenSeq 
-Pwr 
-Quote 
-Randomize ReadSeq Repeat Return Right Rnd 
-Seq SetLocale Sleep Soundex Space Sqrt SQuote Status Str  
-Then Time TimeDate To Trigonometrics Trim TrimB TrimF 
-UniChar UniSeq Until UpCase 
-WEOFSeq 
-While WriteSeq WriteSeqF 
-Xtd 
+Abs Alpha Ascii
+Begin Bits
+Call Case Cats Change Char Checksum CloseSeq Col1 Col2 Common Compare Convert Count
+DCount DQuote DSAttachJob DSCheckRoutine DSDetachJob DSExecute DSGetJobInfo DSGetLinkInfo DSGetLogEntry
+DSGetLogSummary DSGetNewestLogId DSGetParamInfo DSGetProjectInfo DSGetStageInfo DSLogEvent DSLogFatal
+DSLogInfo DSLogToController DSLogWarn DSMakeJobReport DSMakeMsg DSPrepareJob DSRunJob DSSendMail
+DSSetJobLimit DSSetParam DSSetUserStatus DSStopJob DSTransformError DSTranslateCode DSWaitForFile
+DSWaitForJob DSWaitForJobList Date Deffun Dimension Div DownCase Dtx
+Ebcdic Else End Equate Ereplace Error Exchange Exit Exp
+Field FieldStore Fmt FmtDP Fold FoldDP For From Function
+GetLocale GoSub GoTo
+Iconv If InMat Index Int IsNull
+Left Len LenDP Ln Loop
+Mat Match MatchField Mod
+Nap Neg Next Not Null Num
+Oconv On OpenSeq Or
+Pwr
+Quote
+Randomize ReadSeq Repeat Return Right Rnd
+SQuote Seq SetLocale Sleep Soundex Space Sqrt Status Str
+Then Time TimeDate To Trigonometrics Trim TrimB TrimF
+UniChar UniSeq Until UpCase
+WEOFSeq While WriteSeq WriteSeqF
+Xtd
 /C2"Job InfoTypes"
-DSINCLUDE
-DSJ
+DSINCLUDE DSJ
 ERRFATAL
 HOSTNAME
-JOBLIST
-JOBSTATUS  
-JOBINVOCATIONS
-JOBINVOCATIONID
-JOBNAME
-JOBCONTROLLER
-JOBSTARTTIMESTAMP
-JOBWAVENO
+JOBCONTROLLER JOBINVOCATIONID JOBINVOCATIONS JOBLIST JOBNAME JOBSTARTTIMESTAMP JOBSTATUS JOBWAVENO
 LINKROWCOUNT
 ME
-USERSTATUS
-PARAMLIST
-PROJECTNAME
+PARAMLIST PROJECTNAME
 RUNNORMAL
 STAGELIST
+USERSTATUS
 /C3"Job Statuses"
 CRASHED
 DSJS
-RUNNING
-RUNOK
-RUNWARN
-RUNFAILED
-RESET
+RESET RUNFAILED RUNNING RUNOK RUNWARN
 STOPPED
-VALOK
-VALWARN
-VALFAILED
+VALFAILED VALOK VALWARN
 /C4"System Variables"
-@True
-@False
-@VM
-@FM
+@FM @False @True @VM

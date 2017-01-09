@@ -5,7 +5,6 @@ action
 command 
 name 
 skip start stop 
-
 /C2"Parameters"
 alert 
 constrain 
@@ -20,7 +19,6 @@ shell show
 temp time 
 wait week
 year 
-
 /C3"Macros"
 %a% %A% 
 %b% %B%

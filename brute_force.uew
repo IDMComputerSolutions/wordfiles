@@ -1,6 +1,6 @@
 /L20"Brute Force Uninstaller" Nocase Line Comment = # Line Comment Alt = ' File Extensions = BFU
 /Delimiters = ~!@%^&*()_-+=|\{}[]:;"'<> ,	.?
-/C1"Commands" STYLE_COMMAND
+/C1"Commands"
 DllRegister DllUnregister
 FileClear FileCreate FileDelete FileDeleteIfContainsHex FileDeleteIfContainsText FileDeleteIfCRC32Match FileDeleteIfMD2Match FileDeleteIfMD4Match FileDeleteIfMD5Match FileDeleteIfSHA1Match FileDeleteOnReboot FileMove FileRename FileSetAttributes FileWrite FolderCreate FolderDelete FolderMove FolderRename FolderSetAttributes
 HostsFileAddLine HostsFileDelLine HostsFileDisableLine HostsFileEnableLine HostsFileReset
@@ -10,7 +10,7 @@ ProcessKill ProcessKillIfContainsHex ProcessKillIfContainsText ProcessKillIfCRC3
 RegCreateKey RegDeleteKey RegDelFromValue RegDelValue RegDelValueIfContainsText RegRenameValue RegSetBinaryValue RegSetDwordValue RegSetStringValue
 ServiceDelete ServiceDisable ServiceStart ServiceStop SystemEmptyInternetCache SystemEmptyRecycleBin SystemEmptyTempFolder SystemMsgBox SystemResetWebSettings SystemRestart SystemRestartIfNeeded SystemRun
 WinsockKillNameSpace WinsockKillProtocol
-/C2"Keywords" STYLE_KEYWORD
+/C2"Keywords"
 HKCC HKCR HKCU HKDD HKLM HKPD HKUS
 /C3"Aliases"
 ALLUSERSAPPDATA ALLUSERSDESKTOP ALLUSERSPROGRAMS ALLUSERSSTARTMENU ALLUSERSSTARTUP APPDATA

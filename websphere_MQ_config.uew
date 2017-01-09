@@ -1,4 +1,4 @@
-﻿/L10"MQCommand" Line Comment = * Nocase String Chars = "' File Extensions = MQC
+﻿/L10"Websphere MQ" Line Comment = * Nocase String Chars = "' File Extensions = MQC
 /Delimiters = () '	
 /Indent Strings = "+"
 /Function String = "%^([a-zA-Z_0-9^[^]*]+^)[ ^t]+([^p*&, ^t^[^]a-zA-Z_0-9.!]++)[~;]"

@@ -1,4 +1,4 @@
-/L20"PDE/INO" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = INO PDE
+/L20"Arduino PDE/INO" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = INO PDE
 /TGBegin "Function"
 /TGFindStr = "%^([a-z_][a-z_0-9^[^]*]++^)[ ^t^p^r^n]++([~)]++)[~;{()]+[^p^r^n ^t]++[~/]++{[~}]"
 /TGFindStr = "%[ ^t]++^([a-z_][a-z_0-9]++::[a-z_^~][a-z_0-9]++^)[ ^t^p]++([^p*&:, ^t^[^]/*^-'=:&a-z_0-9./(!]++)[~;{]++{"
@@ -32,7 +32,7 @@
 /Close Brace Strings = "}" ")" "]"
 /Open Fold Strings = "{" "#"
 /Close Fold Strings = "}" "#"
-/C1"Keywords" STYLE_KEYWORD
+/C1"Keywords"
 #define #elif #else #endif #error #if #ifdef #ifndef #include #include_next #line #pragma #undef
 BIN
 CHANGE
@@ -69,7 +69,7 @@ tan this throw true try typedef
 union unsigned
 void volatile
 while word
-/C2"C++ Keywords" STYLE_KEYWORD
+/C2"C++ Keywords"
 __multiple_inheritance __single_inheritance __virtual_inheritance
 catch const_cast
 delete dynamic_cast
@@ -85,7 +85,7 @@ template typeid typename
 using
 virtual
 wchar_t
-/C3"Microsoft C extensions" STYLE_EXTENSION
+/C3"Microsoft C extensions"
 Keyboard
 Mouse
 Serial Serial1 Serial2 Serial3
@@ -105,7 +105,7 @@ read readBytes readBytesUntil release releaseAll
 setTimeout setup shiftIn shiftOut
 thread tone
 uuid
-/C4"Operators" STYLE_OPERATOR
+/C4"Operators"
 !
 $
 %

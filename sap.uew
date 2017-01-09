@@ -1,4 +1,4 @@
-/L20"SAP - ABAP/4" Nocase Noquote Line Comment = * Block Comment On Alt = " File Extensions = ABP
+/L20"SAP ABAP" Nocase Noquote Line Comment = * Block Comment On Alt = " File Extensions = ABP
 /Delimiters = ~!@%^&*()+=|\/{}[];"'<> .,        ?
 /Indent Strings = "FORM" "CONSTANTS:" "DATA:" "TABLES:" "TYPE-POOLS:" "PARAMETERS:" "FUNCITON" "IF" "ELSE" "ELSEIF" "SELECT" "LOOP" "DO" "WHILE" "CASE" "AT" "ON" "MODULE" "PROVIDE"
 /Unindent Strings = "ENDFORM" "ENDFUNCTION" "ENDIF" "ENDSELECT" "ENDLOOP" "ENDDO" "ENDWHILE" "ENDCASE" "ENDAT" "ENDON" "ENDMODULE" "ENDPROVIDE"

@@ -1,12 +1,3 @@
-//--------------------------------------------------------------------------------------------------
-// WebFocus Syntax Highlighting
-//
-// Developed By : Edan Saltz
-// Profile      : https://www.linkedin.com/in/EdanSaltz
-// 
-// This profile was developed to help in the process of mainting WebFocus Masters.
-//--------------------------------------------------------------------------------------------------
-
 /L19"WebFOCUS Masters" Line Comment = $ String Chars = "' File Extensions = mas
 /Delimiters = .!^*+()=|;"'/	 ,
 /Open Brace Strings =  "{" "(" "["

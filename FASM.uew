@@ -1,4 +1,4 @@
-/L12"Flat Assembler" FASM_LANG Line Comment = ; String Chars = '" File Extensions = ASM ASH INC MAC
+/L12"Flat Assembler" Line Comment = ; String Chars = '" File Extensions = ASM ASH INC MAC
 /Delimiters = +-/*=<>()[]{} :   ,|&~#`
 /C1"Instructions"
 aaa aad aam aas adc add addps addss and andnps andps arpl

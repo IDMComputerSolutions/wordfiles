@@ -1,4 +1,4 @@
-/L20"UC4" Nocase Line Comment = ! File Extensions = uc4
+/L20"UC4 Script" Nocase Line Comment = ! File Extensions = uc4
 /Delimiters = : (	);
 /Indent Strings = "if"
 /Marker Characters = "&#"

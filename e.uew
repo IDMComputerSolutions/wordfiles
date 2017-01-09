@@ -1,4 +1,4 @@
-/L20"e" Line Comment = // Line Comment Alt = -- Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = e E
+/L20"E" Line Comment = // Line Comment Alt = -- Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = e E
 /Delimiters = ! .~%^&@*-+=|()';\/{}[]	:"<> ,?
 /Indent Strings = "{"
 /Unindent Strings = "}"

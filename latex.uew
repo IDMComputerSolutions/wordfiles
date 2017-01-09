@@ -1,5 +1,6 @@
-/L20"TeX/LaTeX" LATEX_LANG Noquote Line Comment = %  File Extensions = LAT TEX LEX
-/Delimiters = #$%&()+,-. /0123456789:;<=>[\]^_{|}~`
+/L20"TeX/LaTeX" LATEX_LANG Line Comment = %  Escape Char = \ File Extensions = LAT TEX LEX
+/Delimiters = #. 0123456789<	~
+/Marker Characters = "{}[]"
 /C1
 \
 \!
@@ -152,3 +153,7 @@
 \xdef \xleaders \xspaceskip \xyzzy
 \z@
 \z@skip
+/C4
+[]
+{}
+

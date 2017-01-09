@@ -1,4 +1,4 @@
-/L20"Frame-/ElmScript" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = ' File Extensions = FSL
+/L20"FrameScript/ElmScript" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = ' File Extensions = FSL
 /Delimiters = ~@%^&*()-+=|\/{}[]:;"'<> ,	.?
 /Function String = "%[a-zA-Z_]*)"
 /Indent Strings = "Else" 

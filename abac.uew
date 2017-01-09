@@ -1,4 +1,4 @@
-/L6"ABAQUS" ABAQUS_LANG Line Comment = ** File Extensions = INP AXI
+/L6"Abaqus FEA" Line Comment = ** File Extensions = INP AXI
 /Function String = "%[*][A-Z ]"
 /Delimiters = +-,=*
 /Indent Strings = "*"

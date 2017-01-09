@@ -1,4 +1,4 @@
-/L20"Scilab 2.7" Nocase Line Comment = // String Chars = '" File Extensions = sci sce
+/L20"Scilab" Nocase Line Comment = // String Chars = '" File Extensions = sci sce
 /Function String = "%[ ^t]++function*=[ ^t]++^([a-z0-9_]+^)"
 /Function String 1 = "%[ ^t]++function[ ^t]+^([a-z0-9_]+^)[ ^t]++[~=]"
 /Delimiters = ~!@$^&*()-+=|\/{}[]:;"'<> ,	.?

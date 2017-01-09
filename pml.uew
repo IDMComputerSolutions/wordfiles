@@ -1,39 +1,17 @@
-/L1"PML" EnableSpellasYouType Line Comment = -- Block Comment On = $( Block Comment Off = $) String Chars = '| Nocase File Extensions = pmlfrm pmlmac pmlfnc pmlobj
+/L1"PML (Programmable Macro Language)" EnableSpellasYouType Line Comment = -- Block Comment On = $( Block Comment Off = $) String Chars = '| Nocase File Extensions = pmlfrm pmlmac pmlfnc pmlobj
 /Delimiters = @%^&*()-+=|\/{}[]:;"'<>. ,?
-
-# function
 /Function String 1 = "%[ ^t]++define[ ^t]++function[ ^t]++^(!![a-z][a-z0-9]++(*$"
-
-# form
 /Function String 2 = "%[ ^t]++setup[ ^t]++form[ ^t]++^(!![a-z][a-z0-9]++$"
-
-# object
 /Function String 3 = "%[ ^t]++define[ ^t]++object[ ^t]++^([a-z][a-z0-9]++^)"
-
-# method
 /Function String 4 = "%[ ^t]++define[ ^t]++method[ ^t]++^(.[a-z][a-z0-9]++(*$"
-
-# member
 /Function String 5 = "%[ ^t]++member[ ^t]++^(.[a-z][a-z0-9]++[ ^t]++[is]++[ ^t]++[a-z]++^)"
-
-# brace matching
-# ---------------------------------------------------------------------------
 /Open Brace Strings = "(" "[" "<" "do" "if" "else" "handle" "elsehandle" "define function" "frame" "setup form" "define object" "define method" "frame" "rgroup"
 /Close Brace Strings = ")" "]" ">" "enddo" "endif" "endif" "endhandle" "endhandle" "endfunction" "exit" "exit" "endobject" "endmethod" "exit" "exit"
-
-# code folding
-# ---------------------------------------------------------------------------
 /Open Fold Strings = "$* region" "if" "else" "elseif" "do" "handle" "elsehandle"  "define function" "setup form" "define object" "define method" "frame" "rgroup" "--H--"
 /Close Fold Strings = "$* endregion" "endif" "enddo" "endhandle" "endfunction" "exit" "endobject" "endmethod" "--H--"
 /Ignore Fold Strings = "skip if" "break if"
-
-# indent
-# ---------------------------------------------------------------------------
 /Indent Strings = "if" "else" "elseif" "do" "handle" "elsehandle" "define function" "setup form" "define object" "define method" "frame" "rgroup"
 /Unindent Strings = "else" "elseif" "endif" "enddo" "elsehandle" "endhandle" "endfunction" "exit" "endobject" "endmethod"
-
-# control
-# ---------------------------------------------------------------------------
 /C1"Control Logic"
 break
 do
@@ -45,22 +23,13 @@ if
 skip
 then
 return
-
-# handles
-# ---------------------------------------------------------------------------
 /C2"Handle"
 elsehandle
 endhandle
 handle
 ignore
-
-# variables
-# ---------------------------------------------------------------------------
 /C3"Variables"
 ** $!! $! !! !
-
-# form and object definitions
-# ---------------------------------------------------------------------------
 /C4"Form/Object definition"
 alpha
 anchor
@@ -150,10 +119,6 @@ xr
 y
 ymax
 ymin
-yr
-
-# pdms command and data types
-# ---------------------------------------------------------------------------
 /C5"DATA types"
 # basic data types
 array
@@ -225,11 +190,6 @@ user
 verify
 viewfinder
 xyposition
-# user-defined object types go here:
-
-
-# keywords
-# ---------------------------------------------------------------------------
 /C6"Key Words"
 $m
 add

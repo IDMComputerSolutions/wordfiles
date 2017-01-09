@@ -1,4 +1,4 @@
-/L20"S/S+" Nocase Line Comment = // Block Comment On = /* Block Comment Off = */ String Chars = "' File Extensions = s ssc scr obj tmp
+/L20"S/S-PLUS" Nocase Line Comment = // Block Comment On = /* Block Comment Off = */ String Chars = "' File Extensions = s ssc scr obj tmp
 /Delimiters = .!@%^&*()-+=|\/{}[]:;"'<> ,	 ?
 /Function String = "%[a-zA-Z_]*)"
 /Indent Strings = "{"

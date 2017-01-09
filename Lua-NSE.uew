@@ -1,4 +1,4 @@
-/L14"Lua-NSE" Line Comment = -- Block Comment On = --[[ Block Comment Off = --]] Escape Char = \ String Chars = "' File Extensions = nse
+/L14"NMAP Scriptin (LUA)" Line Comment = -- Block Comment On = --[[ Block Comment Off = --]] Escape Char = \ String Chars = "' File Extensions = nse
 /Delimiters = ~!@%^&*()-+=|\/{}[]:;<> ,	.?
 /Function String = "%[ ^t]++function^(*(*)^)"
 /Function String 1 = "%[ ^t]++^(*^)=[ ^t]++function*(*)"

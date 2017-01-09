@@ -1,4 +1,4 @@
-/L20"SACS IV" Line Comment = ! Nocase String Chars = '' File Extensions = INP
+/L20"SACS" Line Comment = ! Nocase String Chars = '' File Extensions = INP
 /Delimiters = ~!@$%^&()+=\/|{}[]:;"'<>*       ,.?
 /C1
 AMOD

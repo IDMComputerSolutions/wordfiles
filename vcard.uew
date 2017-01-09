@@ -1,10 +1,4 @@
-# vCard or VCF files
-#  vCard Standard 2.1
-#  vCard Standard 3.0 (RFC2426)
-#  Calendar Attributes for vCard and LDAP (RFC2739)
-#  Sybmian Extension - Nokia (VOIP, POC, SIP, SWIS)
-# written by Dalibor Jelinek  - 13.1.2007
-/L18"vCard - VCF" String Chars = " Nocase File Extensions = VCF
+/L18"vCard (VCF)" String Chars = " Nocase File Extensions = VCF
 /Delimiters = []=:., 	;"
 /Open Fold Strings = "BEGIN:VCARD"
 /Close Fold Strings = "END:VCARD"

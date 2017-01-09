@@ -6,7 +6,7 @@
 /Unindent Strings = "}"
 /Open Brace Strings =  "{" "(" "[" "<"
 /Close Brace Strings = "}" ")" "]" ">"
-/C1"HTML Tags" STYLE_TAG
+/C1"HTML Tags"
 ?> <?
 <a </a> <abbr> <abbr </abbr> <above> <acronym> <acronym </acronym> <address> <address </address>
 <applet </applet> <area </area <array>
@@ -43,7 +43,7 @@
 <wbr>
 <xmp> </xmp>
 // />
-/C2"HTML Attributes" STYLE_ATTRIBUTE
+/C2"HTML Attributes"
 abbr= accept-charset= accept= accesskey= action= align= alink= alt= archive= axis=
 background= behavior behavior> below below> bgcolor= border=
 cellpadding= cellspacing= char= charoff= charset= checked checked> cite= class= classid= clear= code=
@@ -65,7 +65,7 @@ tabindex= target= text= title= topmargin= type=
 url= usemap=
 valign= value= valuetype= version= vlink= vspace=
 width=
-/C3"Keywords" STYLE_KEYWORD
+/C3"Keywords"
 PAGE_TARGET
 config
 data directory
@@ -79,7 +79,7 @@ rootline
 special sub
 temp template
 value
-/C4"Operators and Conditions" STYLE_OPERATOR
+/C4"Operators and Conditions"
 ** [
 .
 <
@@ -92,7 +92,7 @@ value
 |
 }
 ~
-/C5"Methods, Properties and Constants" STYLE_METHOD
+/C5"Methods, Properties and Constants"
 ** user_
 ATagParams
 Image
@@ -120,11 +120,11 @@ typeNum
 upper
 workOnSubpart wrap
 ypMenu
-/C6"Variables and filepaths" STYLE_VARIABLE
+/C6"Variables and filepaths"
 ** $ : fileadmin/
-/C7"PlugIns" STYLE_EXTENSION
+/C7"PlugIns"
 tt_board tt_content tt_guest tt_news tx_macinabanners_pi1 tx_rlmptmplselector tx_rlmptmplselector_pi1
-/C8"Objects and Markers" STYLE_ELEMENT
+/C8"Objects and Markers"
 ** CR_ obj
 ACT ACTIFSUB
 CASE COA CONTENT CUR

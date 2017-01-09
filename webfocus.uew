@@ -1,13 +1,3 @@
-//--------------------------------------------------------------------------------------------------
-// WebFocus Syntax Highlighting
-//
-// Developed By : Edan Saltz
-// Profile      : https://www.linkedin.com/in/EdanSaltz
-// 
-// This profile was developed based on an old UltraEdit Syntax highlighting profile already on
-// IDM's site. I have continualy updated it based on new enhancements to the WebFocus language.
-//--------------------------------------------------------------------------------------------------
-
 /L20"WebFOCUS" Line Comment = -* String Chars = "' File Extensions = FEX PRF T3O
 /Open Fold Strings = "SQL" "SQL SQLSYB" "TABLE FILE" "DEFINE FILE" "TABLEF FILE" "MODIFY FILE" "MATCH FILE" "EXEC " "EX "
 /Close Fold Strings = "-RUN" "END"

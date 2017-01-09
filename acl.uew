@@ -3,7 +3,7 @@
 /Function String = "%[a-zA-Z_]*)"
 /Indent Strings = ""
 /Unindent Strings = ""
-/C1 ARRAY, VARIABLE, PACKAGE AND BUFFER FUNCTIONS
+/C1"Array, Variable, Package and Buffer Functions"
 append_catalog_path append_graphics_path append_load_path append_path
 buffer_create buffer_doc
 caller catch cmd_exists count
@@ -16,7 +16,7 @@ option
 package_file package_name packages
 require
 throw
-/C2 CONTEXT-RELATED AND CHANNEL FUNCTIONS
+/C2"Context-Related and Channel Functions"
 channel_set_callback content_model context_paths context_string
 in_context in_context_list
 open_accept open_connect open_listen
@@ -25,7 +25,7 @@ read
 tag_content
 unpack
 write
-/C3 DIALOG AND DOCUMENT IDENTIFIER FUNCTIONS
+/C3"Dialog and Document Identifier Functions"
 current_doc
 doc_close doc_list doc_name doc_open doc_parent doc_path doc_set_path doc_show doc_valid doc_window
 file_selector
@@ -33,7 +33,7 @@ list_response
 panel_popup path_doc
 response
 save_some_docs
-/C4 DOCUMENT TYPE AND DYNAMIC LOADING FUNCTIONS
+/C4"Document Type and Dynamic Loading Functions"
 base_tag_name
 char_entity_names content_model
 division_tag dl_call dl_error dl_find dl_load dl_unload doc_type doc_type_dir dtd_decl_path dtd_tag
@@ -46,7 +46,7 @@ pack path_public_ids procins_tag public_id public_id_path
 sgml_feature
 tag_attr_choices tag_attr_default tag_attr_required tag_attr_type tag_attr_value tag_attrs tag_content tag_display tag_exists  tag_has_attr tag_names text_entity_tag
 unpack user_tag_names
-/C5 EDITOR COMMANDS
+/C5"Editor Commands"
 addrequiredtags alias aliases attribute autoload
 beep bitmapdisplay break buffers
 caret case change_entity change_tag characters check_completeness clear_mark comments context continue copy_file copy_keymap copy_mark create_file_entity
@@ -72,7 +72,7 @@ tabledisplay tablefit tag_display tagfontpercent tagidisplay tagnames tagscan te
 unalias undeclare_entity undeclare_notation undefine_keymap undefine_tag undo units unmap unsetvar usertags
 variables version
 wait while window windows wrapscan write write8bit writecheck
-/C6 EDITOR AND ENTITY FUNCTIONS
+/C6"Editor and Entity Functions"
 caret_at current_tag_attr_value current_tag_name
 edit_id edit_new_window entity entity_doc entity_exists entity_first entity_last entity_name
 forward_char
@@ -82,7 +82,7 @@ looking_at
 modified mouse_in_selection
 oid_delete_attr oid_modify_attr oid_top_pos
 scroll_to_oid selected selection_balanced selection_end selection_start
-/C7 FILE, SYSTEM FILE IDENTIFIER, MENU, KEYMAP, MISCELLANEOUS AND NUMERIC FUNCTIONS
+/C7"File, System File Identifier, Menu, Keymap, Miscellaneous and Numeric Functions"
 absolute_file_name access
 basename
 chr close
@@ -101,7 +101,7 @@ seek
 tell truncate
 umask
 write
-/C8 OBJECT IDENTIFIER (OID) AND STRING FUNCTIONS
+/C8"Object Identifier (OID) and String Functions"
 chop chr
 dupl
 goto_oid gsub
@@ -116,7 +116,7 @@ reverse rindex
 scroll_to_oid selection_end selection_start span split sub substr
 tolower toupper trim
 unpack
-/C9 TABLE EDITOR, TIME, WINDOW FUNCTIONS, CALLBACKS AND HOOKS
+/C9"Table Editor, Time, Window Functions, Callbacks and Hooks"
 context_error create ctime cut
 destroy
 editbeforehook editfilehook elapsed_time entity_path exclude_tag
@@ -131,7 +131,7 @@ save
 tbl_caret_col tbl_caret_row tbl_col_count tbl_quit tbl_resize tbl_row_count time time_date timer_add_callback timer_remove_callback times
 window_class window_close window_create window_destroy window_doc window_get window_id window_list window_lower window_mask window_name window_open window_raise window_set
 window_show window_state window_sync window_xid
-/C10 PRE-DEFINED AND ENVIRONMENT VARIABLES
+/C10"Pre-Defined and Environment Variables"
 $ENV $ERROR $OFS $ORS $SYMTAB
 $adept_path $currentcolumn $currentline $dirname $dirselect $docname $doctype $filename $progname $selection $sh_status $status $system $tagname $topline $version
 $version_date $winsys

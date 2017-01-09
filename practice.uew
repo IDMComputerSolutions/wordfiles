@@ -4,7 +4,7 @@
 /Unindent Strings = ")"
 /Open Fold Strings = "("
 /Close Fold Strings = ")"
-/C1"Keywords" STYLE_KEYWORD #blue
+/C1"Keywords"
 ENDO ENTRY ERROR
 GLOBAL
 LOCAL
@@ -21,7 +21,7 @@ menu
 popup
 tree
 while
-/C2"registers" STYLE_VARIABLE #red
+/C2"registers"
 A
 CR
 DC DEC
@@ -29,7 +29,7 @@ IC IP
 MSR
 r0 r1 r10 r11 r12 r13 r14 r15 r16 r17 r18 r19 r2 r20 r21 r22 r23 r24 r25 r26 r27 r28 r29 r3 r30 r31 r32
 r33 r34 r35 r36 r37 r38 r39 r4 r40 r5 r6 r7 r8 r9
-/C4"Operators" STYLE_OPERATOR
+/C4"Operators"
 !
 %
 &
@@ -43,7 +43,7 @@ r33 r34 r35 r36 r37 r38 r39 r4 r40 r5 r6 r7 r8 r9
 ^
 |
 ~
-/C6"T32CMD" STYLE_KEYWORD #blue
+/C6"T32CMD"
 A AAFTERB AANDB ABORT AC ACCESS ADD ADDR ADelay AFlag AIF ALIGN ALIST ALL ALarM ALways AMDSpansion AMP AMX
 AORB API APPEND APU AREA ART ARTK ASAP ASCIITEXT ASMFRAME ASYNC ATOB ATTRibute AUD AUTO AUTODEV AVocet
 AXIOM Ack Activate AdaWorld Adapter Adapters Adaption Adaptions Adaptive AddInfo AddMenu AddTool AddWatch

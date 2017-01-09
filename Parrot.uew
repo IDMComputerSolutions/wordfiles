@@ -1,4 +1,4 @@
-/L12"PIR" PERL_LANG Line Comment = # Nocase File Extensions = PIR Escape Char = \
+/L12"PIR (Parrot Intermediate Representation)" PERL_LANG Line Comment = # Nocase File Extensions = PIR Escape Char = \
 /Delimiters = ,.:()[]
 /Indent Strings = ".sub" ".emit" ".namespace"
 /Unindent Strings = ".end" ".eom" ".endnamespace"

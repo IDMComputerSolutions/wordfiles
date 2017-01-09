@@ -1,4 +1,4 @@
-/L20"Macro Scheduler Script" HTML_LANG Nocase Line Comment = # Escape Char = \ String Chars = "' File Extensions = SCP 
+/L20"Macro Scheduler Script" Nocase Line Comment = # Escape Char = \ String Chars = "' File Extensions = SCP 
 /Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> , .? 
 /Function String = "%[a-z_]*)" 
 /Indent Strings = "{" 

@@ -1,4 +1,4 @@
-/L20"Mason" Nocase HTML_LANG Line Comment Num = 2#	 Block Comment On = <!-- Block Comment Off = --> Block Comment On Alt = =pod Block Comment Off Alt = =cut String Chars = "' File Extensions = HTM HTML ASP SHTML HTT JSP MHTML
+/L20"Mason" Nocase HTML_LANG Line Comment Num = 2#	 Block Comment On = <!-- Block Comment Off = --> Block Comment On Alt = =pod Block Comment Off Alt = =cut String Chars = "' File Extensions = mathml
 /Delimiters = ~!^&*()-+|\{}[]:;"'<> ,	.?
 /Indent Strings = "{"
 /Unindent Strings = "}"

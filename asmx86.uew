@@ -1,6 +1,5 @@
-/L20"Assembler x86" AASM_LANG Nocase Line Comment = ; File Extensions = ASM INC MAC
-/Delimiters = ~$^&*()+=|\{};"'<> ,[]
-/Function String = "%BeginProc?[ ]++^([a-zA-Z_]+^)"
+/L20"Assembler x86" Nocase Line Comment = ; File Extensions = ASM INC MAC
+/Function String = "%[a-zA-Z0-9_@?$]+[ ^t]+proc+[ ^t^p]"
 /C1
 aaa aad aam aas adc add and arpl
 bound bsf bsr bswap bt btc btr bts
@@ -35,7 +34,7 @@ xadd xchg xlat xlatb xor
 .err2 .errb .errdef .errdif .erre .fardata .fardata? .lall .lfcond .list .model .msfloat .radix .sall .seq
 .sfcond .stack .type .xall .xcref .xlist
 @code @codesize @const @curseg @data @data? @datasize @fardata @fardata? @filename @stack
-align assume at
+align and assume at
 b byte
 comm comment common compact
 d db dd df dosseg dt dup dw dword
@@ -43,18 +42,19 @@ else end endif endm endp ends eq equ even exitm extrn
 far fq
 ge group
 h high huge
-ifb ifdef ifnb ifndef include includelib irp irpc
+ifdef include includelib irp irpc
 label large le length local low lt
 macro mask medium memory
-name near
-o offset org
-page para proc ptr public purge
-q qword
+name near not
+o offset or org
+page para proc public purge
+q
 record rept
-seg segment short size small stack struc subttl
+seg segment shl short shr size small stack struc subttl
 this tiny title type
 use16 use32
 width word
+xor
 /C3
 ah al ax
 bh bl bp bx

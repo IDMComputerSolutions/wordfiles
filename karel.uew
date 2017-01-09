@@ -1,4 +1,4 @@
-/L20"FanucRobotics-Karel" Line Comment = -- String Chars = ' Nocase File Extensions = KL
+/L20"FANUC KAREL" Line Comment = -- String Chars = ' Nocase File Extensions = KL
 /Delimiters = &*()-+=|\/{}[]:;"'<> ,   ?
 /Function String = "%[PR ][RO][OU][GT][RI]*$"
 /Indent Strings = "ELSE" "THEN" "DO"

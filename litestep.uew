@@ -1,4 +1,4 @@
-/L20"Litestep step.rc" Line Comment = ; File Extensions = RC
+/L20"LiteStep" Line Comment = ; File Extensions = RC
 /Delimiters = @$%^&()+=|\/{}[]:;"'<> 	,?/
 /Indent Strings = "Folder"
 /Unindent Strings = "~Folder"

@@ -1,4 +1,4 @@
-/L20"PDL2 C4G" Line Comment = -- String Chars = '" File Extensions = PDL PDS PDI
+/L20"Comau Robotics PDL2 C4G" Line Comment = -- String Chars = '" File Extensions = PDL PDS PDI
 /Function String = "%ROUTINE ^([a-zA-Z_0-9]+^)"
 /Indent Strings = "BEGIN" "CONDITION" "DO" "ELSE" "ELSEIF" "FOR" "IF" "NODEDEF" "RECORD" "REPEAT" "THEN" "WHEN" "WHILE"
 /Unindent Strings = "ENDWHILE" "UNTIL" "ELSE" "ENDCONDITION" "ENDFOR" "ENDIF" "ENDMOVE" "ENDNODEDEF" "ENDOPEN" "ENDRECORD" "ENDREPEAT" "END"

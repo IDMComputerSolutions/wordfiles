@@ -1,4 +1,4 @@
-/L20"TI TMS320 Assembly" Nocase Line Comment = ; File Extensions = ASM INC
+/L20"TI TMS320 Assembler" Nocase Line Comment = ; File Extensions = ASM INC
 /Delimiters = ~!@$%^&*()-+=|\{}[]:;"'<> ,	?
 /Function String = "%[a-zA-Z_0-9]+:*"
 /C1 ASSEMBLER DIRECTIVES

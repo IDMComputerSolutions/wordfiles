@@ -1,4 +1,4 @@
-/L20"Jakarta Velocity" Nocase Noquote HTML_LANG Line Comment = ## Block Comment On = #* Block Comment Off = *#  Block Comment On Alt = <% Block Comment Off Alt =%> String Chars = "' File Extensions = VM vm
+/L20"Apache Velocity" Nocase Noquote HTML_LANG Line Comment = ## Block Comment On = #* Block Comment Off = *#  Block Comment On Alt = <% Block Comment Off Alt =%> String Chars = "' File Extensions = VM vm
 /Delimiters = ~!@%^&*()+=|\{}[]:;"'<> , ?
 /Function String = "name=*">"
 /C1"KeyWords"

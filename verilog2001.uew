@@ -1,4 +1,4 @@
-/L20"Verilog 1364-2001" Line Comment = // Block Comment On = /* Block Comment Off = */ Block Comment On Alt = (* Block Comment Off Alt = *) String Chars = " File Extensions = V VL VMD
+/L20"Verilog" Line Comment = // Block Comment On = /* Block Comment Off = */ Block Comment On Alt = (* Block Comment Off Alt = *) String Chars = " File Extensions = V VL VMD
 /Delimiters = ~!@%^&*()-+=|\/{}[]:;"<> ,	#
 /Function String = "%[ ^t]++^(config[ ^t^p]+[a-zA-Z0-9_]+^)"
 /Function String 1 = "%[ ^t]++^(module[ ^t^p]+[a-zA-Z0-9_]+^)[ ^t^p]++[(;#]"

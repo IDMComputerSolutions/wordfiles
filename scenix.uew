@@ -1,4 +1,4 @@
-/L20"Scenix" 1Line Comment = ; Nocase File Extensions = SRC LST ASM
+/L20"Scenix" Line Comment = ; Nocase File Extensions = SRC LST ASM
 /Delimiters = .	,!#><%$+()*-/@
 /C1"Instructions"
 add addb and

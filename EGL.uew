@@ -1,4 +1,4 @@
-/L20"EGL" Line Comment = // Block Comment On = /* Block Comment Off = */ Block Comment On Alt = /* Block Comment Off Alt = */	 String Chars = "' Nocase File Extensions = egl
+/L20"EGL (Enterprise Generation Language)" Line Comment = // Block Comment On = /* Block Comment Off = */ Block Comment On Alt = /* Block Comment Off Alt = */	 String Chars = "' Nocase File Extensions = egl
 /Delimiters = = 	(){}[].,;
 /Function String 1 = "%[ ^t]++function[ ^t]+^([a-zA-Z0-9_]+^)[ ^t]++([ ^t]++"
 /Function String 2 = "%[ ^t]++^(program[ ^t]+[a-zA-Z0-9_]+^)"

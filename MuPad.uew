@@ -1,4 +1,4 @@
-/L20"MuPad 4.0" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ File Extensions = MU
+/L20"MuPad" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ File Extensions = MU
 /Delimiters = ~!@%^&*$()-+=|.\/{}[]:;'<> ,	?
 /Indent Strings = "{"
 /Unindent Strings = "}"

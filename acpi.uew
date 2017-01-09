@@ -1,4 +1,4 @@
-/L20"ASL" Line Comment = // String Chars = "' File Extensions = ASL ACPI 
+/L20"ASL (ACPI source language)" Line Comment = // String Chars = "' File Extensions = ASL ACPI 
 /Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
 
 /C1"OpCodes"

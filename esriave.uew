@@ -1,4 +1,4 @@
-/L20"ESRI Avenue(DBa 2.1)" Line Comment = ' Escape Char = \ String Chars = "' File Extensions = AVE APR AVX
+/L20"ESRI ArcView Avenue" Line Comment = ' Escape Char = \ String Chars = "' File Extensions = AVE APR AVX
 /Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
 /Function String = "%[a-zA-Z_]*)"
 /Indent Strings = "then" "else"

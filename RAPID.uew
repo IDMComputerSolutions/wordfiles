@@ -1,4 +1,4 @@
-/L20"RAPID" Line Comment = ! String Chars = " File Extensions = PRG MOD SYS
+/L20"ABB RAPID" Line Comment = ! String Chars = " File Extensions = PRG MOD SYS
 
 /TGBegin "Module name"
   /TGFindStr = "%[ ^t]++MODULE^([ ^t]+[a-z0-9_]+^)$"

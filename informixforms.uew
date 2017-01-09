@@ -1,4 +1,4 @@
-/L20"per" Escape Char = \ Line Comment = # Line Comment Alt = --# case File Extensions = per
+/L20"Informix Forms" Escape Char = \ Line Comment = # Line Comment Alt = --# case File Extensions = per
 /Delimiters = ~!@%^&*()-+=|\/[]:;"'<> ,	.?
 /Function String = " ++^(DATABASE^)"
 /Function String 1 = " ++^(SCREEN^)"

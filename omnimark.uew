@@ -1,8 +1,6 @@
 /L16"OmniMark" Line Comment = ; Block Comment On = <!-- Block Comment Off = --> Escape Char = % File Extensions = ARG XAR XIN XMD XOM XOP new
 /Delimiters = ~@$%^&*()+=|\/{}[]:;"'<> ,	?/
 /Function String = "^(^{ FUNCTION^}^{%MACRO^} [a-z-]+^)"
-
-
 /C1"Key Words"
 activate again always
 catch clear close copy copy-clear
@@ -26,10 +24,7 @@ test-system throw to translate
 uc ul unless up-translate
 when white-space
 xml-parse
-
-
 /C2"Other Key Words"
-
 active after ancestor and another arg as attached attribute attributes
 base before binary binary-input binary-mode binary-output break-width buffer by
 case children closed compiled-date complement conref content context-translate counter created creating creator cross-translate current
@@ -64,8 +59,6 @@ yes
 !#file-name !#first !#group !#implied !#item !#language-version !#last !#libpath !#library !#libvalue !#line-number !#main-input !#main-output !#markup-error-count !#markup-error-total
 !#markup-parser !#markup-stream !#markup-warning-count !#markup-warning-total !#message !#none !#output !#platform-info !#process-input !#process-output !#program-error !#recovery-info !#sgml !#sgml-error-count
 !#sgml-error-total !#sgml-warning-count !#sgml-warning-total !#suppress !#syntax
-
-
 /C3"More Key Words"
 any any-text
 blank
@@ -79,7 +72,6 @@ sdata sdata-entity space
 take text
 value-end value-start
 word-end word-start
-
 /C4"Libraries"
 dbClose dbDatabase dbExecute dbField dbFieldValue dbIsVersionCompatible dbLibraryVersion dbOpenODBC dbQuery dbRecordExists dbRecordMove dbTable dbTableClose dbTableDelete dbTableInsert dbTableOpen dbTableUpdate
 db.advance-recordset db.close db.commit db.compile-statement db.database db.delete db.discard db.document-writer-sedna db.execute db.execute-in db.field db.insert db.move-dynamic-record db.move-record db.omdb-version db.omdb-version-oci10g db.omdb-version-oci8i db.omdb-version-oci9i db.omdb-version-odbc db.omdb-version-sedna db.open-oci10g db.open-oci8i db.open-oci9i db.open-odbc db.open-procedure db.open-sedna db.open-table db.prepare db.procedure db.query db.reader db.record-exists db.rollback db.set-transaction-type db.statement db.streaming-execute db.table db.update db.writer
@@ -94,8 +86,6 @@ TCPConnectionClose TCPConnectionGetCharacters TCPConnectionGetLine TCPConnection
 vfs.all-contents vfs.all-files
 vfs.change-directory vfs.change-owner vfs.change-permissions vfs.close vfs.connect vfs.connect-directory vfs.copy vfs.cursor-position vfs.default-certificates-file vfs.delete-directory vfs.delete-file vfs.describe vfs.describe-file vfs.directory vfs.directory-name vfs.disconnect vfs.file vfs.file-directory vfs.file-name vfs.link vfs.list vfs.lock vfs.make-directory vfs.move vfs.move-cursor vfs.omvfs-version vfs.open vfs.open-file-system vfs.open-ftp vfs.open-http vfs.open-https vfs.reader vfs.set-default-certificates-file vfs.truncate vfs.unlock vfs.writer
 !dbClose !dbDatabase !dbExecute !dbField !dbFieldValue !dbIsVersionCompatible !dbLibraryVersion !dbOpenODBC !dbQuery !dbRecordExists !dbRecordMove !dbTable !dbTableClose !dbTableDelete !dbTableInsert !dbTableOpen !dbTableUpdate
-
-
 /C5"Functions"
 upto upto-inc
 w-s

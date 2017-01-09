@@ -1,22 +1,10 @@
-/L20"JSON" String Chars = " Escape Char = \ File Extensions = JSON
-/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
+/L20"JSON" Nocase Noquote File Extensions = JSON
+/Delimiters =:{}[],
 /Indent Strings = "{"
 /Unindent Strings = "}"
 /Open Brace Strings = "{" "["
 /Close Brace Strings = "}" "]"
 /Open Fold Strings = "{" "["
 /Close Fold Strings = "}" "]"
-/C1"Keywords"
-false
-null
-true
-/C2"Operators"
-:
-/C3"Array Brackets"
-[
-]
-/C4"Object Brackets"
-{
-}
-/C5"Separators"
-,
+/C1"Values"
+** : { [ }

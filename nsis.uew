@@ -1,4 +1,4 @@
-/L15"NSIS Script v2.43" String Chars = '" Line Comment = ; Line Comment Alt = # Block Comment On = /* Block Comment Off = */ File Extensions = NSI NSH
+/L15"NSIS Script" String Chars = '" Line Comment = ; Line Comment Alt = # Block Comment On = /* Block Comment Off = */ File Extensions = NSI NSH
 /Delimiters = ~@%^&*()-+=|\[]:;"'<> ,	?
 /Function String 1 = "%[ ^t]++^(Function[ ^t]+*^)^p"
 /Function String 2 = "%[ ^t]++^(PageEx[ ^t]+*^)^p"

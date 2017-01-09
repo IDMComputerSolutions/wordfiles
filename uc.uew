@@ -1,4 +1,4 @@
-/L20"UC" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' Nocase File Extensions = UC INT
+/L20"UnrealScript" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' Nocase File Extensions = UC INT
 /Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> , .?
 /Function String = "%^([a-zA-Z_0-9*&$]+[ ^t]+[a-zA-Z_0-9*&$]+[ ^t]+[a-zA-Z_0-9]+^)[ ^t]++([^p*, ^t^[^]a-zA-Z_0-9.]++)[~;]"
 /Function String 1 = "%^([a-zA-Z_0-9*&$]+[ ^t]+[a-zA-Z_0-9]+^)[ ^t]++([^p*, ^t^[^]a-zA-Z_0-9.]++)[~;]"

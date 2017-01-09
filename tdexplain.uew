@@ -1,4 +1,4 @@
-/L21"PLAN" Nocase Line Block "Line Comment = -- " "Line Comment Alt = *  " Comment On = /* Block Comment Off = */ File Extensions = pla plan explain
+/L21"Teradata Explain Results" Nocase Line Block "Line Comment = -- " "Line Comment Alt = *  " Comment On = /* Block Comment Off = */ File Extensions = pla plan explain
 /C1
 -
 ACCESS ALL ALL-AMPS ALL-ROWS ALL_AMPS AMP AMPs.

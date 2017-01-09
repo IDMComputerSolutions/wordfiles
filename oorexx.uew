@@ -1,4 +1,4 @@
-/L17"ooRexx" Object REXX_LANG Nocase NestBlockComments Line Comment = -- Block Comment On = /* Block Comment Off = */ File Extensions = CMD REX REXX CLS
+/L17"ooRexx (Open Object Rexx)" Nocase NestBlockComments Line Comment = -- Block Comment On = /* Block Comment Off = */ File Extensions = CMD REX REXX CLS
 /Delimiters = '".;~( ) 
 /Open Brace Strings = "do" "Do" "DO" "("
 /Close Brace Strings = "end" "End" "END" ")"

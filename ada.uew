@@ -1,0 +1,55 @@
+/L13"Ada95" DisableMLS Line Comment = --  NoCASE String Chars = "' File Extensions = ADA ADS ADB
+/Delimiters = " ,	();
+/Function String = "^(%[ \t]+^{function^}^{procedure^}*$^)"
+/Function String 1 = "^(%^{function^}^{procedure^}*$^)"
+/Function String 2 = "^[ \t]*(procedure|function)(.*)(is|;|)[ \t]*$"
+/Indent Strings =  "loop" "case" "when" "then" "else" "begin" 
+/Unindent Strings = "end loop" "end case" "when" "end if" "elsif" "else" "end" 
+/Open Fold Strings =  "loop" "case" "when" "then" "else" "begin" 
+/Close Fold Strings = "end loop" "end case" "when" "end if" "elsif" "else" "end" 
+/C1"Strings and Chars"
+"
+'
+/C2"Keywords"
+abort abs abstract accept access aliased all and array at
+begin body
+case constant
+declare delay
+delta digits do
+else elsif end entry exception exit
+for function
+generic goto
+if in is
+loop limited
+mod
+new not null
+of or others out
+package pragma private procedure protected
+raise range record rem renames requeue return reverse
+select separate subtype
+tagged task terminate then type
+until use
+when while with
+xor
+/C3"Data Types"
+boolean
+character
+duration
+float
+integer
+long_integer long_float
+natural
+positive
+string
+wide_character wide_string
+/C4"Operators"
+&
+* **
++
+-
+.
+// / /=
+: :=
+< <=
+= =>
+> >=

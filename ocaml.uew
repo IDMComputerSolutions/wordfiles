@@ -1,4 +1,4 @@
-/L20 Block Comment On = (* Block Comment Off = *) File Extensions = ML MLI
+/L20"OCaml" Block Comment On = (* Block Comment Off = *) File Extensions = ML MLI
 /C1
 and as asr
 begin

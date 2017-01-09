@@ -1,4 +1,4 @@
-/L20"Roboocyte RSL" Line Comment = # String Chars = " File Extensions = rsl
+/L20"RSL (Roboocyte Scripting Language)" Line Comment = # String Chars = " File Extensions = rsl
 /Delimiters = ~!@%^&*()|\/{}[];"'<> ,	?
 /C1"Keywords"
 after

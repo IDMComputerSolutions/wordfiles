@@ -1,4 +1,4 @@
-/L20"LULL (Laser Scan User Language" Block Comment On = #* Block Comment Off = *# File Extensions = LULL
+/L20"LULL (Laser Scan User Language)" Block Comment On = #* Block Comment Off = *# File Extensions = LULL
 /Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
 /Indent Strings = "begin"
 /Unindent Strings = "end;"

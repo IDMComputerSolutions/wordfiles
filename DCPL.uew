@@ -1,4 +1,4 @@
-/L1"DCPL" DCPL_LANG Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = D DEF
+/L1"DCPL" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = D DEF
 /Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
 /C1"Keywords"
 add add_stat_row adjust_itimer all appearance append array 

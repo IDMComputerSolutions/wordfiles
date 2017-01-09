@@ -1,4 +1,5 @@
 /L20"Bourne & Korn Shell" Line Comment = #  Escape Char = \ String Chars = "' File Extensions = sh ksh
+/LanguageMarker = "ksh" "sh" "csh"
 /Delimiters = ~%^&()+=|\/{}[]:;"'<> ,	.
 /Function String = "%[a-zA-Z_]*)"
 /Indent Strings = "{"

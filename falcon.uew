@@ -1,4 +1,4 @@
-/L17"Falcon" FAL_LANG Line Comment = // Block Comment On = /*  Block Comment Off = */  String Chars = "' File Extensions = FAL FTD
+/L17"Falcon" Line Comment = // Block Comment On = /*  Block Comment Off = */  String Chars = "' File Extensions = FAL FTD
 /Open Brace Strings =  "{" "(" "["
 /Close Brace Strings = "}" ")" "]"
 /Open Fold Strings = "function" "if" "while" "switch" "class" "object" "try" "catch"
@@ -10,27 +10,26 @@
 /Member String = "^([A-Za-z0-9_:.]+^)[ ^t*&]+$S[ ^t]++[(=);,]"
 /Indent Strings = "switch" "select" "while" "loop" "enum" "for" "function" "class" "object" "try" "catch" "else"
 /Unindent Strings = "end" "else" "elif" "catch"
-/C1"Reserved words" 
+/C1"Reserved words"
 Array attributes
 begin break
 case catch class const continue
 def default dict directive
 elif else end enum export
 for forfirst forlast formiddle from function
-global 
+global
 if import in init innerfunc Iterator
 launch List load loop
 MemBuf
 nil
 object
-raise return 
+raise return
 self select sender static switch
-Table to true 
+Table to true
 try
-
-while 
+while
 > >>
-/C2"Methods" STYLE_METHOD 
+/C2"Methods"
 abs acos all allp any anyp arrayAdd arrayBuffer arrayCopy arrayDel arrayDelAll arrayFilter arrayFind arrayHead arrayIns arrayMap arrayMerge arrayRemove arrayResize arrayScan arraySort arrayTail asin aTan aTan2 attributeByName
 beginCritical bless broadcast
 call cascade ceil choice chr combinations cos
@@ -39,30 +38,30 @@ endCritical eval exp
 far forward factorial fileChgroup fileChmod fileChown fileCopy fileMove fileRemove fileType filter fint firstOf floop floor fract
 gcEnable gcGetParams gcPerform gcSetThreshold gcSetTimeout getProperty getSystemEncoding getenv giveTo
 having
-iff include input inspect int isCallable isoob itemCopy 
+iff include input inspect int isCallable isoob itemCopy
 lbind len let lit log
 map marshalCB marshalCBR marshalCBX max methodCall min
 numeric
 oob ord
-paramCount paramIsRef paramSet parameter permutations pow print println 
-rad2deg random randomChoice randomDice randomGrab randomPick randomSeed randomWalk reduce removeFrom removeFromAll round 
+paramCount paramIsRef paramSet parameter permutations pow print println
+rad2deg random randomChoice randomDice randomGrab randomPick randomSeed randomWalk reduce removeFrom removeFromAll round
 second serialize setProperty setenv sin sleep stdErr stdErrRaw stdIn stdInRaw stdOut stdOutRaw strAllTrim strBack strBackFind strBuffer strCmpIgnoreCase strFind strFromMemBuf strFront strFrontTrim strLower strMerge strReplace strReplicate strSplit strSplitTrimmed strToMemBuf strTrim strUpper strWildcardMatch suspend systemErrorDescription
-tan testAttribute times toString transcodeFrom transcodeTo typeOf 
-unsetenv 
-valOf vmFalconPath vmIsMain vmModuleVersionInfo vmSystemType vmVersionInfo vmVersionName 
-xmap xtimes  
+tan testAttribute times toString transcodeFrom transcodeTo typeOf
+unsetenv
+valOf vmFalconPath vmIsMain vmModuleVersionInfo vmSystemType vmVersionInfo vmVersionName
+xmap xtimes
 yield yieldOut
-/C3"Operators" 
+/C3"Operators"
 * =* *=
 + ++ += =+
 - -- -= =-
 // /
 < <= <>
 = ==
->= 
+>=
 @
 && || ^^ ~
-and 
+and
 div
 false
 left
@@ -72,7 +71,7 @@ or
 right
 shift
 xor
-/C4"Special symbols" 
+/C4"Special symbols"
 #
 $
 &

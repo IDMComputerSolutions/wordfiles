@@ -1,4 +1,4 @@
-/L20"KRL - KUKA Robot Language" Nocase Line Comment = ; String Chars = "' File Extensions = SRC DAT KRL SUB KFD
+/L20"KRL (KUKA Robot Language)" Nocase Line Comment = ; String Chars = "' File Extensions = SRC DAT KRL SUB KFD
 /Delimiters = -~*()|{}[]<>="' ,	.?:
 /Indent Strings = "then" "loop" "repeat" "for" "switch" "while" "else"
 /Unindent Strings = "endfor" "endif" "endwhile" "endloop" "end" "endfct" "endswitch" "else" "until"

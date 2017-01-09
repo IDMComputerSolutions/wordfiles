@@ -1,4 +1,4 @@
-/L20"JAL" Nocase Line Comment Num = 3-- Line Comment Alt = ; Escape Char = \ String Chars = " File Extensions = JAL
+/L20"JAL (Just Another Language)" Nocase Line Comment Num = 3-- Line Comment Alt = ; Escape Char = \ String Chars = " File Extensions = JAL
 /Delimiters = ~!@%^&*()-+=|\/{}[]:;"<> , 	.?
 /Function String = "%[ ^t]++procedure[ ^t]+^([a-zA-Z_0-9']+^)[ ^t]++([a-zA-Z_0-9, ^t]+)[ ^t]+is"
 /Function String 1 = "%[ ^t]++function[ ^t]+^([a-zA-Z_0-9']+^)[ ^t]++([a-zA-Z_0-9, ^t]+)[ ^t]+return[ ^t]+^{bit^}^{byte^}[ ^t]+is"

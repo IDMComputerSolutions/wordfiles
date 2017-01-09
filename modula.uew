@@ -1,4 +1,4 @@
-/L20"Modula3" Block Comment On = (* Block Comment Off = *) String Chars = "' File Extensions = M3 I3
+/L20"Modula" Block Comment On = (* Block Comment Off = *) String Chars = "' File Extensions = M3 I3
 /C1 "Keywords"
 AND AS ANY ARRAY
 BEGIN BITS BRANDED BY

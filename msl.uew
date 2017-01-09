@@ -1,4 +1,4 @@
-/L13"MSL" Noquote Line Comment = ; Block Comment On = /* Block Comment Off = */ Escape Char = \ File Extensions = MRC NNS
+/L13"mIRC Scripting Language" Noquote Line Comment = ; Block Comment On = /* Block Comment Off = */ Escape Char = \ File Extensions = MRC NNS
 /Delimiters = ! 	#?&()*+,-/\:<=>[]^{|}"
 /Function String = "%[^t ]++alias[^t ]+^([a-zA-Z0-9_&]+[~{^p]+^)^{{^}^{^p*{^}"
 /Indent Strings = "{"

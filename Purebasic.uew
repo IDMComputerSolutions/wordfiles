@@ -1,4 +1,4 @@
-/L20"Purebasic" Nocase Block Comment On = Block Comment Off = Line Comment = ; String Chars = "' File Extensions = PB
+/L20"PureBasic" Nocase Block Comment On = Block Comment Off = Line Comment = ; String Chars = "' File Extensions = PB
 /Delimiters = %^&*()-+|\/[];"'<> ,	.
 /Indent Strings = "if" "while" "for" "foreach" "repeat" "select" "gosub" "structure" "procedure"
 /Unindent Strings = "endif" "wend" "next" "next" "until" "endselect" "return" "endstructure" "endprocedure"

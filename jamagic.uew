@@ -3,7 +3,7 @@
 /Function String = "%[a-zA-Z_]*)"
 /Indent Strings = "{"
 /Unindent Strings = "}"
-/C1 LANGUAGE COMMANDS (project started on Feb.2001 by Giovanni@Cardona.com)
+/C1"LANGUAGE COMMANDS"
 Break
 Case Copy
 Default
@@ -15,7 +15,7 @@ Refresh Return
 This
 Var
 While
-/C2 PARAMETERS
+/C2"PARAMETERS"
 CDROM
 DESEMITRANSP DIRECT3D DIRECTORY_SEPARATOR
 FALSE FIXED
@@ -26,7 +26,7 @@ RAMDISK REMOTE REMOVABLE
 SHORTNAMES SOFTWARE_DIRECTDRAW SORT SUBDIRS
 TRUE
 UNKNOWN USEIMAGEPALETTE
-/C3 WINDOWS AND SYSTEM FUNCTIONS (DISK)
+/C3"WINDOWS AND SYSTEM FUNCTIONS (DISK)""
 AddLine AppendFile
 Button 
 CheckBox Clipboard ComboBox CopyFile
@@ -45,7 +45,7 @@ ScrollBar Selector Serial SetCurrentDirectory SetDir SetDrive SetExtension SetNa
 SetText Slider Spin StaticText SysDebug System
 Timer TrayIcon
 Window
-/C4 FUNCTIONS & OBJECTS
+/C4"FUNCTIONS & OBJECTS"
 AddToDebugger Animation ApplyMaterial AVI
 BeginPolygonChange Big Binary Blob Bold 
 Camera CanChangeDirectSound3DUsage CaptureScreen CDAudio Continue CreateBrick
@@ -73,7 +73,7 @@ Texture ToLowerCase ToUpperCase ToLowerCase
 Vector Voice
 Wait Walk World Write WriteLn
 Zone
-/C5 READ OBJECT INFO
+/C5"READ OBJECT INFO"
 CharAt CurWindow
 Exist EventsEnabled
 GetArgument GetArrayDimensionCount GetArrayDimensionSize GetAscii GetBlue GetCamera
@@ -88,7 +88,7 @@ IsDirectSound3DEnabled IsDirectSound3DUsed IsDisplayInterfaceAvailable IsDouble
 IsEditorMode IsFunction IsInitialized IsInteger IsNumber IsObject IsRelease IsStandAlone
 IsScreenSaver IsScreenSaverControlPanel IsScreenSaverSetupDialog IsString IsWindowedModeSupported
 LastIndexOf Length
-/C6 MATHEMATICS
+/C6"MATHEMATICS"
 Abs Acos Asin Atan
 Ceil Cos
 Exp
@@ -100,7 +100,7 @@ Pi Pow
 Random Round
 Sin Sqrt
 Tan
-/C7 SYMBOLS
+/C7"SYMBOLS"
 ;
 ,
 +

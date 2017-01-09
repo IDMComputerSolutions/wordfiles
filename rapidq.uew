@@ -1,4 +1,4 @@
-/L20"Rapid Q" Line Comment = ' File Extensions = RQ BAS
+/L20"RapidQ" Line Comment = ' File Extensions = RQ BAS
 /Function String = "%[PF]*)$"
 /Delimiters = ~!@%^&*-+=|\/{}[]:;"'<> ,	?
 /Indent Strings = "Then"

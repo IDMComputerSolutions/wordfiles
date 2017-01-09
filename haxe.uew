@@ -1,4 +1,4 @@
-/L20"haXe" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = HX
+/L20"Haxe" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = HX
 /Delimiters = ~!%^&*()-+=|\/{}[]:;"'<> ,	.?
 /Function String = "%[a-zA-Z_]*)[~;]"
 /Member String = "^([A-Za-z0-9_:.]+^)[ ^t*&]+$S[ ^t]++[(=;]"
@@ -9,7 +9,7 @@
 /Close Brace Strings = "}" ")" "]"
 /Open Fold Strings = "{"
 /Close Fold Strings = "}"
-/C1"Keywords" STYLE_KEYWORD
+/C1"Keywords"
 break
 callback
 case
@@ -54,7 +54,7 @@ typedef
 untyped
 var
 while
-/C2"Built-in classes" STYLE_EXTENSION
+/C2"Built-in classes"
 AMFConnection
 AVM1Movie
 Accessibility
@@ -572,7 +572,7 @@ utils
 vm
 xml
 zip
-/C3"Methods" STYLE_KEYWORD
+/C3"Methods"
 ACTIVITY
 ASYNC_ERROR
 CData
@@ -1034,7 +1034,7 @@ __new__
 __php__
 __s
 __var__
-/C4"Operators" STYLE_OPERATOR
+/C4"Operators"
 !
 %
 &
@@ -1049,7 +1049,7 @@ __var__
 ?
 ^
 |
-/C5"Preprocessor Directives" STYLE_EXTENSION
+/C5"Preprocessor Directives"
 #else
 #elseif
 #end

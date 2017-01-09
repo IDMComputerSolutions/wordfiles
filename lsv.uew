@@ -1,10 +1,10 @@
 /L11"LSV C4G" Nocase Line Comment = -- String Chars = '" File Extensions = LSV LSS LSI
 /Indent Strings = "Fields"
 /Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
-/C1"Reserved words, symbols, and operators"  STYLE_KEYWORD
+/C1"Reserved words, symbols, and operators"
 RECORD
 TYPE
-/C2"Predefined constants"  STYLE_VARIABLE
+/C2"Predefined constants"
 ac_abort ac_call_crt ac_call_tp adv
 base
 circular coarse coll_dsbl coll_high coll_low coll_manual coll_medium coll_user1 coll_user10 coll_user2
@@ -35,7 +35,7 @@ win_clr_bow win_clr_eoln win_clr_eow win_clr_line win_crsr_off win_crsr_on win_c
 win_green win_lightgray win_magenta win_orange win_pink win_red win_reverse win_scroll win_white win_wrap
 win_yellow wrist_jnt
 zero
-/C3"Predefined variable"  STYLE_VARIABLE
+/C3"Predefined variable"
 $A $AIN $AOUT $APPL_ID $APPL_NAME $APPL_OPTIONS $APPL_SLM $APPL_STS $ARM_ACC_OVR $ARM_DATA $ARM_DEC_OVR
 $ARM_DISB $ARM_LINKED $ARM_OVR $ARM_SENSITIVITY $ARM_SIMU $ARM_SPACE $ARM_SPD_OVR $ARM_USED $ARM_VEL
 $AUX_BASE $AUX_JNTP $AUX_KEY $AUX_MASK $AUX_OFST $AUX_POS $AUX_SIK_DRVON_ENBL $AUX_SIK_MASK $AUX_TYPE
@@ -105,7 +105,7 @@ $WV_AMP_PER_RIGHT $WV_CNTR_DWL $WV_END_DWL $WV_LASER1D_DIST_END $WV_LASER1D_DIST
 $WV_LASER1D_PWR_END $WV_LASER1D_PWR_START $WV_LEFT_AMP $WV_LEFT_DWL $WV_LENGTH_WAVE $WV_ONE_CYCLE
 $WV_PLANE $WV_RIGHT_AMP $WV_RIGHT_DWL $WV_SMOOTH $WV_SPD_PROFILE $WV_TRV_SPD $WV_TRV_SPD_PHASE $XREG
 $XREG_NS
-/C6"Expressions" STYLE_ATTRIBUTE
+/C6"Expressions"
 Cnst
 From
 Glob

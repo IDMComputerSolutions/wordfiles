@@ -1,4 +1,4 @@
-/L20"INFORMIX" Line Comment = # Line Comment Alt = -- Block Comment On = { Block Comment Off = } File Extensions = 4gl sql
+/L20"Informix-4GL" Line Comment = # Line Comment Alt = -- Block Comment On = { Block Comment Off = } File Extensions = 4gl sql
 /Delimiters = ~!@%^&*()-+=|\/[]:;"'<> ,	.?
 /Function String = "%^{FUNCTION^}^{REPORT^} [a-zA-Z_]*)[~;]"
 /Indent Strings = "THEN"

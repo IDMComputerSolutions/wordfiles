@@ -1,4 +1,4 @@
-/L20"FAME" FAME_LANG Line Comment = -- Nocase String Chars = " File Extensions = inp pro bld 
+/L20"FAME" Line Comment = -- Nocase String Chars = " File Extensions = inp pro bld 
 /Function String = "% ++^t++Function"
 /Function String 1 = "% ++^t++procedure"
 /Open Brace Strings =  "(" "<" "{" "[" "block" 
@@ -8,7 +8,7 @@
 /Open Fold Strings = "block"  "if" "Function" "loop" "procedure" "try"  "entry" "field" "form" "initialize" "menu" "terminate" "validate" "layout" "table" "trow" "theader" "tdata"
 /Close Fold Strings = "end block" "end if"  "end function" "end loop" "end procedure" "end try" "end entry" "end field" "end form"  "end initialize" "end menu" "end terminate" "end validate" "end layout" "end table" "end trow" "end theader" "end tdata"
 /Ignore Fold Strings = "escape if" "next if"  "then" "else if"  "ignore function" "Channel Report" "observed end" 
-/C1"Built-in Options" STYLE_OPTION
+/C1"Built-in Options"
 {
 }
 <
@@ -40,7 +40,7 @@ WEDGE WEIGHTS WIDTH WINDOW
 XYSET
 YEAR
 ZEROVALUES
-/C2"Built-in Functions" STYLE_FUNCTION
+/C2"Built-in Functions"
 (
 )
 ABS ACF AGGR AGR ALL ALPHA AMORT ANNPCT ANY AR ARIMA ARMA ATAN AVE
@@ -67,7 +67,7 @@ UNIFORM UNIQUE UPDATED UPPER
 VERSION VAR
 WEEKDAY WILDLIST WILDNAMES WINFRAMEINFO WININFO WRITEACCT
 YTD YTYDIFF YTYPCT
-/C3"Built-in Commands" STYLE_COMMAND
+/C3"Built-in Commands"
 '
 [
 ]
@@ -95,7 +95,7 @@ UNGHOST UNLOAD UNSAVE UNSETENV UP UPDATE
 VALIDATE VALPRINT
 WHATS WHERE WHICH WRITE
 XYGET
-/C4"Built-in Operator" STYLE_OPERATOR 
+/C4"Built-in Operator"
 -
 +
 *
@@ -112,13 +112,13 @@ NE NEL NOT
 OR
 SUBSET
 UNION
-/C5"Built-in Boolean" STYLE_BOOLEAN
+/C5"Built-in Boolean"
 FALSE
 NO
 OFF ON
 TRUE
 YES
-/C6"Built-in Settings" STYLE_SETTING
+/C6"Built-in Settings"
 ABOVEAXES ADDITION ADJRSQUARED ADJUSTED AFRIDAY AMONDAY AMOUNT ANGLE ANNUAL ANOVA ANSWER APPEAR
 APRIL AS ASATURDAY ASPECT ASUNDAY ATHURSDAY ATUESDAY AUGUST AUTO AUTOMATIC AWEDNESDAY
 BELOWAXES BETA BFRIDAY BIMONTHLY BIWEEKLY BLOCKING BMONDAY BOTTOMMARGIN BOXPIERCE BPOINTS
@@ -153,6 +153,6 @@ WARNING WEEKLY WHEN WHILE WHITENED WORK WRSE
 X XLARGE XREFERENCE XSMALL XTHICK XTHIN
 Y YEARS YESTEXT YPP
 ZERO
-/C7"Built-in Subroutines" STYLE_SUBROUTINE
+/C7"Built-in Subroutines"
 AMRT
 

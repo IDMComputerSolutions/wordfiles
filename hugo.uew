@@ -1,27 +1,3 @@
-Below is a new UltraEdit word file for Hugo. Since UltraEdit doesn't yet support
-multi-line string coloring, I have hacked around that by defining strings as the
-default block comment, which Inform lacks anyway. However, this means any string
-enclosed by " must be preceded with a space, i.e.
-
-	print "Hello, world^^
-	 You have died"         will work, but
-
-	Format("Hello World")   will not.
-
-To use this syntax coloring mode, cut-and-paste all below the "dotted line" and
-drop it into your WORDFILE.TXT. Depending on how few/many languages you have
-defined, you might have to change the "/L10" to an unused number.
-
-Also note the definition (starting with "/L10") must be *all* *on* *one* *line*
-up to and including "File Extensions = H G HUG" or it won't work.
-
-If you find any useful library routines, constants or anything else I've missed,
-or if you have any comments at all, contact me!
-
-Version 2.19991201			Gunther Schmidl			<gschmidl@gmx.at>
-
----cut here---cut here---cut here---cut here---cut here---cut here---cut here---
-
 /L20"Hugo" Nocase Escape Char = \ Block Comment On =  " Block Comment Off = " String Chars = ! File Extensions = H G HUG
 /Delimiters = !*()-+=|/{}[]:;"'<> ,	.?
 /Indent Strings = "{"

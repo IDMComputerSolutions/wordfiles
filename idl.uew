@@ -1,14 +1,10 @@
-/L20"IDL" Line Comment = ; Nocase String Chars = "' File Extensions = PRO
-/Colors = 0,8421376,8421376,8421504,8421376,
-/Colors Back = 16777215,16777215,16777215,16777215,16777215,
-/Colors Auto Back = 1,1,1,1,1,
-/Font Style = 0,0,0,0,1,
+/L20"IDL (Interactive Data Language)" Line Comment = ; Nocase String Chars = "' File Extensions = PRO
 /Delimiters = ~@%^&*()-+=|\/{}[]:;"'<> ,	.?
 /Function String = "Function "
 /Function String 1 = "Pro "
 /Indent Strings = "Begin"
 /Unindent Strings = "End"
-/C1"Keywords" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 1
+/C1"Keywords"
 a_correlate abs acos adapt_hist_equal alog alog10
 amoeba annotate arg_present array_equal arrow
 ascii_template asin assoc atan axis
@@ -157,17 +153,17 @@ xobjview xpalette xpcolor xplot3d xregistered xroi
 xsq_test xsurface xvaredit xvolume xvolume_rotate
 xvolume_write_image xyouts
 zoom zoom_24
-/C2"Funcs & Pros" Colors = 16512 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 1
+/C2"Funcs & Pros"
 function
 pro
-/C3"Other IDL Commands" Colors = 8404992 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 1
+/C3"Other IDL Commands"
 device
 oplot oploterr
 print printf printd
 return
 wait
 wset
-/C4"Other IDL Commands2" Colors = 128 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 1
+/C4"Other IDL Commands2"
 begin
 case
 do
@@ -175,7 +171,7 @@ else end endcase endfor endelse endif
 for
 if
 then
-/C4"Operators" Colors = 33023 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+/C4"Operators"
 +
 -
 =
@@ -196,6 +192,6 @@ le
 not
 or
 and
-/C5"Obj & Ptr" Colors = 33023 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+/C5"Obj & Ptr"
 obj_class obj_destroy obj_isa obj_new
 obj_valid objarr

@@ -68,7 +68,7 @@ udp
 webhdfs websocket
 xmpp
 zabbix zeromq
-/C4"Settings" STYLE_KEYWORD
+/C4"Settings"
 action add_field add_metadata_from_env add_tag address after_count algorithm all_fields
 allow_duplicate_values allow_duplicates array
 base64 base64_encode before_count blacklist_names blacklist_values break_on_match buffer_size
@@ -135,5 +135,5 @@ TIME TIMESTAMP_ISO8601 TTY TZ
 UNIXPATH URI URIHOST URIPARAM URIPATH URIPATHPARAM URIPROTO USER USERNAME UUID
 WINDOWSMAC WINPATH WORD
 YEAR
-/C7"Operators" STYLE_OPERATOR
+/C7"Operators"
 =>

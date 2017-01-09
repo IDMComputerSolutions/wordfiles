@@ -1,5 +1,5 @@
 /L20"Euphoria" Line Comment = -- Escape Char = \ File Extensions = EX EXW EXU E EW EU
-/Delimiters = ~@%^&*()-+|\{}[]:;"'<> , 
+/Delimiters = ~@%^&*()-+|\{}[]:;"'<> ,
 /Indent Strings = "do" "then" "else"
 /Unindent Strings = "end if" "end while" "end for" "end function" "end procedure" "end type"
 /Function String = "%^{procedure^}^{function^}"
@@ -26,35 +26,40 @@ object
 sequence
 /C3"Library Routines"
 ?
-append arcsin arccos arctan and_bits allow_break abort all_palette allocate allocate_low allocate_string atom_to_float64 atom_to_float32
-bk_color bytes_to_int bits_to_int
-compare custom_sort cos close current_dir chdir check_break command_line clear_screen cursor call crash_file crash_message call_proc call_func c_proc c_func call_back
-dir date display_text_image draw_line display_image dos_interrupt define_c_proc define_c_func define_c_var
-equal ellipse
-find floor flush free free_low float64_to_atom float32_to_atom free_console
-get getc gets get_bytes get_key get_mouse getenv get_position graphics_mode get_all_palette get_active_page get_display_page get_screen_char get_pixel get_vector
-int_to_bytes int_to_bits instance
-length lower log lock_file lock_memory
-match mouse_events mouse_pointer machine_func machine_proc mem_copy mem_set message_box
+PI
+abort all_palette allocate allocate_low allocate_string allow_break and_bits append arccos arcsin arctan
+atom_to_float32 atom_to_float64
+bits_to_int bk_color bytes_to_int
+c_func c_proc call call_back call_func call_proc chdir check_break clear_screen close command_line compare
+cos crash_file crash_message current_dir cursor custom_sort
+date define_c_func define_c_proc define_c_var dir display_image display_text_image dos_interrupt draw_line
+ellipse equal
+find float32_to_atom float64_to_atom floor flush free free_console free_low
+get get_active_page get_all_palette get_bytes get_display_page get_key get_mouse get_pixel get_position
+get_screen_char get_vector getc getenv gets graphics_mode
+instance int_to_bits int_to_bytes
+length lock_file lock_memory log lower
+machine_func machine_proc match mem_copy mem_set message_box mouse_events mouse_pointer
 not_bits
-or_bits open open_dll
-PI 
-prepend power print printf puts prompt_string prompt_number platform profile position palette put_screen_char pixel polygon peek peek4s peek4u poke poke4
-rand repeat reverse remainder read_bitmap register_block routine_id
-sin sort sqrt sprintf seek system system_exec sleep scroll save_bitmap set_active_page set_display_page sound save_text_image save_screen save_image set_vector set_rand
-tan time tick_rate trace text_color text_rows
-upper unlock_file unregister_block use_vesa
+open open_dll or_bits
+palette peek peek4s peek4u pixel platform poke poke4 polygon position power prepend print printf profile
+prompt_number prompt_string put_screen_char puts
+rand read_bitmap register_block remainder repeat reverse routine_id
+save_bitmap save_image save_screen save_text_image scroll seek set_active_page set_display_page set_rand
+set_vector sin sleep sort sound sprintf sqrt system system_exec
+tan text_color text_rows tick_rate time trace
+unlock_file unregister_block upper use_vesa
 value video_config
-wildcard_match wildcard_file wait_key where walk_dir wrap
+wait_key walk_dir where wildcard_file wildcard_match wrap
 xor_bits
 /C4"Operators"
-< <=
-> >=
-=
 !=
+& &=
+* *=
 + +=
 - -=
-* *=
-// / /=
 ..
-& &=
+// / /=
+< <=
+=
+> >=

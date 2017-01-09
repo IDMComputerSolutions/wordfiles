@@ -1,6 +1,6 @@
-/L20"TI MSP430 ASM" AASM_LANG Nocase Line Comment = ; Line Comment Alt = // File Extensions = ASM S43
+/L20"TI MSP430 Assembler" AASM_LANG Nocase Line Comment = ; Line Comment Alt = // File Extensions = ASM S43
 /Delimiters = ~!@$%^&*()-+=|\{}[]:;"'<> ,	?
-/Function String = "%[a-z_]*"
+/Function String = "%[a-zA-Z_]*"
 /C1 ASSEMBLER DIRECTIVES
 $
 =

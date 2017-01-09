@@ -3,7 +3,7 @@
 /Function String = " id="^(*^)""
 /Open Brace Strings =  "{" "(" "[" "<"
 /Close Brace Strings = "}" ")" "]" ">"
-/C1"KML Nodes" STYLE_ELEMENT
+/C1"KML Nodes"
 <AddressDetails> </AddressDetails> <Alias> </Alias>
 <BalloonStyle <BalloonStyle> </BalloonStyle>
 <Camera> </Camera> <Change> </Change> <Create> </Create>
@@ -23,7 +23,7 @@
 <Update> </Update> <Url> </Url>
 <ViewVolume> </ViewVolume>
 <kml </kml>
-/C2"Child Nodes" STYLE_ELEMENT
+/C2"Child Nodes"
 // />
 >
 <Icon> </Icon> <IconStyle </IconStyle> <ItemIcon> </ItemIcon>
@@ -56,7 +56,7 @@
 <text> </text>
 <visibility> </visibility>
 <when> </when>
-/C3"gx:namespace Nodes" STYLE_ELEMENT
+/C3"gx:namespace Nodes"
 <gx:AnimatedUpdate> </gx:AnimatedUpdate> <gx:FlyTo> </gx:FlyTo> <gx:LatLonQuad> </gx:LatLonQuad>
 <gx:MultiTrack> </gx:MultiTrack> <gx:Playlist> </gx:Playlist> <gx:SoundCue> </gx:SoundCue> <gx:TimeSpan>
 </gx:TimeSpan> <gx:TimeStamp> </gx:TimeStamp> <gx:Tour> </gx:Tour> <gx:TourControl> </gx:TourControl>
@@ -67,7 +67,7 @@
 <gx:interpolate> </gx:interpolate> <gx:labelVisibility </gx:labelVisibility> <gx:option> </gx:option>
 <gx:outerColor> </gx:outerColor> <gx:outerWidth> </gx:outerWidth> <gx:physicalWidth> </gx:physicalWidth>
 <gx:playMode> </gx:playMode> <gx:w> </gx:w> <gx:x> </gx:x> <gx:y> </gx:y>
-/C4"Geo & View" STYLE_ELEMENT
+/C4"Geo & View"
 // /range>
 <altitude> </altitude>
 <bottomFov> </bottomFov>
@@ -80,7 +80,7 @@
 </screenXY> <south> </south>
 <tessellate> </tessellate> <tileSize> </tileSize> <tilt> </tilt> <topFov> </topFov>
 <west> </west>
-/C5"Appearence" STYLE_ELEMENT
+/C5"Appearence"
 <bgColor> </bgColor>
 <color> </color> <colorMode> </colorMode>
 <open> </open> <outerBoundaryIs> </outerBoundaryIs> <outline> </outline> <overlayXY
@@ -88,13 +88,13 @@
 <scale> </scale> <screenXY <shape> </shape> <size <styleUrl> </styleUrl>
 <textColor> </textColor>
 <width> </width>
-/C6"NetworkLinks" STYLE_ELEMENT
+/C6"NetworkLinks"
 <NetworkLink <NetworkLink> </NetworkLink> <NetworkLinkControl> </NetworkLinkControl>
 <refreshInterval> </refreshInterval> <refreshMode> </refreshMode> <refreshVisibility> </refreshVisibility>
 <targetHref> </targetHref>
 <value> </value> <viewBoundScale> </viewBoundScale> <viewFormat> </viewFormat> <viewRefreshMode>
 </viewRefreshMode> <viewRefreshTime> </viewRefreshTime>
-/C7"Attributes & Variables" STYLE_ATTRIBUTE
+/C7"Attributes & Variables"
 "
 '
 ** $[

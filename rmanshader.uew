@@ -1,4 +1,4 @@
-/L20"Rman Shader" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = SL SLC SLO
+/L20"RenderMan Shader" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = SL SLC SLO
 /Delimiters =  	~!@%^&*()-+=|\/{}[]:;"'<> , .?
 /Function String = "%[a-zA-Z_]*)"
 /Indent Strings = "{"

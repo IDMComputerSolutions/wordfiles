@@ -1,4 +1,4 @@
-/L20"PLM" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = PLM
+/L20"PL/M" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = PLM
 /Delimiters = ~$!@%^&*()-+=|\/{}[]:;"'<> ,	.?
 /Function String = "%[a-zA-Z_]*)[~;]"
 /Indent Strings = "{"

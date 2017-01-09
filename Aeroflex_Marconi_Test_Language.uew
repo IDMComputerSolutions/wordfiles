@@ -1,4 +1,4 @@
-/L20"MTL Code" Nocase Block Comment On = (* Block Comment Off = *) File Extensions = MTL
+/L20"Aeroflex MTL" Nocase Block Comment On = (* Block Comment Off = *) File Extensions = MTL
 /Delimiters = @ ,	(){}[]-+*#/=~!|\<>?;&°
 /Indent Strings = "{" "if" "else" ":"
 /Unindent Strings = "}"

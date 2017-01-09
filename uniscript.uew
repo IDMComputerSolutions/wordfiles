@@ -1,10 +1,9 @@
-/L20"UniScript" UNISCRIPT_LANG Line Comment = // Block Comment On = /* Block Comment Off = */ File Extensions = JS
+/L20"Unity Script" Line Comment = // Block Comment On = /* Block Comment Off = */ File Extensions = JS
 /Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
 /Function String = "%[ ^t]++function^(*(*)^)"
 /Function String 1 = "%[ ^t]++^(*^)=[ ^t]++function*(*)"
 /Indent Strings = "{" "else"
 /Unindent Strings = "}" "else"
-
 /C1"Keywords"
 abstract
 break byte

@@ -1,4 +1,4 @@
-/L20"netCDF CDL 3.3" Line Comment = // String Chars = " File Extensions = CDL
+/L20"netCDF CDL" Line Comment = // String Chars = " File Extensions = CDL
 /Delimiters = ()= {}:;"<>	,
 /C1 <keywords>
 data dimensions

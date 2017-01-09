@@ -1,4 +1,4 @@
-/L20"UE/UES Macros" Noquote Line Comment = // Line Comment Valid Columns = [1] Block Comment On = /*! Block Comment Off = !*/ File Extensions = UEM
+/L20"UltraEdit/UEStudio Macros" Noquote Line Comment = // Line Comment Valid Columns = [1] Block Comment On = /*! Block Comment Off = !*/ File Extensions = UEM
 /Delimiters = ! "	#$%&'()*+,./:;<=>?@[\]^_{|}~«»
 /Indent Strings = "Loop" "IfCharGt" "IfCharIs" "IfColNum" "IfColNumGt" "IfEof" "IfExtIs" "IfFound" "IfFTP" "IfNameIs" "IfNotFound" "IfSel" "Else"
 /Unindent Strings = "EndLoop" "EndIf" "Else"

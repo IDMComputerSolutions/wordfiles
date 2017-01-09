@@ -1,4 +1,4 @@
-/L20"Perl-Tk" PERL_LANG 1Line Comment = # File Extensions = CGI PL PM PLX
+/L20"Perl/Tk" PERL_LANG 1Line Comment = # File Extensions = CGI PL PM PLX
 /String Chars = "'
 /Delimiters = ~!^&*()+=|\{}[]:;"'<> 	,.?/
 /Escape Char = \

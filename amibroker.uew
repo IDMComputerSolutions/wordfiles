@@ -1,10 +1,9 @@
-/L9"AFL" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ File Extensions = afl
+/L9"AFL (Amibroker Formula Language)" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ File Extensions = afl
 /Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
 /Function String = "%function^([~^{]+)"
 /Function String 1 = "%procedure^([~^{]+)"
 /Indent Strings = "{"
 /Unindent Strings = "}"
-
 /C1"Logical"
 AND
 False
@@ -12,7 +11,6 @@ NOT
 Null
 OR
 True
-
 /C2"Flow of control, scope"
 do
 else
@@ -24,11 +22,9 @@ local
 procedure
 return
 while
-
 /C3"Preprocessor"
 #include
 #pragma
-
 /C4"Built-in function"
 ADLine
 ADX
@@ -597,7 +593,6 @@ TickSize
 Title
 V
 Volume
-
 /C6"Built-in constant"
 atcFlagCompositeGroup
 atcFlagDefaults
@@ -749,5 +744,4 @@ stylePointAndFigure
 styleStaircase
 styleSwingDots
 styleThick
-
 ** $
