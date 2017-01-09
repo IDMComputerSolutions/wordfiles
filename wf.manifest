@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿ml version="1.0" encoding="UTF-8"?>
 <wordfiles>
   <root>http://www.ultraedit.com/files/wf/</root>
   <wordfile name="2106x Assembler" file="asm2106.uew" types="ASM" />
@@ -372,6 +372,7 @@
   <wordfile name="SAP ABAP" file="sap.uew" types="ABP" />
   <wordfile name="SAS" file="sas.uew" types="SAS LOG" />
   <wordfile name="SBP" file="superbase.uew" types="SBP" />
+  <wordfile name="SCAD" file="scad.uew" types="scad" />
   <wordfile name="Scenix" file="scenix.uew" types="SRC LST ASM" />
   <wordfile name="Scheme" file="scheme.uew" types="SCM" />
   <wordfile name="Scilab" file="scilab.uew" types="sci sce" />

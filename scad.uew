@@ -1,4 +1,4 @@
-/L20"scad" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = scad
+/L20"SCAD" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = scad
 /TGBegin "Function"
 /TGFindStr = "%^([a-z_][a-z_0-9^[^]*]++^)[ ^t^p^r^n]++([~)]++)[~;{()]+[^p^r^n ^t]++[~/]++{[~}]"
 /TGFindStr = "%[ ^t]++^([a-z_][a-z_0-9]++::[a-z_^~][a-z_0-9]++^)[ ^t^p]++([^p*&:, ^t^[^]/*^-'=:&a-z_0-9./(!]++)[~;{]++{"
@@ -32,16 +32,16 @@
 /Close Brace Strings = "}" ")" "]"
 /Open Fold Strings = "{" "#"
 /Close Fold Strings = "}" "#"
-/C1"2D" STYLE_KEYWORD
+/C1"2D"
 circle
 polygon
 square
 text
-/C2"3D"STYLE_KEYWORD
+/C2"3D"
 cube cylinder
 polyhedron
 sphere
-/C3"Other"STYLE_KEYWORD
+/C3"Other"
 children
 echo
 for
@@ -50,16 +50,16 @@ linear_extrude
 projection
 render rotate_extrude
 surface
-/C4"Special Variables"STYLE_KEYWORD
+/C4"Special Variables"
 $children $fa $fn $fs $t $vpd $vpr $vpt
-/C5"functions" STYLE_KEYWORD
+/C5"functions"
 chr concat cross
 lookup
 norm
 parent_module
 search str
 version version_num
-/C6"Math" STYLE_KEYWORD
+/C6"Math"
 abs acos asin atan atan2
 ceil cos
 exp
@@ -70,7 +70,7 @@ pow
 rands round
 sign sin sqrt
 tan
-/C7"Transformations"STYLE_KEYWORD
+/C7"Transformations"
 color
 hull
 minkowski mirror multmatrix
@@ -78,19 +78,19 @@ offset
 resize rotate
 scale
 translate
-/C8"Boolean Operations"STYLE_KEYWORD
+/C8"Boolean Operations"
 difference
 intersection
 union
-/C8"List Comprehensions"STYLE_KEYWORD
+/C8"List Comprehensions"
 Assignments
 Conditions
 Generate
-/C9"directives" STYLE_EXTENSION
+/C9"directives"
 include
 module
 use
-/C10"Operators" STYLE_OPERATOR
+/C10"Operators"
 !
 $
 %
