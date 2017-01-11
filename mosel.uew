@@ -1,4 +1,4 @@
-/L20"MOSEL" Line Comment = ! Block Comment On = (! Block Comment Off = !) Escape Char = / String Chars = " File Extensions = MOS
+/L20"Mosel" Line Comment = ! Block Comment On = (! Block Comment Off = !) Escape Char = \ String Chars = "' File Extensions = MOS
 /Delimiters = ~!@%^&*()+=|\/{}[]:;"'<> ,	
 /Function String = "%^([a-zA-Z_0-9^[^]*]+^)[ ^t]+([^p*&, ^t^[^]a-zA-Z_0-9.]++)[~;]"
 /Function String 1 = "%[a-zA-Z_0-9*]*::^([a-zA-Z_0-9^~]+^)[ ^t^p]++([^p*&, ^t^[^]/*=:&a-zA-Z_0-9./(]++)[~;]"
@@ -7,27 +7,29 @@
 /Function String 4 = "%[a-z_0-9^[^]*]++ [a-z_0-9*^[^]]+[ ^t]++[a-z_0-9*^[^]]+[ ^t]++^([*a-z_0-9]+^)[ ^t]++([^p*&, ^t^[^]a-z_0-9./(]++)[~;]"
 /Function String 5 = "%^([a-zA-Z_0-9^[^]*]+^)[ ^t]++([^p*&, ^t^[^]a-zA-Z_0-9./()]++)[~;]"
 /Function String 6 = "name=*")"
-/Indent Strings = "declarations" "initializations"
-/Unindent Strings = "end-declarations" "end-initializations"
+/Indent Strings = "declarations"  "function" "initializations" "parameters" "procedure"
+/Unindent Strings = "end-declarations" "end-function" "end-initializations" "end-parameters" "end-procedure"
 /C1"Keywords"
 AND
 NOT
 OR
-array
-boolean
-create
-dynamic
-elif else exists
-finalize forall from
-if in integer 
-linctr
-model mpvar
-of options
-qexp
-real
-set setparam string sum
-then true
-uses
+and array as 
+boolean break 
+case count counter 
+div do dynamic 
+elif else end  end-if end-do end-function end-model end-procedure evaluation exit 
+false forall forward from function 
+if imports in include initialisations integer inter is_binary is_continuous is_free is_integer is_partint is_semcont is_semint is_sos1 is_sos2 
+linctr list 
+max min mod model mpvar
+next not of options or
+package procedure 
+public prod range real record repeat requirements 
+set string sum
+then to true
+union until uses
+version
+while with
 /C2"Operators"
 +
 -
@@ -43,19 +45,91 @@ uses
 *
 
 /C4"Functions&Procedures"
-IVE_RGB IVEaddplot IVEaddtograph IVEdrawarrow IVEdrawlabel IVEdrawline IVEdrawpoint IVEerase IVEinitgraph IVEpause IVEzoom 
-XPRMgetarrdim XPRMgetarrsets XSLPcommand 
+abs arctan assert
+addmipsol
+addmonths
+basisstability
+bitflip bitneg bitset bitshift bittest bitval
+calcsolinfo clearmipdir clearmodcut command copysoltoinit
+ceil cos create currentdate currenttime cuthead cuttail
+clearaliases connect
+compile
+copytext cuttext
 cXSLPcommand
+defdelayedrows defsecurevecs
+delcell exists exit exp exportprob
+deltext 
+detach
 disc diskdata
-exportprob
-fclose fdelete fmove fopen
-getcwd getenv getfstat getparam getsize getsol getsystat gettime 
-iXSLPcommand 
-makedir
-project
-rXSLPcommand removedir
-system
-writeln
+disconnect
+dropnextevent
+endswith expandpath
+estimatemarginals
+fclose fflush finalize findfirst findlast floor fopen fselect fskipline 
+fcopy fdelete findfiles findtext fmove
+findxsrvs
+fixglobal
+getact getcoeff getcoeffs getdual getfid getfirst gethead getfname getlast getobjval getparam getrcost getreadcnt getreverse getsize getslack getsol gettail gettype getvars
+getaliases getbanner gethostalias
+getannidents getannotations getexitcode getgid getid getnode getrmtid getstatus getuid
+getasnumber getchar getcwd getdate getday getdaynum getdays getdirsep 
+getbstat getdualray getiis getiissense getiistype getinfcause getinfeas getlb getloadedlinctrs getloadedmpvars getname getprimalray getprobstat getrange getsensrng getsize getsol getub getvars
+getclass getfromgid getfromid getfromuid getnextevent getvalue
+getendparse setendparse
+getenv getfsize getfstat getftime gethour getminute getmonth getmsec getpathsep
+getqtype, setqtype
+getsecond
+getsepchar, setsepchar
+getsize
+getstart, setstart
+getsucc, setsucc
+getsysinfo getsysstat gettime
+gettmpdir 
+gettrim, settrim
+getweekday getyear
+implies indicator isiisvalid isintegral loadbasis
+inserttext isvalid
+iseof ishidden isodd ln log 
+isqueueempty
+IVE_RGB IVEaddplot IVEaddtograph IVEdrawarrow IVEdrawlabel IVEdrawline IVEdrawpoint IVEerase IVEinitgraph IVEpause IVEzoom 
+load
+loadmipsol loadprob
+makedir makepath newtar
+makesos1 makesos2 maxlist minlist 
+maximize, minimize
+newzip nextfield
+nullevent
+openpipe 
+parseextn parseint parsereal parsetext pastetext pathmatch pathsplit
+peeknextevent
+postsolve
+publish 
+qsort quote
+random read readln reset reverse round
+readbasis readdirs readsol refinemipsol rejectintsol repairinfeas resetbasis resetiis resetsol
+readtextline regmatch regreplace removedir removefiles 
+reset resetmodpar run
+savebasis savemipsol savesol savestate selectsol setbstat setcallback setcbcutoff setgndata setlb setmipdir setmodcut setsol setub setucbdata stopoptimize
+send setgid setuid
+setchar setdate setday setenv sethour
+setcoeff sethidden setioerr setname setparam setrandseed settype sin splithead splittail sqrt strfmt substr 
+setcontrol setdefstream setmodpar setworkdir stop
+sethostalias
+setminute setmonth setmsec setsecond settime setyear sleep startswith system
+tarlist textfmt tolower toupper trim
+timestamp 
+unload
+unloadprob
+unpublish 
+untar unzip
+wait waitfor
+write writeln
+writebasis writedirs writeprob writesol 
+xor
+XPRMgetarrdim XPRMgetarrsets XSLPcommand 
+ziplist
+
+
 
 /C5"OperatorName"
 0-element 
@@ -80,5 +154,6 @@ writebasis writedirs writeprob
 
 /C8"Special"
 declarations
-end-declarations end-initializations 
+end-declarations end-initializations end-parameters
 initializations
+parameters
