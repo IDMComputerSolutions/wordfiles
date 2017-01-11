@@ -463,6 +463,7 @@
   <wordfile name="WSDL Schema" file="wsdl.uew" types="WSDL" />
   <wordfile name="X-JTAG" file="xjtag.uew" types="xje pdd" />
   <wordfile name="XBasic" file="xbasic.uew" types="X DEC" />
+  <wordfile name="Xilinx PicoBlaze Assembler" file="picoblaze.uew" types="PSM" />
   <wordfile name="XML Schema" file="xmlschema.uew" types="XSD" />
   <wordfile name="XQuery" file="xquery.uew" types="xq xqm xquery" />
   <wordfile name="XSL" file="xsl.uew" types="XSL XSLT" />
