@@ -1,4 +1,4 @@
-/L20"AutoIt v3.3.8.1" Nocase String Chars = '" Line Comment = ; Block Comment On = #cs Block Comment Off = #ce Block Comment On Alt = #comments-start Block Comment Off Alt = #comments-end File Extensions = AU3
+/L20"AutoIt" Nocase String Chars = '" Line Comment = ; Block Comment On = #cs Block Comment Off = #ce Block Comment On Alt = #comments-start Block Comment Off Alt = #comments-end File Extensions = AU3
 /Delimiters = ~%&*()=|/[]:;"'<> ,	.?
 /Function String = "%[ ^t]++Func[ ^t]+^(_++[a-zA-Z]+^)"
 /Open Brace Strings = "{" "(" "["
