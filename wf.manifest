@@ -349,7 +349,7 @@
   <wordfile name="PRACTICE" file="practice.uew" types="cmm t32 men per" />
   <wordfile name="Progress" file="progress91.uew" types="p i w" />
   <wordfile name="ProvideX" file="providex.uew" types="PVX" />
-  <wordfile name="Pseudocódigo UPSAM" file="upsam.uew" types="PSC" />
+  <wordfile name="Pseudocodigo UPSAM" file="upsam.uew" types="PSC" />
   <wordfile name="Puppet" file="puppet.uew" types="PP ERB" />
   <wordfile name="PureBasic" file="Purebasic.uew" types="PB" />
   <wordfile name="QBasic" file="qbasic.uew" types="bas bi BAS BI" />
