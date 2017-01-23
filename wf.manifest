@@ -83,7 +83,6 @@
   <wordfile name="CCS Compiler" file="CCS.uew" types="C H" />
   <wordfile name="CED Spike2 Script" file="CED_Spike2.uew" types="s2s" />
   <wordfile name="CLIPS" file="clips.uew" types="CLP" />
-  <wordfile name="COBOL" file="cobolhilite.uew" types="COB CBL" />
   <wordfile name="CORBA IDL" file="corba.uew" types="IDL" />
   <wordfile name="CSound csd" file="csoundcsd.uew" types="csd" />
   <wordfile name="CSound orchestra" file="csoundorch.uew" types="orc" />
@@ -101,7 +100,7 @@
   <wordfile name="Clarion Template" file="clariontemplate.uew" types="TPL TPW" />
   <wordfile name="ClearBasic" file="clearbasic.uew" types="CBS BAS" />
   <wordfile name="Clipper/Xbase++" file="clipper_xbase.uew" types="prg ch xpj arc PRG CH XPJ ARC" />
-  <wordfile name="Cobol" file="cobol.uew" types="CBL COB CPY" />
+  <wordfile name="COBOL" file="cobol.uew" types="CBL COB CPY" />
   <wordfile name="ColdFusion" file="coldfusion_sql.uew" types="cfm htm html" />
   <wordfile name="Comau PDL" file="comaupdl.uew" types="PDL LSV" />
   <wordfile name="Common LISP" file="Common_LISP.uew" types="cl lisp" />
