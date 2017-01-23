@@ -1,4 +1,4 @@
-/L20 "F240" AASM_LANG Line Comment = ; Block Comment On =  Block Comment Off =  Escape Char = \ String Chars = "' File Extensions = A ASM
+/L20 "F240 Assembler" AASM_LANG Line Comment = ; Block Comment On =  Block Comment Off =  Escape Char = \ String Chars = "' File Extensions = A ASM
 /Delimiters =  ,(){}[]-+*/="'!&|\<> ?:;
 /Function String = "%[a-zA-Z_]*)"
 /C1

@@ -1,4 +1,4 @@
-/L10"2500AD 6502" Line Comment = * Line Comment Preceding Chars = [~!-] Line Comment Alt = ; File Extensions = *
+/L10"2500AD 6502 Assembler" Line Comment = * Line Comment Preceding Chars = [~!-] Line Comment Alt = ; File Extensions = *
 /Delimiters = 	[(-!#$%&)*,./:?@\]^_|~+<=>
 
 /C1"Op Codes"

@@ -1,4 +1,4 @@
-/L20"Asm8xx" AASM_LANG File Extensions = S H
+/L20"MPC860 Assembler" AASM_LANG File Extensions = S H
 /Line Comment = // Line Comment Alt = ; /Block Comment On = /* Block Comment Off = */
 /String Chars = '"
 /Function String = "%[a-zA-Z]*)"

@@ -1,4 +1,4 @@
-/L20"ASM for 6502" Nocase Line Comment = ; String Chars = "' DisableMLS File Extensions = ASM LST S
+/L20"6502 Assembler" Nocase Line Comment = ; String Chars = "' DisableMLS File Extensions = ASM LST S
 /Delimiters = " #	$%'()+,;
 /Function String = "%^([0-9a-z_]+^)[ ^t]+"
 /C1"Instructions"

@@ -1,4 +1,4 @@
-/L20"68HC908 ASM" AASM_LANG Nocase Line Comment = ; Line Comment Alt = * File Extensions = ASM SRC
+/L20"68HC908 Assembler" AASM_LANG Nocase Line Comment = ; Line Comment Alt = * File Extensions = ASM SRC
 /Delimiters = ~!@^&()-+=|\/{}[]:'"<> 	 .?
 /C1
 ,X

@@ -1,4 +1,4 @@
-/L20"C167 ASM" AASM_LANG Nocase Line Comment = ; String Chars = "' File Extensions = ASM LST S66 S67 SRC
+/L20"C167 Assembler" AASM_LANG Nocase Line Comment = ; String Chars = "' File Extensions = ASM LST S66 S67 SRC
 /Delimiters = -+?()[]:;"' ,	#
 /Function String = "%^([a-z,A-Z,0-9,_]+^)[ ,^t]+PROC"
 /C1"Instructions"

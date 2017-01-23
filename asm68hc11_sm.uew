@@ -1,4 +1,4 @@
-/L20"68HC11 ASM" AASM_LANG Nocase Line Comment = ; Line Comment Alt = * File Extensions = ASM S11
+/L20"68HC11 Assembler" AASM_LANG Nocase Line Comment = ; Line Comment Alt = * File Extensions = ASM S11
 /Delimiters = ~!@^&()-+=|\/{}[]:'"<> , .?
 /C1
 ABA ABX ABY ADCA ADCB ADDA ADDB ADDD ANDA ANDB ANDCC ASL ASLA ASLB ASR ASRA ASRB

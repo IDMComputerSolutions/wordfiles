@@ -1,4 +1,4 @@
-/L20"TEAK ASM" AASM_LANG Line Comment = ; Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = ASM DBG SRC lnk lin lst
+/L20"TEAK Assembler" AASM_LANG Line Comment = ; Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = ASM DBG SRC lnk lin lst
 /Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
 /Function String = "%[a-zA-Z_]*)"
 /Indent Strings = "{"

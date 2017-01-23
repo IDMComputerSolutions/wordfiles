@@ -1,4 +1,4 @@
-/L20 AASM_LANG Nocase Line Comment = ; Block Comment On = *= Block Comment Off = =* File Extensions = TXT SRC
+/L20"6809 Assembler" AASM_LANG Nocase Line Comment = ; Block Comment On = *= Block Comment Off = =* File Extensions = TXT SRC
 /Delimiters = ~!@$%^&*()_-+=|\/{}[]:;"'<> ,	.?
 /C1
 #$ #% &(

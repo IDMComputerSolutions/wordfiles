@@ -1,4 +1,4 @@
-/L20"8051 Assembly" AASM_LANG Line Comment = ; Nocase String Chars = ' File Extensions = S03 A51
+/L20"8051 Assembler" AASM_LANG Line Comment = ; Nocase String Chars = ' File Extensions = S03 A51
 /Delimiters = #@$+-()[]:;"'<> ,	.?
 /Function String = ":"
 /C1"DIRECTIVES"

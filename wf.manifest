@@ -3,11 +3,11 @@
   <root>http://www.ultraedit.com/files/wf/</root>
   <wordfile name="2106x Assembler" file="asm2106.uew" types="ASM" />
   <wordfile name="21xx Assembler" file="asm21xx.uew" types="DSP INC" />
-  <wordfile name="2500AD 6502" file="2500ad6502.uew" types="*" />
+  <wordfile name="2500AD 6502 Assembler" file="2500ad6502.uew" types="*" />
   <wordfile name="4gl-sql" file="i4gl.uew" types="4gl sql" />
-  <wordfile name="6809" file="6809.uew" types="TXT SRC" />
-  <wordfile name="68HC11 ASM" file="asm68hc11_sm.uew" types="ASM S11" />
-  <wordfile name="68HC908 ASM" file="asm68hc908.uew" types="ASM SRC" />
+  <wordfile name="6809 Assembler" file="6809.uew" types="TXT SRC" />
+  <wordfile name="68HC11 Assembler" file="asm68hc11_sm.uew" types="ASM S11" />
+  <wordfile name="68HC908 Assembler" file="asm68hc908.uew" types="ASM SRC" />
   <wordfile name="8051 Assembler" file="asm8051.uew" types="S03 A51" />
   <wordfile name="ABAP/4" file="abap.uew" types="abap txt" />
   <wordfile name="ABAQUS DAT MSG" file="abak.uew" types="MSG DAT STA" />
@@ -27,9 +27,9 @@
   <wordfile name="ARB Program" file="OpenGL.uew" types="FP VP" />
   <wordfile name="ARM Assembler" file="arm.uew" types="s arm" />
   <wordfile name="ASL (ACPI source language)" file="acpi.uew" types="ASL ACPI" />
-  <wordfile name="6502 ASM" file="asm6502.uew" types="ASM LST S" />
-  <wordfile name="C167 ASM" file="asm4c167.uew" types="ASM LST S66 S67 SRC" />
-  <wordfile name="C515C ASM" file="asm515c.uew" types="ASM LST" />
+  <wordfile name="6502 Assembler" file="asm6502.uew" types="ASM LST S" />
+  <wordfile name="C167 Assembler" file="asm4c167.uew" types="ASM LST S66 S67 SRC" />
+  <wordfile name="C515C Assembler" file="asm515c.uew" types="ASM LST" />
   <wordfile name="ASN.1" file="asn1.uew" types="ASN" />
   <wordfile name="ASP JScript" file="aspjscript.uew" types="ASP ASA" />
   <wordfile name="ASP-PerlScript" file="aspperlscript.uew" types="ASP INC" />
@@ -49,9 +49,8 @@
   <wordfile name="Apache Web Server" file="apache.uew" types="HTACCESS CONF TYPES" />
   <wordfile name="ArcPad VBS" file="ArcPad_VBS.uew" types="VBS" />
   <wordfile name="ArcXML 1.1 for ArcIMS 4.0" file="arcxml.uew" types="AXL" />
-  <wordfile name="Asm 75x" file="asm75.uew" types="A75" />
-  <wordfile name="Asm V850" file="asmv850.uew" types="800 850 ASM A S S85 RC LNK LST" />
-  <wordfile name="Asm8xx" file="asmmpc860.uew" types="S H" />
+  <wordfile name="V850 Assembler" file="asmv850.uew" types="800 850 ASM A S S85 RC LNK LST" />
+  <wordfile name="MPC860 Assembler" file="asmmpc860.uew" types="S H" />
   <wordfile name="CALM Assembler" file="asmcalm.uew" types="ASM CALM" />
   <wordfile name="RDS-500 Assembler" file="asmrds500.uew" types="ASM" />
   <wordfile name="Assembler x64" file="asmx64.uew" types="ASM INC MAC" />
@@ -146,7 +145,7 @@
   <wordfile name="Esprit Post" file="esprit.uew" types="ASC" />
   <wordfile name="Euphoria" file="euphoria.uew" types="EX EXW EXU E EW EU" />
   <wordfile name="Oracle Express" file="oracleExpress.uew" types="EXP PRG FUN" />
-  <wordfile name="F240 ASM" file="asmf240.uew" types="A ASM" />
+  <wordfile name="F240 Assembler" file="asmf240.uew" types="A ASM" />
   <wordfile name="FAME" file="fame.uew" types="inp pro bld" />
   <wordfile name="FLISP" file="flisp.uew" types="DCL LSP" />
   <wordfile name="Falcon" file="falcon.uew" types="FAL FTD" />
@@ -406,7 +405,7 @@
   <wordfile name="TakeCommand/TCC 18.x Batch" file="tcmdtccbatch18+batcmd.uew" types="BTM BAT CMD" />
   <wordfile name="TAL/pTAL" file="TAL.uew" types="TAL" />
   <wordfile name="Tcl/Tk" file="tcl-tk.uew" types="TCL TK" />
-  <wordfile name="TEAK ASM" file="teakasm.uew" types="ASM DBG SRC lnk lin lst" />
+  <wordfile name="TEAK Assembler" file="teakasm.uew" types="ASM DBG SRC lnk lin lst" />
   <wordfile name="Teradata Explain Results" file="tdexplain.uew" types="pla plan explain" />
   <wordfile name="Teradata SQL" file="teradatasql.uew" types="SQL BTQ TXT BTEQ DSQL LOG OUT" />
   <wordfile name="TeX" file="tex.uew" types="LAT TEX LEX LTX AUX LOG" />

@@ -1,4 +1,4 @@
-/L20"Asm V850" AASM_LANG Line Comment = -- Line Comment Alt = // Block Comment On = /* Block Comment Off = */ Escape Char = \ File Extensions = 800 850 ASM A S S85 RC LNK LST
+/L20"V850 Assembler" AASM_LANG Line Comment = -- Line Comment Alt = // Block Comment On = /* Block Comment Off = */ Escape Char = \ File Extensions = 800 850 ASM A S S85 RC LNK LST
 /Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	?
 /Function String = "%[a-zA-Z_]*)"
 /Indent Strings = "{"
