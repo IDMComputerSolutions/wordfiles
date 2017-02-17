@@ -1,63 +1,72 @@
-/L20"SQR" Nocase Line Comment = !  Block Comment On = !  Block Comment Off = ! File Extensions = SQR SQC INC sqr sqc inc
+/L20"SQR" Nocase Line Comment = !  Block Comment On = !  Block Comment Off = ! String Chars = ' File Extensions = SQR SQC SQH sqr sqc sqh
 /Delimiters = ~!@%^&*()+=|\/{}[]:;"'<> ,	.?
-/Function String = "%[bB][eE][gG][iI][nN]-[pP][rR][oO][cC][eE][dD][uU][rR][eE]"
-/C1
-begin-footing begin-heading begin-procedure begin-program begin-report begin-setup
-end-footing end-heading end-procedure end-program end-report end-setup
-Input
-/C2
-alter-printer
-begin-document begin-select begin-sql
-declare-chart declare-image declare-layout declare-printer declare-procedure declare-report
-end-declare end-declare end-document end-select end-sql
-load-lookup
-/C3
-#debug #define #else #end-if #endif #if #ifdef #ifndef #include
-/C4
-add array-add array-divide array-multiply array-subtract ask
-break
-call clear-array close columns commit concat connect create-array
-date-time display divide do dollar-symbol
-else encode end-evaluate end-if end-while evaluate execute extract
-find font
-get goto graphic
-if
-last-page let lookup lowercase
-money-symbol move multiply
-new-page new-report next-column next-listing no-formfeed
-open
-page-number page-size position print print-bar-code print-chart print-direct print-image printer-deinit printer-init put
-read rollback
-show stop string subtract
-unstring uppercase use use-column use-printer-type use-procedure use-report use-report
-while write
-/C5
-#current-column #current-line #end-file #page-count #return-status #sql-count #sql-status #sqr-pid
+/Function String = "%[ ^t]++begin-procedure +^([a-zA-Z0-9-]+^)"
+/Function String 1 = "%[ ^t]++^(do +[a-zA-Z0-9-]+^)"
+/C1"Loops"
+begin-document begin-footing begin-heading begin-procedure begin-program begin-report begin-select
+begin-setup begin-sql
+end-document end-footing end-heading end-if end-procedure end-program end-report end-select end-setup
+end-sql end-while
+if input
+while
+/C2"Keywords"
+#current-column #current-line #debug #define #else #end #end-file #end-if #endif #if #ifdef #ifndef
+#include #page-count #return-status #sql-count #sql-status #sqr-pid
 $sql-error $sqr-database $sqr-platform $sqr-program $sqr-report $sqr-ver $username
 3d-effects
-abs acos after-bold after-page after-report and array as ascii asin at-end atan
-beep before-bold before-page before-report blink bold bottom-margin box by
-ceil center char char-size char-width chars-inch chart-size cl clear-line clear-screen cond cos cosh cs
-date deg delete distinct
-e10 edit erase-page exists exp extent
-field fill fixed fixed_nolf floor font-type for-append for-reading for-reports for-writing formfeed from
-getenv goto-top group
-having horz-line
-image-size in insert instr integer into isblank isnull is
+abs acos add after-bold after-page after-report alter alter-local alter-printer and array array-add
+array-divide array-multiply array-subtract as ascii asin ask at-end atan
+bar beep before-bold before-page before-report begin begin-document begin-select begin-sql blink bold
+bottom-margin box break by
+call ceil center char char-size char-width chars-inch chart chart-size cl clear clear-array clear-line
+clear-screen close code color column columns commit concat cond connect cos cosh create create-array cs
+date date-edit-mask date-separator date-time day-of-week-case day-of-week-full day-of-week-short debug
+decimal decimal-separator declare declare-chart declare-image declare-layout declare-printer
+declare-procedure declare-report declare-variable deg deinit delete direct display distinct divide do
+document dollar dollar-symbol
+e10 edit else encode end end-declare end-document end-evaluate end-if end-program end-select end-sql
+end-while erase-page evaluate execute exists exit exit-select exp extent extract
+field fill find fixed fixed_nolf float floor font font-type footing for-append for-reading for-reports
+for-writing formfeed from
+get getenv goto goto-top graphic group
+having heading horz horz-line
+if image image-size in init init-string input input-date-edit-mask insert instr integer into is isblank
+isnull
 key
-layout left-margin legend legend-placement legend-presentation legend-title length line-height line-size line-width lines-inch local log10 loops lower lpad ltrim
-max-columns max-lines maxlen mod
-name need newline newpage no-advance noprompt normal not number nvl null
-on-error or order orientation
-page-depth paper-size pie-segment-explode pie-segment-percent-display pie-segment-quantity-display pitch point-markers point-size power printer-type
+landscape last last-page layout left-margin legend legend-placement legend-presentation legend-title
+length let line line-height line-size line-width lines-inch listing load load-lookup local locale log10
+lookup loops lower lowercase lpad ltrim
+match max-columns max-lines maxlen mod money money-edit-mask money-sign money-sign-location money-symbol
+months-case months-full months-short move multiply
+name need new-page new-report newline newpage next-column next-listing no-advance no-formfeed nop noprompt
+normal not nowait null number number-edit-mask nvl
+on-break on-error open or order orientation
+page page-depth page-number page-size paper-size pie-segment-explode pie-segment-percent-display
+pie-segment-quantity-display pitch point-markers point-size position power print print-bar-code
+print-chart print-direct print-image printer printer-deinit printer-init printer-type procedure program
+put
 quiet
-rad range record rename return_value reverse right-margin round rows rpad rtrim
-select sign sin sinh size skip skiplines sort source sqr-database sqr-platform sqrt startup-file status sub-title substr symbol-set
-table tan tanh times title to to_char to_date to_number top-margin translate trunc type
-underline update upper using
-vary vert-line
-warn when when-other where with
-x-axis-grid x-axis-label x-axis-major-increment x-axis-major-tick-marks x-axis-max-value x-axis-min-value x-axis-minor-increment x-axis-minor-tick-marks x-axis-scale
-x-axis-tick-mark-placement xor
-y-axis-grid y-axis-label y-axis-major-increment y-axis-major-tick-marks y-axis-max-value y-axis-min-value y-axis-minor-increment y-axis-minor-tick-marks y-axis-scale
-y-axis-tick-mark-placement
+rad range read record rename report return_value reverse right-margin rollback round rows rpad rtrim
+select setup show sign sin sinh size skip skiplines sort source sql sqr-database sqr-platform sqrt
+startup-file status stop string sub-title substr subtract symbol symbol-set
+table tan tanh text thousand-separator time-separator times title to top-margin to_char to_date to_number
+translate trunc type
+underline unstring update upper uppercase use use-column use-printer-type use-procedure use-report using
+vary vert vert-line
+wait warn when when-other where while with write
+x-axis-grid x-axis-label x-axis-major-increment x-axis-major-tick-marks x-axis-max-value x-axis-min-value
+x-axis-minor-increment x-axis-minor-tick-marks x-axis-scale x-axis-tick-mark-placement xor
+y-axis-grid y-axis-label y-axis-major-increment y-axis-major-tick-marks y-axis-max-value y-axis-min-value
+y-axis-minor-increment y-axis-minor-tick-marks y-axis-scale y-axis-tick-mark-placement
+/C3"Functions"
+dateadd datediff datenow datetostr delete
+edit exists
+instr isblank isnull
+length lpad ltrim
+mod
+rename rpad rtrim
+strtodate substr
+to_char to_number translate
+unstring upper
+/C4"Variables"
+** $ #
