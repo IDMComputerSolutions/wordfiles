@@ -1,11 +1,20 @@
 /L20"Delphi" Nocase Line Comment = // Block Comment On = (* Block Comment Off = *) Block Comment On Alt = { Block Comment Off Alt = } String Chars = ' DisableMLS File Extensions = pas dpr
+/TGBegin "Constructor"
+/TGFindStr = "^constructor\s+([\w\.]+)\s*(?:\([^\)]*\))?[^;]*;[\s\S]*?begin"
+/TGEnd
+/TGBegin "Destructor"
+/TGFindStr = "^destructor\s+([\w\.]+)\s*(?:\([^\)]*\))?[^;]*;[\s\S]*?begin"
+/TGEnd
+/TGBegin "Functions / Procedures"
+/TGFindStr = "^(?:procedure|function)\s+([\w\.]+)\s*(?:\([^\)]*\))?[^;]*;[\s\S]*?begin"
+/TGEnd
 /Delimiters = # $	&'()*+,-./:;<=>@[]^{}
-/Function String = "%^{procedure^}^{function^}*$"
+/Regexp Type = Perl
 /Indent Strings = "begin" "repeat" "asm"
 /Unindent Strings = "end" "until"
 /Open Brace Strings = "(" "["
 /Close Brace Strings = ")" "]"
-/Open Fold Strings = "begin" "repeat"
+/Open Fold Strings = "unit" "type" "begin" "repeat" "try" "case"
 /Close Fold Strings = "end" "until"
 /C1"Reserved words"
 array asm assigned
