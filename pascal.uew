@@ -6,64 +6,198 @@
 /Indent Strings = "BEGIN" "CASE" "DO" "ELSE" "THEN"
 /Unindent Strings = "END;" "END"
 /C1"Reserved words"
-AND ARRAY
-BEGIN
-CASE CONST
-DIV DO DOWNTO
-ELSE END
-FILE FOR FUNCTION
-GOTO
-IF IN
-LABEL
-MOD
-NOT
-OF OR
-PACKED PROCEDURE PROGRAM
-RECORD REPEAT
-SET
-THEN TO TYPE
-UNTIL
-VAR
-WHILE WITH
+and
+array
+begin
+case
+const
+div
+do
+downto
+else
+end
+file
+for
+function
+goto
+if
+in
+label
+mod
+not
+of
+or
+packed
+procedure
+program
+record
+repeat
+set
+then
+to
+type
+until
+var
+while
+with
 /C2"Redefinable reserved words"
-AND_THEN
-MODULE
-OR_ELSE OTHERWISE
-REM
-VALUE VARYING
+and_then
+module
+or_else
+otherwise
+rem
+value
+varying
 /C3"Predeclared identifiers"
-ABS ADD_INTERLOCKED ADDRESS ARCTAN ARGUMENT ARGUMENT_LIST_LENGTH
-BIN BITNEXT BIT_OFFSET BITSIZE BOOLEAN BYTE_OFFSET
-CARD CHAR CHR CLEAR_INTERLOCKED CLOCK CLOSE COS CREATE_DIRECTORY
-DATE DBLE DEC DELETE DELETE_FILE DISPOSE DOUBLE
-EOF EOLN EPSDOUBLE EPSQUADRUPLE EPSREAL EQ ESTABLISH EXP EXPO EXTEND
-FALSE FIND FIND_FIRST_BIT_CLEAR FIND_FIRST_BIT_SET FIND_MEMBER FIND_NONMEMBER FINDK
-GE GET GETTIMESTAMP GT
-HALT HEX
-IADDRESS INDEX INPUT INT INTEGER
-LE LENGTH LINELIMIT LN LOCATE LOWER LT
-MAX MAXCHAR MAXDOUBLE MAXINT MAXQUADRUPLE MAXREAL MAXUNSIGNED MIN MINDOUBLE MINQUADRUPLE MINREAL
-NE NEW NEXT NIL
-OCT ODD OPEN ORD OUTPUT
-PACK PAD PAGE PRED PRESENT PUT
-QUAD QUADRUPLE
-READ READLN READV REAL RENAME_FILE RESET RESETK REVERT REWRITE ROUND
-SET_INTERLOCKED SIN SINGLE SIZE SNGL SQR SQRT STATUS STATUSV STRING SUBSTR SUCC
-TEXT TIME TIMESTAMP TRUE TRUNC TRUNCATE
-UAND UDEC UFB UINT UNDEFINED UNLOCK UNOT UNPACK UNSIGNED UOR UPDATE UPPER UROUND UTRUNC UXOR
-WRITE WRITELN WRITEV
-XOR
-ZERO
+abs
+address
+add_interlocked
+arctan
+argument
+argument_list_length
+bin
+bitnext
+bitsize
+bit_offset
+boolean
+byte_offset
+card
+char
+chr
+clear_interlocked
+clock
+close
+cos
+create_directory
+date
+dble
+dec
+delete
+delete_file
+dispose
+double
+eof
+eoln
+epsdouble
+epsquadruple
+epsreal
+eq
+establish
+exp
+expo
+extend
+false
+find
+findk
+find_first_bit_clear
+find_first_bit_set
+find_member
+find_nonmember
+ge
+get
+gettimestamp
+gt
+halt
+hex
+iaddress
+index
+input
+int
+integer
+le
+length
+linelimit
+ln
+locate
+lower
+lt
+max
+maxchar
+maxdouble
+maxint
+maxquadruple
+maxreal
+maxunsigned
+min
+mindouble
+minquadruple
+minreal
+ne
+new
+next
+nil
+oct
+odd
+open
+ord
+output
+pack
+pad
+page
+pred
+present
+put
+quad
+quadruple
+read
+readln
+readv
+real
+rename_file
+reset
+resetk
+revert
+rewrite
+round
+set_interlocked
+sin
+single
+size
+sngl
+sqr
+sqrt
+status
+statusv
+string
+substr
+succ
+text
+time
+timestamp
+true
+trunc
+truncate
+uand
+udec
+ufb
+uint
+undefined
+unlock
+unot
+unpack
+unsigned
+uor
+update
+upper
+uround
+utrunc
+uxor
+write
+writeln
+writev
+xor
+zero
 /C4"Attributes"
-ASYNCHRONOUS
-EXTERNAL
-GLOBAL
-INHERIT
-LOCAL
-READONLY
-STATIC
-UNBOUND UNSAFE
-VOLATILE
+asynchronous
+external
+global
+inherit
+local
+readonly
+static
+unbound
+unsafe
+volatile
 /C5"Operators"
 +
 -
