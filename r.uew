@@ -1,8 +1,19 @@
 /L14"R" R_LANG Nocase Line Comment = # String Chars = '" File Extensions = R
+/Regexp Type = Perl
+/TGBegin "Function"
+/TGFindStr = "[ \t]*([A-Za-z0-9_\.]+)[ \t]*<-[ \t]*function[ \t]*\("
+/TGFindBStart = "{"
+/TGFindBEnd = "}"
+/TGBegin "Parameters"
+/TGFindStr = "[ \t\n]*([^,]+)"
+/TGFindBStart = "\("
+/TGFindBEnd = "\)"
+/TGEnd
+/TGEnd
 /Delimiters = , .	{}[]()
 /Open Fold Strings = "{"
 /Close Fold Strings = "}"
-/C1"Keywords" STYLE_KEYWORD
+/C1"Keywords"
 abb abbreviate abs access acf acf2AR acos acosh action add add1 addmargins
 addTaskCallback adjust aggregate agrep AIC alarm alias alist all anova anovalist
 ansari any aov aovlist aperm append apply approx approxfun apropos ar arg args
@@ -144,7 +155,7 @@ withVisible write writeBin writeChar writeClipboard writeLines wsbrowser wt
 xedit xemacs xor xpdrows xtabs
 yw
 zapsmall zip
-/C4"Operators" STYLE_OPERATOR
+/C2"Operators"
 !
 $
 %% %*% %/% %in% %o% %x%
