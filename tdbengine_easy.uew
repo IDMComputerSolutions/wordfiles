@@ -1,0 +1,87 @@
+/L20"tdbengine EASY" Line Comment = // Line Comment Alt = .. Block Comment On = /* Block Comment Off = */ String Chars = "' Escape Char = ^ File Extensions = mod
+/Regexp Type = Perl
+/TGBegin "Function"
+/TGFindStr = "^procedure[ \t]+(.*)"
+/TGEnd
+/Delimiters = ~!@%^&*()-+=#|/{}[]:;"'<> ,    .?
+/Indent Strings = "Procedure" "If" "ElsIf" "Else" "While" "Repeat" "Sub"
+/Unindent Strings = "EndProc" "ElsIf" "Else" "End" "EndSub"
+/Open Fold Strings = "Else" "ElsIf" "If" "Procedure" "Repeat" "While" "/*"
+/Close Fold Strings = "Else" "ElsIf" "End" "EndProc"  "*/"
+/C1"Functions" 
+?
+$Fehler $heute $jetzt $Zeile $Seite $TDB-Pfad $ToMargin $SysBrowser $TDB_Codesize $TDB_Functions $TDB_Variables $TDB_ErrorLine $TDB_ErrorOfs $TDB_ErrorPos $TDB_ErrorMsg $TDB_Module
+Abs Access AndMarks ANSIToOEM ANSIToUTF Asc AutoField AutoID AutoRecNo
+BaseDir BitAnd BitAndNot BitOr BLOBSize BLOBType B_And B_Not B_Or BitNot BitTrunc
+Calc CGIBuffer CGIExec CGIOut CGIOutHTM CGIOutLn ChDir ChMod Choice Chr ClearDat Clip2Text Close CloseDB ClrArray Compile Complete ConvLine ConvMemo CopyBLOB CopyFile CopyMemo Cos Count CGIClearBuffer CGICloseBuffer CGIGetParam CGIGetSession CGITestSession CGIWrite CGIWriteLn CGIWriteHTML CGIWriteTemplate CloseSock CheckPW CGITestParam
+DateStr Day DayOfWeek DBDir DBF2Dat DBName DBRights Default DelDB DelFile DelIndex DelMark DelMarks DelMemo DelRec DigitStr DirInfo DiskFree Div DoPict DoRead DoSound Def DecodeB64 DelMarkedRecords DelIdent DateTime_To_Unix DBNo
+EditOff EditOn EmbedBLOB EndCGI EndProg EndSema EOT Evl Exchange ExecMacro ExecProg Exists Exp ExtNote EndSub Exit EncodeB64
+Fields FileMode FileNo FileNr FileSize FillStr FindAuto FindRec FirstDir FirstMark FirstRec Flush FlushDB Frac Free From FSum FindAndMark F_Create F_Open F_Close F_Seek F_Size F_Read F_Write F_Error F_Pos GetFTInfo
+GenIndex GenList GenRel GetBits GetCGI GetCode GetDef GetDir GetDrive GetEnv GetField GetIdent GetMarks GetMode GetPara GetPW GetRec GetRField GetSize GetType GetQueryString GetStructure GetSock GetAuto GetMarksAuto GetFTInfo
+Halt High HTTP_POST
+InArray IncrField IndDef IndName IndNo IndNr InitArray InitCGI Input Int IsFile IsMark IsTask
+JA
+Label LabelNo LabelNr Länge LastRec LeftStr Length Link LinkBLOB LinkCount Links LinkSum Lock Log Lower LTrim LoadTemplate LinkInfo
+MakeDB MakeDir MarkBits MarkRel MarkTable Max MaxFile MaxLabel Mean MemoLen MemoStr Min Mod Monat Month MarkDoubles MakePW MarkIndex MD5_Str MarkPattern
+NBits NetID NetUsers NewTable NextDir NextMark NextRec NMarks Note NotMarks Now NTimes NEIN
+OEMToANSI OpenDB OpenSock
+ParamStr Pause Pos PrevRec PrimFile PrimTable PrivDir PutBits PutMarks PutRec PutSock PutMarksAuto PrivDir
+Random Read ReadLn ReadMemo readAuto ReadRec Rechts RecNo RecNr RegenAll RegenInd RelIndex RemDir Rename RenDB Reset RevMarks Rewrite RightStr RollBack Round RTrim RAMText_Copy RAMText_Delete RAMText_Find RAMText_Insert RAMText_Part RAMText_Paste RAMText_Subst Relation ReOpenDB RAMText
+Scan ScanRec ScanRecs Sel SetAuto SetCGILog SetField SetFields SetFilter SetIdent SetMark SetPara SetRecord SetRField SetUFunc Sin SortMark SoundEx SqRt Str StrAdd StrComp StrSort Sub SubPath Subst Sum Swap Selection SetAccess SetFont Solve Sub Server SetAlias Str_To_UnixTime
+TAppend TestBit TestLn TestSel TimeStr To Today ToDBF ToHTML TransOff TransOn TreeInfo TDB_ErrorStr TDB_LastError TestPW TDB_ErrorMsg TDB_ErrorOfs TDB_ErrorLine TDB_ErrorPos Timeout TestIdent
+Unlock UnScanRec UTFToANSI Upper UserNo Unix_Now Unix_Date Unix_Time UnixTime_To_Str
+Val ValStr VarName
+WaitSema Week Wert Write WriteLn WriteRec
+XMal XWert
+Year
+ZCount ZSum
+/C2"Relational operators" 
+ab alles and
+bis
+ähnlich
+enthält esGibt
+groß größer
+has hat
+ist in
+klein kleiner
+like
+nicht not
+oder or
+und ungleich
+von
+wie
+/C3"Arithmetic Operators" 
++
+-
+=
+// /
+%
+&
+>
+<
+^
+!
+|
+#
+:
+/C4"Data types" 
+Boolean Byte
+Char
+Integer
+Real
+String
+TBits
+/C5"Keywords" 
+Do
+Else ElsIf End EndProc
+If Include
+Main Module
+NLoop
+Procedure
+Repeat Return
+Until Uses
+Var VarDef
+While
+/C6"Tags" 
+<esp>
+</esp>

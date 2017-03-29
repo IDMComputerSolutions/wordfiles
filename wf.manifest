@@ -404,6 +404,7 @@
   <wordfile name="TakeCommand/TCC 18.x Batch" file="tcmdtccbatch18+batcmd.uew" types="BTM BAT CMD" />
   <wordfile name="TAL/pTAL" file="TAL.uew" types="TAL" />
   <wordfile name="Tcl/Tk" file="tcl-tk.uew" types="TCL TK" />
+  <wordfile name="tdbengine EASY" file="tdbengine_easy.uew" types="mod" />
   <wordfile name="TEAK Assembler" file="teakasm.uew" types="ASM DBG SRC lnk lin lst" />
   <wordfile name="Teradata Explain Results" file="tdexplain.uew" types="pla plan explain" />
   <wordfile name="Teradata SQL" file="teradatasql.uew" types="SQL BTQ TXT BTEQ DSQL LOG OUT" />
