@@ -399,6 +399,7 @@
   <wordfile name="SVG" file="svg.uew" types="SVG" />
   <wordfile name="Swift" file="swift.uew" types="SWIFT" />
   <wordfile name="Sybase SQL" file="sybase11x.uew" types="SQL SP" />
+  <wordfile name="SystemVerilog" file="systemverilog.uew" types="V VL SV SVH VH VMD" />
   <wordfile name="TACL" file="TACL.uew" types="*" />
   <wordfile name="Takahashi" file="takahashi.uew" types="XUL" />
   <wordfile name="TakeCommand/TCC 18.x Batch" file="tcmdtccbatch18+batcmd.uew" types="BTM BAT CMD" />
