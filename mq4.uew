@@ -1,4 +1,4 @@
-/L1"MQ4" MQL Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = MQ4 MQH Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+/L1"MQL4" Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = "' File Extensions = MQ4 MQH Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 /Colors = 0,8421504,8421504,32768,16384,
 /Colors Back = 16777215,16777215,16777215,16777215,16777215,
 /Colors Auto Back = 1,1,1,1,1,
@@ -11,7 +11,7 @@
 /Function String 4 = "%[A-ÿ_0-9^[^]*]++[ ^t]++[A-ÿ_0-9*^[^]]+[ ^t]++[A-ÿ_0-9*^[^]]+[ ^t]++^([*A-ÿ_0-9]+^)[ ^t]++([^p*&:, ^t^[^]A-ÿ_0-9./(!]++)[{ ^t]$"
 /Member String = "^([A-ÿ0-9_:.]+^)[ ^t^*&]+$S[ ^t^[^]A-ÿ0-9_]++[(-);,]"
 /Variable String = "%[ ^t]++^([!-ÿ~ ^t<>]+*[~a-z^p]^)$S[ ^t;,()^-]"
-/Indent Strings = "{" "if" "else" "while" 
+/Indent Strings = "{" "if" "else" "while"
 /Unindent Strings = "}"
 /Open Brace Strings =  "{" "(" "["
 /Close Brace Strings = "}" ")" "]"
@@ -307,24 +307,24 @@ iWPR
 /C4"MQ4 Constants" STYLE_OPERATOR Colors = 128 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 Ask Bars Bid Close Digits High Low Open Point Time Volume
 /C5"MQ4 Property Constants" STYLE_OPERATOR Colors = 16744448 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
-copyright  
-indicator_buffers 
-indicator_chart_window 
-indicator_colorN 
-indicator_levelN 
-indicator_levelcolor 
-indicator_levelstyle 
-indicator_levelwidth 
-indicator_maximum 
-indicator_minimum 
-indicator_separate_window 
-indicator_styleN 
-indicator_widthN 
-library 
-link 
-show_confirm 
+copyright
+indicator_buffers
+indicator_chart_window
+indicator_colorN
+indicator_levelN
+indicator_levelcolor
+indicator_levelstyle
+indicator_levelwidth
+indicator_maximum
+indicator_minimum
+indicator_separate_window
+indicator_styleN
+indicator_widthN
+library
+link
+show_confirm
 show_inputs
-stacksize 
+stacksize
 
 /C6"MQ4 Errors Constants" STYLE_OPERATOR Colors = 255 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
 ERR_ACCOUNT_DISABLED
