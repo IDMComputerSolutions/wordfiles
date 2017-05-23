@@ -1,0 +1,38 @@
+/L20"Spell" Line Comment = #  Escape Char = \ File Extensions = SPL
+/Function String = "%[ ,^t]++step[ ]+"[a-zA-Z0-9_, ]++"[ ,^t]++,[ ,^t]++"[a-zA-Z0-9_, ]++":"
+/Function String 1 = "%[ ,^t]++step[ ]+"[a-zA-Z0-9_, ]++"[ ,^t]++,[ ,^t]++"[a-zA-Z0-9_, ]++"[ ,^t]++as[ ,^t]++[a-zA-Z0-9_]+:"
+/Delimiters = []{}()<>-="'.,:+
+/Open Fold Strings = "step"
+/Close Fold Strings = "step"
+/C1"Reserved Words"
+and as
+in is
+not
+None
+or
+required
+/C2"Built-in Functions"
+step
+when
+attachment
+checkbox
+date
+email
+image
+label list
+multi
+number
+radio
+string
+text
+/C3"__Methods__"
+goto
+/C4"__Attributes__"
+** CONTROL QUESTION STEP control question step
+/C5"Exceptions"
+** $
+/C6"Common Libs"
+/C7"Others"
+elif else endfor
+if import
+for from
