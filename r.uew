@@ -10,7 +10,6 @@
 /TGFindBEnd = "\)"
 /TGEnd
 /TGEnd
-/Delimiters = , .	{}[]()
 /Open Fold Strings = "{"
 /Close Fold Strings = "}"
 /C1"Keywords"
