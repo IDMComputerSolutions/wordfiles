@@ -1,16 +1,16 @@
 /L1"MS SQL" Nocase EnableMLS NestBlockComments SQL_LANG Line Comment = -- Block Comment On = /* Block Comment Off = */ String Chars = ' File Extensions = SQL TSQL TQL
 /Regexp Type = Perl
 /TGBegin "Tables"
-/TGFindStr = "^[\t|    ]{0,1}create[\t ]+table[\t ]+([^\t\r\n ]+.)$"
+/TGFindStr = "^[\t|    ]{0,1}create[\t ]+table[\t ]+([^\t\r\n (]+)"
 /TGEnd
 /TGBegin "Views"
-/TGFindStr = "^[\t|    ]{0,1}create[\t ]+view[\t ]+([^\t\r\n ]+.)$"
+/TGFindStr = "^[\t|    ]{0,1}create[\t ]+view[\t ]+([^\t\r\n ]+)"
 /TGEnd
 /TGBegin "Procedures"
-/TGFindStr = "^[\t|    ]{0,1}create[\t ]+proc[edure]+[\t ]+([^\t\r\n ]+.)$"
+/TGFindStr = "^[\t|    ]{0,1}create[\t ]+proc[edure]+[\t ]+([^\t\r\n ]+)"
 /TGEnd
 /TGBegin "Functions"
-/TGFindStr = "^[\t|    ]{0,1}create[\t ]+function[\t ]+([^\t\r\n ]+.)$"
+/TGFindStr = "^[\t|    ]{0,1}create[\t ]+function[\t ]+([^\t\r\n (]+)"
 /TGEnd
 /Delimiters = 	~!%^&*()-+=|\/{}:;"'<> ,.?/
 /Indent Strings = "begin"
@@ -219,9 +219,9 @@ xml_schema_namespaces xml_schema_types xml_schema_wildcards xml_schema_wildcard_
 .
 :
 ;
-< 
+<
 =
-> 
+>
 all and any
 between
 cross
@@ -412,7 +412,7 @@ sp_msdummyupdatelightweight sp_msdummyupdate_logicalrecord sp_msdynamicsnapshotj
 sp_msenable_publication_for_het_sub sp_msensure_single_instance sp_msenumallpublications
 sp_msenumallsubscriptions sp_msenumarticleslightweight sp_msenumchanges sp_msenumchangesdirect
 sp_msenumchangeslightweight sp_msenumchanges_belongtopartition sp_msenumchanges_notbelongtopartition
-sp_msenumcolumns sp_msenumcolumns ightweight sp_msenumdeleteslightweight sp_msenumdeletesmetadata
+sp_msenumcolumns ightweight sp_msenumdeleteslightweight sp_msenumdeletesmetadata
 sp_msenumdeletes_forpartition sp_msenumdistributionagentproperties sp_msenumerate_pal sp_msenumgenerations
 sp_msenumgenerations90 sp_msenumpartialchanges sp_msenumpartialchangesdirect sp_msenumpartialdeletes
 sp_msenumpubreferences sp_msenumreplicas sp_msenumreplicas90 sp_msenumretries sp_msenumschemachange
@@ -542,7 +542,7 @@ sp_procedure_params_100_rowset sp_procedure_params_100_rowset2 sp_procedure_para
 sp_procedure_params_90_rowset2 sp_procedure_params_managed sp_procedure_params_rowset
 sp_procedure_params_rowset2 sp_processlogshippingmonitorhistory sp_processlogshippingmonitorprimary
 sp_processlogshippingmonitorsecondary sp_processlogshippingretentioncleanup sp_processmail sp_procoption
-sp_prop_oledb_provider sp_provider_types_100_rowset sp_provider_types_90_rowset sp_provider_types_ro set
+sp_prop_oledb_provider sp_provider_types_100_rowset sp_provider_types_90_rowset sp_provider_types_ro
 sp_publicationsummary sp_publication_validation sp_publishdb sp_publisherproperty sp_readerrorlog
 sp_readwebtask sp_recompile sp_refreshsqlmodule sp_refreshsubscriptions sp_refreshview
 sp_refresh_heterogeneous_publisher sp_refresh_log_shipping_monitor sp_registercustomresolver
