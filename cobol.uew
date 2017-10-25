@@ -2,7 +2,6 @@
 /TGBegin "Code"
 /TGFindStr = "^[ \t\d]*(.* Division).*"
 /TGFindStr = "^[ \t\d]*(.* Section).*"
-/TGFindStr = "^[ \t\d]*(.* Paragraph).*"
 /TGEnd
 /Regexp Type = Perl
 /Open Brace Strings = "("
