@@ -1,6 +1,14 @@
-/L20"COBOL" COBOL_LANG Line Comment Num = 2*  Nocase File Extensions = CBL COB CPY
-/Delimiters = ~!@$%^&*()+=|\/{}[]:;"'<> ,	.?/
-/Function String = "%[ ^t]+^([a-z0-9^-]+^) ^{SECTION^}^{DIVISION^}"
+/L20"COBOL" COBOL_LANG Line Comment Num = 1* Line Comment Valid Columns = [0-1] Nocase File Extensions = COB CBL CPY File Names = COBLIB COBLIBRP
+/TGBegin "Code"
+/TGFindStr = "^[ \t\d]*(.* Division).*"
+/TGFindStr = "^[ \t\d]*(.* Section).*"
+/TGEnd
+/Regexp Type = Perl
+/Open Brace Strings = "("
+/Close Brace Strings = ")"
+/Open Fold Strings = "IF" "ELSE" "EVALUATE"
+/Close Fold Strings = "ELSE" "END-IF" "END-EVALUATE"
+/Delimiters = ~!@$%^&*()_+=|\/{}[]:;"'<> ,.?/
 /C1
 accept access acquire actual add address advancing after all allowing alphabet alphabetic alphabetic-lower alphabetic-upper alphanumeric
 alphanumeric-edited also alter alternate and any apply are area areas as ascending assign at attribute author auto auto-hyphen-skip auto-skip automatic
