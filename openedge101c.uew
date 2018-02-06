@@ -1,0 +1,382 @@
+/L10"OpenEdge 10.1c" Nocase Noquote Escape Char = ~ Block Comment On = /* Block Comment Off = */ NestBlockComments File Extensions = HTM HTML I P W LFI LFU LDI LFO LVA LPR GVA
+/TGBegin "Function"
+/TGFindStr = "%Procedure [a-zA-Z]*"
+/TGFindStr = "%Function [a-zA-Z]*"
+/TGEnd
+/Delimiters =  	'"=<>`@!()\[]{}:;,.?
+/Marker Characters = "{}" "do:" "end."
+/Indent Strings = "do:" "repeat:" "then" "else" "no-lock:"
+/Unindent Strings = "end."
+/Indent Strings SOL = "do" "then do" "else do" "otherwise do" "for" "then for" "else for" "otherwise for" "function" "procedure" "repeat" "then repeat" "else repeat" "otherwise repeat"
+/Unindent Strings = "end"
+/C1"Reserved Keyword"
+{}
+&adm-container &adm-supported-links &analyze-resume &analyze-suspend
+&batch-mode &browse-name
+&defined &displayed-fields &displayed-objects
+&else &elseif &enabled-fields &enabled-fields-in-query &enabled-objects &enabled-tables &enabled-tables-in-query &endif &external-tables
+&field-pairs &field-pairs-in-query &fields-in-query &file-name &first-external-table &first-table-in-query &frame-name
+&glob &global-define
+&if &include &internal-tables
+&layout-variable &line-number &list-1 &list-2 &list-3 &list-4 &list-5 &list-6
+&message
+&new
+&open-browsers-in-query &open-query &opsys
+&procedure-type
+&query-name
+&scop &scoped &scoped-define &self-name &sequence
+&tables-in-query &text-height &then
+&uib_is_running &undefine
+&window-name &window-system
+** {*
+accumulate active-window xadd alias all alter ambiguous analyze and any apply as ascending assign asynchronous at attr-space audit-control audit-policy authorization auto-return available
+background before-hide begins bell between big-endian blank break btos buffer-compare buffer-copy by by-pointer by-variant-pointer
+call can-do can-find case case-sensitive cast centered check chr clear clipboard codebase-locator col colon color column column-label columns com-self compiler component-self connected
+control copy-lob count-of cpstream create ctos current current-changed current-language current-window current_date cursor
+database dataservers dataset dataset-handle dbcodepage dbcollation dbname dbparam dbrestrictions dbtaskid dbtype dbversion dde deblank debug-list debugger decimals declare def default
+default-noxlate default-window define delete delimiter descending dictionary disable disconnect disp display distinct do dos down drop dynamic-function
+each editing else enable encode end entry error-status escape etime event-procedure except exclusive exclusive-lock exclusive-web-user exists export
+false false-leaks fetch field fields file-information fill find find-case-sensitive find-global find-next-occurrence find-prev-occurrence find-select find-wrap-around first first-of
+focus font for form format frame frame-col frame-db frame-down frame-field frame-file frame-index frame-line frame-name frame-row frame-value from from-chars from-pixels fromnoreorder
+function-call-type
+gateways get-attr-call-type get-byte get-codepages get-collations get-error-column get-error-row get-file-name get-file-offset get-key-value getbyte global go-on go-pending grant graphic-edge
+group
+having header help hide host-byte-order
+if import in index indicator input input-output insert into is is-attr-space
+join
+kblabel key-code key-function key-label keycode keyfunction keylabel keys keyword
+label last last-event last-key last-of lastkey ldbname leak-detection leave library like line-counter listing little-endian locked log-manager lookup
+machine-class map member message message-lines mouse mpe
+new next next-prompt no no-attr no-attr-space no-error no-fill no-help no-hide no-labels no-lobs no-lock no-map no-message no-pause no-prefetch no-return-value no-undo no-validate no-wait
+not now null num-aliases num-dbs num-entries
+of off old on open opsys option or os-append os-command os-copy os-create-dir os-delete os-dir os-drives os-error os-rename os2 os400 otherwise output overlay
+page page-bottom page-number page-top parameter password-field pause pdbname persistent pixels preprocess privileges proc-handle proc-status procedure-call-type process profiler program-name
+progress prompt prompt-for promsgs propath proversion publish put put-byte put-key-value putbyte
+query query-tuning quit
+r-index rcode-information read-available read-exact-num readkey recid record-length rectangle release repeat reposition retain retry return return-value revert revoke row-created row-deleted
+row-modified row-unmodified run
+save sax-complete sax-parser-error sax-running sax-uninitialized sax-write-begin sax-write-complete sax-write-content sax-write-element sax-write-error sax-write-idle sax-write-tag schema
+screen screen-io screen-lines scroll sdbname search search-self search-target security-policy seek select self session set set-attr-call-type setuserid share-lock shared show-stats skip
+some source-procedure space status stomp-detection stomp-frequency stream stream-io string-xref subscribe super system-dialog
+table table-handle target-procedure term terminal text text-cursor text-seg-growth then this-object this-procedure time title to today top-only trans transaction trigger triggers trim
+true
+underline undo unformatted union unique unix unless-hidden unsubscribe up update use-index use-revvideo use-underline user userid using
+v6frame value values view view-as vms
+wait-for web-context when where while window window-delayed-minimize window-maximized window-minimized window-normal with work-table workfile write
+xcode xref xref-xml
+yes
+/C2"keyword"
+absolute accelerator accept-changes accept-row-changes across active actor add-buffer add-calc-column add-columns-from add-events-procedure add-fields-from add-first add-header-entry
+add-index-field add-interval add-last add-like-column add-like-field add-like-index add-new-field add-new-index add-relation add-schema-location add-source-buffer add-super-procedure
+adm-data advise after-buffer after-rowid after-table alert-box allow-column-searching allow-replication alternate-key always-on-top ansi-only anywhere append append-child appl-alert-boxes
+appl-context-id application apply-callback appserver-info appserver-password appserver-userid array-message as-cursor ask-overwrite async-request-count async-request-handle attach attach-data-source
+attached-pairlist attachment attribute-names attribute-type audit-enabled audit-event-context authentication-failed auto-completion auto-delete auto-delete-xml auto-end-key auto-endkey
+auto-go auto-indent auto-resize auto-synchronize auto-validate auto-zap automatic available-formats average avg
+backwards base-ade base-key base64 base64-decode base64-encode basic-logging batch-mode batch-size before-buffer before-rowid before-table begin-event-group bgcolor binary bind bind-where
+blob block-iteration-display border-bottom border-bottom-chars border-bottom-pixels border-left border-left-chars border-left-pixels border-right border-right-chars border-right-pixels
+border-top border-top-chars border-top-pixels both bottom box box-selectable browse browse-column-data-types browse-column-formats browse-column-labels browse-header buffer buffer-chars
+buffer-create buffer-delete buffer-field buffer-handle buffer-lines buffer-name buffer-release buffer-validate buffer-value button buttons by-reference by-value byte bytes-read bytes-written
+cache cache-size call-name call-type can-create can-delete can-query can-read can-set can-write cancel-break cancel-button cancel-requests cancelled caps careful-paint cdecl chained
+character character_length charset check-mem-stomp checked child-buffer child-num choose class class-type clear-appl-context clear-log clear-selection clear-sort-arrows client-connection-id
+client-principal client-tty client-type client-workstation clob clone-node close close-log code codepage codepage-convert col-of collate colon-aligned color-table column-bgcolor column-codepage
+column-dcolor column-fgcolor column-font column-label-bgcolor column-label-dcolor column-label-fgcolor column-label-font column-label-height-chars column-label-height-pixels column-movable
+column-of column-pfcolor column-read-only column-resizable column-scrolling com-handle combo-box command compares compile complete component-handle config-name connect constrained constructor
+contains contents context context-help context-help-file context-help-id context-popup control-box control-container control-frame convert convert-3d-colors convert-to-offset copy-dataset
+copy-sax-attributes copy-temp-table count coverage cpcase cpcoll cpinternal cplog cpprint cprcodein cprcodeout cpterm crc-value create-like create-node create-node-namespace create-on-add
+create-result-list-entry create-test-file current-column current-environment current-iteration current-result-row current-row-modified current-value cursor-char cursor-line cursor-offset
+data-bind data-entry-return data-relation data-source data-source-complete-map data-source-modified data-source-rowid data-type date date-format datetime datetime-tz day db-references
+dcolor dde-error dde-id dde-item dde-name dde-topic debug debug-alert decimal declare-namespace decrypt default-buffer-handle default-button default-commit default-extension default-string
+defer-lob-fetch define-user-event-manager defined delete-char delete-current-row delete-header-entry delete-line delete-node delete-result-list-entry delete-selected-row delete-selected-rows
+description deselect-focused-row deselect-rows deselect-selected-row destructor detach detach-data-source dialog-box dialog-help dir directory disable-auto-zap disable-connections disable-dump-triggers
+disable-load-triggers disabled display-message display-timezone display-type domain-description domain-name domain-type double drag-enabled drop-down drop-down-list drop-target dump
+dump-logging-now dynamic dynamic-current-value dynamic-next-value
+echo edge edge-chars edge-pixels edit-can-paste edit-can-redo edit-can-undo edit-clear edit-copy edit-cut edit-paste edit-redo edit-undo editor empty empty-dataset empty-temp-table enable-connections
+enabled encoding encrypt encrypt-audit-mac-key encryption-salt end-document end-element end-event-group end-file-drop end-key end-user-prompt endkey entered entry-types-list eq error
+error-column error-object-detail error-row error-string event-group-id event-procedure-context event-type events exclusive-id execute execution-log exp expand expandable expire explicit
+export-principal extended extent external extract
+fetch-selected-row fgcolor file file-access-date file-access-time file-create-date file-create-time file-mod-date file-mod-time file-name file-offset file-size file-type filename fill-in
+fill-mode fill-where-string filled filters final find-by-rowid find-current find-first find-last find-unique finder first-async-request first-buffer first-child first-column first-data-source
+first-dataset first-object first-procedure first-query first-server first-server-socket first-socket first-tab-item fit-last-column fix-codepage fixed-only flat-button float focused-row
+focused-row-selected font-based-layout font-table force-file foreground form-input form-long-input formatted forward forward-only forwards fragment frame-spacing frame-x frame-y frequency
+from-current full-height full-height-chars full-height-pixels full-pathname full-width full-width-chars full-width-pixels function
+ge generate-md5 generate-pbe-key generate-pbe-salt generate-random-key generate-uuid get get-attribute get-attribute-node get-binary-data get-bits get-blue-value get-browse-column get-buffer-handle
+get-byte-order get-bytes get-bytes-available get-callback-proc-context get-callback-proc-name get-cgi-list get-cgi-long-value get-cgi-value get-changes get-child get-child-relation get-config-value
+get-current get-dataset-buffer get-dir get-document-element get-double get-dropped-file get-dynamic get-file get-first get-float get-green-value get-header-entry get-index-by-namespace-name
+get-index-by-qname get-int64 get-iteration get-last get-license get-localname-by-index get-long get-message get-next get-node get-number get-parent get-pointer-value get-prev get-printers
+get-property get-qname-by-index get-red-value get-relation get-repositioned-row get-rgb-value get-selected-widget get-serialized get-short get-signature get-size get-socket-option get-source-buffer
+get-string get-tab-item get-text-height get-text-height-chars get-text-height-pixels get-text-width get-text-width-chars get-text-width-pixels get-top-buffer get-type-by-index get-type-by-namespace-name
+get-type-by-qname get-unsigned-long get-unsigned-short get-uri-by-index get-value-by-index get-value-by-namespace-name get-value-by-qname get-wait-state grant-archive grayed grid-factor-horizontal
+grid-factor-vertical grid-set grid-snap grid-unit-height grid-unit-height-chars grid-unit-height-pixels grid-unit-width grid-unit-width-chars grid-unit-width-pixels grid-visible group-box
+gt guid
+handle handler has-lobs has-records height height-chars height-pixels help-context help-topic helpfile-name hex-decode hex-encode hidden hint horizontal html-charset html-end-of-line
+html-end-of-page html-frame-begin html-frame-end html-header-begin html-header-end html-title-begin html-title-end hwnd
+icfparameter icon ignore-current-modified image image-down image-insensitive image-size image-size-chars image-size-pixels image-up immediate-display implements import-node import-principal
+in-handle increment-exclusive-id index-hint index-information indexed-reposition information inherit-bgcolor inherit-fgcolor inherits init initial initial-dir initial-filter initialize-document-type
+initiate inner inner-chars inner-lines input-value insert-attribute insert-backtab insert-before insert-file insert-row insert-string insert-tab instantiating-procedure int64 integer
+interface internal-entries interval invoke is-class is-codepage-fixed is-column-codepage is-lead-byte is-open is-parameter-set is-row-selected is-selected is-xml iso-date item items-per-row
+join-by-sqldb
+keep-connection-open keep-frame-z-order keep-messages keep-security-cache keep-tab-order key keyword-all
+label-bgcolor label-dcolor label-fgcolor label-font label-pfcolor labels landscape languages large large-to-small last-async-request last-batch last-child last-object last-procedure
+last-server last-server-socket last-socket last-tab-item lc le leading left left-aligned left-trim length line list-events list-item-pairs list-items list-property-names list-query-attrs
+list-set-attrs list-widgets listings literal-question load load-domains load-from load-icon load-image load-image-down load-image-insensitive load-image-up load-mouse-pointer load-picture
+load-result-into load-small-icon lob-dir local-host local-name local-port locator-column-number locator-line-number locator-public-id locator-system-id locator-type lock-registration
+log log-audit-event log-entry-types log-id log-threshold logfile-name logging-level logical login-expiration-timestamp login-host login-state logout long longchar longchar-to-node-value
+lookahead lower lt
+mandatory manual-highlight margin-extra margin-height margin-height-chars margin-height-pixels margin-width margin-width-chars margin-width-pixels mark-new matches max max-button max-chars
+max-data-guess max-height max-height-chars max-height-pixels max-rows max-size max-value max-width max-width-chars max-width-pixels maximize maximum maximum-level md5-digest md5-value
+memory memptr memptr-to-node-value menu menu-bar menu-item menu-key menu-mouse menubar merge-by-field merge-changes merge-row-changes message-area message-area-font message-area-msg
+message-line method min min-button min-column-width-chars min-column-width-pixels min-height min-height-chars min-height-pixels min-schema-marshall min-size min-value min-width min-width-chars
+min-width-pixels minimum mod modified modulo month mouse-pointer movable move-after-tab-item move-before-tab-item move-column move-to-bottom move-to-eof move-to-top mtime multi-compile
+multiple multiple-key multitasking-interval must-exist must-understand
+name namespace-prefix namespace-uri native ne needs-appserver-prompt needs-prompt nested new-instance new-row next-column next-rowid next-sibling next-tab-item next-value no-apply no-array-message
+no-assign no-attr-list no-auto-trim no-auto-validate no-bind-where no-box no-column-scrolling no-console no-convert no-convert-3d-colors no-current-value no-debug no-drag no-echo no-empty-space
+no-focus no-index-hint no-inherit-bgcolor no-inherit-fgcolor no-join-by-sqldb no-lookahead no-query-order-added no-query-unique-added no-row-markers no-schema-marshall no-scrollbar-vertical
+no-scrolling no-separate-connection no-separators no-tab-stop no-underline no-word-wrap node-type node-value node-value-to-longchar node-value-to-memptr nonamespace-schema-location none
+normalize not-active num-buffers num-buttons num-child-relations num-children num-columns num-copies num-dropped-files num-fields num-formats num-header-entries num-items num-iterations
+num-lines num-locked-columns num-log-files num-messages num-parameters num-references num-relations num-replaced num-results num-selected num-selected-rows num-selected-widgets num-source-buffers
+num-tabs num-to-retain num-top-buffers num-visible-columns numeric numeric-decimal-point numeric-format numeric-separator
+object octet_length ok ok-cancel ole-invoke-locale ole-names-locale on-frame-border ordered-join ordinal orientation origin-handle origin-rowid os-getenv outer outer-join override owner
+owner-document
+page-size page-width paged parent parent-buffer parent-relation parse-status partial-key pascal pathname pbe-hash-algorithm pbe-key-rounds performance persistent-cache-disabled persistent-procedure
+pfcolor pinnable pixels-per-column pixels-per-row popup-menu popup-only portrait position precision prefer-dataset prepare-string prepared preselect prev prev-column prev-sibling prev-tab-item
+primary printer printer-control-handle printer-hdc printer-name printer-port printer-setup private private-data procedure procedure-name profile-file profiling progress-source property
+protected proxy proxy-password proxy-userid public public-id published-events put-bits put-bytes put-double put-float put-int64 put-long put-short put-string put-unsigned-long put-unsigned-short
+query-close query-off-end query-open query-prepare question quoter
+radio-buttons radio-set random raw raw-transfer read read-file read-only read-xml read-xmlschema real recursive reference-only refresh refresh-audit-policy refreshable register-domain
+reinstate reject-changes reject-row-changes rejected relation-fields relations-active remote remote-host remote-port remove-attribute remove-child remove-events-procedure remove-super-procedure
+replace replace-child replace-selection-text replication-create replication-delete replication-write reposition-backwards reposition-forwards reposition-parent-relation reposition-to-row
+reposition-to-rowid request reset resizable resize restart-rowid result retain-shape retry-cancel return-inserted return-to-start-dir return-value-data-type returns reverse-from rgb-value
+right right-aligned right-trim roles round rounded row row-height row-height-chars row-height-pixels row-markers row-of row-resizable row-state rowid rule rule-row rule-y run-procedure
+save-as save-file save-row-changes save-where-string sax-attributes sax-parse sax-parse-first sax-parse-next sax-reader sax-writer sax-xml schema-change schema-location schema-marshal
+schema-path screen-value scroll-bars scroll-delta scroll-horiz-value scroll-offset scroll-to-current-row scroll-to-item scroll-to-selected-row scroll-vert-value scrollable scrollbar-horizontal
+scrollbar-vertical scrolled-row-position scrolling se-check-pools se-enable-off se-enable-on se-num-pools se-use-message seal seal-timestamp section select-all select-focused-row select-next-row
+select-prev-row select-repositioned-row select-row selectable selected selected-items selection-end selection-list selection-start selection-text send sensitive separate-connection separator-fgcolor
+separators server server-connection-bound server-connection-bound-request server-connection-context server-connection-id server-operating-mode server-socket session-end session-id set-actor
+set-appl-context set-attribute set-attribute-node set-blue-value set-break set-buffers set-byte-order set-callback set-callback-procedure set-cell-focus set-client set-commit set-connect-procedure
+set-contents set-db-client set-dynamic set-green-value set-input-source set-must-understand set-node set-numeric-format set-option set-output-destination set-parameter set-pointer-value
+set-property set-read-response-procedure set-red-value set-repositioned-row set-rgb-value set-rollback set-selection set-serialized set-size set-socket-option set-sort-arrow set-state
+set-wait-state sha1-digest short show-in-taskbar side-label side-label-handle side-labels silent simple single singleton size size-chars size-pixels skip-deleted-record skip-schema-check
+slider small-icon small-title smallint soap-fault soap-fault-actor soap-fault-code soap-fault-detail soap-fault-string soap-header soap-header-entryref socket sort sort-ascending sort-number
+source source-buftype source-command source-editor source-editor-available source-help-file sql sqrt ssl-server-name standalone start start-document start-element start-mem-check starting
+startup-parameters state-detail status-area status-area-font status-area-msg status-bar stdcall stenciled stop stop-mem-check stop-parsing stopped stored-procedure stretch-to-fit strict
+string string-value sub-average sub-count sub-maximum sub-menu sub-menu-help sub-minimum sub-total substitute substring subtype sum summary super-procedures suppress-namespace-processing
+suppress-warnings suspend symmetric-encryption-algorithm symmetric-encryption-iv symmetric-encryption-key symmetric-support synchronize system-alert-boxes system-help system-id
+tab-position tab-stop table-crc-list table-list table-number target temp-directory temp-table temp-table-prepare terminate text-selected three-d through thru tic-marks time-source timezone
+title-bgcolor title-dcolor title-fgcolor title-font to-rowid toggle-box tool-bar tooltip tooltips top top-nav-query topic total trace-filter tracing tracking-changes trailing trans-init-procedure
+transaction-mode transparent truncate ttcodepage type type-of
+unbuffered unique-id unique-match unload unsigned-long unsigned-short update-attribute upper url url-decode url-encode url-password url-userid use use-dict-exps use-filename use-text
+use-widget-pool user-data user-id utc-offset
+v6display valid-event valid-handle valid-object validate validate-expression validate-message validate-seal validate-xml validation-enabled variable verbose version vertical view-first-column-on-reopen
+virtual-height virtual-height-chars virtual-height-pixels virtual-width virtual-width-chars virtual-width-pixels visible void
+wait warning weekday where-string widget widget-enter widget-handle widget-id widget-leave widget-pool width width-chars width-pixels window-name window-state window-system word-index
+word-wrap work-area-height-pixels work-area-width-pixels work-area-x work-area-y write-cdata write-characters write-comment write-data write-data-element write-empty-element write-entity-ref
+write-external-dtd write-fragment write-message write-processing-instruction write-status write-xml write-xmlschema
+x x-document x-noderef x-of xml-data-type xml-node-name xml-node-type xml-schema-path xml-suppress-namespace-processing
+y y-of year year-offset yes-no yes-no-cancel
+/C3"KWord Abbreviation"
+abs abso absol absolu absolut accum accumu accumul accumula accumulat add-calc-col add-calc-colu add-calc-colum add-events-proc add-events-proce add-events-proced add-events-procedu
+add-events-procedur add-like-col add-like-colu add-like-colum add-super-proc add-super-proce add-super-proced add-super-procedu add-super-procedur ambig ambigu ambiguo ambiguou analyz
+appl-alert appl-alert- appl-alert-b appl-alert-bo appl-alert-box appl-alert-boxe array-m array-me array-mes array-mess array-messa array-messag asc asce ascen ascend ascendi ascendin
+attachm attachme attachmen attr attr- attr-s attr-sp attr-spa attr-spac auto-comp auto-compl auto-comple auto-complet auto-completi auto-completio auto-ind auto-inde auto-inden
+auto-ret auto-retu auto-retur auto-val auto-vali auto-valid auto-valida auto-validat auto-z auto-za avail availa availab availabl ave aver avera averag
+back backg backgr backgro backgrou backgroun backward batch batch- batch-m batch-mo batch-mod before-h before-hi before-hid bgc bgco bgcol bgcolo border-b border-bo border-bot border-bott
+border-botto border-bottom-c border-bottom-ch border-bottom-cha border-bottom-char border-bottom-p border-bottom-pi border-bottom-pix border-bottom-pixe border-bottom-pixel
+border-l border-le border-lef border-left-c border-left-ch border-left-cha border-left-char border-left-p border-left-pi border-left-pix border-left-pixe border-left-pixel
+border-r border-ri border-rig border-righ border-right-c border-right-ch border-right-cha border-right-char border-right-p border-right-pi border-right-pix border-right-pixe
+border-right-pixel border-t border-to border-top-c border-top-ch border-top-cha border-top-char border-top-p border-top-pi border-top-pix border-top-pixe border-top-pixel
+box-select box-selecta box-selectab box-selectabl buffer-comp buffer-compa buffer-compar buffer-n buffer-na buffer-nam buffer-releas by-variant-point by-variant-pointe
+can-crea can-creat can-dele can-delet can-writ case-sen case-sens case-sensi case-sensit case-sensiti case-sensitiv center centere char chara charac charact characte clear-select clear-selecti
+clear-selectio colon-align colon-aligne column-bgc column-bgco column-bgcol column-bgcolo column-fgc column-fgco column-fgcol column-fgcolo column-lab column-labe column-label-bgc column-label-bgco
+column-label-bgcol column-label-bgcolo column-label-fgc column-label-fgco column-label-fgcol column-label-fgcolo column-label-height-c column-label-height-ch column-label-height-cha
+column-label-height-char column-label-height-p column-label-height-pi column-label-height-pix column-label-height-pixe column-label-height-pixel column-pfc column-pfco column-pfcol column-pfcolo
+column-sc column-scr column-scro column-scrol column-scroll column-scrolli column-scrollin compare context-pop context-popu control-cont control-conta control-contai control-contain
+control-containe control-fram convert-3d convert-3d- convert-3d-c convert-3d-co convert-3d-col convert-3d-colo convert-3d-color convert-to-offs convert-to-offse cpint cpinte cpinter
+cpintern cpinterna crc-val crc-valu current-env current-envi current-envir current-enviro current-environ current-environm current-environme current-environmen current-lang current-langu
+current-langua current-languag curs curso
+data-b data-bi data-bin data-entry-ret data-entry-retu data-entry-retur data-t data-ty data-typ date-f date-fo date-for date-form date-forma dbrest dbrestr dbrestri dbrestric dbrestrict
+dbrestricti dbrestrictio dbrestriction dbvers dbversi dbversio dde-i debu dec deci decim decima default-but default-butt default-butto default-ex default-ext default-exte default-exten
+default-extens default-extensi default-extensio default-noxl default-noxla default-noxlat defi defin desce descen descend descendi descendin dict dicti
+dictio diction dictiona dictionar discon disconn disconne disconnec displ displa display-t display-ty display-typ dynamic-func dynamic-funct dynamic-functi dynamic-functio
+edge-c edge-ch edge-cha edge-char edge-p edge-pi edge-pix edge-pixe edge-pixel error-col error-colu error-colum error-stat error-statu event-t event-ty event-typ exclusive-l exclusive-lo
+exclusive-loc exclusive-web exclusive-web- exclusive-web-u exclusive-web-us exclusive-web-use
+fgc fgco fgcol fgcolo file-access-d file-access-da file-access-dat file-access-t file-access-ti file-access-tim file-create-d file-create-da file-create-dat file-create-t file-create-ti
+file-create-tim file-info file-infor file-inform file-informa file-informat file-informati file-informatio file-mod-d file-mod-da file-mod-dat file-mod-t file-mod-ti file-mod-tim file-off
+file-offs file-offse first-async first-async- first-async-r first-async-re first-async-req first-async-requ first-async-reque first-async-reques first-proc first-proce first-proced first-procedu
+first-procedur first-serv first-serve first-tab-i first-tab-it first-tab-ite fore foreg foregr foregro foregrou foregroun forma fram frame-inde frame-spa frame-spac frame-spaci frame-spacin
+frame-val frame-valu from-c from-ch from-cha from-char from-cur from-curr from-curre from-curren from-p from-pi from-pix from-pixe from-pixel full-height-c full-height-ch full-height-cha
+full-height-char full-height-p full-height-pi full-height-pix full-height-pixe full-height-pixel full-pathn full-pathna full-pathnam full-width- full-width-c full-width-ch full-width-cha
+full-width-char full-width-p full-width-pi full-width-pix full-width-pixe full-width-pixel
+gateway get-blue get-blue- get-blue-v get-blue-va get-blue-val get-blue-valu get-browse-col get-browse-colu get-browse-colum get-codepage get-coll get-colla get-collat get-collati get-collatio
+get-collation get-curr get-curre get-curren get-firs get-green get-green- get-green-v get-green-va get-green-val get-green-valu get-key-val get-key-valu get-red get-red- get-red-v get-red-va
+get-red-val get-red-valu get-rgb get-rgb- get-rgb-v get-rgb-va get-rgb-val get-rgb-valu get-selected get-selected- get-selected-w get-selected-wi get-selected-wid get-selected-widg get-selected-widge
+get-text-height-c get-text-height-ch get-text-height-cha get-text-height-char get-text-height-p get-text-height-pi get-text-height-pix get-text-height-pixe get-text-height-pixel get-text-width-c
+get-text-width-ch get-text-width-cha get-text-width-char get-text-width-p get-text-width-pi get-text-width-pix get-text-width-pixe get-text-width-pixel get-wait get-wait- get-wait-s
+get-wait-st get-wait-sta get-wait-stat go-pend go-pendi go-pendin graphic-e graphic-ed graphic-edg grid-factor-h grid-factor-ho grid-factor-hor grid-factor-hori grid-factor-horiz grid-factor-horizo
+grid-factor-horizon grid-factor-horizont grid-factor-horizonta grid-factor-v grid-factor-ve grid-factor-ver grid-factor-vert grid-factor-verti grid-factor-vertic grid-factor-vertica
+grid-unit-height-c grid-unit-height-ch grid-unit-height-cha grid-unit-height-char grid-unit-height-p grid-unit-height-pi grid-unit-height-pix grid-unit-height-pixe grid-unit-height-pixel
+grid-unit-width-c grid-unit-width-ch grid-unit-width-cha grid-unit-width-char grid-unit-width-p grid-unit-width-pi grid-unit-width-pix grid-unit-width-pixe grid-unit-width-pixel
+height-c height-ch height-cha height-char height-p height-pi height-pix height-pixe height-pixel help-con help-cont help-conte help-contex helpfile-n helpfile-na helpfile-nam hori horiz
+horizo horizon horizont horizonta
+image-size-c image-size-ch image-size-cha image-size-char image-size-p image-size-pi image-size-pix image-size-pixe image-size-pixel index-info index-infor index-inform index-informa
+index-informat index-informati index-informatio info infor inform informa informat informati informatio input-o input-ou input-out input-outp input-outpu insert-b insert-ba insert-bac
+insert-back insert-backt insert-backta insert-t insert-ta int inte integ intege is-attr is-attr- is-attr-s is-attr-sp is-attr-spa is-attr-spac
+keep-frame-z keep-frame-z- keep-frame-z-o keep-frame-z-or keep-frame-z-ord keep-frame-z-orde key-func key-funct key-functi key-functio keyfunc keyfunct keyfuncti keyfunctio
+label-bgc label-bgco label-bgcol label-bgcolo label-dc label-dco label-dcol label-dcolo label-fgc label-fgco label-fgcol label-fgcolo label-pfc label-pfco label-pfcol label-pfcolo language
+last-async last-async- last-async-r last-async-re last-async-req last-async-requ last-async-reque last-async-reques last-even last-proce last-proced last-procedu last-procedur last-serv
+last-serve last-tab-i last-tab-it last-tab-ite left-align left-aligne line-count line-counte listi listin load-mouse-p load-mouse-po load-mouse-poi load-mouse-poin load-mouse-point load-mouse-pointe
+margin-height-c margin-height-ch margin-height-cha margin-height-char margin-height-p margin-height-pi margin-height-pix margin-height-pixe margin-height-pixel margin-width-c margin-width-ch
+margin-width-cha margin-width-char margin-width-p margin-width-pi margin-width-pix margin-width-pixe margin-width-pixel max-height-c max-height-ch max-height-cha max-height-char max-height-p
+max-height-pi max-height-pix max-height-pixe max-height-pixel max-val max-valu max-width-c max-width-ch max-width-cha max-width-char max-width-p max-width-pi max-width-pix max-width-pixe
+max-width-pixel menu-k menu-ke menu-m menu-mo menu-mou menu-mous min-height-c min-height-ch min-height-cha min-height-char min-height-p min-height-pi min-height-pix min-height-pixe min-height-pixel
+min-row-height-c min-row-height-ch min-row-height-cha min-row-height-char min-row-height-p min-row-height-pi min-row-height-pix min-row-height-pixe min-row-height-pixel min-val min-valu
+min-width-c min-width-ch min-width-cha min-width-char min-width-p min-width-pi min-width-pix min-width-pixe min-width-pixel mini minim minimu mouse-p mouse-po mouse-poi mouse-poin mouse-point
+mouse-pointe move-after move-after- move-after-t move-after-ta move-after-tab move-after-tab- move-after-tab-i move-after-tab-it move-after-tab-ite move-befor move-before move-before-
+move-before-t move-before-ta move-before-tab move-before-tab- move-before-tab-i move-before-tab-it move-before-tab-ite move-col move-colu move-colum move-to-b move-to-bo move-to-bot
+move-to-bott move-to-botto move-to-t move-to-to
+next-col next-colu next-colum next-tab-ite no-array-m no-array-me no-array-mes no-array-mess no-array-messa no-array-messag no-attr-l no-attr-li no-attr-lis no-attr-s no-attr-sp no-attr-spa
+no-attr-spac no-column-sc no-column-scr no-column-scro no-column-scrol no-column-scroll no-column-scrolli no-column-scrollin no-convert-3d no-convert-3d- no-convert-3d-c no-convert-3d-co
+no-convert-3d-col no-convert-3d-colo no-convert-3d-color no-f no-fi no-fil no-label no-mes no-mess no-messa no-messag no-prefe no-prefet no-prefetc no-return-val no-return-valu no-scrollbar-v
+no-scrollbar-ve no-scrollbar-ver no-scrollbar-vert no-scrollbar-verti no-scrollbar-vertic no-scrollbar-vertica no-tab no-tab- no-tab-s no-tab-st no-tab-sto no-und no-unde no-under no-underl
+no-underli no-underlin no-val no-vali no-valid no-valida no-validat num-ali num-alia num-alias num-aliase num-but num-butt num-butto num-button num-col num-colu num-colum num-column
+num-locked-col num-locked-colu num-locked-colum num-locked-column num-repl num-repla num-replac num-replace num-visible-col num-visible-colu num-visible-colum num-visible-column numeric-dec
+numeric-deci numeric-decim numeric-decima numeric-decimal numeric-decimal- numeric-decimal-p numeric-decimal-po numeric-decimal-poi numeric-decimal-poin numeric-f numeric-fo numeric-for
+numeric-form numeric-forma numeric-sep numeric-sepa numeric-separ numeric-separa numeric-separat numeric-separato
+ole-invoke-loca ole-invoke-local ole-names-loca ole-names-local on-frame on-frame- on-frame-b on-frame-bo on-frame-bor on-frame-bord on-frame-borde os-drive
+page-bot page-bott page-botto page-num page-numb page-numbe page-wid page-widt param parame paramet paramete perf perfo perfor perform performa performan performanc persist persiste
+persisten pfc pfco pfcol pfcolo pixels-per-col pixels-per-colu pixels-per-colum popup-m popup-me popup-men popup-o popup-on popup-onl preproc preproce preproces presel presele preselec
+prev-col prev-colu prev-colum prev-tab-i prev-tab-it prev-tab-ite private-d private-da private-dat proc-ha proc-han proc-hand proc-handl proc-st proc-sta proc-stat proc-statu proce proced
+procedu procedur progress-s progress-so progress-sou progress-sour progress-sourc prompt-f prompt-fo provers proversi proversio put-key-val put-key-valu
+rcode-info rcode-infor rcode-inform rcode-informa rcode-informat rcode-informati rcode-informatio record-len record-leng record-lengt rect recta rectan rectang rectangl remove-events-proc
+remove-events-proce remove-events-proced remove-events-procedu remove-events-procedur remove-super-proc remove-super-proce remove-super-proced remove-super-procedu remove-super-procedur
+reposition-back reposition-backw reposition-backwa reposition-backwar reposition-backward reposition-forw reposition-forwa reposition-forwar reposition-forward resiza resizab resizabl
+retain-s retain-sh retain-sha retain-shap return-ins return-inse return-inser return-insert return-inserte return-to-start-di return-val return-valu rgb-v rgb-va rgb-val rgb-valu right-align
+right-aligne row-height-c row-height-ch row-height-cha row-height-char row-height-p row-height-pi row-height-pix row-height-pixe row-height-pixel row-ma row-mar row-mark row-marke row-marker
+run-proc run-proce run-proced run-procedu run-procedur
+screen-val screen-valu scroll-to-i scroll-to-it scroll-to-ite scrollbar-h scrollbar-ho scrollbar-hor scrollbar-hori scrollbar-horiz scrollbar-horizo scrollbar-horizon scrollbar-horizont
+scrollbar-horizonta scrollbar-v scrollbar-ve scrollbar-ver scrollbar-vert scrollbar-verti scrollbar-vertic scrollbar-vertica scrolled-row-pos scrolled-row-posi scrolled-row-posit scrolled-row-positi
+scrolled-row-positio se-enable-of se-use-messa se-use-messag separator-fgc separator-fgco separator-fgcol separator-fgcolo server-connection-bo server-connection-bou server-connection-boun
+server-connection-bound-re server-connection-bound-req server-connection-bound-requ server-connection-bound-reque server-connection-bound-reques server-connection-co server-connection-con
+server-connection-cont server-connection-conte server-connection-contex set-blue set-blue- set-blue-v set-blue-va set-blue-val set-blue-valu set-green set-green- set-green-v set-green-va
+set-green-val set-green-valu set-numeric-form set-numeric-forma set-pointer-val set-pointer-valu set-red set-red- set-red-v set-red-va set-red-val set-red-valu set-rgb set-rgb- set-rgb-v
+set-rgb-va set-rgb-val set-rgb-valu set-wait set-wait- set-wait-s set-wait-st set-wait-sta set-wait-stat setuser setuseri share share- share-l share-lo share-loc show-in-task show-in-taskb
+show-in-taskba show-stat side-lab side-labe side-label-h side-label-ha side-label-han side-label-hand side-label-handl size-c size-ch size-cha size-char size-p size-pi size-pix size-pixe
+size-pixel skip-deleted-rec skip-deleted-reco skip-deleted-recor stoppe stored-proc stored-proce stored-proced stored-procedu stored-procedur sub-ave sub-aver sub-avera sub-averag sub-max
+sub-maxi sub-maxim sub-maximu sub-min sub-mini sub-minim sub-minimu subst substi substit substitu substitut substr substri substrin super-proc super-proce super-proced super-procedu
+super-procedur super-procedure suppress-w suppress-wa suppress-war suppress-warn suppress-warni suppress-warnin suppress-warning system-alert system-alert- system-alert-b system-alert-bo
+system-alert-box system-alert-boxe
+table-num table-numb table-numbe temp-dir temp-dire temp-direc temp-direct temp-directo temp-director temp-table-prepar text-seg text-seg- text-seg-g text-seg-gr text-seg-gro text-seg-grow
+text-seg-growt title-bgc title-bgco title-bgcol title-bgcolo title-dc title-dco title-dcol title-dcolo title-fgc title-fgco title-fgcol title-fgcolo title-fo title-fon trans-init-proc
+trans-init-proce trans-init-proced trans-init-procedu trans-init-procedur transact transacti transactio transpar transpare transparen trunc trunca truncat
+unbuff unbuffe unbuffer unbuffere underl underli underlin unform unforma unformat unformatt unformatte use-dic use-dict use-dict- use-dict-e use-dict-ex use-dict-exp
+validate-expressio var vari varia variab variabl verb verbo verbos vert verti vertic vertica virtual-height-c virtual-height-ch virtual-height-cha virtual-height-char virtual-height-p
+virtual-height-pi virtual-height-pix virtual-height-pixe virtual-height-pixel virtual-width-c virtual-width-ch virtual-width-cha virtual-width-char virtual-width-p virtual-width-pi virtual-width-pix
+virtual-width-pixe virtual-width-pixel
+web-con web-cont web-conte web-contex widget-e widget-en widget-ent widget-ente widget-h widget-ha widget-han widget-hand widget-handl widget-l widget-le widget-lea widget-leav width-c
+width-ch width-cha width-char width-p width-pi width-pix width-pixe width-pixel window-delayed-min window-delayed-mini window-delayed-minim window-delayed-minimi window-delayed-minimiz
+window-maxim window-maximi window-maximiz window-maximize window-minim window-minimi window-minimiz window-minimize window-sta window-stat window-sys window-syst window-syste work-area-height-p
+work-area-height-pi work-area-height-pix work-area-height-pixe work-area-height-pixel work-area-width-p work-area-width-pi work-area-width-pix work-area-width-pixe work-area-width-pixel
+work-tab work-tabl
+_serial _serial- _serial-n _serial-nu
+/C4"PROGRESS Word"
+abort any-key any-printable append-line
+back-tab backspace block bottom-column break-line bs btn-down-arrow btn-left-arrow btn-right-arrow btn-up-arrow
+cancel-move cancel-pick cancel-resize choices com1 com2 com3 com4 com5 com6 com7 com8 com9 container-event copy cr create-control ctrl-alt-del ctrl-break ctrl-g ctrl-j ctrl-l cursor-down
+cursor-left cursor-right cursor-up cut
+data-refresh-line data-refresh-page dde-notify default-action default-pop-up del del-char del-line delete-character delete-column delete-end-line delete-field delete-word deselect deselect-extend
+deselection deselection-extend design-mode dismiss-menu dos-end drop-file-notify dyn-function
+editor-backtab editor-tab empty-selection end-box-selection end-error end-move end-resize end-row-resize end-search enter-menubar erase esc excl exit
+ff field-group find-next find-previous focus-in font-based-grid formfeed
+get-char-property go goto
+help-key home horiz-end horiz-home horiz-scroll-drag
+ins-char ins-line insert-column insert-field insert-field-data insert-field-label insert-here insert-mode iteration-changed
+last-proc left-end left-mouse-click left-mouse-dblclick left-mouse-down left-mouse-up lf line-down line-erase line-left line-right line-up linefeed literal load-control loadcontrols
+lpt0 lpt1 lpt2 lpt3 lpt4 lpt5 lpt6 lpt7 lpt8 lpt9
+main-menu menu-drop middle-mouse-click middle-mouse-dblclick middle-mouse-down middle-mouse-up mouse-extend-click mouse-extend-dblclick mouse-extend-down mouse-extend-drag mouse-extend-up
+mouse-menu-click mouse-menu-dblclick mouse-menu-down mouse-menu-drag mouse-menu-up mouse-move mouse-move-click mouse-move-dblclick mouse-move-down mouse-move-drag mouse-move-up mouse-select-click
+mouse-select-dblclick mouse-select-down mouse-select-drag mouse-select-up move
+new-line next-error next-frame next-page next-scrn next-word
+off-end off-home open-line-above options out-of-data
+page-down page-erase page-left page-right page-right-text page-up parent-window-close paste pgdn pgup pick pick-area pick-both popup-menu-key prev-frame prev-page prev-scrn prev-word
+prn procedure-complete
+read-response recall reports resume-display right-end right-mouse-click right-mouse-dblclick right-mouse-down right-mouse-up row-display row-entry row-leave
+scroll-left scroll-mode scroll-notify scroll-right scrollbar-drag select-extend selection selection-extend settings shift-tab src start-box-selection start-extend-box-selection
+start-move start-resize start-row-resize start-search stop-display
+tab top-column
+u1 u10 u2 u3 u4 u5 u6 u7 u8 u9 unix-end use-revvide
+validate-condition value-changed
+web-notify white window-close window-resized window-restored
+/C5"WebSpeed API Functions"
+available-messages
+check-agent-mode convert-datetime
+delete-cookie
+format-datetime
+get-cgi get-config get-cookie get-field get-message-groups get-messages get-user-field get-value
+hidden-field hidden-field-list html-encode
+output-content-type output-http-header output-messages
+queue-message
+set-cookie
+set-user-field
+url-field url-field-list url-format
+/C6"HTML Tags"
+<a </a> <abbr> <abbr </abbr> <above> <acronym> <acronym </acronym> <address> <address </address> <applet </applet> <array> <area </area
+<b> <b </b> <base <basefont <bdo> <bdo </bdo> <bgsound <big> <big </big> <blink> </blink> <blockquote> <blockquote </blockquote> <body <body> </body> <box> <br <br/> <blink <button> </button>
+<caption> <caption </caption> <center> <center </center> <cite> <cite </cite> <code> <code </code> <col> <col <colgroup <colgroup> </colgroup> <comment> </comment>
+<dd> <dd </dd> <del> <del </del> <dfn> <dfn </dfn> <dir> <dir </dir> <div> <div </div> <dl> <dl </dl> <dt> <dt  </dt>
+<em> <em </em> <embed
+<fieldset> <fieldset </fieldset> <fig> <font </font> <form> <form </form> <frame <frameset </frameset>
+<h1> <h1 </h1> <h2> <h2 </h2> <h3> <h3 </h3> <h4> <h4 </h4> <h5> <h5 </h5> <h6> <h6 </h6> <head> <head </head> <hr> <hr <html> <html </html>
+<i> <i </i> <iframe> </iframe> <ilayer> </ilayer> <img <input> <input <ins> <ins </ins> <isindex> <isindex
+<kbd> <kbd </kbd>
+<label> <label </label> <layer> <layer </layer> <legend> <legend </legend> <li> <li </li> <link <listing> </listing>
+<map </map> <marquee </marquee> <menu> <menu </menu> <meta <multicol> </multicol>
+<nextid <nobr> </nobr> <noframes> </noframes> <nolayer> </nolayer> <note> </note> <noscript> </noscript>
+<object> <object </object> <ol> <ol </ol> <option> <option </option> <optgroup> <optgroup </optgroup>
+<p <p> </p> <param <pre> <pre </pre>
+<q> <q </q> <quote>
+<range> <root>
+<s> <s </s> <samp> <samp </samp> <script <script> </script> <select <select> </select> <small> <small </small> <sound <spacer> <span> <span </span> <sqrt> <strike> <strike </strike> <strong> <strong </strong> <style> <style </style> <sub> <sub </sub> <sup> <sup </sup>
+<table> <table </table> <tbody> <tbody </tbody> <td <td> </td> <text> <textarea <textarea> </textarea> <tfoot> <tfoot </tfoot> <th <th> </th> <thead> <thead </thead> <title> </title> <tr <tr> </tr> <tt> </tt> <tt
+<u> <u </u> <ul> <ul </ul>
+<var> </var> <var
+<wbr>
+<xmp> </xmp>
+/C7"HTML Attributes"
+abbr= accept-charset= accept= accesskey= action= align= alink= alt= archive= axis=
+background= behavior below bgcolor= border=
+cellpadding= cellspacing= char= charoff= charset= cite= class= classid= clear= code= codebase= codetype= color= cols= colspan= compact content= coords=
+data= datetime= defer dir=
+enctype=
+face= for= frame= frameborder= framespacing=
+headers= height= hidden= href= hreflang= hspace= http-equiv=
+id= ismap=
+label= lang= language= link= loop= longdesc=
+mailto= marginheight= marginwidth= maxlength= media= method=
+name= nohref noresize noshade nowrap
+object= onblur= onchange= onfocus= onkeydown= onkeypress= onkeyup= onload= onreset= onselect= onsubmit= onunload= onclick= ondblclick= onmousedown= onmousemove= onmouseout= onmouseover= onmouseup=
+profile= prompt=
+readonly rel= rev= rows= rowspan= rules=
+scheme= scope= scrolling= shape= size= span= src= standby= start= style= summary=
+tabindex= target= text= title= topmargin= type=
+url= usemap=
+valign= value= valuetype= version= vlink= vspace=
+width=
+=
+/C8"Custom Functions" Case
+addError addGSNote addWONote Alert-js ascii2hex
+BuildFixtureSchedule BuildQueryStr
+CalcDETot Calculate CharFilter checkError CheckHTTPResponse cmsLog CommonStuff createColumn
+ElapsedMinutes eLogIt eLogItChar encode-JSON Exec-js
+find-zcomp-fsgprod find-zmeas find-first-zcomp for-each-zcomp FieldExists FlagCheck
+GenFilename GetFilenameExt GenRandom get-cgi-field GetComponentPrice GetConfig GetCsast GetCsastList GetElapsedTime getEnv GetInternalEmail get_oserror GetPartSub GetPrice GetProjRepEmail GetProjRepName GetSec GetTaxRate GUIStatusUpdate
+html-Scrub
+ImageFileExists includeContent IsAlpha
+js-Scrub
+LoginCheck LogIt LogFilter LogProc LogSendEmail LogThis
+OpenQuery open-qry-zcomp output-headers
+PutCheckboxSelList PutConfigSel PutCsastSel PutDate PutEndHtml PutGSTimeout PutHiddenField PutHtmlDetailRow PutJS PutProgramSelList PutSelCheckbox PutSelList PutStartHtml PutStatus PutTotLine PutXlsStyles
+QSValueChange
+removeDups
+SessionExpired SetConfig SetEmail ShowFields ShowValue-js sortList string2hex StripChars
+update_form urlencodeApostr
+ValidateForm1 ValidateMainForm Values2Window-js
+wsDir
