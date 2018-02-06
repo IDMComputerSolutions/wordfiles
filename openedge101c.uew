@@ -1,19 +1,15 @@
-/L10"OpenEdge 10.1c" Nocase Noquote HTML_LANG CSS_LANG Escape Char = ~ Block Comment On = /* Block Comment Off = */ NestBlockComments File Extensions = HTM HTML I P W LFI LFU LDI LFO LVA LPR GVA
+/L10"OpenEdge 10.1c" Nocase Noquote Escape Char = ~ Block Comment On = /* Block Comment Off = */ NestBlockComments File Extensions = HTM HTML I P W LFI LFU LDI LFO LVA LPR GVA
 /TGBegin "Function"
 /TGFindStr = "%Procedure [a-zA-Z]*"
 /TGFindStr = "%Function [a-zA-Z]*"
 /TGEnd
-/Colors = 0,8421376,8421376,8421504,255,
-/Colors Back = 16777215,16777215,16777215,16777215,16777215,
-/Colors Auto Back = 0,1,1,1,1,
-/Font Style = 0,0,0,0,0,
-/Delimiters =    '"=<>`@!()\[]{}:;,.?
+/Delimiters =  	'"=<>`@!()\[]{}:;,.?
 /Marker Characters = "{}" "do:" "end."
 /Indent Strings = "do:" "repeat:" "then" "else" "no-lock:"
 /Unindent Strings = "end."
 /Indent Strings SOL = "do" "then do" "else do" "otherwise do" "for" "then for" "else for" "otherwise for" "function" "procedure" "repeat" "then repeat" "else repeat" "otherwise repeat"
 /Unindent Strings = "end"
-/C1"Reserved Keyword" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+/C1"Reserved Keyword"
 {}
 &adm-container &adm-supported-links &analyze-resume &analyze-suspend
 &batch-mode &browse-name
@@ -69,7 +65,7 @@ v6frame value values view view-as vms
 wait-for web-context when where while window window-delayed-minimize window-maximized window-minimized window-normal with work-table workfile write
 xcode xref xref-xml
 yes
-/C2"keyword" Colors = 255 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+/C2"keyword"
 absolute accelerator accept-changes accept-row-changes across active actor add-buffer add-calc-column add-columns-from add-events-procedure add-fields-from add-first add-header-entry
 add-index-field add-interval add-last add-like-column add-like-field add-like-index add-new-field add-new-index add-relation add-schema-location add-source-buffer add-super-procedure
 adm-data advise after-buffer after-rowid after-table alert-box allow-column-searching allow-replication alternate-key always-on-top ansi-only anywhere append append-child appl-alert-boxes
@@ -177,17 +173,17 @@ word-wrap work-area-height-pixels work-area-width-pixels work-area-x work-area-y
 write-external-dtd write-fragment write-message write-processing-instruction write-status write-xml write-xmlschema
 x x-document x-noderef x-of xml-data-type xml-node-name xml-node-type xml-schema-path xml-suppress-namespace-processing
 y y-of year year-offset yes-no yes-no-cancel
-/C3"KWord Abbreviation" Colors = 33023 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+/C3"KWord Abbreviation"
 abs abso absol absolu absolut accum accumu accumul accumula accumulat add-calc-col add-calc-colu add-calc-colum add-events-proc add-events-proce add-events-proced add-events-procedu
 add-events-procedur add-like-col add-like-colu add-like-colum add-super-proc add-super-proce add-super-proced add-super-procedu add-super-procedur ambig ambigu ambiguo ambiguou analyz
 appl-alert appl-alert- appl-alert-b appl-alert-bo appl-alert-box appl-alert-boxe array-m array-me array-mes array-mess array-messa array-messag asc asce ascen ascend ascendi ascendin
-attach attachm attachme attachmen attr attr- attr-s attr-sp attr-spa attr-spac auto-comp auto-compl auto-comple auto-complet auto-completi auto-completio auto-ind auto-inde auto-inden
+attachm attachme attachmen attr attr- attr-s attr-sp attr-spa attr-spac auto-comp auto-compl auto-comple auto-complet auto-completi auto-completio auto-ind auto-inde auto-inden
 auto-ret auto-retu auto-retur auto-val auto-vali auto-valid auto-valida auto-validat auto-z auto-za avail availa availab availabl ave aver avera averag
 back backg backgr backgro backgrou backgroun backward batch batch- batch-m batch-mo batch-mod before-h before-hi before-hid bgc bgco bgcol bgcolo border-b border-bo border-bot border-bott
-border-botto border-bottom border-bottom-c border-bottom-ch border-bottom-cha border-bottom-char border-bottom-p border-bottom-pi border-bottom-pix border-bottom-pixe border-bottom-pixel
-border-l border-le border-lef border-left border-left-c border-left-ch border-left-cha border-left-char border-left-p border-left-pi border-left-pix border-left-pixe border-left-pixel
-border-r border-ri border-rig border-righ border-right border-right-c border-right-ch border-right-cha border-right-char border-right-p border-right-pi border-right-pix border-right-pixe
-border-right-pixel border-t border-to border-top border-top-c border-top-ch border-top-cha border-top-char border-top-p border-top-pi border-top-pix border-top-pixe border-top-pixel
+border-botto border-bottom-c border-bottom-ch border-bottom-cha border-bottom-char border-bottom-p border-bottom-pi border-bottom-pix border-bottom-pixe border-bottom-pixel
+border-l border-le border-lef border-left-c border-left-ch border-left-cha border-left-char border-left-p border-left-pi border-left-pix border-left-pixe border-left-pixel
+border-r border-ri border-rig border-righ border-right-c border-right-ch border-right-cha border-right-char border-right-p border-right-pi border-right-pix border-right-pixe
+border-right-pixel border-t border-to border-top-c border-top-ch border-top-cha border-top-char border-top-p border-top-pi border-top-pix border-top-pixe border-top-pixel
 box-select box-selecta box-selectab box-selectabl buffer-comp buffer-compa buffer-compar buffer-n buffer-na buffer-nam buffer-releas by-variant-point by-variant-pointe
 can-crea can-creat can-dele can-delet can-writ case-sen case-sens case-sensi case-sensit case-sensiti case-sensitiv center centere char chara charac charact characte clear-select clear-selecti
 clear-selectio colon-align colon-aligne column-bgc column-bgco column-bgcol column-bgcolo column-fgc column-fgco column-fgcol column-fgcolo column-lab column-labe column-label-bgc column-label-bgco
@@ -281,7 +277,7 @@ window-maxim window-maximi window-maximiz window-maximize window-minim window-mi
 work-area-height-pi work-area-height-pix work-area-height-pixe work-area-height-pixel work-area-width-p work-area-width-pi work-area-width-pix work-area-width-pixe work-area-width-pixel
 work-tab work-tabl
 _serial _serial- _serial-n _serial-nu
-/C4"PROGRESS Word" Colors = 32768 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+/C4"PROGRESS Word"
 abort any-key any-printable append-line
 back-tab backspace block bottom-column break-line bs btn-down-arrow btn-left-arrow btn-right-arrow btn-up-arrow
 cancel-move cancel-pick cancel-resize choices com1 com2 com3 com4 com5 com6 com7 com8 com9 container-event copy cr create-control ctrl-alt-del ctrl-break ctrl-g ctrl-j ctrl-l cursor-down
@@ -302,14 +298,14 @@ new-line next-error next-frame next-page next-scrn next-word
 off-end off-home open-line-above options out-of-data
 page-down page-erase page-left page-right page-right-text page-up parent-window-close paste pgdn pgup pick pick-area pick-both popup-menu-key prev-frame prev-page prev-scrn prev-word
 prn procedure-complete
-read-response recall reports reset resume-display right-end right-mouse-click right-mouse-dblclick right-mouse-down right-mouse-up row-display row-entry row-leave
-scroll-left scroll-mode scroll-notify scroll-right scrollbar-drag select-extend selection selection-extend set-property settings shift-tab src start-box-selection start-extend-box-selection
+read-response recall reports resume-display right-end right-mouse-click right-mouse-dblclick right-mouse-down right-mouse-up row-display row-entry row-leave
+scroll-left scroll-mode scroll-notify scroll-right scrollbar-drag select-extend selection selection-extend settings shift-tab src start-box-selection start-extend-box-selection
 start-move start-resize start-row-resize start-search stop-display
 tab top-column
 u1 u10 u2 u3 u4 u5 u6 u7 u8 u9 unix-end use-revvide
 validate-condition value-changed
 web-notify white window-close window-resized window-restored
-/C5"WebSpeed API Functions" Colors = 4210816 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+/C5"WebSpeed API Functions"
 available-messages
 check-agent-mode convert-datetime
 delete-cookie
@@ -320,10 +316,10 @@ output-content-type output-http-header output-messages
 queue-message
 set-cookie
 set-user-field
-url-decode url-encode url-field url-field-list url-format
-/C6"HTML Tags" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+url-field url-field-list url-format
+/C6"HTML Tags"
 <a </a> <abbr> <abbr </abbr> <above> <acronym> <acronym </acronym> <address> <address </address> <applet </applet> <array> <area </area
-<b> <b </b> <base <basefont <bdo> <bdo </bdo> <bgsound <big> <big </big> <blink> </blink> <blockquote> <blockquote </blockquote> <body <body> </body> <box> <br <br/> <big <blink <button> </button>
+<b> <b </b> <base <basefont <bdo> <bdo </bdo> <bgsound <big> <big </big> <blink> </blink> <blockquote> <blockquote </blockquote> <body <body> </body> <box> <br <br/> <blink <button> </button>
 <caption> <caption </caption> <center> <center </center> <cite> <cite </cite> <code> <code </code> <col> <col <colgroup <colgroup> </colgroup> <comment> </comment>
 <dd> <dd </dd> <del> <del </del> <dfn> <dfn </dfn> <dir> <dir </dir> <div> <div </div> <dl> <dl </dl> <dt> <dt  </dt>
 <em> <em </em> <embed
@@ -344,28 +340,28 @@ url-decode url-encode url-field url-field-list url-format
 <var> </var> <var
 <wbr>
 <xmp> </xmp>
-/C7"HTML Attributes" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+/C7"HTML Attributes"
 abbr= accept-charset= accept= accesskey= action= align= alink= alt= archive= axis=
 background= behavior below bgcolor= border=
-cellpadding= cellspacing= char= charoff= charset= checked cite= class= classid= clear= code= codebase= codetype= color= cols= colspan= compact content= coords=
-data= datetime= declare defer dir= disabled
+cellpadding= cellspacing= char= charoff= charset= cite= class= classid= clear= code= codebase= codetype= color= cols= colspan= compact content= coords=
+data= datetime= defer dir=
 enctype=
 face= for= frame= frameborder= framespacing=
 headers= height= hidden= href= hreflang= hspace= http-equiv=
 id= ismap=
 label= lang= language= link= loop= longdesc=
-mailto= marginheight= marginwidth= maxlength= media= method= multiple
+mailto= marginheight= marginwidth= maxlength= media= method=
 name= nohref noresize noshade nowrap
 object= onblur= onchange= onfocus= onkeydown= onkeypress= onkeyup= onload= onreset= onselect= onsubmit= onunload= onclick= ondblclick= onmousedown= onmousemove= onmouseout= onmouseover= onmouseup=
 profile= prompt=
 readonly rel= rev= rows= rowspan= rules=
-scheme= scope= scrolling= selected shape= size= span= src= standby= start= style= summary=
+scheme= scope= scrolling= shape= size= span= src= standby= start= style= summary=
 tabindex= target= text= title= topmargin= type=
 url= usemap=
 valign= value= valuetype= version= vlink= vspace=
 width=
 =
-/C8"Custom Functions" Case Colors = 16711808 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+/C8"Custom Functions" Case
 addError addGSNote addWONote Alert-js ascii2hex
 BuildFixtureSchedule BuildQueryStr
 CalcDETot Calculate CharFilter checkError CheckHTTPResponse cmsLog CommonStuff createColumn
