@@ -1,6 +1,6 @@
 /L20"Tcl/Tk" Line Comment = # String Chars = "' Escape Char = \ DisableMLS File Extensions = TCL TK
 /Delimiters = ~!@%^&*()+=|\/{}[]:;"'	<> ,?#
-/Function String = "proc ^([a-zA-Z_0-9]++ {[ a-zA-Z_0-9{}]++^)"
+/Function String = "proc ^([a-zA-Z_0-9]+ {[ a-zA-Z_0-9{}]*^)"
 /Indent Strings = "{"
 /Unindent Strings = "}"
 /Open Brace Strings = "{" "(" "["
