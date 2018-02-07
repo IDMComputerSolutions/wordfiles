@@ -1,0 +1,33 @@
+/L20"Dockerfile" Line Comment = #  Escape Char = \ String Chars = "' File Names = Dockerfile
+/Delimiters = ~!@$%^*()+=/\[]{}:;"<>'` ,   .?
+/Indent Strings = "{" "("
+/Unindent Strings = "}" ")"
+/Function String = "%[a-zA-Z_]"
+/https://docs.docker.com/engine/reference/builder/#
+/C1"Commands" STYLE_COMMAND
+ADD ARG
+CMD COPY
+ENTRYPOINT ENV EXPOSE
+FROM
+HEALTHCHECK
+LABEL
+MAINTAINER
+ONBUILD
+RUN
+SHELL STOPSIGNAL
+USER
+VOLUME
+WORKDIR
+/C2"Parser Directives" STYLE_OPERATOR
+]
+[
+\
+/C3"Pre-defined ARGs" STYLE_KEYWORD
+FTP_PROXY
+ftp_proxy
+HTTP_PROXY
+http_proxy
+HTTPS_PROXY
+https_proxy
+NO_PROXY
+no_proxy
