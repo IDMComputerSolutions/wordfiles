@@ -1,0 +1,2 @@
+# Wordfiles must always have CRLF line endings
+*.uew text eol=crlf
