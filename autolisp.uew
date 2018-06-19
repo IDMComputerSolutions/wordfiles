@@ -1055,7 +1055,9 @@ dictremove
 dictrename
 dictsearch
 dimxtile
+dimx_tile
 dimytile
+dimy_tile
 distance
 distof
 done_dialog
@@ -1078,6 +1080,7 @@ exp
 expand
 expt
 fill_image
+fill_imagex
 findfile
 fix
 float
@@ -1170,6 +1173,7 @@ setvar
 setview
 sin
 slide_image
+slide_imagex
 snvalid
 sqrt
 ssadd
