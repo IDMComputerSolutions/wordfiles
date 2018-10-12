@@ -1,0 +1,52 @@
+/L20"YANG" C_LANG Block Comment On = /* Block Comment Off = */ File Extensions = yang Line Comment = //
+/Delimiters = }{;" '
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/Function String = "grouping"
+/C1"Keywords"
+anyxml argument augment
+base belongs-to bit
+case choice config contact container
+default description deviate deviation
+enum error-app-tag error-message extension
+feature fraction-digits
+grouping
+identity if-feature import include input
+key
+leaf leaf-list length list
+module
+namespace notification
+ordered-by organization output
+path pattern position prefix
+range reference refine require-instance revision revision-date rpc
+status submodule
+type typedef
+unique units uses
+value
+yang-version yin-element
+/C2"Other Keywords"
+add
+current
+delete deprecated
+false
+max min
+not-supported
+obsolete
+replace
+system
+true
+unbounded user
+/C3"Data Types"
+binary bits boolean
+decimal64
+empty enumeration
+identifyref instance-identifier int16 int32 int64 int8
+leafref
+string
+uint16 uint32 uint64 uint8 union
+/C4"Occurrence constraints"
+mandatory max-elements min-elements
+presence
+/C5"Rules"
+must
+when
