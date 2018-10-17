@@ -7,8 +7,7 @@
 /Close Fold Strings = "End If" "Until" "End While" "Next" "End Function" "End Select"
 /Open Brace Strings = "{" "(" "["
 /Close Brace Strings = "}" ")" "]"
-;/Marker Characters = ":."
-
+/Marker Characters = ":."
 /C1"Keywords"
 Byref
 Case
@@ -25,7 +24,6 @@ Select Shared Step
 Then To
 Until
 While
-
 /C2"Commands"
 AS
 CLASS CONSTANT CONTINUE CONTROL CHARACTER
@@ -43,7 +41,6 @@ THIS TOPPARENT TYPE
 UNDECLARE
 WEBPAGE WITH
 YIELD
-
 /C3"Functions"
 *addslashes *any *array_ranged_assign *at_multi *atc_multi *average *bin_to_html *bin_to_plain *bin_to_rtf *cipher *count *crc *decipher *first
 *from_hex *from_hexc *from_hexn *grouping_format_get *grouping_word *grouping_word_count *grouping_word_inside *html_escape *html_to_bin *html_to_plain
@@ -304,15 +301,12 @@ w_count w_upper week week_iso week_iso_full winfaxole winhelp_show word word2 wo
 word_move word_num word_remove word_replace word_subtract word_subtractc word_tagged_pattern word_wrap wordat wordatc words wut
 year yearstart_iso
 zblank
-
 /C4"Other"
 a5_is_trace_window_open 
 s_quote SET_FONT sleep
 trace.clear traceln trace.show trace.write trace.writeln
 XBASIC_TRACE_END XBASIC_TRACE_START
-
 /C5"Variables"
-
 
 /C6"Data Types"
 a
@@ -325,7 +319,6 @@ n
 p
 t
 u
-
 /C7"Operators"
 *
 +
@@ -336,6 +329,5 @@ u
 =
 > 
 ^
-
 /C8"Separators"
 ( ) [ ] { }
