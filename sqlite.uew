@@ -1,21 +1,20 @@
 /L20"SQlite" Nocase Line Block "Line Comment = -- " "Line Comment Alt = *  " Comment On = /* Block Comment Off = */ File Extensions = SQL SQLITE
 /C1"Keywords"
-ABORT ACTION ADD AFTER ALL ALTER ANALYZE AND AS ASC ATTACH AUTOINCREMENT
-BEFORE BEGIN BETWEEN BY
-CASCADE CASE CAST CHECK COLLATE COLUMN COMMIT CONFLICT CONSTRAINT CREATE CROSS CURRENT CURRENT_DATE
-CURRENT_TIME CURRENT_TIMESTAMP
+ABORT ACTION ADD AFTER ALL ALTER ANALYZE ASC ATTACH AUTOINCREMENT
+BEFORE BEGIN BETWEEN
+CASCADE CASE CAST CHECK COLLATE COLUMN COMMIT CONFLICT CONSTRAINT CREATE CROSS CURRENT CURRENT_DATE CURRENT_TIME CURRENT_TIMESTAMP
 DATABASE DEFAULT DEFERRABLE DEFERRED DELETE DESC DETACH DISTINCT DO DROP
-EACH ELSE END ESCAPE EXCEPT EXCLUSIVE EXISTS EXPLAIN
+EACH ESCAPE EXCEPT EXCLUSIVE EXPLAIN
 FAIL FILTER FOLLOWING FOR FOREIGN FROM FULL
-GLOB GROUP
+GROUP
 HAVING
-IF IGNORE IMMEDIATE IN INDEX INDEXED INITIALLY INNER INSERT INSTEAD INTERSECT INTO IS ISNULL
+IGNORE IMMEDIATE INDEX INDEXED INITIALLY INNER INSERT INSTEAD INTERSECT INTO ISNULL
 JOIN
 KEY
-LEFT LIKE LIMIT
+LEFT LIMIT
 MATCH
-NATURAL NO NOT NOTHING NOTNULL NULL
-OF OFFSET ON OR ORDER OUTER OVER
+NATURAL NO NOTHING
+OFFSET ORDER OUTER OVER
 PARTITION PLAN PRAGMA PRECEDING PRIMARY
 QUERY
 RAISE RANGE RECURSIVE REFERENCES REGEXP REINDEX RELEASE RENAME REPLACE RESTRICT RIGHT ROLLBACK ROW ROWS
@@ -23,21 +22,20 @@ SAVEPOINT SELECT SET
 TABLE TEMP TEMPORARY THEN TO TRANSACTION TRIGGER
 UNBOUNDED UNION UNIQUE UPDATE USING
 VACUUM VALUES VIEW VIRTUAL
-WHEN WHERE WINDOW WITH WITHOUT
+WHEN WHERE WINDOW
 /C2"core functions"
 abs
 changes char coalesce
 glob
 hex
 ifnull instr
-last_insert_rowid length like likelihood likely load_extension lower ltrim
+last_insert_rowid length like likelihood likely load_extension load_extension lower ltrim
 max min
 nullif
 printf
 quote
 random randomblob replace round rtrim
-soundex sqlite_compileoption_get sqlite_compileoption_used sqlite_offset sqlite_source_id sqlite_version
-substr
+soundex sqlite_compileoption_get sqlite_compileoption_used sqlite_offset sqlite_source_id sqlite_version substr
 total_changes trim typeof
 unicode unlikely upper
 zeroblob
@@ -57,44 +55,47 @@ time
 cume_dist
 dense_rank
 first_value
-lag last_value lead
-nth_value ntile
+lag lead last_value
+ntile nth_value
 percent_rank
 rank row_number
 /C6"JSON functions"
-json json_array json_array_length json_each json_extract json_group_array json_group_object json_insert
-json_object json_patch json_quote json_remove json_replace json_set  son_tree json_type json_valid
+json json_array json_array_length json_each json_extract json_group_array json_group_object json_insert json_object json_patch json_remove json_replace json_set json_tree json_type json_valid json_quote
 /C7"dot commands"
-.backup .bail .clone .databases .dump .echo .eqp .exit .explain .headers .help .import .indices .load .log
-.mode .nullvalue .once .open .output .print .prompt .quit .read  restore .save .schema .separator .shell
-.show .stats .system .tables .timeout .timer .trace .vfsname .width
+.backup .bail
+.clone
+.databases .dump
+.echo .eqp .exit .explain
+.headers .help
+.import .indices
+.load .log
+.mode
+.nullvalue
+.once .open .output
+.print .prompt
+.quit
+.read .restore
+.save .schema .separator .shell .show .stats .system
+.tables .timeout .timer .trace
+.vfsname
+.width
 /C8"Parameters"
-int integer
-real
-short smallint
-unsigned
-varchar
+BLOB
+INTEGER
+NOTNULL NULL
+REAL
+TEXT
 /C9"Operators"
-!=
-%
-&
-*
-+
--
-// /
-< << <= <>
-= ==
-> >= >>
-AND
-GLOB
-IN IS
+AND AS
+BY
+ELSE END EXISTS
+IF IN IS
 LIKE
+GLOB
 MATCH
 NOT
-OR
+OF ON OR
 REGEXP
-| ||
-~
+WITH WITHOUT
 /C10"Special"
-ID
 ROWID
