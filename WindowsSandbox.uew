@@ -9,7 +9,7 @@
 <Networking> </Networking>
 <ReadOnly> </ReadOnly>
 <VGpu> </VGpu>
-/C2"Built-in Constants" STYLE_EXTENSION
+/C2"Built-in Constants" STYLE_KEYWORD
 Disable
 Enable
 false
