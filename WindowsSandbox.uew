@@ -1,7 +1,7 @@
-/L6"Windows Sandbox Configuration File" XML_LANG Noquote Block Comment On = <!-- Block Comment Off = --> File Extensions = WSB
+/L20"Windows Sandbox Configuration File" Noquote Block Comment On = <!-- Block Comment Off = --> File Extensions = WSB
 /Open Brace Strings =  "<"
 /Close Brace Strings = ">"
-/C1"Elements" STYLE_ELEMENT
+/C1"Elements"
 <Command> </Command> <Configuration> </Configuration>
 <HostFolder> </HostFolder>
 <LogonCommand> </LogonCommand>
@@ -9,7 +9,7 @@
 <Networking> </Networking>
 <ReadOnly> </ReadOnly>
 <VGpu> </VGpu>
-/C2"Built-in Constants" STYLE_KEYWORD
+/C2"Built-in Constants"
 Disable
 Enable
 false

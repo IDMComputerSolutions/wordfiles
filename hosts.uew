@@ -1,12 +1,13 @@
 /L20"Windows Hosts File" Nocase Line Comment = # File Names = hosts
+/Regexp Type = Perl
 /TGBegin "IP Addresses"
 /TGFindStr = "^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\s+"
 /TGEnd
-/Delimiters =
-/C1"Hosts" STYLE_KEYWORD
+/Delimiters = 	 |
+/C1"Hosts"
 broadcasthost
 local localhost
-/C3"Default IP Addresses" STYLE_ELEMENT
+/C3"Default IP Addresses"
 ::1
 0.0.0.0
 127.0.0.1
