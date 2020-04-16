@@ -1,0 +1,16 @@
+/L20"Windows Sandbox Configuration File" Noquote Block Comment On = <!-- Block Comment Off = --> File Extensions = WSB
+/Open Brace Strings =  "<"
+/Close Brace Strings = ">"
+/C1"Elements"
+<Command> </Command> <Configuration> </Configuration>
+<HostFolder> </HostFolder>
+<LogonCommand> </LogonCommand>
+<MappedFolder> </MappedFolder> <MappedFolders> </MappedFolders>
+<Networking> </Networking>
+<ReadOnly> </ReadOnly>
+<VGpu> </VGpu>
+/C2"Built-in Constants"
+Disable
+Enable
+false
+true
