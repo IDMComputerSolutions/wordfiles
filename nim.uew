@@ -1,0 +1,59 @@
+/L20"Nim" Line Comment = # Escape Char = \  String Chars = "' String Literal Prefix = r File Extensions = NIM
+/Indent Strings = ":"
+/Open Brace Strings = "(" "[" "{"
+/Close Brace Strings = ")" "]" "}"
+/Delimiters = ~!@$%^&*()_-+=|\/{}[]:;"'<> ,.?/
+/TGBegin "Functions"
+/TGFindStr = "^[ \t]*proc[ \t]+([^:\r\n]*)\("
+/TGBegin "Parameters"
+/TGFindStr = "[ \t\n]*([^,]+)"
+/TGFindBStart = "\("
+/TGFindBEnd = "\)"
+/TGEnd
+/TGEnd
+/Regexp Type = Perl
+/C1"Keywords" STYLE_KEYWORD
+addr and as asm
+bind block break
+case cast concept const continue converter
+defer discard distinct div do
+elif else end enum except export
+finally for from func
+if import in include interface is isnot iterator
+let
+macro method mixin mod
+nil not notin
+object of or out
+proc ptr
+raise ref return
+shl shr static
+template try tuple type
+using
+var
+when while
+xor
+yield
+/C2"Operators" STYLE_OPERATOR
+!
+$
+%
+&
+*
++
+-
+.
+// /
+:
+<
+=
+>
+?
+@
+\
+^
+|
+~
+/C3"Predefined Types"
+float
+int
+uint
