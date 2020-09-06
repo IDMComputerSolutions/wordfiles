@@ -1,0 +1,75 @@
+/L20"OpenSCAD" JSCRIPT_LANG Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ String Chars = '" File Extensions = SCAD
+/TGBegin "Functions"
+/TGFindStr = "^[ \t]*module[ \t]*(\w+[ \t]*)\(.*\)"
+/TGFindStr = "^[ \t]*module[ \t]*(\w+[ \t]*)\([^\)]*?\)"
+/TGBegin "Parameters"
+/TGFindStr = "[ \t\n]*([^,\s]+)"
+/TGFindBStart = "\("
+/TGFindBEnd = "\)"
+/TGEnd
+/TGEnd
+/Regexp Type = Perl
+/Delimiters = ! "	%&'()*+,-./:;<=>?@[\]^{|}~
+/Indent Strings = "{" "else"
+/Unindent Strings = "}"
+/Open Brace Strings =  "{" "(" "[" "<"
+/Close Brace Strings = "}" ")" "]" ">"
+/Open Fold Strings = "{"
+/Close Fold Strings = "}"
+/C1"Keywords" STYLE_KEYWORD
+abs acos asin assert assign atan atan2
+ceil children chr concat cos cross  
+echo else exp floor
+for function
+if is_bool is_list is_num is_string is_undef
+len let let ln log 
+max min module 
+norm
+offset ord parent_module
+pow
+rands round
+search sign sin sqrt str surface
+tan text 
+version version_num 
+/C2"Objects" STYLE_OPERATOR
+difference
+import include intersection
+union use
+/C3"Methods and Properties" STYLE_METHOD
+circle color cylinder cube
+hull
+intersection_for
+linear_extrude lookup
+minkowski mirror multmatrix
+polygon polyhedron projection
+render resize rotate rotate_extrude 
+scale sphere square
+translate
+/C4"Operators" STYLE_OPERATOR
+!
+$
+%
+&
+*
++
+-
+// /
+:
+<
+=
+>
+?
+[
+]
+^
+|
+~
+/C5"Separators" STYLE_OPERATOR
+(
+)
+,
+;
+{
+}
+/C7"3rd Party Library Commands" STYLE_FUNCTION
+/C8"Interal Commands" STYLE_FUNCTION
