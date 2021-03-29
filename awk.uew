@@ -1,39 +1,49 @@
-/L20"AWK Script" Line Comment = # Escape Char = \ String Chars = "' File Extensions = AWK
+/L20"AWK Script" Line Comment = # Escape Char = \ String Chars = "' File Extensions = AWK GAWK
 /Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
 /Function String = "%[a-zA-Z_]*)"
 /Indent Strings = "{"
 /Unindent Strings = "}"
-/C1
-atan2
+/C1"Keywords"
+BEGIN
+BEGINFILE
+END
+ENDFILE
 break
-BEGIN 
-close continue cos
-delete do
-else exp exit
-END 
-for function
-getline gsub
-if index int
-length local log
-match
-next
-print printf
-rand return
-sin split sprintf sqrt srand sub substr system
-tolower toupper
-while
-/C2
-ARGC ARGV
+case continue
+default delete do
+else exit
+for func function
+if in
+next nextfile
+while witch
+** @
+/C2"Built-in Variables"
+ARGC ARGIND ARGV
+BINMODE
 CONVFMT
-ENVIRON
-FILENAME
-FNR
-FS
+ENVIRON ERRNO
+FIELDWIDTHS FILENAME FNR FPAT FS
+IGNORECASE
+LINT
 NF NR
 OFMT OFS ORS
-RLENGTH RS RSTART
+PROCINFO
+RLENGTH RS RSTART RT
 SUBSEP
-/C4
+TEXTDOMAIN
+/C3"Built-in Functions"
+asort asorti atan2
+cos
+gensub gsub
+exp
+index int
+length log
+match
+patsplit print printf
+rand
+sin split sprintf sqrt srand strtonum sub substr
+tolower toupper
+/C4"Operators"
 +
 -
 =
