@@ -1,0 +1,62 @@
+/L20"Terraform" Line Comment = # // Block Comment On = /* Block Comment Off = */ Nocase Escape Char = \ String Chars = " File Extensions = tf
+/Delimiters = 	:{}[],
+/Indent Strings = "{" "["
+/Unindent Strings = "}" "]"
+/Open Brace Strings =  "{" "(" "["
+/Close Brace Strings = "}" ")" "]"
+/Open Fold Strings = "{" "["
+/Close Fold Strings = "}" "]"
+/Word Select Include = $
+/C1"Keywords"
+0.12upgrade 0.13upgrade
+apply
+backend
+connecion console count
+data default delete depends_on destroy
+env
+fmt force-unlock for_each
+get graph
+import init
+lifecycle list locals lock login logout
+mirror mv
+new
+output
+plan provider providers provider_metadata provisioner pull push
+refresh replace-provider resource rm
+schema select show state
+taint terraform timeouts
+untaint
+validate variable
+workspace
+/C2"Binary""
+false
+null
+true
+/C3"Variables"
+$
+/C4"Functions"
+abs alltrue anytrue
+base64decode base64encode base64gzip base64sha256 base64sha512 basename baspath bcrypt
+can ceil chomp chunklist cidrhost cidrsubnet cidrsubnets cirdrnetmask coalesce coalescelist compact concat
+contains csvdecode
+defaults dirname distinct
+element
+file filebase64 filebase64sha256 filebase64sha512 fileexists filemd5 fileset filesha1 filesha256
+filesha512 flatten floor format formatdate formatlist
+indent index
+join jsondecode jsonencode
+keys
+length log lookup lower
+map matchkeys max md5 merge min
+nonsensitive
+one
+parseint pathexpand pow
+range regex regexall replace reverse rsadecrypt
+sensitive setintersection setproduct setsubtract setunion sha1 sha256 sha512 signum slice sort split
+strrev substr sum
+templatefile textdecodebase64 textencodebase64 timeadd timestamp title tobool tolist tomap tonumber toset
+tostring transpose trim trimprefix trimspace trimsuffix try
+upper urlencode uuid uuidv5
+values
+yamldecode yamlencode
+zipmap
