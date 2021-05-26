@@ -1,228 +1,228 @@
-/L20"ABB RAPID" Line Comment = ! String Chars = " File Extensions = PRG MOD SYS
+>>--Rapid WordFile----------------------------------"20/05/2021"-.
+|                                                                 |
+|                   [ Language: Rapid (Irc5) ]                    |
+|                        [ Version: 1.3 ]                         |
+|                                                                 |
+.----------------------------------------------------------------------.
+| Notes:                           >>---------------------------------.|
+.----------------------------------|         By: Antoine               |
+|                                  >>----------------------------------|
+|                                                                      |
+!  - ## View this module with the ABB Rapid IRC5 highligting enabled!  |
+|                                                                      |
+!  - The Rapid_DATA Language can be used for a extended functionlist   |
+!    that scans for datatypes # NOT completed!                         |
+!    *press F8 to open the functionlist                                |
+!    Press Ctrl+f and find Rapid_DATA, add your data names there.      |
+|                                                                      |
+!  - Use the User 1, 2 & 3 to include user defined highlighting        |
+|                                                                      |
+!  - I havnt figured out how to predefine a colorgroup so dont forget  |
+!    to modify your theme under: layout->themes->syntax.               |
+|                                                                      |
+|  - NOTE! The Reindent selection is NOT compatible with the           |
+!    compact if function! wich is disabled by default!                 |
+|  - Uncomment line 418 & 419 to enable the indent section!            |
+|                                                                      |
+|  - NOTE! This wordfile does not have 100% of the available rapid     |
+!    code included, i have stopped to add new data since end 2019.     |
+|                                                                      |
+|  Feel free to modify or extend this wordfile.                 ENJOY  !
+.----------------------------------------------------------------------.
 
-/TGBegin "Module name"
-  /TGFindStr = "%[ ^t]++MODULE^([ ^t]+[a-z0-9_]+^)$"
-  /TGFindStr = "%[ ^t]++MODULE^([ ^t]+[a-z0-9_]+([a-ö0-9_,]+)^)$"
-/TGEnd
-/TGBegin "Traps (Local)"
-  /TGFindStr = "%[ ^t]++LOCAL++[ ^t]++TRAP[ ^t]+^([~,()]+$^)"
-/TGEnd
-/TGBegin "Traps"
-  /TGFindStr = "%[ ^t]++TRAP[ ^t]+^([~,()]+$^)"
-/TGEnd
-/TGBegin "Functions (Local)"
-  /TGFindStr = "%[ ^t]++LOCAL++[ ^t]FUNC[ ^t]+^([a-z]+[ ^t]+[~,()]+()$^)"
-  /TGFindStr = "%[ ^t]++LOCAL++[ ^t]FUNC[ ^t]+^([a-z]+[ ^t]+[~,()]+^)[ ^t]++([~)]+)$"
-  /TGBegin "Arguments"
-    /TGFindStr = "[~,()]+"
-    /TGFindBStart = "("
-    /TGFindBEnd = ")"
-  /TGEnd
-/TGEnd
-/TGBegin "Functions"
-  /TGFindStr = "%[ ^t]++FUNC[ ^t]+^([a-z]+[ ^t]+[~,()]+()$^)"
-  /TGFindStr = "%[ ^t]++FUNC[ ^t]+^([a-z]+[ ^t]+[~,()]+^)[ ^t^p]++([~)]+)$"
-  /TGBegin "Arguments"
-    /TGFindStr = "[~,()]+"
-    /TGFindBStart = "("
-    /TGFindBEnd = ")"
-  /TGEnd
-/TGEnd
-/TGBegin "Procedures (Local)"
-  /TGFindStr = "%[ ^t]++LOCAL++[ ^t]PROC[ ^t]+^([~,()]+()$^)"
-  /TGFindStr = "%[ ^t]++LOCAL++[ ^t]PROC[ ^t]+^([~,()]+^)[ ^t]++([~)]+)$"
-  /TGBegin "Arguments"
-    /TGFindStr = "[~,()]+"
-    /TGFindBStart = "("
-    /TGFindBEnd = ")"
-  /TGEnd
-/TGEnd
-/TGBegin "Procedures"
-  /TGFindStr = "%[ ^t]++PROC[ ^t]+^([~,()]+()$^)"
-  /TGFindStr = "%[ ^t]++PROC[ ^t]+^([~,()]+^)[ ^t^p]++([~)]+)$"
-  /TGBegin "Arguments"
-    /TGFindStr = "[~,()]+"
-    /TGFindBStart = "("
-    /TGFindBEnd = ")"
-  /TGEnd
-/TGEnd
-/TGBegin "Records"
-  /TGFindStr = "%[ ^t]++RECORD[ ^t]+^([~,()]+$^)"
-/TGEnd
-/TGBegin "Tooldata"
-  /TGFindStr = "[ ^t]+tooldata[ ^t]+^([~,();]+:=[~;]+[;]$^)"
-/TGEnd
-/TGBegin "WObjects"
-  /TGFindStr = "[ ^t]+wobjdata[ ^t]+^([~,();]+:=[~;]+[;]$^)"
-/TGEnd
-/TGBegin "robtargets"
-  /TGFindStr = "[ ^t]+robtarget[ ^t]+^([~,();]+:=[~;]+[;]$^)"
-/TGEnd
-/TGBegin "Syntax Errors"
-  /TGFindStr = "%[ ^t]++LOCAL++[ ^t]++PROC[ ^t]+^([a-z]+[ ^t]+[~,()]+()$^)"
-  /TGFindStr = "%[ ^t]++LOCAL++[ ^t]++PROC[ ^t]+^([a-z]+[ ^t]+[~,()]+^)[ ^t]++([~)]+)$"
-  /TGFindStr = "%[ ^t]++PROC[ ^t]+^([a-z]+[ ^t]+[~,()]+()$^)"
-  /TGFindStr = "%[ ^t]++PROC[ ^t]+^([a-z]+[ ^t]+[~,()]+^)[ ^t]++([~)]+)$"
-  /TGFindStr = "%[ ^t]++[a-z0-9_]+();$"
-  /TGFindStr = "THEN[:;]"
-  /TGFindStr = "ELSE[:;]"
-  /TGFindStr = "ELSEIF[:;]"
-  /TGFindStr = "ENDTEST[:;]"
-  /TGFindStr = "ENDIF[:;]"
-  /TGFindStr = "ENDFOR[:;]"
-  /TGFindStr = "ENDWHILE[:;]"
-  /TGFindStr = "RETURN$"
-  /TGFindStr = "DO[:;]"
-  /TGFindStr = "ENDPROC[:;]"
-  /TGFindStr = "ENDFUNC[:;]"
-  /TGFindStr = "%[ ^t]+[a-z0-9_]+=[a-z0-9_]+;$"
-  /TGFindStr = "%[ ^t]+IF[ ^t]+[a-z0-9_]+:=[a-z0-9_]+[ ^t]+THEN$"
-  /TGFindStr = "%[ ^t]+TEST[ ^t]+[a-z0-9_]+[:;]$"
-  /TGFindStr = "%[ ^t]+CASE[ ^t]+[a-z0-9_]+$"
-  /TGFindStr = "%[ ^t]+VAR[ ^t]+[a-z]+[ ^t]+[a-z0-9_]+$"
-  /TGFindStr = "%[ ^t]+VAR[ ^t]+[a-z]+[ ^t]+[a-z0-9_]+:=[a-z0-9_^[^],^"]+$"
-  /TGFindStr = "%[ ^t]+VAR[ ^t]+[a-z]+[ ^t]+[a-z0-9_]+=[a-z0-9_^[^],^"]+;$"
-  /TGFindStr = "%[ ^t]+PERS[ ^t]+[a-z]+[ ^t]+[a-z0-9_]+$"
-  /TGFindStr = "%[ ^t]+PERS[ ^t]+[a-z]+[ ^t]+[a-z0-9_]+="
-  /TGFindStr = "%[ ^t]+PERS[ ^t]+[a-z]+[ ^t]+[a-z0-9_]+:=[a-z0-9_^[^],^"]+$"
-/TGEnd
-/Open Fold Strings =  "WHILE"    "IF"     "FOR"    "TEST"    "PROC"    "FUNC"    "TRAP"
-/Close Fold Strings = "ENDWHILE" "ENDIF"  "ENDFOR" "ENDTEST" "ENDPROC" "ENDFUNC" "ENDTRAP"
-/Indent Strings =   "DO" "THEN" "PROC" "FUNC" "TRAP"
-/Unindent Strings = "ENDWHILE" "ENDIF" "ENDPROC" "ENDFUNC" "ENDTRAP" "ELSE" "ELSEIF" "ERROR"
-/Delimiters = { } ( ) [ ] , . = + - * / : ; ! \ ? := <> >= <=
-/C1"Reserved words" STYLE_KEYWORD
+/L2"Rapid_IRC5" /Nocase /Line Comment = ! 
+/File Extensions = SYS MOD PRG
+/File Names = Rapid_Pro
+!###################################################################################
+ COLORS GROUPS  !##################################################################
+!#################################################################################
+
+! You can change the User_x to your own description.
+
+/C1"User_1"
+aaa 
+
+/C2"User_2"
+bbb
+
+/C3"User_3"
+Score
+Highscore
+RandomNumber
+Difficulty
+Turn
+MoveSpeed
+level
+Deaths
+GameTime
+Champion
+GridData
+GameData
+Game
+GridSize
+Pressure
+RetractHeight
+EntryHeight
+Installed
+RobotStarts
+ErasorPresent
+BoardIsClean
+Draw_Grid
+Tp_Mode
+RobotWins
+GameOver 
+Player
+Robot
+Grid
+WinGrid
+NOTE
+Rapid
+IRC5
+ENJOY
+Antoine
+!#######################################################################################################
+
+/C4"Variables"
 ALIAS
 BACKWARD
-CASE CONNECT CONST
-DEFAULT DO
-ELSE ELSEIF ENDFOR ENDFUNC ENDIF ENDMODULE ENDPROC ENDRECORD ENDTEST ENDTRAP ENDWHILE ERRNO ERROR EXIT
-FOR FROM FUNC
-GOTO
-IF INOUT INTNO
-LOCAL
-MODULE
-NOSTEPIN NOVIEW
-PERS PROC
-RAISE READONLY RECORD RETRY RETURN
-STEP SYSMODULE
-TEST THEN TO TRAP TRYNEXT
-UNDO
-VAR VIEWONLY
-WHILE WITH
-/C2"Operators" STYLE_OPERATOR 
-AND
-DIV
-EQ
-GT GTEQ
-LT LTEQ
-MOD
-NOT NOTEQ
-OR
-XOR
-/C3"Instructions" STYLE_METHOD
-AROEnter AROExit AROWarning AccSet ActUnit Add AliasIO ArcC ArcKill ArcL ArcRefresh
-BitClear BitSet BookErrNo Break
-CalibJ CalibL Calibrate CallByVar CancelLoad CirPathMode CirPathReori Clear ClearIOBuff ClearPath
-ClearRawBytes ClkReset ClkStart ClkStop Close CloseDir CnvStopSigName Compact ConfJ ConfL CopyFile
-CopyRawBytes CorrClear CorrCon CorrDiscon CorrRead CorrWrite CreateInstDat
-DataLogReset DeactUnit Decr DistCnvStart DitherAct DitherDeact DropSensor DropWObj
-EOffsOff EOffsOn EOffsSet EraseModule ErrLog ErrRaise ErrWrite ExitCycle
-FlushItmSrc FreeItmSrc
-GetAllItmSrc GetDataVal GetItmTgt GetItmTgts GetSysData GetTrapData GlueC GlueJ GlueL GripLoad
-HollowWristReset
-IDelete IDisable IEnable IError IODisable IOEnable IPers ISignalAI ISignalAO ISignalDI ISignalDO ISignalGI
-ISignalGO ISleep ITimer IVarValue IWatch Incr IndAMove IndCMove IndDMove IndRMove IndReset InstDat
-InvertDO ItmSrcByName
-LimConfL Load LoadId
-MToolRotCalib MToolTCPCalib MakeDir ManLoadIdProc MechUnitLoad MotionSup MoveAbsJ MoveC MoveCDO MoveCSync
-MoveExtJ MoveJ MoveJDO MoveJSync MoveL MoveLDO MoveLSync
-NewItmSrc
-Open OpenDir
-PDispOff PDispOn PDispSet PFIOResto PackDNHeader PackRawBytes PathAccLim PathRecMoveBwd PathRecMoveFwd
-PathRecStart PathRecStop PathResol ProbeReset ProcCall ProcErrStatus ProcerrRecovery PulseDO PutItmTgt
-PutItmTgts
-QStartItmSrc QStopItmSrc
-RESTORE_IO RaiseToUser ReadAnyBin ReadBlock ReadCfgData ReadErrData ReadRawBytes ReadVar RemoveDir
-RemoveFile RenameFile Reset ResetItmSrc RestoPath Rewind
-SCWrite STCalcForce STCalcTorgue STCalib STClose STIsClosed STIsOpen STOpen STTune STTuneReset
-SToolRotCalib SToolTCPCalib SYS_POWERON SYS_RESET SearchC SearchL Set SetAO SetAllDataVal SetDO
-SetDataSearch SetDataVal SetForce SetGO ShadowDO SingArea SocketAccept SocketBind SocketClose
-SocketConnect SocketCreate SocketListen SocketReceive SocketSend SoftAct SoftDeact SpcCon SpcDiscon
-SpcDump SpcRead SpcStat SpcWrite SpeedPrioDeact SpotJ SpotL SpotMJ SpotML SpyStart SpyStop StartMove
-StartMoveRetry StepBwdPath Stop StopMove StorePath SyncMoveOff SyncMoveOn SyncMoveUndo SyncToSensor
-SysInit1
-TPErase TPReadFK TPReadNum TPShow TPWrite TestSignDefine TestSignReset TextTabInstall TriggC TriggCheckIO
-TriggEquip TriggIO TriggInt TriggJ TriggL TriggSpeed TriggStopProc TuneReset TuneServo
-UIMsgBox UnLoad UnpackRawBytes
-VelSet
-WZBoxDef WZCylDef WZDOSet WZDisable WZEnable WZFree WZHomeJointDef WZLimJointDef WZLimSup WZSphDef
-WZTempFree WaitDI WaitDO WaitSensor WaitSyncTask WaitTime WaitUntil WaitWObj WarmStart WorldAccLim Write
-WriteAnyBin WriteBin WriteCfgData WriteRawBytes WriteStrBin
-label
-/C4"Functions" STYLE_FUNCTION
-ACos AInput AOutput ASin ATan ATan2 Abs AbsDnum ArgName
-BitAnd BitCheck BitLSh BitNeg BitOr BitRSh BitXOr ByteToStr
-CDate CJoint CJointT CPos CRobT CSpeedOverride CTime CTool CWobj CalcJointT CalcRobT CalcRotAxFrameZ
-CalcRotAxisFrame ClkRead Cos
-DInput DOutput DecToHex DefAccFrame DefDFrame DefFrame Dim Distance DnumToStr DotProd
-EulerZYX Exp
-FSSize FileSize FileTime
-GOutput GetNextMechUnit GetNextSym GetSysInfo GetTaskName GetTime
-HexToDec
-IOUnitState IndInpos IndSpeed IsFile IsMechUnitActive IsPers IsStopStateEvent IsSyncMoveOn IsSysId IsVar
-MaxRobSpeed MirPos ModTime
-NOrient NonMotionMode NumToStr
-ORobT Offs OpMode OrientZXY
-PFRestart ParIdPosValid ParIdRobValid PathRecValidBwd PoseInv PoseMult PoseVect Pow PowDnum Present
-ProgMemFree
-RawBytesLen ReadBin ReadMotor ReadNum ReadStr ReadStrBin RelTool RobOS Round RoundDnum RunMode
-Sin SingAreaWrist SocketGetStatus Sqrt SqrtDnum StrFind StrLen StrMap StrMatch StrMemb StrOrder StrPart
-StrToByte StrToVal
-Tan TaskRunMec TaskRunRob TestAndSet TestDI TestSignRead TextGet TextTabFreeToUse TextTabGet Trunc
-TruncDnum
-UIAlphaEntry UIClientExist UIListView UIMessageBox UINumEntry UINumTune
-ValToStr VectMagn
-/C5"Datatypes" STYLE_KEYWORD
-Dnum
-beaddata bool byte
-clock confdata corrdescr
-datapos dionum dir
-equipdata errdomain errnum errtype extjoint
-forcedata
-ggundata gundata gunmdata
-intnum iodev itmsrc itmsrcinstdat itmtgt
+CONST
+INOUT
+PERS
+TASK
+VAR 
+By
+TGBegin
+TGEnd
+
+/C5"Datatypes"
+AsInteger
+bool btnres byte btnOKCancel
+CirTargets clock confdata CallByVar
+dionum datapos dnum dir Directory  diskhome disktemp
+errnum extjoint extax eax_a  eax_b eax_c eax_d eax_e eax_f ERRNO
+header
+intnum iodev interch iconInfo iconnone  
 jointtarget
-loaddata loadsession
-mecunit motsetdata
+loaddata listitem load0
+mecunit motsetdata MoveHome
 num
-o_jointtarget o_robtarget opnum orient
-pos pose progdisp
-robjoint robtarget
-seamdata shapedata signalai signalao signaldi signaldo signalgi signalgo simdata socketdev speeddata
-spotdata spotmdata string switch symnum syncident
-taskid tasks testsignal tooldata tpnum trapdata triggdata tunetype
-weavedata welddata wobjdata wzstationary wztemporary
+orient o_jointtarget o_robtarget opnum OP_AUTO OP_MAN_PROG OP_MAN_TEST OP_UNDEF oframe
+partadv partdata pos pose progdisp
+robjoint robtarget robax rax_1  rax_2 rax_3 rax_4 rax_5 rax_6 ROB_1 ROB_2 ROB_3 ROB_4 ROB_5 Result
+shapedata spotdata spotmdata syncident signalxx seamdata signalai signalao signaldi signaldo signalgi signalgo speeddata string switch symnum
+tooldata tpnum triggdata tunetype trans Tool0 taskid tasks task
+uframe
+volumedata v_leax v_ori v_reax v_tcp
+wobjdata welddata weavedata wzstationary wztemporary Wobj0 
+stn1 stn2 
 zonedata
-/C7"Variables" STYLE_VARIABLE
-clock1
-dig_input1 dig_input2 diskhome disktemp
-edge
-fine fllwtime fllwtime0_5 fllwtime1_0 fllwtime1_5 flp1
-high
-inpos inpos100 inpos20 inpos50
-load0 low
+x y z
+TGFindStr TGFindBStart TGFindBEnd
+
+/C6"Functions"
+% 
+AND
+CONNECT
+DO 
+ELSE ELSEIF ENDFOR ENDIF ENDRECORD ENDTEST ENDWHILE EXIT
+FOR FROM   
+GOTO               
+IF
+LOCAL Language
+Name NOVIEW NOSTEPIN
+OR
+RECORD READONLY
+SYSMODULE
+THEN TO  
+Version VIEWONLY
+WHILE WITH
+
+/C7"Runtime"
+Abs Acos AOutput ArgName ASin ATan ATan2 AbsDnum AInput
+ByteToStr Buttons
+CalcJointT CalcRobT Calc_CirCntr CDate CJointT ClkRead CnvrtRobt Cos CPos CRobT CTime CTool CWobj CJoint
+DefDFrame DefFrame Dim Disp_Wobj DefAccFrame DnumToStr Distance DotProd DInput DOutput DefaultIndex DecToHex
+EulerZYX Exp
+FileTime FileSize
+GetNextSym GetTime GInput GOutput GetNextMechUnit  etSysInfo GetTaskName
+HexToDec
+IsPers IsVar IsFile IsStopStateEvent Icon iconwarning
+MirPos ModTime Message MinValue  ManLoadIdProc MechUnitLoad MsgArray BtnArray MaxRobSpeed MakeDir
+NOrient NumToStr NonMotionMode
+Offs OpMode OrientZYX OrientZXY ORobT
+PoseInv PoseMult PoseVect Pow Present ProgMemFree
+ReadBin ReadMotor ReadNum ReadStr ReadStrBin RobOS RoundDnum RelTool Round RunMode RawBytesLen
+Sin SingAreaWrist SYS_POWERON SetForce SYS_RESET SocketGetStatus SetAllDataVal Sqrt SqrtDnum StrFind StrLen StrMap StrMatch StrMemb StrOrder StrPart StrToByte StrToVal
+SocketAccept SocketBind SocketClose SocketConnect SocketCreate SocketListen SocketReceive SocketSend SpcDump SpcRead SpcStat SpcWrite SpeedPrioDeact 
+SpotJ SpotL SpotMJ SpotML SpyStart SpyStop 
+Tan TestAndSet TestDI TextGet TextTabGet Trunc TruncDnum TaskRunMec TaskRunRob 
+ValToStr VectMagn
+\
+
+/C8"Operators"
+:
+=
+&
+*
++
+-
+.
+<
+>
+Add AndAlso As
+Not
+OrElse
+Xor
 pi
-ram1disk reg1 reg2 reg3 reg4 reg5 reg6 reg7 reg8 reg9 resolver_angle
-speed speed_ref stEmpty stoptime stoptime0_5 stoptime1_0 stoptime1_5
-tool0 torque_ref
-v_max v_leax v_ori v_reax v_tcp v0 v1 v10 v100 v1000 v150 v1500 v2 v20 v200 v2000 v25 v250 v2500 v3 v30 v300 v3000 v35 v350 v3500 v4 v40 v400 v4000 v45 v450 v4500 v5 v50 v500 v5000 v5500 v60 v600 v6000 v6500 v70 v700 v7000 v80 v800 v90 v900 vlin10 vlin100 vlin1000 vlin20 vlin200 vlin50 vlin500 vmax vrot1 vrot10 vrot100 vrot2 vrot20 vrot5 vrot50
-wobj0
-z0 z1 z10 z100 z15 z150 z2 z20 z200 z3 z30 z4 z40 z5 z50 z60 z70 z80 z90
-/C8"System constants and vars" STYLE_VARIABLE
-AW_EQIP_ERR AW_IGNI_ERR AW_START_ERR AW_STOP_ERR AW_TRACKSTA_ERR AW_TRACK_ERR AW_USERSIG_ERR
-AW_WDM_SIGNSTOP AW_WDM_STABSTOP AW_WELD_ERR AW_WIRE_ERR
-DO_GL_Active DO_GL_Err DO_GL_OvrSpd
+Incr
+decr
+
+/C9"Runtime Instructions"
+AccSet ActUnit AliasIO ArcKill ArcRefresh
+Break BitClear BitSet BookErrNo 
+Clear ClkReset ClkStart ClkStop Close ConfJ ConfL  CancelLoad CirPathMode CirPathReori  ClearIOBuff ClearPath CloseDir ClearRawBytes
+CalibJ CalibL Calibrate CopyRawBytes CorrRead CorrWrite
+DeactUnit  DistCnvStart DitherAct DitherDeact DropSensor DropWObj DataLogReset
+EOffsOff EOffsOn EOffsSet ExitCycle
+false
+GetSysData GetTrapData GlueC GlueJ GlueL GripLoad GetAllItmSrc GetDataVal GetItmTgt GetItmTgts
+IDelete IDisable IEnable InvertDO IError IODisable  IPers ISignalGO ISignalAI ISignalAO IOEnable ISignalDI ISignalDO ISleep ITimer IVarValue IWatch inpos inpos100 inpos20 inpos50
+IndAMove IndCMove IndDMove IndReset IndRMove IsMechUnitActive IsSyncMoveOn IsSysId
+Load  
+MoveCDO MoveJDO MoveLDO  MoveCSync MoveJSync MoveLSync 
+Open OpenDir
+CopyFile 
+RemoveFile
+PathResol ProcCall PFIOResto PackDNHeader PackRawBytes PathAccLim PathRecStart PathRecStop PathRecMoveBwd PathRecMoveFwd PDispOff PDispOn PDispSet PulseDO
+Reset RenameFile RestoPath Rewind ram1disk reg1 reg2 reg3 reg4 reg5 reg6 reg7 reg8 reg9 resolver_angle RESTORE_IO RaiseToUser ReadAnyBin ReadBlock ReadCfgData ReadErrData ReadRawBytes ReadVar RemoveDir
+SearchC  SearchL SCWrite Set SetAO SetDO SetDataSearch SetDataVal SetGO SetSysData SingArea SoftAct SoftDeact StartMove Stop StopMove StorePath Srch_Circ_In Srch_Circ_Out
+TPErase TPReadFK TPReadNum TPShow TPWrite TriggC TriggEquip TriggInt TriggIO TriggJ TriggL TuneReset Tune_Circ_In Tune_Circ_Out TRUE
+UnLoad UINumEntry UIListView UIMessageBox UIAlphaEntry UIClientExist UINumTune
+VelSet
+WaitDI WaitDO WaitTime WaitUntil Weld_Circ_In Weld_Circ_Out Write WriteBin WriteStrBin WZBoxDef WZHomeJointDef WZLimJointDef WZTempFree WaitSensor WaitSyncTask WaitWObj WarmStart WorldAccLim  WZCylDef WZDisable WZDOSet WZEnable WZFree WZLimSup WZSphDef 
+WriteAnyBin WriteCfgData WriteRawBytes
+
+/C10"Tool\WObj"
+tPaintGun
+Tool
+tPencil
+PenTool 
+tGripper
+Binzel
+tweldgun
+WObj Wobj_s1 Wobj_s2 WobjX
+
+/C11"Movement"
+MoveJ MoveL MoveC MoveAbsJ MoveExtJ
+
+/C12"welding"
+ArcLEnd ArcLStart ArcL ArcCStart ArcC ArcCEnd 
+
+/C13"HighSpeed"
+v2000 v5000 v7000 v1000 v1500 v2500 v3000 v3500 v4000 v4500 v5000 v600   v6000 v6500 v5500 v7000 v700 v800 v900 vlin1000               
+vmax v_max high
+iconError
+ErrWrite  EraseModule ErrLog ErrRaise
 ERR_ACC_TOO_LOW ERR_ADDR_INUSE ERR_ALIASIO_DEF ERR_ALIASIO_TYPE ERR_ALRDYCNT ERR_ALRDY_MOVING ERR_AO_LIM
 ERR_ARGDUPCND ERR_ARGNAME ERR_ARGNOTPER ERR_ARGNOTVAR ERR_ARGVALERR ERR_AXIS_ACT ERR_AXIS_IND
 ERR_AXIS_MOVING ERR_AXIS_PAR ERR_BUSSTATE ERR_BWDLIMIT ERR_CALC_DIVZERO ERR_CALC_NEG ERR_CALC_OVERFLOW
@@ -243,46 +243,439 @@ ERR_SPEED_REFRESH_LIM ERR_STARTMOVE ERR_STRTOOLNG ERR_SYM_ACCESS ERR_SYNCMOVEOFF
 ERR_TASKNAME ERR_TP_DIBREAK ERR_TP_DOBREAK ERR_TP_MAXTIME ERR_TP_NO_CLIENT ERR_TRUSTLEVEL ERR_TXTNOEXIST
 ERR_UISHOW_FATAL ERR_UISHOW_FULL ERR_UI_INITVALUE ERR_UI_MAXMIN ERR_UI_NOTINT ERR_UNIT_PAR ERR_UNKINO
 ERR_UNKPROC ERR_UNLOAD ERR_WAITSYNCTASK ERR_WAIT_MAXTIME ERR_WHLSEARCH ERR_WOBJ_MOVING
-FALSE
-IRBP_A_C_ID IRBP_B_D_ID IRBP_K_ID IRBP_L_ID IRBP_R_ID IRB_EXT_ID
-MASS_KNOWN MASS_WITH_AX3
-OP_AUTO OP_MAN_PROG OP_MAN_TEST OP_UNDEF
-PAY_LOAD_ID PICK_NAME PPA_PLACE_NAME PPA_PPA_ALT_NAME
-RAPBIOF_CLOSE RAPBIOF_CLOSE_ALL RAPBIOF_OPEN RAPBIOF_READREQ RAPBIOF_WRITE RAPCFG_LOAD_PARAMETERS
-RAPCFG_SAVE_PARAMETERS RAPFIL_CLOSE RAPFIL_CLOSE_ALL RAPFIL_DELETE RAPFIL_DIR RAPFIL_GET_TIME
-RAPFIL_LIST_DEVICES RAPFIL_MKDIR RAPFIL_OPEN RAPFIL_READ RAPFIL_RENAME RAPFIL_RMDIR RAPFIL_SET_TIME
-RAPFIL_WRITE RAPGEN_CLOSE RAPGEN_OPEN RAPGEN_RELEASE_MASTER RAPGEN_REQUEST_MASTER RAPGEN_RESTART
-RAPLOG_BACKUP RAPLOG_DUMP_SERVICE RAPLOG_RESET_LOG RAPLOG_RESTORE RAPLOG_SAVE_LOG RAPPGM_DELETE_MODULE
-RAPPGM_DELETE_PROGRAM RAPPGM_GET_MODE RAPPGM_LOAD_MODULE RAPPGM_LOAD_PROGRAM RAPPGM_PREP_PROGRAM
-RAPPGM_SAVE_MODULE RAPPGM_SAVE_PROGRAM RAPPGM_SET_MODE RAPPGM_START RAPPGM_STOP RAPVAR_ARRAY_DATA_TYPE
-RAPVAR_ARRAY_DIM_TYPE RAPVAR_BOOL_TYPE RAPVAR_CONFDATA_TYPE RAPVAR_CTLIDDATA_TYPE RAPVAR_CTLVERSDATA_TYPE
-RAPVAR_CURR_ROBTARGET_TYPE RAPVAR_DATA_TYPE RAPVAR_DEFINE_PAGE RAPVAR_DESCR_DATA_TYPE
-RAPVAR_DESCR_PAGE_DATA_TYPE RAPVAR_DOMAIN_TYPE RAPVAR_EIODATA_TYPE RAPVAR_EVENT_ID RAPVAR_EVIDDATA1_TYPE
-RAPVAR_EXTJOINT_TYPE RAPVAR_LOADDATA_TYPE RAPVAR_LOGDATA_TYPE RAPVAR_MOTSETDATA_TYPE RAPVAR_NAME_TYPE
-RAPVAR_NUM_TYPE RAPVAR_ORIENT_TYPE RAPVAR_PAGENUMBER_TYPE RAPVAR_PAGE_DATA_TYPE
-RAPVAR_PAGE_DESCR_NUMBER_TYPE RAPVAR_PAGE_DESCR_TYPE RAPVAR_PAGE_TYPE RAPVAR_PGMDATA_TYPE RAPVAR_POSE_TYPE
-RAPVAR_POS_TYPE RAPVAR_PROGDISP_TYPE RAPVAR_READ_NAME RAPVAR_READ_NAME_ARRAY RAPVAR_READ_NAME_IO
-RAPVAR_READ_PAGE RAPVAR_ROBTARGET_TYPE RAPVAR_SPEEDDATA_TYPE RAPVAR_SPONDATA1_TYPE RAPVAR_SPONDATA2_TYPE
-RAPVAR_SPONMSG RAPVAR_SPONMSG_RESP RAPVAR_STATUSDATA1_TYPE RAPVAR_STRING_TYPE RAPVAR_SUBEIO_TYPE
-RAPVAR_SUBLOG_TYPE RAPVAR_SUBSCWRITE_TYPE RAPVAR_SYSSTDATA_TYPE RAPVAR_TOOLDATA_TYPE RAPVAR_UNDEFINE_PAGE
-RAPVAR_VAR_DESCR_TYPE RAPVAR_WOBJDATA_TYPE RAPVAR_WRITE_NAME RAPVAR_WRITE_NAME_ARRAY RAPVAR_WRITE_PAGE
-RAPVAR_XDATA_TYPE RAPVAR_ZONEDATA_TYPE ROB_LM1_LOAD_VAL ROB_LOAD_VAL ROB_NOT_LOAD_VAL
-RUN_CONT_CYCLE RUN_INSTR_BWD RUN_INSTR_FWD RUN_SIM RUN_STEP_MOVE RUN_UNDEF
-SOCKET_BOUND SOCKET_CLOSED SOCKET_CONNECTED SOCKET_CREATED SOCKET_LISTENING
-TOOL_LOAD_ID TRUE
-/C9"Common Arguments/switches" STYLE_ATTRIBUTE
+ERR_LOADED ERR_FILEACC ERR_MODULE ERR_ACC_TOO_LOW ERR_ALIASIO_DEF ERR_ALIASIO_TYPE ERR_ALRDYCNT ERR_ALRDY_MOVING                             
+ERR_AO_LIM ERR_ARGDUPCND ERR_ARGNAME ERR_ARGNOTPER ERR_ARGNOTVAR    
+!Errors_Incomplete!
+
+/C14"LowSpeed"
+v0 v100 v150  v2 v20 v200  v25 v250  v3 v30 v300  v35 v350  v4 v40 v400  v45 v450  v5 v50 v500   v60  v70   v80  v90  vlin10 vlin100  vlin20 vlin200 vlin50 vlin500  vrot1 vrot10 vrot100 vrot2 vrot20 vrot5 vrot50
+v1 v2 v3 v4 v5 v10          
+low vLow vSlow slow
+
+
+SafePos
+Main
+
+/C15"Zone"
+fine
+z0 z1 z10 z100 z15 z150 z2 z20 z200 z3 z30 z4 z40 z5 z50 z60 z70 z80 z90
+
+/C16"Switches"
 \AORamp \AOp \ASCII \Accuracy \AllMotionTasks \AllMoveTasks \AlreadyActive \Append \Arm \AxisNumber
-\BackupFile \Bin \Block \BreakFlag \BreakOff \Buttons \Bwd \CirPointOri \Clear \ClientAddress \Conc
-\ConfAngle \ConfigAngle \ConstSym \Continue \Corr \D \DIBreak \DNeg \DO \DO1 \DOBreak \DODelay \DOp \DPos
+\BackupFile \Bin \Block \BreakFlag \BreakOff \Bwd \CirPointOri \Clear \ClientAddress \Conc
+\ConfAngle \ConfigAngle \ConstSym \Continue \Corr \D \DIBreak \DNeg \DOBreak \DODelay \DOp \DPos
 \Data \DeactAll \DefinedFlag \DipLag \DistCnvStart \Dx \Dy \Dynamic \Dz \EioNameSensor \EioNameStop \EioNameTrigVis
 \ErrDO \ErrIfChanged \ErrorId \ErrorNumber \ExeP \F1 \F2 \File \FilePath \Float4 \FromIndex \Fwd \GO1 \GO2
-\GO3 \GO4 \GOp \GlobalSym \GrpSize \Halt \Header \Hex1 \High \ID \Icon \Image \InMod \InPos \InRout
+\GO3 \GO4 \GOp \GlobalSym \GrpSize \Halt \Hex1 \Image \InMod \InPos \InRout
 \InTask \Inhib \InitCmd \Inside \InstanceId \IntX \KeepSync \Level \ListNo \LoadIdType \LocalSym \Logic
 \MaxTime \MechUnit \MechUnitName \MsgLine2 \MsgLine3 \MsgLine4 \MsgLine5 \Network \NoCloseBtn \NoConc
-\NoEOffs \NoNewLine \NoOfBytes \NoRecBytes \NoRegain \Num \Object \ObjectFrame \ObjectName \Off \Old \On
+\NoEOffs \NoNewLine \NoOfBytes \NoRecBytes \NoRegain \Object \ObjectFrame \ObjectName \Off \Old \On
 \Outside \PLength \PStop \ParIdType \PathFrame \PayLoad \PersSym \Phys \PollRate \PredTime \Quick \RL2
-\RL3 \RL4 \Ramp \RawData \Read \RefNum \RefPos \RelDist \Result \Retract \Rot \Rx \Ry \Rz \SDelay \Save \Short \Single
+\RL3 \RL4 \Ramp \RawData \Read \RefNum \RefPos \RelDist  \Retract \Rot \Rx \Ry \Rz \SDelay \Save \Short \Single
 \SlowTest \Speed \Start \Stat \Status \Stop \StopBlock \StopMove \Str \Str1 \Str2 \Str3 \Str4 \Str5
 \Strict \Sup \SyncLastMoveInst \SyncOrgMoveInst \T \T2 \T3 \T4 \T5 \T6 \T7 \T8 \TaskRef \Teach \Temp \Time
-\TimeFlag \TimeOut \ToAbsNum \ToAbsPos \ToRelNum \ToRelPos \Tool \ToolOffs \TuneValue \TypeMod \UnloadFile
-\UnloadPath \V \VarSym \W \WObj \WorkAreaWarning \Wrap \Wrist \Write \X \XPos \Y \Z \num \switch
+\TimeFlag \TimeOut \ToAbsNum \ToAbsPos \ToRelNum \ToRelPos \ToolOffs \TuneValue \TypeMod \UnloadFile
+\UnloadPath \VarSym \WorkAreaWarning \Wrap \Wrist \Write \XPos 
+
+/C17"Routines"
+Case DEFAULT STEP
+ENDPROC ENDMODULE ENDTRAP ENDFUNC ERROR
+FUNC
+MODULE 
+PROC
+RETURN RETRY RAISE
+TRAP TEST TRYNEXT 
+vHigh vMax
+
+/C18"Placeholders"
+< TDN !> -data_type_defenition
+< DNN !> -data_declaration
+< RDN !> -routine_declaration
+< PAR !> -parameter_declaration
+< ALT !> -alternative_parameter_declaration
+< DIM !> -array_dimension
+< SMT !> -statement
+< VAR !> -data_object_(var/pers/par)_reference
+< EIT !> -else_if_claude_of_if_statement
+< CSE !> -case_clause_of_test_statement
+< EXP !> -expression
+< ARG !> -procedure_call_argument
+< ID  !> -identidier
+
+/C19"Braces"
+[
+]
+(
+)
+{
+}
+
+/C20"Semicolon"
+;
+/CEnd
+
+
+
+! ## FUNCTIONLIST #######################################################################
+
+/TGBegin "MODULE"
+  /TGFindStr = "%[ ^t]++MODULE^([ ^t]+[a-z0-9_ ]+^)$"
+!  /TGFindStr = "%[ ^t]++MODULE^([ ^t]+[a-z0-9_ ]+([a-ö0-9_,]+)^)$"
+/TGEnd
+/TGBegin "TRAPS [Local]"
+  /TGFindStr = "%[ ^t]++LOCAL++[ ^t]++TRAP[ ^t]+^([~,()]+$^)"
+/TGEnd
+/TGBegin "TRAPS"
+  /TGFindStr = "%[ ^t]++TRAP[ ^t]+^([~,()]+$^)"
+/TGEnd
+/TGBegin "FUNCTIONS [Local]"
+  /TGFindStr = "%[ ^t]++LOCAL++[ ^t]FUNC[ ^t]+^([a-z]+[ ^t]+[~,()]+()$^)"
+  /TGFindStr = "%[ ^t]++LOCAL++[ ^t]FUNC[ ^t]+^([a-z]+[ ^t]+[~,()]+^)[ ^t]++([~)]+)$"
+  /TGBegin "Arguments"
+    /TGFindStr = "[~,()]+"
+    /TGFindBStart = "("
+    /TGFindBEnd = ")"
+  /TGEnd
+/TGEnd
+/TGBegin "FUNCTIONS"
+  /TGFindStr = "%[ ^t]++FUNC[ ^t]+^([a-z]+[ ^t]+[~,()]+()$^)"
+  /TGFindStr = "%[ ^t]++FUNC[ ^t]+^([a-z]+[ ^t]+[~,()]+^)[ ^t^p]++([~)]+)$"
+  /TGBegin "Arguments"
+    /TGFindStr = "[~,()]+"
+    /TGFindBStart = "("
+    /TGFindBEnd = ")"
+  /TGEnd
+/TGEnd
+/TGBegin "PROCEDURES (Local)"
+  /TGFindStr = "%[ ^t]++LOCAL++[ ^t]PROC[ ^t]+^([~,()]+()$^)"
+  /TGFindStr = "%[ ^t]++LOCAL++[ ^t]PROC[ ^t]+^([~,()]+^)[ ^t]++([~)]+)$"
+  /TGBegin "Arguments"
+    /TGFindStr = "[~,()]+"
+    /TGFindBStart = "("
+    /TGFindBEnd = ")"
+  /TGEnd
+/TGEnd
+/TGBegin "PROCEDURES"
+  /TGFindStr = "%[ ^t]++PROC[ ^t]+^([~,()]+()$^)"
+  /TGFindStr = "%[ ^t]++PROC[ ^t]+^([~,()]+^)[ ^t^p]++([~)]+)$"
+  /TGBegin "Arguments"
+    /TGFindStr = "[~,()]+"
+    /TGFindBStart = "("
+    /TGFindBEnd = ")"
+  /TGEnd
+/TGEnd
+/TGBegin "RECORDS"
+  /TGFindStr = "%[ ^t]++RECORD[ ^t]+^([~,()]+$^)"
+/TGEnd
+/TGBegin "RECORDS [local]"
+  /TGFindStr = "%[ ^t]++LOCAL++[ ^t]++RECORD[ ^t]+^([~,()]+$^)"
+/TGEnd
+/TGBegin "Syntax Errors"
+  /TGFindStr = ";[ ^t]+[a-z0-9_]"
+  !
+  /TGFindStr = "%[ ^t]++LOCAL++[ ^t]++PROC[ ^t]+^([a-z]+[ ^t]+[~,()]+()$^)"
+  /TGFindStr = "%[ ^t]++LOCAL++[ ^t]++PROC[ ^t]+^([a-z]+[ ^t]+[~,()]+^)[ ^t]++([~)]+)$"
+  /TGFindStr = "%[ ^t]++PROC[ ^t]+^([a-z]+[ ^t]+[~,()]+()$^)"
+  /TGFindStr = "%[ ^t]++PROC[ ^t]+^([a-z]+[ ^t]+[~,()]+^)[ ^t]++([~)]+)$"
+  /TGFindStr = "%[ ^t]++[a-z0-9_]+();$"
+  /TGFindStr = "THEN[:;]"
+  /TGFindStr = "ELSE[:;]"
+  /TGFindStr = "ELSEIF[:;]"
+  /TGFindStr = "ENDTEST[:;]"
+  /TGFindStr = "ENDIF[:;]"
+  /TGFindStr = "ENDFOR[:;]"
+  /TGFindStr = "ENDWHILE[:;]"
+  /TGFindStr = "RETURN$"
+!  /TGFindStr = "DO[:;]"
+  /TGFindStr = "ENDPROC[:;]"
+  /TGFindStr = "ENDFUNC[:;]"
+  /TGFindStr = "%[ ^t]+[a-z0-9_]+=[a-z0-9_]+;$"
+  /TGFindStr = "%[ ^t]+IF[ ^t]+[a-z0-9_]+:=[a-z0-9_]+[ ^t]+THEN$"
+  /TGFindStr = "%[ ^t]+TEST[ ^t]+[a-z0-9_]+[:;]$"
+  /TGFindStr = "%[ ^t]+CASE[ ^t]+[a-z0-9_]+$"
+  /TGFindStr = "%[ ^t]+VAR[ ^t]+[a-z]+[ ^t]+[a-z0-9_]+$"
+  /TGFindStr = "%[ ^t]+VAR[ ^t]+[a-z]+[ ^t]+[a-z0-9_]+:=[a-z0-9_^[^],^"]+$"
+  /TGFindStr = "%[ ^t]+VAR[ ^t]+[a-z]+[ ^t]+[a-z0-9_]+=[a-z0-9_^[^],^"]+;$"
+  /TGFindStr = "%[ ^t]+PERS[ ^t]+[a-z]+[ ^t]+[a-z0-9_]+$"
+  /TGFindStr = "%[ ^t]+PERS[ ^t]+[a-z]+[ ^t]+[a-z0-9_]+="
+  /TGFindStr = "%[ ^t]+PERS[ ^t]+[a-z]+[ ^t]+[a-z0-9_]+:=[a-z0-9_^[^],^"]+$"
+/TGEnd
+"
+/TGBegin "LABELS"
+ ! /TGFindStr = "[ ^t]++[a-z]++[ ^t]++:"
+/TGEnd
+
+/Delimiters = ~!@$%^&*()+=|\/{}[]:;"'<> ,.?/  
+!/Delimiters = { } ( ) [ ] , . = + - * / : ;  \ ? := <> >= <= !
+Function String = " [P,F,T][R,U][O,N,A][C,P] "
+!/Indent Strings =    "PROC"  "PROC"    "ERROR"       "FUNC"    "TRAP"         "TEST"    "TEST"    "DEFAULT"       "THEN"     "THEN"      "ELSEIF"  "ELSE"      "WHILE"     "MODULE"  
+!/Unindent Strings =  "ERROR" "ENDPROC" "ENDPROC"     "ENDFUNC" "ENDTRAP"      "DEFAULT" "ENDTEST" "ENDTEST"       "ELSE"   "ELSEIF"    "ELSE"    "ENDIF"     "ENDWHILE"  "ENDMODULE"
+/Open Fold Strings =  "PROC"  "FUNC"    "TRAP"       "IF"   "WHILE"   "FOR"    "TEST"     "MODULE"       
+/Close Fold Strings = "ENDPROC" "ENDFUNC" "ENDTRAP"    "ENDIF"  "ENDWHILE"  "ENDFOR" "ENDTEST"  "PROC"
+/Open Brace Strings = "[" "(" "{" "<"
+/Close Brace Strings = "]" ")" "}" ">"
+
+
+!###################################################################################
+ FUNCTION LIST  !##################################################################
+!#################################################################################
+                                                                  *in development*
+!## WORDFILE DATA ################################################################
+/L3"Rapid_DATA" /Nocase /Line Comment = !
+!/Delimiters = ~!@$%^&*()+=|\/{}[]:;"'<> ,.?/ 
+/Delimiters = { } ( ) [ ] , . = + - * / : ;  \ ? := <> >= <= !
+Function String = " [P,F,T][R,U][O,N,A][C,P] "
+/Indent Strings =    "PROC"  "PROC"    "ERROR"       "FUNC"    "TRAP"         "TEST"    "TEST"    "DEFAULT"       "THEN"     "THEN"      "ELSEIF"  "ELSE"      "WHILE"     "MODULE"  
+/Unindent Strings =  "ERROR" "ENDPROC" "ENDPROC"     "ENDFUNC" "ENDTRAP"      "DEFAULT" "ENDTEST" "ENDTEST"       "ELSE"   "ELSEIF"    "ELSE"    "ENDIF"     "ENDWHILE"  "ENDMODULE"
+/Open Fold Strings =  "PROC"  "FUNC"    "TRAP"       "IF"   "WHILE"   "FOR"    "TEST"     "MODULE" 
+/Close Fold Strings = "ENDPROC" "ENDFUNC" "ENDTRAP"    "ENDIF"  "ENDWHILE"  "ENDFOR" "ENDTEST"  "PROC" 
+/Open Brace Strings = "[" "(" "{" "<"
+/Close Brace Strings = "]" ")" "}" ">"      "ELSE"   "ELSEIF"    "ELSE"    "ENDIF"     "ENDWHILE"  "ENDMODULE"
+!/Ignore Strings SOL = "if"       
+!/Ignore Fold Strings = "next"
+!/Escape Char = ;
+/Open Brace Strings = "[" "(" "{" "<"
+/Close Brace Strings = "]" ")" "}" ">"
+
+!## COLOR GROUP ##################################################################
+/C1"Basic rapid"
+MODULE
+ENDMODULE ENDPROC ENDFUNC ENDTRAP ENDRECORD
+func 
+LOCAL 
+RECORD
+PROC 
+trap
+"!################################################################################"
+
+/TGBegin "MODULE"
+  /TGFindStr = "%[ ^t]++MODULE^([ ^t]+[a-z0-9_ ]+^)$"
+! /TGFindStr = "%[ ^t]++MODULE^([ ^t]+[a-z0-9_ ]+([a-ö0-9_,]+)^)$"
+/TGEnd
+/TGBegin "TRAPS [Local]"
+  /TGFindStr = "%[ ^t]++LOCAL++[ ^t]++TRAP[ ^t]+^([~,()]+$^)"
+/TGEnd
+/TGBegin "TRAPS"
+  /TGFindStr = "%[ ^t]++TRAP[ ^t]+^([~,()]+$^)"
+/TGEnd
+/TGBegin "FUNCTIONS [Local]"
+  /TGFindStr = "%[ ^t]++LOCAL++[ ^t]FUNC[ ^t]+^([a-z]+[ ^t]+[~,()]+()$^)"
+  /TGFindStr = "%[ ^t]++LOCAL++[ ^t]FUNC[ ^t]+^([a-z]+[ ^t]+[~,()]+^)[ ^t]++([~)]+)$"
+  /TGBegin "Arguments"
+    /TGFindStr = "[~,()]+"
+    /TGFindBStart = "("
+    /TGFindBEnd = ")"
+  /TGEnd
+/TGEnd
+/TGBegin "FUNCTIONS"
+  /TGFindStr = "%[ ^t]++FUNC[ ^t]+^([a-z]+[ ^t]+[~,()]+()$^)"
+  /TGFindStr = "%[ ^t]++FUNC[ ^t]+^([a-z]+[ ^t]+[~,()]+^)[ ^t^p]++([~)]+)$"
+  /TGBegin "Arguments"
+    /TGFindStr = "[~,()]+"
+    /TGFindBStart = "("
+    /TGFindBEnd = ")"
+  /TGEnd
+/TGEnd
+/TGBegin "PROCEDURES (Local)"
+  /TGFindStr = "%[ ^t]++LOCAL++[ ^t]PROC[ ^t]+^([~,()]+()$^)"
+  /TGFindStr = "%[ ^t]++LOCAL++[ ^t]PROC[ ^t]+^([~,()]+^)[ ^t]++([~)]+)$"
+  /TGBegin "Arguments"
+    /TGFindStr = "[~,()]+"
+    /TGFindBStart = "("
+    /TGFindBEnd = ")"
+  /TGEnd
+/TGEnd
+/TGBegin "PROCEDURES"
+  /TGFindStr = "%[ ^t]++PROC[ ^t]+^([~,()]+()$^)"
+  /TGFindStr = "%[ ^t]++PROC[ ^t]+^([~,()]+^)[ ^t^p]++([~)]+)$"
+  /TGBegin "Arguments"
+    /TGFindStr = "[~,()]+"
+    /TGFindBStart = "("
+    /TGFindBEnd = ")"
+  /TGEnd
+/TGEnd
+/TGBegin "RECORDS"
+  /TGFindStr = "%[ ^t]++RECORD[ ^t]+^([~,()]+$^)"
+/TGEnd
+/TGBegin "RECORDS [local]"
+  /TGFindStr = "%[ ^t]++LOCAL++[ ^t]++RECORD[ ^t]+^([~,()]+$^)"
+/TGEnd
+/TGBegin "NUM"
+/TGFindStr =   "[ ^t]++num[ ^t]+^([~,():]+^)"
+    /TGBegin "Value"
+    /TGFindStr = "[~,()]+"
+    /TGFindBStart = ":="
+    /TGFindBEnd = "[a-z0-9_];"
+  /TGEnd
+/TGEnd
+/TGBegin "STRING"
+/TGFindStr =   "[ ^t]++string[ ^t]+^([~,():]+^)"
+    /TGBegin "Value"
+    /TGFindStr = "[~,\|()]+"
+    /TGFindBStart = ":="
+    /TGFindBEnd = "";""
+  /TGEnd
+/TGEnd
+/TGBegin "BOOL"
+/TGFindStr =   "[ ^t]++bool[ ^t]+^([~,():]+^)"
+    /TGBegin "Value"
+    /TGFindStr = "[~,()]+"
+    /TGFindBStart = ":="
+    /TGFindBEnd = "[a-z0-9_];"
+  /TGEnd
+/TGEnd
+/TGBegin "TOOL"
+/TGFindStr =   "[ ^t]++tooldata[ ^t]+^([~,():]+^)"
+    /TGBegin "Value"
+    /TGFindStr = "[~()]+"
+    /TGFindBStart = ":="
+    /TGFindBEnd = "];"
+  /TGEnd
+/TGEnd
+/TGBegin "WOBJ"
+/TGFindStr =   "[ ^t]++wobjdata[ ^t]+^([~,():]+^)"
+    /TGBegin "Value"
+    /TGFindStr = "[~()]+"
+    /TGFindBStart = ":="
+    /TGFindBEnd = "];"
+  /TGEnd
+/TGEnd
+/TGBegin "CONFDATA"
+/TGFindStr =   "[ ^t]++confdata[ ^t]+^([~,():]+^)"
+    /TGBegin "Value"
+    /TGFindStr = "[~()]+"
+    /TGFindBStart = ":="
+    /TGFindBEnd = "];"
+  /TGEnd
+/TGEnd
+/TGBegin "ROBJOINT"
+/TGFindStr =   "[ ^t]++robjoint[ ^t]+^([~,():]+^)"
+    /TGBegin "Value"
+    /TGFindStr = "[~()]+"
+    /TGFindBStart = ":="
+    /TGFindBEnd = "];"
+  /TGEnd
+/TGEnd
+/TGBegin "POS"
+/TGFindStr =   "[ ^t]++pos[ ^t]+^([~,():]+^)"
+    /TGBegin "Value"
+    /TGFindStr = "[~()]+"
+    /TGFindBStart = ":="
+    /TGFindBEnd = "];"
+  /TGEnd
+/TGEnd
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+/TGBegin "BTNRES"
+/TGFindStr =   "[ ^t]++BTNRES[ ^t]+^([~,():]+^)"
+    /TGBegin "Value"
+    /TGFindStr = "[~()]+"
+    /TGFindBStart = ":="
+    /TGFindBEnd = "];"
+  /TGEnd
+/TGEnd
+/TGBegin "BYTES"
+/TGFindStr =   "[ ^t]++byte[ ^t]+^([~,():]+^)"
+    /TGBegin "Value"
+    /TGFindStr = "[~()]+"
+    /TGFindBStart = ":="
+    /TGFindBEnd = "];"
+  /TGEnd
+/TGEnd
+/TGBegin "CLOCKS"
+/TGFindStr =   "[ ^t]++clock[ ^t]+^([~,():]+^)"
+    /TGBegin "Value"
+    /TGFindStr = "[~()]+"
+    /TGFindBStart = ":="
+    /TGFindBEnd = "];"
+  /TGEnd
+/TGEnd
+/TGBegin "DNUM"
+/TGFindStr =   "[ ^t]++dnum[ ^t]+^([~,():]+^)"
+    /TGBegin "Value"
+    /TGFindStr = "[~()]+"
+    /TGFindBStart = ":="
+    /TGFindBEnd = "];"
+  /TGEnd
+/TGEnd
+/TGBegin "ERRNUM"
+/TGFindStr =   "[ ^t]++errnum[ ^t]+^([~,():]+^)"
+    /TGBegin "Value"
+    /TGFindStr = "[~()]+"
+    /TGFindBStart = ":="
+    /TGFindBEnd = "];"
+  /TGEnd
+/TGEnd
+/TGBegin "ExtJoint"
+/TGFindStr =   "[ ^t]++ExtJoint[ ^t]+^([~,():]+^)"
+    /TGBegin "Value"
+    /TGFindStr = "[~()]+"
+    /TGFindBStart = ":="
+    /TGFindBEnd = "];"
+  /TGEnd
+/TGEnd
+/TGBegin "INTNUM"
+/TGFindStr =   "[ ^t]++INTNUM[ ^t]+^([~,():]+^)"
+    /TGBegin "Value"
+    /TGFindStr = "[~()]+"
+    /TGFindBStart = ":="
+    /TGFindBEnd = "];"
+  /TGEnd
+/TGEnd
+/TGBegin "JOINTTARGET"
+/TGFindStr =   "[ ^t]++jointtarget[ ^t]+^([~,():]+^)"
+    /TGBegin "Value"
+    /TGFindStr = "[~()]+"
+    /TGFindBStart = ":="
+    /TGFindBEnd = "];"
+  /TGEnd
+/TGEnd
+/TGBegin "LOADDATA"
+/TGFindStr =   "[ ^t]++loaddata[ ^t]+^([~,():]+^)"
+    /TGBegin "Value"
+    /TGFindStr = "[~()]+"
+    /TGFindBStart = ":="
+    /TGFindBEnd = "];"
+  /TGEnd
+/TGEnd
+/TGBegin "POSE"
+/TGFindStr =   "[ ^t]++pose[ ^t]+^([~,():]+^)"
+    /TGBegin "Value"
+    /TGFindStr = "[~()]+"
+    /TGFindBStart = ":="
+    /TGFindBEnd = "];"
+  /TGEnd
+/TGEnd
+
+/TGBegin "Syntax Errors"
+  /TGFindStr = ";[ ^t]+[a-z0-9_]"
+  !
+  /TGFindStr = "%[ ^t]++LOCAL++[ ^t]++PROC[ ^t]+^([a-z]+[ ^t]+[~,()]+()$^)"
+  /TGFindStr = "%[ ^t]++LOCAL++[ ^t]++PROC[ ^t]+^([a-z]+[ ^t]+[~,()]+^)[ ^t]++([~)]+)$"
+  /TGFindStr = "%[ ^t]++PROC[ ^t]+^([a-z]+[ ^t]+[~,()]+()$^)"
+  /TGFindStr = "%[ ^t]++PROC[ ^t]+^([a-z]+[ ^t]+[~,()]+^)[ ^t]++([~)]+)$"
+  /TGFindStr = "%[ ^t]++[a-z0-9_]+();$"
+  /TGFindStr = "THEN[:;]"
+  /TGFindStr = "ELSE[:;]"
+  /TGFindStr = "ELSEIF[:;]"
+  /TGFindStr = "ENDTEST[:;]"
+  /TGFindStr = "ENDIF[:;]"
+  /TGFindStr = "ENDFOR[:;]"
+  /TGFindStr = "ENDWHILE[:;]"
+  /TGFindStr = "RETURN$"
+! /TGFindStr = "DO[:;]"
+  /TGFindStr = "ENDPROC[:;]"
+  /TGFindStr = "ENDFUNC[:;]"
+  /TGFindStr = "%[ ^t]+[a-z0-9_]+=[a-z0-9_]+;$"
+  /TGFindStr = "%[ ^t]+IF[ ^t]+[a-z0-9_]+:=[a-z0-9_]+[ ^t]+THEN$"
+  /TGFindStr = "%[ ^t]+TEST[ ^t]+[a-z0-9_]+[:;]$"
+  /TGFindStr = "%[ ^t]+CASE[ ^t]+[a-z0-9_]+$"
+  /TGFindStr = "%[ ^t]+VAR[ ^t]+[a-z]+[ ^t]+[a-z0-9_]+$"
+  /TGFindStr = "%[ ^t]+VAR[ ^t]+[a-z]+[ ^t]+[a-z0-9_]+:=[a-z0-9_^[^],^"]+$"
+  /TGFindStr = "%[ ^t]+VAR[ ^t]+[a-z]+[ ^t]+[a-z0-9_]+=[a-z0-9_^[^],^"]+;$"
+  /TGFindStr = "%[ ^t]+PERS[ ^t]+[a-z]+[ ^t]+[a-z0-9_]+$"
+  /TGFindStr = "%[ ^t]+PERS[ ^t]+[a-z]+[ ^t]+[a-z0-9_]+="
+  /TGFindStr = "%[ ^t]+PERS[ ^t]+[a-z]+[ ^t]+[a-z0-9_]+:=[a-z0-9_^[^],^"]+$"
+/TGEnd
+
+"!###################################################################################################
+!###################################################################################################
