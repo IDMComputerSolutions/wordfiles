@@ -1,163 +1,972 @@
-/L15"Xbase++" Line Comment = // Block Comment On = /* Block Comment Off = */ String Chars = "'[] DisableMLS Nocase File Extensions = CH XPJ ARC PRG
-/Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
-/Function String 1 = "%[CLASS]+CLASS"
-/Function String 2 = "%[METHOD]+METHOD"
-/Function String 3 = "%[PROCEDURE]+PROCEDURE"
-/Function String 4 = "%[FUNCTION]+FUNCTION"
-/Indent Strings = "begin" "case" "do case" "do while" "else" "elseif" "exported:" "for" "if" "inline" "otherwise" "protected:" "recover" "while"
-/Unindent Strings = "case" "else" "end" "endcase" "endclass" "enddo" "endif" "inline" "next" "otherwise" "recover"
+/L15"Xbase++" Nocase Line Comment = // Line Comment Alt = * Line Comment Valid Columns Alt = [1-9] Line Comment Preceding Chars Alt = [~!-~] Block Comment On = /* Block Comment Off = */ Block Comment On Alt = && String Chars = "' DisableMLS File Extensions = ARC CH PRG XPJ
+/TGBegin "Functions"
+/TGFindStr = "^[\t ]*(?:STATIC[\t ]+)?(FUNCTION|FUNC)[\t ]+([a-z_][0-9a-z_]*)"
+/TGBegin "Parameters"
+/TGFindStr = "[\s;]*([^,]+)"
+/TGFindBStart = "FUNCTION[\t ]+[a-z_][0-9a-z_]*[\t (]*"
+/TGFindBEnd = "[&)/]|(?<!;)$"
+/TGEnd
+/TGEnd
+/TGBegin "Procedures"
+/TGFindStr = "^[\t ]*(?:(?:EXIT|INIT|STATIC)[\t ]+)?PROCEDURE[\t ]+([a-z_][0-9a-z_]*)"
+/TGBegin "Parameters"
+/TGFindStr = "[\s;]*([^,]+)"
+/TGFindBStart = "PROCEDURE[\t ]+[a-z_][0-9a-z_]*[\t (]*"
+/TGFindBEnd = "[&)/]|(?<!;)$"
+/TGEnd
+/TGEnd
+/TGBegin "Classes"
+/TGFindStr = "^[\t ]*(?:(?:STATIC|FREEZE|FINAL)[\t ]+)?CLASS[\t ]+(?!METHOD)(?!VAR)([a-z_][0-9a-z_]*)"
+/TGBegin "From"
+/TGFindStr = "[\s;]*([^,]+)"
+/TGFindBStart = "CLASS[\t ]+[a-z_][0-9a-z_]*(?:[\t ;]+FROM[\t ]+)?"
+/TGFindBEnd = "[&/]|SHARING|(?<!;)$"
+/TGEnd
+/TGBegin "Sharing"
+/TGFindStr = "[\s;]*([^,]+)"
+/TGFindBStart = "CLASS[\t ]+[a-z_][0-9a-z_]*(?:[\t ;]+[\s\S]*?SHARING[\t ]+)?"
+/TGFindBEnd = "[&/]|FROM|(?<!;)$"
+/TGEnd
+/TGBegin "Methods"
+/TGFindStr = "INLINE[\t ]+METHOD[\t ]+([a-z_][0-9a-z_]*)"
+/TGFindBStart = "CLASS"
+/TGFindBEnd = "ENDCLASS"
+/TGBegin "Parameters"
+/TGFindStr = "[\s;]*([^,]+)"
+/TGFindBStart = "METHOD[\t ]+[a-z_][0-9a-z_]*[\t (]*"
+/TGFindBEnd = "[&)/]|(?<!;)$"
+/TGEnd
+/TGEnd
+/TGEnd
+/TGBegin "Methods"
+/TGFindStr = "^[\t ]*(?:CLASS[\t ]+)?METHOD[\t ]+([a-z_][0-9a-z_]*:[a-z_][0-9a-z_]*)"
+/TGBegin "Parameters"
+/TGFindStr = "[\s;]*([^,]+)"
+/TGFindBStart = "METHOD[\t ]+[a-z_][0-9a-z_]*:[a-z_][0-9a-z_]*[\t (]*"
+/TGFindBEnd = "[&)/]|(?<!;)$"
+/TGEnd
+/TGEnd
+/TGBegin "Modules"
+/TGFindStr = "^[\t ]*ANNOUNCE[\t ]+([a-z_][0-9a-z_]*)"
+/TGEnd
+/TGBegin "Requests"
+/TGFindStr = "^[\t ]*(?:EXTERNAL|REQUEST)[\t ]+([a-z_][0-9a-z_]*)"
+/TGEnd
+/TGBegin "ToDo"
+/TGFindStr = "//TODO:[\t ]*(.+)$"
+/TGEnd
+/Regexp Type = Perl
+/Delimiters = !	" %&'()*+,-/:;<=>?@[\]^{|}~
+/Indent Strings = "begin" "case" "do case" "do while" "else" "elseif" "exported:" "for" "if" "otherwise" "protected:" "recover" "while"
+/Unindent Strings = "case" "else" "end" "endcase" "endclass" "enddo" "endif" "next" "otherwise" "recover"
 /Ignore Strings SOL = "*" "/*" "*/" "#"
 /Open Brace Strings =  "{" "(" "["
 /Close Brace Strings = "}" ")" "]"
-/Open Fold Strings = "{" "class" "method" "procedure" "function"
-/Close Fold Strings = "}" "endclass" "return"
+/Open Fold Strings = "{" "class" "method" "procedure" "function" "if" "elseif" "else" "do while" 
+/Close Fold Strings = "}" "endclass" "return" "elseif" "else" "endif" "enddo" "end"
+/Marker Characters = "[]"
 /C1"Functions" STYLE_FUNCTION
-AAdd Abs Abstract AChoice AClone ACopy ActiveXObject ADel ADir AEval AFields AFill AIns Alert Alias
-Alltrim AltD AppDesktop AppEvent AppKeyState AppName AppType ARemove Array Asc AScan ASize
-ASort At ATail AutomationObject AutomationRequestLicenseKey AutomationTranslateColor
-BAnd Base642Bin Bin2Base64 Bin2f Bin2i Bin2l Bin2QP Bin2u Bin2UEE Bin2Var Bin2w BinaryName Bof BOr Break Browse BXOr
-CDow CenterControl CertificateListStores CertificateSelect Char2Hash Char2UTF8 Char2Var Chr ClassCreate ClassDestroy ClassObject CMonth
-Coalesce CoalesceEmpty Col ColorSelect ComEvalCollection ComLastError ComLastMessage
-ConfirmBox ConvToAnsiCP ConvToOemCP CreateDir CreateObject CtoD CurDir CurDrive
-DacPagedDataStore DacSession DacSqlStatement DataObject DataRef Date Day DbAppend DbCargo DbClearFilter
-DbClearIndex DbClearRelation DbClearScope DbClientList DbCloseAll DbCloseArea DbCommit DbCommitAll
-DbContinue DbCopyExtStruct DbCopyStruct DbCreate DbCreateExtStruct DbCreateFrom DbCreateIndex
-DbDelete DbDeregisterClient DbDescend DbDestroy DbeBuild DbEdit DbeInfo DbeList DbeLoad DbeSetDefault
-DbeUnload DbEval DbExport Dbf DbFilter DbGoBottom DbGoPosition DbGoto DbGoTop DbImport DbInfo DbJob
-DbJoin DbList DbLocate DbLocked DbPack DbPosition DbRecall DbRefresh DbRegisterClient DbReindex
-DbRelation DbRelease DbRequest DbResetNotifications DbResumeNotifications
-DbRList DbRLock DbRLockList DbROrdName DbRResumeSelect DbRRollback
-DbRSelect DbRSuspendSelect DbRUnlock DbScope DbSeek DbSelectArea DbSession DbSetDescend
-DbSetDriver DbSetFilter DbSetFound DbSetIndex DbSetNullValue DbSetOrder DbSetRelation
-DbSetScope DbSkip DbSkipper DbSort DbStruct DbSuspendNotifications DbTotal DbUnlock
-DbUnlockAll DbUpdate DbUseArea DbZap Deleted Descend DevOut DevOutPict DevPos Directory
-DiskSpace DispBegin DispBox DispCount DispEnd DispOut DispOutAt
-DllCall DllCallback DllExecuteCall DllInfo DllLoad DllPrepareCall DllUnLoad
-DosError DosErrorMessage DoW DragDataObject DtoC DtoJ DtoS
-Empty EnableClipRect Eof Error ErrorBlock ErrorLevel ErrorNew Eval EventLogWriteStr Exp
-F2Bin FAttr FClose FCount FCreate FErase FError FExists FieldBlock FieldGet FieldInfo
-FieldName FieldPos FieldPut FieldWBlock File FLock FOpen Found FRead FReadStr FRename
-FSeek FSize FWrite
-Get GetActive GetApplication GetApplyKey GetDoSetkey GetEnableEvents Getenv GetEventReader
-GetHandleEvent GetKillActive GetList GetListPos GetLogicalProcessorCount GetNew GetObject GetParentForm
-GetPointerPos GetPostValidate GetPreValidate GetReader GetToMousePos GetUniqueFileName
-GraArc GraBackground GraBitBlt GraBox GraCaptionStr GraEdge GraError GraFocusRect GraGetRGBIntensity
-GraGradient GraIsRGBColor GraLine GraMakeRGBColor GraMarker GraPathBegin GraPathClip GraPathEnd
-GraPathFill GraPathOutline GraPos GraQueryTextBox GraRotate GraScale GraSegClose GraSegDestroy
-GraSegDraw GraSegDrawMode GraSegFind GraSegLoad GraSegOpen GraSegPickResolution GraSegPriority
-GraSegSave GraSetAttrArea GraSetAttrLine GraSetAttrMarker GraSetAttrString GraSetColor
-GraSetFont GraSpline GraStringAt GraTranslate
-HardCR Header HttpClient HttpEndPoint HttpMessage HttpMessagePart HttpRequestMessage HttpResponseMessage
-I2bin IIf IndexExt IndexKey IndexOrd Inkey Int IsAlpha IsCertificateAvailable
-IsColor IsDebug IsDigit IsFieldVar IsFunction IsLower IsMemberVar IsMemvar IsMethod IsNull
-IsPenEnabled IsPrinter IsThemeActive IsTouchEnabled IsUnicode IsUpper
-Json2Var JsonDecode JsonEncode JtoD
-L2bin LayoutManager LastAppEvent LastKey LastRec LChar2Var Left Len Like LoadResource LocaleConfigure
-Log Lower LTrim LUpdate
-Max MaxCol MaxRow MemoEdit MemoLine MemoRead Memory MemoTran MemoWrit MemvarBlock MicroSeconds
-MilliSeconds Min MlCount MlCtoPos MlPos Mod Month MPostoLc MsgBox
-NetErr Netname NextAppEvent NextKey NoSnow NullIf NumButtons
-OrdBagExt OrdBagName OrdCondSet OrdCount OrdCreate OrdDestroy OrdFor OrdInfo OrdIsCandidate
-OrdIsCustom OrdIsDescend OrdIsPrimary OrdIsSubIndex OrdIsUnique OrdKey OrdKeyAdd OrdKeyNo
-OrdKeyRemove OrdList OrdListAdd OrdListClear OrdListRebuild OrdName OrdNumber OrdSetCustom
-OrdSetFocus OrdWildSeek Os OutErr OutStd
-PadC PadL PadR PCol PCount PostAppEvent ProcLine ProcName PRow PValue
-QOut QQOut QP2Bin
-RandomInt RandomKey RAt ReadExit ReadInsert ReadKey ReadKill ReadModal ReadUpdated ReadVar
-RecCount RecNo RecSize RemoveDir Replicate RestScreen Right RLock Round Row RTrim RunRexx RunShell
-SaveScreen Scroll Seconds Select ServiceApp ServiceController Set SetAppEvent SetAppFocus
-SetAppWindow SetBlink SetCancel SetClipRect SetCollation SetCollationTable SetColor
-SetCursor Setenv SetKey SetLexRule SetLocale SetLogicalProcessor SetMode SetMouse SetPos SetPrc
-SetTimerEvent ShellLinkCreate ShellLinkResolve Signal Sleep Soundex Space SqlStatement Sqrt StoD Str
-Str2Unicode StrTran StrZero Stuff SubStr SymbolInfo
-Table TBApplyKey TBColumn TBColumnNew TBHandleEvent TBrowse TBrowseDb TBrowseNew TBtoMousePos
-Thread ThreadID ThreadInfo ThreadObject ThreadWait ThreadWaitAll Time Tone Transform
-TranslateSysColor Trim Type
-U2bin UIThreadID Unicode2Str Updated Upper Used USqlStatement UTF82Char UUE2Bin UuidCreate UuidFromChar UuidToChar
-Val Valtype Var2Bin Var2Char Var2Json Var2LChar Var2Xml VCrt Version
-W2bin WebHandler WebSocketClient WebSocketHandler Word WorkSpaceEval WorkSpaceList
-Xbp3State XbpActiveXControl XbpApplication XbpBitmap XbpBrowse XbpCellGroup XbpCheckBox XbpClipBoard
-XbpColumn XbpCombobox XbpCrt XbpDatePicker XbpDialog XbpFileDev XbpFileDialog XbpFont XbpFontDialog
-XbpFromPoint XbpHelp XbpHelpLabel
-XbpHTMLElement XbpHTMLStyle XbpHTMLViewer XbpHTMLWindow XbpIcon XbpIWindow XbpListBox
-XbpMenu XbpMenuBar XbpMetaFile XbpMLE XbpMonthView XbpMultiCellGroup
-XbpPartHandler XbpPresSpace XbpPrintDialog XbpPrinter XbpPushButton XbpQuickBrowse XbpRadioButton
-XbpRtf XbpScrollBar XbpSetting XbpSLE XbpSpinButton XbpSpiltBar XbpStatic XbpStatusBar XbpStatusBarPanel
-XbpSysWindow XbpTabPage XbpToolbar XbpToolbarButton XbpToolbarButtonMenuItem
-XbpTreeView XbpTreeViewItem XbpWindow Xml2Var XmlNode XmlSimpleParser XppApplication
+AAdd
+Abs
+Abstract
+AChoice
+AClone
+ACopy
+ActiveXObject
+ADel
+ADir
+AEval
+AFields
+AFill
+AIns
+Alert
+Alias
+Alltrim
+AltD
+AppDesktop
+AppEvent
+AppKeyState
+AppName
+AppType
+ARemove
+Array
+Asc
+AScan
+ASize
+ASort
+At
+ATail
+AutomationObject
+AutomationRequestLicenseKey
+AutomationTranslateColor
+BAnd
+Base642Bin
+Bin2Base64
+Bin2f
+Bin2i
+Bin2l
+Bin2QP
+Bin2u
+Bin2UEE
+Bin2Var
+Bin2w
+BinaryName
+Bof
+BOr
+Break
+Browse
+BXOr
+CDow
+CenterControl
+CertificateListStores
+CertificateSelect
+Char2Hash
+Char2UTF8
+Char2Var
+Chr
+ClassCreate
+ClassDestroy
+ClassObject
+CMonth
+Coalesce
+CoalesceEmpty
+Col
+ColorSelect
+ComEvalCollection
+ComLastError
+ComLastMessage
+ConfirmBox
+ConvToAnsiCP
+ConvToOemCP
+CreateDir
+CreateObject
+CtoD
+CurDir
+CurDrive
+DacPagedDataStore
+DacSession
+DacSqlStatement
+DataObject
+DataRef
+Date
+Day
+DbAppend
+DbCargo
+DbClearFilter
+DbClearIndex
+DbClearRelation
+DbClearScope
+DbClientList
+DbCloseAll
+DbCloseArea
+DbCommit
+DbCommitAll
+DbContinue
+DbCopyExtStruct
+DbCopyStruct
+DbCreate
+DbCreateExtStruct
+DbCreateFrom
+DbCreateIndex
+DbDelete
+DbDeregisterClient
+DbDescend
+DbDestroy
+DbeBuild
+DbEdit
+DbeInfo
+DbeList
+DbeLoad
+DbeSetDefault
+DbeUnload
+DbEval
+DbExport
+Dbf
+DbFilter
+DbGoBottom
+DbGoPosition
+DbGoto
+DbGoTop
+DbImport
+DbInfo
+DbJob
+DbJoin
+DbList
+DbLocate
+DbLocked
+DbPack
+DbPosition
+DbRecall
+DbRefresh
+DbRegisterClient
+DbReindex
+DbRelation
+DbRelease
+DbRequest
+DbResetNotifications
+DbResumeNotifications
+DbRList
+DbRLock
+DbRLockList
+DbROrdName
+DbRResumeSelect
+DbRRollback
+DbRSelect
+DbRSuspendSelect
+DbRUnlock
+DbScope
+DbSeek
+DbSelectArea
+DbSession
+DbSetDescend
+DbSetDriver
+DbSetFilter
+DbSetFound
+DbSetIndex
+DbSetNullValue
+DbSetOrder
+DbSetRelation
+DbSetScope
+DbSkip
+DbSkipper
+DbSort
+DbStruct
+DbSuspendNotifications
+DbTotal
+DbUnlock
+DbUnlockAll
+DbUpdate
+DbUseArea
+DbZap
+Deleted
+Descend
+DevOut
+DevOutPict
+DevPos
+Directory
+DiskSpace
+DispBegin
+DispBox
+DispCount
+DispEnd
+DispOut
+DispOutAt
+DllCall
+DllCallback
+DllExecuteCall
+DllInfo
+DllLoad
+DllPrepareCall
+DllUnLoad
+DosError
+DosErrorMessage
+DoW
+DragDataObject
+DtoC
+DtoJ
+DtoS
+Empty
+EnableClipRect
+Eof
+Error
+ErrorBlock
+ErrorLevel
+ErrorNew
+Eval
+EventLogWriteStr
+Exp
+F2Bin
+FAttr
+FClose
+FCount
+FCreate
+FErase
+FError
+FExists
+FieldBlock
+FieldGet
+FieldInfo
+FieldName
+FieldPos
+FieldPut
+FieldWBlock
+File
+FLock
+FOpen
+Found
+FRead
+FReadStr
+FRename
+FSeek
+FSize
+FWrite
+Get
+GetActive
+GetApplication
+GetApplyKey
+GetDoSetkey
+GetEnableEvents
+Getenv
+GetEventReader
+GetHandleEvent
+GetKillActive
+GetList
+GetListPos
+GetLogicalProcessorCount
+GetNew
+GetObject
+GetParentForm
+GetPointerPos
+GetPostValidate
+GetPreValidate
+GetReader
+GetToMousePos
+GetUniqueFileName
+GraArc
+GraBackground
+GraBitBlt
+GraBox
+GraCaptionStr
+GraEdge
+GraError
+GraFocusRect
+GraGetRGBIntensity
+GraGradient
+GraIsRGBColor
+GraLine
+GraMakeRGBColor
+GraMarker
+GraPathBegin
+GraPathClip
+GraPathEnd
+GraPathFill
+GraPathOutline
+GraPos
+GraQueryTextBox
+GraRotate
+GraScale
+GraSegClose
+GraSegDestroy
+GraSegDraw
+GraSegDrawMode
+GraSegFind
+GraSegLoad
+GraSegOpen
+GraSegPickResolution
+GraSegPriority
+GraSegSave
+GraSetAttrArea
+GraSetAttrLine
+GraSetAttrMarker
+GraSetAttrString
+GraSetColor
+GraSetFont
+GraSpline
+GraStringAt
+GraTranslate
+HardCR
+Header
+HttpClient
+HttpEndPoint
+HttpMessage
+HttpMessagePart
+HttpRequestMessage
+HttpResponseMessage
+I2bin
+IIf
+IndexExt
+IndexKey
+IndexOrd
+Inkey
+Int
+IsAlpha
+IsCertificateAvailable
+IsColor
+IsDebug
+IsDigit
+IsFieldVar
+IsFunction
+IsLower
+IsMemberVar
+IsMemvar
+IsMethod
+IsNull
+IsPenEnabled
+IsPrinter
+IsThemeActive
+IsTouchEnabled
+IsUnicode
+IsUpper
+Json2Var
+JsonDecode
+JsonEncode
+JtoD
+L2bin
+LayoutManager
+LastAppEvent
+LastKey
+LastRec
+LChar2Var
+Left
+Len
+Like
+LoadResource
+LocaleConfigure
+Log
+Lower
+LTrim
+LUpdate
+Max
+MaxCol
+MaxRow
+MemoEdit
+MemoLine
+MemoRead
+Memory
+MemoTran
+MemoWrit
+MemvarBlock
+MicroSeconds
+MilliSeconds
+Min
+MlCount
+MlCtoPos
+MlPos
+Mod
+Month
+MPostoLc
+MsgBox
+NetErr
+Netname
+NextAppEvent
+NextKey
+NoSnow
+NullIf
+NumButtons
+OrdBagExt
+OrdBagName
+OrdCondSet
+OrdCount
+OrdCreate
+OrdDestroy
+OrdFor
+OrdInfo
+OrdIsCandidate
+OrdIsCustom
+OrdIsDescend
+OrdIsPrimary
+OrdIsSubIndex
+OrdIsUnique
+OrdKey
+OrdKeyAdd
+OrdKeyNo
+OrdKeyRemove
+OrdList
+OrdListAdd
+OrdListClear
+OrdListRebuild
+OrdName
+OrdNumber
+OrdSetCustom
+OrdSetFocus
+OrdWildSeek
+Os
+OutErr
+OutStd
+PadC
+PadL
+PadR
+PCol
+PCount
+PostAppEvent
+ProcLine
+ProcName
+PRow
+PValue
+QOut
+QQOut
+QP2Bin
+RandomInt
+RandomKey
+RAt
+ReadExit
+ReadInsert
+ReadKey
+ReadKill
+ReadModal
+ReadUpdated
+ReadVar
+RecCount
+RecNo
+RecSize
+RemoveDir
+Replicate
+RestScreen
+Right
+RLock
+Round
+Row
+RTrim
+RunRexx
+RunShell
+SaveScreen
+Scroll
+Seconds
+Select
+ServiceApp
+ServiceController
+Set
+SetAppEvent
+SetAppFocus
+SetAppWindow
+SetBlink
+SetCancel
+SetClipRect
+SetCollation
+SetCollationTable
+SetColor
+SetCursor
+Setenv
+SetKey
+SetLexRule
+SetLocale
+SetLogicalProcessor
+SetMode
+SetMouse
+SetPos
+SetPrc
+SetTimerEvent
+ShellLinkCreate
+ShellLinkResolve
+Signal
+Sleep
+Soundex
+Space
+SqlStatement
+Sqrt
+StoD
+Str
+Str2Unicode
+StrTran
+StrZero
+Stuff
+SubStr
+SymbolInfo
+Table
+TBApplyKey
+TBColumn
+TBColumnNew
+TBHandleEvent
+TBrowse
+TBrowseDb
+TBrowseNew
+TBtoMousePos
+tdDEget
+tdGbox
+tdHelpLabel
+tdLaunchPad
+tdMsay
+tdMsg
+tdMultiTab
+tdPframe
+tdPshBtn
+tdRadChk
+tdSay
+tdSetColor
+tdSetFont
+tdStat
+tdStatBar
+tdSqlBrow
+tdSqlFieldBlock
+tdSqlFieldBlockTrim
+tdSqlFieldBlockAsDate
+tdSqlFieldBlockAsTime
+tdSqlFieldBlockAsSpcTime
+tdStrnum
+tdXdate
+tdXGet
+Thread
+ThreadID
+ThreadInfo
+ThreadObject
+ThreadWait
+ThreadWaitAll
+Time
+Tone
+Transform
+TranslateSysColor
+Trim
+Type
+U2bin
+UIThreadID
+Unicode2Str
+Updated
+Upper
+Used
+USqlStatement
+UTF82Char
+UUE2Bin
+UuidCreate
+UuidFromChar
+UuidToChar
+Val
+Valtype
+Var2Bin
+Var2Char
+Var2Json
+Var2LChar
+Var2Xml
+VCrt
+Version
+W2bin
+WebHandler
+WebSocketClient
+WebSocketHandler
+Word
+WorkSpaceEval
+WorkSpaceList
+Xbp3State
+XbpActiveXControl
+XbpApplication
+XbpBitmap
+XbpBrowse
+XbpCellGroup
+XbpCheckBox
+XbpClipBoard
+XbpColumn
+XbpCombobox
+XbpCrt
+XbpDatePicker
+XbpDialog
+XbpFileDev
+XbpFileDialog
+XbpFont
+XbpFontDialog
+XbpFromPoint
+XbpHelp
+XbpHelpLabel
+XbpHTMLElement
+XbpHTMLStyle
+XbpHTMLViewer
+XbpHTMLWindow
+XbpIcon
+XbpIWindow
+XbpListBox
+XbpMenu
+XbpMenuBar
+XbpMetaFile
+XbpMLE
+XbpMonthView
+XbpMultiCellGroup
+XbpPartHandler
+XbpPresSpace
+XbpPrintDialog
+XbpPrinter
+XbpPushButton
+XbpQuickBrowse
+XbpRadioButton
+XbpRtf
+XbpScrollBar
+XbpSetting
+XbpSLE
+XbpSpinButton
+XbpSpiltBar
+XbpStatic
+XbpStatusBar
+XbpStatusBarPanel
+XbpSysWindow
+XbpTabPage
+XbpToolbar
+XbpToolbarButton
+XbpToolbarButtonMenuItem
+XbpTreeView
+XbpTreeViewItem
+XbpWindow
+Xml2Var
+XmlNode
+XmlSimpleParser
+XppApplication
 Year
-/C2"Methods" STYLE_METHOD
+/C2"Methods"
+STYLE_METHOD
 addChild
-classDescribe className classObject
-create configure childFromName childList captureMouse currentPos currentSize calcClientRect calcFrameRect close
-destroy delChild disable destroy draw
-enable eval
-getHWND getModalState getFrameState getNoIvar getTitle goBottom goTop
-handleEvent hasInputFocus hide
-init initClass invalidateRect isEnabled isVisible init isDerivedFrom
-lockPS lockUpdate
+classDescribe
+className
+classObject
+create
+configure
+childFromName
+childList
+captureMouse
+currentPos
+currentSize
+calcClientRect
+calcFrameRect
+close
+destroy
+delChild
+disable
+destroy
+draw
+enable
+eval
+getHWND
+getModalState
+getFrameState
+getNoIvar
+getTitle
+goBottom
+goTop
+handleEvent
+hasInputFocus
+hide
+init
+initClass
+invalidateRect
+isEnabled
+isVisible
+init
+isDerivedFrom
+lockPS
+lockUpdate
 menuBar
-new noMethod notify notifyLoaded
+new
+noMethod
+notify
+notifyLoaded
 paint
 resize
-setModalState setNoIvar setPointer setPos setSize setCaption setColorBG setColorFG setFontCompoundName setPresParam show setFrameState setTitle setName setOwner setParent
-toBack toFront
+refresh
+setData
+setCell
+setFocus
+setModalState
+setNoIvar
+setPointer
+setPos
+setSize
+setCaption
+setColorBG
+setColorFG
+setFontCompoundName
+setPresParam
+show
+setFrameState
+setTitle
+setName
+setOwner
+setParent
+SkipEval
+toBack
+toFront
 unlockPS
 winDevice
 /C3"Commands" STYLE_COMMAND
-accept appbrowse appdisplay appedit append appfield average
-call cancel clear close commit continue copy count create
-delete dir display dllfunction
-eject erase extern external
-file find form flush
-gather go
-index input insert
+accept
+all
+appBrowse
+appDisplay
+appEdit
+append
+appField
+average
+blank
+call
+cancel
+clear
+close
+commit
+continue
+copy
+count
+create
+delete
+dir
+display
+dllfunction
+eject
+erase
+extern
+external
+file
+find
+form
+flush
+gather
+go
+icon
+index
+input
+insert
 join
+key
 keyboard
-label list locate
+label
+list
+locate
+memory
 menu
 note
 pack
 quit
-read recall reindex release rename replace report restore rollback run
-save scatter seek select set skip sort sql store sum
-total type
-unlock update use
+read
+recall
+reindex
+release
+rename
+replace
+report
+restore
+rollback
+run
+save
+scatter
+seek
+select
+set
+skip
+sort
+sql
+store
+structure
+sum
+tag
+text
+title
+total
+type
+typeahead
+unique
+unlock
+update
+use
 wait
 zap
 /C4"Keywords" STYLE_KEYWORD
-access all announce as assign assignment
-begin blank break
-case class
-declare deferred do
-else elseif end endcase endclass enddo endif endsequence endtext except exit extern external exported extended
-field final for freeze form from full function
+access
+all
+announce
+as
+assign
+assignment
+begin
+blank
+break
+case
+class
+declare
+deferred
+do
+else
+elseif
+end
+endcase
+endclass
+enddo
+endif
+endsequence
+endtext
+except
+exit
+extern
+external
+exported
+extended
+field
+final
+for
+freeze
+form
+from
+full
+function
 get
 hidden
-if in inner init inline intersect introduce is
+if
+in
+inner
+init
+inline
+intersect
+introduce
+is
 join
 key
-left local loop
-memvar method
-name next nil
-on otherwise outer override
-parameters private procedure protected public
-readonly recover return request right
-screen self sequence shared sharing static step structure sync
-text to transaction
-union using
+left
+local
+loop
+memvar
+method
+name
+next
+nil
+on
+otherwise
+outer
+override
+parameters
+private
+procedure
+protected
+public
+readonly
+recover
+return
+request
+right
+screen
+self
+sequence
+shared
+sharing
+static
+step
+structure
+sync
+text
+to
+transaction
+union
+using
 var
-while with
+while
+with
 /C5"Events" STYLE_EVENT
-** xbe_ xbeBRW_ xbeDBO_ xbeDP_ xbeHelp_ xbeHTML_ xbeK_ xbeLB_ xbeM_ xbeMENB_ xbeMLE_ xbeMV_
-** xbeP_ xbeRTF_ xbeSB_ xbeSBAR_ xbeSLE_ xbeSPB_ xbeSpin_ xbeTab_ xbeTBAR_ xbeTV_ xbeU_
+**
+xbe_
+xbeBRW_
+xbeDBO_
+xbeDP_
+xbeHelp_
+xbeHTML_
+xbeK_
+xbeLB_
+xbeM_
+xbeMENB_
+xbeMLE_
+xbeMV_
+**
+xbeP_
+xbeRTF_
+xbeSB_
+xbeSBAR_
+xbeSLE_
+xbeSPB_
+xbeSpin_
+xbeTab_
+xbeTBAR_
+xbeTV_
+xbeU_
 /C6"Statements" STYLE_STATEMENT
 #command
 #define
-#else #elseif
+#else
+#elseif
 #endif
 #error
-#if #ifdef #ifndef
+#if
+#ifdef
+#ifndef
 #include
 #pragma
 #stdout
