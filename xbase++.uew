@@ -1,6 +1,6 @@
 /L15"Xbase++" Nocase Line Comment = // Line Comment Alt = * Line Comment Valid Columns Alt = [1-9] Line Comment Preceding Chars Alt = [~!-~] Block Comment On = /* Block Comment Off = */ Block Comment On Alt = && String Chars = "' DisableMLS File Extensions = ARC CH PRG XPJ
 /TGBegin "Functions"
-/TGFindStr = "^[\t ]*(?:STATIC[\t ]+)?(FUNCTION|FUNC)[\t ]+([a-z_][0-9a-z_]*)"
+/TGFindStr = "^[\t ]*(?:STATIC[\t ]+)?(?:FUNCTION|FUNC)[\t ]+([a-z_][0-9a-z_]*)"
 /TGBegin "Parameters"
 /TGFindStr = "[\s;]*([^,]+)"
 /TGFindBStart = "FUNCTION[\t ]+[a-z_][0-9a-z_]*[\t (]*"
@@ -16,7 +16,7 @@
 /TGEnd
 /TGEnd
 /TGBegin "Classes"
-/TGFindStr = "^[\t ]*(?:(?:STATIC|FREEZE|FINAL)[\t ]+)?CLASS[\t ]+(?!METHOD)(?!VAR)([a-z_][0-9a-z_]*)"
+/TGFindStr = "^(?:(?:STATIC|FREEZE|FINAL)[\t ]+)?CLASS[\t ]+(?!METHOD|ASSIGN|ACCESS)(?!VAR)([a-z_][0-9a-z_]*)"
 /TGBegin "From"
 /TGFindStr = "[\s;]*([^,]+)"
 /TGFindBStart = "CLASS[\t ]+[a-z_][0-9a-z_]*(?:[\t ;]+FROM[\t ]+)?"
@@ -39,7 +39,7 @@
 /TGEnd
 /TGEnd
 /TGBegin "Methods"
-/TGFindStr = "^[\t ]*(?:CLASS[\t ]+)?METHOD[\t ]+([a-z_][0-9a-z_]*:[a-z_][0-9a-z_]*)"
+/TGFindStr = "^[\t ]*(?:SYNC[ \t]+)*(?:CLASS[ \t]+)*(?:ACCESS[ \t]+|ASSIGN[ \t]+|INLINE[ \t]+)*METHOD[\t ]+([a-z_][0-9a-z_:]*)\s*\("
 /TGBegin "Parameters"
 /TGFindStr = "[\s;]*([^,]+)"
 /TGFindBStart = "METHOD[\t ]+[a-z_][0-9a-z_]*:[a-z_][0-9a-z_]*[\t (]*"
