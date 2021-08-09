@@ -35,11 +35,17 @@ Year
 ZoomSprite3D 
 
 /C2"Data types"
-.b .f .l .s .w
+.a .b .c .d .f .i .l .q .s .u .w
+Ascii
 Byte
+Character
+Double
 Float
+Integer
 Long
+Quad
 String
+Unicode
 Word
 
 
