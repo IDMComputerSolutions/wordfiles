@@ -3,7 +3,8 @@
 /Function String = "%[PR ][RO][OU][GT][RI]*$"
 /Indent Strings = "ELSE" "THEN" "DO"
 /Unindent Strings = "END" "ENDIF" "ENDFOR" "ENSELECT" "ENDWHILE"
-
+/Open Fold Strings = "IF" "ELSE" "ROUTINE" 
+/Close Fold Strings = "ELSE" "ENDIF" "END" 
 /C1 "Statements"
 ABORT ATTACH ABOUT ALONG AWAY AXIS 
 BEGIN
