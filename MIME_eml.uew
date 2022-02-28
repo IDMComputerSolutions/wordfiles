@@ -1,6 +1,6 @@
 ﻿/L20"Email" Noquote EnableCFByIndent DisableMLS File Extensions = EML
 /Marker Characters = "<>()"
-/Delimiters = ! "	%&'()*+,./;=?@[\]^{|}~
+/Delimiters = ! "	%&':()*+,./;=?@[\]^{|}~
 /Function String = "%^[^(*^)^]"
 /C1"Keywords"
 ** X- x-
