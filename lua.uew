@@ -1,4 +1,4 @@
-/L20"Lua" Line Comment = -- Escape Char = \ Block Comment On = [[ Block Comment Off = ]] String Chars = "' File Extensions = LUA BIN
+/L20"Lua" Line Comment = -- Escape Char = \ Block Comment On = --[[ Block Comment Off = ]] String Chars = "' File Extensions = LUA BIN
 /TGBegin "Functions"
 /TGFindStr = "^[ \t]*function[ \t]+(\w+)[ \t]*\([^\)]*\)"
 /TGBegin "Parameters"
