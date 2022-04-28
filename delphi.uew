@@ -1,32 +1,12 @@
 /L20"Delphi" Nocase Line Comment = // Block Comment On = (* Block Comment Off = *) Block Comment On Alt = { Block Comment Off Alt = } String Chars = ' DisableMLS File Extensions = pas dpr
-/TGBegin "Constructors"
-/TGFindStr = "^constructor\s+([\w.]+)\s*(?:\([^\)]*\))?[^;]*;[\s\S]*?begin"
-/TGBegin "Parameters"
-/TGFindStr = "(\w+(?:[\t ]*,[\t ]+\w+)*)[\t ]*(:)[\t ]*(\w+)"
-/TGFindBStart = "\("
-/TGFindBEnd = "\)"
+/TGBegin "Constructor"
+/TGFindStr = "^constructor\s+([\w\.]+)\s*(?:\([^\)]*\))?[^;]*;[\s\S]*?begin"
 /TGEnd
-/TGBegin "Initializers"
-/TGFindStr = "(\w+)[\t ]*(:=)[\t ]*(\w+);"
-/TGFindBStart = "begin"
-/TGFindBEnd = "end"
-/TGEnd
-/TGEnd
-/TGBegin "Destructors"
-/TGFindStr = "^destructor\s+([\w.]+)\s*(?:\([^\)]*\))?[^;]*;[\s\S]*?begin"
+/TGBegin "Destructor"
+/TGFindStr = "^destructor\s+([\w\.]+)\s*(?:\([^\)]*\))?[^;]*;[\s\S]*?begin"
 /TGEnd
 /TGBegin "Functions / Procedures"
-/TGFindStr = "^(?:procedure|function)\s+([\w.]+)\s*(?:\([^\)]*\))?(?:[\t ]*(:)[\t ]*(\w+))?[^;]*;[\s\S]*?(?:begin|stdcall)"
-/TGBegin "Parameters"
-/TGFindStr = "((?:const[\t ]+)?\w+(?:[\t ]*,[\t ]*(?:const[\t ]+)?\w+)*)[\t ]*(:)[\t ]*(\w+)(?:[\t ]*(=)[\t ]*([^;]+)(?:;|$))?"
-/TGFindBStart = "^(?:procedure|function)\s+[\w.]+\s*[(:;]"
-/TGFindBEnd = "^begin|\)"
-/TGEnd
-/TGBegin "Variables"
-/TGFindStr = "(\w+(?:[\t ]*,[\t ]+\w+)*)[\t ]*(:)[\t ]*(\w+);"
-/TGFindBStart = "^(?:procedure|function)\s+[\w.]+\s*(?:\([^\)]*\))?(?:[\s\S](?!\b(?:begin|var|stdcall)))+"
-/TGFindBEnd = "begin|stdcall"
-/TGEnd
+/TGFindStr = "^[ \t]*(?:procedure|function)\s+([\w\.]+)\s*(?:\([^\)]*\))?(?=(?:[\s\S](?!implementation))+?begin)"
 /TGEnd
 /Delimiters = # $	&'()*+,-./:;<=>@[]^{}
 /Regexp Type = Perl
