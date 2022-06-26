@@ -1,15 +1,30 @@
-/L20"COBOL" COBOL_LANG Line Comment Num = 1* Line Comment Valid Columns = [0-1] Nocase File Extensions = COB CBL CPY File Names = COBLIB COBLIBRP
-/TGBegin "Code"
-/TGFindStr = "^[ \t\d]*(.* Division).*"
-/TGFindStr = "^[ \t\d]*(.* Section).*"
+/L20"COBOL" COBOL_LANG Nocase Line Comment = * Line Comment Valid Columns = [7] String Chars = "' DisableMLS File Extensions = CBL COB COBOL CPY
+/Delimiters = " $'()*+,./:;<=>
+/TGBegin "Author"
+/TGFindStr = "^(?:[0-9]{6} {1,4}| {7,10})author\. +([a-z].+)\."
+/TGEnd
+/TGBegin "Program"
+/TGFindStr = "^(?:[0-9]{6} {1,4}| {7,10})program-id\. +([a-z].+)\."
+/TGEnd
+/TGBegin "Divisions"
+/TGFindStr = "^(?:[0-9]{6} {1,4}| {7,10})(data|environment|identification|procedure) division\."
+/TGBegin "Sections"
+/TGFindStr = "^(?:[0-9]{6} {1,4}| {7,10})([0-9a-z\-]+) section\."
+/TGFindBStart = "vision\."
+/TGFindBEnd = "division\."
+/TGEnd
+/TGEnd
+/TGBegin "Procedures"
+/TGFindStr = "^(?:[0-9]{6} {1,4}| {7,10})(?!(?:end-if|end-perform|file-control)\.)([0-9a-z\-]+)\.(?: *[0-9]*)?$"
 /TGEnd
 /Regexp Type = Perl
 /Open Brace Strings = "("
 /Close Brace Strings = ")"
-/Open Fold Strings = "IF" "ELSE" "EVALUATE"
-/Close Fold Strings = "ELSE" "END-IF" "END-EVALUATE"
-/Delimiters = ~!@$%^&*()_+=|\/{}[]:;"'<> ,.?/
-/C1
+/Open Fold Strings = "division." "section." "if" "else" "evaluate" "perform"
+/Close Fold Strings = "division." "section." "else" "end-if" "end-evaluate" "end-perform"
+/Ignore Fold Strings = "thru" "until"
+/Word Select Include = -
+/C1"Functions"
 accept access acquire actual add address advancing after all allowing alphabet alphabetic alphabetic-lower alphabetic-upper alphanumeric
 alphanumeric-edited also alter alternate and any apply are area areas as ascending assign at attribute author auto auto-hyphen-skip auto-skip automatic
 autoterminate
@@ -60,22 +75,39 @@ user using
 value values variable varying
 wait when-compiled window with words working-storage wrap write write-only write-verify writerszero
 zero zero-fill zeros zeroes
-/C2
+/C2"Keywords"
 call
 exit else end-if end-evaluate evaluate
 if
 perform
 then
 when
-/C3
+/C3"01 15 77 78 88 z"
 01
 15
 77 78
 88
 z
-/C4
+/C4"02 03 04 05 x"
 02 03 04 05
 x
-/C5
+/C5"copy d debug"
 copy
 d ddebug
+/C6"Operators"
+*
++
+-
+// /
+<
+>
+=
+/C7"Brackets"
+(
+)
+/C8"Delimiters"
+$
+,
+.
+:
+;
