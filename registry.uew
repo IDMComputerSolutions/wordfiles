@@ -1,0 +1,13 @@
+/L1"Windows Registry Keys" Line Comment = ; DisableMLS File Extensions = REG
+/Open Fold Strings = "["
+/Close Fold Strings = "["
+/Marker Characters = "[]"
+/C1"Path"
+[]
+/C2"Value types"
+hex
+dword
+/C3"Misc"
+=
+(
+)
