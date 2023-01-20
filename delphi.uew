@@ -6,7 +6,7 @@
 /TGFindStr = "^destructor\s+([\w\.]+)\s*(?:\([^\)]*\))?[^;]*;[\s\S]*?begin"
 /TGEnd
 /TGBegin "Functions / Procedures"
-/TGFindStr = "^(?:procedure|function)\s+([\w\.]+)\s*(?:\([^\)]*\))?[^;]*;[\s\S]*?begin"
+/TGFindStr = "^[ \t]*(?:procedure|function)\s+([\w\.]+)\s*(?:\([^\)]*\))?(?=(?:[\s\S](?!implementation))+?begin)"
 /TGEnd
 /Delimiters = # $	&'()*+,-./:;<=>@[]^{}
 /Regexp Type = Perl

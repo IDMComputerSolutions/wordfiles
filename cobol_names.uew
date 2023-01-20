@@ -1,4 +1,4 @@
-/L20"COBOL" COBOL_LANG Nocase Line Comment = * Line Comment Valid Columns = [7] String Chars = "' DisableMLS File Extensions = CBL COB COBOL CPY
+/L19"COBOL" COBOL_LANG Nocase Line Comment = * Line Comment Valid Columns = [7] String Chars = "' DisableMLS File Names = COBLIB COBLIBRP
 /Delimiters = " $'()*+,./:;<=>
 /TGBegin "Author"
 /TGFindStr = "^(?:[0-9]{6} {1,4}| {7,10})author\. +([a-z].+)\."

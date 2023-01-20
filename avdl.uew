@@ -1,0 +1,36 @@
+﻿/L4"Avro IDL" AVDL_LANG Line Comment = // Block Comment On = /* Block Comment Off = */ Escape Char = \ File Extensions = AVDL
+/Regexp Type = Perl
+/Delimiters = ! "	%&'()*+,-./:;<=>?@[\]^{|}~
+/Member String = "([a-z0-9_:.]+)[ \t*&]+\$S[ \t]*[(=);,]"
+/Variable String = "([a-z0-9_:.]+)[ \t*&]+\$S[ \t]*[(=);,]"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/Open Brace Strings =  "{" "(" "[" "<"
+/Close Brace Strings = "}" ")" "]" ">"
+/Open Fold Strings = "{"
+/Close Fold Strings = "}"
+/C1"Keywords" 
+@aliases @java-class @java-key-class @namespace @order @version
+array
+boolean bytes
+date decimal double
+enum error
+false fixed float
+idl import int
+local_timestamp_ms long
+map
+null
+protocol
+record
+schema string
+time_ms timestamp_ms true
+union
+void
+/C3"Operators" 
+<
+=
+>
+[
+]
+{
+}

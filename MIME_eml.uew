@@ -1,0 +1,58 @@
+﻿/L20"Email" Noquote EnableCFByIndent DisableMLS File Extensions = EML
+/Marker Characters = "<>()"
+/Delimiters = ! "	%&':()*+,./;=?@[\]^{|}~
+/Function String = "%^[^(*^)^]"
+/C1"Keywords"
+** X- x-
+ARC-Authentication-Results ARC-Message-Signature ARC-Seal Abuse-Reports-To Accept-Language Also-Control
+Alternate-Recipient Apparently-To Approved Archive Archived-At Article-Names Article-Updates
+Authentication-Results Authentication-Results-Original Auto-Submitted Autoforwarded Autosubmitted
+Bcc
+Cancel-Key Cancel-Lock Cc Comments Content-Alias Content-Alternative Content-Base Content-Class
+Content-Conversion Content-Description Content-Disposition Content-Duration Content-ID Content-Identifier
+Content-Language Content-Length Content-Location Content-MD5 Content-Return Content-SGML-Entity
+Content-Transfer-Encoding Content-Type Content-features Control Conversion Conversion-With-Loss
+DKIM-Filter DKIM-Signature DL-Expansion-History Date Date-Received Deferred-Delivery Delivered-To
+Delivery-Date Discarded-X400-IPMS-Extensions Discarded-X400-MTS-Extensions Disclose-Recipients
+Disposition-Notification-Options Disposition-Notification-To Distribution DomainKey-Signature
+DomainKey-Status Downgraded-Bcc Downgraded-Cc Downgraded-Disposition-Notification-To
+Downgraded-Final-Recipient Downgraded-From Downgraded-In-Reply-To Downgraded-Mail-From
+Downgraded-Message-Id Downgraded-Original-Recipient Downgraded-Rcpt-To Downgraded-References
+Downgraded-Reply-To Downgraded-Resent-Bcc Downgraded-Resent-Cc Downgraded-Resent-From
+Downgraded-Resent-Message-Id Downgraded-Resent-Reply-To Downgraded-Resent-Sender Downgraded-Resent-To
+Downgraded-Return-Path Downgraded-Sender Downgraded-To
+EDIINT-Features Eesst-Version Encoding Encrypted Envelope-To Errors-To Expires Expiry-Date
+Fax Fcc Feedback-ID Followup-To For-Approval For-Comment For-Handling Form-Sub From
+Generate-Delivery-Report
+Importance In-Reply-To Incomplete-Copy Injection-Date Injection-Info IronPort-PHdr IronPort-SDR
+Jabber-ID
+Keywords
+Language Latest-Delivery-Time Lines List-Archive List-Digest List-Help List-ID List-Owner List-Post
+List-Software List-Subscribe List-Unsubscribe List-Unsubscribe-Post
+MIME-Version MMHS-Acp127-Message-Identifier MMHS-Authorizing-Users MMHS-Codress-Message-Indicator
+MMHS-Copy-Precedence MMHS-Exempted-Address MMHS-Extended-Authorisation-Info MMHS-Handling-Instructions
+MMHS-Message-Instructions MMHS-Message-Type MMHS-Originator-PLAD MMHS-Originator-Reference
+MMHS-Other-Recipients-Indicator-CC MMHS-Other-Recipients-Indicator-To MMHS-Primary-Precedence
+MMHS-Subject-Indicator-Codes MT-Priority Mail-Copies-To Mail-Followup-To Mail-Reply-Requested-By
+Mail-Reply-To Mail-System-Version Mailer Message-Context Message-ID Message-Type
+NNTP-Posting-Date NNTP-Posting-Host Newsgroups Notice-Requested-Upon-Delivery-To
+Obsoletes Organisation Organization Original-Encoded-Information-Types Original-From Original-Message-ID
+Original-Recipient Original-Sender Original-Subject Originating-Client Originator Originator-Info
+Originator-Return-Address
+PICS-Label Path Phone Posted-To Posting-Version Precedence Prevent-NonDelivery-Report Priority Privicon
+Read-Receipt-To Received Received-SPF References Registered-Mail-Reply-Requested-By Relay-Version Replaces
+Reply-By Reply-To Reply-To2 Require-Recipient-Valid-Since Resent-Bcc Resent-Cc Resent-Date Resent-From
+Resent-Message-ID Resent-Reply-To Resent-Sender Resent-To Return-Path Return-Receipt-Requested
+Return-Receipt-To
+SIO-Label SIO-Label-History See-Also Sender Sensitivity Solicitation Speech-Act Status Subject Summary
+Supersedes
+TLS-Report-Domain TLS-Report-Submitter TLS-Required Telefax Thread-Index Thread-Topic To Translated-By
+Translation-Of
+User-Agent
+VBR-Info
+X400-Content-Identifier X400-Content-Return X400-Content-Type X400-MTS-Identifier X400-Originator
+X400-Received X400-Recipients X400-Trace Xref
+/C2"Tags"
+()
+<>
+

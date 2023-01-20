@@ -1,4 +1,4 @@
-/L20"Lua" Line Comment = -- Escape Char = \ Block Comment On = [[ Block Comment Off = ]] String Chars = "' File Extensions = LUA BIN
+/L20"Lua" Line Comment = -- Escape Char = \ Block Comment On = --[[ Block Comment Off = ]] String Chars = "' File Extensions = LUA BIN
 /TGBegin "Functions"
 /TGFindStr = "^[ \t]*function[ \t]+(\w+)[ \t]*\([^\)]*\)"
 /TGBegin "Parameters"
@@ -9,10 +9,10 @@
 /TGEnd
 /Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
 /Regexp Type = Perl
-/Indent Strings = "{" "function" "then" "while" "for" "else"
-/Unindent Strings = "}" "end" "else"
-/Open Fold Strings = "for" "while" "function" "if" "repeat" "{"
-/Close Fold Strings = "end" "until" "}"
+/Indent Strings = "{" "function" "then" "while" "repeat" "elseif" "else" "do"
+/Unindent Strings = "}" "end" "elseif" "else"
+/Open Fold Strings = "function" "if" "repeat" "elseif" "else" "do" "{"
+/Close Fold Strings = "elseif" "else" "end" "until" "}"
 /C1"Keywords"
 and
 break

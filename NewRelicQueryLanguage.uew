@@ -1,0 +1,57 @@
+/L13"New Relic" SQL_LANG Nocase String Chars = `' Escape Char = \ File Extensions = NR
+/Regexp Type = Perl
+/Delimiters = ! "	#&'()*+,-.//:;<=>@|
+/Open Brace Strings =  "{" "(" "["
+/Close Brace Strings = "}" ")" "]"
+/Open Fold Strings = "{"
+/Close Fold Strings = "}"
+/C1"Functions"
+abs accountId aggregationendtime apdex average
+boolean bucketPercentile buckets
+capture cardinality ceil clamp_max clamp_min count
+derivative dimensions
+earliest eventType exp
+filter floor funnel
+getField
+histogram
+in
+keyset
+latest latestrate ln log log2 log10
+max median min minuteOf mod
+numeric
+percentage percentile pow predictLinear
+rate round
+sqrt stddev stdvar sum
+uniqueCount uniques
+/C2"Keywords"
+and as
+by
+cases compare
+event extrapolate
+facet from
+is
+like limit
+metric_format
+not null
+offset optionals or order
+select show since slide
+timeseries timezone types
+until
+where with
+/C3"Time Units"
+ago
+day days
+hour hours
+minute minutes month months
+second seconds
+week weeks
+year years
+/C4"Operators"
+!
+%
+*
++
+-
+<
+=
+>

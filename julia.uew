@@ -1,0 +1,88 @@
+/L1"Julia" Line Comment = # Escape Char = \ String Chars = "' File Extensions = jl
+/TGBegin "Functions"
+/TGFindStr = "\bfunction\s+(\w+)\s*\("
+/TGBegin "Parameters"
+/TGFindStr = "[ \t\n]*([^,]+)"
+/TGFindBStart = "\("
+/TGFindBEnd = "\)"
+/TGEnd
+/Regexp Type = Perl
+/Delimiters = ! "	%&'()*+,-./:;<=>?@[\]^{|}~
+/Member String = "([a-z0-9_:.]+)[ \t*&]+\$S[ \t]*[(=);,]"
+/Variable String = "([a-z0-9_:.]+)[ \t*&]+\$S[ \t]*[(=);,]"
+/Indent Strings = "{"
+/Unindent Strings = "}"
+/Open Brace Strings =  "{" "(" "[" "<"
+/Close Brace Strings = "}" ")" "]" ">"
+/Open Fold Strings = "{"
+/Close Fold Strings = "}"
+/C1"Keywords" STYLE_KEYWORD
+abstract
+begin break
+catch const continue
+do
+else elsif end
+finally for function
+global
+if import in isa
+let local
+module mutable
+primitive
+return
+struct
+try type
+where while
+/C3"Values"
+false
+nothing
+pi
+stdout
+true
+undef using
+/C4"Macros"
+@ **
+/C5"Types"
+A AbstractArray AbstractChar AbstractFloat AbstractMatrix AbstractString Any Array
+B Base BigFloat BigInt BitVector Bool BoundsError Broadcast Broadcasted
+Char Complex
+Date DataType DestStyle DiagPoint Dict Dims DomainError
+Eltype Exception
+Float16 Float32 Float64 Foo Function
+HasPlain
+Incomplete IndexCartesian IndexLinear IndexStyle Int Int8 Int32 Int64 Int128 Integer IO IOContext Iterators
+Lazy
+Matrix MyCustomException MyUndefVarError MyArrayType MIME MyStyle MyType 
+N NamedTuple NoFields NoFieldsParam NoPad NTuple Number
+OrderedPair OurRational
+Polynomial Point Pointy Polar Ptr
+Rational Real Replicate Reverse
+S SelReferential Signed SparseArray Squares SquaresVector SummedArray Symbol
+T T1 T2 Tuple Tuple2 Type TypeParamExample
+UInt UInt8 UInt16 UInt32 UInt64 UInt128 UndefVarError Union Unsigned
+Val Vararg Vector
+WrapType
+X
+b
+float64
+promote_type
+new
+/C6"Operators"
+!
+%
+&
+*
++
+-
+.
+// /
+:
+<
+=
+>
+?
+\
+^
+|
+÷
+⊻
+⊻

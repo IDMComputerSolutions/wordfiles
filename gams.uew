@@ -1,4 +1,4 @@
-/L20"General Algebraic Modeling System" Nocase FORTRAN_LANG Block Comment On = $ontext Block Comment Off = $offtext Block Comment On Alt = { Block Comment Off Alt = } File Extensions = GMS BAKGMS DAT
+/L20"General Algebraic Modeling System" Nocase Block Comment On = $ontext Block Comment Off = $offtext Block Comment On Alt = { Block Comment Off Alt = }  Line Comment = * Line Comment Valid Columns = [1] File Extensions = GMS BAKGMS DAT
 /Delimiters = ~!@%^&*()-+=|\/{}[]:;"'<> ,	.?
 /Function String = "%[a-zA-Z]*)"
 /C1"Reserved Words"
