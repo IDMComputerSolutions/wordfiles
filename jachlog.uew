@@ -1,0 +1,75 @@
+/L3"Jach Log" Nocase String Chars = '" Escape Char = \ EnableMLS File Extensions = log
+/C1"Level-emergency"
+emer
+/C2"Level-alert"
+aler
+/C3"Level-critical"
+crit
+/C4"Level-error"
+err
+/C5"Level-warning"
+warn
+/C6"Level-notice"
+noti
+/C7"Level-info"
+info
+/C8"Level-debug"
+dbg debug
+/C9"Alerts-Red"
+** abort agotad alert boot critic den disabl disconnect error fail fall fracas invalid panic reboot reinici reset
+bad busy
+cannot critical
+emergencia emergency 
+fatal fuera
+not
+offline
+timeout
+unable unavailable
+/C10"Warnings-Orange"
+** advi chang exit fix miss noti replac retr skip stop
+** updat warn
+abajo
+caido
+desconectado detenido disconnect disconnecting down
+stopped
+/C11"Success-Green"
+** iniciad pass
+** transferid transmitid 
+actualizado agregado added aplicado applied
+borrado
+checked clear cleared completa completado complete completed completo confirmed connected copied created
+decrypted delivered done
+ejecutado eliminado enabled encrypted escrito establecido established executed exito exitoso
+finished
+generated
+iniciado inicio inicializado initialised initialized initiated instalado installed
+loaded
+moved movido
+ok online
+populated procesado processed
+received recibido
+satisfactorio started succeeded success successful
+terminado transferido transferred transmitido transmitted
+up upgraded
+validate validated verificada verificado verified
+written
+/C12"Registry-Maroon
+registro registry
+/C13"Actions-Blue"
+** begin call clean comput detect enter get propogat pull push
+** read replay run scan select set start us
+actualizando actualizar add adding agregar agregando aplicando aplicar applying
+cargando cargar check checking completing connect connecting copy copying creando crear create creating
+decrypt decrypting deliver delivering deteniendo detener
+ejecutando ejecutar encriptar encriptando encrypt encrypting enumerando enumerating enviando enviar escribiendo escribir execute executing
+gather gathering generate generating
+info iniciando iniciar initiate initiating
+load loading
+move mover moviendo moving
+populate populating probando probar procesando procesar process processing progresando progreso progress progressing put
+recibiendo recibir receive receiving
+stop stopping
+testing transmitiendo transfer transferring transmit transmitting
+upgrade upgrading
+validando validar validating verificando verificar verify verifying
+write writing
